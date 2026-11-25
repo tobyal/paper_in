@@ -98,3 +98,13 @@ python3 scripts/bootstrap_sources.py
 ## 来源与许可
 
 上游代码、适配补丁及权重分别遵循其原许可，详见 [THIRD_PARTY.md](THIRD_PARTY.md)。工业结果没有被宣称为人工标注真值。
+
+## M0：工业先验标注平台
+
+新增独立的服务器本地 Vue / Konva / FastAPI 工作台，覆盖场景坐标与区域、对象清单、多视角 SAM 修正、双语描述、关系定义、独立评价与版本导出。仅继承原始 RGB、COLMAP、原始划分、基础高斯几何和通用模型权重；语义与空间先验重新标注。原 Baseline 0 / R1 记录保持原状。
+
+- [启动与访问](m0/README.md) · [实际验收与限制](m0/docs/IMPLEMENTATION_REPORT.md)
+- [数据格式](m0/docs/DATA_FORMAT.md) · [M1–M5 接口](m0/docs/M1_M5_INTERFACE.md)
+- [交付时实际数据状态](m0/docs/DATA_STATUS_AT_DELIVERY.md)：1 个真实对象候选、2 个训练视角掩膜和 1 个留出视角掩膜，均待人工复核；正式 M0 尚未冻结。
+
+源码和文档纳入 Git；原图、标注数据、SQLite、模型、运行日志及工业场景工作台截图留在研究服务器或本地工作区。

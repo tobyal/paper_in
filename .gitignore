@@ -31,3 +31,7 @@
 *.pem
 *.key
 *_ed25519*
+
+# M0 annotation data and local transaction stores remain in the research workspace.
+/industrial_scene_prior/
+*.sqlite*

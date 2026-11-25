@@ -1,0 +1,5 @@
+# Install in envs/m0 created with the existing relags Python and --system-site-packages.
+# SAM / torch / numpy / Pillow / plyfile are inherited without modifying Baseline environments.
+fastapi==0.115.6
+uvicorn==0.34.0
+httpx==0.28.1

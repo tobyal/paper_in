@@ -29,7 +29,7 @@ export class Workbench {
   this.proxy=new THREE.Object3D();this.scene.add(this.proxy);
   this.gizmo=new TransformControls(this.views[0].camera,this.views[0].el);this.gizmo.setSize(.85);this.gizmo.setSpace('local');this.gizmoHelper=this.gizmo.getHelper();this.scene.add(this.gizmoHelper);
   this.gizmo.addEventListener('change',()=>this.invalidate());
-  this.gizmo.addEventListener('dragging-changed',e=>{this.manipulating=e.value;this.views[0].controls.enabled=!e.value;if(!e.value)this.suppressPickUntil=performance.now()+150;});
+  this.gizmo.addEventListener('dragging-changed',e=>{this.manipulating=e.value;this.views[0].controls.enabled=!e.value;if(e.value)this.adoptPresentedView();else this.suppressPickUntil=performance.now()+150;});
   this.gizmo.addEventListener('mouseDown',()=>{if(this.selected){this.undoStack.push(JSON.parse(JSON.stringify(this.selected)));if(this.undoStack.length>30)this.undoStack.shift();}});
   this.gizmo.addEventListener('objectChange',()=>{if(!this.manipulating)return;this.proxy.scale.set(Math.max(.005,Math.abs(this.proxy.scale.x)),Math.max(.005,Math.abs(this.proxy.scale.y)),Math.max(.005,Math.abs(this.proxy.scale.z)));this.callbacks.box({center:this.proxy.position.toArray(),size:this.proxy.scale.toArray(),quaternion:this.proxy.quaternion.clone().normalize().toArray()},false);});
   this.gizmo.addEventListener('mouseUp',()=>{if(this.selected)this.callbacks.box(this.selected,true);});
@@ -79,7 +79,13 @@ export class Workbench {
  invalidate(){this.dirty=true;}
  render(){
   if(!this.sceneBox)return;let root=this.root.getBoundingClientRect();this.renderer.setScissorTest(true);
-  this.views.forEach((v,i)=>{let r=v.el.getBoundingClientRect();if(!r.width||!r.height)return;let x=r.left-root.left,y=root.bottom-r.bottom;this.renderer.setViewport(x,y,r.width,r.height);this.renderer.setScissor(x,y,r.width,r.height);this.renderer.render(this.scene,v.camera);if(i)this.drawHandles(v);});
+  const objectMode=this.mode==='object',ready=this.presentedContext===this.viewKey&&!!this.presentedCamera;
+  // The picking geometry is never drawn in the object editor, including while moving or on errors.
+  if(this.points)this.points.visible=!objectMode;
+  this.boxes.visible=!objectMode||ready;if(this.axes)this.axes.visible=!objectMode||ready;
+  this.gizmo.enabled=objectMode&&ready;this.gizmoHelper.visible=objectMode&&ready&&!!this.selected;
+  this.gizmo.camera=objectMode&&ready?this.presentedCamera:this.views[0].camera;
+  this.views.forEach((v,i)=>{let r=v.el.getBoundingClientRect();if(!r.width||!r.height)return;let x=r.left-root.left,y=root.bottom-r.bottom;this.renderer.setViewport(x,y,r.width,r.height);this.renderer.setScissor(x,y,r.width,r.height);this.renderer.render(this.scene,objectMode&&i===0&&ready?this.presentedCamera:v.camera);if(i)this.drawHandles(v);});
  }
  screen(v,p){let r=v.el.getBoundingClientRect(),q=new THREE.Vector3(...p).project(v.camera);return [(q.x+1)*r.width/2,(1-q.y)*r.height/2];}
  unproject(v,x,y){let r=v.el.getBoundingClientRect();return new THREE.Vector3((x-r.left)/r.width*2-1,1-(y-r.top)/r.height*2,0).unproject(v.camera).toArray();}
@@ -106,8 +112,10 @@ export class Workbench {
  setTool(mode){this.gizmo.setMode(mode);this.invalidate();}
  undo(){let b=this.undoStack.pop();if(b)this.callbacks.box(b,true);}
  pick(e,v){
-  if(!this.points)return;const r=v.el.getBoundingClientRect(),mouse=new THREE.Vector2((e.clientX-r.left)/r.width*2-1,1-(e.clientY-r.top)/r.height*2),ray=new THREE.Raycaster();ray.setFromCamera(mouse,v.camera);
-  ray.params.Points.threshold=v.camera.position.distanceTo(v.controls.target)*2*Math.tan(v.camera.fov*Math.PI/360)/r.height*5;
+  if(!this.points||this.mode==='object'&&this.presentedContext!==this.viewKey)return;
+  const camera=this.mode==='object'?this.presentedCamera:v.camera;if(!camera)return;
+  const r=v.el.getBoundingClientRect(),mouse=new THREE.Vector2((e.clientX-r.left)/r.width*2-1,1-(e.clientY-r.top)/r.height*2),ray=new THREE.Raycaster();ray.setFromCamera(mouse,camera);
+  ray.params.Points.threshold=camera.position.distanceTo(this.mode==='object'?this.presentedTarget:v.controls.target)*2*Math.tan(camera.fov*Math.PI/360)/r.height*5;
   if(!this.callbacks.creating()){
    let hits=this.objects.filter(o=>o.visible!==false).map(o=>{let pose=new THREE.Matrix4().compose(new THREE.Vector3(...o.bbox.center),quaternion(o.bbox),new THREE.Vector3(1,1,1)),local=ray.ray.clone().applyMatrix4(pose.clone().invert()),half=new THREE.Vector3(...o.bbox.size).multiplyScalar(.5),p=local.intersectBox(new THREE.Box3(half.clone().negate(),half),new THREE.Vector3());return p?{o,d:p.applyMatrix4(pose).distanceTo(ray.ray.origin)}:null;}).filter(Boolean).sort((a,b)=>a.d-b.d);
    if(hits.length){this.callbacks.select(hits[0].o.object_id);return;}
@@ -120,29 +128,59 @@ export class Workbench {
  }
 
  cameraChanged(){
-  this.renderEpoch=(this.renderEpoch||0)+1;clearTimeout(this.roamTimer);
-  this.scene.background=new THREE.Color('#0c1522');if(this.points)this.points.visible=true;
-  if(this.mode!=='object'){this.callbacks.renderStatus?.('彩色高斯中心预览');return;}
-  this.callbacks.renderStatus?.('移动中：几何预览');
-  this.roamTimer=setTimeout(()=>this.renderGaussian(),180);
+  this.renderEpoch=(this.renderEpoch||0)+1;
+  if(this.mode!=='object'){
+   clearTimeout(this.roamTimer);this.roamTimer=null;this.roamPending=false;
+   this.scene.background=new THREE.Color('#0c1522');if(this.points)this.points.visible=true;
+   this.callbacks.renderStatus?.('彩色高斯中心预览');return;
+  }
+  if(this.points)this.points.visible=false;
+  const ready=this.presentedContext===this.viewKey&&!!this.nativeTexture;
+  this.scene.background=ready?this.nativeTexture:new THREE.Color('#0c1522');
+  this.callbacks.renderStatus?.(ready?'真实 2DGS · 更新视角中…':'正在加载真实 2DGS…');
+  this.scheduleGaussian();
+ }
+ scheduleGaussian(){
+  if(this.disposed||this.mode!=='object'||this.manipulating)return;
+  if(this.roamBusy){this.roamPending=true;return;}
+  // Do not restart this timer on each pointermove: navigation must not starve the stream.
+  if(this.roamTimer!=null)return;
+  this.roamTimer=setTimeout(()=>{this.roamTimer=null;this.renderGaussian();},0);
+ }
+ adoptPresentedView(){
+  // Start box editing from the camera actually shown, not a newer, unrendered navigation pose.
+  if(!this.presentedCamera||this.presentedContext!==this.viewKey)return;
+  this.roamGeneration=(this.roamGeneration||0)+1;this.roamPending=false;
+  clearTimeout(this.roamTimer);this.roamTimer=null;
+  const v=this.views[0];v.camera.copy(this.presentedCamera);v.controls.target.copy(this.presentedTarget);v.controls.update();
+ }
+ async fetchGaussianFrame(payload){
+  const response=await fetch('/api/roam/render',{method:'POST',headers:{'Content-Type':'application/json','X-M0-Client':'1'},body:JSON.stringify(payload)});
+  if(!response.ok)throw Error((await response.json()).detail||'高斯渲染失败');
+  const blob=await response.blob(),url=URL.createObjectURL(blob);let texture;
+  try{texture=await new THREE.TextureLoader().loadAsync(url);}finally{URL.revokeObjectURL(url);}
+  texture.colorSpace=THREE.SRGBColorSpace;
+  return {texture,gaussians:Number(response.headers.get('X-M0-Gaussians'))};
  }
  async renderGaussian(){
-  if(this.mode!=='object'||!this.coordinateVersion)return;
+  if(this.disposed||this.manipulating||this.mode!=='object'||!this.coordinateVersion)return;
   if(this.roamBusy){this.roamPending=true;return;}this.roamBusy=true;this.roamPending=false;
-  const epoch=this.renderEpoch,v=this.views[0];v.camera.updateMatrixWorld(true);
+  const epoch=this.renderEpoch,context=this.viewKey,generation=this.roamGeneration||0,v=this.views[0];v.camera.updateMatrixWorld(true);
+  const frameCamera=v.camera.clone(),frameTarget=v.controls.target.clone();
   const cw=v.el.clientWidth,ch=v.el.clientHeight,scale=Math.min(1,1280/Math.max(cw,ch));if(!cw||!ch){this.roamBusy=false;return;}
-  const a=v.camera.matrixWorld.elements,camera_world=Array.from({length:4},(_,i)=>Array.from({length:4},(_,j)=>a[j*4+i]));
-  this.callbacks.renderStatus?.('正在更新真实 2DGS…');
+  const a=frameCamera.matrixWorld.elements,camera_world=Array.from({length:4},(_,i)=>Array.from({length:4},(_,j)=>a[j*4+i]));
   try{
-   const response=await fetch('/api/roam/render',{method:'POST',headers:{'Content-Type':'application/json','X-M0-Client':'1'},body:JSON.stringify({camera_world,width:Math.max(64,Math.round(cw*scale)),height:Math.max(64,Math.round(ch*scale)),fov:v.camera.fov,coordinate_version:this.coordinateVersion,show_outside:this.showOutside})});
-   if(!response.ok)throw Error((await response.json()).detail||'高斯渲染失败');
-   let blob=await response.blob(),url=URL.createObjectURL(blob),texture;
-   try{texture=await new THREE.TextureLoader().loadAsync(url);}finally{URL.revokeObjectURL(url);}
-   if(epoch!==this.renderEpoch||this.mode!=='object'){texture.dispose();return;}
-   texture.colorSpace=THREE.SRGBColorSpace;this.nativeTexture?.dispose();this.nativeTexture=texture;this.scene.background=texture;if(this.points)this.points.visible=false;
-   this.callbacks.renderStatus?.('真实 2DGS · '+Number(response.headers.get('X-M0-Gaussians')).toLocaleString()+' 高斯');this.invalidate();
-  }catch(e){if(epoch===this.renderEpoch)this.callbacks.renderStatus?.('几何预览 · 高斯渲染暂不可用：'+e.message);}
-  finally{this.roamBusy=false;if(this.roamPending||epoch!==this.renderEpoch){this.roamPending=false;clearTimeout(this.roamTimer);this.roamTimer=setTimeout(()=>this.renderGaussian(),80);}}
+   const {texture,gaussians}=await this.fetchGaussianFrame({camera_world,width:Math.max(64,Math.round(cw*scale)),height:Math.max(64,Math.round(ch*scale)),fov:frameCamera.fov,coordinate_version:this.coordinateVersion,show_outside:this.showOutside});
+   if(this.disposed||this.mode!=='object'||context!==this.viewKey||generation!==(this.roamGeneration||0)||this.manipulating){texture.dispose();return;}
+   // Present every completed frame, with its exact camera, even while new input is arriving.
+   // Only one request is in flight; its successor samples the newest desired pose.
+   this.nativeTexture?.dispose();this.nativeTexture=texture;this.scene.background=texture;
+   this.presentedCamera=frameCamera;this.presentedTarget=frameTarget;this.presentedContext=context;
+   if(this.points)this.points.visible=false;
+   this.root.dataset.gaussianFrame=String((this.presentedFrames||0)+1);this.presentedFrames=(this.presentedFrames||0)+1;
+   this.callbacks.renderStatus?.('真实 2DGS · '+gaussians.toLocaleString()+' 高斯');this.invalidate();
+  }catch(e){if(this.mode==='object')this.callbacks.renderStatus?.((this.nativeTexture?'真实 2DGS · 保留上一帧：':'高斯画面暂不可用：')+e.message);}
+  finally{this.roamBusy=false;if(this.roamPending||epoch!==this.renderEpoch){this.roamPending=false;this.scheduleGaussian();}}
  }
- dispose(){clearTimeout(this.roamTimer);this.gizmo.dispose();this.nativeTexture?.dispose();cancelAnimationFrame(this.animation);this.observer.disconnect();this.views.forEach(v=>v.controls.dispose());this.renderer.dispose();}
+ dispose(){this.disposed=true;clearTimeout(this.roamTimer);this.gizmo.dispose();this.nativeTexture?.dispose();cancelAnimationFrame(this.animation);this.observer.disconnect();this.views.forEach(v=>v.controls.dispose());this.renderer.dispose();}
 }

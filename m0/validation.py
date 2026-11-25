@@ -6,12 +6,19 @@ from .spatial import corners,inside
 def require(condition,message):
     if not condition:raise ValueError(message)
 
-def box_check(box):
+def box_check(box, oriented=True):
     require(isinstance(box,dict),'需要三维框。')
     c=np.asarray(box.get('center'),dtype=float);s=np.asarray(box.get('size'),dtype=float)
     require(c.shape==(3,) and s.shape==(3,) and np.isfinite(c).all() and np.isfinite(s).all(),'包围框中心和尺寸必须为有限三维坐标。')
     require(np.all(s>1e-5) and np.all(s<1e5),'三维框尺寸须大于零且在有效范围内。')
-    return dict(center=c.tolist(),size=s.tolist())
+    q=np.asarray(box.get('quaternion',[0,0,0,1]),dtype=float)
+    require(q.shape==(4,) and np.isfinite(q).all() and abs(np.linalg.norm(q)-1)<.01,'旋转必须为单位四元数 xyzw。')
+    q=q/np.linalg.norm(q)
+    if q[3]<0:q=-q
+    if not oriented:
+        require(np.allclose(q,[0,0,0,1],atol=1e-7),'场景范围使用工业坐标轴；请通过场景方向调整。')
+        return dict(center=c.tolist(),size=s.tolist())
+    return dict(center=c.tolist(),size=s.tolist(),quaternion=q.tolist())
 
 def transform_check(matrix):
     t=np.asarray(matrix,dtype=float)

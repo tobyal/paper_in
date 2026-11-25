@@ -1,9 +1,12 @@
 import * as THREE from './vendor/three/three.module.js';
 import {OrbitControls} from './vendor/three/OrbitControls.js';
+import {TransformControls} from './vendor/three/TransformControls.js';
 
 const edges=[[0,1],[0,2],[0,4],[1,3],[1,5],[2,3],[2,6],[3,7],[4,5],[4,6],[5,7],[6,7]];
-const corners=b=>[-1,1].flatMap(x=>[-1,1].flatMap(y=>[-1,1].map(z=>new THREE.Vector3(b.center[0]+x*b.size[0]/2,b.center[1]+y*b.size[1]/2,b.center[2]+z*b.size[2]/2))));
+const quaternion=b=>new THREE.Quaternion(...(b.quaternion||[0,0,0,1]));
+const corners=b=>[-1,1].flatMap(x=>[-1,1].flatMap(y=>[-1,1].map(z=>new THREE.Vector3(x*b.size[0]/2,y*b.size[1]/2,z*b.size[2]/2).applyQuaternion(quaternion(b)).add(new THREE.Vector3(...b.center)))));
 const matrix=a=>new THREE.Matrix4().set(...a.flat());
+export function boxOutside(b,s){return corners(b).some(p=>p.toArray().some((x,i)=>Math.abs(x-s.center[i])>s.size[i]/2+1e-7));}
 export function rotatedFrame(base,angles){let r=new THREE.Matrix4().makeRotationFromEuler(new THREE.Euler(...angles.map(x=>x*Math.PI/180),'ZYX'));r.multiply(matrix(base));let a=r.elements;return Array.from({length:4},(_,i)=>Array.from({length:4},(_,j)=>a[j*4+i]));}
 export class Workbench {
  constructor(root,callbacks){
@@ -13,40 +16,55 @@ export class Workbench {
    let camera=i===0?new THREE.PerspectiveCamera(48,1,.01,10000):new THREE.OrthographicCamera(-10,10,10,-10,.01,10000);
    camera.up.set(0,0,1);let controls=new OrbitControls(camera,el);controls.enableDamping=false;controls.enableRotate=i===0;controls.screenSpacePanning=true;controls.minDistance=.03;controls.maxDistance=1000;controls.zoomSpeed=1.0;
    if(i>0)controls.mouseButtons.LEFT=THREE.MOUSE.PAN;
-   controls.addEventListener('change',()=>this.invalidate());
+   controls.addEventListener('change',()=>{this.invalidate();if(i===0)this.cameraChanged();});
    let view={el,camera,controls,svg:el.querySelector('svg'),axes:i===1?[0,1]:i===2?[0,2]:[1,2]};
    if(i>0)this.installHandles(view);
    let down=null;
    el.addEventListener('pointerdown',e=>{if(e.button===0)down=[e.clientX,e.clientY];});
-   el.addEventListener('pointerup',e=>{if(i===0&&down&&Math.hypot(e.clientX-down[0],e.clientY-down[1])<4&&!e.target.closest('button'))this.pick(e,view);down=null;});
+   el.addEventListener('pointerup',e=>{if(i===0&&!this.gizmo?.axis&&!this.manipulating&&performance.now()>(this.suppressPickUntil||0)&&down&&Math.hypot(e.clientX-down[0],e.clientY-down[1])<4&&!e.target.closest('button'))this.pick(e,view);down=null;});
    el.querySelector('.reset-view').addEventListener('click',e=>{e.stopPropagation();this.fitView(view,i,this.focusBox||this.sceneBox);});
    return view;
   });
+
+  this.proxy=new THREE.Object3D();this.scene.add(this.proxy);
+  this.gizmo=new TransformControls(this.views[0].camera,this.views[0].el);this.gizmo.setSize(.85);this.gizmo.setSpace('local');this.gizmoHelper=this.gizmo.getHelper();this.scene.add(this.gizmoHelper);
+  this.gizmo.addEventListener('change',()=>this.invalidate());
+  this.gizmo.addEventListener('dragging-changed',e=>{this.manipulating=e.value;this.views[0].controls.enabled=!e.value;if(!e.value)this.suppressPickUntil=performance.now()+150;});
+  this.gizmo.addEventListener('mouseDown',()=>{if(this.selected){this.undoStack.push(JSON.parse(JSON.stringify(this.selected)));if(this.undoStack.length>30)this.undoStack.shift();}});
+  this.gizmo.addEventListener('objectChange',()=>{if(!this.manipulating)return;this.proxy.scale.set(Math.max(.005,Math.abs(this.proxy.scale.x)),Math.max(.005,Math.abs(this.proxy.scale.y)),Math.max(.005,Math.abs(this.proxy.scale.z)));this.callbacks.box({center:this.proxy.position.toArray(),size:this.proxy.scale.toArray(),quaternion:this.proxy.quaternion.clone().normalize().toArray()},false);});
+  this.gizmo.addEventListener('mouseUp',()=>{if(this.selected)this.callbacks.box(this.selected,true);});
+  this.views[0].el.tabIndex=0;this.views[0].el.addEventListener('pointerdown',()=>this.views[0].el.focus({preventScroll:true}));
+  this.views[0].el.addEventListener('keydown',e=>{if(this.mode!=='object'||e.target.closest('input,textarea'))return;let k=e.key.toLowerCase(),v=this.views[0];if(!['w','a','s','d','q','e'].includes(k))return;e.preventDefault();let direction=new THREE.Vector3(k==='a'?-1:k==='d'?1:0,k==='q'?-1:k==='e'?1:0,k==='w'?-1:k==='s'?1:0).applyQuaternion(v.camera.quaternion).multiplyScalar(Math.max(...this.sceneBox.size)*.018*(e.shiftKey?3:1));v.camera.position.add(direction);v.controls.target.add(direction);v.controls.update();this.cameraChanged();this.invalidate();});
   this.observer=new ResizeObserver(()=>this.resize());this.observer.observe(root);this.dirty=true;
   this.animate=()=>{this.animation=requestAnimationFrame(this.animate);if(this.dirty){this.dirty=false;this.render();}};this.animate();
  }
  async load(positions,colors){
   const geometry=new THREE.BufferGeometry();geometry.setAttribute('position',new THREE.BufferAttribute(new Float32Array(positions),3));
   geometry.setAttribute('color',new THREE.BufferAttribute(new Uint8Array(colors),3,true));geometry.computeBoundingSphere();
-  this.material=new THREE.ShaderMaterial({uniforms:{pointSize:{value:2.1*this.renderer.getPixelRatio()},boundsMin:{value:new THREE.Vector3(-1e5,-1e5,-1e5)},boundsMax:{value:new THREE.Vector3(1e5,1e5,1e5)},objectMin:{value:new THREE.Vector3()},objectMax:{value:new THREE.Vector3()},showOutside:{value:1},highlight:{value:0}},
+  this.material=new THREE.ShaderMaterial({uniforms:{pointSize:{value:2.1*this.renderer.getPixelRatio()},boundsMin:{value:new THREE.Vector3(-1e5,-1e5,-1e5)},boundsMax:{value:new THREE.Vector3(1e5,1e5,1e5)},objectMin:{value:new THREE.Vector3()},objectMax:{value:new THREE.Vector3()},objectCenter:{value:new THREE.Vector3()},objectRotation:{value:new THREE.Matrix3()},objectHalf:{value:new THREE.Vector3()},showOutside:{value:1},highlight:{value:0}},
    vertexShader:'attribute vec3 color; varying vec3 vColor; varying vec3 pWorld; uniform float pointSize; void main(){vColor=color;pWorld=(modelMatrix*vec4(position,1.)).xyz;gl_Position=projectionMatrix*viewMatrix*vec4(pWorld,1.);gl_PointSize=pointSize;}',
-   fragmentShader:'varying vec3 vColor; varying vec3 pWorld; uniform vec3 boundsMin,boundsMax,objectMin,objectMax; uniform float showOutside,highlight; void main(){if(length(gl_PointCoord-vec2(.5))>.5)discard;bool outside=any(lessThan(pWorld,boundsMin))||any(greaterThan(pWorld,boundsMax));if(outside&&showOutside<.5)discard;vec3 c=vColor;if(outside)c=mix(vec3(.047,.08,.13),c,.13);else if(highlight>.5&&all(greaterThanEqual(pWorld,objectMin))&&all(lessThanEqual(pWorld,objectMax)))c=mix(c,vec3(1.,.77,.3),.23);gl_FragColor=vec4(c,1.);}'});
+   fragmentShader:'varying vec3 vColor; varying vec3 pWorld; uniform vec3 boundsMin,boundsMax,objectMin,objectMax,objectCenter,objectHalf; uniform mat3 objectRotation; uniform float showOutside,highlight; void main(){if(length(gl_PointCoord-vec2(.5))>.5)discard;bool outside=any(lessThan(pWorld,boundsMin))||any(greaterThan(pWorld,boundsMax));if(outside&&showOutside<.5)discard;vec3 c=vColor;if(outside)c=mix(vec3(.047,.08,.13),c,.13);else if(highlight>.5&&all(lessThanEqual(abs(objectRotation*(pWorld-objectCenter)),objectHalf)))c=mix(c,vec3(1.,.77,.3),.23);gl_FragColor=vec4(c,1.);}'});
   this.points=new THREE.Points(geometry,this.material);this.points.matrixAutoUpdate=false;this.scene.add(this.points);this.invalidate();
  }
  setData(scene,objects,selectedBox,selectedId,options={}){
   this.sceneBox=scene.bbox;this.transform=matrix(scene.transform);if(this.points){this.points.matrix.copy(this.transform);this.points.updateMatrixWorld(true);}
-  this.selected=selectedBox;this.selectedId=selectedId;this.objects=objects;this.activeBox=options.sceneMode?scene.bbox:selectedBox;this.mode=options.sceneMode?'scene':'object';
+  this.selected=selectedBox;this.selectedId=selectedId;this.objects=objects;this.activeBox=options.sceneMode?scene.bbox:selectedBox;let mode=options.sceneMode?'scene':'object',modeChanged=mode!==this.mode,viewChanged=JSON.stringify([scene.transform,scene.bbox,scene.coordinate_version,options.showOutside])!==this.viewKey;this.mode=mode;
+  this.coordinateVersion=scene.coordinate_version;this.showOutside=options.showOutside;this.viewKey=JSON.stringify([scene.transform,scene.bbox,scene.coordinate_version,options.showOutside]);
+  this.root.classList.toggle('single-view',this.mode==='object');
+  if(this.mode==='object'&&selectedBox){if(!this.manipulating){this.proxy.position.fromArray(selectedBox.center);this.proxy.scale.fromArray(selectedBox.size);this.proxy.quaternion.copy(quaternion(selectedBox));}this.gizmo.attach(this.proxy);}else this.gizmo.detach();
+  if(modeChanged){this.gizmo.enabled=this.mode==='object';requestAnimationFrame(()=>{this.resize();if(this.mode==='scene')this.views.forEach((v,i)=>{if(i)this.fitView(v,i,this.sceneBox);});this.cameraChanged();});}
+  if(viewChanged)this.cameraChanged();
   while(this.boxes.children.length){let a=this.boxes.children[0];this.boxes.remove(a);a.geometry?.dispose();a.material?.dispose();}
   const add=(box,color,opacity)=>{let cs=corners(box),vs=edges.flatMap(([a,b])=>[...cs[a].toArray(),...cs[b].toArray()]);let g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(vs,3));this.boxes.add(new THREE.LineSegments(g,new THREE.LineBasicMaterial({color,transparent:true,opacity,depthTest:false})));};
   add(scene.bbox,0x39c3af,.8);objects.filter(o=>o.visible!==false&&o.object_id!==selectedId).forEach(o=>add(o.bbox,0x7697b8,.65));if(selectedBox)add(selectedBox,0xffca67,1);
   const sb=scene.bbox,min=sb.center.map((c,i)=>c-sb.size[i]/2),max=sb.center.map((c,i)=>c+sb.size[i]/2);
-  if(this.material){let u=this.material.uniforms;u.boundsMin.value.fromArray(min);u.boundsMax.value.fromArray(max);u.showOutside.value=options.showOutside?1:0;u.highlight.value=selectedBox&&options.highlight?1:0;if(selectedBox){u.objectMin.value.fromArray(selectedBox.center.map((c,i)=>c-selectedBox.size[i]/2));u.objectMax.value.fromArray(selectedBox.center.map((c,i)=>c+selectedBox.size[i]/2));}}
+  if(this.material){let u=this.material.uniforms;u.boundsMin.value.fromArray(min);u.boundsMax.value.fromArray(max);u.showOutside.value=options.showOutside?1:0;u.highlight.value=selectedBox&&options.highlight?1:0;if(selectedBox){u.objectCenter.value.fromArray(selectedBox.center);u.objectHalf.value.fromArray(selectedBox.size).multiplyScalar(.5);u.objectRotation.value.setFromMatrix4(new THREE.Matrix4().makeRotationFromQuaternion(quaternion(selectedBox))).transpose();u.objectMin.value.fromArray(selectedBox.center.map((c,i)=>c-selectedBox.size[i]/2));u.objectMax.value.fromArray(selectedBox.center.map((c,i)=>c+selectedBox.size[i]/2));}}
   if(this.axes){this.scene.remove(this.axes);this.axes.geometry.dispose();this.axes.material.dispose();}this.axes=new THREE.AxesHelper(Math.max(...sb.size)*.15);this.axes.position.set(sb.center[0]-sb.size[0]/2,sb.center[1]-sb.size[1]/2,sb.center[2]-sb.size[2]/2);this.scene.add(this.axes);
   if(!this.initialized){this.initialized=true;this.reset();}this.invalidate();
  }
- resize(){let w=this.root.clientWidth,h=this.root.clientHeight;this.renderer.setSize(w,h,false);this.views.forEach(v=>{let a=v.el.clientWidth/v.el.clientHeight;if(v.camera.isPerspectiveCamera)v.camera.aspect=a;else{let half=(v.camera.top-v.camera.bottom)/2;v.camera.left=-half*a;v.camera.right=half*a;}v.camera.updateProjectionMatrix();});this.invalidate();}
+ resize(){let w=this.root.clientWidth,h=this.root.clientHeight;this.renderer.setSize(w,h,false);this.views.forEach(v=>{if(!v.el.clientWidth||!v.el.clientHeight)return;let a=v.el.clientWidth/v.el.clientHeight;if(v.camera.isPerspectiveCamera)v.camera.aspect=a;else{let half=(v.camera.top-v.camera.bottom)/2;v.camera.left=-half*a;v.camera.right=half*a;}v.camera.updateProjectionMatrix();});this.cameraChanged();this.invalidate();}
  fitView(v,i,b){
-  if(!b)return;let center=new THREE.Vector3(...b.center),size=Math.max(...b.size),aspect=v.el.clientWidth/v.el.clientHeight;
+  if(!b||!v.el.clientWidth||!v.el.clientHeight)return;let center=new THREE.Vector3(...b.center),size=Math.max(...b.size),aspect=v.el.clientWidth/v.el.clientHeight;
   v.controls.target.copy(center);v.camera.zoom=1;
   if(i===0){v.camera.position.copy(center).add(new THREE.Vector3(.9,-1.25,1.0).multiplyScalar(size*.85));v.camera.up.set(0,0,1);v.camera.aspect=aspect;}
   else{
@@ -61,7 +79,7 @@ export class Workbench {
  invalidate(){this.dirty=true;}
  render(){
   if(!this.sceneBox)return;let root=this.root.getBoundingClientRect();this.renderer.setScissorTest(true);
-  this.views.forEach((v,i)=>{let r=v.el.getBoundingClientRect(),x=r.left-root.left,y=root.bottom-r.bottom;this.renderer.setViewport(x,y,r.width,r.height);this.renderer.setScissor(x,y,r.width,r.height);this.renderer.render(this.scene,v.camera);if(i)this.drawHandles(v);});
+  this.views.forEach((v,i)=>{let r=v.el.getBoundingClientRect();if(!r.width||!r.height)return;let x=r.left-root.left,y=root.bottom-r.bottom;this.renderer.setViewport(x,y,r.width,r.height);this.renderer.setScissor(x,y,r.width,r.height);this.renderer.render(this.scene,v.camera);if(i)this.drawHandles(v);});
  }
  screen(v,p){let r=v.el.getBoundingClientRect(),q=new THREE.Vector3(...p).project(v.camera);return [(q.x+1)*r.width/2,(1-q.y)*r.height/2];}
  unproject(v,x,y){let r=v.el.getBoundingClientRect();return new THREE.Vector3((x-r.left)/r.width*2-1,1-(y-r.top)/r.height*2,0).unproject(v.camera).toArray();}
@@ -85,12 +103,13 @@ export class Workbench {
   v.outline.setAttribute('x',lo[0]);v.outline.setAttribute('y',lo[1]);v.outline.setAttribute('width',hi[0]-lo[0]);v.outline.setAttribute('height',hi[1]-lo[1]);
   v.handles.forEach(el=>{let name=el.dataset.handle;if(name==='center'){el.setAttribute('cx',c[0]);el.setAttribute('cy',c[1]);el.setAttribute('r',7);}else{let [a,d]=name.split(',').map(Number);let p=b.center.slice();p[v.axes[0]]+=a*b.size[v.axes[0]]/2;p[v.axes[1]]+=d*b.size[v.axes[1]]/2;let [x,y]=this.screen(v,p);el.setAttribute('x',x-5);el.setAttribute('y',y-5);el.setAttribute('width',10);el.setAttribute('height',10);}});
  }
+ setTool(mode){this.gizmo.setMode(mode);this.invalidate();}
  undo(){let b=this.undoStack.pop();if(b)this.callbacks.box(b,true);}
  pick(e,v){
   if(!this.points)return;const r=v.el.getBoundingClientRect(),mouse=new THREE.Vector2((e.clientX-r.left)/r.width*2-1,1-(e.clientY-r.top)/r.height*2),ray=new THREE.Raycaster();ray.setFromCamera(mouse,v.camera);
   ray.params.Points.threshold=v.camera.position.distanceTo(v.controls.target)*2*Math.tan(v.camera.fov*Math.PI/360)/r.height*5;
   if(!this.callbacks.creating()){
-   let hits=this.objects.filter(o=>o.visible!==false).map(o=>{let mn=o.bbox.center.map((c,i)=>c-o.bbox.size[i]/2),mx=o.bbox.center.map((c,i)=>c+o.bbox.size[i]/2),p=ray.ray.intersectBox(new THREE.Box3(new THREE.Vector3(...mn),new THREE.Vector3(...mx)),new THREE.Vector3());return p?{o,d:p.distanceTo(ray.ray.origin)}:null;}).filter(Boolean).sort((a,b)=>a.d-b.d);
+   let hits=this.objects.filter(o=>o.visible!==false).map(o=>{let pose=new THREE.Matrix4().compose(new THREE.Vector3(...o.bbox.center),quaternion(o.bbox),new THREE.Vector3(1,1,1)),local=ray.ray.clone().applyMatrix4(pose.clone().invert()),half=new THREE.Vector3(...o.bbox.size).multiplyScalar(.5),p=local.intersectBox(new THREE.Box3(half.clone().negate(),half),new THREE.Vector3());return p?{o,d:p.applyMatrix4(pose).distanceTo(ray.ray.origin)}:null;}).filter(Boolean).sort((a,b)=>a.d-b.d);
    if(hits.length){this.callbacks.select(hits[0].o.object_id);return;}
   }else{
    const hits=ray.intersectObject(this.points,false);
@@ -99,5 +118,31 @@ export class Workbench {
    this.callbacks.notice('此处没有范围内的可见几何，请放大后点击设备表面。');
   }
  }
- dispose(){cancelAnimationFrame(this.animation);this.observer.disconnect();this.views.forEach(v=>v.controls.dispose());this.renderer.dispose();}
+
+ cameraChanged(){
+  this.renderEpoch=(this.renderEpoch||0)+1;clearTimeout(this.roamTimer);
+  this.scene.background=new THREE.Color('#0c1522');if(this.points)this.points.visible=true;
+  if(this.mode!=='object'){this.callbacks.renderStatus?.('彩色高斯中心预览');return;}
+  this.callbacks.renderStatus?.('移动中：几何预览');
+  this.roamTimer=setTimeout(()=>this.renderGaussian(),180);
+ }
+ async renderGaussian(){
+  if(this.mode!=='object'||!this.coordinateVersion)return;
+  if(this.roamBusy){this.roamPending=true;return;}this.roamBusy=true;this.roamPending=false;
+  const epoch=this.renderEpoch,v=this.views[0];v.camera.updateMatrixWorld(true);
+  const cw=v.el.clientWidth,ch=v.el.clientHeight,scale=Math.min(1,1280/Math.max(cw,ch));if(!cw||!ch){this.roamBusy=false;return;}
+  const a=v.camera.matrixWorld.elements,camera_world=Array.from({length:4},(_,i)=>Array.from({length:4},(_,j)=>a[j*4+i]));
+  this.callbacks.renderStatus?.('正在更新真实 2DGS…');
+  try{
+   const response=await fetch('/api/roam/render',{method:'POST',headers:{'Content-Type':'application/json','X-M0-Client':'1'},body:JSON.stringify({camera_world,width:Math.max(64,Math.round(cw*scale)),height:Math.max(64,Math.round(ch*scale)),fov:v.camera.fov,coordinate_version:this.coordinateVersion,show_outside:this.showOutside})});
+   if(!response.ok)throw Error((await response.json()).detail||'高斯渲染失败');
+   let blob=await response.blob(),url=URL.createObjectURL(blob),texture;
+   try{texture=await new THREE.TextureLoader().loadAsync(url);}finally{URL.revokeObjectURL(url);}
+   if(epoch!==this.renderEpoch||this.mode!=='object'){texture.dispose();return;}
+   texture.colorSpace=THREE.SRGBColorSpace;this.nativeTexture?.dispose();this.nativeTexture=texture;this.scene.background=texture;if(this.points)this.points.visible=false;
+   this.callbacks.renderStatus?.('真实 2DGS · '+Number(response.headers.get('X-M0-Gaussians')).toLocaleString()+' 高斯');this.invalidate();
+  }catch(e){if(epoch===this.renderEpoch)this.callbacks.renderStatus?.('几何预览 · 高斯渲染暂不可用：'+e.message);}
+  finally{this.roamBusy=false;if(this.roamPending||epoch!==this.renderEpoch){this.roamPending=false;clearTimeout(this.roamTimer);this.roamTimer=setTimeout(()=>this.renderGaussian(),80);}}
+ }
+ dispose(){clearTimeout(this.roamTimer);this.gizmo.dispose();this.nativeTexture?.dispose();cancelAnimationFrame(this.animation);this.observer.disconnect();this.views.forEach(v=>v.controls.dispose());this.renderer.dispose();}
 }

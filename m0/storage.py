@@ -71,7 +71,7 @@ class Store:
             if o.get('deleted'):continue
             catalog.append({k:o[k] for k in ('object_id','name_zh','name_en','granularity','status','coordinate_version')})
             base=dest/'objects'/oid
-            atomic_json(base/'coarse_bbox.json',{**o['bbox'],'object_id':oid,'coordinate_frame':'industrial','coordinate_version':o['coordinate_version'],'units':'sfm_relative','purpose':'M2 search space only; not a final instance','review_status':o['status']})
+            atomic_json(base/'coarse_bbox.json',{'quaternion':[0,0,0,1],**o['bbox'],'box_type':'OBB','rotation_convention':'quaternion xyzw; box-local to industrial; size along local axes','object_id':oid,'coordinate_frame':'industrial','coordinate_version':o['coordinate_version'],'units':'sfm_relative','purpose':'M2 search space only; not a final instance','review_status':o['status']})
             atomic_json(base/'description.json',{k:o.get(k,'') for k in ('object_id','name_zh','name_en','description_zh','description_en','status','source','reviewer')})
             if o.get('preview_path'):copy_atomic(self.root/o['preview_path'],base/'bbox_preview.jpg')
             ref=o.get('reference')
@@ -86,7 +86,7 @@ class Store:
         manifest=dict(schema_version=s['schema_version'],dataset_id=s['dataset_id'],revision=s['revision'],updated_at=s['updated_at'],
                       coordinate_version=scene['coordinate_version'],units='sfm_relative',source_files=provenance['source_files'],
                       image_manifest='source_images.json',scene_indices_binding={**geometry,'element':'vertex','index_base':0,'order':'original PLY vertex order','selection':'center inside scene box'},
-                      object_count=len(catalog),optional_reference_is_required=False,contains_final_object_indices=False,
+                      object_count=len(catalog),object_bbox_schema='obb-xyzw-v1',optional_reference_is_required=False,contains_final_object_indices=False,
                       contains_semantic_features=False,contains_scene_graph=False,contains_evaluation_data=False,last_frozen_version=s['last_frozen_version'])
         atomic_json(dest/'manifest.json',manifest);copy_atomic(self.root/'.assets/images.json',dest/'source_images.json')
         confirmed=sum(o['status']=='confirmed' for o in catalog)

@@ -18,12 +18,13 @@ from urllib.parse import urlparse
 import numpy as np
 from PIL import Image
 from fastapi import FastAPI, Request
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 from .settings import ROOT,ASSETS,IMAGES,STATIC,PROJECT,GAUSSIANS
 from .storage import Store,atomic_json,now
 from .validation import require,box_check,transform_check,review_check,text_check,prompts_check,quality
-from .spatial import transform,corners,inside,recommend,overview
+from .spatial import transform,corners,inside,recommend,overview,rebase_box
+from .roam_service import RoamClient, camera_check
 from .sam_service import SamClient
 from .prepare import sha
 
@@ -33,7 +34,8 @@ xyz=np.fromfile(ASSETS/'positions.bin',dtype='<f4').reshape(-1,3)
 rgb=np.fromfile(ASSETS/'colors.bin',dtype='uint8').reshape(-1,3)
 original_ids=np.load(ASSETS/'display_indices.npy')
 sam=SamClient();pool=ThreadPoolExecutor(max_workers=1);jobs={};freeze_lock=threading.Lock()
-app=FastAPI(title='M0 v2 · 三维工业先验工作台',version='2.0.0')
+roam=RoamClient()
+app=FastAPI(title='M0 v2 · 三维工业先验工作台',version='2.1.0')
 
 @app.exception_handler(ValueError)
 async def invalid(request,exc):
@@ -72,7 +74,7 @@ def submit_job(kind,fn):
     pool.submit(run);return jobs[jid]
 
 @app.get('/api/health')
-def health():return dict(status='ok',version='2.0.0',revision=store.read()['revision'],images=len(images),display_points=len(xyz))
+def health():return dict(status='ok',version='2.1.0',revision=store.read()['revision'],images=len(images),display_points=len(xyz))
 @app.get('/api/state')
 def state():return store.read()
 @app.get('/api/images')
@@ -95,7 +97,7 @@ def artifact(relative:str):
 
 @app.post('/api/scene')
 def save_scene(b:dict):
-    box=box_check(b.get('bbox'));t=transform_check(b.get('transform'));status_check(b)
+    box=box_check(b.get('bbox'),oriented=False);t=transform_check(b.get('transform'));status_check(b)
     floor=bool(b.get('floor_confirmed'));directions=bool(b.get('directions_confirmed'))
     if b['status']=='confirmed':require(floor and directions,'请确认框底面确实是地面，以及上下和前进方向。')
     def change(s):
@@ -110,11 +112,10 @@ def save_scene(b:dict):
                         reviewer=actor(b),updated_at=now(),estimation=old.get('estimation'),gaussian_count=int(selection.sum()),
                         artifacts={n:str(folder/n) for n in ('scene_gaussian_indices.npy','scene_overview.jpg')})
         if geometry_changed:
-            # Preserve world coverage; re-express old AABBs in the new frame and require review.
+            # Preserve the exact world-space oriented box under a coordinate change.
             for o in s['objects'].values():
                 if o.get('deleted'):continue
-                raw=transform(corners(o['bbox']),np.linalg.inv(old['transform']));p=transform(raw,t);lo=p.min(0);hi=p.max(0)
-                o.update(bbox=dict(center=((lo+hi)/2).tolist(),size=(hi-lo).tolist()),coordinate_version=version,status='draft',needs_review='scene geometry changed')
+                o.update(bbox=rebase_box(o['bbox'],old['transform'],t),coordinate_version=version,status='draft',needs_review='scene geometry changed')
                 if o.get('reference'):o['reference']['status']='draft'
                 folder=Path('.artifacts/objects')/o['object_id']/uuid.uuid4().hex
                 overview(ROOT/folder/'bbox_preview.jpg',xyz,rgb,t,box,o['bbox']);o['preview_path']=str(folder/'bbox_preview.jpg')
@@ -138,6 +139,58 @@ def save_object(b:dict):
         overview(ROOT/folder/'bbox_preview.jpg',xyz,rgb,s['scene']['transform'],s['scene']['bbox'],box);o['preview_path']=str(folder/'bbox_preview.jpg')
         s['objects'][oid]=o
     result=update(b,'object.save:'+oid,change);return dict(state=result,object_id=oid)
+
+@app.post('/api/objects/batch')
+def save_objects(b:dict):
+    """One revision for all edits. Draft client IDs are resolved once, on commit."""
+    edits=b.get('objects');require(isinstance(edits,list) and 0<len(edits)<=500,'每次保存 1–500 个对象。')
+    mapping={}
+    def change(s):
+        prepared=[];seen=set()
+        for item in edits:
+            require(isinstance(item,dict),'对象格式无效。')
+            token=item.get('object_id','');require(isinstance(token,str) and token not in seen,'对象 ID 缺失或重复。');seen.add(token)
+            is_new=bool(re.fullmatch(r'draft_[a-f0-9-]{8,40}',token))
+            old={} if is_new else obj(s,token)
+            oid='obj_'+uuid.uuid4().hex[:12] if is_new else token;mapping[token]=oid
+            if item.get('deleted'):
+                require(not is_new,'新对象无需保存删除。')
+                prepared.append((oid,{**old,'deleted':True,'deleted_at':now(),'deleted_by':actor(b)}));continue
+            box=box_check(item.get('bbox'));status=item.get('status','draft')
+            require(status in ('draft','confirmed'),'无效确认状态。')
+            require(item.get('coordinate_version')==s['scene']['coordinate_version'],'坐标版本已更新，请刷新后重新调整设备框。')
+            require(item.get('granularity','equipment') in ('equipment','container_group'),'只支持完整设备或物料箱组。')
+            text_check(item,status=='confirmed')
+            same=bool(old) and box_check(old['bbox'])==box and all(item.get(k,'')==old.get(k,'') for k in ('name_zh','name_en','description_zh','description_en','granularity'))
+            retained=same and old.get('status')=='confirmed' and status=='confirmed'
+            if status=='confirmed' and not retained:
+                review_check({**item,'reviewer':actor(b) if b.get('reviewer') else ''})
+                require(s['scene']['status']=='confirmed','请先确认场景范围。')
+                require(inside(corners(box),s['scene']['bbox']).all(),'粗框超出场景范围。')
+            o={k:str(item.get(k,'')).strip() for k in ('name_zh','name_en','description_zh','description_en')}
+            o.update(object_id=oid,bbox=box,status=status,coordinate_version=s['scene']['coordinate_version'],granularity=item.get('granularity','equipment'),
+                     source=old.get('source',item.get('source','interactive_3d_box')),reviewer=old.get('reviewer') if retained else actor(b),updated_at=now(),
+                     reference=old.get('reference'),visible=bool(item.get('visible',True)))
+            if old and box_check(old['bbox'])!=box and o['reference']:o['reference']={**o['reference'],'status':'draft','needs_review':'coarse box changed'}
+            if same and old.get('preview_path'):o['preview_path']=old['preview_path']
+            prepared.append((oid,o))
+        # Validate every item before writing previews or adding a committed revision.
+        for oid,o in prepared:
+            if not o.get('deleted') and not o.get('preview_path'):
+                folder=Path('.artifacts/objects')/oid/uuid.uuid4().hex
+                overview(ROOT/folder/'bbox_preview.jpg',xyz,rgb,s['scene']['transform'],s['scene']['bbox'],o['bbox']);o['preview_path']=str(folder/'bbox_preview.jpg')
+            s['objects'][oid]=o
+    result=update(b,'objects.batch:'+str(len(edits)),change)
+    return dict(state=result,id_mapping=mapping,saved=len(edits))
+
+@app.post('/api/roam/render')
+def roam_render(b:dict):
+    camera_check(b)
+    s=store.read();require(b.get('coordinate_version')==s['scene']['coordinate_version'],'场景坐标已变更，请刷新。')
+    result=roam.render({**b,'scene':s['scene']})
+    return Response(base64.b64decode(result['jpeg']),media_type='image/jpeg',headers={
+        'X-M0-Renderer':'official-2dgs','X-M0-Render-Ms':str(round(result['seconds']*1000,1)),
+        'X-M0-Gaussians':str(result['gaussians']),'X-M0-GPU-MB':str(round(result['gpu_bytes']/1048576,1))})
 
 @app.post('/api/objects/{oid}/delete')
 def delete_object(oid:str,b:dict):

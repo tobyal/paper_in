@@ -1,3 +1,5 @@
+> 2026-11-26 更新：以下为 v2 初次交付的历史记录。用户之后已确认第一步；第二步已升级为单视窗真实高斯渐进渲染、可旋转 OBB 与一键保存。当前实现、状态及验收以 [v2.1 报告](OBB_ROAMING_REPORT.md) 为准。
+
 # M0 v2 重构与实际验收报告
 
 交付日期：2026-11-25（Asia/Shanghai）。服务器：/mnt/sda/ubuntu/lkx/papers/paper_in；工作数据：industrial_scene_prior_v2/。访问 http://127.0.0.1:18766；远程 loopback 28760，用户服务 paper-in-m0。

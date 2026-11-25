@@ -15,6 +15,10 @@ PROJECT=Path(__file__).resolve().parents[2]
 LIVE=PROJECT/'industrial_scene_prior_v2'
 SOURCE=json.load(urllib.request.urlopen('http://127.0.0.1:28760/api/state'))
 REAL=next(o for o in SOURCE['objects'].values() if not o.get('deleted') and o['name_zh'])
+WORKSPACE=json.load(urllib.request.urlopen('http://127.0.0.1:28760/api/draft/workspace'))
+if WORKSPACE and WORKSPACE['content'].get('base_revision')==SOURCE['revision']:
+    current=WORKSPACE['content'].get('objectDraft')
+    if current and current.get('object_id')==REAL['object_id']:REAL=copy.deepcopy(current)
 QA=PROJECT/'logs'/('m0_v2_contract_'+time.strftime('%Y%m%dT%H%M%S'))
 QA.mkdir(parents=True);shutil.copytree(LIVE/'.assets',QA/'.assets')
 os.environ['M0_DATA']=str(QA)
@@ -98,7 +102,8 @@ class V2Contract(unittest.TestCase):
     no_header=TestClient(server.app);self.assertEqual(no_header.post('/api/objects',json=body).status_code,403)
     # Original source hashes were read and checked by freeze, never copied into object outputs.
     result=dict(status='passed',assertion_groups=22,requests=checks,qa_directory=str(QA),real_candidate_source=REAL['object_id'],frozen_version=version,
-                note='All confirmations in this directory are automated contract fixtures, not human annotations. Production remains drafts.')
+                note='All confirmations in this directory are automated contract fixtures, not human annotations. Existing production confirmations are preserved.')
+    self.assertEqual(json.load(urllib.request.urlopen('http://127.0.0.1:28760/api/state')),SOURCE)
     (PROJECT/'logs/m0_v2_contract_latest.json').write_text(json.dumps(result,indent=2));print(json.dumps(result))
 
 if __name__=='__main__':unittest.main()

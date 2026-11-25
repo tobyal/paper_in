@@ -29,17 +29,19 @@ industrial_scene_prior_v2/
 
 ## 坐标与框
 
-scene_bbox 和 coarse_bbox 使用 center:[x,y,z]、size:[width,depth,height]。设备框为工业坐标轴对齐 AABB，不是最终 OBB 或实例边界。scene_bbox 通过 coordinate_transform 在原始 COLMAP 中形成有向空间范围。二者带 coordinate_frame=industrial、coordinate_version、units=sfm_relative 和 review_status。
+scene_bbox 使用工业坐标中的 AABB：center:[x,y,z]、size:[width,depth,height]。从 Web v2.1 起，设备 coarse_bbox 为可旋转粗 OBB，增加 quaternion:[x,y,z,w]、box_type:OBB 和 rotation_convention。四元数为单位旋转，作用方向为设备框局部坐标到工业坐标；size 是局部三轴全长，绝非世界 AABB 尺寸。旧记录未含 quaternion 时按 [0,0,0,1] 读取；已有冻结文件保持原样。新 manifest 标记 object_bbox_schema=obb-xyzw-v1，整体 schema_version 仍为 m0-2.0。二者带 coordinate_frame=industrial、coordinate_version、units=sfm_relative 和 review_status。粗 OBB 不是精确设备实例边界。
+
+角点：p_industrial = center + R(quaternion) @ (sign * size / 2)。包含判定：abs(R.T @ (p_industrial-center)) <= size/2。可复用 m0.spatial.corners / inside / box_rotation，不能只检查 center ± size/2。
 
 矩阵为列齐次向量约定：p_industrial=T@p_colmap；旋转正交且 det=+1。+X 右、+Y 前、+Z 上。coordinate_system 同时记录 T、逆矩阵及人工方向标志。只有确认底面后才写 floor_plane_colmap，否则为 null；平面由 z_industrial=box_bottom 得出。坐标原点为初始化参考，不强制用户单独选点。
 
-修改场景几何产生新坐标版本；旧对象原始世界角点被变换到新坐标，并用包围 AABB 保留其覆盖范围，置为 draft。旋转后可能扩大；这不是精确实例重建。
+修改场景几何产生新坐标版本；旧对象中心和姿态通过 T_new @ inverse(T_old) 变换，局部尺寸保持不变，原始世界角点精确保留，置为 draft。场景本身继续使用工业坐标 AABB。
 
 scene_gaussian_indices 是 int64、从零开始的原始 MWP PLY vertex 行号，按原顺序升序保存。判定仅为高斯中心在场景框内；manifest 绑定原始路径、SHA-256、vertex 元素与索引顺序。**不提供对象高斯索引**。显示点按所有有限原始中心生成，内部 display_indices 保留显示行与原始行映射。
 
 ## 对象与参考
 
-对象 ID 为 obj_ 加随机 UUID 后缀，创建后永久不变。catalog 为当前有效对象的权威清单。同名设备允许独立 ID。granularity 只支持 equipment 或 container_group。
+对象 ID 为 obj_ 加随机 UUID 后缀，提交后永久不变。浏览器工作草稿中的 draft_ 临时 ID 在 /api/objects/batch 一次提交时映射成永久 ID。请求包含 revision、reviewer、objects；响应包含 state、id_mapping、saved。全批先验证，再提交一个修订；非法对象或过期 revision 不产生部分提交。catalog 为当前有效对象的权威清单。同名设备允许独立 ID。granularity 只支持 equipment 或 container_group。
 
 description.json 包含 object_id、name_zh、name_en、description_zh、description_en、status、source、reviewer。草稿可为空；确认时要求基础名称和双语描述，拒绝明显的对象间空间关系句式。不会生成 CLIP 或其他语义特征。
 

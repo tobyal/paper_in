@@ -12,7 +12,7 @@
 
 ## 必须处理的约定
 
-1. T 作用在原始 COLMAP 点的列齐次向量上；变换后与 bbox.center/size 比较。逆矩阵可用于相机投影。
+1. T 作用在原始 COLMAP 点的列齐次向量上。场景框为 AABB；设备框使用 manifest.object_bbox_schema=obb-xyzw-v1，须先计算 p_local=R(quaternion).T@(p_industrial-center)，再判定 abs(p_local)<=size/2。四元数为 xyzw、局部框到工业坐标，缺失时取单位旋转。投影使用旋转后的八角点和 T 的逆矩阵。读取器不得忽略旋转，或把局部 size 当作世界 AABB 尺寸。
 2. scene indices 是原始 MWP PLY 的 vertex 行号，不是裁剪后连续编号。若下游再次裁剪，必须保留新旧映射。
 3. 设备粗框只有空间约束，含地面/背景/邻接结构是允许的。**不得直接将框内全部高斯作为最终设备实例。**
 4. 可选参考缺失是正常情况，不得使后续输入读取失败。若存在，检查 train、原图哈希、原生宽高、mask SHA 和 confirmed 状态。它仅为单视角身份提示。

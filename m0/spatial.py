@@ -9,13 +9,28 @@ def transform(points, matrix):
     return np.asarray(points) @ t[:3, :3].T + t[:3, 3]
 
 
+def box_rotation(box):
+    """Quaternion xyzw maps box-local column vectors into the industrial frame."""
+    from scipy.spatial.transform import Rotation
+    return Rotation.from_quat(box.get('quaternion', [0, 0, 0, 1])).as_matrix()
+
+
 def corners(box):
     c, s = np.asarray(box['center']), np.asarray(box['size'])
-    return c + np.array(list(itertools.product([-1, 1], repeat=3))) * s / 2
+    local = np.array(list(itertools.product([-1, 1], repeat=3))) * s / 2
+    return c + local @ box_rotation(box).T
 
 
 def inside(points, box):
-    return np.all(np.abs(points - np.asarray(box['center'])) <= np.asarray(box['size']) / 2 + 1e-7, axis=1)
+    local = (np.asarray(points) - np.asarray(box['center'])) @ box_rotation(box)
+    return np.all(np.abs(local) <= np.asarray(box['size']) / 2 + 1e-7, axis=1)
+
+
+def rebase_box(box, old_frame, new_frame):
+    from scipy.spatial.transform import Rotation
+    delta = np.asarray(new_frame) @ np.linalg.inv(old_frame)
+    return dict(center=transform([box['center']], delta)[0].tolist(), size=list(box['size']),
+                quaternion=Rotation.from_matrix(delta[:3, :3] @ box_rotation(box)).as_quat().tolist())
 
 
 def initialize(xyz, images):

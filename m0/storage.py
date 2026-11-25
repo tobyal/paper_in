@@ -22,7 +22,11 @@ def copy_atomic(source,target):
 
 class Store:
     def __init__(self,root):
-        self.root=Path(root);self.root.mkdir(parents=True,exist_ok=True);self.lock=threading.RLock()
+        self.root=Path(root)
+        provenance=json.loads((self.root/'.assets/source_manifest.json').read_text())
+        if provenance.get('geometry_source',{}).get('representation')!='native_3dgs':
+            raise RuntimeError('M0 v2.2 requires a separate native 3DGS data directory. Do not open archived 2DGS annotations with this server.')
+        self.root.mkdir(parents=True,exist_ok=True);self.lock=threading.RLock()
         self.db=sqlite3.connect(str(self.root/'.m0.sqlite3'),check_same_thread=False)
         self.db.execute('PRAGMA journal_mode=WAL');self.db.execute('PRAGMA synchronous=FULL')
         self.db.executescript('CREATE TABLE IF NOT EXISTS revisions (revision INTEGER PRIMARY KEY, state TEXT NOT NULL, event TEXT NOT NULL); CREATE TABLE IF NOT EXISTS drafts (key TEXT PRIMARY KEY, content TEXT NOT NULL, updated_at TEXT NOT NULL);')
@@ -82,15 +86,16 @@ class Store:
                 for i,source in enumerate(ref.get('original_mask_paths',[])):copy_atomic(self.root/source,folder/'original'/f'candidate_{i}.png')
         atomic_json(dest/'objects/object_catalog.json',catalog)
         provenance=json.loads((self.root/'.assets/source_manifest.json').read_text())
-        geometry=next(x for x in provenance['source_files'] if '03_gaussian_pruning' in x['path'])
+        geometry=provenance['geometry_source']
         manifest=dict(schema_version=s['schema_version'],dataset_id=s['dataset_id'],revision=s['revision'],updated_at=s['updated_at'],
                       coordinate_version=scene['coordinate_version'],units='sfm_relative',source_files=provenance['source_files'],
+                      geometry_source=geometry,renderer=provenance['renderer'],migration=s.get('migration'),
                       image_manifest='source_images.json',scene_indices_binding={**geometry,'element':'vertex','index_base':0,'order':'original PLY vertex order','selection':'center inside scene box'},
                       object_count=len(catalog),object_bbox_schema='obb-xyzw-v1',optional_reference_is_required=False,contains_final_object_indices=False,
                       contains_semantic_features=False,contains_scene_graph=False,contains_evaluation_data=False,last_frozen_version=s['last_frozen_version'])
         atomic_json(dest/'manifest.json',manifest);copy_atomic(self.root/'.assets/images.json',dest/'source_images.json')
         confirmed=sum(o['status']=='confirmed' for o in catalog)
-        report=f'# M0 v2 数据状态\n\n修订 r{s["revision"]}；坐标 {scene["coordinate_version"]}。\n\n场景状态：{scene["status"]}。对象：{len(catalog)}，确认：{confirmed}。\n\n所有尺寸为 SfM 相对单位。设备框仅为 M2 粗略搜索范围；无最终对象高斯索引、语义融合或场景图。单张训练参考掩膜可选。\n\n未自动迁移旧 M0 标注。候选和草稿不代表人工确认。\n'
+        report=f'# M0 原生 3DGS 数据状态\n\n修订 r{s["revision"]}；坐标 {scene["coordinate_version"]}。\n\n场景状态：{scene["status"]}。对象：{len(catalog)}，确认：{confirmed}。\n\n来源：{geometry["path"]}，{geometry["gaussians"]:,} 个原生三维高斯。场景索引绑定该 PLY 的哈希及原始顶点顺序。\n\n所有尺寸为 SfM 相对单位。设备框仅为 M2 粗略搜索范围；无最终对象高斯索引、语义融合或场景图。单张训练参考掩膜可选。\n\n同坐标系的 M0 人工编辑可保留，迁移来源见 manifest.json。候选和草稿不代表人工确认。后续研究模块尚未迁移到此数据源。\n'
         (dest/'M0_REPORT.md').write_text(report,encoding='utf-8')
     def draft(self,key,value=None):
         with self.lock:

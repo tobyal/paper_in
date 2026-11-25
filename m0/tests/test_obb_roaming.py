@@ -12,7 +12,7 @@ from scipy.spatial.transform import Rotation
 PROJECT=Path(__file__).resolve().parents[2]
 SOURCE=json.load(urllib.request.urlopen('http://127.0.0.1:28760/api/state'))
 QA=PROJECT/'logs'/('m0_obb_contract_'+time.strftime('%Y%m%dT%H%M%S'))
-QA.mkdir(parents=True);shutil.copytree(PROJECT/'industrial_scene_prior_v2/.assets',QA/'.assets')
+QA.mkdir(parents=True);shutil.copytree(PROJECT/'industrial_scene_prior_3dgs/.assets',QA/'.assets')
 os.environ['M0_DATA']=str(QA)
 from fastapi.testclient import TestClient
 from m0 import app as server

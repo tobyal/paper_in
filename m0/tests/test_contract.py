@@ -12,7 +12,7 @@ import zipfile
 import numpy as np
 
 PROJECT=Path(__file__).resolve().parents[2]
-LIVE=PROJECT/'industrial_scene_prior_v2'
+LIVE=PROJECT/'industrial_scene_prior_3dgs'
 SOURCE=json.load(urllib.request.urlopen('http://127.0.0.1:28760/api/state'))
 REAL=next(o for o in SOURCE['objects'].values() if not o.get('deleted') and o['name_zh'])
 WORKSPACE=json.load(urllib.request.urlopen('http://127.0.0.1:28760/api/draft/workspace'))

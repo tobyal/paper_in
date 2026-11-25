@@ -9,7 +9,7 @@ def post(path,b):
     return urllib.request.urlopen(urllib.request.Request(URL+path,data=json.dumps(b).encode(),headers={'Content-Type':'application/json','X-M0-Client':'1'}),timeout=65)
 s=get('/state');images={i['image_id']:i for i in get('/images')};oid=next(oid for oid,o in s['objects'].items() if not o.get('deleted'))
 recommendations=json.load(post('/objects/'+oid+'/recommend',{}))['recommendations'];assert len(recommendations)>=2
-out=Path(__file__).resolve().parents[2]/'logs/m0_obb_renderer';out.mkdir(exist_ok=True);results=[]
+out=Path(__file__).resolve().parents[2]/'logs/m0_native3dgs_renderer';out.mkdir(exist_ok=True);results=[]
 for item in recommendations[:2]:
     im=images[item['image_id']];r=np.asarray(im['world_to_camera_R']);t=np.asarray(im['world_to_camera_t']);k=im['K']
     raw=np.eye(4);raw[:3,:3]=r.T@np.diag([1,-1,-1]);raw[:3,3]=-r.T@t
@@ -19,7 +19,7 @@ for item in recommendations[:2]:
     np.testing.assert_allclose(rc,r,atol=1e-7);np.testing.assert_allclose(-rc@back[:3,3],t,atol=1e-7)
     b=dict(camera_world=world.tolist(),width=1250,height=704,fov=math.degrees(2*math.atan(im['height']/(2*k[1][1]))),coordinate_version=s['scene']['coordinate_version'],show_outside=False)
     start=time.monotonic();response=post('/roam/render',b);data=response.read();elapsed=time.monotonic()-start
-    assert response.headers['X-M0-Renderer']=='official-2dgs';assert int(response.headers['X-M0-Gaussians'])==s['scene']['gaussian_count']
+    assert response.headers['X-M0-Renderer']=='official-3dgs';assert int(response.headers['X-M0-Gaussians'])==s['scene']['gaussian_count']
     pixels=np.asarray(Image.open(io.BytesIO(data)));assert pixels.shape==(704,1250,3);fraction=float(np.mean(np.max(pixels,2)>15));assert fraction>.03
     (out/(im['image_id']+'.jpg')).write_bytes(data)
     results.append(dict(image_id=im['image_id'],seconds=elapsed,render_ms=response.headers['X-M0-Render-Ms'],gpu_mb=response.headers['X-M0-GPU-MB'],nonblack_fraction=fraction,gaussians=response.headers['X-M0-Gaussians']))

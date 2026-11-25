@@ -35,7 +35,7 @@ rgb=np.fromfile(ASSETS/'colors.bin',dtype='uint8').reshape(-1,3)
 original_ids=np.load(ASSETS/'display_indices.npy')
 sam=SamClient();pool=ThreadPoolExecutor(max_workers=1);jobs={};freeze_lock=threading.Lock()
 roam=RoamClient()
-app=FastAPI(title='M0 v2 · 三维工业先验工作台',version='2.1.0')
+app=FastAPI(title='M0 v2 · 三维工业先验工作台',version='2.2.0')
 
 @app.exception_handler(ValueError)
 async def invalid(request,exc):
@@ -74,7 +74,7 @@ def submit_job(kind,fn):
     pool.submit(run);return jobs[jid]
 
 @app.get('/api/health')
-def health():return dict(status='ok',version='2.1.0',revision=store.read()['revision'],images=len(images),display_points=len(xyz))
+def health():return dict(status='ok',version='2.2.0',revision=store.read()['revision'],images=len(images),display_points=len(xyz),renderer='official-3dgs',geometry_source=str(GAUSSIANS.relative_to(PROJECT)))
 @app.get('/api/state')
 def state():return store.read()
 @app.get('/api/images')
@@ -189,7 +189,7 @@ def roam_render(b:dict):
     s=store.read();require(b.get('coordinate_version')==s['scene']['coordinate_version'],'场景坐标已变更，请刷新。')
     result=roam.render({**b,'scene':s['scene']})
     return Response(base64.b64decode(result['jpeg']),media_type='image/jpeg',headers={
-        'X-M0-Renderer':'official-2dgs','X-M0-Render-Ms':str(round(result['seconds']*1000,1)),
+        'X-M0-Renderer':'official-3dgs','X-M0-Render-Ms':str(round(result['seconds']*1000,1)),
         'X-M0-Gaussians':str(result['gaussians']),'X-M0-GPU-MB':str(round(result['gpu_bytes']/1048576,1))})
 
 @app.post('/api/objects/{oid}/delete')
@@ -215,7 +215,7 @@ def render_image(image_id:str):
         if not path.exists():
             process=subprocess.run([sys.executable,'-m','m0.render_geometry',image_id],cwd=PROJECT,capture_output=True,text=True,timeout=180)
             (ROOT/'.jobs').mkdir(exist_ok=True);(ROOT/'.jobs'/(image_id+'_render.log')).write_text(process.stdout+process.stderr)
-            require(process.returncode==0,'2DGS 渲染失败：'+process.stderr[-800:])
+            require(process.returncode==0,'3DGS 渲染失败：'+process.stderr[-800:])
         return dict(path=str(path.relative_to(ROOT)),image_id=image_id)
     return submit_job('render',execute)
 
@@ -270,7 +270,12 @@ def get_draft(key:str):
     require(len(key)<180,'草稿键无效。');return store.draft(key)
 @app.put('/api/draft/{key}')
 def put_draft(key:str,b:dict):
-    require(len(key)<180 and len(json.dumps(b))<23000000,'草稿过大。');store.draft(key,b);return dict(saved=True)
+    require(len(key)<180 and len(json.dumps(b))<23000000,'草稿过大。')
+    with store.lock:
+        if key=='workspace':
+            require(b.get('base_revision')==store.read()['revision'],'REVISION_CONFLICT: 工作区数据已更新，请刷新后继续。')
+        store.draft(key,b)
+    return dict(saved=True)
 @app.get('/api/history')
 def history():return store.history()
 @app.get('/api/quality')

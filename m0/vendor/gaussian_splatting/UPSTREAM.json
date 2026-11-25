@@ -1,0 +1,44 @@
+{
+  "repository": "https://github.com/graphdeco-inria/gaussian-splatting",
+  "commit": "2eee0e26d2d5fd00ec462df47752223952f6bf4e",
+  "source_copy": "/mnt/sda/ubuntu/lkx/papers/paper_eli/repos/gaussian-splatting",
+  "unmodified_files": [
+    {
+      "path": "LICENSE.md",
+      "sha256": "cd5c95b3cfff3acc1bd412420c770f88809331c3db6872df11a970147aa8e81f"
+    },
+    {
+      "path": "gaussian_renderer/__init__.py",
+      "sha256": "75fcc86a57d27d9ea55b2904a4faaf075e7f73dba8c54bcb6cbd4c02c4884084"
+    },
+    {
+      "path": "scene/gaussian_model.py",
+      "sha256": "fb31f5a087733194985a82192746c36dc627596fd084600b29cfefb5c92fdeb5"
+    },
+    {
+      "path": "scene/cameras.py",
+      "sha256": "f5ff25ba0f3a56485cf77c3d396cd2ff66daf18be981b16ba3bbfb887e9f12c0"
+    },
+    {
+      "path": "scene/colmap_loader.py",
+      "sha256": "6948ce06366e1f727ddffc39a445bf4b6873824f02abc39df63eb0c8f0fb3f36"
+    },
+    {
+      "path": "utils/general_utils.py",
+      "sha256": "97553507caa4f3e6849919d9658b0b0da064e6c8f19142045da79072171ffa51"
+    },
+    {
+      "path": "utils/system_utils.py",
+      "sha256": "be01c02d3118c5d53808bc04efccd00c35a705a43a87c3583ea2f4752bc48553"
+    },
+    {
+      "path": "utils/graphics_utils.py",
+      "sha256": "d6e75de8161e98b72c2691e8a944a842e1b6625d2306035d079c868ac632edfc"
+    },
+    {
+      "path": "utils/sh_utils.py",
+      "sha256": "7d1ff267546390635e6d1f68c4f88c4a8b052482d5c9be1d32f06bc69e9a96e7"
+    }
+  ],
+  "package_adaptation": "Empty scene/utils package initializers; no Scene dataset loader is invoked."
+}

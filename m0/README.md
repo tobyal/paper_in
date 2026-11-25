@@ -1,4 +1,4 @@
-# M0 v2：三维工业先验工作台
+# M0 v2.2：原生 3DGS 工业先验工作台
 
 M0 只准备研究空间、工业对象粗框、基础文本以及可选的一张训练参考掩膜。正式多视角建模、语义融合、场景图和查询属于 M1–M5。新版替换七步主流程，**不再要求二维锚框、区域、多视角掩膜、关系或评价标注**。
 
@@ -8,9 +8,11 @@ M0 只准备研究空间、工业对象粗框、基础文本以及可选的一�
 
 ~~~bash
 cd /mnt/sda/ubuntu/lkx/papers/paper_in
-# 仅首次安装；复用已有研究环境中的 CUDA/2DGS/SAM，独立安装 Web 依赖
+# 仅首次安装；独立安装 Web 依赖和原生 3DGS 渲染扩展，不改 ReLaGS 环境
 envs/relags/bin/python -m venv --system-site-packages envs/m0
 envs/m0/bin/python -m pip install -r m0/requirements.txt
+# 从已有原工程复制并编译固定版本的官方 CUDA 源码；原目录只读
+envs/m0/bin/python -m m0.install_native_renderer --source /mnt/sda/ubuntu/lkx/papers/paper_eli/repos/gaussian-splatting/submodules/diff-gaussian-rasterization
 # 生成新的几何显示与原始相机索引；不读取旧语义或旧 M0 标注
 OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=1 envs/m0/bin/python -m m0.prepare
 bash m0/service.sh start
@@ -21,7 +23,7 @@ bash m0/service.sh stop
 
 默认 GPU 3、服务器 127.0.0.1:28760。Windows 运行 m0/forward.ps1，浏览器打开 **http://127.0.0.1:18766**。启动脚本也支持前台运行 bash m0/start.sh。若修改端口/GPU，首次启动前设置 M0_PORT/M0_GPU；已有活动服务不会被重复启动。它是单研究项目服务，使用 SSH 隧道访问，没有公网登录或多租户管理。
 
-所有静态依赖在本地加载，无 CDN 或外部视觉服务。新数据目录为 industrial_scene_prior_v2/；旧 industrial_scene_prior/ 保留原样，完整备份位置记录于部署报告。不要将 M0_DATA 指向 V1 目录。
+所有静态依赖在本地加载，无 CDN 或外部视觉服务。当前数据目录为 industrial_scene_prior_3dgs/。原生 3DGS 来自 data/gaussian_scene/original_3dgs/ 的未编辑 30000 次迭代场景，已与 paper_eli 原文件校验一致。运行时不依赖 paper_eli 路径。旧 industrial_scene_prior/、industrial_scene_prior_v2/ 和冻结版本保留归档。不要将 M0_DATA 指向旧目录。已有标注的切换记录见 [3DGS 迁移报告](docs/NATIVE_3DGS_REPORT.md)。
 
 ## 两个主页面
 
@@ -33,7 +35,7 @@ bash m0/service.sh stop
 
 **02 工业对象确定**
 
-第二步使用一个大幅高斯三维视窗。左键环绕、右键平移、滚轮缩放；点击画面后 WASD 移动、Q/E 升降、Shift 加速。移动、旋转和缩放期间持续请求服务器官方 2DGS 画面，不切换点云。等待新帧或网络失败时保留上一张高斯画面，包围框、手柄和拾取使用与该画面完全相同的相机。一次只发送一个渲染请求，后续请求采用最新相机位置，避免积压旧操作。首次打开等待高斯加载；实际帧率仍受 GPU、网络和 JPEG 传输影响，它不是浏览器逐帧本地 splatting。
+第二步使用一个大幅高斯三维视窗。左键环绕、右键平移、滚轮缩放；点击画面后 WASD 移动、Q/E 升降、Shift 加速。移动、旋转和缩放期间持续请求服务器官方原生 3DGS 画面，不切换点云。等待新帧或网络失败时保留上一张高斯画面，包围框、手柄和拾取使用与该画面完全相同的相机。一次只发送一个渲染请求，后续请求采用最新相机位置，避免积压旧操作。首次打开等待高斯加载；实际帧率仍受 GPU、网络和 JPEG 传输影响，它不是浏览器逐帧本地 splatting。
 
 点击“新建对象”，再点击设备表面创建独立框。使用“移动 / 缩放 / 旋转”切换彩色箭头、轴向方块和旋转圆环。左侧逐个显示/隐藏，也可全部显示/隐藏；选中对象后可聚焦。连续修改多个设备，最后点击顶部“一键保存全部”，全部变化写入同一事务修订。未保存新对象使用 draft_ ID，提交时统一分配永久 obj_ ID。同类设备分别建框。显示/隐藏不会取消已确认身份；删除为可追踪的软删除。
 
@@ -53,6 +55,7 @@ SQLite 保存事务修订，标准 JSON/NPY/JPEG 为可重建投影。并发旧�
 
 ## 文档与验证
 
+- [原生 3DGS 切换、来源及验证](docs/NATIVE_3DGS_REPORT.md)
 - [新版需求](docs/REQUIREMENTS_V2.zh.md)
 - [数据格式](docs/DATA_FORMAT.md)
 - [M1–M5 输入接口](docs/M1_M5_INTERFACE.md)
@@ -63,12 +66,17 @@ SQLite 保存事务修订，标准 JSON/NPY/JPEG 为可重建投影。并发旧�
 ~~~bash
 # 隔离目录软件契约测试；不会将正式数据确认为人工真值
 OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=1 envs/m0/bin/python -m m0.tests.test_contract
-# 读取真实浏览器验收对象与新 SAM/渲染结果，核对尺寸、来源及恢复
-envs/m0/bin/python -m m0.tests.real_scene_acceptance
+# 独立数据副本上验证 OBB、批量保存和可选参考导出
+envs/m0/bin/python -m m0.tests.test_obb_roaming
+envs/m0/bin/python -m m0.tests.test_optional_reference
+# 只读验证实际高斯漫游
+envs/m0/bin/python -m m0.tests.test_roam_renderer
 # 更新正式目录状态报告
 envs/m0/bin/python -m m0.report
 ~~~
 
-浏览器显示所有有限的 MWP 高斯中心和 SH DC 颜色（本场景 816,661 点），并提供服务器官方 2DGS 渲染。浏览器不是普通 3DGS splat 渲染器；没有将二维高斯错误解读为三维高斯。细结构和表面完整性仍应结合原图与真实渲染检查。
+第一步场景总览和内部拾取使用原生 3DGS 的全部 1,828,777 个有限中心；第二步始终显示服务器原生三维高斯椭球渲染，保留完整三轴尺度、旋转、不透明度和三阶 SH。支持场景范围内 / 完整背景，移动时不切换点云。固定参考相机保留 COLMAP 内参；本版本只输出原生 RGB，不伪造 2DGS 表面深度。后续 M1–M5 代码和 Baseline 0/R1 尚未切换。
 
 Three.js r169 / OrbitControls、Vue 3.5.13、Konva 9.3.18 均保留原许可。OrbitControls 的唯一依赖改为本地相对路径。参考 [Three.js BufferGeometry](https://threejs.org/docs/#api/en/core/BufferGeometry)、[OrbitControls](https://threejs.org/docs/#examples/en/controls/OrbitControls)、[官方 SAM predictor](https://github.com/facebookresearch/segment-anything/blob/main/segment_anything/predictor.py)。V1 源码可从 Git 提交 6d50092 或服务器备份恢复。
+
+原生渲染器最小源码位于 vendor/gaussian_splatting/，固定版本和逐文件哈希见 UPSTREAM.json，保留 Inria 的研究 / 非商业评估许可 LICENSE.md。M0 适配器仅加载模型、转换相机和选取场景子集，不改变渲染算法。

@@ -7,7 +7,7 @@ export PYTHONUNBUFFERED=1
 export PYTHONFAULTHANDLER=1
 export OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 OPENBLAS_NUM_THREADS=1
 export M0_PROJECT="$M0_PROJECT_ROOT"
-export M0_DATA="${M0_DATA:-$M0_PROJECT_ROOT/industrial_scene_prior_v2}"
+export M0_DATA="${M0_DATA:-$M0_PROJECT_ROOT/industrial_scene_prior_3dgs}"
 mkdir -p logs
 if [[ ! -f "$M0_DATA/.assets/initial_scene.json" ]]; then
   envs/m0/bin/python -m m0.prepare > logs/m0_prepare.log 2>&1

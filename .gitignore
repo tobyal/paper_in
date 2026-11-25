@@ -39,3 +39,6 @@
 # V2 annotation state and complete V1 backups are server-local.
 /industrial_scene_prior_v2/
 /backups/
+
+# M0 native 3DGS annotations remain server-local.
+/industrial_scene_prior_3dgs/

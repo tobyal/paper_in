@@ -3,7 +3,7 @@ import base64,io,json,os,shutil,sqlite3,time,zipfile
 from pathlib import Path
 import numpy as np
 from PIL import Image
-P=Path(__file__).resolve().parents[2];live=P/'industrial_scene_prior_v2';qa=P/'logs'/('m0_v2_reference_qa_'+time.strftime('%Y%m%dT%H%M%S'));qa.mkdir()
+P=Path(__file__).resolve().parents[2];live=P/'industrial_scene_prior_3dgs';qa=P/'logs'/('m0_v2_reference_qa_'+time.strftime('%Y%m%dT%H%M%S'));qa.mkdir()
 for name in ('.assets','.artifacts','.inference'):shutil.copytree(live/name,qa/name)
 src=sqlite3.connect('file:'+str(live/'.m0.sqlite3')+'?mode=ro',uri=True);dest=sqlite3.connect(qa/'.m0.sqlite3');src.backup(dest);src.close();dest.close()
 os.environ['M0_DATA']=str(qa)

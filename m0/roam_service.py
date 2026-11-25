@@ -1,4 +1,4 @@
-"""Persistent official 2DGS worker. Camera poses are expressed in industrial coordinates."""
+"""Persistent official 3DGS worker. Camera poses are expressed in industrial coordinates."""
 import json
 import select
 import subprocess

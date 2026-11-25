@@ -6,7 +6,7 @@ from pathlib import Path
 import numpy as np
 from PIL import Image
 from plyfile import PlyData
-from .settings import ASSETS, PROJECT, IMAGES, COLMAP, SPLIT, GAUSSIANS, BASE_GAUSSIANS, SAM_WEIGHTS
+from .settings import ASSETS, PROJECT, IMAGES, COLMAP, SPLIT, GAUSSIANS, MODEL_DIR, NATIVE_GS, SAM_WEIGHTS
 
 
 def sha(path):
@@ -18,7 +18,7 @@ def sha(path):
 
 def build():
     ASSETS.mkdir(parents=True, exist_ok=True)
-    loader = PROJECT / 'ReLaGS/scene/colmap_loader.py'
+    loader = NATIVE_GS / 'scene/colmap_loader.py'
     spec = importlib.util.spec_from_file_location('m0_colmap_loader', loader)
     module = importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
     cams = module.read_intrinsics_binary(str(COLMAP / 'cameras.bin'))
@@ -47,6 +47,7 @@ def build():
                             forward=(R.T @ np.array([0., 0., 1.])).tolist(), sha256=sha(path)))
     assert len(records) == len(train) + len(test)
     ply = PlyData.read(str(GAUSSIANS))['vertex']
+    assert all(f'scale_{i}' in ply.data.dtype.names for i in range(3)), 'Expected native 3DGS with three scales'
     xyz = np.column_stack([ply[x] for x in ('x', 'y', 'z')])
     ids = np.unique(np.linspace(0, len(xyz) - 1, min(24000, len(xyz))).astype(int))
     colors = np.clip(np.column_stack([ply[f'f_dc_{i}'][ids] for i in range(3)]) * .28209479177387814 + .5, 0, 1)
@@ -54,14 +55,16 @@ def build():
                   total_gaussians=len(xyz), coordinate_frame='colmap_raw', units='sfm_relative', sampling='deterministic evenly spaced original Gaussian indices')
     (ASSETS / 'scene_points.json').write_text(json.dumps(points))
     (ASSETS / 'images.json').write_text(json.dumps(records))
-    files = [SPLIT, COLMAP / 'cameras.bin', COLMAP / 'images.bin', GAUSSIANS, BASE_GAUSSIANS, SAM_WEIGHTS]
+    files = [SPLIT, COLMAP / 'cameras.bin', COLMAP / 'images.bin', COLMAP / 'points3D.bin', GAUSSIANS, MODEL_DIR / 'cfg_args', MODEL_DIR / 'cameras.json', SAM_WEIGHTS]
     provenance = dict(schema_version='m0-1.0', images=len(records), train=len(train), heldout=len(test),
                       source_files=[dict(path=str(p.relative_to(PROJECT)), bytes=p.stat().st_size, sha256=sha(p)) for p in files],
-                      allowed_inheritance=['undistorted_rgb', 'colmap_cameras', 'original_train_test_split', 'base_2dgs', 'mwp_geometry', 'sam_weights'],
+                      allowed_inheritance=['undistorted_rgb', 'colmap_cameras', 'original_train_test_split', 'original_native_3dgs', 'sam_weights'],
                       inherited_semantic_or_spatial_annotations=False,
                       pixel_coordinates='original undistorted image: x right, y down; integer pixel centers; xyxy boxes with exclusive right/bottom',
                       geometry_correspondence=dict(image_camera_dimensions='all exact', image_count=len(records), gaussian_frame='original COLMAP world frame', visual_confirmation_required=True))
-    (ASSETS / 'source_manifest.json').write_text(json.dumps(provenance, indent=2))
+    provenance['geometry_source'] = {**next(x for x in provenance['source_files'] if x['path']==str(GAUSSIANS.relative_to(PROJECT))),
+                                     'representation':'native_3dgs','iteration':30000,'gaussians':len(xyz),'scale_dimensions':3}
+    provenance['renderer'] = dict(name='official-3dgs',upstream=json.loads((NATIVE_GS/'UPSTREAM.json').read_text())['commit'])
     # V2 displays every finite Gaussian center, not the legacy 24k-point overview.
     from .spatial import initialize
     finite = np.isfinite(xyz).all(axis=1)
@@ -71,7 +74,7 @@ def build():
     (full_rgb[finite]*255).astype('uint8').tofile(ASSETS / 'colors.bin')
     np.save(ASSETS / 'display_indices.npy', display_ids)
     initial = initialize(xyz[finite], records)
-    initial.update(count=int(finite.sum()), total_gaussians=len(xyz), representation='all finite MWP 2DGS centers; RGB from SH DC, not Gaussian splatting',
+    initial.update(count=int(finite.sum()), total_gaussians=len(xyz), representation='native 3DGS; all finite centers for scene overview/picking, SH degree 3 splatting for object navigation',
                    position_format='little-endian float32 xyz', color_format='uint8 rgb', units='sfm_relative')
     (ASSETS / 'initial_scene.json').write_text(json.dumps(initial, indent=2))
     provenance['schema_version'] = 'm0-2.0'

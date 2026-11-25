@@ -137,7 +137,7 @@ export class Workbench {
   if(this.points)this.points.visible=false;
   const ready=this.presentedContext===this.viewKey&&!!this.nativeTexture;
   this.scene.background=ready?this.nativeTexture:new THREE.Color('#0c1522');
-  this.callbacks.renderStatus?.(ready?'真实 2DGS · 更新视角中…':'正在加载真实 2DGS…');
+  this.callbacks.renderStatus?.(ready?'真实 3DGS · 更新视角中…':'正在加载真实 3DGS…');
   this.scheduleGaussian();
  }
  scheduleGaussian(){
@@ -178,8 +178,8 @@ export class Workbench {
    this.presentedCamera=frameCamera;this.presentedTarget=frameTarget;this.presentedContext=context;
    if(this.points)this.points.visible=false;
    this.root.dataset.gaussianFrame=String((this.presentedFrames||0)+1);this.presentedFrames=(this.presentedFrames||0)+1;
-   this.callbacks.renderStatus?.('真实 2DGS · '+gaussians.toLocaleString()+' 高斯');this.invalidate();
-  }catch(e){if(this.mode==='object')this.callbacks.renderStatus?.((this.nativeTexture?'真实 2DGS · 保留上一帧：':'高斯画面暂不可用：')+e.message);}
+   this.callbacks.renderStatus?.('真实 3DGS · '+gaussians.toLocaleString()+' 高斯');this.invalidate();
+  }catch(e){if(this.mode==='object')this.callbacks.renderStatus?.((this.nativeTexture?'真实 3DGS · 保留上一帧：':'高斯画面暂不可用：')+e.message);}
   finally{this.roamBusy=false;if(this.roamPending||epoch!==this.renderEpoch){this.roamPending=false;this.scheduleGaussian();}}
  }
  dispose(){this.disposed=true;clearTimeout(this.roamTimer);this.gizmo.dispose();this.nativeTexture?.dispose();cancelAnimationFrame(this.animation);this.observer.disconnect();this.views.forEach(v=>v.controls.dispose());this.renderer.dispose();}

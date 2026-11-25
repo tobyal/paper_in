@@ -3,7 +3,7 @@
 schema_version 为 m0-2.0。只包含粗略空间和文本先验；所有大小是 SfM 相对单位。
 
 ~~~text
-industrial_scene_prior_v2/
+industrial_scene_prior_3dgs/
   scene/scene_bbox.json
   scene/coordinate_system.json
   scene/coordinate_transform.npy
@@ -37,7 +37,7 @@ scene_bbox 使用工业坐标中的 AABB：center:[x,y,z]、size:[width,depth,he
 
 修改场景几何产生新坐标版本；旧对象中心和姿态通过 T_new @ inverse(T_old) 变换，局部尺寸保持不变，原始世界角点精确保留，置为 draft。场景本身继续使用工业坐标 AABB。
 
-scene_gaussian_indices 是 int64、从零开始的原始 MWP PLY vertex 行号，按原顺序升序保存。判定仅为高斯中心在场景框内；manifest 绑定原始路径、SHA-256、vertex 元素与索引顺序。**不提供对象高斯索引**。显示点按所有有限原始中心生成，内部 display_indices 保留显示行与原始行映射。
+scene_gaussian_indices 是 int64、从零开始的原生 3DGS PLY vertex 行号，按原顺序升序保存。判定仅为高斯中心在场景框内；manifest 绑定原始路径、SHA-256、vertex 元素与索引顺序。**不提供对象高斯索引**。显示点按所有有限原始中心生成，内部 display_indices 保留显示行与原始行映射。
 
 ## 对象与参考
 
@@ -49,6 +49,12 @@ description.json 包含 object_id、name_zh、name_en、description_zh、descrip
 
 ## 冻结与来源
 
-manifest 引用已有原图、相机、划分、base/MWP 几何、SAM 权重的项目相对路径与 SHA-256，source_images.json 给出图像/相机对应和原始训练/留出划分。原始资源不重复复制。reference 只允许训练图，留出图不会作为模型输入上传或导出掩膜。
+manifest 引用已有原图、相机、划分、未编辑 native 3DGS 几何、SAM 权重的项目相对路径与 SHA-256，source_images.json 给出图像/相机对应和原始训练/留出划分。原始资源不重复复制。reference 只允许训练图，留出图不会作为模型输入上传或导出掩膜。
 
 冻结版本目录是独立完整数据投影，增加 FROZEN.json 文件哈希表、annotation_history.json。下载 ZIP 再验证冻结内容。新的编辑不会覆盖旧版本。无需 SAM、二维锚框、区域、关系、评价查询或旧七步确认。
+
+## v2.2 几何来源绑定
+
+manifest.geometry_source 和 scene_indices_binding 指向 original_3dgs/point_cloud/iteration_30000/point_cloud.ply，representation=native_3dgs、scale_dimensions=3。renderer=official-3dgs。dataset_id 与旧 2DGS 分开；migration 记录旧数据集及修订、备份和索引重新生成。相同 COLMAP 原始世界坐标允许保留人工 T、OBB 和坐标版本，但不允许复用旧高斯行号。M0 导出接口包含真实来源；后续消费者代码本次未适配。
+
+workspace 草稿 PUT 的 base_revision 必须等于当前修订，否则返回 409，防止升级前页面的自动保存覆盖新工作区。

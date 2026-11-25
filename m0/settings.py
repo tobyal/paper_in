@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 
 PROJECT = Path(os.environ.get('M0_PROJECT', Path(__file__).resolve().parents[1])).resolve()
-ROOT = Path(os.environ.get('M0_DATA', PROJECT / 'industrial_scene_prior')).resolve()
+ROOT = Path(os.environ.get('M0_DATA', PROJECT / 'industrial_scene_prior_v2')).resolve()
 ASSETS = ROOT / '.assets'
 IMAGES = PROJECT / 'data/images'
 COLMAP = PROJECT / 'data/colmap/sparse/0'

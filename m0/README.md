@@ -1,77 +1,68 @@
-# M0：工业场景先验标注平台
+# M0 v2：三维工业先验工作台
 
-服务器本地运行的 Vue 3 + Konva + FastAPI 标注工作台。全部视觉模型推理在 A6000 上执行；前端依赖已打包为本地静态文件，无 CDN、外部模型服务或遥测请求。
+M0 只准备研究空间、工业对象粗框、基础文本以及可选的一张训练参考掩膜。正式多视角建模、语义融合、场景图和查询属于 M1–M5。新版替换七步主流程，**不再要求二维锚框、区域、多视角掩膜、关系或评价标注**。
 
 ## 启动与访问
 
-工程目录：`/mnt/sda/ubuntu/lkx/papers/paper_in`。
+服务器工程：/mnt/sda/ubuntu/lkx/papers/paper_in。
 
-```bash
+~~~bash
 cd /mnt/sda/ubuntu/lkx/papers/paper_in
-# 现有服务器环境已经安装。新环境仅第一次执行：
+# 仅首次安装；复用已有研究环境中的 CUDA/2DGS/SAM，独立安装 Web 依赖
 envs/relags/bin/python -m venv --system-site-packages envs/m0
 envs/m0/bin/python -m pip install -r m0/requirements.txt
-envs/m0/bin/python -m m0.prepare
-
-# 推荐：独立用户级服务，不依赖 SSH 会话存活
+# 生成新的几何显示与原始相机索引；不读取旧语义或旧 M0 标注
+OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=1 envs/m0/bin/python -m m0.prepare
 bash m0/service.sh start
 bash m0/service.sh status
-# 可选：前台运行
-bash m0/start.sh
-```
+# 停止自己的服务
+bash m0/service.sh stop
+~~~
 
-默认使用 GPU 3，监听 `127.0.0.1:28760`。使用 `M0_GPU=... M0_PORT=... bash m0/service.sh start` 可选择空闲设备及端口；不要重复启动同一服务。
+默认 GPU 3、服务器 127.0.0.1:28760。Windows 运行 m0/forward.ps1，浏览器打开 **http://127.0.0.1:18766**。启动脚本也支持前台运行 bash m0/start.sh。若修改端口/GPU，首次启动前设置 M0_PORT/M0_GPU；已有活动服务不会被重复启动。它是单研究项目服务，使用 SSH 隧道访问，没有公网登录或多租户管理。
 
-Windows 本机运行 `m0/forward.ps1` 并保持 SSH 进程存活，然后打开 **http://127.0.0.1:18766**。脚本使用现有 A6000 密钥和证书；`-F NUL` 避免重复建立 SSH 配置中的代理反向转发。
+所有静态依赖在本地加载，无 CDN 或外部视觉服务。新数据目录为 industrial_scene_prior_v2/；旧 industrial_scene_prior/ 保留原样，完整备份位置记录于部署报告。不要将 M0_DATA 指向 V1 目录。
 
-通用 SSH 命令（若配置已有反向转发，请不要重复申请同一端口）：
+## 两个主页面
 
-```bash
-ssh -N -L 18766:127.0.0.1:28760 ubuntuA6000
-```
+**01 工业场景确定**
 
-此服务面向单研究项目的受信任 SSH 用户，只绑定环回地址。没有开发公网身份认证或多租户系统，不应直接暴露到公网。
+四个窗口共享同一空间框：自由三维、俯视、正视、侧视。左键旋转三维，右键平移，滚轮缩放；正交视图中拖动黄色边界/角点改变尺寸，拖动圆形中心移动。绿色线表示研究范围。可用“场景全览”“聚焦对象”和各视窗 ↺ 调整观察。
 
-## 七步工作流
+初始方向仅来自当前几何和相机的自动候选。右侧滑杆改变场景方向，“翻转上下”“调转前方”处理符号。初始底面取稳健高度范围，不把最大平面冒充地面。调整框底面，与真实地板核对后，再勾选底面和方向并确认。所有尺寸是 **SfM 相对单位，不是米**。
 
-1. **场景与区域**：浏览真实 RGB、相机轨迹和高斯中心；选择至少三个非共线地面点、原点和两个主通道方向点；拟合并核对轴向。在工业 XY 俯视图绘制区域。新渲染由官方几何接口生成，未读取旧地面估计。
-2. **对象清单**：在训练图像上画粗框，填写中英文类别、建模粒度和候选区域。每次创建分配永久实例 ID；相似设备分别创建。
-3. **SAM 分割**：框、正点、负点联合提示；选择三个真实候选之一；画笔、橡皮、多边形修正；撤销/重做、缩放和平移。掩膜以原始去畸变图像分辨率保存。多视角绑定同一个 object_id。
-4. **语义描述**：查看原图、掩膜叠加、对象裁剪；编辑中英文名称、同义词、简短描述和可见属性。可粘贴候选 JSON，未知填写 unknown。视觉描述中不写待评价的空间关系。
-5. **关系定义**：定义 near、left_of、right_of、inside_region；明确方向、单位、距离规则和阈值。仅填写必要的非几何已知知识；允许已知先验集合为空。
-6. **实验评价**：留出掩膜仅允许原始 44 张测试图像；独立管理语义查询、true/false/unknown 关系和七类查询。禁止与先验重复的关系（含对称/互逆形式）。
-7. **检查与导出**：问题可定位到对应对象/视角。六步均满足实际检查并经人工确认后，才允许冻结。先验与评价分别导出，不混合目录。
+**02 工业对象确定**
 
-界面里的“确认”表示人工审核。开发验收生成的真实对象候选、真实 SAM 掩膜和候选描述均保留为 draft/candidate；不能据此宣称正式 M0 已完成。
+点击“新建对象”，再点击三维设备表面，自动分配永久 ID 和初始粗框。用三视图调整中心和大小；填写中英文名称、简短双语视觉描述，人工核对后确认。允许框含少量背景；框内点只可作为粗略候选。类似设备单独创建。显示/隐藏不改变身份确认；删除为可追踪的软删除。
 
-## 保存、恢复与版本
+对象编辑中可打开“可选：单张 SAM 参考”。依据相机投影推荐少量完整入镜的训练图像，选择一张，使用投影提示框和正负点运行 SAM。支持三个候选、画笔/橡皮、多边形、撤销重做及原分辨率保存。它不运行批量分割或三维融合。推荐仅依据几何投影，不能保证遮挡情况或设备身份。
 
-- 掩膜编辑草稿在操作后约 0.8 秒保存到服务器。已有对象切换视角/页面时先提交待保存草稿；刷新后恢复。
-- 保存/确认生成不可覆盖的掩膜文件，保存原始三个候选、最终二值 PNG、提示、像素尺寸、编辑操作、叠加图、透明背景裁剪和 SHA-256。
-- SQLite 事务修订是权威存储；标准 JSON/NPY 是其可恢复投影。服务重启可重建 JSON，避免半次保存。
-- 每次数据写入检查 revision；过期编辑返回 409，保留草稿并要求刷新，避免静默覆盖。
-- 上游修改清除本步和下游完成确认，记录受影响步骤。已有结果保留供复核；坐标系变化后的区域必须重新确认。
-- 冻结前验证原图、几何、相机、划分和模型来源哈希。下载冻结版本时再次验证文件哈希；旧版本不随新编辑变化。
-- 原始推理与服务日志分别在 `industrial_scene_prior/.inference/`、`.jobs/`、`logs/m0_*`。独立用户服务停止命令：`bash m0/service.sh stop`。
+**检查 / 导出**
 
-## 数据、接口与验证
+场景、至少一个对象及其基础文本经人工确认即可冻结，SAM 不必填写；没有 5–8 个对象不会阻止导出。导出中没有评价数据、最终对象高斯索引或场景图。候选参考掩膜不进入正式导出。冻结会校验来源及文件哈希，旧版本不可覆盖。
 
+## 自动保存与恢复
+
+鼠标框调整和文字在约 0.65 秒后保存为服务器草稿；参考掩膜约 0.8 秒。请看到保存完成后再关闭。刷新可恢复同一修订的草稿。切换对象/页面会先保存待修改内容。显式确认只在人工点击确认时发生，不把自动保存变成确认。
+
+SQLite 保存事务修订，标准 JSON/NPY/JPEG 为可重建投影。并发旧修订返回 409。改变场景框/坐标会重新表达现有粗框并置为待复核，保留原始世界范围；旋转坐标后 AABB 可能扩大，需要重新调整。旧参考降为草稿。冻结版本保持原状。
+
+## 文档与验证
+
+- [新版需求](docs/REQUIREMENTS_V2.zh.md)
 - [数据格式](docs/DATA_FORMAT.md)
-- [M1–M5 输入契约](docs/M1_M5_INTERFACE.md)
-- [开发与实际验收报告](docs/IMPLEMENTATION_REPORT.md)
-- [原始用户需求](docs/REQUIREMENTS.zh.md)
+- [M1–M5 输入接口](docs/M1_M5_INTERFACE.md)
+- [实际验收、备份与限制](docs/IMPLEMENTATION_REPORT.md)
 
-```bash
-# 真实数据闭环验收：复用工作台中真实推车对象，生成新的 SAM 草稿，不设置人工确认
-envs/m0/bin/python -m m0.tests.real_scene_acceptance
-# 隔离目录中的 API、版本、泄漏防护、导出校验
+~~~bash
+# 隔离目录软件契约测试；不会将正式数据确认为人工真值
 OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=1 envs/m0/bin/python -m m0.tests.test_contract
-# 更新当前正式目录的实际数据完成状态
+# 读取真实浏览器验收对象与新 SAM/渲染结果，核对尺寸、来源及恢复
+envs/m0/bin/python -m m0.tests.real_scene_acceptance
+# 更新正式目录状态报告
 envs/m0/bin/python -m m0.report
-```
+~~~
 
-自动测试只验证软件行为，不能替代人工确认设备身份、地面方向、实例边界、语义或评价答案。M2–M5 正式算法未在本平台中实现。
+浏览器显示所有有限的 MWP 高斯中心和 SH DC 颜色（本场景 816,661 点），并提供服务器官方 2DGS 渲染。浏览器不是普通 3DGS splat 渲染器；没有将二维高斯错误解读为三维高斯。细结构和表面完整性仍应结合原图与真实渲染检查。
 
-## 依赖来源
-
-Vue 3.5.13 与 Konva 9.3.18 的原许可保留在 `static/vendor/`。SAM 使用现有官方 ViT-H 权重与 [SamPredictor 接口](https://github.com/facebookresearch/segment-anything/blob/main/segment_anything/predictor.py)；画布采用 [Konva](https://konvajs.org/docs/overview.html)，前端按 [Vue 无构建工具用法](https://vuejs.org/guide/quick-start.html)加载本地依赖，后端静态资源由 [FastAPI](https://fastapi.tiangolo.com/tutorial/static-files/) 提供。几何渲染仍使用仓库所固定的 ReLaGS 官方接口与原许可。
+Three.js r169 / OrbitControls、Vue 3.5.13、Konva 9.3.18 均保留原许可。OrbitControls 的唯一依赖改为本地相对路径。参考 [Three.js BufferGeometry](https://threejs.org/docs/#api/en/core/BufferGeometry)、[OrbitControls](https://threejs.org/docs/#examples/en/controls/OrbitControls)、[官方 SAM predictor](https://github.com/facebookresearch/segment-anything/blob/main/segment_anything/predictor.py)。V1 源码可从 Git 提交 6d50092 或服务器备份恢复。

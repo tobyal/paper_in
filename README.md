@@ -99,12 +99,12 @@ python3 scripts/bootstrap_sources.py
 
 上游代码、适配补丁及权重分别遵循其原许可，详见 [THIRD_PARTY.md](THIRD_PARTY.md)。工业结果没有被宣称为人工标注真值。
 
-## M0：工业先验标注平台
+## M0 v2：三维工业先验工作台
 
-新增独立的服务器本地 Vue / Konva / FastAPI 工作台，覆盖场景坐标与区域、对象清单、多视角 SAM 修正、双语描述、关系定义、独立评价与版本导出。仅继承原始 RGB、COLMAP、原始划分、基础高斯几何和通用模型权重；语义与空间先验重新标注。原 Baseline 0 / R1 记录保持原状。
+两个工作页：工业场景确定、工业对象确定。自由三维与三个正交视图共用空间框，直接点击设备创建粗略范围，再填写基础双语名称和描述；单张训练 SAM 参考可选。旧七步、区域、多视角掩膜、关系和评价标注不再是保存或导出的要求。
 
-- [启动与访问](m0/README.md) · [实际验收与限制](m0/docs/IMPLEMENTATION_REPORT.md)
-- [数据格式](m0/docs/DATA_FORMAT.md) · [M1–M5 接口](m0/docs/M1_M5_INTERFACE.md)
-- [交付时实际数据状态](m0/docs/DATA_STATUS_AT_DELIVERY.md)：1 个真实对象候选、2 个训练视角掩膜和 1 个留出视角掩膜，均待人工复核；正式 M0 尚未冻结。
+- [启动与操作](m0/README.md) · [真实验收及限制](m0/docs/IMPLEMENTATION_REPORT.md)
+- [数据格式](m0/docs/DATA_FORMAT.md) · [M1–M5 接口边界](m0/docs/M1_M5_INTERFACE.md)
+- [实际数据状态](m0/docs/DATA_STATUS_AT_DELIVERY.md)：场景、一个实际料架候选和单张参考均为待人工复核的草稿，正式数据未冻结。
 
-源码和文档纳入 Git；原图、标注数据、SQLite、模型、运行日志及工业场景工作台截图留在研究服务器或本地工作区。
+M0 不生成最终对象高斯实例、融合语义或场景图。Baseline 0/R1 和原始几何保持原状；V1 代码及数据在服务器完整备份，Git 旧版为 6d50092。原图、模型、标注、备份与工作台截图不进入本次源码提交。

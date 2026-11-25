@@ -62,7 +62,21 @@ def build():
                       pixel_coordinates='original undistorted image: x right, y down; integer pixel centers; xyxy boxes with exclusive right/bottom',
                       geometry_correspondence=dict(image_camera_dimensions='all exact', image_count=len(records), gaussian_frame='original COLMAP world frame', visual_confirmation_required=True))
     (ASSETS / 'source_manifest.json').write_text(json.dumps(provenance, indent=2))
-    print(json.dumps(provenance, indent=2))
+    # V2 displays every finite Gaussian center, not the legacy 24k-point overview.
+    from .spatial import initialize
+    finite = np.isfinite(xyz).all(axis=1)
+    display_ids = np.flatnonzero(finite)
+    full_rgb = np.clip(np.column_stack([ply[f'f_dc_{i}'] for i in range(3)]) * .28209479177387814 + .5, 0, 1)
+    xyz[finite].astype('<f4').tofile(ASSETS / 'positions.bin')
+    (full_rgb[finite]*255).astype('uint8').tofile(ASSETS / 'colors.bin')
+    np.save(ASSETS / 'display_indices.npy', display_ids)
+    initial = initialize(xyz[finite], records)
+    initial.update(count=int(finite.sum()), total_gaussians=len(xyz), representation='all finite MWP 2DGS centers; RGB from SH DC, not Gaussian splatting',
+                   position_format='little-endian float32 xyz', color_format='uint8 rgb', units='sfm_relative')
+    (ASSETS / 'initial_scene.json').write_text(json.dumps(initial, indent=2))
+    provenance['schema_version'] = 'm0-2.0'
+    (ASSETS / 'source_manifest.json').write_text(json.dumps(provenance, indent=2))
+    print(json.dumps(initial, indent=2))
 
 
 if __name__ == '__main__': build()

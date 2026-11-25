@@ -35,3 +35,7 @@
 # M0 annotation data and local transaction stores remain in the research workspace.
 /industrial_scene_prior/
 *.sqlite*
+
+# V2 annotation state and complete V1 backups are server-local.
+/industrial_scene_prior_v2/
+/backups/

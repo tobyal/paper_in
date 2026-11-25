@@ -1,0 +1,16 @@
+/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+OBB failed: cluster=1822, post_outlier_points=0
+Traceback (most recent call last):
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/ReLaGS/predict_3d_scene_graph.py", line 248, in <module>
+    main()
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/ReLaGS/predict_3d_scene_graph.py", line 154, in main
+    obb_preds = get_oriented_bounding_boxes(
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/ReLaGS/scene_graph/network_utils.py", line 21, in get_oriented_bounding_boxes
+    obb = pcd.get_oriented_bounding_box()
+RuntimeError: QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points
+
+While executing:  | qhull Qt
+Options selected for Qhull 2020.2.r 2020/08/31:
+  run-id 1664714468  Qtriangulate  _maxoutside  0
+

@@ -1,0 +1,336 @@
+{
+  "status": "verified",
+  "open3d_version": "0.20.0",
+  "checks": {
+    "gaussian_xyz_finite": true,
+    "pre_obb_points_exact": true,
+    "pre_obb_labels_exact": true,
+    "branch_labels_identical": true,
+    "level_2_length": true,
+    "level_2_ids_contiguous": true,
+    "level_2_feature_rows": true,
+    "level_3_length": true,
+    "level_3_ids_contiguous": true,
+    "level_3_feature_rows": true,
+    "upstream_l2_superpoint_assignments_exact": true,
+    "upstream_l2_all_gaussian_labels_exact": true
+  },
+  "core_methods_ast_identical": {
+    "assign_seg_label_torch": true,
+    "judge_connect_torch_opt": true,
+    "get_seg_data_torch": true,
+    "merge_small_segs_torch": true
+  },
+  "failure_groups": [
+    {
+      "cluster_id": 1822,
+      "gaussian_indices": [
+        267903
+      ],
+      "raw_count": 1,
+      "post_outlier_count": 0,
+      "coordinate_rank": 0,
+      "lineage": [
+        {
+          "level": 0,
+          "ancestor_ids": [
+            13672
+          ],
+          "whole_group_counts": [
+            1
+          ]
+        },
+        {
+          "level": 1,
+          "ancestor_ids": [
+            6513
+          ],
+          "whole_group_counts": [
+            1
+          ]
+        },
+        {
+          "level": 2,
+          "ancestor_ids": [
+            1822
+          ],
+          "whole_group_counts": [
+            1
+          ]
+        },
+        {
+          "level": 3,
+          "ancestor_ids": [
+            745
+          ],
+          "whole_group_counts": [
+            113
+          ]
+        }
+      ],
+      "unmodified_upstream_error": "QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points\n\nWhile executing:  | qhull Qt\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1717807781  Qtriangulate  _maxoutside  0\n",
+      "robust_true_trials": [
+        {
+          "filtered": false,
+          "success": false,
+          "error": "QH6214 qhull input error: not enough points(1) to construct initial simplex (need 4)\n\nWhile executing:  | qhull QJ\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1717807781  _maxoutside  0\n"
+        },
+        {
+          "filtered": true,
+          "success": false,
+          "error": "QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points\n\nWhile executing:  | qhull QJ\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1717807781  _maxoutside  0\n"
+        }
+      ]
+    },
+    {
+      "cluster_id": 1836,
+      "gaussian_indices": [
+        222574
+      ],
+      "raw_count": 1,
+      "post_outlier_count": 0,
+      "coordinate_rank": 0,
+      "lineage": [
+        {
+          "level": 0,
+          "ancestor_ids": [
+            13754
+          ],
+          "whole_group_counts": [
+            1
+          ]
+        },
+        {
+          "level": 1,
+          "ancestor_ids": [
+            6550
+          ],
+          "whole_group_counts": [
+            1
+          ]
+        },
+        {
+          "level": 2,
+          "ancestor_ids": [
+            1836
+          ],
+          "whole_group_counts": [
+            1
+          ]
+        },
+        {
+          "level": 3,
+          "ancestor_ids": [
+            701
+          ],
+          "whole_group_counts": [
+            204
+          ]
+        }
+      ],
+      "unmodified_upstream_error": "QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points\n\nWhile executing:  | qhull Qt\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1717807781  Qtriangulate  _maxoutside  0\n",
+      "robust_true_trials": [
+        {
+          "filtered": false,
+          "success": false,
+          "error": "QH6214 qhull input error: not enough points(1) to construct initial simplex (need 4)\n\nWhile executing:  | qhull QJ\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1717807781  _maxoutside  0\n"
+        },
+        {
+          "filtered": true,
+          "success": false,
+          "error": "QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points\n\nWhile executing:  | qhull QJ\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1717807781  _maxoutside  0\n"
+        }
+      ]
+    },
+    {
+      "cluster_id": 1927,
+      "gaussian_indices": [
+        388400
+      ],
+      "raw_count": 1,
+      "post_outlier_count": 0,
+      "coordinate_rank": 0,
+      "lineage": [
+        {
+          "level": 0,
+          "ancestor_ids": [
+            14662
+          ],
+          "whole_group_counts": [
+            1
+          ]
+        },
+        {
+          "level": 1,
+          "ancestor_ids": [
+            6887
+          ],
+          "whole_group_counts": [
+            1
+          ]
+        },
+        {
+          "level": 2,
+          "ancestor_ids": [
+            1927
+          ],
+          "whole_group_counts": [
+            1
+          ]
+        },
+        {
+          "level": 3,
+          "ancestor_ids": [
+            84
+          ],
+          "whole_group_counts": [
+            4567
+          ]
+        }
+      ],
+      "unmodified_upstream_error": "QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points\n\nWhile executing:  | qhull Qt\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1717807781  Qtriangulate  _maxoutside  0\n",
+      "robust_true_trials": [
+        {
+          "filtered": false,
+          "success": false,
+          "error": "QH6214 qhull input error: not enough points(1) to construct initial simplex (need 4)\n\nWhile executing:  | qhull QJ\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1717807781  _maxoutside  0\n"
+        },
+        {
+          "filtered": true,
+          "success": false,
+          "error": "QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points\n\nWhile executing:  | qhull QJ\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1717807781  _maxoutside  0\n"
+        }
+      ]
+    },
+    {
+      "cluster_id": 1987,
+      "gaussian_indices": [
+        193929
+      ],
+      "raw_count": 1,
+      "post_outlier_count": 0,
+      "coordinate_rank": 0,
+      "lineage": [
+        {
+          "level": 0,
+          "ancestor_ids": [
+            15395
+          ],
+          "whole_group_counts": [
+            1
+          ]
+        },
+        {
+          "level": 1,
+          "ancestor_ids": [
+            7163
+          ],
+          "whole_group_counts": [
+            1
+          ]
+        },
+        {
+          "level": 2,
+          "ancestor_ids": [
+            1987
+          ],
+          "whole_group_counts": [
+            1
+          ]
+        },
+        {
+          "level": 3,
+          "ancestor_ids": [
+            745
+          ],
+          "whole_group_counts": [
+            113
+          ]
+        }
+      ],
+      "unmodified_upstream_error": "QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points\n\nWhile executing:  | qhull Qt\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1717807781  Qtriangulate  _maxoutside  0\n",
+      "robust_true_trials": [
+        {
+          "filtered": false,
+          "success": false,
+          "error": "QH6214 qhull input error: not enough points(1) to construct initial simplex (need 4)\n\nWhile executing:  | qhull QJ\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1717807781  _maxoutside  0\n"
+        },
+        {
+          "filtered": true,
+          "success": false,
+          "error": "QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points\n\nWhile executing:  | qhull QJ\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1717807781  _maxoutside  0\n"
+        }
+      ]
+    },
+    {
+      "cluster_id": 2307,
+      "gaussian_indices": [
+        134386,
+        454841,
+        455273
+      ],
+      "raw_count": 3,
+      "post_outlier_count": 3,
+      "coordinate_rank": 2,
+      "lineage": [
+        {
+          "level": 0,
+          "ancestor_ids": [
+            19326
+          ],
+          "whole_group_counts": [
+            3
+          ]
+        },
+        {
+          "level": 1,
+          "ancestor_ids": [
+            8482
+          ],
+          "whole_group_counts": [
+            3
+          ]
+        },
+        {
+          "level": 2,
+          "ancestor_ids": [
+            2307
+          ],
+          "whole_group_counts": [
+            3
+          ]
+        },
+        {
+          "level": 3,
+          "ancestor_ids": [
+            523
+          ],
+          "whole_group_counts": [
+            101
+          ]
+        }
+      ],
+      "unmodified_upstream_error": "QH6214 qhull input error: not enough points(3) to construct initial simplex (need 4)\n\nWhile executing:  | qhull Qt\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1717807781  Qtriangulate  _pre-merge  _zero-centrum  _maxoutside  0\n",
+      "robust_true_trials": [
+        {
+          "filtered": false,
+          "success": false,
+          "error": "QH6214 qhull input error: not enough points(3) to construct initial simplex (need 4)\n\nWhile executing:  | qhull QJ\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1717807781  _maxoutside  0\n"
+        },
+        {
+          "filtered": true,
+          "success": false,
+          "error": "QH6214 qhull input error: not enough points(3) to construct initial simplex (need 4)\n\nWhile executing:  | qhull QJ\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1717807781  _maxoutside  0\n"
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "merge_proj.py": "652aa5479fb6185493328c5d0bc8f6a6263799eb5f052fb752a09a6fea735e3f",
+    "scene_graph/network_utils.py": "9e121c4e3483b33e170e95f46349d4e59cd68e5653079d3ac9701eb95ea2d125",
+    "predict_3d_scene_graph.py": "4e832775c3d206610f9196a6f96b403128d1d94c19673105aee4e424a1207814",
+    "sp_partition.py": "2e6a79156fa16a87b1ff4077d39594c4e7dc3d9465a66a08124edecf4de74bac"
+  },
+  "cause": "Released hierarchy postprocess merges tiny groups only at the final level, while graph prediction requests L2 and L3 without a degenerate-OBB guard. The same five failures reproduce in untouched upstream OBB code. L2 labels replay exactly from upstream grouping code; no point reordering, label truncation or feature-row mismatch found.",
+  "scope": "Proves this failure is an upstream boundary-condition gap triggered by industrial data; does not certify every upstream data assumption or semantic accuracy."
+}

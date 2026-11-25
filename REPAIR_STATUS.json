@@ -1,0 +1,38 @@
+{
+  "status": "completed_with_obb_boundary_repair",
+  "baseline0_items_unchanged": 4298,
+  "baseline0_changed": [],
+  "baseline0_added": [],
+  "relags_source_diff_unchanged": true,
+  "graph_levels": [
+    {
+      "level": 2,
+      "nodes": 2491,
+      "edges": 1645360,
+      "node_ids_preserved": true,
+      "all_predictions_finite": true,
+      "edges_incident_to_boundary_nodes": 52
+    },
+    {
+      "level": 3,
+      "nodes": 1189,
+      "edges": 359928,
+      "node_ids_preserved": true,
+      "all_predictions_finite": true,
+      "edges_incident_to_boundary_nodes": 0,
+      "prior_root_diagnostic_same_edges": true,
+      "prior_root_max_abs_feature_difference": 1.1622905731201172e-06,
+      "prior_root_top1_agreement": 1.0,
+      "root_comparison_note": "The full official loop recenters a second time before L3; the earlier root-only diagnostic centered once. Any difference here is not automatically due to the OBB repair."
+    }
+  ],
+  "new_relational_queries": 6,
+  "reused_open_queries": 12,
+  "empty_relational_results": 0,
+  "official_threshold_fallback_queries": 2,
+  "selected_edges_touching_degenerate_obb": 0,
+  "limitations": "Execution completeness does not establish industrial semantic or relational accuracy. Degenerate node orientation is underdetermined; baseline coordinates still lack metric/gravity calibration.",
+  "time_utc": "2026-11-25T01:51:29.847281+00:00",
+  "output_root": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_obb_repair_r1",
+  "original_baseline_status_preserved": true
+}

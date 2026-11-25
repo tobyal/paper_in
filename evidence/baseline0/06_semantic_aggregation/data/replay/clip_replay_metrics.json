@@ -1,0 +1,32 @@
+[
+  {
+    "level": 1,
+    "clusters": 9281,
+    "empty_clusters": 0,
+    "observation_count": 997938,
+    "kept": 988133,
+    "rejected": 9805,
+    "max_abs_replay_error": 0.0,
+    "feature_dim": 512
+  },
+  {
+    "level": 2,
+    "clusters": 2491,
+    "empty_clusters": 0,
+    "observation_count": 259823,
+    "kept": 257359,
+    "rejected": 2464,
+    "max_abs_replay_error": 0.0,
+    "feature_dim": 512
+  },
+  {
+    "level": 3,
+    "clusters": 1189,
+    "empty_clusters": 0,
+    "observation_count": 122344,
+    "kept": 121188,
+    "rejected": 1156,
+    "max_abs_replay_error": 0.0,
+    "feature_dim": 512
+  }
+]

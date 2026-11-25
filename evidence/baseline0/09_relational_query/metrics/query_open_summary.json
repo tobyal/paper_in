@@ -1,0 +1,1072 @@
+{
+  "status": "executed",
+  "mode": "open",
+  "query_config_sha256": "4ff5e0eb208b3a4a397653f3767d164fdaf0c93967bcc7176a9978af85bcef6c",
+  "queries": [
+    {
+      "type": "open_vocabulary",
+      "query": "industrial machine",
+      "hierarchical_candidates": [
+        [
+          3,
+          98,
+          98,
+          0.5469365119934082,
+          [
+            137,
+            484,
+            576,
+            669,
+            960,
+            1075,
+            1157,
+            1181,
+            1651,
+            2328
+          ],
+          [
+            0.5126333236694336,
+            0.46710434556007385,
+            0.4892325699329376,
+            0.47916173934936523,
+            0.41502144932746887,
+            0.498399555683136,
+            0.42596983909606934,
+            0.5079107880592346,
+            0.4884536862373352,
+            0.4535321593284607
+          ],
+          7014
+        ]
+      ],
+      "root_candidates": [
+        [
+          3,
+          98,
+          98,
+          0.547,
+          null,
+          null,
+          7014
+        ],
+        [
+          3,
+          220,
+          220,
+          0.522,
+          null,
+          null,
+          2197
+        ],
+        [
+          3,
+          99,
+          99,
+          0.514,
+          null,
+          null,
+          936
+        ],
+        [
+          3,
+          57,
+          57,
+          0.512,
+          null,
+          null,
+          2614
+        ],
+        [
+          3,
+          261,
+          261,
+          0.502,
+          null,
+          null,
+          1372
+        ]
+      ],
+      "official_arguments": {
+        "topk": 5,
+        "level_until": 0,
+        "filter_small": 50,
+        "remove_small": true
+      },
+      "empty_result": false,
+      "note": "Official hierarchy code selects root/leaf levels; its single-candidate similarity-gap behavior is preserved.",
+      "id": "open_00",
+      "selected_gaussians": 7014
+    },
+    {
+      "type": "open_vocabulary",
+      "query": "conveyor belt",
+      "hierarchical_candidates": [
+        [
+          2,
+          86,
+          122,
+          0.5842223763465881,
+          null,
+          null,
+          5096
+        ]
+      ],
+      "root_candidates": [
+        [
+          3,
+          86,
+          86,
+          0.582,
+          null,
+          null,
+          9128
+        ],
+        [
+          3,
+          98,
+          98,
+          0.572,
+          null,
+          null,
+          7014
+        ],
+        [
+          3,
+          22,
+          22,
+          0.571,
+          null,
+          null,
+          8897
+        ],
+        [
+          3,
+          0,
+          0,
+          0.559,
+          null,
+          null,
+          45067
+        ],
+        [
+          3,
+          261,
+          261,
+          0.554,
+          null,
+          null,
+          1372
+        ]
+      ],
+      "official_arguments": {
+        "topk": 5,
+        "level_until": 0,
+        "filter_small": 50,
+        "remove_small": true
+      },
+      "empty_result": false,
+      "note": "Official hierarchy code selects root/leaf levels; its single-candidate similarity-gap behavior is preserved.",
+      "id": "open_01",
+      "selected_gaussians": 5096
+    },
+    {
+      "type": "open_vocabulary",
+      "query": "metal frame",
+      "hierarchical_candidates": [
+        [
+          3,
+          0,
+          0,
+          0.5642641186714172,
+          [
+            0,
+            973,
+            1369,
+            1984,
+            2053,
+            2124
+          ],
+          [
+            0.5634508728981018,
+            0.4608643352985382,
+            0.4863976836204529,
+            0.5224786400794983,
+            0.46021875739097595,
+            0.5367692708969116
+          ],
+          45067
+        ],
+        [
+          2,
+          76,
+          108,
+          0.5399973392486572,
+          null,
+          null,
+          5122
+        ]
+      ],
+      "root_candidates": [
+        [
+          3,
+          0,
+          0,
+          0.564,
+          null,
+          null,
+          45067
+        ],
+        [
+          3,
+          76,
+          76,
+          0.527,
+          null,
+          null,
+          7281
+        ],
+        [
+          3,
+          594,
+          594,
+          0.508,
+          null,
+          null,
+          722
+        ],
+        [
+          3,
+          20,
+          20,
+          0.504,
+          null,
+          null,
+          17388
+        ],
+        [
+          3,
+          504,
+          504,
+          0.502,
+          null,
+          null,
+          77
+        ]
+      ],
+      "official_arguments": {
+        "topk": 5,
+        "level_until": 0,
+        "filter_small": 50,
+        "remove_small": true
+      },
+      "empty_result": false,
+      "note": "Official hierarchy code selects root/leaf levels; its single-candidate similarity-gap behavior is preserved.",
+      "id": "open_02",
+      "selected_gaussians": 50189
+    },
+    {
+      "type": "open_vocabulary",
+      "query": "control cabinet",
+      "hierarchical_candidates": [
+        [
+          3,
+          17,
+          17,
+          0.5466147661209106,
+          [
+            20,
+            21,
+            464,
+            1542,
+            1593,
+            1594
+          ],
+          [
+            0.5171188712120056,
+            0.4992235004901886,
+            0.4675222635269165,
+            0.4172998368740082,
+            0.48775866627693176,
+            0.4781235456466675
+          ],
+          6544
+        ]
+      ],
+      "root_candidates": [
+        [
+          3,
+          17,
+          17,
+          0.547,
+          null,
+          null,
+          6544
+        ],
+        [
+          3,
+          55,
+          55,
+          0.528,
+          null,
+          null,
+          3729
+        ],
+        [
+          3,
+          217,
+          217,
+          0.527,
+          null,
+          null,
+          4208
+        ],
+        [
+          3,
+          85,
+          85,
+          0.526,
+          null,
+          null,
+          3054
+        ],
+        [
+          3,
+          195,
+          195,
+          0.517,
+          null,
+          null,
+          522
+        ]
+      ],
+      "official_arguments": {
+        "topk": 5,
+        "level_until": 0,
+        "filter_small": 50,
+        "remove_small": true
+      },
+      "empty_result": false,
+      "note": "Official hierarchy code selects root/leaf levels; its single-candidate similarity-gap behavior is preserved.",
+      "id": "open_03",
+      "selected_gaussians": 6544
+    },
+    {
+      "type": "open_vocabulary",
+      "query": "blue plastic bin",
+      "hierarchical_candidates": [
+        [
+          2,
+          1,
+          8,
+          0.6045013070106506,
+          null,
+          null,
+          1755
+        ],
+        [
+          2,
+          1,
+          2,
+          0.6025935411453247,
+          null,
+          null,
+          1314
+        ],
+        [
+          3,
+          970,
+          970,
+          0.5940700769424438,
+          [
+            1795
+          ],
+          [
+            0.5861287713050842
+          ],
+          83
+        ],
+        [
+          2,
+          131,
+          183,
+          0.5937734246253967,
+          null,
+          null,
+          1042
+        ],
+        [
+          3,
+          2,
+          2,
+          0.5874103903770447,
+          [
+            3
+          ],
+          [
+            0.5492542386054993
+          ],
+          757
+        ]
+      ],
+      "root_candidates": [
+        [
+          3,
+          1,
+          1,
+          0.595,
+          null,
+          null,
+          6533
+        ],
+        [
+          3,
+          970,
+          970,
+          0.594,
+          null,
+          null,
+          83
+        ],
+        [
+          3,
+          2,
+          2,
+          0.587,
+          null,
+          null,
+          757
+        ],
+        [
+          3,
+          132,
+          132,
+          0.571,
+          null,
+          null,
+          809
+        ],
+        [
+          3,
+          131,
+          131,
+          0.567,
+          null,
+          null,
+          1467
+        ]
+      ],
+      "official_arguments": {
+        "topk": 5,
+        "level_until": 0,
+        "filter_small": 50,
+        "remove_small": true
+      },
+      "empty_result": false,
+      "note": "Official hierarchy code selects root/leaf levels; its single-candidate similarity-gap behavior is preserved.",
+      "id": "open_04",
+      "selected_gaussians": 4951
+    },
+    {
+      "type": "open_vocabulary",
+      "query": "gray plastic container",
+      "hierarchical_candidates": [
+        [
+          2,
+          27,
+          54,
+          0.6298633813858032,
+          null,
+          null,
+          3311
+        ],
+        [
+          2,
+          27,
+          104,
+          0.6280298829078674,
+          null,
+          null,
+          1103
+        ],
+        [
+          2,
+          27,
+          36,
+          0.6219162344932556,
+          null,
+          null,
+          2985
+        ]
+      ],
+      "root_candidates": [
+        [
+          3,
+          27,
+          27,
+          0.622,
+          null,
+          null,
+          8196
+        ],
+        [
+          3,
+          67,
+          67,
+          0.603,
+          null,
+          null,
+          1953
+        ],
+        [
+          3,
+          68,
+          68,
+          0.592,
+          null,
+          null,
+          1672
+        ],
+        [
+          3,
+          38,
+          38,
+          0.589,
+          null,
+          null,
+          3633
+        ],
+        [
+          3,
+          69,
+          69,
+          0.576,
+          null,
+          null,
+          1038
+        ]
+      ],
+      "official_arguments": {
+        "topk": 5,
+        "level_until": 0,
+        "filter_small": 50,
+        "remove_small": true
+      },
+      "empty_result": false,
+      "note": "Official hierarchy code selects root/leaf levels; its single-candidate similarity-gap behavior is preserved.",
+      "id": "open_05",
+      "selected_gaussians": 7399
+    },
+    {
+      "type": "open_vocabulary",
+      "query": "metal rack",
+      "hierarchical_candidates": [
+        [
+          2,
+          0,
+          0,
+          0.6635327935218811,
+          null,
+          null,
+          44705
+        ]
+      ],
+      "root_candidates": [
+        [
+          3,
+          0,
+          0,
+          0.662,
+          null,
+          null,
+          45067
+        ],
+        [
+          3,
+          20,
+          20,
+          0.599,
+          null,
+          null,
+          17388
+        ],
+        [
+          3,
+          1041,
+          1041,
+          0.585,
+          null,
+          null,
+          92
+        ],
+        [
+          3,
+          504,
+          504,
+          0.553,
+          null,
+          null,
+          77
+        ],
+        [
+          3,
+          76,
+          76,
+          0.553,
+          null,
+          null,
+          7281
+        ]
+      ],
+      "official_arguments": {
+        "topk": 5,
+        "level_until": 0,
+        "filter_small": 50,
+        "remove_small": true
+      },
+      "empty_result": false,
+      "note": "Official hierarchy code selects root/leaf levels; its single-candidate similarity-gap behavior is preserved.",
+      "id": "open_06",
+      "selected_gaussians": 44705
+    },
+    {
+      "type": "open_vocabulary",
+      "query": "roller",
+      "hierarchical_candidates": [
+        [
+          3,
+          1026,
+          1026,
+          0.44585850834846497,
+          [
+            1936
+          ],
+          [
+            0.4437777101993561
+          ],
+          156
+        ],
+        [
+          2,
+          775,
+          1427,
+          0.4426438808441162,
+          null,
+          null,
+          48
+        ],
+        [
+          3,
+          243,
+          243,
+          0.4401633143424988,
+          [
+            370,
+            1625,
+            1955,
+            2304
+          ],
+          [
+            0.43328824639320374,
+            0.42784225940704346,
+            0.4211767315864563,
+            0.4294716715812683
+          ],
+          697
+        ]
+      ],
+      "root_candidates": [
+        [
+          3,
+          1026,
+          1026,
+          0.446,
+          null,
+          null,
+          156
+        ],
+        [
+          3,
+          243,
+          243,
+          0.44,
+          null,
+          null,
+          697
+        ],
+        [
+          3,
+          316,
+          316,
+          0.436,
+          null,
+          null,
+          809
+        ],
+        [
+          3,
+          775,
+          775,
+          0.433,
+          null,
+          null,
+          89
+        ],
+        [
+          3,
+          1028,
+          1028,
+          0.432,
+          null,
+          null,
+          149
+        ]
+      ],
+      "official_arguments": {
+        "topk": 5,
+        "level_until": 0,
+        "filter_small": 50,
+        "remove_small": true
+      },
+      "empty_result": false,
+      "note": "Official hierarchy code selects root/leaf levels; its single-candidate similarity-gap behavior is preserved.",
+      "id": "open_07",
+      "selected_gaussians": 901
+    },
+    {
+      "type": "open_vocabulary",
+      "query": "pipe",
+      "hierarchical_candidates": [
+        [
+          3,
+          1026,
+          1026,
+          0.5952363014221191,
+          [
+            1936
+          ],
+          [
+            0.6014206409454346
+          ],
+          156
+        ]
+      ],
+      "root_candidates": [
+        [
+          3,
+          1026,
+          1026,
+          0.595,
+          null,
+          null,
+          156
+        ],
+        [
+          3,
+          1119,
+          1119,
+          0.593,
+          null,
+          null,
+          72
+        ],
+        [
+          3,
+          386,
+          386,
+          0.592,
+          null,
+          null,
+          141
+        ],
+        [
+          3,
+          856,
+          856,
+          0.591,
+          null,
+          null,
+          247
+        ],
+        [
+          3,
+          806,
+          806,
+          0.589,
+          null,
+          null,
+          76
+        ]
+      ],
+      "official_arguments": {
+        "topk": 5,
+        "level_until": 0,
+        "filter_small": 50,
+        "remove_small": true
+      },
+      "empty_result": false,
+      "note": "Official hierarchy code selects root/leaf levels; its single-candidate similarity-gap behavior is preserved.",
+      "id": "open_08",
+      "selected_gaussians": 156
+    },
+    {
+      "type": "open_vocabulary",
+      "query": "machine part",
+      "hierarchical_candidates": [
+        [
+          3,
+          84,
+          84,
+          0.5780683159828186,
+          [
+            120,
+            268,
+            269,
+            292,
+            661,
+            739,
+            861,
+            1039,
+            1110,
+            1927
+          ],
+          [
+            0.550952672958374,
+            0.5486562848091125,
+            0.5377538800239563,
+            0.5465804934501648,
+            0.5295525193214417,
+            0.5382784605026245,
+            0.5078427791595459,
+            0.5179877281188965,
+            0.532846212387085,
+            0.45639052987098694
+          ],
+          4567
+        ]
+      ],
+      "root_candidates": [
+        [
+          3,
+          84,
+          84,
+          0.578,
+          null,
+          null,
+          4567
+        ],
+        [
+          3,
+          109,
+          109,
+          0.572,
+          null,
+          null,
+          3310
+        ],
+        [
+          3,
+          98,
+          98,
+          0.569,
+          null,
+          null,
+          7014
+        ],
+        [
+          3,
+          271,
+          271,
+          0.566,
+          null,
+          null,
+          2855
+        ],
+        [
+          3,
+          61,
+          61,
+          0.565,
+          null,
+          null,
+          10066
+        ]
+      ],
+      "official_arguments": {
+        "topk": 5,
+        "level_until": 0,
+        "filter_small": 50,
+        "remove_small": true
+      },
+      "empty_result": false,
+      "note": "Official hierarchy code selects root/leaf levels; its single-candidate similarity-gap behavior is preserved.",
+      "id": "open_09",
+      "selected_gaussians": 4567
+    },
+    {
+      "type": "open_vocabulary",
+      "query": "floor",
+      "hierarchical_candidates": [
+        [
+          2,
+          345,
+          1810,
+          0.5946077108383179,
+          null,
+          null,
+          11
+        ],
+        [
+          2,
+          8,
+          10,
+          0.5840453505516052,
+          null,
+          null,
+          29493
+        ]
+      ],
+      "root_candidates": [
+        [
+          3,
+          8,
+          8,
+          0.581,
+          null,
+          null,
+          37299
+        ],
+        [
+          3,
+          345,
+          345,
+          0.57,
+          null,
+          null,
+          553
+        ],
+        [
+          3,
+          333,
+          333,
+          0.564,
+          null,
+          null,
+          189
+        ],
+        [
+          3,
+          286,
+          286,
+          0.554,
+          null,
+          null,
+          1057
+        ],
+        [
+          3,
+          542,
+          542,
+          0.554,
+          null,
+          null,
+          288
+        ]
+      ],
+      "official_arguments": {
+        "topk": 5,
+        "level_until": 0,
+        "filter_small": 50,
+        "remove_small": true
+      },
+      "empty_result": false,
+      "note": "Official hierarchy code selects root/leaf levels; its single-candidate similarity-gap behavior is preserved.",
+      "id": "open_10",
+      "selected_gaussians": 29504
+    },
+    {
+      "type": "open_vocabulary",
+      "query": "yellow floor marking",
+      "hierarchical_candidates": [
+        [
+          3,
+          365,
+          365,
+          0.43662795424461365,
+          [
+            584
+          ],
+          [
+            0.4824838638305664
+          ],
+          874
+        ],
+        [
+          2,
+          8,
+          10,
+          0.41901102662086487,
+          null,
+          null,
+          29493
+        ]
+      ],
+      "root_candidates": [
+        [
+          3,
+          365,
+          365,
+          0.437,
+          null,
+          null,
+          874
+        ],
+        [
+          3,
+          8,
+          8,
+          0.403,
+          null,
+          null,
+          37299
+        ],
+        [
+          3,
+          30,
+          30,
+          0.387,
+          null,
+          null,
+          3260
+        ],
+        [
+          3,
+          377,
+          377,
+          0.385,
+          null,
+          null,
+          694
+        ],
+        [
+          3,
+          1026,
+          1026,
+          0.373,
+          null,
+          null,
+          156
+        ]
+      ],
+      "official_arguments": {
+        "topk": 5,
+        "level_until": 0,
+        "filter_small": 50,
+        "remove_small": true
+      },
+      "empty_result": false,
+      "note": "Official hierarchy code selects root/leaf levels; its single-candidate similarity-gap behavior is preserved.",
+      "id": "open_11",
+      "selected_gaussians": 30367
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "levels": [
+    {
+      "level": 0,
+      "gaussians": 816661,
+      "identical_labels": true,
+      "different_label_count": 0,
+      "same_partition_up_to_label_permutation": true,
+      "clip_groups_with_multiple_openseg_matches": 0,
+      "openseg_groups_with_multiple_clip_matches": 0
+    },
+    {
+      "level": 1,
+      "gaussians": 816661,
+      "identical_labels": true,
+      "different_label_count": 0,
+      "same_partition_up_to_label_permutation": true,
+      "clip_groups_with_multiple_openseg_matches": 0,
+      "openseg_groups_with_multiple_clip_matches": 0
+    },
+    {
+      "level": 2,
+      "gaussians": 816661,
+      "identical_labels": true,
+      "different_label_count": 0,
+      "same_partition_up_to_label_permutation": true,
+      "clip_groups_with_multiple_openseg_matches": 0,
+      "openseg_groups_with_multiple_clip_matches": 0
+    },
+    {
+      "level": 3,
+      "gaussians": 816661,
+      "identical_labels": true,
+      "different_label_count": 0,
+      "same_partition_up_to_label_permutation": true,
+      "clip_groups_with_multiple_openseg_matches": 0,
+      "openseg_groups_with_multiple_clip_matches": 0
+    }
+  ],
+  "interpretation": "Read-only comparison. Open-vocabulary queries use their CLIP hierarchy; relation queries use their OpenSeg hierarchy. No IDs are transferred between unequal hierarchies."
+}

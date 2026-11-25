@@ -1,0 +1,30 @@
+{
+  "torch": "2.2.0+cu118",
+  "torchvision": "0.17.0+cu118",
+  "numpy": "1.26.4",
+  "open-clip-torch": "2.24.0",
+  "segment-anything": "1.0",
+  "pytorch3d": "0.7.7",
+  "pgeof": "0.3.4",
+  "transformers": "4.44.2",
+  "open3d": "0.20.0",
+  "matplotlib": "3.10.9",
+  "scikit-build-core": "1.1.2",
+  "nanobind": "3.1.0",
+  "cuda_toolkit": "/usr/local/cuda-11.8",
+  "relags_commit": "52cc0c98b0ccf9afebea31901bf79246650286b3",
+  "base2dgs_commit": "f3e3b9fa67bbd1c75e05167ff37391d8dab2a678",
+  "pytorch3d_source": "89653419d0973396f3eff1a381ba09a07fffc2ed",
+  "pgeof_source": "ab8f14e411d9cb2b9beba75b0cf1bfeaa8b24fcb",
+  "tensorflow": "2.14.1 in envs/openseg",
+  "jina_model": {
+    "jina_repo": "jinaai/jina-embeddings-v3",
+    "jina_revision": "ab036b023d30b4d1138c4c3bfa9f0c445ab455d6",
+    "jina_snapshot": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--jina-embeddings-v3/snapshots/ab036b023d30b4d1138c4c3bfa9f0c445ab455d6",
+    "task": "text-matching",
+    "truncate_dim": 512,
+    "jina_code_revision": "bd55a5ec8e6c0fb1d6c26efb4b6a4a74ce8a88d3",
+    "jina_code_repo": "jinaai/xlm-roberta-flash-implementation"
+  },
+  "torch_geometric": "2.5.3 (official environment 2.3.0 conflicts with vendored SPT Data.keys() API)"
+}

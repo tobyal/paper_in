@@ -1,0 +1,15 @@
+{
+  "image_names": [
+    "frame_000001.jpg",
+    "frame_000049.jpg",
+    "frame_000097.jpg",
+    "frame_000145.jpg",
+    "frame_000193.jpg",
+    "frame_000241.jpg",
+    "frame_000289.jpg",
+    "frame_000345.jpg"
+  ],
+  "render_width": 938,
+  "render_height": 528,
+  "selection": "Fixed held-out views spanning original trajectory; original COLMAP camera coordinates"
+}

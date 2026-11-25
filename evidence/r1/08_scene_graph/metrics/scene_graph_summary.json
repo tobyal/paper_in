@@ -1,0 +1,56 @@
+[
+  {
+    "level": 2,
+    "nodes": 2491,
+    "edges": 1645360,
+    "top1_relation_counts": {
+      "bigger than": 356994,
+      "attached to": 75557,
+      "close by": 16666,
+      "higher than": 247593,
+      "front": 191238,
+      "left": 9073,
+      "smaller than": 424550,
+      "lower than": 181538,
+      "behind": 69105,
+      "right": 26357,
+      "same as": 30161,
+      "standing on": 8796,
+      "lying on": 5788,
+      "hanging on": 377,
+      "connected to": 133,
+      "leaning against": 1364,
+      "cover": 2,
+      "supported by": 50,
+      "same symmetry as": 15,
+      "lying in": 3
+    },
+    "index_mapping_identity": true
+  },
+  {
+    "level": 3,
+    "nodes": 1189,
+    "edges": 359928,
+    "top1_relation_counts": {
+      "bigger than": 68710,
+      "attached to": 49184,
+      "higher than": 50560,
+      "front": 17567,
+      "left": 1992,
+      "smaller than": 96095,
+      "lower than": 47490,
+      "behind": 6121,
+      "close by": 3321,
+      "right": 5474,
+      "connected to": 178,
+      "standing on": 5208,
+      "same as": 5651,
+      "lying on": 871,
+      "leaning against": 906,
+      "hanging on": 598,
+      "same symmetry as": 1,
+      "supported by": 1
+    },
+    "index_mapping_identity": true
+  }
+]

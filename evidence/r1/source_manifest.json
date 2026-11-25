@@ -1,0 +1,66 @@
+{
+  "files": {
+    "scripts/report_obb_r1.py": {
+      "bytes": 14842,
+      "sha256": "b34fa29159107e4bd867479e18765dc1288b80a1909468afd3719535e2227f94"
+    },
+    "scripts/test_obb_boundary_r1.py": {
+      "bytes": 1621,
+      "sha256": "a251349417b5aeeefa1cb334cc4edab1aa8174b2ff47b55f4d4cba3d4fd8e4a1"
+    },
+    "scripts/obb_boundary_r1.py": {
+      "bytes": 3086,
+      "sha256": "3e55f588fab85c54e3f65b2cb098b9cd98b431f3d78725850bec8b99ea9f2534"
+    },
+    "scripts/continue_obb_r1.py": {
+      "bytes": 2648,
+      "sha256": "ea60676a82edc1f988b28cd013fc866f83c7c2844e64336c363a17abb2d62842"
+    },
+    "scripts/investigate_obb_r1.py": {
+      "bytes": 6747,
+      "sha256": "fc16f9566a2ed4a3de5ec98e1ab99c78be8147b8ddafd1bb758c2b62d1d5c913"
+    },
+    "scripts/predict_graph_obb_r1.py": {
+      "bytes": 2888,
+      "sha256": "8aa8252ebdb6a77d152c5d5ee07852b62cf816e55a7f9dd62c25e5540a896488"
+    },
+    "scripts/analyze_obb_r1.py": {
+      "bytes": 7872,
+      "sha256": "dc3e4cbf48c17beb36948d4c18da031e80a0d7d37a0f1e2f6ed6d9f4fd5f8208"
+    },
+    "scripts/prepare_obb_r1.py": {
+      "bytes": 2414,
+      "sha256": "744aa23fc2094e8e7573fe094b1b4ebb577bad4a4d10b82b43cd437ce701d3fb"
+    },
+    "scripts/run_stage_repair.py": {
+      "bytes": 7595,
+      "sha256": "80be2c8d4c4521cc5da417f8f161f64626d06905f26eb97ef9ffcab55b76f9ff"
+    },
+    "scripts/verify_edge_batch_r1.py": {
+      "bytes": 3331,
+      "sha256": "df6831011cdc474397017c277355db6772f130870e849a0fbd23fb1bcbf069b8"
+    },
+    "scripts/review_relations_r1.py": {
+      "bytes": 2350,
+      "sha256": "3279b3869cff1f1f95fe6ae75fff798f70c6e6e61cad2ee813cecb29693e67c7"
+    },
+    "scripts/query_baseline.py": {
+      "bytes": 7323,
+      "sha256": "167486b16879296accb64f1c272e11aa08c2b0975395dd51c3062d7f90b78538"
+    },
+    "scripts/export_scene_graph.py": {
+      "bytes": 3317,
+      "sha256": "f58766557facc8a5878ceb4cd24f81455deaa9924049591222317e125926f787"
+    },
+    "scripts/project_scene_graph.py": {
+      "bytes": 6039,
+      "sha256": "f81e179b1515b2c6023c9e1c447917efb683637b8cd66332adee1f08038a6a36"
+    },
+    "configs/industrial_queries.json": {
+      "bytes": 1118,
+      "sha256": "4ff5e0eb208b3a4a397653f3767d164fdaf0c93967bcc7176a9978af85bcef6c"
+    }
+  },
+  "parent_source_manifest": "baseline0_snapshot/final_source_manifest.json",
+  "relags_source_unchanged": true
+}

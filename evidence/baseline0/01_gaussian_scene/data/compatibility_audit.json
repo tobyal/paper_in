@@ -1,0 +1,43 @@
+{
+  "status": "incompatible_representation_retrain_required",
+  "check_type": "static PLY schema + upstream CUDA representation",
+  "source_gaussians": 1828777,
+  "source_scale_properties": [
+    "scale_0",
+    "scale_1",
+    "scale_2"
+  ],
+  "required_scale_properties": [
+    "scale_0",
+    "scale_1"
+  ],
+  "source_bbox_min": [
+    -56.86058044433594,
+    -12.189061164855957,
+    -31.67356300354004
+  ],
+  "source_bbox_max": [
+    27.300926208496094,
+    10.770877838134766,
+    30.684772491455078
+  ],
+  "source_quantile_01_99": [
+    [
+      -23.930583572387693,
+      -3.459730882644653,
+      -17.205268020629884
+    ],
+    [
+      14.914208946228026,
+      5.261444969177246,
+      11.456447601318356
+    ]
+  ],
+  "evidence": [
+    "ReLaGS/scene/gaussian_model.py:create_from_pcd repeat(1,2)",
+    "ReLaGS/submodules/diff-surfel-rasterization-trace-maxcontrib/cuda_rasterizer/rasterizer_impl.cu casts scales to glm::vec2",
+    "source 3DGS PLY contains scale_0,scale_1,scale_2"
+  ],
+  "decision": "Retain 3DGS as reference. Train official 2DGS from same COLMAP/image data. Dropping a scale would change geometry and orientation; not a lossless interface conversion.",
+  "source_model_not_sent_to_incompatible_cuda": true
+}

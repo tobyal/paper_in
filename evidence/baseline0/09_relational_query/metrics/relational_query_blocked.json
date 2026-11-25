@@ -1,0 +1,54 @@
+{
+  "status": "not_executed_upstream_failure",
+  "queries": [
+    {
+      "subject": "blue plastic bin",
+      "relation": "close by",
+      "object": "industrial machine"
+    },
+    {
+      "subject": "gray plastic container",
+      "relation": "standing on",
+      "object": "floor"
+    },
+    {
+      "subject": "control cabinet",
+      "relation": "attached to",
+      "object": "industrial machine"
+    },
+    {
+      "subject": "roller",
+      "relation": "part of",
+      "object": "conveyor belt"
+    },
+    {
+      "subject": "metal frame",
+      "relation": "connected to",
+      "object": "industrial machine"
+    },
+    {
+      "subject": "blue plastic bin",
+      "relation": "left",
+      "object": "gray plastic container"
+    }
+  ],
+  "query_count": 6,
+  "reason": "Official complete L2/L3 scene graph failed on five degenerate level-2 clusters during OBB construction. Independent root-only diagnostics are not a replacement.",
+  "missing_inputs": [
+    "outputs/relags_baseline/08_scene_graph/data/model/jina_edges_predicted.pt",
+    "outputs/relags_baseline/08_scene_graph/data/model/combined_edges_predicted.pt"
+  ],
+  "failure_record": "outputs/relags_baseline/08_scene_graph/runs/20261125T004631Z_predict_graph/run.log",
+  "planned_not_executed_command": [
+    "python",
+    "scripts/query_baseline.py",
+    "--clip-model",
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/05_hierarchical_grouping/data/model",
+    "--graph-model",
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/08_scene_graph/data/model",
+    "--output",
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/09_relational_query",
+    "--mode",
+    "relational"
+  ]
+}

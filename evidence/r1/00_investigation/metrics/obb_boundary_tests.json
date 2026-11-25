@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "case": "singleton",
+      "rank": 0,
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "case": "segment",
+      "rank": 1,
+      "extent": [
+        2.2360679774997894,
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "case": "triangle",
+      "rank": 2,
+      "extent": [
+        1.956431214543592,
+        1.0820113510307183,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "case": "duplicate",
+      "rank": 0,
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "case": "normal_3d_cloud_unchanged_bitwise_and_original_id_preserved",
+      "pass": true
+    }
+  ]
+}

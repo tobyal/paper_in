@@ -1,0 +1,7 @@
+[submodule "ReLaGS"]
+	path = ReLaGS
+	url = https://github.com/dfki-av/ReLaGS.git
+
+[submodule "external/2d-gaussian-splatting"]
+	path = external/2d-gaussian-splatting
+	url = https://github.com/hbb1/2d-gaussian-splatting.git

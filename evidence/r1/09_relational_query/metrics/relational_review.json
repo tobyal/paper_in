@@ -1,0 +1,599 @@
+{
+  "queries": [
+    {
+      "type": "relational",
+      "query": {
+        "subject": "blue plastic bin",
+        "relation": "close by",
+        "object": "industrial machine"
+      },
+      "selected": [
+        [
+          [
+            2208,
+            2
+          ],
+          [
+            0.6998016834259033,
+            0.5146918296813965,
+            0.8225101828575134
+          ]
+        ]
+      ],
+      "official_threshold_fallback_used": false,
+      "empty_result": false,
+      "official_arguments": {
+        "topk": 10,
+        "filter_small": 300,
+        "sim_thresholds": [
+          0.55,
+          0.4,
+          0.55
+        ],
+        "max_subjects": 3
+      },
+      "relation_features": "Official predictor saves top-1 Jina relation-class embeddings; continuous GNN edge predictions are saved separately in Stage 08.",
+      "id": "relation_00",
+      "selected_gaussians": 52,
+      "selected_edge_evidence": [
+        {
+          "level": 2,
+          "subject_cluster": 2208,
+          "object_cluster": 2068,
+          "predicted_relation_class": "front",
+          "subject_relation_object_similarities": [
+            0.6998016834259033,
+            0.5146918296813965,
+            0.8225101828575134
+          ],
+          "either_endpoint_has_degenerate_obb": false
+        }
+      ],
+      "ranked_candidate_edges": 36,
+      "candidate_edges_touching_degenerate_obb": 0,
+      "display_view": "frame_000241",
+      "visibility_by_reference": [
+        {
+          "frame": "frame_000001",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000049",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000097",
+          "mean_weight": 2.9615957686246475e-08,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000145",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000193",
+          "mean_weight": 0.000147109356475994,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000241",
+          "mean_weight": 0.0003046889614779502,
+          "pixels_above_0_5": 95
+        },
+        {
+          "frame": "frame_000289",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000345",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        }
+      ]
+    },
+    {
+      "type": "relational",
+      "query": {
+        "subject": "gray plastic container",
+        "relation": "standing on",
+        "object": "floor"
+      },
+      "selected": [
+        [
+          [
+            2208,
+            2
+          ],
+          [
+            0.6069232821464539,
+            0.6144150495529175,
+            0.6615813374519348
+          ]
+        ]
+      ],
+      "official_threshold_fallback_used": false,
+      "empty_result": false,
+      "official_arguments": {
+        "topk": 10,
+        "filter_small": 300,
+        "sim_thresholds": [
+          0.55,
+          0.4,
+          0.55
+        ],
+        "max_subjects": 3
+      },
+      "relation_features": "Official predictor saves top-1 Jina relation-class embeddings; continuous GNN edge predictions are saved separately in Stage 08.",
+      "id": "relation_01",
+      "selected_gaussians": 52,
+      "selected_edge_evidence": [
+        {
+          "level": 2,
+          "subject_cluster": 2208,
+          "object_cluster": 1608,
+          "predicted_relation_class": "front",
+          "subject_relation_object_similarities": [
+            0.6069232821464539,
+            0.6144150495529175,
+            0.6615813374519348
+          ],
+          "either_endpoint_has_degenerate_obb": false
+        }
+      ],
+      "ranked_candidate_edges": 72,
+      "candidate_edges_touching_degenerate_obb": 0,
+      "display_view": "frame_000241",
+      "visibility_by_reference": [
+        {
+          "frame": "frame_000001",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000049",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000097",
+          "mean_weight": 2.9615957686246475e-08,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000145",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000193",
+          "mean_weight": 0.000147109356475994,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000241",
+          "mean_weight": 0.0003046889614779502,
+          "pixels_above_0_5": 95
+        },
+        {
+          "frame": "frame_000289",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000345",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        }
+      ]
+    },
+    {
+      "type": "relational",
+      "query": {
+        "subject": "control cabinet",
+        "relation": "attached to",
+        "object": "industrial machine"
+      },
+      "selected": [
+        [
+          [
+            195,
+            3
+          ],
+          [
+            0.5882534384727478,
+            0.2584400177001953,
+            0.8135812282562256
+          ]
+        ]
+      ],
+      "official_threshold_fallback_used": true,
+      "empty_result": false,
+      "official_arguments": {
+        "topk": 10,
+        "filter_small": 300,
+        "sim_thresholds": [
+          0.55,
+          0.4,
+          0.55
+        ],
+        "max_subjects": 3
+      },
+      "relation_features": "Official predictor saves top-1 Jina relation-class embeddings; continuous GNN edge predictions are saved separately in Stage 08.",
+      "id": "relation_02",
+      "selected_gaussians": 522,
+      "selected_edge_evidence": [
+        {
+          "level": 3,
+          "subject_cluster": 195,
+          "object_cluster": 175,
+          "predicted_relation_class": "smaller than",
+          "subject_relation_object_similarities": [
+            0.5882534384727478,
+            0.2584400177001953,
+            0.8135812282562256
+          ],
+          "either_endpoint_has_degenerate_obb": false
+        }
+      ],
+      "ranked_candidate_edges": 27,
+      "candidate_edges_touching_degenerate_obb": 0,
+      "display_view": "frame_000241",
+      "visibility_by_reference": [
+        {
+          "frame": "frame_000001",
+          "mean_weight": 0.0001919189962791279,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000049",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000097",
+          "mean_weight": 9.7629717856762e-06,
+          "pixels_above_0_5": 2
+        },
+        {
+          "frame": "frame_000145",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000193",
+          "mean_weight": 0.0009209787240251899,
+          "pixels_above_0_5": 301
+        },
+        {
+          "frame": "frame_000241",
+          "mean_weight": 0.0010624101851135492,
+          "pixels_above_0_5": 259
+        },
+        {
+          "frame": "frame_000289",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000345",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        }
+      ]
+    },
+    {
+      "type": "relational",
+      "query": {
+        "subject": "roller",
+        "relation": "part of",
+        "object": "conveyor belt"
+      },
+      "selected": [
+        [
+          [
+            1446,
+            2
+          ],
+          [
+            0.48775970935821533,
+            0.43594101071357727,
+            0.7282926440238953
+          ]
+        ]
+      ],
+      "official_threshold_fallback_used": true,
+      "empty_result": false,
+      "official_arguments": {
+        "topk": 10,
+        "filter_small": 300,
+        "sim_thresholds": [
+          0.55,
+          0.4,
+          0.55
+        ],
+        "max_subjects": 3
+      },
+      "relation_features": "Official predictor saves top-1 Jina relation-class embeddings; continuous GNN edge predictions are saved separately in Stage 08.",
+      "id": "relation_03",
+      "selected_gaussians": 13,
+      "selected_edge_evidence": [
+        {
+          "level": 2,
+          "subject_cluster": 1446,
+          "object_cluster": 2068,
+          "predicted_relation_class": "front",
+          "subject_relation_object_similarities": [
+            0.48775970935821533,
+            0.43594101071357727,
+            0.7282926440238953
+          ],
+          "either_endpoint_has_degenerate_obb": false
+        }
+      ],
+      "ranked_candidate_edges": 65,
+      "candidate_edges_touching_degenerate_obb": 0,
+      "display_view": "frame_000241",
+      "visibility_by_reference": [
+        {
+          "frame": "frame_000001",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000049",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000097",
+          "mean_weight": 6.364383011714381e-07,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000145",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000193",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000241",
+          "mean_weight": 5.8125160649069585e-06,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000289",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000345",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        }
+      ]
+    },
+    {
+      "type": "relational",
+      "query": {
+        "subject": "metal frame",
+        "relation": "connected to",
+        "object": "industrial machine"
+      },
+      "selected": [
+        [
+          [
+            399,
+            2
+          ],
+          [
+            0.6415554285049438,
+            0.40918776392936707,
+            0.8255388140678406
+          ]
+        ],
+        [
+          [
+            261,
+            3
+          ],
+          [
+            0.639807939529419,
+            0.5625373721122742,
+            0.8086225986480713
+          ]
+        ]
+      ],
+      "official_threshold_fallback_used": false,
+      "empty_result": false,
+      "official_arguments": {
+        "topk": 10,
+        "filter_small": 300,
+        "sim_thresholds": [
+          0.55,
+          0.4,
+          0.55
+        ],
+        "max_subjects": 3
+      },
+      "relation_features": "Official predictor saves top-1 Jina relation-class embeddings; continuous GNN edge predictions are saved separately in Stage 08.",
+      "id": "relation_04",
+      "selected_gaussians": 1372,
+      "selected_edge_evidence": [
+        {
+          "level": 2,
+          "subject_cluster": 399,
+          "object_cluster": 2449,
+          "predicted_relation_class": "front",
+          "subject_relation_object_similarities": [
+            0.6415554285049438,
+            0.40918776392936707,
+            0.8255388140678406
+          ],
+          "either_endpoint_has_degenerate_obb": false
+        },
+        {
+          "level": 3,
+          "subject_cluster": 261,
+          "object_cluster": 179,
+          "predicted_relation_class": "close by",
+          "subject_relation_object_similarities": [
+            0.639807939529419,
+            0.5625373721122742,
+            0.8086225986480713
+          ],
+          "either_endpoint_has_degenerate_obb": false
+        }
+      ],
+      "ranked_candidate_edges": 5,
+      "candidate_edges_touching_degenerate_obb": 0,
+      "display_view": "frame_000001",
+      "visibility_by_reference": [
+        {
+          "frame": "frame_000001",
+          "mean_weight": 0.009962202049791813,
+          "pixels_above_0_5": 4974
+        },
+        {
+          "frame": "frame_000049",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000097",
+          "mean_weight": 0.0008072921773418784,
+          "pixels_above_0_5": 361
+        },
+        {
+          "frame": "frame_000145",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000193",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000241",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000289",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000345",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        }
+      ]
+    },
+    {
+      "type": "relational",
+      "query": {
+        "subject": "blue plastic bin",
+        "relation": "left",
+        "object": "gray plastic container"
+      },
+      "selected": [
+        [
+          [
+            2208,
+            2
+          ],
+          [
+            0.6998016834259033,
+            0.5034058094024658,
+            0.6064304709434509
+          ]
+        ]
+      ],
+      "official_threshold_fallback_used": false,
+      "empty_result": false,
+      "official_arguments": {
+        "topk": 10,
+        "filter_small": 300,
+        "sim_thresholds": [
+          0.55,
+          0.4,
+          0.55
+        ],
+        "max_subjects": 3
+      },
+      "relation_features": "Official predictor saves top-1 Jina relation-class embeddings; continuous GNN edge predictions are saved separately in Stage 08.",
+      "id": "relation_05",
+      "selected_gaussians": 52,
+      "selected_edge_evidence": [
+        {
+          "level": 2,
+          "subject_cluster": 2208,
+          "object_cluster": 2428,
+          "predicted_relation_class": "close by",
+          "subject_relation_object_similarities": [
+            0.6998016834259033,
+            0.5034058094024658,
+            0.6064304709434509
+          ],
+          "either_endpoint_has_degenerate_obb": false
+        }
+      ],
+      "ranked_candidate_edges": 35,
+      "candidate_edges_touching_degenerate_obb": 0,
+      "display_view": "frame_000241",
+      "visibility_by_reference": [
+        {
+          "frame": "frame_000001",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000049",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000097",
+          "mean_weight": 2.9615957686246475e-08,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000145",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000193",
+          "mean_weight": 0.000147109356475994,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000241",
+          "mean_weight": 0.0003046889614779502,
+          "pixels_above_0_5": 95
+        },
+        {
+          "frame": "frame_000289",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        },
+        {
+          "frame": "frame_000345",
+          "mean_weight": 0.0,
+          "pixels_above_0_5": 0
+        }
+      ]
+    }
+  ],
+  "no_ground_truth_accuracy": true,
+  "display_rule": "Largest mean projected selected-subject weight among eight fixed views; no selection changes."
+}

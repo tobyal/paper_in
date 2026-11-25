@@ -1,0 +1,56 @@
+{
+  "status": "diagnosed",
+  "no_geometry_fallback_or_node_filter_applied": true,
+  "levels": [
+    {
+      "level": 2,
+      "total_clusters": 2491,
+      "valid_obbs": 2486,
+      "failed_obbs": 5,
+      "failures": [
+        {
+          "cluster_id": 1822,
+          "original_points": 1,
+          "post_outlier_points": 0,
+          "error": "QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points\n\nWhile executing:  | qhull Qt\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1667454009  Qtriangulate  _maxoutside  0\n",
+          "artifacts": "outputs/relags_baseline/08_scene_graph/diagnostics/obb/level_2_cluster_1822"
+        },
+        {
+          "cluster_id": 1836,
+          "original_points": 1,
+          "post_outlier_points": 0,
+          "error": "QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points\n\nWhile executing:  | qhull Qt\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1667454009  Qtriangulate  _maxoutside  0\n",
+          "artifacts": "outputs/relags_baseline/08_scene_graph/diagnostics/obb/level_2_cluster_1836"
+        },
+        {
+          "cluster_id": 1927,
+          "original_points": 1,
+          "post_outlier_points": 0,
+          "error": "QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points\n\nWhile executing:  | qhull Qt\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1667454009  Qtriangulate  _maxoutside  0\n",
+          "artifacts": "outputs/relags_baseline/08_scene_graph/diagnostics/obb/level_2_cluster_1927"
+        },
+        {
+          "cluster_id": 1987,
+          "original_points": 1,
+          "post_outlier_points": 0,
+          "error": "QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points\n\nWhile executing:  | qhull Qt\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1667454009  Qtriangulate  _maxoutside  0\n",
+          "artifacts": "outputs/relags_baseline/08_scene_graph/diagnostics/obb/level_2_cluster_1987"
+        },
+        {
+          "cluster_id": 2307,
+          "original_points": 3,
+          "post_outlier_points": 3,
+          "error": "QH6214 qhull input error: not enough points(3) to construct initial simplex (need 4)\n\nWhile executing:  | qhull Qt\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1667470816  Qtriangulate  _pre-merge  _zero-centrum  _maxoutside  0\n",
+          "artifacts": "outputs/relags_baseline/08_scene_graph/diagnostics/obb/level_2_cluster_2307"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "total_clusters": 1189,
+      "valid_obbs": 1189,
+      "failed_obbs": 0,
+      "failures": []
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "status": "completed",
+  "fallbacks": [
+    {
+      "cluster_id": 1822,
+      "original_count": 1,
+      "post_outlier_count": 0,
+      "used_original_after_empty_sor": true,
+      "retained_local_indices": [],
+      "box_points": [
+        [
+          21.872652053833008,
+          -7.918348789215088,
+          23.161375045776367
+        ]
+      ],
+      "affine_rank": 0,
+      "center": [
+        21.872652053833008,
+        -7.918348789215088,
+        23.161375045776367
+      ],
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mass_center": [
+        21.872652053833008,
+        -7.918348789215088,
+        23.161375045776367
+      ],
+      "orientation_underdetermined": true,
+      "original_error": "QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points\n\nWhile executing:  | qhull Qt\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1721152374  Qtriangulate  _maxoutside  0\n",
+      "policy": "pca_on_existing_low_cardinality_points_without_padding_or_jitter",
+      "level": 2
+    },
+    {
+      "cluster_id": 1836,
+      "original_count": 1,
+      "post_outlier_count": 0,
+      "used_original_after_empty_sor": true,
+      "retained_local_indices": [],
+      "box_points": [
+        [
+          44.74364471435547,
+          -7.017482280731201,
+          9.909400939941406
+        ]
+      ],
+      "affine_rank": 0,
+      "center": [
+        44.74364471435547,
+        -7.017482280731201,
+        9.909400939941406
+      ],
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mass_center": [
+        44.74364471435547,
+        -7.017482280731201,
+        9.909400939941406
+      ],
+      "orientation_underdetermined": true,
+      "original_error": "QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points\n\nWhile executing:  | qhull Qt\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1721152374  Qtriangulate  _maxoutside  0\n",
+      "policy": "pca_on_existing_low_cardinality_points_without_padding_or_jitter",
+      "level": 2
+    },
+    {
+      "cluster_id": 1927,
+      "original_count": 1,
+      "post_outlier_count": 0,
+      "used_original_after_empty_sor": true,
+      "retained_local_indices": [],
+      "box_points": [
+        [
+          -4.340878009796143,
+          -0.042572081089019775,
+          16.832534790039062
+        ]
+      ],
+      "affine_rank": 0,
+      "center": [
+        -4.340878009796143,
+        -0.042572081089019775,
+        16.832534790039062
+      ],
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mass_center": [
+        -4.340878009796143,
+        -0.042572081089019775,
+        16.832534790039062
+      ],
+      "orientation_underdetermined": true,
+      "original_error": "QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points\n\nWhile executing:  | qhull Qt\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1721152374  Qtriangulate  _maxoutside  0\n",
+      "policy": "pca_on_existing_low_cardinality_points_without_padding_or_jitter",
+      "level": 2
+    },
+    {
+      "cluster_id": 1987,
+      "original_count": 1,
+      "post_outlier_count": 0,
+      "used_original_after_empty_sor": true,
+      "retained_local_indices": [],
+      "box_points": [
+        [
+          20.716909408569336,
+          -9.61252212524414,
+          23.17691421508789
+        ]
+      ],
+      "affine_rank": 0,
+      "center": [
+        20.716909408569336,
+        -9.61252212524414,
+        23.17691421508789
+      ],
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mass_center": [
+        20.716909408569336,
+        -9.61252212524414,
+        23.17691421508789
+      ],
+      "orientation_underdetermined": true,
+      "original_error": "QH6412 qhull input error (qh_initqhull_globals): expecting between 1 and 2147483631 points.  Got 0 3-d points\n\nWhile executing:  | qhull Qt\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1721152374  Qtriangulate  _maxoutside  0\n",
+      "policy": "pca_on_existing_low_cardinality_points_without_padding_or_jitter",
+      "level": 2
+    },
+    {
+      "cluster_id": 2307,
+      "original_count": 3,
+      "post_outlier_count": 3,
+      "used_original_after_empty_sor": false,
+      "retained_local_indices": [
+        0,
+        1,
+        2
+      ],
+      "box_points": [
+        [
+          30.8979434967041,
+          -4.204980373382568,
+          0.589202880859375
+        ],
+        [
+          30.828182220458984,
+          -4.2550740242004395,
+          0.7801641821861267
+        ],
+        [
+          30.81587028503418,
+          -4.152613639831543,
+          0.6023075580596924
+        ]
+      ],
+      "affine_rank": 2,
+      "center": [
+        30.842008554034336,
+        -4.216022708768765,
+        0.6869603000129092
+      ],
+      "rotation": [
+        [
+          -0.14953708211045022,
+          0.829274012408359,
+          0.5384638088284427
+        ],
+        [
+          -0.37364055749972136,
+          -0.5516002491010842,
+          0.7457411742574763
+        ],
+        [
+          0.9154405468763062,
+          -0.08967595851599879,
+          0.3923350960582635
+        ]
+      ],
+      "extent": [
+        0.2039626354315543,
+        0.09812185931309358,
+        0.0
+      ],
+      "mass_center": [
+        30.847332000732422,
+        -4.204222679138184,
+        0.6572248737017313
+      ],
+      "orientation_underdetermined": true,
+      "original_error": "QH6214 qhull input error: not enough points(3) to construct initial simplex (need 4)\n\nWhile executing:  | qhull Qt\nOptions selected for Qhull 2020.2.r 2020/08/31:\n  run-id 1721169181  Qtriangulate  _pre-merge  _zero-centrum  _maxoutside  0\n",
+      "policy": "pca_on_existing_low_cardinality_points_without_padding_or_jitter",
+      "level": 2
+    }
+  ],
+  "all_original_nodes_preserved": true,
+  "all_original_valid_boxes_bitwise_equal": true,
+  "core_predictor": "unmodified except runtime binding for degenerate OBB geometry and serialization destination",
+  "audit": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_obb_repair_r1/08_scene_graph/data/20261125T014233Z_predict_full_graph"
+}

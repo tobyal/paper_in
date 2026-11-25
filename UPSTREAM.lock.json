@@ -1,0 +1,33 @@
+{
+  "sources": [
+    {
+      "path": "ReLaGS",
+      "url": "https://github.com/dfki-av/ReLaGS.git",
+      "commit": "52cc0c98b0ccf9afebea31901bf79246650286b3",
+      "patch": "patches/relags_baseline.patch",
+      "patch_sha256": "aba38fb60088f990607d47741ef72b5dfb69c045e93a1aac4a5394b53a2c7eb6",
+      "verified_reconstructs_current_source_files": [
+        "graph_weight.py",
+        "max_weight_pruning.py",
+        "merge_proj.py",
+        "predict_3d_scene_graph.py",
+        "scene_graph/network_utils.py",
+        "scripts/image_encoding.py",
+        "submodules/diff-surfel-rasterization-trace-maxcontrib/setup.py",
+        "utils/vlm_utils.py"
+      ]
+    },
+    {
+      "path": "external/2d-gaussian-splatting",
+      "url": "https://github.com/hbb1/2d-gaussian-splatting.git",
+      "commit": "f3e3b9fa67bbd1c75e05167ff37391d8dab2a678",
+      "patch": "patches/2dgs_matplotlib_api.patch",
+      "patch_sha256": "ed1275c927b4b7c4e9209ac5db97b6cd88a6be770e0f2a6f89af835d40ff9bad",
+      "verified_reconstructs_current_source_files": [
+        "utils/general_utils.py"
+      ]
+    }
+  ],
+  "compiled_extensions": "Rebuild locally. Platform-specific .so binaries are not published.",
+  "baseline": "Original fixed upstream commits plus archived source-only adaptation patches. R1 uses an explicit runtime OBB guard, without additional upstream source changes."
+}

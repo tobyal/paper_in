@@ -1,0 +1,110 @@
+[
+  {
+    "vlm": "clip",
+    "level": 1,
+    "clusters": 9281,
+    "empty_clusters": 0,
+    "observations": 997938,
+    "retained": 988133,
+    "rejected": 9805,
+    "observations_quantiles": [
+      5.0,
+      68.0,
+      102.0,
+      149.0,
+      181.0,
+      215.0
+    ],
+    "color_key": "viridis 0..1 retention; magenta = no observations"
+  },
+  {
+    "vlm": "clip",
+    "level": 2,
+    "clusters": 2491,
+    "empty_clusters": 0,
+    "observations": 259823,
+    "retained": 257359,
+    "rejected": 2464,
+    "observations_quantiles": [
+      7.0,
+      66.0,
+      91.0,
+      146.0,
+      190.0,
+      255.0
+    ],
+    "color_key": "viridis 0..1 retention; magenta = no observations"
+  },
+  {
+    "vlm": "clip",
+    "level": 3,
+    "clusters": 1189,
+    "empty_clusters": 0,
+    "observations": 122344,
+    "retained": 121188,
+    "rejected": 1156,
+    "observations_quantiles": [
+      12.0,
+      67.0,
+      89.0,
+      140.0,
+      194.0,
+      278.0
+    ],
+    "color_key": "viridis 0..1 retention; magenta = no observations"
+  },
+  {
+    "vlm": "openseg",
+    "level": 1,
+    "clusters": 9281,
+    "empty_clusters": 0,
+    "observations": 997171,
+    "retained": 981882,
+    "rejected": 15289,
+    "observations_quantiles": [
+      5.0,
+      68.0,
+      102.0,
+      149.0,
+      181.0,
+      215.0
+    ],
+    "color_key": "viridis 0..1 retention; magenta = no observations"
+  },
+  {
+    "vlm": "openseg",
+    "level": 2,
+    "clusters": 2491,
+    "empty_clusters": 0,
+    "observations": 259704,
+    "retained": 255806,
+    "rejected": 3898,
+    "observations_quantiles": [
+      7.0,
+      66.0,
+      91.0,
+      146.0,
+      190.0,
+      255.0
+    ],
+    "color_key": "viridis 0..1 retention; magenta = no observations"
+  },
+  {
+    "vlm": "openseg",
+    "level": 3,
+    "clusters": 1189,
+    "empty_clusters": 0,
+    "observations": 122330,
+    "retained": 120363,
+    "rejected": 1967,
+    "observations_quantiles": [
+      12.0,
+      67.0,
+      89.0,
+      140.0,
+      193.5999999999999,
+      278.0
+    ],
+    "color_key": "viridis 0..1 retention; magenta = no observations"
+  }
+]

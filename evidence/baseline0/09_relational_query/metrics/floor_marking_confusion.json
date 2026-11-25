@@ -1,0 +1,15 @@
+{
+  "comparison": "floor vs yellow floor marking",
+  "floor_gaussians": 29504,
+  "marking_gaussians": 30367,
+  "intersection": 29493,
+  "union": 30378,
+  "prediction_set_jaccard": 0.9708670748568042,
+  "ground_truth_accuracy": false,
+  "reference_projection": {
+    "image": "frame_000345",
+    "max_absolute_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "mask_jaccard_at_0_5": 1.0
+  }
+}

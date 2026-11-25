@@ -1,0 +1,17 @@
+{
+  "status": "partial_reproduction_with_documented_failure",
+  "time_utc": "2026-11-25T00:58:21.119661+00:00",
+  "completed_stages": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "failed_full_graph_stage": 8,
+  "partial_query_stage": 9,
+  "conclusion_zh": "**Baseline 0 本次执行已留档：Stage 00–07 完成；完整 Stage 08 在官方 OBB 构建失败；Stage 09 完成 12 个开放词汇查询，6 个完整关系查询未执行。独立根层关系图为诊断结果，不能视作完整复现成功。**"
+}

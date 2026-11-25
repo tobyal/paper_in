@@ -1,0 +1,23 @@
+{
+  "levels": [
+    {
+      "level": 0,
+      "clusters": 21712,
+      "gaussians": 816661,
+      "cluster_size_quantiles": [
+        1.0,
+        15.0,
+        22.0,
+        36.0,
+        105.0,
+        4220.0
+      ],
+      "clusters_under_20": 9173,
+      "clusters_under_300": 21536,
+      "non_unique_parent_count": 0
+    }
+  ],
+  "view_count": 8,
+  "visualization": "Gaussian colors are deterministic cluster colors; alpha compositing may blend colors at boundaries",
+  "semantic_accuracy": "No ground-truth annotation; cluster counts are diagnostics, not accuracy"
+}

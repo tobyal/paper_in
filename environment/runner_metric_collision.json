@@ -1,0 +1,19 @@
+{
+  "time": "2026-11-25T00:29:08.878311+00:00",
+  "issue": "Execution metadata collided with expected scientific metrics/<job>.json",
+  "affected_observed": "02_image_encoding/metrics/encoding_diagnostics.json",
+  "raw_data_intact": true,
+  "fix": "Execution metadata uses <job>_execution.json when the default path is an explicitly declared output",
+  "old_attempt_record": "outputs/relags_baseline/02_image_encoding/runs/20261125T002628Z_encoding_diagnostics/status.json",
+  "recovery": "Re-execute read-only diagnostics over all preserved 350 mask/descriptor outputs",
+  "stage00_recovery": {
+    "source": "data/scene_information/coordinate_system.json",
+    "original_sha256_verified": "7aa0d18cbb2ae4f6088455c469695fb55ea63db6ba8594d0671781a8eb8b1d69",
+    "original_execution_record_retained": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/00_data_check/runs/20261124T145230Z_scene_audit"
+  },
+  "stage02_recovery": {
+    "expected_sha256": "da2a909940fe143f6327ccd72bc0728d2b7680ec64b802677cc155cf0651328e",
+    "recovered_sha256": "da2a909940fe143f6327ccd72bc0728d2b7680ec64b802677cc155cf0651328e",
+    "byte_identical_to_original_diagnostics": true
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "time_utc": "2026-11-25T00:57:44.171469+00:00",
+  "status": "verified_with_documented_full_graph_failure",
+  "checks": {
+    "all_copied_files_match_sha256": true,
+    "inventoried_original_sources_unchanged_size_mtime": true,
+    "runtime_data_model_output_links_internal_and_valid": true,
+    "metadata_result_names_isolated": true,
+    "no_running_stage_jobs": true,
+    "fresh_encoding_350_verified": true,
+    "rofa_replay_exact": true,
+    "branch_labels_identical": true,
+    "full_graph_failure_preserved": true,
+    "root_diagnostic_present": true,
+    "open_queries_12_relations_explicitly_missing": true
+  },
+  "migration_files": 798,
+  "migration_bytes": 5932662465,
+  "destination_failures": [],
+  "source_changes": [],
+  "source_inventory_not_available_for": [],
+  "links": [
+    {
+      "path": "data/language_features_openseg",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/02_image_encoding/data/language_features_openseg",
+      "exists": true
+    },
+    {
+      "path": "data/sparse",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/data/colmap/sparse",
+      "exists": true
+    },
+    {
+      "path": "data/language_features",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/02_image_encoding/data/language_features",
+      "exists": true
+    },
+    {
+      "path": "outputs/relags_baseline/08_scene_graph/data/model/sai_nag_openseg.pt",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/06_semantic_aggregation/data/model/sai_nag_openseg.pt",
+      "exists": true
+    },
+    {
+      "path": "outputs/relags_baseline/08_scene_graph/data/model/point_cloud/iteration_0",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/03_gaussian_pruning/data/model/point_cloud/iteration_0",
+      "exists": true
+    },
+    {
+      "path": "outputs/relags_baseline/08_scene_graph/diagnostics/root_only/model/sai_nag_openseg.pt",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/06_semantic_aggregation/data/model/sai_nag_openseg.pt",
+      "exists": true
+    },
+    {
+      "path": "outputs/relags_baseline/08_scene_graph/diagnostics/root_only/model/point_cloud/iteration_0",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/03_gaussian_pruning/data/model/point_cloud/iteration_0",
+      "exists": true
+    },
+    {
+      "path": "outputs/relags_baseline/04_superpoint_partition/data/model/point_cloud/iteration_0",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/03_gaussian_pruning/data/model/point_cloud/iteration_0",
+      "exists": true
+    },
+    {
+      "path": "outputs/relags_baseline/06_semantic_aggregation/data/model/nag-l1.pt",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/05_hierarchical_grouping/data/model/nag-l1.pt",
+      "exists": true
+    },
+    {
+      "path": "outputs/relags_baseline/06_semantic_aggregation/data/model/point_cloud/iteration_0",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/03_gaussian_pruning/data/model/point_cloud/iteration_0",
+      "exists": true
+    },
+    {
+      "path": "outputs/relags_baseline/03_gaussian_pruning/data/model/point_cloud/iteration_30000",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/01_gaussian_scene/data/model/point_cloud/iteration_30000",
+      "exists": true
+    },
+    {
+      "path": "outputs/relags_baseline/05_hierarchical_grouping/data/model/neighbor.pt",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/04_superpoint_partition/data/model/neighbor.pt",
+      "exists": true
+    },
+    {
+      "path": "outputs/relags_baseline/05_hierarchical_grouping/data/model/point_cloud/iteration_0",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/03_gaussian_pruning/data/model/point_cloud/iteration_0",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--jina-embeddings-v3/snapshots/ab036b023d30b4d1138c4c3bfa9f0c445ab455d6/special_tokens_map.json",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--jina-embeddings-v3/blobs/b1879d702821e753ffe4245048eee415d54a9385",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--jina-embeddings-v3/snapshots/ab036b023d30b4d1138c4c3bfa9f0c445ab455d6/config_sentence_transformers.json",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--jina-embeddings-v3/blobs/a1a7ba66b5eb9989572d080f000f19f1bf50e663",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--jina-embeddings-v3/snapshots/ab036b023d30b4d1138c4c3bfa9f0c445ab455d6/config.json",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--jina-embeddings-v3/blobs/f18804ccf37932b05a75e55c915cf9731b9f77f8",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--jina-embeddings-v3/snapshots/ab036b023d30b4d1138c4c3bfa9f0c445ab455d6/modules.json",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--jina-embeddings-v3/blobs/0499948a6c6b702a2ec2188f96b4ad51707feb62",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--jina-embeddings-v3/snapshots/ab036b023d30b4d1138c4c3bfa9f0c445ab455d6/tokenizer_config.json",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--jina-embeddings-v3/blobs/8cc4b5371966caaa004a24ee183bc6dbda9dbd4d",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--jina-embeddings-v3/snapshots/ab036b023d30b4d1138c4c3bfa9f0c445ab455d6/tokenizer.json",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--jina-embeddings-v3/blobs/f59925fcb90c92b894cb93e51bb9b4a6105c5c249fe54ce1c704420ac39b81af",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--jina-embeddings-v3/snapshots/ab036b023d30b4d1138c4c3bfa9f0c445ab455d6/custom_st.py",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--jina-embeddings-v3/blobs/119b8b6f9a3a635615d2ad28923ff41cbb5b68dc",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--jina-embeddings-v3/snapshots/ab036b023d30b4d1138c4c3bfa9f0c445ab455d6/model.safetensors",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--jina-embeddings-v3/blobs/17ca06efd886a065d0081912b04c9e27ef5086a9dd09659cce32aa9c84587f23",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--jina-embeddings-v3/snapshots/ab036b023d30b4d1138c4c3bfa9f0c445ab455d6/1_Pooling/config.json",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--jina-embeddings-v3/blobs/d3a67e3742137a59df2379aaf3d2c42e779414d0",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/snapshots/bd55a5ec8e6c0fb1d6c26efb4b6a4a74ce8a88d3/embedding.py",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/blobs/9172b66a6e124882320770a9f72b4376f76ca5f6",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/snapshots/bd55a5ec8e6c0fb1d6c26efb4b6a4a74ce8a88d3/mlp.py",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/blobs/9cf8f8194689873437f5183391690fac2b928aa0",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/snapshots/bd55a5ec8e6c0fb1d6c26efb4b6a4a74ce8a88d3/block.py",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/blobs/84cc71978b06655fcdf219ef590682b121591d8e",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/snapshots/bd55a5ec8e6c0fb1d6c26efb4b6a4a74ce8a88d3/mha.py",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/blobs/b835c203eaf0f81b5b3fe1720138f693e223804d",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/snapshots/bd55a5ec8e6c0fb1d6c26efb4b6a4a74ce8a88d3/modeling_lora.py",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/blobs/3480ab410c94905eaf2ac037464b1ae2e553fec0",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/snapshots/bd55a5ec8e6c0fb1d6c26efb4b6a4a74ce8a88d3/stochastic_depth.py",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/blobs/637f2575bc49a75382fdf751a6b83d3b91b046ac",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/snapshots/bd55a5ec8e6c0fb1d6c26efb4b6a4a74ce8a88d3/modeling_xlm_roberta.py",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/blobs/940eed02693be3e1aeb7b712da1d8cb03a161b12",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/snapshots/bd55a5ec8e6c0fb1d6c26efb4b6a4a74ce8a88d3/xlm_padding.py",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/blobs/ebfc303df5bc8e90ca8d8ca716db01351d52ad09",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/snapshots/bd55a5ec8e6c0fb1d6c26efb4b6a4a74ce8a88d3/rotary.py",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/blobs/df17f0cb92d3e30d016c1b78581ff257a010945f",
+      "exists": true
+    },
+    {
+      "path": "models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/snapshots/bd55a5ec8e6c0fb1d6c26efb4b6a4a74ce8a88d3/configuration_xlm_roberta.py",
+      "target": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/huggingface/hub/models--jinaai--xlm-roberta-flash-implementation/blobs/0a3cd777189fb18c42998119927b825a97e630b1",
+      "exists": true
+    }
+  ],
+  "external_or_broken_links": [],
+  "metadata_collisions": [],
+  "running_jobs": [],
+  "scope": "This validates copied inputs and retained results. It does not claim complete relation reconstruction or semantic accuracy."
+}

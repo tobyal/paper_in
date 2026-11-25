@@ -1,0 +1,50 @@
+{
+  "registered_views": 350,
+  "sfm_points": 136641,
+  "image_dimensions": [
+    1875,
+    1056
+  ],
+  "split": {
+    "train": 306,
+    "test": 44
+  },
+  "sfm_bbox_min": [
+    -62.93789994030829,
+    -8.246158616001065,
+    -53.679176188462016
+  ],
+  "sfm_bbox_max": [
+    67.60661095932927,
+    53.87093041425179,
+    31.231724384753818
+  ],
+  "sfm_quantile_01_99": [
+    [
+      -7.1915624465277,
+      -1.6078011637909622,
+      -12.725499363501912
+    ],
+    [
+      8.700608540306735,
+      4.221283569009188,
+      7.156181756201924
+    ]
+  ],
+  "camera_bbox_min": [
+    -2.240134388163085,
+    -1.1151403477837345,
+    -5.467476256685582
+  ],
+  "camera_bbox_max": [
+    2.7997523930788772,
+    1.5617489587266913,
+    3.8756483777594677
+  ],
+  "coordinate_system": "Original COLMAP world coordinates; R(q), t map world to camera; no recenter, rotation or metric rescaling",
+  "physical_scale": "unverified",
+  "camera_hardware": "not found in supplied records",
+  "equipment_models": "not independently verified; industrial workstations/machinery visible",
+  "image_camera_names_match": true,
+  "ground_reference": "Historical LangSplat-derived plane archived in previous_work only; not applied"
+}

@@ -1,0 +1,127 @@
+{
+  "per_query": [
+    {
+      "id": "relation_00",
+      "frame": "frame_000241",
+      "max_xy": [
+        768,
+        354
+      ],
+      "max_projected_selection": 0.6672754287719727,
+      "mean_projected_selection": 0.0003046889614779502,
+      "pixels_gt_0_5": 95,
+      "pixels_gt_0_1": 354,
+      "display_crop_box": [
+        708,
+        294,
+        828,
+        414
+      ]
+    },
+    {
+      "id": "relation_01",
+      "frame": "frame_000241",
+      "max_xy": [
+        768,
+        354
+      ],
+      "max_projected_selection": 0.6672754287719727,
+      "mean_projected_selection": 0.0003046889614779502,
+      "pixels_gt_0_5": 95,
+      "pixels_gt_0_1": 354,
+      "display_crop_box": [
+        708,
+        294,
+        828,
+        414
+      ]
+    },
+    {
+      "id": "relation_02",
+      "frame": "frame_000241",
+      "max_xy": [
+        937,
+        445
+      ],
+      "max_projected_selection": 0.7963272929191589,
+      "mean_projected_selection": 0.0010624101851135492,
+      "pixels_gt_0_5": 259,
+      "pixels_gt_0_1": 1331,
+      "display_crop_box": [
+        818,
+        385,
+        938,
+        505
+      ]
+    },
+    {
+      "id": "relation_03",
+      "frame": "frame_000241",
+      "max_xy": [
+        370,
+        224
+      ],
+      "max_projected_selection": 0.17341645061969757,
+      "mean_projected_selection": 5.8125160649069585e-06,
+      "pixels_gt_0_5": 0,
+      "pixels_gt_0_1": 16,
+      "display_crop_box": [
+        310,
+        164,
+        430,
+        284
+      ]
+    },
+    {
+      "id": "relation_04",
+      "frame": "frame_000001",
+      "max_xy": [
+        78,
+        24
+      ],
+      "max_projected_selection": 0.9999000430107117,
+      "mean_projected_selection": 0.009962202049791813,
+      "pixels_gt_0_5": 4974,
+      "pixels_gt_0_1": 5851,
+      "display_crop_box": [
+        18,
+        0,
+        138,
+        120
+      ]
+    },
+    {
+      "id": "relation_05",
+      "frame": "frame_000241",
+      "max_xy": [
+        768,
+        354
+      ],
+      "max_projected_selection": 0.6672754287719727,
+      "mean_projected_selection": 0.0003046889614779502,
+      "pixels_gt_0_5": 95,
+      "pixels_gt_0_1": 354,
+      "display_crop_box": [
+        708,
+        294,
+        828,
+        414
+      ]
+    }
+  ],
+  "identical_selected_gaussian_sets": [
+    [
+      "relation_00",
+      "relation_01"
+    ],
+    [
+      "relation_00",
+      "relation_05"
+    ],
+    [
+      "relation_01",
+      "relation_05"
+    ]
+  ],
+  "interpretation": "Projection size and agreement between predictions are not accuracy or ground-truth IoU."
+}

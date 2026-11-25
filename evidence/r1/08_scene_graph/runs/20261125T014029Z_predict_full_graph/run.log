@@ -1,0 +1,44 @@
+/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+OBB failed: cluster=1822, post_outlier_points=0
+OBB failed: cluster=1836, post_outlier_points=0
+OBB failed: cluster=1927, post_outlier_points=0
+OBB failed: cluster=1987, post_outlier_points=0
+OBB failed: cluster=2307, post_outlier_points=3
+Level 2 edges:   0%|          | 0/1 [00:00<?, ?it/s]Level 2 edges:   0%|          | 0/1 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/scripts/predict_graph_obb_r1.py", line 43, in <module>
+    predictor.main()
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/ReLaGS/predict_3d_scene_graph.py", line 206, in main
+    batch_edge_feat = model(
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/ReLaGS/scene_graph/graph_net.py", line 460, in forward
+    node_feat, edge_feat = layer(node_feat, edge_feat, edge_index)
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/ReLaGS/scene_graph/graph_net.py", line 376, in forward
+    h_attn, e_attn = self.attn(node_feat, edge_index, edge_feat)  # (N,H,D)->(N,512), (E,H,D)->(E,512)
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/ReLaGS/scene_graph/graph_net.py", line 304, in forward
+    e_delta = self.edge_mlp(edge_cat)        # [E, in_dim]
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.14 GiB. GPU 0 has a total capacity of 47.40 GiB of which 1.62 GiB is free. Including non-PyTorch memory, this process has 45.76 GiB memory in use. Of the allocated memory 42.29 GiB is allocated by PyTorch, and 3.16 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

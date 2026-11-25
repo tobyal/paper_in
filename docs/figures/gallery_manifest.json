@@ -1,0 +1,146 @@
+{
+  "reference_camera": "frame_000049 for stages 00-08; query views explicitly labeled",
+  "baseline0_and_r1_unchanged": true,
+  "figures": [
+    {
+      "stage": 0,
+      "display": "outputs/stage_gallery/stage_00.jpg",
+      "title": "00 | Data and camera reconstruction",
+      "raw_artifacts": [
+        "data/images/",
+        "data/colmap/sparse/0/",
+        "outputs/relags_baseline/00_data_check/data/camera_trajectory.json"
+      ],
+      "display_only": true
+    },
+    {
+      "stage": 1,
+      "display": "outputs/stage_gallery/stage_01.jpg",
+      "title": "01 | Gaussian geometry reconstruction",
+      "raw_artifacts": [
+        "outputs/relags_baseline/01_gaussian_scene/data/model/",
+        "outputs/relags_baseline/01_gaussian_scene/visualizations/reconstruction/"
+      ],
+      "display_only": true
+    },
+    {
+      "stage": 2,
+      "display": "outputs/stage_gallery/stage_02.jpg",
+      "title": "02 | New masks and visual-language features",
+      "raw_artifacts": [
+        "outputs/relags_baseline/02_image_encoding/data/language_features/",
+        "outputs/relags_baseline/02_image_encoding/data/language_features_openseg/"
+      ],
+      "display_only": true
+    },
+    {
+      "stage": 3,
+      "display": "outputs/stage_gallery/stage_03.jpg",
+      "title": "03 | Maximum-weight Gaussian pruning",
+      "raw_artifacts": [
+        "outputs/relags_baseline/03_gaussian_pruning/data/",
+        "outputs/relags_baseline/03_gaussian_pruning/metrics/pruning_comparison.json"
+      ],
+      "display_only": true
+    },
+    {
+      "stage": 4,
+      "display": "outputs/stage_gallery/stage_04.jpg",
+      "title": "04 | Initial Superpoint partition",
+      "raw_artifacts": [
+        "outputs/relags_baseline/04_superpoint_partition/data/model/neighbor.pt",
+        "outputs/relags_baseline/04_superpoint_partition/data/hierarchy_labels.npz"
+      ],
+      "display_only": true
+    },
+    {
+      "stage": 5,
+      "display": "outputs/stage_gallery/stage_05.jpg",
+      "title": "05 | Hierarchical Gaussian grouping",
+      "raw_artifacts": [
+        "outputs/relags_baseline/05_hierarchical_grouping/data/model/sai_nag_3.0.pt",
+        "outputs/relags_baseline/05_hierarchical_grouping/data/"
+      ],
+      "display_only": true
+    },
+    {
+      "stage": 6,
+      "display": "outputs/stage_gallery/stage_06.jpg",
+      "title": "06 | ROFA multi-view feature aggregation",
+      "raw_artifacts": [
+        "outputs/relags_baseline/06_semantic_aggregation/data/",
+        "outputs/relags_baseline/06_semantic_aggregation/data/replay/"
+      ],
+      "display_only": true
+    },
+    {
+      "stage": 7,
+      "display": "outputs/stage_gallery/stage_07.jpg",
+      "title": "07 | Object / part hierarchy export",
+      "raw_artifacts": [
+        "outputs/relags_baseline/07_object_part_modeling/clip/data/hierarchy_labels.npz",
+        "outputs/relags_baseline/07_object_part_modeling/clip/data/cluster_catalog.json",
+        "outputs/relags_baseline/07_object_part_modeling/openseg/"
+      ],
+      "display_only": true
+    },
+    {
+      "stage": 8,
+      "display": "outputs/stage_gallery/stage_08.jpg",
+      "title": "08 | Full scene graph after OBB boundary repair (R1)",
+      "raw_artifacts": [
+        "outputs/relags_baseline/08_scene_graph/diagnostics/obb/",
+        "outputs/relags_obb_repair_r1/08_scene_graph/data/",
+        "outputs/relags_obb_repair_r1/08_scene_graph/metrics/obb_repair.json"
+      ],
+      "display_only": true
+    },
+    {
+      "stage": 9,
+      "display": "outputs/stage_gallery/stage_09_open.jpg",
+      "title": "09 | Open-vocabulary queries (4 of 12 shown)",
+      "raw_artifacts": [
+        "outputs/relags_baseline/09_relational_query/data/",
+        "outputs/relags_baseline/09_relational_query/metrics/query_open_summary.json"
+      ],
+      "display_only": true
+    },
+    {
+      "stage": 9,
+      "display": "outputs/stage_gallery/stage_09_relations.jpg",
+      "title": "Six relational queries after OBB repair (R1)",
+      "raw_artifacts": [
+        "outputs/relags_obb_repair_r1/09_relational_query/data/",
+        "outputs/relags_obb_repair_r1/09_relational_query/metrics/relational_review.json"
+      ],
+      "display_only": true
+    }
+  ],
+  "source_image_sha256": {
+    "outputs/relags_baseline/01_gaussian_scene/visualizations/reconstruction/gt/frame_000049.png": "93020ed4631eafb503deeabcba02696ea1a3e011ee4c9ba0112c753597ed063e",
+    "outputs/relags_baseline/00_data_check/visualizations/camera_trajectory.png": "0afd8f0cd0ddc1a9f819dd682a1d985657447ace5562a49d7f53616c1c84e14a",
+    "outputs/relags_baseline/01_gaussian_scene/visualizations/reconstruction/rgb/frame_000049.png": "a4cc0ee453dfa10b3b31c51446c95c002c7b05d3483b12d88db77016cc354361",
+    "outputs/relags_baseline/01_gaussian_scene/visualizations/reconstruction/depth/frame_000049.png": "3b2a1006463deabc87fc3b864b80f02581b84a0585f572ba753a8718c46c4aa1",
+    "outputs/relags_baseline/01_gaussian_scene/visualizations/reconstruction/normal/frame_000049.png": "6c3360460ba42ca2b7a822967fb6ef7e9b60c9765014a22139303a18e60f3855",
+    "outputs/relags_baseline/02_image_encoding/visualizations/frame_000049_sam_levels.jpg": "f610c7edec3cf5c075059518c03f2765428ca1f84ec2c6aab6d12d97fad2a7fe",
+    "outputs/relags_baseline/02_image_encoding/visualizations/frame_000049_openseg_pca.png": "f6dcf0cf0e3b804c068a05b6f692f6500431d20b14486a329e244640f21eee91",
+    "outputs/relags_baseline/03_gaussian_pruning/visualizations/pruned/rgb/frame_000049.png": "1c323415ba22511a8112f097ef7ae670d0a1b078dd613a0b81fefbfb4e9bffff",
+    "outputs/relags_baseline/03_gaussian_pruning/visualizations/comparison/contribution_histogram.png": "c61a5d9d595b6be29badb7718e612d711bf4fdd861019fa4e6145a4ab0b3cb3e",
+    "outputs/relags_baseline/04_superpoint_partition/visualizations/id_projections/frame_000049_level_0_overlay.png": "ab0ad425fd7112bc6ef9a37a36802f7f03333ff8254cb97b267c8393c42ab78f",
+    "outputs/relags_baseline/05_hierarchical_grouping/visualizations/id_projections/frame_000049_level_0_overlay.png": "8d3e72ff308e303d756eb609c2d376e6f8252942970e5357910fa57a5ff3bcec",
+    "outputs/relags_baseline/05_hierarchical_grouping/visualizations/id_projections/frame_000049_level_1_overlay.png": "d3f0edd15a7c1fab0518e9e6c3d908e2b1996e17e38d9281be3e4ce089f7751e",
+    "outputs/relags_baseline/05_hierarchical_grouping/visualizations/id_projections/frame_000049_level_2_overlay.png": "9f62c52d30e36d6c108b6bf35f494781cca4570016a30c26783f9d69882427d2",
+    "outputs/relags_baseline/05_hierarchical_grouping/visualizations/id_projections/frame_000049_level_3_overlay.png": "b76673d442e06ed0384e070709f6d56d2a5909fe76ee91526dafb68c4bd3d27b",
+    "outputs/relags_baseline/06_semantic_aggregation/visualizations/clip_level_2/frame_000049.png": "ecf28f81c4633551d1cad528536ae48b110688c5191b8d5fc0b9b45473b95f27",
+    "outputs/relags_baseline/06_semantic_aggregation/visualizations/openseg_level_2/frame_000049.png": "e31614d9f09dfaf81c711983c5df717da1a05e3a3b15dfb110ab41faaa42c75b",
+    "outputs/relags_baseline/07_object_part_modeling/clip/visualizations/id_projections/frame_000049_level_2_overlay.png": "9f62c52d30e36d6c108b6bf35f494781cca4570016a30c26783f9d69882427d2",
+    "outputs/relags_baseline/07_object_part_modeling/clip/visualizations/id_projections/frame_000049_level_3_overlay.png": "b76673d442e06ed0384e070709f6d56d2a5909fe76ee91526dafb68c4bd3d27b",
+    "outputs/relags_obb_repair_r1/08_scene_graph/visualizations/camera_projections/level_2_frame_000049.png": "6672aca65c0df4a4709308c0dc41e8137972afdba70ec80f00c5f4be1fed8d45",
+    "outputs/relags_obb_repair_r1/08_scene_graph/visualizations/camera_projections/level_3_frame_000049.png": "7e9e4cb20632b436ad28936640540fda4b5ac8d27e962155252d4249973a8e9e",
+    "outputs/relags_baseline/09_relational_query/visualizations/open_04/frame_000241.png": "34588b97652a4da986dfdbd3e48c55971f242be1563068b0f57288aa2c4d7489",
+    "outputs/relags_baseline/09_relational_query/visualizations/open_05/frame_000145.png": "57035148c0b2278727acba15b50c61e2b9fc6f1c7dd3c3e8c03c8d59865fe56b",
+    "outputs/relags_baseline/09_relational_query/visualizations/open_10/frame_000345.png": "a701bb8e198e73a61c0bf708df69ceeac56ba3f586a17fcb8d89d784126c6384",
+    "outputs/relags_baseline/09_relational_query/visualizations/open_11/frame_000345.png": "a701bb8e198e73a61c0bf708df69ceeac56ba3f586a17fcb8d89d784126c6384",
+    "outputs/relags_obb_repair_r1/09_relational_query/visualizations/relational_query_crops.jpg": "1f0fb7a17bda11db7b2ca0bacc1943d2a732474194dfce78f0ebefa9d983dec7"
+  }
+}

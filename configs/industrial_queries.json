@@ -1,0 +1,13 @@
+{
+  "source": "Generic visible categories selected from the raw RGB contact sheet before semantic results; no device make/model inferred.",
+  "open_vocabulary": ["industrial machine", "conveyor belt", "metal frame", "control cabinet", "blue plastic bin", "gray plastic container", "metal rack", "roller", "pipe", "machine part", "floor", "yellow floor marking"],
+  "relations": [
+    {"subject":"blue plastic bin","relation":"close by","object":"industrial machine"},
+    {"subject":"gray plastic container","relation":"standing on","object":"floor"},
+    {"subject":"control cabinet","relation":"attached to","object":"industrial machine"},
+    {"subject":"roller","relation":"part of","object":"conveyor belt"},
+    {"subject":"metal frame","relation":"connected to","object":"industrial machine"},
+    {"subject":"blue plastic bin","relation":"left","object":"gray plastic container"}
+  ],
+  "interpretation": "Queries are diagnostic hypotheses, not asserted ground truth. Official thresholds and fallback behavior are preserved. Left/right and vertical relations have uncalibrated coordinate-frame uncertainty."
+}

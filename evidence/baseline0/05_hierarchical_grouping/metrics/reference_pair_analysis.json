@@ -1,0 +1,112 @@
+{
+  "source_manual_probe": "outputs/relags_baseline/02_image_encoding/metrics/foreground_pair_mask_probe.json",
+  "native_xy": [
+    [
+      300,
+      845
+    ],
+    [
+      1030,
+      845
+    ]
+  ],
+  "render_xy": [
+    [
+      150,
+      422
+    ],
+    [
+      515,
+      422
+    ]
+  ],
+  "coordinate_mapping": "floor(native_x * render_width / native_width), likewise y",
+  "levels": [
+    {
+      "map": "gaussian_id",
+      "center_ids": [
+        259469,
+        321715
+      ],
+      "same_center_id": false,
+      "five_by_five_pixel_counts": [
+        {
+          "259469": 17,
+          "333282": 8
+        },
+        {
+          "321715": 25
+        }
+      ]
+    },
+    {
+      "map": "level_0",
+      "center_ids": [
+        574,
+        13473
+      ],
+      "same_center_id": false,
+      "five_by_five_pixel_counts": [
+        {
+          "574": 17,
+          "6585": 8
+        },
+        {
+          "13473": 25
+        }
+      ]
+    },
+    {
+      "map": "level_1",
+      "center_ids": [
+        416,
+        415
+      ],
+      "same_center_id": false,
+      "five_by_five_pixel_counts": [
+        {
+          "416": 17,
+          "3583": 8
+        },
+        {
+          "415": 25
+        }
+      ]
+    },
+    {
+      "map": "level_2",
+      "center_ids": [
+        156,
+        182
+      ],
+      "same_center_id": false,
+      "five_by_five_pixel_counts": [
+        {
+          "156": 17,
+          "899": 8
+        },
+        {
+          "182": 25
+        }
+      ]
+    },
+    {
+      "map": "level_3",
+      "center_ids": [
+        18,
+        18
+      ],
+      "same_center_id": true,
+      "five_by_five_pixel_counts": [
+        {
+          "18": 17,
+          "538": 8
+        },
+        {
+          "18": 25
+        }
+      ]
+    }
+  ],
+  "interpretation": "The two diagnostic pixels have different level-2 groups but the same level-3 parent. This is a candidate coarse-merge issue, not a GT instance metric. Maximum-contribution ID projection has local boundary ambiguity; 5x5 counts are retained."
+}

@@ -1,0 +1,89 @@
+{
+  "levels": [
+    {
+      "level": 0,
+      "clusters": 21784,
+      "gaussians": 816661,
+      "cluster_size_quantiles": [
+        1.0,
+        15.0,
+        22.0,
+        37.0,
+        104.0,
+        4216.0
+      ],
+      "clusters_under_20": 8989,
+      "clusters_under_300": 21611,
+      "non_unique_parent_count": 0
+    },
+    {
+      "level": 1,
+      "clusters": 9281,
+      "gaussians": 816661,
+      "cluster_size_quantiles": [
+        1.0,
+        18.0,
+        33.0,
+        75.0,
+        328.0,
+        6508.0
+      ],
+      "clusters_under_20": 2626,
+      "clusters_under_300": 8754,
+      "non_unique_parent_count": 0,
+      "feature_shape": [
+        9281,
+        512
+      ],
+      "finite": true,
+      "zero_features": 0
+    },
+    {
+      "level": 2,
+      "clusters": 2491,
+      "gaussians": 816661,
+      "cluster_size_quantiles": [
+        1.0,
+        25.0,
+        62.0,
+        196.5,
+        1448.0,
+        44705.0
+      ],
+      "clusters_under_20": 464,
+      "clusters_under_300": 2010,
+      "non_unique_parent_count": 0,
+      "feature_shape": [
+        2491,
+        512
+      ],
+      "finite": true,
+      "zero_features": 0
+    },
+    {
+      "level": 3,
+      "clusters": 1189,
+      "gaussians": 816661,
+      "cluster_size_quantiles": [
+        20.0,
+        47.0,
+        126.0,
+        464.0,
+        2859.1999999999994,
+        45067.0
+      ],
+      "clusters_under_20": 0,
+      "clusters_under_300": 810,
+      "non_unique_parent_count": 0,
+      "feature_shape": [
+        1189,
+        512
+      ],
+      "finite": true,
+      "zero_features": 0
+    }
+  ],
+  "view_count": 8,
+  "visualization": "Gaussian colors are deterministic cluster colors; alpha compositing may blend colors at boundaries",
+  "semantic_accuracy": "No ground-truth annotation; cluster counts are diagnostics, not accuracy"
+}

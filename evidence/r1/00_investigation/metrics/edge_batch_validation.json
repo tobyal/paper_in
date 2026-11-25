@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "official_num_layers": 1,
+  "evidence": "The one-layer edge output uses pre-attention node features; updated aggregated nodes are not fed into another block. Batching is already an exposed official predictor option. This equivalence must not be assumed for multi-layer models.",
+  "production_edge_batch_size": 400000,
+  "comparisons": [
+    {
+      "level": 3,
+      "edges_compared": 359928,
+      "chunk_size": 100000,
+      "max_abs_feature_difference": 0.0,
+      "mean_abs_feature_difference": 0.0,
+      "top1_relation_agreement": 1.0,
+      "full_and_chunked_finite": true
+    },
+    {
+      "level": 2,
+      "edges_compared": 200051,
+      "chunk_size": 100000,
+      "max_abs_feature_difference": 5.364418029785156e-07,
+      "mean_abs_feature_difference": 4.869714007038617e-12,
+      "top1_relation_agreement": 1.0,
+      "full_and_chunked_finite": true
+    }
+  ]
+}

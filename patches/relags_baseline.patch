@@ -1,0 +1,337 @@
+diff --git a/graph_weight.py b/graph_weight.py
+index 1d94eac..645ce84 100644
+--- a/graph_weight.py
++++ b/graph_weight.py
+@@ -4,6 +4,10 @@ This script performs the *SAM-Guided Graph Edge Reweighting* step in our pipelin
+ import torch
+ from scene import Scene
+ import os
++import sys
++from pathlib import Path
++sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
++import relags_audit as baseline_audit
+ from tqdm import tqdm
+ from gaussian_renderer import trace
+ import torchvision
+@@ -138,6 +142,7 @@ if __name__ == "__main__":
+ 
+     gaussians = process_scene_language_features(model.extract(args), opt.extract(args), args.iteration, pipeline.extract(args), args.level)
+     # increase the distance of the knn, if the two end points are not in the same region
++    baseline_audit.save("05_hierarchical_grouping", "raw_edge_evidence", {"neighbors": knn, "original_distances": ori_distance, "negative_evidence": neg_dist, "positive_evidence": pos_dist})
+     neg_dist = torch.clamp(neg_dist, 0, neg_b)
+     pos_dist = torch.clamp(pos_dist, 0, pos_b)
+     new_distance = ori_distance + neg_dist * neg_w - pos_dist * pos_w
+diff --git a/max_weight_pruning.py b/max_weight_pruning.py
+index d7883a9..f3fc109 100644
+--- a/max_weight_pruning.py
++++ b/max_weight_pruning.py
+@@ -1,6 +1,10 @@
+ 
+ 
+ import os
++import sys
++from pathlib import Path
++sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
++import relags_audit as baseline_audit
+ from scene import Scene
+ from scene.gaussian_model import GaussianModel
+ import torch
+@@ -27,6 +31,7 @@ def _compute_max_contribution(scene: Scene, gaussians: GaussianModel, pipeline:
+     for view in tqdm(views, desc="Calculating Maximum Contribution"):
+         render_pkg = render(view, gaussians, pipeline, background)
+         gaussians.setMaxContribution(render_pkg["max_contribution"])
++        baseline_audit.save("03_gaussian_pruning", f"per_view_{view.image_name}", {"image_name": view.image_name, "max_contribution": render_pkg["max_contribution"]})
+ 
+ 
+ def _save_filtered_output(dataset: ModelParams, kept_gaussians: GaussianModel) -> None:
+@@ -48,6 +53,8 @@ def filter_gaussians(
+     _compute_max_contribution(scene, gaussians, pipeline, background)
+ 
+     mask = gaussians.get_max_contribution > contribution_threshold
++    baseline_audit.save("03_gaussian_pruning", "max_contribution_and_indices", {"max_contribution": gaussians.get_max_contribution, "keep_mask": mask, "kept_indices": torch.where(mask)[0], "removed_indices": torch.where(~mask)[0], "threshold": contribution_threshold})
++    gaussians.filter_gaussians(~mask).save_ply(os.path.join(dataset.model_path, "removed_gaussians.ply"))
+     new_gaussians = gaussians.filter_gaussians(mask)
+ 
+     print("Number of Gaussians after filtering:", new_gaussians.get_xyz.shape[0])    
+diff --git a/merge_proj.py b/merge_proj.py
+index 7be9249..27bd489 100644
+--- a/merge_proj.py
++++ b/merge_proj.py
+@@ -4,6 +4,10 @@ It is derived and optimized from the SAI3D paper (https://arxiv.org/abs/2312.115
+ """
+ 
+ import argparse
++import sys
++from pathlib import Path
++sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
++import relags_audit as baseline_audit
+ from os.path import join
+ import time
+ from collections import deque
+@@ -112,6 +116,7 @@ class SAI3D:
+             return torch.zeros(feat_dim, device=device)
+ 
+         if features.shape[0] == 1:
++            self._audit_rofa.append({"cluster": self._audit_cluster, "keep_mask": torch.ones(1, dtype=torch.bool), "observation_count": 1})
+             return F.normalize(features[0], p=2, dim=-1)
+ 
+         cos_sim = F.cosine_similarity(
+@@ -126,6 +131,7 @@ class SAI3D:
+         if keep_mask.sum() == 0:
+             keep_mask[mean_sim.argmax()] = True
+ 
++        self._audit_rofa.append({"cluster": self._audit_cluster, "keep_mask": keep_mask.detach().cpu(), "mean_similarity": mean_sim.detach().cpu(), "mu": mu.item(), "sigma": sigma.item(), "observation_count": len(features)})
+         filtered_feats = features[keep_mask]
+         return F.normalize(filtered_feats.mean(dim=0), p=2, dim=-1)
+ 
+@@ -141,6 +147,8 @@ class SAI3D:
+         sp_uni, sp_gnum = torch.unique(gau2sp, return_counts=True, sorted=True)
+         feat_dim = views[0].semantic["sem"].to(device).shape[1]
+         sp_feature_list = [[] for _ in range(sp_uni.shape[0])]
++        audit_view_ids = [[] for _ in range(sp_uni.shape[0])]
++        self._audit_rofa = []
+ 
+         pipeline = self.pipeline
+         background = self.background
+@@ -176,19 +184,25 @@ class SAI3D:
+                 feat = F.normalize(sp_feat[sp], p=2, dim=-1) * visibility_portion
+                 if feat.any():
+                     sp_feature_list[sp].append(feat)
++                    audit_view_ids[sp].append(view_idx)
++
++        baseline_audit.save("06_semantic_aggregation", f"{self.args.vlm_type}_level_{feature_level}_raw_observations", {"features": sp_feature_list, "view_ids": audit_view_ids, "view_names": [v.image_name for v in views], "gaussian_to_cluster": gau2sp, "tau": self.args.tau})
+ 
+         # Filter outliers and compute final features using our statistical method
+         sp_features = []
+         for sp in range(len(sp_feature_list)):
+             if sp_feature_list[sp]:
+                 features = torch.stack(sp_feature_list[sp], dim=0)
++                self._audit_cluster = sp
+                 
+                 # outlier-aware feature aggregation
+                 sp_features.append(self._filter_feature_outliers(features, device))
+             else:
+                 sp_features.append(torch.zeros(feat_dim, device=device))
+ 
+-        return F.normalize(torch.stack(sp_features, dim=0), p=2, dim=-1)
++        aggregated = F.normalize(torch.stack(sp_features, dim=0), p=2, dim=-1)
++        baseline_audit.save("06_semantic_aggregation", f"{self.args.vlm_type}_level_{feature_level}_rofa", {"decisions": self._audit_rofa, "aggregated_features": aggregated})
++        return aggregated
+ 
+     def extract_gaussian_features(self, gaussians, views, feature_level):
+         pipeline = self.pipeline
+@@ -224,7 +238,9 @@ class SAI3D:
+             sim_filter = sim.max(dim=-1)[0] > 0.85
+             gau_sem[~sim_filter] = 0
+             labels.append(gau_sem)
+-        return torch.stack(labels).transpose(0, 1)  # (N, M)
++        point_labels = torch.stack(labels).transpose(0, 1)
++        baseline_audit.save("05_hierarchical_grouping", f"{self.args.vlm_type}_level_{feature_level}_projected_labels", {"labels": point_labels, "view_names": [v.image_name for v in views]})
++        return point_labels  # (N, M)
+ 
+     def get_seg_data_torch(self):
+         seg_ids = utils.num_to_natural_torch(self.seg_ids)
+@@ -318,6 +334,7 @@ class SAI3D:
+                 points_label=pt_sp_label,
+                 points_seen=points_seen,
+             )
++            baseline_audit.save("05_hierarchical_grouping", f"{self.args.vlm_type}_level_{i+1}_adjacency", {"seg_ids": self.seg_ids, "seg_members": self.seg_members, "seg_adj": seg_adj, "direct_neighbors": self.seg_direct_neighbors})
+             seg_labels = self.assign_seg_label_torch(
+                 seg_adj, thres_connect[i], max_neighbor_distance=max_neighbor_distance
+             )
+@@ -339,6 +356,7 @@ class SAI3D:
+                     pt_prim_label[self.seg_members[j]] = label
+                 else:
+                     print(f"Warning: Key {j} not found in self.seg_members")
++            baseline_audit.save("05_hierarchical_grouping", f"{self.args.vlm_type}_level_{i+1}_grouping", {"labels": pt_prim_label - 1, "superpoint_group_labels": seg_labels})
+             nag.append(pt_prim_label - 1)
+             self.seg_ids = pt_prim_label
+ 
+@@ -702,4 +720,6 @@ if __name__ == "__main__":
+     th_tuple = args.thres_connect.split(",")
+     args.thres_connect = list(map(float, th_tuple))
+ 
++    from utils.general_utils import safe_state
++    safe_state(False)  # Explicit reproducible RNG state; same initializer as graph_weight.py
+     everything_seg(args)
+diff --git a/predict_3d_scene_graph.py b/predict_3d_scene_graph.py
+index 98d8177..ee41608 100644
+--- a/predict_3d_scene_graph.py
++++ b/predict_3d_scene_graph.py
+@@ -1,5 +1,9 @@
+ import os
+ import sys
++from pathlib import Path
++sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
++import relags_audit as baseline_audit
++from relags_relationships import load_relationship_embeddings
+ 
+ import numpy as np
+ import torch
+@@ -16,7 +20,7 @@ from scene_graph.network_utils import (
+     get_oriented_bounding_boxes,
+     obb_min_distance_matrix_numpy,
+ )
+-from scene_graph.scan3r_dataset import relationship_jina_feature
++# Inference does not require the authors' local 3DSSG training dataset files.
+ from scene_graph.network_utils import build_geom_features
+ from utils.vlm_utils import ClipSimMeasure, DINOV3SimMeasure
+ 
+@@ -106,6 +110,7 @@ def main():
+     )
+     args = parser.parse_args(sys.argv[1:])
+ 
++    relationship_jina_feature, _ = load_relationship_embeddings(REL_NAMES)
+     model = load_model(args.checkpoint)
+ 
+     pred_gs_pth = os.path.join(
+@@ -145,6 +150,7 @@ def main():
+         cluster_clip_feats = nag["nag_feat"][level - 1]
+         unique_clusters = np.unique(cluster_labels).astype(np.int32)
+         points_pred = points_pred - np.mean(points_pred, axis=0, keepdims=True)
++        baseline_audit.save("08_scene_graph", f"level_{level}_pre_obb", {"points_centered": points_pred, "cluster_labels": cluster_labels, "unique_clusters": unique_clusters})
+         obb_preds = get_oriented_bounding_boxes(
+             points_pred, cluster_labels, unique_clusters, remove_outlier=True
+         )
+@@ -168,6 +174,7 @@ def main():
+         Rs = torch.tensor(Rs, dtype=torch.float32).to(DEVICE)
+         extents = torch.tensor(extents, dtype=torch.float32).to(DEVICE)
+ 
++        baseline_audit.save("08_scene_graph", f"level_{level}_graph_inputs", {"original_cluster_ids": list(obb_preds.keys()), "centers": centers, "rotations": Rs, "extents": extents, "node_geometry": node_geom_feat, "node_language": node_clip_feat, "edge_index": edge_index_np, "neighbor_thresh": args.neighbor_thresh})
+         num_edges = edge_index_np.shape[1]
+         all_edge_feat = []
+         all_edge_src = []
+@@ -221,6 +228,7 @@ def main():
+         torch.cuda.empty_cache()
+ 
+         sims = edge_feat @ relationship_jina_feature.t().to(DEVICE)
++        baseline_audit.save("08_scene_graph", f"level_{level}_edge_predictions", {"edge_features": edge_feat, "relation_similarities": sims, "relation_names": REL_NAMES, "src": all_edge_src, "dst": all_edge_dst})
+         top3 = torch.topk(sims, k=NEIGHBOR_TOPK, dim=-1).indices
+         top3_np = top3.cpu().numpy()
+ 
+diff --git a/scene_graph/network_utils.py b/scene_graph/network_utils.py
+index b341940..de4fcc1 100644
+--- a/scene_graph/network_utils.py
++++ b/scene_graph/network_utils.py
+@@ -17,7 +17,11 @@ def get_oriented_bounding_boxes(points, labels, obj_ids, remove_outlier=False):
+         mass_center = np.asarray(pcd.get_center())
+ 
+         # --- Compute oriented bounding box ---
+-        obb = pcd.get_oriented_bounding_box()
++        try:
++            obb = pcd.get_oriented_bounding_box()
++        except Exception:
++            print(f"OBB failed: cluster={obj_id}, post_outlier_points={len(pcd.points)}", flush=True)
++            raise
+ 
+         # --- Extract as numpy arrays ---
+         center = np.asarray(obb.center)
+diff --git a/scripts/image_encoding.py b/scripts/image_encoding.py
+index a63c7b9..e74ef19 100644
+--- a/scripts/image_encoding.py
++++ b/scripts/image_encoding.py
+@@ -49,7 +49,7 @@ class OpenCLIPNetwork(nn.Module):
+         )
+         model, _, _ = open_clip.create_model_and_transforms(
+             self.config.clip_model_type,  # e.g., ViT-B-16
+-            pretrained=self.config.clip_model_pretrained,  # e.g., laion2b_s34b_b88k
++            pretrained=os.environ.get("RELAGS_CLIP_CHECKPOINT", self.config.clip_model_pretrained),  # Exact same pretrained weights, optional project-local path
+             precision="fp16",
+         )
+         model.eval()
+@@ -132,10 +132,11 @@ def create(image_list, data_list, save_folder):
+         try:
+             
+             img_embed, seg_map = _embed_clip_sam_tiles(img.unsqueeze(0), sam_encoder)
+-        except:
+-            # raise ValueError(timer)
++        except Exception:
++            import traceback
++            traceback.print_exc()
+             print(f"Error in image {data_list[i]}")
+-            continue
++            raise
+ 
+         lengths = [len(v) for k, v in img_embed.items()]
+         total_length = sum(lengths)
+@@ -360,6 +361,7 @@ if __name__ == '__main__':
+     parser.add_argument('--save_dir', type=str, default=None)
+     parser.add_argument('--resolution', type=int, default=-1)
+     parser.add_argument('--sam_ckpt_path', type=str, default="ckpts/sam_vit_h_4b8939.pth")
++    parser.add_argument("--image-list", type=str, default=None, help="Execution-only list of independent frames")
+     args = parser.parse_args()
+     torch.set_default_dtype(torch.float32)
+ 
+@@ -370,6 +372,9 @@ if __name__ == '__main__':
+     # img_folder = os.path.join(source_path, 'dslr/resized_undistorted_images')
+     data_listi = os.listdir(img_folder)
+     data_listi.sort()
++    if args.image_list is not None:
++        allowed = set(open(args.image_list).read().splitlines())
++        data_listi = [name for name in data_listi if name in allowed]
+ 
+     model = OpenCLIPNetwork(OpenCLIPNetworkConfig)
+     sam = sam_model_registry["vit_h"](checkpoint=sam_ckpt_path).to('cuda')
+@@ -392,10 +397,11 @@ if __name__ == '__main__':
+             q = 0
+             processed_frames = []
+             if os.path.exists(save_dir):
+-                processed_frames = [f.split('_f')[0] for f in os.listdir(save_dir) if f.endswith('_f.npy')]
+-                if len(processed_frames) >= len(data_listi):
++                processed_frames = [f[:-6] for f in os.listdir(save_dir) if f.endswith("_f.npy") and os.path.exists(os.path.join(save_dir, f[:-6]+"_s.npy"))]
++                if all(frame.split(".")[0] in processed_frames for frame in data_listi):
+                     break
+             data_list = [frame for frame in data_listi if not frame.split('.')[0] in processed_frames]
++            img_list = []  # Reset only the image-loading buffer on resume.
+             for data_path in data_list:
+                 image_path = os.path.join(img_folder, data_path)
+                 image = cv2.imread(image_path)
+@@ -428,5 +434,4 @@ if __name__ == '__main__':
+             create(imgs, data_list, save_dir)
+         except ValueError as e:
+             print(f"Error in image {e}")
+-            img_list = []
+-            continue
+\ No newline at end of file
++            raise
+\ No newline at end of file
+diff --git a/submodules/diff-surfel-rasterization-trace-maxcontrib/setup.py b/submodules/diff-surfel-rasterization-trace-maxcontrib/setup.py
+index 006f743..fce4eae 100644
+--- a/submodules/diff-surfel-rasterization-trace-maxcontrib/setup.py
++++ b/submodules/diff-surfel-rasterization-trace-maxcontrib/setup.py
+@@ -17,6 +17,7 @@ os.path.dirname(os.path.abspath(__file__))
+ setup(
+     name="diff_surfel_rasterization_trace_maxcontrib",
+     packages=['diff_surfel_rasterization_trace_maxcontrib'],
++    package_dir={'diff_surfel_rasterization_trace_maxcontrib': 'diff_surfel_rasterization_trace'},
+     version='0.0.3',
+     ext_modules=[
+         CUDAExtension(
+diff --git a/utils/vlm_utils.py b/utils/vlm_utils.py
+index 96df4b0..a486607 100644
+--- a/utils/vlm_utils.py
++++ b/utils/vlm_utils.py
+@@ -1,3 +1,5 @@
++import os
++from pathlib import Path
+ import torch
+ import open_clip
+ 
+@@ -7,7 +9,8 @@ class ClipSimMeasure:
+         if clip_type == "ViT-B-16":
+             model, _, process = open_clip.create_model_and_transforms(
+                 "ViT-B-16",
+-                pretrained="laion2b_s34b_b88k",
++                pretrained=os.environ.get("RELAGS_CLIP_CHECKPOINT", "laion2b_s34b_b88k"),
++                cache_dir=str(Path(__file__).resolve().parents[2] / "models/openclip_text"),
+                 precision="fp16",
+             )
+             model.eval()
+@@ -17,6 +20,7 @@ class ClipSimMeasure:
+             model, _, process = open_clip.create_model_and_transforms(
+                 "ViT-L-14-336",
+                 pretrained="openai",
++                cache_dir=str(Path(__file__).resolve().parents[2] / "models/openclip_text"),
+                 precision="fp16",
+             )
+             model.eval()

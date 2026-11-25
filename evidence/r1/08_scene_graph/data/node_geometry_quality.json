@@ -1,0 +1,60 @@
+{
+  "normal_boxes_unchanged": 3675,
+  "flags": [
+    {
+      "level": 2,
+      "cluster_id": 1822,
+      "affine_rank": 0,
+      "orientation_underdetermined": true,
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "level": 2,
+      "cluster_id": 1836,
+      "affine_rank": 0,
+      "orientation_underdetermined": true,
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "level": 2,
+      "cluster_id": 1927,
+      "affine_rank": 0,
+      "orientation_underdetermined": true,
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "level": 2,
+      "cluster_id": 1987,
+      "affine_rank": 0,
+      "orientation_underdetermined": true,
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "level": 2,
+      "cluster_id": 2307,
+      "affine_rank": 2,
+      "orientation_underdetermined": true,
+      "extent": [
+        0.2039626354315543,
+        0.09812185931309358,
+        0.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "passed": true,
+  "real_cases": [
+    {
+      "query": "物料车",
+      "matched": [
+        "obj_f9a0e863e32d",
+        "obj_57b0f30bdd9e"
+      ]
+    },
+    {
+      "query": "装配夹具台",
+      "matched": [
+        "obj_d058f708eb01",
+        "obj_09a35ba03c92"
+      ]
+    },
+    {
+      "query": "带黑色工件的夹具台",
+      "matched": [
+        "obj_ad85774e5f18",
+        "obj_c812ae8b15bd"
+      ]
+    },
+    {
+      "query": "多层料架",
+      "matched": [
+        "obj_b8542dc54ed2"
+      ]
+    },
+    {
+      "query": "蓝色箱组",
+      "matched": []
+    },
+    {
+      "query": "立式移动冷风机",
+      "matched": [
+        "obj_04c477562e49",
+        "obj_c57876bf22ca"
+      ]
+    },
+    {
+      "query": "工作台",
+      "matched": []
+    },
+    {
+      "query": "分隔式料架",
+      "matched": []
+    },
+    {
+      "query": "距离装配夹具台 01最近的物料车",
+      "matched": [
+        "obj_57b0f30bdd9e"
+      ],
+      "correctly_parsed": true
+    },
+    {
+      "query": "位于装配夹具台 01左侧的物料车",
+      "matched": [
+        "obj_57b0f30bdd9e"
+      ],
+      "correctly_parsed": true
+    },
+    {
+      "query": "位于装配夹具台 01右侧的物料车",
+      "matched": [],
+      "correctly_parsed": true
+    },
+    {
+      "query": "距离装配夹具台 02最近的物料车",
+      "matched": [
+        "obj_57b0f30bdd9e"
+      ],
+      "correctly_parsed": true
+    },
+    {
+      "query": "位于装配夹具台 02左侧的物料车",
+      "matched": [
+        "obj_57b0f30bdd9e"
+      ],
+      "correctly_parsed": true
+    },
+    {
+      "query": "位于装配夹具台 02右侧的物料车",
+      "matched": [],
+      "correctly_parsed": true
+    },
+    {
+      "query": "距离装配夹具台 03最近的物料车",
+      "matched": [],
+      "correctly_parsed": true
+    },
+    {
+      "query": "位于装配夹具台 03左侧的物料车",
+      "matched": [
+        "obj_57b0f30bdd9e"
+      ],
+      "correctly_parsed": true
+    },
+    {
+      "query": "位于装配夹具台 03右侧的物料车",
+      "matched": [],
+      "correctly_parsed": true
+    },
+    {
+      "query": "距离带黑色工件的夹具台 01最近的物料车",
+      "matched": [
+        "obj_f9a0e863e32d"
+      ],
+      "correctly_parsed": true
+    },
+    {
+      "query": "位于带黑色工件的夹具台 01左侧的物料车",
+      "matched": [
+        "obj_57b0f30bdd9e"
+      ],
+      "correctly_parsed": true
+    },
+    {
+      "query": "位于带黑色工件的夹具台 01右侧的物料车",
+      "matched": [
+        "obj_f9a0e863e32d"
+      ],
+      "correctly_parsed": true
+    },
+    {
+      "query": "距离带黑色工件的夹具台 02最近的物料车",
+      "matched": [
+        "obj_f9a0e863e32d"
+      ],
+      "correctly_parsed": true
+    },
+    {
+      "query": "位于带黑色工件的夹具台 02左侧的物料车",
+      "matched": [
+        "obj_57b0f30bdd9e",
+        "obj_f9a0e863e32d"
+      ],
+      "correctly_parsed": true
+    },
+    {
+      "query": "位于带黑色工件的夹具台 02右侧的物料车",
+      "matched": [],
+      "correctly_parsed": true
+    }
+  ],
+  "heldout_used": false,
+  "segmentation_checkpoint": 2500
+}

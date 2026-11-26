@@ -1,0 +1,8 @@
+{
+  "review": {
+    "frame_000202": "Tag 1 and tag 3 descriptions confused air coolers with adjacent machinery; no semantic edges accepted.",
+    "frame_000168": "Two loaded fixture tables recognized approximately; rear cart called cabinet. No contact relation accepted.",
+    "frame_000208": "No sufficiently evidenced inter-device support/containment relation proposed."
+  },
+  "conclusion": "Local SoM inference executed, but useful semantic relation lifting remains unverified. Empty responses do not prove absence of relations."
+}

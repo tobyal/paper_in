@@ -1,0 +1,9 @@
+{
+  "categories": 8,
+  "objects_bound": 33,
+  "feature_dimension": 512,
+  "visual_crops": 44,
+  "checkpoint": "models/openclip_vit_b16/open_clip_pytorch_model.bin",
+  "heldout_images_used": 0,
+  "independent_of_A": true
+}

@@ -1,0 +1,264 @@
+{
+  "queries": [
+    {
+      "query_id": "query_01",
+      "query": "物料车",
+      "relation": null,
+      "category": "category_01",
+      "matched_object_ids": [
+        "obj_f9a0e863e32d",
+        "obj_57b0f30bdd9e"
+      ],
+      "candidates_before": 2,
+      "matches_after": 2,
+      "evaluation_views": [
+        {
+          "image_id": "frame_000321",
+          "split": "heldout",
+          "mask_pixels": 82401,
+          "camera_path": "outputs/D/query_01/frame_000321_camera.json"
+        },
+        {
+          "image_id": "frame_000033",
+          "split": "heldout",
+          "mask_pixels": 45454,
+          "camera_path": "outputs/D/query_01/frame_000033_camera.json"
+        }
+      ]
+    },
+    {
+      "query_id": "query_02",
+      "query": "装配夹具台",
+      "relation": null,
+      "category": "category_02",
+      "matched_object_ids": [
+        "obj_d058f708eb01",
+        "obj_09a35ba03c92"
+      ],
+      "candidates_before": 2,
+      "matches_after": 2,
+      "evaluation_views": [
+        {
+          "image_id": "frame_000185",
+          "split": "heldout",
+          "mask_pixels": 77882,
+          "camera_path": "outputs/D/query_02/frame_000185_camera.json"
+        },
+        {
+          "image_id": "frame_000249",
+          "split": "heldout",
+          "mask_pixels": 44336,
+          "camera_path": "outputs/D/query_02/frame_000249_camera.json"
+        }
+      ]
+    },
+    {
+      "query_id": "query_03",
+      "query": "带黑色工件的夹具台",
+      "relation": null,
+      "category": "category_03",
+      "matched_object_ids": [
+        "obj_ad85774e5f18",
+        "obj_c812ae8b15bd"
+      ],
+      "candidates_before": 2,
+      "matches_after": 2,
+      "evaluation_views": [
+        {
+          "image_id": "frame_000169",
+          "split": "heldout",
+          "mask_pixels": 101955,
+          "camera_path": "outputs/D/query_03/frame_000169_camera.json"
+        },
+        {
+          "image_id": "frame_000177",
+          "split": "heldout",
+          "mask_pixels": 69658,
+          "camera_path": "outputs/D/query_03/frame_000177_camera.json"
+        }
+      ]
+    },
+    {
+      "query_id": "query_04",
+      "query": "多层料架",
+      "relation": null,
+      "category": "category_04",
+      "matched_object_ids": [
+        "obj_b8542dc54ed2"
+      ],
+      "candidates_before": 1,
+      "matches_after": 1,
+      "evaluation_views": [
+        {
+          "image_id": "frame_000033",
+          "split": "heldout",
+          "mask_pixels": 17702,
+          "camera_path": "outputs/D/query_04/frame_000033_camera.json"
+        },
+        {
+          "image_id": "frame_000217",
+          "split": "heldout",
+          "mask_pixels": 17201,
+          "camera_path": "outputs/D/query_04/frame_000217_camera.json"
+        }
+      ]
+    },
+    {
+      "query_id": "query_05",
+      "query": "立式移动冷风机",
+      "relation": null,
+      "category": "category_06",
+      "matched_object_ids": [
+        "obj_04c477562e49",
+        "obj_c57876bf22ca"
+      ],
+      "candidates_before": 2,
+      "matches_after": 2,
+      "evaluation_views": [
+        {
+          "image_id": "frame_000089",
+          "split": "heldout",
+          "mask_pixels": 18040,
+          "camera_path": "outputs/D/query_05/frame_000089_camera.json"
+        },
+        {
+          "image_id": "frame_000233",
+          "split": "heldout",
+          "mask_pixels": 23610,
+          "camera_path": "outputs/D/query_05/frame_000233_camera.json"
+        }
+      ]
+    },
+    {
+      "query_id": "query_06",
+      "query": "距离装配夹具台 01最近的物料车",
+      "relation": "nearest_to",
+      "category": "category_01",
+      "matched_object_ids": [
+        "obj_57b0f30bdd9e"
+      ],
+      "candidates_before": 2,
+      "matches_after": 1,
+      "evaluation_views": [
+        {
+          "image_id": "frame_000025",
+          "split": "heldout",
+          "mask_pixels": 12705,
+          "camera_path": "outputs/D/query_06/frame_000025_camera.json"
+        },
+        {
+          "image_id": "frame_000009",
+          "split": "heldout",
+          "mask_pixels": 12356,
+          "camera_path": "outputs/D/query_06/frame_000009_camera.json"
+        }
+      ]
+    },
+    {
+      "query_id": "query_07",
+      "query": "距离装配夹具台 01最近的装配夹具台",
+      "relation": "nearest_to",
+      "category": "category_02",
+      "matched_object_ids": [
+        "obj_d058f708eb01"
+      ],
+      "candidates_before": 2,
+      "matches_after": 1,
+      "evaluation_views": [
+        {
+          "image_id": "frame_000249",
+          "split": "heldout",
+          "mask_pixels": 32973,
+          "camera_path": "outputs/D/query_07/frame_000249_camera.json"
+        },
+        {
+          "image_id": "frame_000193",
+          "split": "heldout",
+          "mask_pixels": 30156,
+          "camera_path": "outputs/D/query_07/frame_000193_camera.json"
+        }
+      ]
+    },
+    {
+      "query_id": "query_08",
+      "query": "距离装配夹具台 01最近的带黑色工件的夹具台",
+      "relation": "nearest_to",
+      "category": "category_03",
+      "matched_object_ids": [
+        "obj_ad85774e5f18"
+      ],
+      "candidates_before": 2,
+      "matches_after": 1,
+      "evaluation_views": [
+        {
+          "image_id": "frame_000273",
+          "split": "heldout",
+          "mask_pixels": 15390,
+          "camera_path": "outputs/D/query_08/frame_000273_camera.json"
+        },
+        {
+          "image_id": "frame_000169",
+          "split": "heldout",
+          "mask_pixels": 77081,
+          "camera_path": "outputs/D/query_08/frame_000169_camera.json"
+        }
+      ]
+    },
+    {
+      "query_id": "query_09",
+      "query": "距离装配夹具台 01最近的立式移动冷风机",
+      "relation": "nearest_to",
+      "category": "category_06",
+      "matched_object_ids": [
+        "obj_04c477562e49"
+      ],
+      "candidates_before": 2,
+      "matches_after": 1,
+      "evaluation_views": [
+        {
+          "image_id": "frame_000233",
+          "split": "heldout",
+          "mask_pixels": 22845,
+          "camera_path": "outputs/D/query_09/frame_000233_camera.json"
+        },
+        {
+          "image_id": "frame_000225",
+          "split": "heldout",
+          "mask_pixels": 15382,
+          "camera_path": "outputs/D/query_09/frame_000225_camera.json"
+        }
+      ]
+    },
+    {
+      "query_id": "query_10",
+      "query": "位于装配夹具台 01左侧的物料车",
+      "relation": "left_of",
+      "category": "category_01",
+      "matched_object_ids": [
+        "obj_57b0f30bdd9e"
+      ],
+      "candidates_before": 2,
+      "matches_after": 1,
+      "evaluation_views": [
+        {
+          "image_id": "frame_000025",
+          "split": "heldout",
+          "mask_pixels": 12705,
+          "camera_path": "outputs/D/query_10/frame_000025_camera.json"
+        },
+        {
+          "image_id": "frame_000009",
+          "split": "heldout",
+          "mask_pixels": 12356,
+          "camera_path": "outputs/D/query_10/frame_000009_camera.json"
+        }
+      ]
+    }
+  ],
+  "class_queries": 5,
+  "relation_queries": 5,
+  "heldout_images_used_only_after_freezing_A": true,
+  "no_ground_truth_masks_available": true,
+  "projection": "Full native scene alpha compositing; membership contribution > 0.5",
+  "segmentation_at_query_time": false
+}

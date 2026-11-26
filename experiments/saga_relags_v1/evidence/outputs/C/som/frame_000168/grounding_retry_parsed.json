@@ -1,0 +1,18 @@
+{
+  "observations": [
+    {
+      "tag": 1,
+      "visible_description": "A white industrial cart or workstation with mechanical components mounted on top; it has a flat base and supports various parts including what appears to be engine assemblies."
+    },
+    {
+      "tag": 2,
+      "visible_description": "Another similar white industrial cart/workstation positioned adjacent to device 1, also carrying complex machinery or automotive subassemblies like engines or transmissions."
+    },
+    {
+      "tag": 3,
+      "visible_description": "A large gray rectangular box-like structure (possibly a cabinet or storage unit) located behind and slightly above the right-side cart; it has no visible openings and appears solid from this angle."
+    }
+  ],
+  "relations": [],
+  "observation": "Devices 1 and 2 are separate carts placed side by side on the factory floor, each supporting its own set of mechanical components. Device 3 is a stationary gray box positioned behind cart 1 but does not physically support or contain any other device — nor is it contained within another. No two different numbered devices visibly support or contain one another; all are distinct units operating independently in the assembly environment."
+}

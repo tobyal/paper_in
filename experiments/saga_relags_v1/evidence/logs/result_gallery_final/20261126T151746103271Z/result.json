@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/envs/saga/bin/python",
+    "-u",
+    "src/publish_gallery.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1",
+  "gpu": "0",
+  "start_utc": "20261126T151746103271Z",
+  "stage": "result_gallery_final",
+  "pid": 671372,
+  "exit_code": 0,
+  "status": "completed",
+  "seconds": 0.4840412139892578
+}

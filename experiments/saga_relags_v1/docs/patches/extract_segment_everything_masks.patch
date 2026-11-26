@@ -1,0 +1,18 @@
+--- a/extract_segment_everything_masks.py
++++ b/extract_segment_everything_masks.py
+@@ -55,7 +55,9 @@
+     
+     for path in tqdm(sorted(os.listdir(IMAGE_DIR))):
+         name = path.split('.')[0]
+-        img = cv2.imread(os.path.join(IMAGE_DIR, path))
++        if os.path.exists(os.path.join(OUTPUT_DIR, name+".pt")):
++            continue
++        img = cv2.cvtColor(cv2.imread(os.path.join(IMAGE_DIR, path)), cv2.COLOR_BGR2RGB)
+         if downsample_manually:
+             img = cv2.resize(img,dsize=(img.shape[1] // args.downsample, img.shape[0] // args.downsample),fx=1,fy=1,interpolation=cv2.INTER_LINEAR)
+         masks = mask_generator.generate(img)
+@@ -76,4 +78,4 @@
+                 mask_list.append(m_score.bool())
+         masks = torch.stack(mask_list, dim=0)
+ 
+-        torch.save(masks, os.path.join(OUTPUT_DIR, name+'.pt'))+        torch.save(masks.cpu(), os.path.join(OUTPUT_DIR, name+'.pt'))

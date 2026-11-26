@@ -1,0 +1,42 @@
+{
+  "class_queries": [
+    "物料车",
+    "装配夹具台",
+    "带黑色工件的夹具台",
+    "多层料架",
+    "立式移动冷风机"
+  ],
+  "relation_examples": [
+    {
+      "query": "距离装配夹具台 01最近的物料车",
+      "relation": "nearest_to",
+      "target_category": "category_01",
+      "reduction": 1
+    },
+    {
+      "query": "距离装配夹具台 01最近的装配夹具台",
+      "relation": "nearest_to",
+      "target_category": "category_02",
+      "reduction": 1
+    },
+    {
+      "query": "距离装配夹具台 01最近的带黑色工件的夹具台",
+      "relation": "nearest_to",
+      "target_category": "category_03",
+      "reduction": 1
+    },
+    {
+      "query": "距离装配夹具台 01最近的立式移动冷风机",
+      "relation": "nearest_to",
+      "target_category": "category_06",
+      "reduction": 1
+    },
+    {
+      "query": "位于装配夹具台 01左侧的物料车",
+      "relation": "left_of",
+      "target_category": "category_01",
+      "reduction": 1
+    }
+  ],
+  "selection": "Deterministically choose real graph conditions that reduce >=2 available same-class candidates; engine receives text only."
+}

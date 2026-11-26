@@ -1,0 +1,1678 @@
+{
+  "width": 750,
+  "cameras": {
+    "frame_000001": {
+      "obj_d058f708eb01": {
+        "pixels": 5648,
+        "image_coverage": 0.5713849516708299
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_04c477562e49": {
+        "pixels": 1428,
+        "image_coverage": 0.7914662437151101
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 4300,
+        "image_coverage": 1.0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 3536,
+        "image_coverage": 0.7274165474492955
+      }
+    },
+    "frame_000009": {
+      "obj_d058f708eb01": {
+        "pixels": 5048,
+        "image_coverage": 0.8532616168969613
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 5,
+        "image_coverage": 0.09944901513153077
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0.8020569904736323
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 4196,
+        "image_coverage": 1.0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 2935,
+        "image_coverage": 1.0
+      }
+    },
+    "frame_000017": {
+      "obj_d058f708eb01": {
+        "pixels": 5952,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 5120,
+        "image_coverage": 0.7663848483815155
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0.8069804500368392
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 3420,
+        "image_coverage": 1.0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 2927,
+        "image_coverage": 1.0
+      }
+    },
+    "frame_000025": {
+      "obj_d058f708eb01": {
+        "pixels": 3370,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 6725,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 159,
+        "image_coverage": 0.6229688052719186
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 11019,
+        "image_coverage": 0.5901467627435202
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 2765,
+        "image_coverage": 1.0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 3175,
+        "image_coverage": 1.0
+      }
+    },
+    "frame_000033": {
+      "obj_d058f708eb01": {
+        "pixels": 4103,
+        "image_coverage": 0.798231163938092
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 4723,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 2416,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 457,
+        "image_coverage": 0.4407345523318832
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 8525,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 4516,
+        "image_coverage": 1.0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 2855,
+        "image_coverage": 1.0
+      }
+    },
+    "frame_000041": {
+      "obj_d058f708eb01": {
+        "pixels": 0,
+        "image_coverage": 0.10031240820239895
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 5879,
+        "image_coverage": 0.7718169887101323
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 1087,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 4809,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 9401,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 906,
+        "image_coverage": 0.33148290047295254
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 3026,
+        "image_coverage": 0.8141665831731888
+      }
+    },
+    "frame_000049": {
+      "obj_d058f708eb01": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 0,
+        "image_coverage": 0.12529800088439133
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 4879,
+        "image_coverage": 0.9404653288789959
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 248,
+        "image_coverage": 0.6382359641033908
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 4309,
+        "image_coverage": 0.455855252631458
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 1744,
+        "image_coverage": 0.5464602349530697
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    },
+    "frame_000057": {
+      "obj_d058f708eb01": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 2369,
+        "image_coverage": 0.41038358889860604
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 0,
+        "image_coverage": 0.1891979524705973
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 7769,
+        "image_coverage": 0.5593046869360092
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    },
+    "frame_000065": {
+      "obj_d058f708eb01": {
+        "pixels": 1296,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 251,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 2259,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 4744,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 3010,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 695,
+        "image_coverage": 1.0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0.9813621036636958
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 769,
+        "image_coverage": 1.0
+      }
+    },
+    "frame_000073": {
+      "obj_d058f708eb01": {
+        "pixels": 438,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 216,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 542,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 4518,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 4218,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 14,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 1348,
+        "image_coverage": 1.0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 2228,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 565,
+        "image_coverage": 1.0
+      }
+    },
+    "frame_000081": {
+      "obj_d058f708eb01": {
+        "pixels": 166,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 300,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 148,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 1767,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 2952,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 299,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 1488,
+        "image_coverage": 1.0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 2573,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 465,
+        "image_coverage": 1.0
+      }
+    },
+    "frame_000089": {
+      "obj_d058f708eb01": {
+        "pixels": 113,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 455,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 798,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 3287,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 1224,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 438,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 1376,
+        "image_coverage": 1.0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 4106,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 153,
+        "image_coverage": 1.0
+      }
+    },
+    "frame_000097": {
+      "obj_d058f708eb01": {
+        "pixels": 109,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 336,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 629,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 4068,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 1720,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 457,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 809,
+        "image_coverage": 1.0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 2587,
+        "image_coverage": 0.7661021177156191
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 30,
+        "image_coverage": 1.0
+      }
+    },
+    "frame_000105": {
+      "obj_d058f708eb01": {
+        "pixels": 254,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 570,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 1312,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 3164,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 2358,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 468,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 376,
+        "image_coverage": 1.0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 7,
+        "image_coverage": 1.0
+      }
+    },
+    "frame_000113": {
+      "obj_d058f708eb01": {
+        "pixels": 109,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 318,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 1937,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 1961,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 2863,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 484,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 851,
+        "image_coverage": 1.0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 96,
+        "image_coverage": 1.0
+      }
+    },
+    "frame_000121": {
+      "obj_d058f708eb01": {
+        "pixels": 151,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 577,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 745,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 531,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 1484,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 291,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 1355,
+        "image_coverage": 1.0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 1248,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 200,
+        "image_coverage": 1.0
+      }
+    },
+    "frame_000129": {
+      "obj_d058f708eb01": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 215,
+        "image_coverage": 0.3182748338049136
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 408,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 2367,
+        "image_coverage": 0.727650169462955
+      },
+      "obj_04c477562e49": {
+        "pixels": 91,
+        "image_coverage": 0.38249395447473905
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 738,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    },
+    "frame_000137": {
+      "obj_d058f708eb01": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 106,
+        "image_coverage": 0.39444941284173934
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 629,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    },
+    "frame_000145": {
+      "obj_d058f708eb01": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 11,
+        "image_coverage": 0.21942366307475036
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 791,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    },
+    "frame_000153": {
+      "obj_d058f708eb01": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 1279,
+        "image_coverage": 0.5673204299918196
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 558,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    },
+    "frame_000161": {
+      "obj_d058f708eb01": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 473,
+        "image_coverage": 0.11697946191996592
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 6363,
+        "image_coverage": 0.9715495042886653
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 79,
+        "image_coverage": 0.1324262101751568
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 137,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    },
+    "frame_000169": {
+      "obj_d058f708eb01": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 0,
+        "image_coverage": 0.08401314915119194
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 19842,
+        "image_coverage": 0.8334789170607415
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 6419,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 10403,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 258,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    },
+    "frame_000177": {
+      "obj_d058f708eb01": {
+        "pixels": 611,
+        "image_coverage": 0.21418983714724624
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 9626,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 10334,
+        "image_coverage": 0.8568109170117713
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 7735,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 8874,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 116,
+        "image_coverage": 0.44557575023774515
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0.009717785846336363
+      }
+    },
+    "frame_000185": {
+      "obj_d058f708eb01": {
+        "pixels": 11628,
+        "image_coverage": 0.935353153760791
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 8432,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 742,
+        "image_coverage": 0.1748946236922477
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 342,
+        "image_coverage": 0.3736717570969544
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 11963,
+        "image_coverage": 0.6125166547172728
+      },
+      "obj_04c477562e49": {
+        "pixels": 2133,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 9408,
+        "image_coverage": 0.04186332146980922
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 13472,
+        "image_coverage": 0.3070116148281829
+      }
+    },
+    "frame_000193": {
+      "obj_d058f708eb01": {
+        "pixels": 7778,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 2287,
+        "image_coverage": 0.23446555088350796
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_04c477562e49": {
+        "pixels": 1638,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 20045,
+        "image_coverage": 0.12957625299941555
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 2475,
+        "image_coverage": 0.062161901849301496
+      }
+    },
+    "frame_000201": {
+      "obj_d058f708eb01": {
+        "pixels": 2004,
+        "image_coverage": 0.23388764977810242
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_04c477562e49": {
+        "pixels": 1519,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    },
+    "frame_000209": {
+      "obj_d058f708eb01": {
+        "pixels": 2910,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 1724,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 600,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 1053,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 2269,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 2214,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 4730,
+        "image_coverage": 0.5928016817163225
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 131,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 275,
+        "image_coverage": 0.6993281289543004
+      }
+    },
+    "frame_000217": {
+      "obj_d058f708eb01": {
+        "pixels": 1572,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 501,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 222,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 974,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 2138,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 4077,
+        "image_coverage": 0.8676146297291781
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 4463,
+        "image_coverage": 1.0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 198,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 81,
+        "image_coverage": 1.0
+      }
+    },
+    "frame_000225": {
+      "obj_d058f708eb01": {
+        "pixels": 2523,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 1090,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 293,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 867,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 2044,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 3900,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 5203,
+        "image_coverage": 0.6395448693803957
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 183,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 780,
+        "image_coverage": 1.0
+      }
+    },
+    "frame_000233": {
+      "obj_d058f708eb01": {
+        "pixels": 3946,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 1469,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 424,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 995,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 2430,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 5770,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 6080,
+        "image_coverage": 0.4637636591967525
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 192,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 1448,
+        "image_coverage": 0.8760400007945998
+      }
+    },
+    "frame_000241": {
+      "obj_d058f708eb01": {
+        "pixels": 5669,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 1934,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 566,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 1132,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 2776,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 8748,
+        "image_coverage": 0.7801211262942952
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 7815,
+        "image_coverage": 0.40244357957144383
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 228,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 2312,
+        "image_coverage": 0.8086678949442379
+      }
+    },
+    "frame_000249": {
+      "obj_d058f708eb01": {
+        "pixels": 8714,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 2922,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 884,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 1246,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 3264,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 7680,
+        "image_coverage": 0.303096438177148
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 7508,
+        "image_coverage": 0.28431589742624686
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 246,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 4049,
+        "image_coverage": 0.666449475100334
+      }
+    },
+    "frame_000257": {
+      "obj_d058f708eb01": {
+        "pixels": 14599,
+        "image_coverage": 0.6029357498405616
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 4405,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 1242,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 1525,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 4186,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0.007922304555027189
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0.03475473414122133
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 282,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 1520,
+        "image_coverage": 0.2760127895829691
+      }
+    },
+    "frame_000265": {
+      "obj_d058f708eb01": {
+        "pixels": 8239,
+        "image_coverage": 0.1504806008179365
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 7237,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 1889,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 1925,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 5708,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 348,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    },
+    "frame_000273": {
+      "obj_d058f708eb01": {
+        "pixels": 0,
+        "image_coverage": 1.3868966429662342e-05
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 11935,
+        "image_coverage": 0.26875624840354545
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 3889,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 3183,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 11108,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 519,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    },
+    "frame_000281": {
+      "obj_d058f708eb01": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 3289,
+        "image_coverage": 0.16359522788046074
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 2822,
+        "image_coverage": 1.0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    },
+    "frame_000289": {
+      "obj_d058f708eb01": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    },
+    "frame_000297": {
+      "obj_d058f708eb01": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    },
+    "frame_000305": {
+      "obj_d058f708eb01": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 10919,
+        "image_coverage": 1.0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 4412,
+        "image_coverage": 0.5267984778049228
+      },
+      "obj_04c477562e49": {
+        "pixels": 746,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 10958,
+        "image_coverage": 0.6804541345222259
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    },
+    "frame_000313": {
+      "obj_d058f708eb01": {
+        "pixels": 334,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 1590,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 1837,
+        "image_coverage": 1.0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 16669,
+        "image_coverage": 0.6765231953554507
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 5206,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 786,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 2428,
+        "image_coverage": 1.0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 568,
+        "image_coverage": 1.0
+      }
+    },
+    "frame_000321": {
+      "obj_d058f708eb01": {
+        "pixels": 569,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 3724,
+        "image_coverage": 1.0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 12840,
+        "image_coverage": 0.7943140609990916
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 17108,
+        "image_coverage": 0.07494745961852949
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 19253,
+        "image_coverage": 1.0
+      },
+      "obj_04c477562e49": {
+        "pixels": 1079,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 4158,
+        "image_coverage": 1.0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 1552,
+        "image_coverage": 1.0
+      }
+    },
+    "frame_000329": {
+      "obj_d058f708eb01": {
+        "pixels": 5110,
+        "image_coverage": 1.0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 9122,
+        "image_coverage": 0.0763523110693652
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_04c477562e49": {
+        "pixels": 2642,
+        "image_coverage": 1.0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 12245,
+        "image_coverage": 0.32511146339266384
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0.08343843679336656
+      }
+    },
+    "frame_000337": {
+      "obj_d058f708eb01": {
+        "pixels": 0,
+        "image_coverage": 3.6212344116080737e-06
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_04c477562e49": {
+        "pixels": 11533,
+        "image_coverage": 0.4796717076506973
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    },
+    "frame_000345": {
+      "obj_d058f708eb01": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_09a35ba03c92": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_ad85774e5f18": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c812ae8b15bd": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_f9a0e863e32d": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_04c477562e49": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_b8542dc54ed2": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_c57876bf22ca": {
+        "pixels": 0,
+        "image_coverage": 0
+      },
+      "obj_57b0f30bdd9e": {
+        "pixels": 0,
+        "image_coverage": 0
+      }
+    }
+  },
+  "purpose": "Choose readable evaluation displays using frozen 3D instances; no segmentation parameter tuning."
+}

@@ -1,0 +1,43 @@
+{
+  "query": "多层料架",
+  "target_text": "多层料架",
+  "category_match": {
+    "category_id": "category_04",
+    "method": "known_category_alias",
+    "query": "多层料架"
+  },
+  "relation": null,
+  "anchor_text": null,
+  "anchor_object_ids": [],
+  "known_category_instances": [
+    "obj_485ade540e7d",
+    "obj_126125e3a773",
+    "obj_aad6e7f85a9a",
+    "obj_5bfd32389355",
+    "obj_b7e0494ce9dd",
+    "obj_b8542dc54ed2",
+    "obj_06d9693cfb0a",
+    "obj_933bd7d6e703",
+    "obj_dee5bef52687"
+  ],
+  "available_category_candidates": [
+    "obj_b8542dc54ed2"
+  ],
+  "unsegmented_category_instances": [
+    "obj_485ade540e7d",
+    "obj_126125e3a773",
+    "obj_aad6e7f85a9a",
+    "obj_5bfd32389355",
+    "obj_b7e0494ce9dd",
+    "obj_06d9693cfb0a",
+    "obj_933bd7d6e703",
+    "obj_dee5bef52687"
+  ],
+  "matched_object_ids": [
+    "obj_b8542dc54ed2"
+  ],
+  "relation_evidence": [],
+  "same_category_candidates_before": 1,
+  "matches_after": 1,
+  "segmentation_rerun": false
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "copied_files": 189,
+  "verified_source_and_published_hashes": true,
+  "figures": 10,
+  "parsed_python_files": 36,
+  "checked_local_links": 51,
+  "upstream_patch_matches_actual_files": [
+    "extract_segment_everything_masks.py",
+    "scene/dataset_readers.py",
+    "train_contrastive_feature.py",
+    "utils/camera_utils.py"
+  ],
+  "shared_dependencies_match": true,
+  "weights_raw_data_and_binaries_excluded": true
+}

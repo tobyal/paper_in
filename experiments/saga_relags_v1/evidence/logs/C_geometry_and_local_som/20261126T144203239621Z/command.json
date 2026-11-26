@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/envs/saga/bin/python",
+    "-u",
+    "src/build_graph.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1",
+  "gpu": "1",
+  "start_utc": "20261126T144203239621Z",
+  "stage": "C_geometry_and_local_som",
+  "pid": 546687
+}

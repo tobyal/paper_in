@@ -1,0 +1,46 @@
+[
+  {
+    "tag": 1,
+    "object_id": "obj_141f3e5dbe3a",
+    "category_id": "category_05",
+    "name": "Blue bin group 01",
+    "pixel": [
+      945,
+      349
+    ],
+    "coarse_prior_boundary": true
+  },
+  {
+    "tag": 2,
+    "object_id": "obj_2e1a6e5960f5",
+    "category_id": "category_07",
+    "name": "Workbench 01",
+    "pixel": [
+      1119,
+      308
+    ],
+    "coarse_prior_boundary": true
+  },
+  {
+    "tag": 3,
+    "object_id": "obj_09a35ba03c92",
+    "category_id": "category_02",
+    "name": "Assembly fixture table 03",
+    "pixel": [
+      310,
+      385
+    ],
+    "coarse_prior_boundary": true
+  },
+  {
+    "tag": 4,
+    "object_id": "obj_ad85774e5f18",
+    "category_id": "category_03",
+    "name": "Fixture table with black workpiece 01",
+    "pixel": [
+      212,
+      304
+    ],
+    "coarse_prior_boundary": true
+  }
+]

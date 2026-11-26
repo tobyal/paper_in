@@ -1,0 +1,2 @@
+ f7f36bd1cb4e3a761d73d584866d0a9c6b4d2805 third_party/kmeans_pytorch (heads/master)
+ 6fdee8f2727f4506cfbbe553e23b895e27956588 third_party/segment-anything (6fdee8f)

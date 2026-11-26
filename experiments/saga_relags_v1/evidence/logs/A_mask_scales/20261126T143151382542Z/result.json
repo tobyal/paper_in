@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/envs/saga/bin/python",
+    "-u",
+    "src/mask_scales.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1",
+  "gpu": "0",
+  "start_utc": "20261126T143151382542Z",
+  "stage": "A_mask_scales",
+  "pid": 503078,
+  "exit_code": 0,
+  "status": "completed",
+  "seconds": 112.56079506874084
+}

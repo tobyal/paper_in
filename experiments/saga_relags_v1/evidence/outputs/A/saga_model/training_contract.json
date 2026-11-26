@@ -1,0 +1,8 @@
+{
+  "gaussian_count": 1828777,
+  "geometry_frozen": true,
+  "original_row_order_exact": true,
+  "knn_squared_distance_max_error": 7.450580596923828e-09,
+  "loss_source": "Official SAGA v2 train_contrastive_feature.py",
+  "official_random_seed": 0
+}

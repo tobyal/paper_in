@@ -1,0 +1,13 @@
+{
+  "model": "qwen3.5:9b",
+  "prompt": "Inspect the numbered WHOLE industrial devices in this image. The yellow contours are approximate spatial priors, NOT exact object segmentation. Device tags: [{\"tag\": 1, \"object_id\": \"obj_141f3e5dbe3a\", \"category_id\": \"category_05\", \"name\": \"Blue bin group 01\", \"pixel\": [945, 349], \"coarse_prior_boundary\": true}, {\"tag\": 2, \"object_id\": \"obj_2e1a6e5960f5\", \"category_id\": \"category_07\", \"name\": \"Workbench 01\", \"pixel\": [1119, 308], \"coarse_prior_boundary\": true}, {\"tag\": 3, \"object_id\": \"obj_09a35ba03c92\", \"category_id\": \"category_02\", \"name\": \"Assembly fixture table 03\", \"pixel\": [310, 385], \"coarse_prior_boundary\": true}, {\"tag\": 4, \"object_id\": \"obj_ad85774e5f18\", \"category_id\": \"category_03\", \"name\": \"Fixture table with black workpiece 01\", \"pixel\": [212, 304], \"coarse_prior_boundary\": true}]. Report ONLY directly visible physical relations between DIFFERENT numbered whole devices: supports, supported_by, contains, inside, covers, covered_by, rests_on. Do not describe parts within a device as another device. Mere adjacency, visual overlap, aligned machinery, or shared function is NOT physical support or containment. Do NOT report left/right/front/behind/near: those are computed in 3D. If no clear relation is visible, return an empty relations list. Return JSON {\"relations\":[{\"subject_tag\":1,\"relation\":\"supports\",\"object_tag\":2,\"confidence\":0.9,\"evidence\":\"specific visible contact or containment evidence\"}],\"observation\":\"brief explanation\"}. Never invent a relation to fill the list.",
+  "format": "json",
+  "stream": false,
+  "think": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1500
+  },
+  "keep_alive": "2m"
+}

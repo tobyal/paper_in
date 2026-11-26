@@ -1,0 +1,230 @@
+[
+  {
+    "subject": "obj_f9a0e863e32d",
+    "relation": "nearest_to",
+    "object": "obj_ad85774e5f18",
+    "source": "industrial_geometry",
+    "evidence": {
+      "target_category": "category_01",
+      "center_distance": 0.6219796048535611,
+      "tie_tolerance": 1e-06,
+      "candidate_distances": [
+        {
+          "object_id": "obj_f9a0e863e32d",
+          "distance": 0.6219796048535611
+        },
+        {
+          "object_id": "obj_4fd05384c476",
+          "distance": 2.3796699921312916
+        },
+        {
+          "object_id": "obj_3efbeb5e8179",
+          "distance": 1.0564808157705021
+        },
+        {
+          "object_id": "obj_7047e5f33259",
+          "distance": 0.9212820725158124
+        },
+        {
+          "object_id": "obj_c0162cd69680",
+          "distance": 1.4382611574251067
+        },
+        {
+          "object_id": "obj_57b0f30bdd9e",
+          "distance": 2.0553332134225224
+        }
+      ],
+      "units": "SfM relative units"
+    }
+  },
+  {
+    "subject": "obj_b8542dc54ed2",
+    "relation": "nearest_to",
+    "object": "obj_d058f708eb01",
+    "source": "industrial_geometry",
+    "evidence": {
+      "target_category": "category_04",
+      "center_distance": 0.9548671816253048,
+      "tie_tolerance": 1e-06,
+      "candidate_distances": [
+        {
+          "object_id": "obj_485ade540e7d",
+          "distance": 3.6383310722969004
+        },
+        {
+          "object_id": "obj_126125e3a773",
+          "distance": 1.3150642652344173
+        },
+        {
+          "object_id": "obj_aad6e7f85a9a",
+          "distance": 5.359238398479231
+        },
+        {
+          "object_id": "obj_5bfd32389355",
+          "distance": 2.3900948747106967
+        },
+        {
+          "object_id": "obj_b7e0494ce9dd",
+          "distance": 1.764076147992047
+        },
+        {
+          "object_id": "obj_b8542dc54ed2",
+          "distance": 0.9548671816253048
+        },
+        {
+          "object_id": "obj_06d9693cfb0a",
+          "distance": 3.9262524483482437
+        },
+        {
+          "object_id": "obj_933bd7d6e703",
+          "distance": 5.4944013375664715
+        },
+        {
+          "object_id": "obj_dee5bef52687",
+          "distance": 3.9771168516405884
+        }
+      ],
+      "units": "SfM relative units"
+    }
+  },
+  {
+    "subject": "obj_f9a0e863e32d",
+    "relation": "nearest_to",
+    "object": "obj_c812ae8b15bd",
+    "source": "industrial_geometry",
+    "evidence": {
+      "target_category": "category_01",
+      "center_distance": 1.0001628808208898,
+      "tie_tolerance": 1e-06,
+      "candidate_distances": [
+        {
+          "object_id": "obj_f9a0e863e32d",
+          "distance": 1.0001628808208898
+        },
+        {
+          "object_id": "obj_4fd05384c476",
+          "distance": 2.676118321075496
+        },
+        {
+          "object_id": "obj_3efbeb5e8179",
+          "distance": 2.001331404824549
+        },
+        {
+          "object_id": "obj_7047e5f33259",
+          "distance": 2.2127199059596623
+        },
+        {
+          "object_id": "obj_c0162cd69680",
+          "distance": 2.616127573482934
+        },
+        {
+          "object_id": "obj_57b0f30bdd9e",
+          "distance": 3.1357992671028065
+        }
+      ],
+      "units": "SfM relative units"
+    }
+  },
+  {
+    "subject": "obj_57b0f30bdd9e",
+    "relation": "nearest_to",
+    "object": "obj_b8542dc54ed2",
+    "source": "industrial_geometry",
+    "evidence": {
+      "target_category": "category_01",
+      "center_distance": 0.6109233775772793,
+      "tie_tolerance": 1e-06,
+      "candidate_distances": [
+        {
+          "object_id": "obj_f9a0e863e32d",
+          "distance": 2.6642815634933337
+        },
+        {
+          "object_id": "obj_4fd05384c476",
+          "distance": 4.716807570578824
+        },
+        {
+          "object_id": "obj_3efbeb5e8179",
+          "distance": 3.2038623717742194
+        },
+        {
+          "object_id": "obj_7047e5f33259",
+          "distance": 2.363511706186553
+        },
+        {
+          "object_id": "obj_c0162cd69680",
+          "distance": 1.2726896609827756
+        },
+        {
+          "object_id": "obj_57b0f30bdd9e",
+          "distance": 0.6109233775772793
+        }
+      ],
+      "units": "SfM relative units"
+    }
+  },
+  {
+    "subject": "obj_f9a0e863e32d",
+    "relation": "nearest_to",
+    "object": "obj_c812ae8b15bd",
+    "source": "industrial_geometry",
+    "evidence": {
+      "target_category": "category_01",
+      "center_distance": 1.0001628808208898,
+      "tie_tolerance": 1e-06,
+      "candidate_distances": [
+        {
+          "object_id": "obj_f9a0e863e32d",
+          "distance": 1.0001628808208898
+        },
+        {
+          "object_id": "obj_4fd05384c476",
+          "distance": 2.676118321075496
+        },
+        {
+          "object_id": "obj_3efbeb5e8179",
+          "distance": 2.001331404824549
+        },
+        {
+          "object_id": "obj_7047e5f33259",
+          "distance": 2.2127199059596623
+        },
+        {
+          "object_id": "obj_c0162cd69680",
+          "distance": 2.616127573482934
+        },
+        {
+          "object_id": "obj_57b0f30bdd9e",
+          "distance": 3.1357992671028065
+        }
+      ],
+      "units": "SfM relative units"
+    }
+  },
+  {
+    "subject": "obj_c57876bf22ca",
+    "relation": "nearest_to",
+    "object": "obj_c812ae8b15bd",
+    "source": "industrial_geometry",
+    "evidence": {
+      "target_category": "category_06",
+      "center_distance": 1.3796374430450347,
+      "tie_tolerance": 1e-06,
+      "candidate_distances": [
+        {
+          "object_id": "obj_e57b3a886c2d",
+          "distance": 2.4851469587356827
+        },
+        {
+          "object_id": "obj_04c477562e49",
+          "distance": 3.9136128741589715
+        },
+        {
+          "object_id": "obj_c57876bf22ca",
+          "distance": 1.3796374430450347
+        }
+      ],
+      "units": "SfM relative units"
+    }
+  }
+]

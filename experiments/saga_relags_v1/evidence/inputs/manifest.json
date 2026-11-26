@@ -1,0 +1,60 @@
+{
+  "created_utc": "2026-11-26T14:17:11.975174+00:00",
+  "m0_revision": 29,
+  "objects": 33,
+  "categories": [
+    {
+      "category_id": "category_01",
+      "name_zh": "物料车",
+      "name_en": "material_cart"
+    },
+    {
+      "category_id": "category_02",
+      "name_zh": "装配夹具台",
+      "name_en": "assembly_fixture"
+    },
+    {
+      "category_id": "category_03",
+      "name_zh": "带黑色工件的夹具台",
+      "name_en": "loaded_fixture"
+    },
+    {
+      "category_id": "category_04",
+      "name_zh": "多层料架",
+      "name_en": "multi_tier_rack"
+    },
+    {
+      "category_id": "category_05",
+      "name_zh": "蓝色箱组",
+      "name_en": "blue_bins"
+    },
+    {
+      "category_id": "category_06",
+      "name_zh": "立式移动冷风机",
+      "name_en": "air_cooler"
+    },
+    {
+      "category_id": "category_07",
+      "name_zh": "工作台",
+      "name_en": "workbench"
+    },
+    {
+      "category_id": "category_08",
+      "name_zh": "分隔式料架",
+      "name_en": "compartment_rack"
+    }
+  ],
+  "category_id_source": "Stable experiment catalog from existing M0 category names; source M0 has no explicit category_id",
+  "scene_status": "draft",
+  "formal_confirmed": 0,
+  "units": "sfm_relative",
+  "ply": "data/gaussian_scene/original_3dgs/point_cloud/iteration_30000/point_cloud.ply",
+  "images": "data/images",
+  "colmap": "data/colmap/sparse/0",
+  "train": 306,
+  "heldout": 44,
+  "hybrid_observations": "outputs/industrial_world_model/M2_1_hybrid_view_selection_20261126_r29",
+  "hybrid_compatible_with_latest_m0": true,
+  "external_image_upload_authorized": false,
+  "available_local_vlm_checkpoints": []
+}

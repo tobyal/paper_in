@@ -1,0 +1,8 @@
+/envs/
+/cache/
+/third_party/
+/inputs/
+/outputs/
+/logs/
+/world_model/
+/review/

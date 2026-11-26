@@ -1,0 +1,14 @@
+[
+  {
+    "object_id": "obj_ad85774e5f18",
+    "before": 8433,
+    "after": 11795,
+    "visual_observation": "Pale workpiece cover recovered in training-view native Gaussian projection; thin-structure holes remain. Not ground-truth accuracy."
+  },
+  {
+    "object_id": "obj_c812ae8b15bd",
+    "before": 15595,
+    "after": 17383,
+    "visual_observation": "Pale workpiece cover recovered in training-view native Gaussian projection; thin-structure holes remain. Not ground-truth accuracy."
+  }
+]

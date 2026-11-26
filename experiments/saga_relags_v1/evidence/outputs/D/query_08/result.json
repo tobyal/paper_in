@@ -1,0 +1,72 @@
+{
+  "query": "距离装配夹具台 01最近的带黑色工件的夹具台",
+  "target_text": "带黑色工件的夹具台",
+  "category_match": {
+    "category_id": "category_03",
+    "method": "known_category_alias",
+    "query": "带黑色工件的夹具台"
+  },
+  "relation": "nearest_to",
+  "anchor_text": "装配夹具台 01",
+  "anchor_object_ids": [
+    "obj_8429bc5f3c33"
+  ],
+  "known_category_instances": [
+    "obj_ad85774e5f18",
+    "obj_c812ae8b15bd",
+    "obj_8528f4bf8a3d",
+    "obj_8e79bd39b8b9",
+    "obj_087984e7c374"
+  ],
+  "available_category_candidates": [
+    "obj_ad85774e5f18",
+    "obj_c812ae8b15bd"
+  ],
+  "unsegmented_category_instances": [
+    "obj_8528f4bf8a3d",
+    "obj_8e79bd39b8b9",
+    "obj_087984e7c374"
+  ],
+  "matched_object_ids": [
+    "obj_ad85774e5f18"
+  ],
+  "relation_evidence": [
+    {
+      "subject": "obj_ad85774e5f18",
+      "relation": "nearest_to",
+      "object": "obj_8429bc5f3c33",
+      "source": "industrial_geometry",
+      "evidence": {
+        "target_category": "category_03",
+        "center_distance": 3.433517258357341,
+        "tie_tolerance": 1e-06,
+        "candidate_distances": [
+          {
+            "object_id": "obj_ad85774e5f18",
+            "distance": 3.433517258357341
+          },
+          {
+            "object_id": "obj_c812ae8b15bd",
+            "distance": 4.11729039427431
+          },
+          {
+            "object_id": "obj_8528f4bf8a3d",
+            "distance": 4.567518148484635
+          },
+          {
+            "object_id": "obj_8e79bd39b8b9",
+            "distance": 5.22845475320336
+          },
+          {
+            "object_id": "obj_087984e7c374",
+            "distance": 6.141103964663966
+          }
+        ],
+        "units": "SfM relative units"
+      }
+    }
+  ],
+  "same_category_candidates_before": 2,
+  "matches_after": 1,
+  "segmentation_rerun": false
+}

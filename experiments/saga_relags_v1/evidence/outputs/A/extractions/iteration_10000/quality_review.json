@@ -1,0 +1,18 @@
+{
+  "reviewer": "Codex visual inspection",
+  "checkpoint": 10000,
+  "basis": "Three independent native Gaussian renders, full-scene training-view projections, and coarse-candidate references; no heldout images used for selection.",
+  "interpretation": "Usable for equipment-level query demonstrations, not certified ground-truth accuracy or complete surface reconstruction.",
+  "objects": [
+    {"object_id":"obj_f9a0e863e32d","usable_for_queries":true,"assessment_zh":"车体、框架及主要底部结构完整，地面背景大幅减少；边缘仍有少量重建伪影。"},
+    {"object_id":"obj_57b0f30bdd9e","usable_for_queries":true,"assessment_zh":"箱体及蓝色内部主体保留，相邻设备和大部分地面被排除；顶部/背侧有局部漂浮和模糊。"},
+    {"object_id":"obj_d058f708eb01","usable_for_queries":true,"assessment_zh":"长底座、立柱和主要夹具主体连贯；细线缆、轮缘及少量细杆存在缺失。"},
+    {"object_id":"obj_09a35ba03c92","usable_for_queries":true,"assessment_zh":"长底座及上部夹持结构保留，未明显混入后方设备；局部细结构有孔洞。"},
+    {"object_id":"obj_ad85774e5f18","usable_for_queries":true,"assessment_zh":"底座、黑色工件及补点后的浅色覆盖物均可见；遮挡侧和黑色结构仍有局部缺口。"},
+    {"object_id":"obj_c812ae8b15bd","usable_for_queries":true,"assessment_zh":"底座、工件和覆盖物主体保留，与邻近料架区分；细支撑及底部有少量模糊残影。"},
+    {"object_id":"obj_04c477562e49","usable_for_queries":true,"assessment_zh":"冷风机机身和正面格栅清楚，周围背景减少；背面存在原3DGS带来的彩色伪影，底部细节不足。"},
+    {"object_id":"obj_c57876bf22ca","usable_for_queries":true,"assessment_zh":"冷风机主体、顶部和格栅保留；下部轮脚及侧面仍有模糊或漂浮高斯。"},
+    {"object_id":"obj_b8542dc54ed2","usable_for_queries":true,"assessment_zh":"多层横杆、侧框和架内物料主体保留，未明显吞入旁边冷风机；细杆和少量漂浮背景仍需改进。"},
+    {"object_id":"obj_5bfd32389355","usable_for_queries":false,"assessment_zh":"上部架体可辨，但下部明显缺失，并混入邻近白色结构/漂浮背景；保留失败结果，不进入查询可用实例。"}
+  ]
+}

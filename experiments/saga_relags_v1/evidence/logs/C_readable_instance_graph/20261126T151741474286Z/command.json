@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/envs/saga/bin/python",
+    "-u",
+    "src/visualize_instance_graph.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1",
+  "gpu": "1",
+  "start_utc": "20261126T151741474286Z",
+  "stage": "C_readable_instance_graph",
+  "pid": 671233
+}

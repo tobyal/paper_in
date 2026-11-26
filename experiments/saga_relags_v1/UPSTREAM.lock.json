@@ -1,0 +1,17 @@
+{
+  "saga": {
+    "url": "https://github.com/Jumpat/SegAnyGAussians.git",
+    "commit": "2d4c5d77c857c956d747e4775d3d72c4ec5dfe16",
+    "patch": "docs/patches/saga_complete.patch",
+    "patch_sha256": "2872e22f56ead67c4ad1b258a7695327975b5c6e8c1b91058fb98e040c273145"
+  },
+  "sam": {
+    "url": "https://github.com/facebookresearch/segment-anything.git",
+    "commit": "6fdee8f2727f4506cfbbe553e23b895e27956588"
+  },
+  "kmeans": {
+    "url": "https://github.com/subhadarship/kmeans_pytorch.git",
+    "commit": "f7f36bd1cb4e3a761d73d584866d0a9c6b4d2805"
+  },
+  "notes": "Official sources and compiled binaries are not bundled; preserve all nested licenses."
+}

@@ -1,0 +1,32 @@
+{
+  "nodes": 33,
+  "geometric_edges": 2020,
+  "accepted_visual_edges": 0,
+  "single_view_hypotheses": 0,
+  "som_attempts": [
+    {
+      "image_id": "frame_000202",
+      "status": "completed",
+      "seconds": 41.39233064651489,
+      "raw_relations": 0,
+      "locally_valid": 0
+    },
+    {
+      "image_id": "frame_000168",
+      "status": "completed",
+      "seconds": 2.9766738414764404,
+      "raw_relations": 0,
+      "locally_valid": 0
+    },
+    {
+      "image_id": "frame_000208",
+      "status": "completed",
+      "seconds": 3.3242902755737305,
+      "raw_relations": 0,
+      "locally_valid": 0
+    }
+  ],
+  "external_image_upload": false,
+  "heldout_used": false,
+  "note": "Empty semantic relations are allowed: separately annotated whole devices need not support or contain each other."
+}

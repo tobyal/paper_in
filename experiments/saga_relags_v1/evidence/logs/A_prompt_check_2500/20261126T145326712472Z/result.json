@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/envs/saga/bin/python",
+    "-u",
+    "src/extract_instances.py",
+    "--iteration",
+    "2500",
+    "--tag",
+    "extra_points"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1",
+  "gpu": "1",
+  "start_utc": "20261126T145326712472Z",
+  "stage": "A_prompt_check_2500",
+  "pid": 588548,
+  "exit_code": 0,
+  "status": "completed",
+  "seconds": 33.70353102684021
+}

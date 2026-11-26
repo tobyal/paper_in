@@ -1,0 +1,36 @@
+{
+  "query": "带黑色工件的夹具台",
+  "target_text": "带黑色工件的夹具台",
+  "category_match": {
+    "category_id": "category_03",
+    "method": "known_category_alias",
+    "query": "带黑色工件的夹具台"
+  },
+  "relation": null,
+  "anchor_text": null,
+  "anchor_object_ids": [],
+  "known_category_instances": [
+    "obj_ad85774e5f18",
+    "obj_c812ae8b15bd",
+    "obj_8528f4bf8a3d",
+    "obj_8e79bd39b8b9",
+    "obj_087984e7c374"
+  ],
+  "available_category_candidates": [
+    "obj_ad85774e5f18",
+    "obj_c812ae8b15bd"
+  ],
+  "unsegmented_category_instances": [
+    "obj_8528f4bf8a3d",
+    "obj_8e79bd39b8b9",
+    "obj_087984e7c374"
+  ],
+  "matched_object_ids": [
+    "obj_ad85774e5f18",
+    "obj_c812ae8b15bd"
+  ],
+  "relation_evidence": [],
+  "same_category_candidates_before": 2,
+  "matches_after": 2,
+  "segmentation_rerun": false
+}

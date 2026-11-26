@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/envs/saga/bin/python",
+    "-u",
+    "src/query_demonstrations.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1",
+  "gpu": "1",
+  "start_utc": "20261126T151639512912Z",
+  "stage": "D_visible_heldout_displays",
+  "pid": 668426,
+  "exit_code": 0,
+  "status": "completed",
+  "seconds": 10.740671396255493
+}

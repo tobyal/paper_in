@@ -1,0 +1,12 @@
+{
+  "usable_objects": 9,
+  "failed_objects": 1,
+  "categories": 8,
+  "graph_nodes": 33,
+  "geometry_edges": 2020,
+  "visual_edges": 0,
+  "class_queries": 5,
+  "relation_queries": 5,
+  "training_seconds": 1852.45187997818,
+  "validated": true
+}

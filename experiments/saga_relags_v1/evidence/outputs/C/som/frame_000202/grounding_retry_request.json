@@ -1,0 +1,13 @@
+{
+  "model": "qwen3.5:9b",
+  "prompt": "The image shows numbered industrial devices. Describe briefly what is actually visible at each yellow number, including its shape and color. Then say whether any TWO DIFFERENT numbered whole devices physically support or contain each other. Adjacent devices and overlapping image silhouettes do not establish contact. An empty relations list is expected if there is no visible evidence. Do not use left/right/near. Return JSON with observations [{tag: integer, visible_description: string}], relations [{subject_tag: integer, relation: string, object_tag: integer, evidence: string}], and observation: a nonempty overall explanation. Numbers to examine: [1, 2, 3, 4, 5]",
+  "format": "json",
+  "stream": false,
+  "think": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1600
+  },
+  "keep_alive": "1m"
+}

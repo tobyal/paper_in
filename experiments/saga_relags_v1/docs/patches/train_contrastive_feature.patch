@@ -1,0 +1,27 @@
+--- a/train_contrastive_feature.py
++++ b/train_contrastive_feature.py
+@@ -10,6 +10,7 @@
+ #
+ 
+ import os
++import saga_hooks
+ import torch
+ from random import randint
+ from gaussian_renderer import render_contrastive_feature
+@@ -130,6 +131,8 @@
+         q_trans = get_quantile_func(all_scales, "uniform")
+         fixed_scale_gate = torch.tensor([[1 for j in range(32 - scale_aware_dim + i)] + [0 for k in range(scale_aware_dim - i)] for i in range(scale_aware_dim+1)]).cuda()
+ 
++    saga_hooks.initialize(feature_gaussians, scale_gate, scene, opt, all_scales)
++    first_iter, viewpoint_stack = saga_hooks.restore(feature_gaussians, scale_gate, scene)
+     for iteration in range(first_iter, opt.iterations + 1):
+         iter_start.record()
+ 
+@@ -304,6 +307,7 @@
+         feature_gaussians.optimizer.zero_grad(set_to_none = True)
+ 
+         iter_end.record()
++        saga_hooks.record(iteration, feature_gaussians, scale_gate, scene, opt, loss, cosine_pos, cosine_neg, rendered_feature_norm, viewpoint_stack)
+ 
+         if iteration % 10 == 0:
+             progress_bar.set_postfix({

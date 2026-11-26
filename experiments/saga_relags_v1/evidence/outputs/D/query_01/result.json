@@ -1,0 +1,38 @@
+{
+  "query": "物料车",
+  "target_text": "物料车",
+  "category_match": {
+    "category_id": "category_01",
+    "method": "known_category_alias",
+    "query": "物料车"
+  },
+  "relation": null,
+  "anchor_text": null,
+  "anchor_object_ids": [],
+  "known_category_instances": [
+    "obj_f9a0e863e32d",
+    "obj_4fd05384c476",
+    "obj_3efbeb5e8179",
+    "obj_7047e5f33259",
+    "obj_c0162cd69680",
+    "obj_57b0f30bdd9e"
+  ],
+  "available_category_candidates": [
+    "obj_f9a0e863e32d",
+    "obj_57b0f30bdd9e"
+  ],
+  "unsegmented_category_instances": [
+    "obj_4fd05384c476",
+    "obj_3efbeb5e8179",
+    "obj_7047e5f33259",
+    "obj_c0162cd69680"
+  ],
+  "matched_object_ids": [
+    "obj_f9a0e863e32d",
+    "obj_57b0f30bdd9e"
+  ],
+  "relation_evidence": [],
+  "same_category_candidates_before": 2,
+  "matches_after": 2,
+  "segmentation_rerun": false
+}

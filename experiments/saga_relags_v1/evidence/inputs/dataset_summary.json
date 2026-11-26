@@ -1,0 +1,62 @@
+{
+  "training_cameras": 74,
+  "real": 57,
+  "virtual": 17,
+  "heldout_cameras_used": 0,
+  "native_gaussians": 1828777,
+  "focus_objects": [
+    {
+      "object_id": "obj_f9a0e863e32d",
+      "name_zh": "物料车 03",
+      "category_id": "category_01"
+    },
+    {
+      "object_id": "obj_57b0f30bdd9e",
+      "name_zh": "物料车 01",
+      "category_id": "category_01"
+    },
+    {
+      "object_id": "obj_d058f708eb01",
+      "name_zh": "装配夹具台 02",
+      "category_id": "category_02"
+    },
+    {
+      "object_id": "obj_09a35ba03c92",
+      "name_zh": "装配夹具台 03",
+      "category_id": "category_02"
+    },
+    {
+      "object_id": "obj_ad85774e5f18",
+      "name_zh": "带黑色工件的夹具台 01",
+      "category_id": "category_03"
+    },
+    {
+      "object_id": "obj_c812ae8b15bd",
+      "name_zh": "带黑色工件的夹具台 02",
+      "category_id": "category_03"
+    },
+    {
+      "object_id": "obj_04c477562e49",
+      "name_zh": "立式移动冷风机 01",
+      "category_id": "category_06"
+    },
+    {
+      "object_id": "obj_c57876bf22ca",
+      "name_zh": "立式移动冷风机 03",
+      "category_id": "category_06"
+    },
+    {
+      "object_id": "obj_b8542dc54ed2",
+      "name_zh": "多层料架 03",
+      "category_id": "category_04"
+    },
+    {
+      "object_id": "obj_5bfd32389355",
+      "name_zh": "多层料架 04",
+      "category_id": "category_04"
+    }
+  ],
+  "geometry_retrained": false,
+  "prior_semantic_masks_reused": false,
+  "nearest_neighbors": "Exact Euclidean K=16; cKDTree computation only, official local feature smoothing unchanged"
+}

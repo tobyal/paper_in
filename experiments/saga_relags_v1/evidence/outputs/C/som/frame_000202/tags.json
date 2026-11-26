@@ -1,0 +1,57 @@
+[
+  {
+    "tag": 1,
+    "object_id": "obj_e57b3a886c2d",
+    "category_id": "category_06",
+    "name": "Portable upright air cooler 02",
+    "pixel": [
+      127,
+      395
+    ],
+    "coarse_prior_boundary": true
+  },
+  {
+    "tag": 2,
+    "object_id": "obj_2e1a6e5960f5",
+    "category_id": "category_07",
+    "name": "Workbench 01",
+    "pixel": [
+      670,
+      299
+    ],
+    "coarse_prior_boundary": true
+  },
+  {
+    "tag": 3,
+    "object_id": "obj_04c477562e49",
+    "category_id": "category_06",
+    "name": "Portable upright air cooler 01",
+    "pixel": [
+      709,
+      355
+    ],
+    "coarse_prior_boundary": true
+  },
+  {
+    "tag": 4,
+    "object_id": "obj_8429bc5f3c33",
+    "category_id": "category_02",
+    "name": "Assembly fixture table 01",
+    "pixel": [
+      279,
+      629
+    ],
+    "coarse_prior_boundary": true
+  },
+  {
+    "tag": 5,
+    "object_id": "obj_141f3e5dbe3a",
+    "category_id": "category_05",
+    "name": "Blue bin group 01",
+    "pixel": [
+      459,
+      356
+    ],
+    "coarse_prior_boundary": true
+  }
+]

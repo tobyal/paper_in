@@ -1,0 +1,1706 @@
+{
+  "source_root": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1",
+  "files": [
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/AGENTS.md",
+      "destination": "experiments/saga_relags_v1/AGENTS.md",
+      "bytes": 1103,
+      "sha256": "cf5f5240eff41fe29a23be39d15d4c0d459a071eda774907dc17003a2a9b2a98",
+      "purpose": "Experiment documentation",
+      "published_sha256": "cf5f5240eff41fe29a23be39d15d4c0d459a071eda774907dc17003a2a9b2a98",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/README.md",
+      "destination": "experiments/saga_relags_v1/README.md",
+      "bytes": 6541,
+      "sha256": "d619e98be34caaffd9f97c6b427f650d3e8bab80306c6b47902af05796a7d113",
+      "purpose": "Experiment documentation",
+      "published_sha256": "cdbcb3c1ce59170b365b0013453dee7df881269a94099d9ca1c1fd77dc0917bb",
+      "publication_edited": true
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/EXPERIMENT_REPORT.md",
+      "destination": "experiments/saga_relags_v1/EXPERIMENT_REPORT.md",
+      "bytes": 14520,
+      "sha256": "c20041fdf34495fba61bb7fd2b66ed602908ed2d7d5545ec5178ee6bc6278e58",
+      "purpose": "Experiment documentation",
+      "published_sha256": "c20041fdf34495fba61bb7fd2b66ed602908ed2d7d5545ec5178ee6bc6278e58",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/src/build_graph.py",
+      "destination": "experiments/saga_relags_v1/src/build_graph.py",
+      "bytes": 9131,
+      "sha256": "7ed607fdf49e0da500798bc0375fe79033897618ad8256538314e51d49b11ad5",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "7ed607fdf49e0da500798bc0375fe79033897618ad8256538314e51d49b11ad5",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/src/build_semantics.py",
+      "destination": "experiments/saga_relags_v1/src/build_semantics.py",
+      "bytes": 6767,
+      "sha256": "34f5079e412ec356d1f33fabea119631fe1b0485013ad1d1fe30570155611b17",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "34f5079e412ec356d1f33fabea119631fe1b0485013ad1d1fe30570155611b17",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/src/common.py",
+      "destination": "experiments/saga_relags_v1/src/common.py",
+      "bytes": 1758,
+      "sha256": "86bc65c063267b5ac6d980f2a60149cedaa696da7039c7e5af35c2bb182bfd9c",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "86bc65c063267b5ac6d980f2a60149cedaa696da7039c7e5af35c2bb182bfd9c",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/src/extract_instances.py",
+      "destination": "experiments/saga_relags_v1/src/extract_instances.py",
+      "bytes": 7612,
+      "sha256": "275b6eb9a9a90b1dec6a8076c344196891bd36417961272b3364cb5437a6a816",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "275b6eb9a9a90b1dec6a8076c344196891bd36417961272b3364cb5437a6a816",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/src/mask_scales.py",
+      "destination": "experiments/saga_relags_v1/src/mask_scales.py",
+      "bytes": 3203,
+      "sha256": "5390157d08682588953f110b11ae637faac4b714a96b2bf65d657c49c7809434",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "5390157d08682588953f110b11ae637faac4b714a96b2bf65d657c49c7809434",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/src/package_renderer.py",
+      "destination": "experiments/saga_relags_v1/src/package_renderer.py",
+      "bytes": 2461,
+      "sha256": "091bbe6dcab2241ec31f7dc235cdc0d174c01aa1126a291274f8ede7d1855d85",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "091bbe6dcab2241ec31f7dc235cdc0d174c01aa1126a291274f8ede7d1855d85",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/src/prepare_prompts.py",
+      "destination": "experiments/saga_relags_v1/src/prepare_prompts.py",
+      "bytes": 6170,
+      "sha256": "142e461e528651117ab9634e6ab4126b6cb1ea931e6cf5e5bba883cd4b64f1ef",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "142e461e528651117ab9634e6ab4126b6cb1ea931e6cf5e5bba883cd4b64f1ef",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/src/publish_gallery.py",
+      "destination": "experiments/saga_relags_v1/src/publish_gallery.py",
+      "bytes": 1960,
+      "sha256": "170719287ae986a7e0fd6060d49f39d86728ba7b1a5b863b54f0458c36495c9f",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "170719287ae986a7e0fd6060d49f39d86728ba7b1a5b863b54f0458c36495c9f",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/src/query_demonstrations.py",
+      "destination": "experiments/saga_relags_v1/src/query_demonstrations.py",
+      "bytes": 6619,
+      "sha256": "5c690250508bbd9ffe3a2b51884cf0ab2b22ac303f79adae26b1fcf5e2997fd0",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "5c690250508bbd9ffe3a2b51884cf0ab2b22ac303f79adae26b1fcf5e2997fd0",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/src/query_engine.py",
+      "destination": "experiments/saga_relags_v1/src/query_engine.py",
+      "bytes": 4784,
+      "sha256": "d1912becd7b339e5f9030a25197d8d278789766ea149ea6822f31792711b211a",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "d1912becd7b339e5f9030a25197d8d278789766ea149ea6822f31792711b211a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/src/render_instances.py",
+      "destination": "experiments/saga_relags_v1/src/render_instances.py",
+      "bytes": 3359,
+      "sha256": "1136451c5591583af6642114ba3fe7764e60b78e0cdc8b3a7141b6b745aa9fd1",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "1136451c5591583af6642114ba3fe7764e60b78e0cdc8b3a7141b6b745aa9fd1",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/src/saga_hooks.py",
+      "destination": "experiments/saga_relags_v1/src/saga_hooks.py",
+      "bytes": 3620,
+      "sha256": "085025286124e62f7e04a47f1888ba49ed1016eff65e3ac40cd5ffd2893902b3",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "085025286124e62f7e04a47f1888ba49ed1016eff65e3ac40cd5ffd2893902b3",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/src/training_plots.py",
+      "destination": "experiments/saga_relags_v1/src/training_plots.py",
+      "bytes": 1283,
+      "sha256": "2eaf6b9e410b2db148f125da5fbe6deb04e2adb51abc4bb76909a40bad18ff2b",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "2eaf6b9e410b2db148f125da5fbe6deb04e2adb51abc4bb76909a40bad18ff2b",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/src/visualize_graph.py",
+      "destination": "experiments/saga_relags_v1/src/visualize_graph.py",
+      "bytes": 5987,
+      "sha256": "92b270b3b19a747477921ccaa0c6667194380aa60e05e05d2098f9f7e16693d1",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "92b270b3b19a747477921ccaa0c6667194380aa60e05e05d2098f9f7e16693d1",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/src/visualize_instance_graph.py",
+      "destination": "experiments/saga_relags_v1/src/visualize_instance_graph.py",
+      "bytes": 3396,
+      "sha256": "9107675fcbfb108228d1df21fbdde7ce6791679e3e4754804e0fa4a9a6a98d4a",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "9107675fcbfb108228d1df21fbdde7ce6791679e3e4754804e0fa4a9a6a98d4a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/scripts/audit_inputs.py",
+      "destination": "experiments/saga_relags_v1/scripts/audit_inputs.py",
+      "bytes": 4938,
+      "sha256": "7571fc504bd78a9af5df0f4476871444dd55c90e03de0ed530ed0a55f8ff5715",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "7571fc504bd78a9af5df0f4476871444dd55c90e03de0ed530ed0a55f8ff5715",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/scripts/build_world_model.py",
+      "destination": "experiments/saga_relags_v1/scripts/build_world_model.py",
+      "bytes": 3108,
+      "sha256": "2d7984d3345f74b9a47a14e144f19e8294d37d89a78382213f2ba3cb938dcb40",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "2d7984d3345f74b9a47a14e144f19e8294d37d89a78382213f2ba3cb938dcb40",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/scripts/check_portable_render.py",
+      "destination": "experiments/saga_relags_v1/scripts/check_portable_render.py",
+      "bytes": 1067,
+      "sha256": "2e96595a63ed2b8d2a5302e477fc43a520afcf630090acfdb561a30eef9d87b1",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "2e96595a63ed2b8d2a5302e477fc43a520afcf630090acfdb561a30eef9d87b1",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/scripts/check_query_logic.py",
+      "destination": "experiments/saga_relags_v1/scripts/check_query_logic.py",
+      "bytes": 2515,
+      "sha256": "ef21c73ecb31be2729a5f8e4055d12e921dbf6cc394c7553fb79e36b303b924c",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "ef21c73ecb31be2729a5f8e4055d12e921dbf6cc394c7553fb79e36b303b924c",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/scripts/finalize_prompts.py",
+      "destination": "experiments/saga_relags_v1/scripts/finalize_prompts.py",
+      "bytes": 2066,
+      "sha256": "6b11cea58057f127c3f5c08cf95a0220b2c7ba92c7ab01f720defe81beb5737a",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "6b11cea58057f127c3f5c08cf95a0220b2c7ba92c7ab01f720defe81beb5737a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/scripts/finish_training_outputs.py",
+      "destination": "experiments/saga_relags_v1/scripts/finish_training_outputs.py",
+      "bytes": 968,
+      "sha256": "4b406d5b6c3a3567087fc909ffaf0c5955f1810c5c02f051ad6e448c2abd7cfe",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "4b406d5b6c3a3567087fc909ffaf0c5955f1810c5c02f051ad6e448c2abd7cfe",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/scripts/generate_report.py",
+      "destination": "experiments/saga_relags_v1/scripts/generate_report.py",
+      "bytes": 11523,
+      "sha256": "887e0b4e2ad44a52b33138bc0d996e4e94102c20125b088964ae2a0def292b88",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "887e0b4e2ad44a52b33138bc0d996e4e94102c20125b088964ae2a0def292b88",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/scripts/patch_official.py",
+      "destination": "experiments/saga_relags_v1/scripts/patch_official.py",
+      "bytes": 2804,
+      "sha256": "5d04fdc5a8824df902db36bb4fa94621c08712c545a433af80c06dcb9cb40e57",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "5d04fdc5a8824df902db36bb4fa94621c08712c545a433af80c06dcb9cb40e57",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/scripts/prepare_dataset.py",
+      "destination": "experiments/saga_relags_v1/scripts/prepare_dataset.py",
+      "bytes": 5922,
+      "sha256": "20d1c1f7905fad8675cfa33a1b17be1897f03f073cb057abbeecea1250fb36aa",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "20d1c1f7905fad8675cfa33a1b17be1897f03f073cb057abbeecea1250fb36aa",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/scripts/publish_to_repository.py",
+      "destination": "experiments/saga_relags_v1/scripts/publish_to_repository.py",
+      "bytes": 11696,
+      "sha256": "23469a5991ff30fbc5d778acef7ddab3f791f3de5738c46088fe90697f9db94e",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "23469a5991ff30fbc5d778acef7ddab3f791f3de5738c46088fe90697f9db94e",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/scripts/review_som_outputs.py",
+      "destination": "experiments/saga_relags_v1/scripts/review_som_outputs.py",
+      "bytes": 2437,
+      "sha256": "af2d03f09bd2a974dfdcea41bbc670ad427d78ef956f13717e1266f7a333ab14",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "af2d03f09bd2a974dfdcea41bbc670ad427d78ef956f13717e1266f7a333ab14",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/scripts/run_command.py",
+      "destination": "experiments/saga_relags_v1/scripts/run_command.py",
+      "bytes": 2577,
+      "sha256": "d348595995be4e0a8dcfcc5aa43b0ec10f0f53ab718e48fb8e3f30993253ea48",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "d348595995be4e0a8dcfcc5aa43b0ec10f0f53ab718e48fb8e3f30993253ea48",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/scripts/setup_environment.sh",
+      "destination": "experiments/saga_relags_v1/scripts/setup_environment.sh",
+      "bytes": 1271,
+      "sha256": "721091e8b07015d038ca06e145abc6a5057e3cd2d5df6171f500911f08f7fc70",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "721091e8b07015d038ca06e145abc6a5057e3cd2d5df6171f500911f08f7fc70",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/scripts/train_affinity.py",
+      "destination": "experiments/saga_relags_v1/scripts/train_affinity.py",
+      "bytes": 793,
+      "sha256": "343462400d3e754f3932c60efc0db84824a379f4862ee5aee8c8ea8ff05019b3",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "343462400d3e754f3932c60efc0db84824a379f4862ee5aee8c8ea8ff05019b3",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/scripts/validate_results.py",
+      "destination": "experiments/saga_relags_v1/scripts/validate_results.py",
+      "bytes": 4716,
+      "sha256": "c9d1beb665f112271917beb13da07834d815461a6d7421f11de32ea4d28a14d2",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "c9d1beb665f112271917beb13da07834d815461a6d7421f11de32ea4d28a14d2",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/configs/experiment.json",
+      "destination": "experiments/saga_relags_v1/configs/experiment.json",
+      "bytes": 659,
+      "sha256": "92efcca9090c0f874ef5275eecf1192a8b9889103cd78c0a8f3309ad804f6a55",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "92efcca9090c0f874ef5275eecf1192a8b9889103cd78c0a8f3309ad804f6a55",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/configs/extra_prompt_points.json",
+      "destination": "experiments/saga_relags_v1/configs/extra_prompt_points.json",
+      "bytes": 524,
+      "sha256": "efec7984c5e63157e75d3f363dc0323c096d73c14294a157e77682dc5c82142a",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "efec7984c5e63157e75d3f363dc0323c096d73c14294a157e77682dc5c82142a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/configs/final_quality_review.json",
+      "destination": "experiments/saga_relags_v1/configs/final_quality_review.json",
+      "bytes": 2340,
+      "sha256": "5fff27a49f5ce8c1cf97fe32f49f2b4237d979b57090d300ad34bc2b482f1c50",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "5fff27a49f5ce8c1cf97fe32f49f2b4237d979b57090d300ad34bc2b482f1c50",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/docs/IMPLEMENTATION_NOTES.md",
+      "destination": "experiments/saga_relags_v1/docs/IMPLEMENTATION_NOTES.md",
+      "bytes": 4100,
+      "sha256": "35e1e50645ff27ca0a46353837fce81f3633edf3b7f7447157cad89ef07961c2",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "35e1e50645ff27ca0a46353837fce81f3633edf3b7f7447157cad89ef07961c2",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/docs/WORLD_MODEL_README.md",
+      "destination": "experiments/saga_relags_v1/docs/WORLD_MODEL_README.md",
+      "bytes": 2299,
+      "sha256": "15cd5b11202e9d526a9b14a87b50b2d2b788c9ad29beaf2b4560293676efde9b",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "15cd5b11202e9d526a9b14a87b50b2d2b788c9ad29beaf2b4560293676efde9b",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/docs/attempt_sources/prepare_prompts_v1.py",
+      "destination": "experiments/saga_relags_v1/docs/attempt_sources/prepare_prompts_v1.py",
+      "bytes": 4557,
+      "sha256": "8d70881358d7f70c270fcbba6f103aa75ca9d8f163a676b0579eee6006396955",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "8d70881358d7f70c270fcbba6f103aa75ca9d8f163a676b0579eee6006396955",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/docs/patches/extract_segment_everything_masks.patch",
+      "destination": "experiments/saga_relags_v1/docs/patches/extract_segment_everything_masks.patch",
+      "bytes": 911,
+      "sha256": "1530ec8338601cb4ee324ce910e0c4bd98dc1c6183664cd54c7ee47abae4c4e8",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "1530ec8338601cb4ee324ce910e0c4bd98dc1c6183664cd54c7ee47abae4c4e8",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/docs/patches/scene/dataset_readers.patch",
+      "destination": "experiments/saga_relags_v1/docs/patches/scene/dataset_readers.patch",
+      "bytes": 1487,
+      "sha256": "2ebcc89512ef08fcd5343116f57f56f90a41e136038d3c1bac033dc9af3bef9d",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "2ebcc89512ef08fcd5343116f57f56f90a41e136038d3c1bac033dc9af3bef9d",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/docs/patches/train_contrastive_feature.patch",
+      "destination": "experiments/saga_relags_v1/docs/patches/train_contrastive_feature.patch",
+      "bytes": 1085,
+      "sha256": "b061aed3d869fd7fa41392347f284f37647b492c9782eaed877ea4e7a2f6880d",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "b061aed3d869fd7fa41392347f284f37647b492c9782eaed877ea4e7a2f6880d",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/docs/patches/utils/camera_utils.patch",
+      "destination": "experiments/saga_relags_v1/docs/patches/utils/camera_utils.patch",
+      "bytes": 1762,
+      "sha256": "089e8107bfa609c26c17f5483b53629ba2140aac515ba67ecd0f3e3a689712a8",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "089e8107bfa609c26c17f5483b53629ba2140aac515ba67ecd0f3e3a689712a8",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/docs/upstream_original/extract_segment_everything_masks.py",
+      "destination": "experiments/saga_relags_v1/docs/upstream_original/extract_segment_everything_masks.py",
+      "bytes": 3291,
+      "sha256": "f8c68d2baaf8fad9ea12ac5f113da18d77354524c6f79110530e02f080931fd6",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "f8c68d2baaf8fad9ea12ac5f113da18d77354524c6f79110530e02f080931fd6",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/docs/upstream_original/scene/dataset_readers.py",
+      "destination": "experiments/saga_relags_v1/docs/upstream_original/scene/dataset_readers.py",
+      "bytes": 15090,
+      "sha256": "8bb5aa9476cf41a1e7d2a0e42feff98f7f6f3117a81e00793dd010d81ebb8937",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "8bb5aa9476cf41a1e7d2a0e42feff98f7f6f3117a81e00793dd010d81ebb8937",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/docs/upstream_original/train_contrastive_feature.py",
+      "destination": "experiments/saga_relags_v1/docs/upstream_original/train_contrastive_feature.py",
+      "bytes": 15793,
+      "sha256": "27b5ca7592429b30e8e0068f166c8e0d6989818282cd78cee40e5951d267cb05",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "27b5ca7592429b30e8e0068f166c8e0d6989818282cd78cee40e5951d267cb05",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/docs/upstream_original/utils/camera_utils.py",
+      "destination": "experiments/saga_relags_v1/docs/upstream_original/utils/camera_utils.py",
+      "bytes": 5732,
+      "sha256": "a6e3c13e40e292ad2a041ed0c4642db217cd62659af52cfbb2614ed51c86e4b8",
+      "purpose": "Source, configuration or documented adaptation",
+      "published_sha256": "a6e3c13e40e292ad2a041ed0c4642db217cd62659af52cfbb2614ed51c86e4b8",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/industrial_world_model/hybrid_views/__init__.py",
+      "destination": "industrial_world_model/hybrid_views/__init__.py",
+      "bytes": 70,
+      "sha256": "7e2adce23e6468723ac472c3a602338343582f0c11d956302d3800f0273ee15a",
+      "purpose": "Shared projection dependency used by the new experiment",
+      "published_sha256": "7e2adce23e6468723ac472c3a602338343582f0c11d956302d3800f0273ee15a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/industrial_world_model/hybrid_views/geometry.py",
+      "destination": "industrial_world_model/hybrid_views/geometry.py",
+      "bytes": 10475,
+      "sha256": "039200655c4caed9262840b1aece08774e8f34aa633a46b367179bfa8eb776f7",
+      "purpose": "Shared projection dependency used by the new experiment",
+      "published_sha256": "039200655c4caed9262840b1aece08774e8f34aa633a46b367179bfa8eb776f7",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/gallery/instances.jpg",
+      "destination": "experiments/saga_relags_v1/docs/figures/instances.jpg",
+      "bytes": 92745,
+      "sha256": "b65c1a41614892238009f346998ebbc288ad69c15c141ded665a23e3ce29615f",
+      "purpose": "Nine reviewed usable Gaussian instances",
+      "published_sha256": "b65c1a41614892238009f346998ebbc288ad69c15c141ded665a23e3ce29615f",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/A/extractions/iteration_10000/independent_objects_overview.jpg",
+      "destination": "experiments/saga_relags_v1/docs/figures/all_ten_objects.jpg",
+      "bytes": 262933,
+      "sha256": "e5856f406a865d15bd71286438375c5da75ee4f90c57756a5b65633f7c86b628",
+      "purpose": "All ten attempts, including the failed rack",
+      "published_sha256": "e5856f406a865d15bd71286438375c5da75ee4f90c57756a5b65633f7c86b628",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/A/extractions/iteration_10000/training_projection_overview.jpg",
+      "destination": "experiments/saga_relags_v1/docs/figures/training_projections.jpg",
+      "bytes": 748297,
+      "sha256": "abe6e564f13f41497fc43edbba0e6f68c2f5694d7f4129702c23bec8d309ba2b",
+      "purpose": "Training-view projections; not ground truth",
+      "published_sha256": "abe6e564f13f41497fc43edbba0e6f68c2f5694d7f4129702c23bec8d309ba2b",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/A/training_curves.png",
+      "destination": "experiments/saga_relags_v1/docs/figures/training_curves.png",
+      "bytes": 255090,
+      "sha256": "c3f3a086d0a11fb2be98b2da963d124803c609f5911ada89d888e48b3ae9b5ac",
+      "purpose": "Recorded training statistics",
+      "published_sha256": "c3f3a086d0a11fb2be98b2da963d124803c609f5911ada89d888e48b3ae9b5ac",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/B/visual_representatives.jpg",
+      "destination": "experiments/saga_relags_v1/docs/figures/category_representatives.jpg",
+      "bytes": 641077,
+      "sha256": "1dfe5e5ed11fd1773da49aae3f8471644df9905f2f02855bb27e91a96f40d7cc",
+      "purpose": "Real crops used for category shared semantics",
+      "published_sha256": "1dfe5e5ed11fd1773da49aae3f8471644df9905f2f02855bb27e91a96f40d7cc",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som_overview.jpg",
+      "destination": "experiments/saga_relags_v1/docs/figures/som_review.jpg",
+      "bytes": 206783,
+      "sha256": "5462d1d9ff9f14efeb0e746c60bc7502ead7bd7d35fbf2039d44e86f79161cf2",
+      "purpose": "Visual relation evidence; no reliable new edges",
+      "published_sha256": "5462d1d9ff9f14efeb0e746c60bc7502ead7bd7d35fbf2039d44e86f79161cf2",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/visualizations/instance_graph_gallery.jpg",
+      "destination": "experiments/saga_relags_v1/docs/figures/instance_graph.jpg",
+      "bytes": 73039,
+      "sha256": "5dc4592b69c49eb293e62a611dc12200dd639febf31530f5266b7a482857dfad",
+      "purpose": "Isolated Gaussian instance map with selected geometry edges",
+      "published_sha256": "5dc4592b69c49eb293e62a611dc12200dd639febf31530f5266b7a482857dfad",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/visualizations/scene_graph_gallery.jpg",
+      "destination": "experiments/saga_relags_v1/docs/figures/scene_graph.jpg",
+      "bytes": 392488,
+      "sha256": "14b023130bd75c50e7515ef06ba9b786b0d9f1f6816ab8c4a2f6a4d38f4a4a02",
+      "purpose": "Full-scene context with occlusion retained",
+      "published_sha256": "14b023130bd75c50e7515ef06ba9b786b0d9f1f6816ab8c4a2f6a4d38f4a4a02",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/gallery/query_examples.jpg",
+      "destination": "experiments/saga_relags_v1/docs/figures/query_examples.jpg",
+      "bytes": 345336,
+      "sha256": "63d033d1f4efecbac2c3fb60ed31c4964424b855ea01125cb5e6f12c04faf31d",
+      "purpose": "Four held-out projection examples",
+      "published_sha256": "63d033d1f4efecbac2c3fb60ed31c4964424b855ea01125cb5e6f12c04faf31d",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/D/query_gallery.jpg",
+      "destination": "experiments/saga_relags_v1/docs/figures/all_queries.jpg",
+      "bytes": 883172,
+      "sha256": "b3b7a5266cc5bd0fe33a2f652b29f715032708e418f5d34da5ea8a1050806509",
+      "purpose": "All five category and five relation queries",
+      "published_sha256": "b3b7a5266cc5bd0fe33a2f652b29f715032708e418f5d34da5ea8a1050806509",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/summary.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/summary.json",
+      "bytes": 244,
+      "sha256": "8115deb67e35dea9e4210bb36f9fd1deecd3087da11a85b5835763d653c2f2eb",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "8115deb67e35dea9e4210bb36f9fd1deecd3087da11a85b5835763d653c2f2eb",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/A/extractions/iteration_10000/summary.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/A/extractions/iteration_10000/summary.json",
+      "bytes": 6984,
+      "sha256": "e8646692b10d446ec58221968101fe8506fb50d742a852d24b222f97976daa2c",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "e8646692b10d446ec58221968101fe8506fb50d742a852d24b222f97976daa2c",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/A/extractions/iteration_10000/quality_review.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/A/extractions/iteration_10000/quality_review.json",
+      "bytes": 2340,
+      "sha256": "5fff27a49f5ce8c1cf97fe32f49f2b4237d979b57090d300ad34bc2b482f1c50",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "5fff27a49f5ce8c1cf97fe32f49f2b4237d979b57090d300ad34bc2b482f1c50",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/A/saga_model/training_metrics.csv",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/A/saga_model/training_metrics.csv",
+      "bytes": 113881,
+      "sha256": "cabcb77ecd84cd80da3b0d39c1e35eaf687438e2a60bb82dcf22264147c8671f",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "cabcb77ecd84cd80da3b0d39c1e35eaf687438e2a60bb82dcf22264147c8671f",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/A/saga_model/training_contract.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/A/saga_model/training_contract.json",
+      "bytes": 248,
+      "sha256": "8366244b07fcefbb2e17cb47f669ae5081254252521b93845685c73d19b42120",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "8366244b07fcefbb2e17cb47f669ae5081254252521b93845685c73d19b42120",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/A/prompt_refinement_review.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/A/prompt_refinement_review.json",
+      "bytes": 495,
+      "sha256": "470742f2388458223c4d67aa8a683bda8be72a6f34453708bb2d45f978a8beff",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "470742f2388458223c4d67aa8a683bda8be72a6f34453708bb2d45f978a8beff",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/B/validation.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/B/validation.json",
+      "bytes": 3863,
+      "sha256": "894838883c2f7a02278d7e750fe92792741f9403b2c60679aeeffa1328f5d91d",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "894838883c2f7a02278d7e750fe92792741f9403b2c60679aeeffa1328f5d91d",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/B/summary.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/B/summary.json",
+      "bytes": 222,
+      "sha256": "f2816d88361fb9902bd6be31bc4d5974dbf74ad155200c799dbde3f3da2db4bc",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "f2816d88361fb9902bd6be31bc4d5974dbf74ad155200c799dbde3f3da2db4bc",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/B/text_prompts.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/B/text_prompts.json",
+      "bytes": 2653,
+      "sha256": "f61e70d80848c6add86a149972387a74e88c12d405f5f4a9088a16d371b4ab87",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "f61e70d80848c6add86a149972387a74e88c12d405f5f4a9088a16d371b4ab87",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/B/categories.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/B/categories.json",
+      "bytes": 3590,
+      "sha256": "aca2b9c72c30eb20ee8a9d4a2e2400948512c3bff29ccbb984889276d409f83c",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "aca2b9c72c30eb20ee8a9d4a2e2400948512c3bff29ccbb984889276d409f83c",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/summary.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/summary.json",
+      "bytes": 806,
+      "sha256": "0e7a551b72a0499503383a8b4b2d84c0f4a58da2133bcff9f6cd6741a0b6efd0",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "0e7a551b72a0499503383a8b4b2d84c0f4a58da2133bcff9f6cd6741a0b6efd0",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/scene_graph.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/scene_graph.json",
+      "bytes": 1134793,
+      "sha256": "4795ff72775f6e2f29edb3fa160f4daf5eaac3a520b3868d164b3e6ac081de13",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "4795ff72775f6e2f29edb3fa160f4daf5eaac3a520b3868d164b3e6ac081de13",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/visual_quality_review.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/visual_quality_review.json",
+      "bytes": 535,
+      "sha256": "a72351bc304e0702c5fb277028d363f6a62794440d677ceae1a3c1e7c77b738f",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "a72351bc304e0702c5fb277028d363f6a62794440d677ceae1a3c1e7c77b738f",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/grounding_review.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/grounding_review.json",
+      "bytes": 452,
+      "sha256": "206bcfa9fed74d276014ae71b7873173be9526b7c1083d708bb7b46237b244dc",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "206bcfa9fed74d276014ae71b7873173be9526b7c1083d708bb7b46237b244dc",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/semantic_relations.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/semantic_relations.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/visualizations/displayed_relations.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/visualizations/displayed_relations.json",
+      "bytes": 5927,
+      "sha256": "0d685065f5a35c54786a75011affaa40f634a97dc5ce39b4040fe30f38ad9da5",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "0d685065f5a35c54786a75011affaa40f634a97dc5ce39b4040fe30f38ad9da5",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/D/summary.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/D/summary.json",
+      "bytes": 7370,
+      "sha256": "892dcd907b499aa5258dc2003d19c112db51f85d93268b09962f7579b9bb011a",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "892dcd907b499aa5258dc2003d19c112db51f85d93268b09962f7579b9bb011a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/D/example_selection.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/D/example_selection.json",
+      "bytes": 1190,
+      "sha256": "4f2310cc87530e072045ccc7221ac08322142dc58db1a6f99a5335f819b1d8b7",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "4f2310cc87530e072045ccc7221ac08322142dc58db1a6f99a5335f819b1d8b7",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/D/heldout_display_visibility.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/D/heldout_display_visibility.json",
+      "bytes": 37851,
+      "sha256": "70d5251b6a368abe7082fc6551fd654878d347b71691c2f8f5cb339981241a61",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "70d5251b6a368abe7082fc6551fd654878d347b71691c2f8f5cb339981241a61",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/validation/checks.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/validation/checks.json",
+      "bytes": 3682,
+      "sha256": "5d34dacac6d991edda084aada16d9a0f0707af5e738010b410d4abd5b293080d",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "5d34dacac6d991edda084aada16d9a0f0707af5e738010b410d4abd5b293080d",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/validation/portable_render.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/validation/portable_render.json",
+      "bytes": 128,
+      "sha256": "619d63371e08aef1542a9826c1c6c0987e8888361d54b11f0ad630b45a68949a",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "619d63371e08aef1542a9826c1c6c0987e8888361d54b11f0ad630b45a68949a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/validation/query_logic.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/validation/query_logic.json",
+      "bytes": 3251,
+      "sha256": "78f1f046c6e9e609d426ecf75e618573bd12c899f8dcabd9d9684d2dcdbd4ec9",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "78f1f046c6e9e609d426ecf75e618573bd12c899f8dcabd9d9684d2dcdbd4ec9",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/inputs/environment_final.txt",
+      "destination": "experiments/saga_relags_v1/evidence/inputs/environment_final.txt",
+      "bytes": 5382,
+      "sha256": "783f51f2e25ad95fffdd03cd3db6c5348aa2792c57a7110fc0868655b2d9d5ea",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "783f51f2e25ad95fffdd03cd3db6c5348aa2792c57a7110fc0868655b2d9d5ea",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/inputs/upstream_submodules.txt",
+      "destination": "experiments/saga_relags_v1/evidence/inputs/upstream_submodules.txt",
+      "bytes": 165,
+      "sha256": "c0b1f40cefd722ebe81f1c429891db094bf29f20f9787008d7481579d227eae3",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "c0b1f40cefd722ebe81f1c429891db094bf29f20f9787008d7481579d227eae3",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/inputs/dataset_summary.json",
+      "destination": "experiments/saga_relags_v1/evidence/inputs/dataset_summary.json",
+      "bytes": 1611,
+      "sha256": "a7588503bc8e5ec2bd144f941cbe1f212c5b5fdb83bbdca87676e79c8d7c016c",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "a7588503bc8e5ec2bd144f941cbe1f212c5b5fdb83bbdca87676e79c8d7c016c",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/inputs/manifest.json",
+      "destination": "experiments/saga_relags_v1/evidence/inputs/manifest.json",
+      "bytes": 1676,
+      "sha256": "278ac1a994f080d1b3019230babff202e47302091b4413c4744f1b5523502912",
+      "purpose": "Recorded experiment result or reproducibility metadata",
+      "published_sha256": "278ac1a994f080d1b3019230babff202e47302091b4413c4744f1b5523502912",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_affinity_training/20261126T144157724918Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_affinity_training/20261126T144157724918Z/command.json",
+      "bytes": 337,
+      "sha256": "38ab23c807c5a81138d2ecbecd60f232853d66d14823b6f945df06ae44c18d69",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "38ab23c807c5a81138d2ecbecd60f232853d66d14823b6f945df06ae44c18d69",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_final_extraction/20261126T151254562306Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_final_extraction/20261126T151254562306Z/command.json",
+      "bytes": 430,
+      "sha256": "47f461595b59cfd43ac3534c383d48bbbe2fcb8097b98b76f8f85a13e285ac45",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "47f461595b59cfd43ac3534c383d48bbbe2fcb8097b98b76f8f85a13e285ac45",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_final_render/20261126T151319881383Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_final_render/20261126T151319881383Z/command.json",
+      "bytes": 425,
+      "sha256": "1963e956e7ea8b463d024afe2d5cc04f2b82f2f1bb96cf5657a83fe48b59b399",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "1963e956e7ea8b463d024afe2d5cc04f2b82f2f1bb96cf5657a83fe48b59b399",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_mask_scales/20261126T143151382542Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_mask_scales/20261126T143151382542Z/command.json",
+      "bytes": 324,
+      "sha256": "358b0f794aa82fea04d33b2fe22f44594db042433056ee5885c03b28e3d246dc",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "358b0f794aa82fea04d33b2fe22f44594db042433056ee5885c03b28e3d246dc",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_mask_scales_final/20261126T143959625790Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_mask_scales_final/20261126T143959625790Z/command.json",
+      "bytes": 330,
+      "sha256": "b6578703f75c7bed53242137562a24001994c9368ee65b5642fb481f277fc0e1",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "b6578703f75c7bed53242137562a24001994c9368ee65b5642fb481f277fc0e1",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_masks/20261126T142259312289Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_masks/20261126T142259312289Z/command.json",
+      "bytes": 543,
+      "sha256": "d198f4baf8f3526c62055370f44ab0ab22b91d213e12d5a0b091f3bf299f352a",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "d198f4baf8f3526c62055370f44ab0ab22b91d213e12d5a0b091f3bf299f352a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_masks/20261126T142623811261Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_masks/20261126T142623811261Z/command.json",
+      "bytes": 543,
+      "sha256": "d01f10e6c84f41aefa0f63ed0882e3d3bccf4fa45f8c6e2d8b731762c44cdd92",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "d01f10e6c84f41aefa0f63ed0882e3d3bccf4fa45f8c6e2d8b731762c44cdd92",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_preview_1000/20261126T144550437620Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_preview_1000/20261126T144550437620Z/command.json",
+      "bytes": 362,
+      "sha256": "4995853fa3d2aecf50353bb166c795b9cfcf5528fe2131cd632fcef993503b68",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "4995853fa3d2aecf50353bb166c795b9cfcf5528fe2131cd632fcef993503b68",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_preview_1000/20261126T144609194400Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_preview_1000/20261126T144609194400Z/command.json",
+      "bytes": 362,
+      "sha256": "bb6c9a1dff5ec85e7be5305c5ae388e93146226fc8da8ef5e1c6c70aa7a62d44",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "bb6c9a1dff5ec85e7be5305c5ae388e93146226fc8da8ef5e1c6c70aa7a62d44",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_preview_2500/20261126T145058226435Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_preview_2500/20261126T145058226435Z/command.json",
+      "bytes": 362,
+      "sha256": "2a82640183c90f91a8c1577432eb442ca1a4b2cb5282c21bfe0cd7fa46f35af4",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "2a82640183c90f91a8c1577432eb442ca1a4b2cb5282c21bfe0cd7fa46f35af4",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_preview_render_1000/20261126T144635731421Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_preview_render_1000/20261126T144635731421Z/command.json",
+      "bytes": 368,
+      "sha256": "73ac38e39ff9bf199cbf9a614b828105cc876ef976ed967a21ec9968c25ca3bc",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "73ac38e39ff9bf199cbf9a614b828105cc876ef976ed967a21ec9968c25ca3bc",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_preview_render_2500/20261126T145127331440Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_preview_render_2500/20261126T145127331440Z/command.json",
+      "bytes": 368,
+      "sha256": "d3ca7b3d72690861d8bc897f32ff1c56fcc685369cd10b2838f47685970c347e",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "d3ca7b3d72690861d8bc897f32ff1c56fcc685369cd10b2838f47685970c347e",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_prompt_check_2500/20261126T145326712472Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_prompt_check_2500/20261126T145326712472Z/command.json",
+      "bytes": 400,
+      "sha256": "97ebc55d89515ac9775d0345408c4e926136bbbe86408a412b21fe1d37f2210b",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "97ebc55d89515ac9775d0345408c4e926136bbbe86408a412b21fe1d37f2210b",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_prompt_render_2500/20261126T145400494481Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_prompt_render_2500/20261126T145400494481Z/command.json",
+      "bytes": 400,
+      "sha256": "92a6b4580a51c61eade0bd4c2419d6ffc786c867a0c3e976f98b98c633f264ed",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "92a6b4580a51c61eade0bd4c2419d6ffc786c867a0c3e976f98b98c633f264ed",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_reference_prompts/20261126T143112529847Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_reference_prompts/20261126T143112529847Z/command.json",
+      "bytes": 334,
+      "sha256": "4231f9fd864fbea032ed8d47b80e2ae9ff80c1692f0cb67e7000314a451a41db",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "4231f9fd864fbea032ed8d47b80e2ae9ff80c1692f0cb67e7000314a451a41db",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_reference_prompts_visibility/20261126T143826779635Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_reference_prompts_visibility/20261126T143826779635Z/command.json",
+      "bytes": 345,
+      "sha256": "a2bbab5a47a687688d93bf1231762364cb8a7f9d1d82f5d698d890d9572f5b26",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "a2bbab5a47a687688d93bf1231762364cb8a7f9d1d82f5d698d890d9572f5b26",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_training_plot/20261126T151326335539Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_training_plot/20261126T151326335539Z/command.json",
+      "bytes": 329,
+      "sha256": "d13b10252d219fcd20596677f9eb5e0100dbac217b49fee866e0507ac66053b5",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "d13b10252d219fcd20596677f9eb5e0100dbac217b49fee866e0507ac66053b5",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/B_category_semantics/20261126T144038178949Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/B_category_semantics/20261126T144038178949Z/command.json",
+      "bytes": 335,
+      "sha256": "2db87a4e8b55f709d4ae7ec2c931c75b134878920ca7311e6f725f95762fc9f2",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "2db87a4e8b55f709d4ae7ec2c931c75b134878920ca7311e6f725f95762fc9f2",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/C_final_visualizations/20261126T151420877707Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/C_final_visualizations/20261126T151420877707Z/command.json",
+      "bytes": 337,
+      "sha256": "866cc4303ee0a364ca48daeccc0c5a412e4ceae5c3963f7cfa9b9c58fdb374aa",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "866cc4303ee0a364ca48daeccc0c5a412e4ceae5c3963f7cfa9b9c58fdb374aa",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/C_final_visualizations/20261126T151440695852Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/C_final_visualizations/20261126T151440695852Z/command.json",
+      "bytes": 337,
+      "sha256": "6ff1d4fd4b9c3678bba53d796524670540696f48a7a47f6337630eb1023a52ed",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "6ff1d4fd4b9c3678bba53d796524670540696f48a7a47f6337630eb1023a52ed",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/C_geometry_and_local_som/20261126T144203239621Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/C_geometry_and_local_som/20261126T144203239621Z/command.json",
+      "bytes": 335,
+      "sha256": "13385c1c6ee1a0cd75307ce3fa2850942b039c898984adf78f53f543933b2950",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "13385c1c6ee1a0cd75307ce3fa2850942b039c898984adf78f53f543933b2950",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/C_grounding_review/20261126T145450540920Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/C_grounding_review/20261126T145450540920Z/command.json",
+      "bytes": 340,
+      "sha256": "343bb3ff6cc41dddabb9cb956d45984d47ed749295b7c8847dcb37bd626369c0",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "343bb3ff6cc41dddabb9cb956d45984d47ed749295b7c8847dcb37bd626369c0",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/C_readable_instance_graph/20261126T151741474286Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/C_readable_instance_graph/20261126T151741474286Z/command.json",
+      "bytes": 349,
+      "sha256": "28f7da039c14fd64119e5dd5855c7ededb90eb5b103183de6316f16b6f934b62",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "28f7da039c14fd64119e5dd5855c7ededb90eb5b103183de6316f16b6f934b62",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/C_visible_context_labels/20261126T151855987148Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/C_visible_context_labels/20261126T151855987148Z/command.json",
+      "bytes": 339,
+      "sha256": "acfb537b549d777e71dd369cb8f2a190c2838da9d373215366fe003b59ac46c9",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "acfb537b549d777e71dd369cb8f2a190c2838da9d373215366fe003b59ac46c9",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/D_heldout_queries/20261126T151445517371Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/D_heldout_queries/20261126T151445517371Z/command.json",
+      "bytes": 337,
+      "sha256": "8786fbf50cb04cf95a9ec250de9989675026d8d778d8757bc2ca4af8c4dd5e74",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "8786fbf50cb04cf95a9ec250de9989675026d8d778d8757bc2ca4af8c4dd5e74",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/D_query_logic_check/20261126T150308703597Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/D_query_logic_check/20261126T150308703597Z/command.json",
+      "bytes": 340,
+      "sha256": "e5dccbf45d77bf30d85fc65f99b4ad1c9c4833f66609b357d86da33884a8c1c6",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "e5dccbf45d77bf30d85fc65f99b4ad1c9c4833f66609b357d86da33884a8c1c6",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/D_visible_heldout_displays/20261126T151639512912Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/D_visible_heldout_displays/20261126T151639512912Z/command.json",
+      "bytes": 346,
+      "sha256": "3fe72357a2fa718d766458ad1055b446272c0aec45991b7f02007655b3a4c227",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "3fe72357a2fa718d766458ad1055b446272c0aec45991b7f02007655b3a4c227",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/final_validation/20261126T151538089385Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/final_validation/20261126T151538089385Z/command.json",
+      "bytes": 336,
+      "sha256": "c41a47e58bebc845767ba75c2917bb5cdac6cabd7ad030ab1e5264e492dbd022",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "c41a47e58bebc845767ba75c2917bb5cdac6cabd7ad030ab1e5264e492dbd022",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/final_validation_after_display_selection/20261126T151901298667Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/final_validation_after_display_selection/20261126T151901298667Z/command.json",
+      "bytes": 360,
+      "sha256": "a063380babd56ee428a39eec1b6ae08e2db8f791224363073e62bcd18eff0902",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "a063380babd56ee428a39eec1b6ae08e2db8f791224363073e62bcd18eff0902",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/portable_render_final/20261126T151907154406Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/portable_render_final/20261126T151907154406Z/command.json",
+      "bytes": 346,
+      "sha256": "caa59ccaa085ed0388d7ca84c14e0dda78996847937b8a93013e622f68a848cf",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "caa59ccaa085ed0388d7ca84c14e0dda78996847937b8a93013e622f68a848cf",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/portable_render_validation/20261126T151550348730Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/portable_render_validation/20261126T151550348730Z/command.json",
+      "bytes": 351,
+      "sha256": "803bfb7eca5ef56f9d413da00288da08f5a7dc1fe3b0cb460991d5a540cf7084",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "803bfb7eca5ef56f9d413da00288da08f5a7dc1fe3b0cb460991d5a540cf7084",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/result_gallery/20261126T151554867110Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/result_gallery/20261126T151554867110Z/command.json",
+      "bytes": 329,
+      "sha256": "0ac4df927cd1e95af23ded29429e626d061741fb962f3bf42034c17a80625bb5",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "0ac4df927cd1e95af23ded29429e626d061741fb962f3bf42034c17a80625bb5",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/result_gallery_final/20261126T151746103271Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/result_gallery_final/20261126T151746103271Z/command.json",
+      "bytes": 335,
+      "sha256": "0d67e42d99eb4f39aa1363dd4b4c45915a31dbc0297e44cfd1e95cba06222b94",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "0d67e42d99eb4f39aa1363dd4b4c45915a31dbc0297e44cfd1e95cba06222b94",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/world_model_package/20261126T151418741811Z/command.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/world_model_package/20261126T151418741811Z/command.json",
+      "bytes": 372,
+      "sha256": "80638e3f6c9ad8168377469de195c137fabd9d0aa0192c777e1f4192c0d6023a",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "80638e3f6c9ad8168377469de195c137fabd9d0aa0192c777e1f4192c0d6023a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_affinity_training/20261126T144157724918Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_affinity_training/20261126T144157724918Z/result.json",
+      "bytes": 411,
+      "sha256": "3894dbc2f265f971beb6a20f6de11822b2ef20afaa4e2763dabe615b383e8ece",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "3894dbc2f265f971beb6a20f6de11822b2ef20afaa4e2763dabe615b383e8ece",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_final_extraction/20261126T151254562306Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_final_extraction/20261126T151254562306Z/result.json",
+      "bytes": 506,
+      "sha256": "00f3ed5c69a299cfadd1aeccb10f3add90b4df881fef0098f936b79f259eebf8",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "00f3ed5c69a299cfadd1aeccb10f3add90b4df881fef0098f936b79f259eebf8",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_final_render/20261126T151319881383Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_final_render/20261126T151319881383Z/result.json",
+      "bytes": 500,
+      "sha256": "fee6dcbf5caa6c66e0fbd4517f60df5c917b34375ad5bff1b1949c454d0bcdb6",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "fee6dcbf5caa6c66e0fbd4517f60df5c917b34375ad5bff1b1949c454d0bcdb6",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_mask_scales/20261126T143151382542Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_mask_scales/20261126T143151382542Z/result.json",
+      "bytes": 400,
+      "sha256": "8819ec345ed2c3c7f2736f4fcda29de1c8a51e4c6da82d3cc949069dde8dc705",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "8819ec345ed2c3c7f2736f4fcda29de1c8a51e4c6da82d3cc949069dde8dc705",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_mask_scales_final/20261126T143959625790Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_mask_scales_final/20261126T143959625790Z/result.json",
+      "bytes": 406,
+      "sha256": "e1ed22e95eabefc630852d8fdbcdbb362ee48676563d39d3c32f583a2cfb8ab1",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "e1ed22e95eabefc630852d8fdbcdbb362ee48676563d39d3c32f583a2cfb8ab1",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_masks/20261126T142259312289Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_masks/20261126T142259312289Z/result.json",
+      "bytes": 616,
+      "sha256": "238ba3b9c97a43b82f2918d8d399cfbbc7ed3f94cde37213a0c8d483bbaf51ee",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "238ba3b9c97a43b82f2918d8d399cfbbc7ed3f94cde37213a0c8d483bbaf51ee",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_masks/20261126T142623811261Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_masks/20261126T142623811261Z/result.json",
+      "bytes": 619,
+      "sha256": "8b181bba83024d8d969f585545f3d2a4d9660c57b1301493b433262aaf997eee",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "8b181bba83024d8d969f585545f3d2a4d9660c57b1301493b433262aaf997eee",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_preview_1000/20261126T144550437620Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_preview_1000/20261126T144550437620Z/result.json",
+      "bytes": 434,
+      "sha256": "4185dafa28bba2cb8d892b9667fc68b0222688b4e8c86ed2bb575e8d597942f9",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "4185dafa28bba2cb8d892b9667fc68b0222688b4e8c86ed2bb575e8d597942f9",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_preview_1000/20261126T144609194400Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_preview_1000/20261126T144609194400Z/result.json",
+      "bytes": 438,
+      "sha256": "92765f0be0564334a6379823a4b21ba583ca5dac2f3566bb0a056a8b6edae766",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "92765f0be0564334a6379823a4b21ba583ca5dac2f3566bb0a056a8b6edae766",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_preview_2500/20261126T145058226435Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_preview_2500/20261126T145058226435Z/result.json",
+      "bytes": 438,
+      "sha256": "25d2aa9f65d145b601f01393c8a7ff127ea4c4c044a0611bb087c66915b963a9",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "25d2aa9f65d145b601f01393c8a7ff127ea4c4c044a0611bb087c66915b963a9",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_preview_render_1000/20261126T144635731421Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_preview_render_1000/20261126T144635731421Z/result.json",
+      "bytes": 443,
+      "sha256": "7499501c6ad7b08543efe5a2f65db2e886e11f681d92e1c24104fa2c668fab6e",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "7499501c6ad7b08543efe5a2f65db2e886e11f681d92e1c24104fa2c668fab6e",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_preview_render_2500/20261126T145127331440Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_preview_render_2500/20261126T145127331440Z/result.json",
+      "bytes": 444,
+      "sha256": "e78baf2bc346a175eb8268e6a9695092940a710da496c9be31d607031cfd8ae6",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "e78baf2bc346a175eb8268e6a9695092940a710da496c9be31d607031cfd8ae6",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_prompt_check_2500/20261126T145326712472Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_prompt_check_2500/20261126T145326712472Z/result.json",
+      "bytes": 475,
+      "sha256": "57fbd77293e71badad8012bb2924a8ab28250640d77dbd10783b4ec689849eb5",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "57fbd77293e71badad8012bb2924a8ab28250640d77dbd10783b4ec689849eb5",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_prompt_render_2500/20261126T145400494481Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_prompt_render_2500/20261126T145400494481Z/result.json",
+      "bytes": 475,
+      "sha256": "00fe430b0a2a1818a3bde802996c548645b57ee2e88363ae48f4e2b840fa14dc",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "00fe430b0a2a1818a3bde802996c548645b57ee2e88363ae48f4e2b840fa14dc",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_reference_prompts/20261126T143112529847Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_reference_prompts/20261126T143112529847Z/result.json",
+      "bytes": 409,
+      "sha256": "03d151d8ebbf903734d727b00af9433444e3bfff7643381e58c73d5b7cd7f9ce",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "03d151d8ebbf903734d727b00af9433444e3bfff7643381e58c73d5b7cd7f9ce",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_reference_prompts_visibility/20261126T143826779635Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_reference_prompts_visibility/20261126T143826779635Z/result.json",
+      "bytes": 420,
+      "sha256": "c6afa8d4a6cab335a61a6ecfc8630482e0d5219ae2498aefc921339ebfebad7d",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "c6afa8d4a6cab335a61a6ecfc8630482e0d5219ae2498aefc921339ebfebad7d",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/A_training_plot/20261126T151326335539Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/A_training_plot/20261126T151326335539Z/result.json",
+      "bytes": 405,
+      "sha256": "d7caf7445df1bf0e93532672223d5b22f251cba2204cadb845b094130189042c",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "d7caf7445df1bf0e93532672223d5b22f251cba2204cadb845b094130189042c",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/B_category_semantics/20261126T144038178949Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/B_category_semantics/20261126T144038178949Z/result.json",
+      "bytes": 410,
+      "sha256": "ef334b5a720db4b3375504b261522045ef94297b08594a9ddcc533f6994bd614",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "ef334b5a720db4b3375504b261522045ef94297b08594a9ddcc533f6994bd614",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/C_final_visualizations/20261126T151420877707Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/C_final_visualizations/20261126T151420877707Z/result.json",
+      "bytes": 409,
+      "sha256": "a67a95269e0ef031b7c08e17f72938c9f4f181f21d8dc47d5426ccab5fbf4f35",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "a67a95269e0ef031b7c08e17f72938c9f4f181f21d8dc47d5426ccab5fbf4f35",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/C_final_visualizations/20261126T151440695852Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/C_final_visualizations/20261126T151440695852Z/result.json",
+      "bytes": 412,
+      "sha256": "ae706ebbfd8067503b4572edfc62b32954437680facd0da39352b970ae567355",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "ae706ebbfd8067503b4572edfc62b32954437680facd0da39352b970ae567355",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/C_geometry_and_local_som/20261126T144203239621Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/C_geometry_and_local_som/20261126T144203239621Z/result.json",
+      "bytes": 411,
+      "sha256": "db488ea39c41ad254ed0001bbda8ced9ebfab64ea5a67c9b633615481c1d2cd1",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "db488ea39c41ad254ed0001bbda8ced9ebfab64ea5a67c9b633615481c1d2cd1",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/C_grounding_review/20261126T145450540920Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/C_grounding_review/20261126T145450540920Z/result.json",
+      "bytes": 415,
+      "sha256": "132f0134bf6663940da410a4cd34024b33b2f60b22a10de700ea0ee32a97cffe",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "132f0134bf6663940da410a4cd34024b33b2f60b22a10de700ea0ee32a97cffe",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/C_readable_instance_graph/20261126T151741474286Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/C_readable_instance_graph/20261126T151741474286Z/result.json",
+      "bytes": 424,
+      "sha256": "faf910cdb138bb08de0306f0bd90fd474bbc6324afb627bb2d3167be46849c78",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "faf910cdb138bb08de0306f0bd90fd474bbc6324afb627bb2d3167be46849c78",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/C_visible_context_labels/20261126T151855987148Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/C_visible_context_labels/20261126T151855987148Z/result.json",
+      "bytes": 414,
+      "sha256": "e93377966cf1e37b4a237c7a18e2d95c295edb0a4c594ce229c302d2df0ad37a",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "e93377966cf1e37b4a237c7a18e2d95c295edb0a4c594ce229c302d2df0ad37a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/D_heldout_queries/20261126T151445517371Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/D_heldout_queries/20261126T151445517371Z/result.json",
+      "bytes": 412,
+      "sha256": "8d224cf36c8cd17f1ac1f2c64d3944edb890814ded5a456ecfd5a82e8ec82212",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "8d224cf36c8cd17f1ac1f2c64d3944edb890814ded5a456ecfd5a82e8ec82212",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/D_query_logic_check/20261126T150308703597Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/D_query_logic_check/20261126T150308703597Z/result.json",
+      "bytes": 416,
+      "sha256": "ea309165fee041b104e0e47679da4fb6f1a441af7f060de78d5d9d258a48b132",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "ea309165fee041b104e0e47679da4fb6f1a441af7f060de78d5d9d258a48b132",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/D_visible_heldout_displays/20261126T151639512912Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/D_visible_heldout_displays/20261126T151639512912Z/result.json",
+      "bytes": 422,
+      "sha256": "ad531148a9938e30998062750c7592088fefb62be288c19fd00735d20d58ce46",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "ad531148a9938e30998062750c7592088fefb62be288c19fd00735d20d58ce46",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/final_validation/20261126T151538089385Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/final_validation/20261126T151538089385Z/result.json",
+      "bytes": 412,
+      "sha256": "92af97e5d706f25d29155c1745021ad0f66fc865a99e5137c9cb60a88c5e0f83",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "92af97e5d706f25d29155c1745021ad0f66fc865a99e5137c9cb60a88c5e0f83",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/final_validation_after_display_selection/20261126T151901298667Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/final_validation_after_display_selection/20261126T151901298667Z/result.json",
+      "bytes": 433,
+      "sha256": "0e5cb38c47acfda8a36f8849f0eaae3a09d97207ab7cb241902e4429aa6bc177",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "0e5cb38c47acfda8a36f8849f0eaae3a09d97207ab7cb241902e4429aa6bc177",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/portable_render_final/20261126T151907154406Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/portable_render_final/20261126T151907154406Z/result.json",
+      "bytes": 422,
+      "sha256": "113da812b14aa7acebf1f309a49e3f3336b48517db3992dc832401ddeb0bc981",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "113da812b14aa7acebf1f309a49e3f3336b48517db3992dc832401ddeb0bc981",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/portable_render_validation/20261126T151550348730Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/portable_render_validation/20261126T151550348730Z/result.json",
+      "bytes": 427,
+      "sha256": "1bd67076cc7383510024ca049bba4da8a33a611a479e38aceca76120f0911d2e",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "1bd67076cc7383510024ca049bba4da8a33a611a479e38aceca76120f0911d2e",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/result_gallery/20261126T151554867110Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/result_gallery/20261126T151554867110Z/result.json",
+      "bytes": 406,
+      "sha256": "10e3f26ca14d92602ae1f4b9fd64ade63bcfebc57bba605040f0dbce9e7feaac",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "10e3f26ca14d92602ae1f4b9fd64ade63bcfebc57bba605040f0dbce9e7feaac",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/result_gallery_final/20261126T151746103271Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/result_gallery_final/20261126T151746103271Z/result.json",
+      "bytes": 411,
+      "sha256": "5dd37cd6795079b72fd3543772c8449f5f5512f7d289b1c934291ab1d9a5835a",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "5dd37cd6795079b72fd3543772c8449f5f5512f7d289b1c934291ab1d9a5835a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/logs/world_model_package/20261126T151418741811Z/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/logs/world_model_package/20261126T151418741811Z/result.json",
+      "bytes": 448,
+      "sha256": "f47c65e8fa27d22a12c7c048abcd5605c2693368db3a22457810991bacc21928",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "f47c65e8fa27d22a12c7c048abcd5605c2693368db3a22457810991bacc21928",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000168/camera.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000168/camera.json",
+      "bytes": 1416,
+      "sha256": "cb271961e5b4c71d327e39e05f7cb829cb309534375d1604f510575ac25f0a24",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "cb271961e5b4c71d327e39e05f7cb829cb309534375d1604f510575ac25f0a24",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000168/grounding_retry_parsed.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000168/grounding_retry_parsed.json",
+      "bytes": 1234,
+      "sha256": "e21b334ed6968c1b1c293897a2a2e1626cf7cd8ba1bdb99d23fdd214e1b5e167",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "e21b334ed6968c1b1c293897a2a2e1626cf7cd8ba1bdb99d23fdd214e1b5e167",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000168/grounding_retry_raw.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000168/grounding_retry_raw.json",
+      "bytes": 5578,
+      "sha256": "57e38db35a71c5cd7f9201319fde9af7f0bf29e5cd425e38266ef425c69b63a8",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "57e38db35a71c5cd7f9201319fde9af7f0bf29e5cd425e38266ef425c69b63a8",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000168/grounding_retry_request.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000168/grounding_retry_request.json",
+      "bytes": 873,
+      "sha256": "831d42207ec53f6d0d93b1309443b5f8a218d85541379fa599da0bee411d8b59",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "831d42207ec53f6d0d93b1309443b5f8a218d85541379fa599da0bee411d8b59",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000168/parsed_response.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000168/parsed_response.json",
+      "bytes": 70,
+      "sha256": "0db0f6dd457817046c38e1d50c1761ab2a07955390e89160ccbe0ec7c58a2565",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "0db0f6dd457817046c38e1d50c1761ab2a07955390e89160ccbe0ec7c58a2565",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000168/raw_response.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000168/raw_response.json",
+      "bytes": 4253,
+      "sha256": "b50494c2934eef5d77a237600244045ceb62100f091ffe73b74315923ca72f74",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "b50494c2934eef5d77a237600244045ceb62100f091ffe73b74315923ca72f74",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000168/request_metadata.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000168/request_metadata.json",
+      "bytes": 1654,
+      "sha256": "44194e89710fa6ac084cc8ab3189e7611598d2895a3155beeccdf00d2feca0f4",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "44194e89710fa6ac084cc8ab3189e7611598d2895a3155beeccdf00d2feca0f4",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000168/tags.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000168/tags.json",
+      "bytes": 656,
+      "sha256": "c740cb24f47f8665d8d104e7fbe8faf252e06f60e2813fcb0c8cacc31036080a",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "c740cb24f47f8665d8d104e7fbe8faf252e06f60e2813fcb0c8cacc31036080a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000168/validated_relations.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000168/validated_relations.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000202/camera.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000202/camera.json",
+      "bytes": 1308,
+      "sha256": "e06a94a771aa4379eed2a9599236ddc69b79616a1df01914bc91fd65fc288af0",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "e06a94a771aa4379eed2a9599236ddc69b79616a1df01914bc91fd65fc288af0",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000202/grounding_retry_parsed.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000202/grounding_retry_parsed.json",
+      "bytes": 1297,
+      "sha256": "9fbf98870c9d512ef8808e00aa7b78594693879e121efdcb6c92db6e822acc59",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "9fbf98870c9d512ef8808e00aa7b78594693879e121efdcb6c92db6e822acc59",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000202/grounding_retry_raw.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000202/grounding_retry_raw.json",
+      "bytes": 6054,
+      "sha256": "cacffc3457a2255cd93c425d1e12fb59a552617fc740034db909e3222bb96081",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "cacffc3457a2255cd93c425d1e12fb59a552617fc740034db909e3222bb96081",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000202/grounding_retry_request.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000202/grounding_retry_request.json",
+      "bytes": 879,
+      "sha256": "b13de0f6271a1eeb41f3c9721fbd6915321d7cbc09450fa47a757a5c560c670a",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "b13de0f6271a1eeb41f3c9721fbd6915321d7cbc09450fa47a757a5c560c670a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000202/parsed_response.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000202/parsed_response.json",
+      "bytes": 70,
+      "sha256": "f877016d1f350d0ff95cb80976d47c26b0d3c9ee5560f38be152b186c40934dc",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "f877016d1f350d0ff95cb80976d47c26b0d3c9ee5560f38be152b186c40934dc",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000202/raw_response.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000202/raw_response.json",
+      "bytes": 5452,
+      "sha256": "043d189e85c0552d9f483b1fa7f46bf17d77b409a28fcb4f892ce40ad1803cd1",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "043d189e85c0552d9f483b1fa7f46bf17d77b409a28fcb4f892ce40ad1803cd1",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000202/request_metadata.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000202/request_metadata.json",
+      "bytes": 1990,
+      "sha256": "6baa2aa9097b5f3d151d7d90e6d34d6a7860fc826589cd010ff41d2d596715d9",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "6baa2aa9097b5f3d151d7d90e6d34d6a7860fc826589cd010ff41d2d596715d9",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000202/tags.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000202/tags.json",
+      "bytes": 1052,
+      "sha256": "a608a32776c9aa12b0a76a32acf2f8a171be9e3a740d1fa707afe0b8d53c0f79",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "a608a32776c9aa12b0a76a32acf2f8a171be9e3a740d1fa707afe0b8d53c0f79",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000202/validated_relations.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000202/validated_relations.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000208/camera.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000208/camera.json",
+      "bytes": 1412,
+      "sha256": "054cbdc7fec7782fd43e20b121dbab0cfcb6de58361fb8dc475b01b389ca4dc0",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "054cbdc7fec7782fd43e20b121dbab0cfcb6de58361fb8dc475b01b389ca4dc0",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000208/parsed_response.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000208/parsed_response.json",
+      "bytes": 180,
+      "sha256": "4690061bbd8ff763eed3e1e5b418789fb67a5a3f61374bfb0d720ef5a04cb3ff",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "4690061bbd8ff763eed3e1e5b418789fb67a5a3f61374bfb0d720ef5a04cb3ff",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000208/raw_response.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000208/raw_response.json",
+      "bytes": 5071,
+      "sha256": "bb5ca8ead7c53e5402aa40eb3037dbfd32ada4d6268f67efda93004e9ebd9e09",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "bb5ca8ead7c53e5402aa40eb3037dbfd32ada4d6268f67efda93004e9ebd9e09",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000208/request_metadata.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000208/request_metadata.json",
+      "bytes": 1811,
+      "sha256": "3e2c132607af862104455f3caeba54dcd4e267cbee6079dce41373c29b61e093",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "3e2c132607af862104455f3caeba54dcd4e267cbee6079dce41373c29b61e093",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000208/tags.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000208/tags.json",
+      "bytes": 843,
+      "sha256": "4573ec21cbcde602061c475a2e725f525dbb869adf4d40bdff635e9984d050cc",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "4573ec21cbcde602061c475a2e725f525dbb869adf4d40bdff635e9984d050cc",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/C/som/frame_000208/validated_relations.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/C/som/frame_000208/validated_relations.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/D/query_01/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/D/query_01/result.json",
+      "bytes": 856,
+      "sha256": "b28da287de3cec3339c605036a214f8cc59ac4b4431da6ad6d574f1a11f2aab9",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "b28da287de3cec3339c605036a214f8cc59ac4b4431da6ad6d574f1a11f2aab9",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/D/query_02/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/D/query_02/result.json",
+      "bytes": 730,
+      "sha256": "82d9865d43d2691448e687e6fb3d4e44cbcfd325fb5d976760d8a41a787a0dd0",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "82d9865d43d2691448e687e6fb3d4e44cbcfd325fb5d976760d8a41a787a0dd0",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/D/query_03/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/D/query_03/result.json",
+      "bytes": 862,
+      "sha256": "70e7b7eb83301fda8b34c24d84a69a7a0a237ff7b195ca267900600d573977cf",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "70e7b7eb83301fda8b34c24d84a69a7a0a237ff7b195ca267900600d573977cf",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/D/query_04/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/D/query_04/result.json",
+      "bytes": 985,
+      "sha256": "2db57213db6b309c4634ffdf8c3b32620d4dd84000d278936231cdc5b2bd49ed",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "2db57213db6b309c4634ffdf8c3b32620d4dd84000d278936231cdc5b2bd49ed",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/D/query_05/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/D/query_05/result.json",
+      "bytes": 748,
+      "sha256": "75a890ad36eeb11e1d513cd61ae7b27a12a295b46decd75f820d67cdecbce1d1",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "75a890ad36eeb11e1d513cd61ae7b27a12a295b46decd75f820d67cdecbce1d1",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/D/query_06/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/D/query_06/result.json",
+      "bytes": 1978,
+      "sha256": "827164853595e471b4e6618a7b32d92320cf49dd9a42dae0ca6cd765b0df8d1c",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "827164853595e471b4e6618a7b32d92320cf49dd9a42dae0ca6cd765b0df8d1c",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/D/query_07/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/D/query_07/result.json",
+      "bytes": 1400,
+      "sha256": "b079aaba2c3251f617926c41cde2aadf87034cfc386e87c7e74c0de24ce4ca59",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "b079aaba2c3251f617926c41cde2aadf87034cfc386e87c7e74c0de24ce4ca59",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/D/query_08/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/D/query_08/result.json",
+      "bytes": 1867,
+      "sha256": "0b22983d6f8cf14d040ea1d565cf16638b5fc59f299e4aa5f8b98649adf0816e",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "0b22983d6f8cf14d040ea1d565cf16638b5fc59f299e4aa5f8b98649adf0816e",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/D/query_09/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/D/query_09/result.json",
+      "bytes": 1532,
+      "sha256": "3dad95946b85d0fe7b5f6de350d7c65cd59425e668ff2b2eadea998b39b67548",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "3dad95946b85d0fe7b5f6de350d7c65cd59425e668ff2b2eadea998b39b67548",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/D/query_10/result.json",
+      "destination": "experiments/saga_relags_v1/evidence/outputs/D/query_10/result.json",
+      "bytes": 1423,
+      "sha256": "980a7cef9b6261a0c2f0ab7c5a739cfabe0479048eb66c055175c28a0a38a025",
+      "purpose": "Actual command, status or inference evidence",
+      "published_sha256": "980a7cef9b6261a0c2f0ab7c5a739cfabe0479048eb66c055175c28a0a38a025",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/third_party/SegAnyGAussians/LICENSE",
+      "destination": "experiments/saga_relags_v1/licenses/SAGA_LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "purpose": "Upstream license",
+      "published_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/third_party/SegAnyGAussians/third_party/segment-anything/LICENSE",
+      "destination": "experiments/saga_relags_v1/licenses/SAM_LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "purpose": "Upstream license",
+      "published_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "publication_edited": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/envs/saga/bin/python",
+    "-u",
+    "scripts/check_query_logic.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1",
+  "gpu": "0",
+  "start_utc": "20261126T150308703597Z",
+  "stage": "D_query_logic_check",
+  "pid": 614651
+}

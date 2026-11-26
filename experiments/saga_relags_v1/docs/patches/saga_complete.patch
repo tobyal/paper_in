@@ -1,0 +1,100 @@
+diff --git a/extract_segment_everything_masks.py b/extract_segment_everything_masks.py
+index 15a4942..874e0b5 100755
+--- a/extract_segment_everything_masks.py
++++ b/extract_segment_everything_masks.py
+@@ -55,7 +55,9 @@ if __name__ == '__main__':
+     
+     for path in tqdm(sorted(os.listdir(IMAGE_DIR))):
+         name = path.split('.')[0]
+-        img = cv2.imread(os.path.join(IMAGE_DIR, path))
++        if os.path.exists(os.path.join(OUTPUT_DIR, name+".pt")):
++            continue
++        img = cv2.cvtColor(cv2.imread(os.path.join(IMAGE_DIR, path)), cv2.COLOR_BGR2RGB)
+         if downsample_manually:
+             img = cv2.resize(img,dsize=(img.shape[1] // args.downsample, img.shape[0] // args.downsample),fx=1,fy=1,interpolation=cv2.INTER_LINEAR)
+         masks = mask_generator.generate(img)
+@@ -76,4 +78,4 @@ if __name__ == '__main__':
+                 mask_list.append(m_score.bool())
+         masks = torch.stack(mask_list, dim=0)
+ 
+-        torch.save(masks, os.path.join(OUTPUT_DIR, name+'.pt'))
+\ No newline at end of file
++        torch.save(masks.cpu(), os.path.join(OUTPUT_DIR, name+'.pt'))
+\ No newline at end of file
+diff --git a/scene/dataset_readers.py b/scene/dataset_readers.py
+index 91eeee9..a603f69 100755
+--- a/scene/dataset_readers.py
++++ b/scene/dataset_readers.py
+@@ -109,9 +109,9 @@ def readColmapCameras(cam_extrinsics, cam_intrinsics, images_folder, features_fo
+         image_name = os.path.basename(image_path).split(".")[0]
+         image = Image.open(image_path)
+ 
+-        features = torch.load(os.path.join(features_folder, image_name.split('.')[0] + ".pt")) if features_folder is not None else None
+-        masks = torch.load(os.path.join(masks_folder, image_name.split('.')[0] + ".pt")) if masks_folder is not None else None
+-        mask_scales = torch.load(os.path.join(mask_scale_folder, image_name.split('.')[0] + ".pt")) if mask_scale_folder is not None else None
++        features = torch.load(os.path.join(features_folder, image_name.split('.')[0] + ".pt"), map_location="cpu") if features_folder is not None else None
++        masks = torch.load(os.path.join(masks_folder, image_name.split('.')[0] + ".pt"), map_location="cpu") if masks_folder is not None else None
++        mask_scales = torch.load(os.path.join(mask_scale_folder, image_name.split('.')[0] + ".pt"), map_location="cpu") if mask_scale_folder is not None else None
+ 
+         cam_info = CameraInfo(uid=uid, R=R, T=T, FovY=FovY, FovX=FovX, image=image, features=features, masks=masks, mask_scales = mask_scales,
+                               image_path=image_path, image_name=image_name, width=width, height=height, cx=intr.params[2] if len(intr.params) > 3 and allow_principle_point_shift else None, cy=intr.params[3] if len(intr.params) >3 and allow_principle_point_shift else None)
+diff --git a/train_contrastive_feature.py b/train_contrastive_feature.py
+index ccc89a9..41f9b79 100755
+--- a/train_contrastive_feature.py
++++ b/train_contrastive_feature.py
+@@ -10,6 +10,7 @@
+ #
+ 
+ import os
++import saga_hooks
+ import torch
+ from random import randint
+ from gaussian_renderer import render_contrastive_feature
+@@ -130,6 +131,8 @@ def training(dataset, opt, pipe, iteration, saving_iterations, checkpoint_iterat
+         q_trans = get_quantile_func(all_scales, "uniform")
+         fixed_scale_gate = torch.tensor([[1 for j in range(32 - scale_aware_dim + i)] + [0 for k in range(scale_aware_dim - i)] for i in range(scale_aware_dim+1)]).cuda()
+ 
++    saga_hooks.initialize(feature_gaussians, scale_gate, scene, opt, all_scales)
++    first_iter, viewpoint_stack = saga_hooks.restore(feature_gaussians, scale_gate, scene)
+     for iteration in range(first_iter, opt.iterations + 1):
+         iter_start.record()
+ 
+@@ -304,6 +307,7 @@ def training(dataset, opt, pipe, iteration, saving_iterations, checkpoint_iterat
+         feature_gaussians.optimizer.zero_grad(set_to_none = True)
+ 
+         iter_end.record()
++        saga_hooks.record(iteration, feature_gaussians, scale_gate, scene, opt, loss, cosine_pos, cosine_neg, rendered_feature_norm, viewpoint_stack)
+ 
+         if iteration % 10 == 0:
+             progress_bar.set_postfix({
+diff --git a/utils/camera_utils.py b/utils/camera_utils.py
+index 20e5803..d54bd78 100755
+--- a/utils/camera_utils.py
++++ b/utils/camera_utils.py
+@@ -20,7 +20,7 @@ def loadCam(args, id, cam_info, resolution_scale):
+     orig_w, orig_h = cam_info.image.size
+ 
+     if args.resolution in [1, 2, 4, 8]:
+-        resolution = round(orig_w/(resolution_scale * args.resolution)), round(orig_h/(resolution_scale * args.resolution))
++        resolution = int(orig_w/(resolution_scale * args.resolution)), int(orig_h/(resolution_scale * args.resolution))
+     else:  # should be a type that converts to float
+         if args.resolution == -1:
+             if orig_w > 1600:
+@@ -53,7 +53,7 @@ def loadCam(args, id, cam_info, resolution_scale):
+     return Camera(colmap_id=cam_info.uid, R=cam_info.R, T=cam_info.T, 
+                   FoVx=cam_info.FovX, FoVy=cam_info.FovY, 
+                   image=gt_image, gt_alpha_mask=loaded_mask,
+-                  image_name=cam_info.image_name, cx=cam_info.cx, cy=cam_info.cy, features=gt_features, masks = gt_masks, mask_scales = mask_scales, uid=id, data_device=args.data_device)
++                  image_name=cam_info.image_name, cx=(cam_info.cx * resolution[0] / orig_w + 0.5) if cam_info.cx is not None else None, cy=(cam_info.cy * resolution[1] / orig_h + 0.5) if cam_info.cy is not None else None, features=gt_features, masks = gt_masks, mask_scales = mask_scales, uid=id, data_device=args.data_device)
+ 
+ # def loadCam(emmm):
+ 
+@@ -61,7 +61,7 @@ def loadCam(args, id, cam_info, resolution_scale):
+ #     orig_w, orig_h = cam_info.image.size
+ 
+ #     if args.resolution in [1, 2, 4, 8]:
+-#         resolution = round(orig_w/(resolution_scale * args.resolution)), round(orig_h/(resolution_scale * args.resolution))
++#         resolution = int(orig_w/(resolution_scale * args.resolution)), int(orig_h/(resolution_scale * args.resolution))
+ #     else:  # should be a type that converts to float
+ #         if args.resolution == -1:
+ #             if orig_w > 1600:

@@ -1,0 +1,32 @@
+{
+  "query": "立式移动冷风机",
+  "target_text": "立式移动冷风机",
+  "category_match": {
+    "category_id": "category_06",
+    "method": "known_category_alias",
+    "query": "立式移动冷风机"
+  },
+  "relation": null,
+  "anchor_text": null,
+  "anchor_object_ids": [],
+  "known_category_instances": [
+    "obj_e57b3a886c2d",
+    "obj_04c477562e49",
+    "obj_c57876bf22ca"
+  ],
+  "available_category_candidates": [
+    "obj_04c477562e49",
+    "obj_c57876bf22ca"
+  ],
+  "unsegmented_category_instances": [
+    "obj_e57b3a886c2d"
+  ],
+  "matched_object_ids": [
+    "obj_04c477562e49",
+    "obj_c57876bf22ca"
+  ],
+  "relation_evidence": [],
+  "same_category_candidates_before": 2,
+  "matches_after": 2,
+  "segmentation_rerun": false
+}

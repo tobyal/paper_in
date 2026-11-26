@@ -1,0 +1,18 @@
+{
+  "retries": [
+    {
+      "image_id": "frame_000168",
+      "seconds": 12.100728511810303,
+      "informative": true,
+      "relations": []
+    },
+    {
+      "image_id": "frame_000202",
+      "seconds": 5.6278979778289795,
+      "informative": true,
+      "relations": []
+    }
+  ],
+  "automatic_graph_additions": false,
+  "note": "Original empty/incomplete answers preserved. Retry relations are hypotheses pending independent evidence review."
+}

@@ -1,0 +1,146 @@
+{
+  "protected_source_changes": [],
+  "protected_outputs_changed": [],
+  "protected_outputs_added": [],
+  "protected_outputs_checked": 22273,
+  "trained_feature_geometry_equal": true,
+  "objects": [
+    {
+      "object_id": "obj_d058f708eb01",
+      "rows": 20186,
+      "native_attributes_bitwise_equal": true,
+      "original_ids_unique": true,
+      "within_m0_candidates": true,
+      "usable": true
+    },
+    {
+      "object_id": "obj_09a35ba03c92",
+      "rows": 16536,
+      "native_attributes_bitwise_equal": true,
+      "original_ids_unique": true,
+      "within_m0_candidates": true,
+      "usable": true
+    },
+    {
+      "object_id": "obj_ad85774e5f18",
+      "rows": 11956,
+      "native_attributes_bitwise_equal": true,
+      "original_ids_unique": true,
+      "within_m0_candidates": true,
+      "usable": true
+    },
+    {
+      "object_id": "obj_c812ae8b15bd",
+      "rows": 17755,
+      "native_attributes_bitwise_equal": true,
+      "original_ids_unique": true,
+      "within_m0_candidates": true,
+      "usable": true
+    },
+    {
+      "object_id": "obj_f9a0e863e32d",
+      "rows": 27176,
+      "native_attributes_bitwise_equal": true,
+      "original_ids_unique": true,
+      "within_m0_candidates": true,
+      "usable": true
+    },
+    {
+      "object_id": "obj_5bfd32389355",
+      "rows": 29926,
+      "native_attributes_bitwise_equal": true,
+      "original_ids_unique": true,
+      "within_m0_candidates": true,
+      "usable": false
+    },
+    {
+      "object_id": "obj_04c477562e49",
+      "rows": 9442,
+      "native_attributes_bitwise_equal": true,
+      "original_ids_unique": true,
+      "within_m0_candidates": true,
+      "usable": true
+    },
+    {
+      "object_id": "obj_b8542dc54ed2",
+      "rows": 25553,
+      "native_attributes_bitwise_equal": true,
+      "original_ids_unique": true,
+      "within_m0_candidates": true,
+      "usable": true
+    },
+    {
+      "object_id": "obj_c57876bf22ca",
+      "rows": 7093,
+      "native_attributes_bitwise_equal": true,
+      "original_ids_unique": true,
+      "within_m0_candidates": true,
+      "usable": true
+    },
+    {
+      "object_id": "obj_57b0f30bdd9e",
+      "rows": 6409,
+      "native_attributes_bitwise_equal": true,
+      "original_ids_unique": true,
+      "within_m0_candidates": true,
+      "usable": true
+    }
+  ],
+  "native_scene_sha256_equal": true,
+  "invalid_edges": [],
+  "nearest_edges_verified": 264,
+  "queries": [
+    {
+      "query": "物料车",
+      "returned": 2,
+      "same_class_reduced": false
+    },
+    {
+      "query": "装配夹具台",
+      "returned": 2,
+      "same_class_reduced": false
+    },
+    {
+      "query": "带黑色工件的夹具台",
+      "returned": 2,
+      "same_class_reduced": false
+    },
+    {
+      "query": "多层料架",
+      "returned": 1,
+      "same_class_reduced": false
+    },
+    {
+      "query": "立式移动冷风机",
+      "returned": 2,
+      "same_class_reduced": false
+    },
+    {
+      "query": "距离装配夹具台 01最近的物料车",
+      "returned": 1,
+      "same_class_reduced": true
+    },
+    {
+      "query": "距离装配夹具台 01最近的装配夹具台",
+      "returned": 1,
+      "same_class_reduced": true
+    },
+    {
+      "query": "距离装配夹具台 01最近的带黑色工件的夹具台",
+      "returned": 1,
+      "same_class_reduced": true
+    },
+    {
+      "query": "距离装配夹具台 01最近的立式移动冷风机",
+      "returned": 1,
+      "same_class_reduced": true
+    },
+    {
+      "query": "位于装配夹具台 01左侧的物料车",
+      "returned": 1,
+      "same_class_reduced": true
+    }
+  ],
+  "standalone_query_exit_code": 0,
+  "passed": true
+}

@@ -1,0 +1,73 @@
+{
+  "image_id": "frame_000208",
+  "filename": "frame_000208.jpg",
+  "width": 1500,
+  "height": 845,
+  "split": "train",
+  "camera_id": 1,
+  "colmap_image_id": 208,
+  "K": [
+    [
+      1130.0596201125306,
+      0.0,
+      750.0
+    ],
+    [
+      0.0,
+      1125.3557636065034,
+      422.5
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "world_to_camera_R": [
+    [
+      0.7914730085934429,
+      0.14207137322819152,
+      -0.594462952232601
+    ],
+    [
+      -0.1311988080547788,
+      0.9894288368534381,
+      0.0617855126049629
+    ],
+    [
+      0.5969567400013582,
+      0.029091265216704066,
+      0.8017458131197457
+    ]
+  ],
+  "world_to_camera_t": [
+    -1.9172977493436278,
+    -1.342920677042566,
+    4.7731996565048584
+  ],
+  "center": [
+    -1.5080938804204065,
+    1.4622591504695641,
+    -4.883682277752234
+  ],
+  "forward": [
+    0.5969567400013582,
+    0.029091265216704066,
+    0.8017458131197457
+  ],
+  "sha256": "a2dd17c5375612d1eb4454af833332d9ef55836e4b1cf3a61ca2b4c271bb0ad3",
+  "source_type": "real",
+  "input_path": "inputs/saga_dataset/images/frame_000208.jpg",
+  "source_path": "data/images/frame_000208.jpg",
+  "selection_reasons": [
+    {
+      "object_id": "obj_09a35ba03c92",
+      "purpose": "Representative real observation"
+    },
+    {
+      "object_id": "obj_b8542dc54ed2",
+      "purpose": "Representative real observation"
+    }
+  ],
+  "saga_colmap_id": 34
+}

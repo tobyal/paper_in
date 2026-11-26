@@ -1,0 +1,143 @@
+{
+  "cases": [
+    {
+      "query": "factory material transport trolley",
+      "expected_category": "category_01",
+      "matched_category": "category_01",
+      "matched_by": "CLIP_text_visual",
+      "scores": [
+        0.7400866746902466,
+        0.6403392553329468,
+        0.5786910653114319,
+        0.630591094493866,
+        0.4798257350921631,
+        0.565521240234375,
+        0.5982418656349182,
+        0.6155334711074829
+      ],
+      "correct": true
+    },
+    {
+      "query": "装配台",
+      "expected_category": "category_02",
+      "matched_category": "category_02",
+      "matched_by": "known_alias",
+      "scores": [
+        0.44044822454452515,
+        0.4777791202068329,
+        0.49511289596557617,
+        0.48375028371810913,
+        0.3476141095161438,
+        0.4845568835735321,
+        0.4974415600299835,
+        0.48003992438316345
+      ],
+      "correct": true
+    },
+    {
+      "query": "fixture holding a dark workpiece",
+      "expected_category": "category_03",
+      "matched_category": "category_03",
+      "matched_by": "CLIP_text_visual",
+      "scores": [
+        0.5223193764686584,
+        0.6458351016044617,
+        0.7331086993217468,
+        0.5643794536590576,
+        0.38153067231178284,
+        0.5108727812767029,
+        0.6017249822616577,
+        0.5754697918891907
+      ],
+      "correct": true
+    },
+    {
+      "query": "a metal rack with multiple shelves",
+      "expected_category": "category_04",
+      "matched_category": "category_04",
+      "matched_by": "CLIP_text_visual",
+      "scores": [
+        0.6353912949562073,
+        0.5874423384666443,
+        0.5681297183036804,
+        0.7741157412528992,
+        0.48940277099609375,
+        0.501851499080658,
+        0.5946687459945679,
+        0.7461737394332886
+      ],
+      "correct": true
+    },
+    {
+      "query": "stacked blue plastic boxes",
+      "expected_category": "category_05",
+      "matched_category": "category_05",
+      "matched_by": "CLIP_text_visual",
+      "scores": [
+        0.4272552728652954,
+        0.3685806691646576,
+        0.3669738173484802,
+        0.48158952593803406,
+        0.7762742042541504,
+        0.4120766222476959,
+        0.35684868693351746,
+        0.4471903443336487
+      ],
+      "correct": true
+    },
+    {
+      "query": "a wheeled cooling appliance with a grille",
+      "expected_category": "category_06",
+      "matched_category": "category_06",
+      "matched_by": "CLIP_text_visual",
+      "scores": [
+        0.604308009147644,
+        0.5607326030731201,
+        0.5683714151382446,
+        0.513251543045044,
+        0.4061412811279297,
+        0.710089921951294,
+        0.5240650177001953,
+        0.5283582210540771
+      ],
+      "correct": true
+    },
+    {
+      "query": "industrial work table",
+      "expected_category": "category_07",
+      "matched_category": "category_07",
+      "matched_by": "known_alias",
+      "scores": [
+        0.5896248817443848,
+        0.6444929838180542,
+        0.590804934501648,
+        0.5964770317077637,
+        0.4061657786369324,
+        0.5007323622703552,
+        0.772131085395813,
+        0.5561193227767944
+      ],
+      "correct": true
+    },
+    {
+      "query": "rack with separate vertical slots",
+      "expected_category": "category_08",
+      "matched_category": "category_08",
+      "matched_by": "CLIP_text_visual",
+      "scores": [
+        0.5963796973228455,
+        0.6249940991401672,
+        0.599000871181488,
+        0.708527684211731,
+        0.471092164516449,
+        0.5571560859680176,
+        0.5839886665344238,
+        0.7501857876777649
+      ],
+      "correct": true
+    }
+  ],
+  "correct": 8,
+  "total": 8,
+  "interpretation": "Small hand-authored category retrieval sanity check; not open-vocabulary recognition accuracy. Chinese alias mapping is explicit; CLIP is primarily English."
+}

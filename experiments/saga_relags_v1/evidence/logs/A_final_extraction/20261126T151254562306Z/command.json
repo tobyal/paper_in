@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/envs/saga/bin/python",
+    "-u",
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/src/extract_instances.py",
+    "--iteration",
+    "10000"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1",
+  "gpu": "1",
+  "start_utc": "20261126T151254562306Z",
+  "stage": "A_final_extraction",
+  "pid": 657043
+}

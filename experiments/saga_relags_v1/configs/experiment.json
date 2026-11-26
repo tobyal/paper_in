@@ -1,0 +1,19 @@
+{
+  "seed": 20261126,
+  "gpu": "0",
+  "focus_object_ids": ["obj_f9a0e863e32d", "obj_57b0f30bdd9e", "obj_d058f708eb01", "obj_09a35ba03c92", "obj_ad85774e5f18", "obj_c812ae8b15bd", "obj_04c477562e49", "obj_c57876bf22ca", "obj_b8542dc54ed2", "obj_5bfd32389355"],
+  "real_views_per_focus": 5,
+  "virtual_views_per_focus": 2,
+  "uniform_real_views": 20,
+  "sam_downsample": 2,
+  "training_resolution": 2,
+  "iterations": 10000,
+  "num_sampled_rays": 1000,
+  "smooth_K": 16,
+  "feature_dim": 32,
+  "feature_lr": 0.0025,
+  "checkpoints": [1000, 2500, 5000, 10000],
+  "affinity_threshold": 0.85,
+  "mask_projection_threshold": 0.5,
+  "external_image_upload": false
+}

@@ -2,6 +2,12 @@
 
 基于真实工业车间图像复现 [ReLaGS](https://github.com/dfki-av/ReLaGS)（[论文](https://arxiv.org/abs/2603.17605) / [项目主页](https://dfki-av.github.io/ReLaGS/)）。本仓库保存核心控制与适配代码、固定上游版本、补丁、实验报告、关键检查记录，以及各阶段真实中间结果图。
 
+## SAGA + ReLaGS：工业对象实例与关系查询
+
+新增独立实验 [saga_relags_v1](experiments/saga_relags_v1/README.md)：官方SAGA完成10,000步共享亲和训练；10个对象尝试中9个可用于设备级查询展示、1个料架失败；8类共享语义；33节点几何图；5项类别查询和5项关系查询。视觉关系提升已运行，但没有得到可靠新增语义边，不能视为该部分验证成功。
+
+[完整报告](experiments/saga_relags_v1/EXPERIMENT_REPORT.md) · [关键结果图集](experiments/saga_relags_v1/docs/GALLERY.md) · [版本、补丁及归档范围](experiments/saga_relags_v1/PUBLICATION.md)。原工程及既有结果未改动，模型权重和完整数据保留在服务器。
+
 ## 工业空间先验与原生 3DGS：M1—M5
 
 新增独立的 [industrial_world_model](industrial_world_model/README.md) 流程，读取 M0 空间先验、原生 3DGS、原始 RGB/COLMAP，执行多视角 SAM、高斯关联、实例提取、双分支 CLIP、几何场景图和语义/关系查询。原始 Baseline 0/R1 与 M0 保留。

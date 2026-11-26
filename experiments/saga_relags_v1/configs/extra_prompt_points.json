@@ -1,0 +1,8 @@
+{
+  "reason": "Visual inspection of training-only native virtual images: SAM omits the pale cover on a dark workpiece. Add explicit positive SAGA clicks on the cover and adjacent dark body; no final mask is drawn.",
+  "objects": {
+    "obj_ad85774e5f18": {"virtual_free_obj_ad85774e5f18_016": [[530, 333], [440, 365]]},
+    "obj_c812ae8b15bd": {"virtual_free_obj_c812ae8b15bd_023": [[540, 298], [405, 305]]}
+  },
+  "pixel_frame": "Original input RGB, 960 x 720; scaled to the exact feature-render camera before sampling."
+}

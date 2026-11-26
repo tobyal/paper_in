@@ -1,0 +1,6 @@
+{
+  "max_absolute_contribution_error": 0.0,
+  "binary_mask_iou": 1.0,
+  "independent_package_renderer": true,
+  "passed": true
+}

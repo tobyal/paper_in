@@ -1,0 +1,32 @@
+{
+  "query": "装配夹具台",
+  "target_text": "装配夹具台",
+  "category_match": {
+    "category_id": "category_02",
+    "method": "known_category_alias",
+    "query": "装配夹具台"
+  },
+  "relation": null,
+  "anchor_text": null,
+  "anchor_object_ids": [],
+  "known_category_instances": [
+    "obj_8429bc5f3c33",
+    "obj_d058f708eb01",
+    "obj_09a35ba03c92"
+  ],
+  "available_category_candidates": [
+    "obj_d058f708eb01",
+    "obj_09a35ba03c92"
+  ],
+  "unsegmented_category_instances": [
+    "obj_8429bc5f3c33"
+  ],
+  "matched_object_ids": [
+    "obj_d058f708eb01",
+    "obj_09a35ba03c92"
+  ],
+  "relation_evidence": [],
+  "same_category_candidates_before": 2,
+  "matches_after": 2,
+  "segmentation_rerun": false
+}

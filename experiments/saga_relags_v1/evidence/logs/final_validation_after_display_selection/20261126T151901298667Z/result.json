@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/envs/saga/bin/python",
+    "-u",
+    "scripts/validate_results.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1",
+  "gpu": "0",
+  "start_utc": "20261126T151901298667Z",
+  "stage": "final_validation_after_display_selection",
+  "pid": 674929,
+  "exit_code": 0,
+  "status": "completed",
+  "seconds": 5.7727952003479
+}

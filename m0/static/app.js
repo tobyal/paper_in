@@ -1,3 +1,4 @@
+import {groupObjects} from './object_groups.js';
 import {Workbench,rotatedFrame,boxOutside,boxAngles,editBoxAxis} from './workbench.js';
 const {createApp,markRaw,nextTick}=Vue;
 const clone=x=>JSON.parse(JSON.stringify(x));
@@ -5,7 +6,7 @@ let draftTimer,refTimer,editorEpoch=0,loadedState=false;
 createApp({
  data(){return {state:{revision:0,objects:{}},sceneDraft:null,baseTransform:null,objectDraft:null,selectedId:'',page:'scene',images:[],pointCount:0,loading:true,workbench:null,createMode:false,showOutside:true,highlight:false,angles:[0,0,0],floorAck:false,directionsAck:false,objectAck:false,sceneDirty:false,objectDirty:false,pendingObjects:{},transformTool:'translate',renderStatus:'正在连接高斯渲染…',reviewer:localStorage.getItem('m0_reviewer')||'',saveStatus:'连接服务器…',notice:'',noticeError:false,busy:'',referenceOpen:false,inspectOnly:false,referenceImage:'',referenceMode:'rgb',recommendations:[],editor:null,editorTool:'box',brushSize:12,opacity:.45,samResult:null,candidate:0,referenceAck:false,exportOpen:false,quality:{issues:[]},versions:[],history:[],freezeAck:false,
  editorTools:[['pan','平移'],['box','提示框'],['positive','正点'],['negative','负点'],['brush','画笔'],['erase','橡皮'],['polygon_add','多边形＋'],['polygon_erase','多边形−']]};},
- computed:{objects(){return Object.values({...this.state.objects,...this.pendingObjects}).filter(o=>!o.deleted);},pendingCount(){return Object.keys(this.pendingObjects).length;},objectAngles(){return this.objectDraft?boxAngles(this.objectDraft.bbox):[0,0,0];},transformHint(){return {translate:'拖动彩色箭头移动设备框',scale:'拖动轴端方块改变尺寸；中心方块等比缩放',rotate:'拖动彩色圆环旋转设备框'}[this.transformTool];},outsideScene(){let b=this.objectDraft?.bbox,s=this.sceneDraft?.bbox;if(!b||!s)return false;return boxOutside(b,s);}},
+ computed:{objectGroups(){return groupObjects(this.objects);},objects(){return Object.values({...this.state.objects,...this.pendingObjects}).filter(o=>!o.deleted);},pendingCount(){return Object.keys(this.pendingObjects).length;},objectAngles(){return this.objectDraft?boxAngles(this.objectDraft.bbox):[0,0,0];},transformHint(){return {translate:'拖动彩色箭头移动设备框',scale:'拖动轴端方块改变尺寸；中心方块等比缩放',rotate:'拖动彩色圆环旋转设备框'}[this.transformTool];},outsideScene(){let b=this.objectDraft?.bbox,s=this.sceneDraft?.bbox;if(!b||!s)return false;return boxOutside(b,s);}},
  watch:{reviewer(value){localStorage.setItem('m0_reviewer',value);}},
  methods:{
  async api(path,method='GET',body){const res=await fetch('/api'+path,{method,headers:method==='GET'?{}:{'Content-Type':'application/json','X-M0-Client':'1'},body:body===undefined?undefined:JSON.stringify(body)});let value=await res.json();if(!res.ok)throw Error(value.detail||'请求失败');return value;},

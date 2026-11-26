@@ -1,0 +1,144 @@
+{
+  "experiment": "baseline_20261126_r29",
+  "m0_revision": 29,
+  "method": "M0-guided native 3DGS industrial world model",
+  "server_project": "/mnt/sda/ubuntu/lkx/papers/paper_in",
+  "source_root": "outputs/industrial_world_model/baseline_20261126_r29",
+  "pipeline_commit": "52f772770db5384fc1e0f731fe1feeb13b6756ce",
+  "publication_scope": "User-authorized displayed intermediate-result images; byte-for-byte copies. No raw input dataset, annotation database, weights, logs or large intermediate tensors.",
+  "images": [
+    {
+      "file": "figures/candidate_overview.jpg",
+      "source": "M1_spatial_constraint/visualization/candidate_overview.jpg",
+      "bytes": 513270,
+      "sha256": "20a4a90546161cff22c2d12b4cfe8fd90f445c79b8282df007e194cbe8228b7d",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/fixture_candidate_vs_instance.jpg",
+      "source": "M2_object_modeling/M2_5_reprojection/obj_8429bc5f3c33/candidate_vs_instance.jpg",
+      "bytes": 45640,
+      "sha256": "356a5ecd13fbffd397c5a2d43f257ea47f35c63d46d81966627b849c74d59ae9",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/m1_fixture_candidates.jpg",
+      "source": "M1_spatial_constraint/visualization/obj_8429bc5f3c33/candidate_highlight.jpg",
+      "bytes": 83730,
+      "sha256": "5e46855cf4518ac03c0d421c3a86dc1359a34e559aa04d6db2db90dea031bab1",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/m21_fixture_views.jpg",
+      "source": "M2_object_modeling/M2_1_view_selection/obj_8429bc5f3c33/selected_views.jpg",
+      "bytes": 126901,
+      "sha256": "b96588b57ce3c77384d0f87f7563676899b22dd8b1a3f3c5a9153469b571c39b",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/m22_fixture_sam.jpg",
+      "source": "M2_object_modeling/M2_2_sam_segmentation/obj_8429bc5f3c33/multiview_segmentation.jpg",
+      "bytes": 127233,
+      "sha256": "8663ddc91e2430ef8e45acbd226b9835b8b4932654eecf50c2b9a7a42782eb16",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/m23_fixture_scores.png",
+      "source": "M2_object_modeling/M2_3_gaussian_association/obj_8429bc5f3c33/score_render.png",
+      "bytes": 71565,
+      "sha256": "5a005e6748f0283db19c235d74cc3d6015d03f0ba88869a572a115ba4a11d8a5",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/m25_fixture_reprojection.jpg",
+      "source": "M2_object_modeling/M2_5_reprojection/obj_8429bc5f3c33/frame_000195/comparison.jpg",
+      "bytes": 102876,
+      "sha256": "65294296a541865d42210ab7409e9c972a8075a06f1f912613ce4632f01b9fe9",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/m31_fixture_clip_crops.jpg",
+      "source": "M3_semantic_fusion/M3_1_visual_encoding/obj_8429bc5f3c33/multiview_crops.jpg",
+      "bytes": 38706,
+      "sha256": "45f9d4ed24f981c649443aaa6e350da54c22af35bacddec0556fc1bf73732e60",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/m32_fixture_view_similarity.png",
+      "source": "M3_semantic_fusion/M3_2_feature_aggregation/obj_8429bc5f3c33/view_similarity.png",
+      "bytes": 21133,
+      "sha256": "55edecc576628f9fa5368592f6f67308242cf33d43b17fbb87772b6a1aae1358",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/m4_relations_3d.png",
+      "source": "M4_scene_graph/relations_3d.png",
+      "bytes": 297069,
+      "sha256": "02fef5c3ecf63b81685ba7894a4f524c1748e783c02bb0469800763d94567ef5",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/m5_relational_highlight.jpg",
+      "source": "M5_relational_query/combined_left_of_rack/frame_000221_highlight.jpg",
+      "bytes": 84800,
+      "sha256": "6c22118452b3f24dcae6d996f4962f6db8ee350fa91296adfd5ce10143fa7d81",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/object_visual_similarity.png",
+      "source": "M3_semantic_fusion/M3_4_object_semantics/object_visual_similarity.png",
+      "bytes": 96658,
+      "sha256": "852d7dac98023247aee4f4adf6ca476e2b873703b5a19ce6b0c16c45dfc4af3e",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/relational_query_objects.jpg",
+      "source": "M5_relational_query/combined_left_of_rack/matched_objects.jpg",
+      "bytes": 8965,
+      "sha256": "ff5054d934da462d19e59f0144f9cb382b4f23d118a42578573a4255b7f29346",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/reprojection_overview.jpg",
+      "source": "M2_object_modeling/M2_5_reprojection/reprojection_overview.jpg",
+      "bytes": 477374,
+      "sha256": "5b4dca6d0f147977b1de976f56d7054aa643d6ce50b5292d1d44dae599ae4ce3",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/scene_graph_near.png",
+      "source": "M4_scene_graph/scene_graph_near.png",
+      "bytes": 150897,
+      "sha256": "7bf72e9b475d55b042465a4ad9d62cf30f85b82227b81c4d09b59fe21fd69a47",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/segmentation_overview.jpg",
+      "source": "M2_object_modeling/M2_2_sam_segmentation/segmentation_overview.jpg",
+      "bytes": 741131,
+      "sha256": "d99a13c613ab65aca0e682827f96a7365adfcab5e77aa9be0c83d7f07621f866",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/selection_overview.jpg",
+      "source": "M2_object_modeling/M2_1_view_selection/selection_overview.jpg",
+      "bytes": 427224,
+      "sha256": "ea3a724acd1d96a64ec8c860b4fb7b5fbccedef9c2f749443ef0469a2cad7eac",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/semantic_map_overview.jpg",
+      "source": "M2_object_modeling/M2_6_semantic_map/semantic_map_overview.jpg",
+      "bytes": 178486,
+      "sha256": "ceac444391b8e6b2e6a0db27a78245c96bd92d35906ff871351af0c373a91257",
+      "modified_for_publication": false
+    },
+    {
+      "file": "figures/standalone_highlight.jpg",
+      "source": "final_world_model/standalone_highlight.jpg",
+      "bytes": 85063,
+      "sha256": "530b29be877d917c603c9dfd9952cb3e62bd8aa7ac3623f898a584f545924f82",
+      "modified_for_publication": false
+    }
+  ]
+}

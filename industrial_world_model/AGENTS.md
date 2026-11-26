@@ -7,4 +7,4 @@
 - Keep original Gaussian row IDs, object IDs and image IDs. Unknown/occluded observations are not negative votes; invalid upstream objects stay unavailable.
 - This method uses no MWP, 2DGS, Superpoints, THGS, OpenSeg or GNN. Save all submodule diagnostics, failures, parameters and commands.
 - Internal reprojection consistency and cosine similarities are not ground-truth accuracy or probabilities.
-- Publish code/config/docs only, never annotations, model weights, raw data, logs or experiment artifacts.
+- Publish code/config/docs. The user also explicitly authorized the displayed intermediate-result images in `docs/industrial_world_model/`, with source paths and hashes. Do not publish annotation databases, model weights, raw input data, logs or large intermediate tensors.

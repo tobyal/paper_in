@@ -6,7 +6,9 @@
 
 新增独立的 [industrial_world_model](industrial_world_model/README.md) 流程，读取 M0 空间先验、原生 3DGS、原始 RGB/COLMAP，执行多视角 SAM、高斯关联、实例提取、双分支 CLIP、几何场景图和语义/关系查询。原始 Baseline 0/R1 与 M0 保留。
 
-首次实际运行：33 个对象中 19 个获得有效实例，14 个保留不可用原因；634 条几何关系；15 项查询含空结果和多结果。内部重投影 IoU 均值约 0.267，提取仍偏保守，外观查询存在宽泛匹配，不能解释为分割或查询准确率。全部阶段证据和独立世界模型保存在服务器 `outputs/industrial_world_model/baseline_20261126_r29/`，完整运行命令、独立阶段入口和读取接口见 [运行说明](industrial_world_model/README.md)。此新增流程在 Git 中只保存代码、配置及说明。
+首次实际运行：33 个对象中 19 个获得有效实例，14 个保留不可用原因；634 条几何关系；15 项查询含空结果和多结果。内部重投影 IoU 均值约 0.267，提取仍偏保守，外观查询存在宽泛匹配，不能解释为分割或查询准确率。全部阶段证据和独立世界模型保存在服务器 `outputs/industrial_world_model/baseline_20261126_r29/`，完整运行命令、独立阶段入口和读取接口见 [运行说明](industrial_world_model/README.md)。
+
+本次展示的真实中间结果已收录为 [M1—M5 阶段图集](docs/industrial_world_model/GALLERY.md)，含候选高斯、视角选择、SAM 分割、归属得分、实例提取前后、重投影、语义特征、场景图和关系查询。图像原样复制，来源与 SHA-256 记录在 [图像清单](docs/industrial_world_model/manifest.json)。原始数据、权重和大体积中间数组仍保留在服务器。
 
 ## 实际完成状态
 

@@ -79,4 +79,4 @@ if r['matched_ids']:
     w.render(r['matched_ids'], image_id='frame_000221', output='highlight.png')
 ```
 
-查询不会重新跑 SAM 或三维实例提取。CPU 可执行读取和 CLIP 查询；可选原生渲染需要已有兼容 CUDA 扩展。数据、权重和完整实验产物留在服务器，Git 仅收录代码、配置和说明。
+查询不会重新跑 SAM 或三维实例提取。CPU 可执行读取和 CLIP 查询；可选原生渲染需要已有兼容 CUDA 扩展。数据、权重和完整实验产物留在服务器。经用户授权，Git 同时收录已展示的 [阶段图集](../docs/industrial_world_model/GALLERY.md)，图像来源及哈希保存在图集目录的 `manifest.json`。

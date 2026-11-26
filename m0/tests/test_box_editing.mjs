@@ -1,0 +1,23 @@
+import assert from 'node:assert/strict';
+import * as THREE from '../static/vendor/three/three.module.js';
+import {boxAngles,editBoxAxis,boxScreenPath,Workbench} from '../static/workbench.js';
+
+const original={center:[2,3,4],size:[.57,1.1,.72],quaternion:[0,0,0,1]};
+const scaled=editBoxAxis(original,'size',1,'2.20');
+assert.deepEqual(scaled.center,original.center);assert.deepEqual(scaled.size,[.57,2.2,.72]);
+assert.deepEqual(original.size,[.57,1.1,.72]);
+const rotated=editBoxAxis(scaled,'rotation',2,'90');
+const direction=new THREE.Vector3(1,0,0).applyQuaternion(new THREE.Quaternion(...rotated.quaternion));
+assert.ok(direction.distanceTo(new THREE.Vector3(0,1,0))<1e-12);
+assert.deepEqual(rotated.size,scaled.size);assert.deepEqual(rotated.center,scaled.center);
+assert.ok(Math.abs(boxAngles(rotated)[2]-90)<1e-10);
+for(const value of ['','NaN','Infinity','0','-1'])assert.throws(()=>editBoxAxis(original,'size',0,value));
+const w=Object.create(Workbench.prototype);w.selected=original;w.undoStack=[];let result;
+w.callbacks={box:b=>{result=b;w.selected=b;}};
+w.commitBox(scaled);w.commitBox(rotated);w.undo();assert.deepEqual(result,scaled);w.undo();assert.deepEqual(result,original);
+const camera=new THREE.PerspectiveCamera(48,2,.01,100);camera.updateMatrixWorld(true);
+const front={center:[0,0,-3],size:[1,1,1]};
+assert.equal((boxScreenPath(front,camera,800,400).match(/M/g)||[]).length,12);
+assert.equal(boxScreenPath({...front,center:[0,0,3]},camera,800,400),'');
+assert.doesNotMatch(boxScreenPath({...front,center:[0,0,0]},camera,800,400),/NaN|Infinity/);
+console.log('Passed: independent axis scaling, quaternion rotation, invalid dimensions, exact undo, near-plane clipping.');

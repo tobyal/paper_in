@@ -8,6 +8,21 @@ const corners=b=>[-1,1].flatMap(x=>[-1,1].flatMap(y=>[-1,1].map(z=>new THREE.Vec
 const matrix=a=>new THREE.Matrix4().set(...a.flat());
 export function boxOutside(b,s){return corners(b).some(p=>p.toArray().some((x,i)=>Math.abs(x-s.center[i])>s.size[i]/2+1e-7));}
 export function rotatedFrame(base,angles){let r=new THREE.Matrix4().makeRotationFromEuler(new THREE.Euler(...angles.map(x=>x*Math.PI/180),'ZYX'));r.multiply(matrix(base));let a=r.elements;return Array.from({length:4},(_,i)=>Array.from({length:4},(_,j)=>a[j*4+i]));}
+export function boxAngles(box){return new THREE.Euler().setFromQuaternion(quaternion(box).normalize(),'XYZ').toArray().slice(0,3).map(n=>THREE.MathUtils.radToDeg(n));}
+export function editBoxAxis(box,kind,axis,value){
+ const n=Number(value);if(String(value).trim()===''||!Number.isFinite(n)||(kind==='size'&&n<.005))throw Error(kind==='size'?'尺寸必须是不小于 0.005 的数值。':'请输入有效角度。');
+ const b=JSON.parse(JSON.stringify(box));if(kind==='size')b.size[axis]=n;
+ else{const angles=boxAngles(box);angles[axis]=n;b.quaternion=new THREE.Quaternion().setFromEuler(new THREE.Euler(...angles.map(THREE.MathUtils.degToRad),'XYZ')).normalize().toArray();}return b;
+}
+// Clip in camera space before projection; edges crossing the eye must not explode across the screen.
+export function boxScreenPath(box,camera,width,height){
+ const points=corners(box).map(p=>p.applyMatrix4(camera.matrixWorldInverse)),near=-camera.near*1.001;
+ return edges.map(([i,j])=>{let a=points[i].clone(),b=points[j].clone();if(a.z>near&&b.z>near)return '';
+  if(a.z>near)a.lerp(b,(near-a.z)/(b.z-a.z));else if(b.z>near)b.lerp(a,(near-b.z)/(a.z-b.z));
+  a.applyMatrix4(camera.projectionMatrix);b.applyMatrix4(camera.projectionMatrix);
+  return `M${((a.x+1)*width/2).toFixed(2)},${((1-a.y)*height/2).toFixed(2)}L${((b.x+1)*width/2).toFixed(2)},${((1-b.y)*height/2).toFixed(2)}`;
+ }).join('');
+}
 export class Workbench {
  constructor(root,callbacks){
   this.root=root;this.callbacks=callbacks;this.boxes=new THREE.Group();this.scene=new THREE.Scene();this.scene.background=new THREE.Color('#0c1522');this.scene.add(this.boxes);this.selected=null;this.undoStack=[];
@@ -27,7 +42,7 @@ export class Workbench {
   });
 
   this.proxy=new THREE.Object3D();this.scene.add(this.proxy);
-  this.gizmo=new TransformControls(this.views[0].camera,this.views[0].el);this.gizmo.setSize(.85);this.gizmo.setSpace('local');this.gizmoHelper=this.gizmo.getHelper();this.scene.add(this.gizmoHelper);
+  this.gizmo=new TransformControls(this.views[0].camera,this.views[0].el);this.gizmo.setSize(1.15);this.gizmo.setSpace('local');this.gizmoHelper=this.gizmo.getHelper();this.scene.add(this.gizmoHelper);
   this.gizmo.addEventListener('change',()=>this.invalidate());
   this.gizmo.addEventListener('dragging-changed',e=>{this.manipulating=e.value;this.views[0].controls.enabled=!e.value;if(e.value)this.adoptPresentedView();else this.suppressPickUntil=performance.now()+150;});
   this.gizmo.addEventListener('mouseDown',()=>{if(this.selected){this.undoStack.push(JSON.parse(JSON.stringify(this.selected)));if(this.undoStack.length>30)this.undoStack.shift();}});
@@ -85,7 +100,19 @@ export class Workbench {
   this.boxes.visible=!objectMode||ready;if(this.axes)this.axes.visible=!objectMode||ready;
   this.gizmo.enabled=objectMode&&ready;this.gizmoHelper.visible=objectMode&&ready&&!!this.selected;
   this.gizmo.camera=objectMode&&ready?this.presentedCamera:this.views[0].camera;
-  this.views.forEach((v,i)=>{let r=v.el.getBoundingClientRect();if(!r.width||!r.height)return;let x=r.left-root.left,y=root.bottom-r.bottom;this.renderer.setViewport(x,y,r.width,r.height);this.renderer.setScissor(x,y,r.width,r.height);this.renderer.render(this.scene,objectMode&&i===0&&ready?this.presentedCamera:v.camera);if(i)this.drawHandles(v);});
+  this.views.forEach((v,i)=>{let r=v.el.getBoundingClientRect();if(!r.width||!r.height)return;let x=r.left-root.left,y=root.bottom-r.bottom,camera=objectMode&&i===0&&ready?this.presentedCamera:v.camera;this.renderer.setViewport(x,y,r.width,r.height);this.renderer.setScissor(x,y,r.width,r.height);
+   const outlinesVisible=this.boxes.visible;if(i===0&&v.svg)this.boxes.visible=false;this.renderer.render(this.scene,camera);this.boxes.visible=outlinesVisible;
+   if(i)this.drawHandles(v);else if(v.svg)this.drawBoxOutlines(v,camera,!objectMode||ready);
+  });
+ }
+ drawBoxOutlines(v,camera,visible){
+  v.svg.style.display=visible?'block':'none';if(!visible)return;
+  const ns='http://www.w3.org/2000/svg',entries=[{box:this.sceneBox,color:'#40c9b3',width:1.8,kind:'scene'},
+   ...(this.objects||[]).filter(o=>o.visible!==false&&o.object_id!==this.selectedId).map(o=>({box:o.bbox,color:'#91caff',width:2.5,kind:'object'})),
+   ...(this.selected?[{box:this.selected,color:'#ffd16b',width:3.5,kind:'selected'}]:[])];
+  const fragment=document.createDocumentFragment();camera.updateMatrixWorld(true);
+  for(const entry of entries){const d=boxScreenPath(entry.box,camera,v.el.clientWidth,v.el.clientHeight);for(const halo of [true,false]){const path=document.createElementNS(ns,'path');path.setAttribute('d',d);path.setAttribute('fill','none');path.setAttribute('stroke',halo?'#07101c':entry.color);path.setAttribute('stroke-width',entry.width+(halo?2.5:0));path.setAttribute('stroke-linejoin','round');path.setAttribute('stroke-linecap','round');path.setAttribute('vector-effect','non-scaling-stroke');path.setAttribute('opacity',halo?'.85':'1');path.dataset.boxOutline=entry.kind;fragment.append(path);}}
+  v.svg.replaceChildren(fragment);
  }
  screen(v,p){let r=v.el.getBoundingClientRect(),q=new THREE.Vector3(...p).project(v.camera);return [(q.x+1)*r.width/2,(1-q.y)*r.height/2];}
  unproject(v,x,y){let r=v.el.getBoundingClientRect();return new THREE.Vector3((x-r.left)/r.width*2-1,1-(y-r.top)/r.height*2,0).unproject(v.camera).toArray();}
@@ -109,7 +136,8 @@ export class Workbench {
   v.outline.setAttribute('x',lo[0]);v.outline.setAttribute('y',lo[1]);v.outline.setAttribute('width',hi[0]-lo[0]);v.outline.setAttribute('height',hi[1]-lo[1]);
   v.handles.forEach(el=>{let name=el.dataset.handle;if(name==='center'){el.setAttribute('cx',c[0]);el.setAttribute('cy',c[1]);el.setAttribute('r',7);}else{let [a,d]=name.split(',').map(Number);let p=b.center.slice();p[v.axes[0]]+=a*b.size[v.axes[0]]/2;p[v.axes[1]]+=d*b.size[v.axes[1]]/2;let [x,y]=this.screen(v,p);el.setAttribute('x',x-5);el.setAttribute('y',y-5);el.setAttribute('width',10);el.setAttribute('height',10);}});
  }
- setTool(mode){this.gizmo.setMode(mode);this.invalidate();}
+ setTool(mode,ensureVisible=false){this.gizmo.setMode(mode);if(ensureVisible&&this.selected){const camera=this.presentedCamera||this.views[0].camera,p=new THREE.Vector3(...this.selected.center).project(camera);if(Math.abs(p.x)>.72||Math.abs(p.y)>.72||p.z< -1||p.z>1)this.focus();}this.invalidate();}
+ commitBox(box){if(this.selected){this.undoStack.push(JSON.parse(JSON.stringify(this.selected)));if(this.undoStack.length>30)this.undoStack.shift();this.callbacks.box(box,true);}}
  undo(){let b=this.undoStack.pop();if(b)this.callbacks.box(b,true);}
  pick(e,v){
   if(!this.points||this.mode==='object'&&this.presentedContext!==this.viewKey)return;

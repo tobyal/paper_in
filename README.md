@@ -2,6 +2,12 @@
 
 基于真实工业车间图像复现 [ReLaGS](https://github.com/dfki-av/ReLaGS)（[论文](https://arxiv.org/abs/2603.17605) / [项目主页](https://dfki-av.github.io/ReLaGS/)）。本仓库保存核心控制与适配代码、固定上游版本、补丁、实验报告、关键检查记录，以及各阶段真实中间结果图。
 
+## 工业空间先验与原生 3DGS：M1—M5
+
+新增独立的 [industrial_world_model](industrial_world_model/README.md) 流程，读取 M0 空间先验、原生 3DGS、原始 RGB/COLMAP，执行多视角 SAM、高斯关联、实例提取、双分支 CLIP、几何场景图和语义/关系查询。原始 Baseline 0/R1 与 M0 保留。
+
+首次实际运行：33 个对象中 19 个获得有效实例，14 个保留不可用原因；634 条几何关系；15 项查询含空结果和多结果。内部重投影 IoU 均值约 0.267，提取仍偏保守，外观查询存在宽泛匹配，不能解释为分割或查询准确率。全部阶段证据和独立世界模型保存在服务器 `outputs/industrial_world_model/baseline_20261126_r29/`，完整运行命令、独立阶段入口和读取接口见 [运行说明](industrial_world_model/README.md)。此新增流程在 Git 中只保存代码、配置及说明。
+
 ## 实际完成状态
 
 - **Baseline 0**：Stage 00–07 完成；完整 Stage 08 因 5 个极小 L2 分组的 OBB 构建失败；12 项开放词汇查询完成。原失败记录保留。

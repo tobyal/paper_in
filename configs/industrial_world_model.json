@@ -1,0 +1,15 @@
+{
+  "output": "outputs/industrial_world_model/baseline_20261126_r29",
+  "gpu": "0",
+  "seed": 20261126,
+  "input": {"m0_root": "industrial_scene_prior_3dgs", "expected_revision": 29, "allow_user_authorized_snapshot": true, "images": "data/images", "ply": "data/gaussian_scene/original_3dgs/point_cloud/iteration_30000/point_cloud.ply", "sam": "models/sam/sam_vit_h_4b8939.pth", "clip": "models/openclip_vit_b16/open_clip_pytorch_model.bin", "clip_arch": "ViT-B-16"},
+  "views": {"shortlist": 30, "max_views": 8, "sample_centers": 4000, "minimum_area_fraction": 0.0005, "maximum_area_fraction": 0.65, "minimum_image_coverage": 0.80, "minimum_visible_fraction": 0.02, "minimum_angle_degrees": 10},
+  "visibility": {"minimum_alpha": 0.60, "absolute_depth_tolerance": 0.03, "relative_depth_tolerance": 0.01, "maximum_std_allowance": 0.06, "maximum_depth_std": 0.20, "gaussian_scale_allowance": 0.03},
+  "sam": {"minimum_predicted_iou": 0.70, "minimum_visible_center_recall": 0.25, "maximum_outside_box_fraction": 0.18, "minimum_pixels": 100, "minimum_box_occupancy": 0.04},
+  "association": {"minimum_observations": 2, "minimum_positive_observations": 2, "score_threshold": 0.60, "conflict_margin": 0.08, "minimum_instance_gaussians": 20, "local_denoising": false},
+  "reprojection": {"minimum_instance_contribution": 0.50},
+  "semantics": {"crop_padding_fraction": 0.08, "masked_background": 127, "outlier_minimum_views": 4, "outlier_mad_multiplier": 2.5, "outlier_minimum_mad": 0.01},
+  "relations": {"axis_separation": 0.04, "near_distance": 0.35, "directions": "+X right, +Y forward, +Z up in the fixed industrial frame; in_front_of means positive Y separation"},
+  "query": {"visual_weight": 0.6, "text_weight": 0.4, "minimum_joint_similarity": 0.24, "maximum_results": 12},
+  "visualization": {"width": 960, "object_width": 640, "reference_images": ["frame_000020", "frame_000148", "frame_000221", "frame_000312"]}
+}

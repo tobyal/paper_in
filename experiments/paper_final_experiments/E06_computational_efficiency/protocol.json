@@ -1,0 +1,13 @@
+{
+  "online": "Reuse prior sequential same-GPU benchmark with CUDA synchronization and identical 2-view output. No new timing required.",
+  "io_excluded": true,
+  "model_loading_excluded": true,
+  "lang_query_includes": "text, 2-view AE decoding, response and mask postprocessing",
+  "ours_query": "known-category alias matching, relation filtering and Gaussian-ID file reading; no online CLIP encoding",
+  "offline_comparable_total": false,
+  "reason": "Historical stages differ in reuse, environments, failed retries and feature caches; not an equal-data end-to-end construction benchmark.",
+  "m0_manual_cost": "not recorded; separately acknowledged",
+  "saga_training_seconds": 1852.45187997818,
+  "reuse_scope": "same scene, v1 10 extracted (9 usable), v2 33 extracted (30 fine/partial usable), same iteration_10000, no further training",
+  "bc_separate_cost": "v2 B/C combined stage only; separate original v1 semantic/graph logs retained; do not split combined wall time artificially"
+}

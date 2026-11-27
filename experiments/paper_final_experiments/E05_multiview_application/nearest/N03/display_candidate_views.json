@@ -1,0 +1,205 @@
+[
+  {
+    "camera_id": "frame_000329",
+    "target_box_coverage": 0,
+    "anchor_box_coverage": 0,
+    "visible_pixels": 0,
+    "complete": false
+  },
+  {
+    "camera_id": "frame_000265",
+    "target_box_coverage": 1.0,
+    "anchor_box_coverage": 1.0,
+    "visible_pixels": 1063,
+    "complete": true
+  },
+  {
+    "camera_id": "frame_000129",
+    "target_box_coverage": 1.0,
+    "anchor_box_coverage": 1.0,
+    "visible_pixels": 259,
+    "complete": true
+  },
+  {
+    "camera_id": "frame_000153",
+    "target_box_coverage": 1.0,
+    "anchor_box_coverage": 1.0,
+    "visible_pixels": 802,
+    "complete": true
+  },
+  {
+    "camera_id": "frame_000169",
+    "target_box_coverage": 1.0,
+    "anchor_box_coverage": 1.0,
+    "visible_pixels": 210,
+    "complete": true
+  },
+  {
+    "camera_id": "frame_000113",
+    "target_box_coverage": 0.1328352385221324,
+    "anchor_box_coverage": 0,
+    "visible_pixels": 0,
+    "complete": false
+  },
+  {
+    "camera_id": "frame_000321",
+    "target_box_coverage": 0,
+    "anchor_box_coverage": 0,
+    "visible_pixels": 0,
+    "complete": false
+  },
+  {
+    "camera_id": "frame_000025",
+    "target_box_coverage": 0,
+    "anchor_box_coverage": 0,
+    "visible_pixels": 0,
+    "complete": false
+  },
+  {
+    "camera_id": "frame_000217",
+    "target_box_coverage": 1.0,
+    "anchor_box_coverage": 1.0,
+    "visible_pixels": 620,
+    "complete": true
+  },
+  {
+    "camera_id": "frame_000065",
+    "target_box_coverage": 1.0,
+    "anchor_box_coverage": 0.32082418523235534,
+    "visible_pixels": 1846,
+    "complete": false
+  },
+  {
+    "camera_id": "frame_000273",
+    "target_box_coverage": 1.0,
+    "anchor_box_coverage": 1.0,
+    "visible_pixels": 1634,
+    "complete": true
+  },
+  {
+    "camera_id": "frame_000185",
+    "target_box_coverage": 0,
+    "anchor_box_coverage": 0.260041152434415,
+    "visible_pixels": 0,
+    "complete": false
+  },
+  {
+    "camera_id": "frame_000193",
+    "target_box_coverage": 0,
+    "anchor_box_coverage": 0,
+    "visible_pixels": 0,
+    "complete": false
+  },
+  {
+    "camera_id": "frame_000225",
+    "target_box_coverage": 1.0,
+    "anchor_box_coverage": 1.0,
+    "visible_pixels": 550,
+    "complete": true
+  },
+  {
+    "camera_id": "frame_000209",
+    "target_box_coverage": 1.0,
+    "anchor_box_coverage": 1.0,
+    "visible_pixels": 138,
+    "complete": true
+  },
+  {
+    "camera_id": "frame_000161",
+    "target_box_coverage": 1.0,
+    "anchor_box_coverage": 1.0,
+    "visible_pixels": 275,
+    "complete": true
+  },
+  {
+    "camera_id": "frame_000177",
+    "target_box_coverage": 1.0,
+    "anchor_box_coverage": 0.9420266553684905,
+    "visible_pixels": 2276,
+    "complete": true
+  },
+  {
+    "camera_id": "frame_000073",
+    "target_box_coverage": 1.0,
+    "anchor_box_coverage": 0.9180498603357934,
+    "visible_pixels": 1887,
+    "complete": true
+  },
+  {
+    "camera_id": "frame_000305",
+    "target_box_coverage": 0.9881012363200209,
+    "anchor_box_coverage": 0.8492410810389199,
+    "visible_pixels": 13683,
+    "complete": false
+  },
+  {
+    "camera_id": "frame_000297",
+    "target_box_coverage": 0,
+    "anchor_box_coverage": 0,
+    "visible_pixels": 0,
+    "complete": false
+  },
+  {
+    "camera_id": "frame_000089",
+    "target_box_coverage": 1.0,
+    "anchor_box_coverage": 0.4450974760360182,
+    "visible_pixels": 4413,
+    "complete": false
+  },
+  {
+    "camera_id": "frame_000281",
+    "target_box_coverage": 0.8256040810704042,
+    "anchor_box_coverage": 0.32964637426136206,
+    "visible_pixels": 11469,
+    "complete": false
+  },
+  {
+    "camera_id": "frame_000017",
+    "target_box_coverage": 0,
+    "anchor_box_coverage": 0,
+    "visible_pixels": 0,
+    "complete": false
+  },
+  {
+    "camera_id": "frame_000201",
+    "target_box_coverage": 0,
+    "anchor_box_coverage": 0,
+    "visible_pixels": 0,
+    "complete": false
+  },
+  {
+    "camera_id": "frame_000001",
+    "target_box_coverage": 0,
+    "anchor_box_coverage": 0,
+    "visible_pixels": 0,
+    "complete": false
+  },
+  {
+    "camera_id": "frame_000009",
+    "target_box_coverage": 0,
+    "anchor_box_coverage": 0,
+    "visible_pixels": 0,
+    "complete": false
+  },
+  {
+    "camera_id": "frame_000313",
+    "target_box_coverage": 0,
+    "anchor_box_coverage": 0,
+    "visible_pixels": 0,
+    "complete": false
+  },
+  {
+    "camera_id": "frame_000249",
+    "target_box_coverage": 1.0,
+    "anchor_box_coverage": 1.0,
+    "visible_pixels": 734,
+    "complete": true
+  },
+  {
+    "camera_id": "frame_000121",
+    "target_box_coverage": 1.0,
+    "anchor_box_coverage": 1.0,
+    "visible_pixels": 488,
+    "complete": true
+  }
+]

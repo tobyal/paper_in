@@ -1,0 +1,9 @@
+{
+  "exit_code": 0,
+  "wall_seconds": 19.276866539381444,
+  "command": [
+    "../saga_relags_v1/envs/saga/bin/python",
+    "scripts/ablation.py"
+  ],
+  "finished_utc": "2026-11-27T07:51:47.721437+00:00"
+}

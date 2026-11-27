@@ -1,0 +1,9 @@
+{
+  "exit_code": 0,
+  "wall_seconds": 6.660187095403671,
+  "command": [
+    "../saga_relags_v1/envs/saga/bin/python",
+    "scripts/evaluate.py"
+  ],
+  "finished_utc": "2026-11-27T07:57:29.199928+00:00"
+}

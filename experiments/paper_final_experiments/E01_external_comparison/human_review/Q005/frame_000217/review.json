@@ -1,0 +1,64 @@
+{
+  "query": {
+    "query_id": "Q005",
+    "subject_category": "multi-tier material rack",
+    "subject_category_id": "category_04",
+    "predicate": "left of",
+    "predicate_ours": "left_of",
+    "predicate_relags": "left",
+    "object_category": "assembly fixture table",
+    "object_category_id": "category_02",
+    "query_en": "multi-tier material rack to the left of the assembly fixture table",
+    "query_zh": "位于装配夹具台左侧的多层料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000217",
+      "frame_000065"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 9 same-class devices to 5; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "target_object_ids": [
+    "obj_126125e3a773",
+    "obj_aad6e7f85a9a",
+    "obj_b7e0494ce9dd",
+    "obj_b8542dc54ed2",
+    "obj_dee5bef52687"
+  ],
+  "current_reference_review": {
+    "query_id": "Q005",
+    "camera_id": "frame_000217",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "excluded_unreliable",
+    "target_visible": true,
+    "target_ids": [
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_dee5bef52687"
+    ],
+    "task_ids": [
+      "T047",
+      "T048",
+      "T049",
+      "T050",
+      "T051"
+    ],
+    "unreliable_task_ids": [
+      "T051"
+    ],
+    "reasons": [
+      "Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts."
+    ],
+    "mask_pixels": 53663,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q005/frame_000217/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q005/frame_000217/original_rgb.png",
+    "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+  },
+  "independent_human_review_status": "not_confirmed",
+  "instruction": "Review original RGB, target identity, visible extent and gaps. Do not consult any method prediction. Any edited reference must create a new version and evaluate every method on the same sample set."
+}

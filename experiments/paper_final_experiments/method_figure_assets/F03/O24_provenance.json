@@ -1,0 +1,78 @@
+{
+  "object_id": "obj_c7c9293c6c6d",
+  "name_en": "Compartment rack 02",
+  "display_id": "O24",
+  "candidate_gaussians": 49463,
+  "before_conflicts": 42391,
+  "final_gaussians": 42391,
+  "removed_gaussians": 7072,
+  "lost_conflicts": 0,
+  "retained_fraction": 0.8570244425125851,
+  "affinity_min": 0.336181640625,
+  "affinity_max": 1.0,
+  "score_storage": "float16 from frozen v2; float32 threshold membership retained separately",
+  "threshold": 0.85,
+  "normalized_scale": 0.7062199032835085,
+  "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/extractions/refined/objects/obj_c7c9293c6c6d",
+  "source_score_sha256": "56ae565fe4f9b53c446a3136c0d81afd303dabb33dc49507530cc98cbaca0ab7",
+  "prompts": [
+    {
+      "directory": "E03_entity_construction/objects/obj_c7c9293c6c6d/prompts/00",
+      "original_mask": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/reference_prompts/obj_c7c9293c6c6d/frame_000302/mask.png",
+      "mask_sha256": "038ddaae2fce0b418afa7a31364c67ac4e933838b74a3dc1eb29607b40d8b71a",
+      "source_type": "real"
+    },
+    {
+      "directory": "E03_entity_construction/objects/obj_c7c9293c6c6d/prompts/01",
+      "original_mask": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/reference_prompts/obj_c7c9293c6c6d/frame_000304/mask.png",
+      "mask_sha256": "cfdf0cb1658a27e263d407f8d1afdafaef1dfcfc91b494ecba4a1900ddfd0447",
+      "source_type": "real"
+    },
+    {
+      "directory": "E03_entity_construction/objects/obj_c7c9293c6c6d/prompts/02",
+      "original_mask": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/reference_prompts/obj_c7c9293c6c6d/virtual_guided_obj_c7c9293c6c6d_008/mask.png",
+      "mask_sha256": "48c6a352c872abc996b712ab9417c002627b27f509b161ecd7b1abf8e2e36869",
+      "source_type": "camera_guided_virtual"
+    },
+    {
+      "directory": "E03_entity_construction/objects/obj_c7c9293c6c6d/prompts/03",
+      "original_mask": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/reference_prompts/obj_c7c9293c6c6d/frame_000066/mask.png",
+      "mask_sha256": "59e6c63d3562b716f4e352cbb0ae4dd641e088bbf97825cf8a7e3c5703b34e34",
+      "source_type": "real"
+    },
+    {
+      "directory": "E03_entity_construction/objects/obj_c7c9293c6c6d/prompts/04",
+      "original_mask": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/reference_prompts/obj_c7c9293c6c6d/virtual_free_obj_c7c9293c6c6d_023/mask.png",
+      "mask_sha256": "a3f89169a7590374a6bee7d1f5df90ecf78cc05ed176b356584cb8607d2e0447",
+      "source_type": "object_guided_virtual"
+    }
+  ],
+  "quality": {
+    "object_id": "obj_c7c9293c6c6d",
+    "category_id": "category_08",
+    "name_zh": "分隔式料架 02",
+    "name_en": "Compartment rack 02",
+    "reused_v1": false,
+    "status": "extracted_pending_visual_review",
+    "prompt_clicks": 34,
+    "scale": 0.7062199032835085,
+    "effective_real_views": 3,
+    "effective_virtual_views": 2,
+    "candidate_gaussians": 49463,
+    "selected_before_conflicts": 42391,
+    "gaussian_count": 42391,
+    "conflicts_removed": 0,
+    "gaussian_indices": "outputs/A/extractions/refined/objects/obj_c7c9293c6c6d/gaussian_indices.npy",
+    "ply": "outputs/A/extractions/refined/objects/obj_c7c9293c6c6d/object.ply",
+    "review_image_id": "frame_000302",
+    "review_source_type": "real",
+    "training_visible_pixels": 123500,
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "partial_usable",
+    "diagnosis": "A",
+    "note_zh": "分隔式架体轮廓与正面槽位可辨；背面和部分内槽原始重建不足，不能要求恢复不存在的面。",
+    "fine_instance_available": true,
+    "extra_optimization": false,
+    "quality_reviewer": "Codex visual inspection"
+  }
+}

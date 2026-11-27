@@ -1,0 +1,30 @@
+[
+  {
+    "task_id": "T029",
+    "object_id": "obj_7463bab859d0",
+    "name": "Blue bin group 03",
+    "camera_id": "frame_000153",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9004651308059692,
+    "mask_pixels": 9904,
+    "note": "Same front bin stack; rear taller stack excluded.",
+    "prompt": {
+      "box": [
+        168.5292305187573,
+        131.93112703006085,
+        351.58956199875894,
+        341.0316989480118
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T029/initial/record.json"
+  }
+]

@@ -1,0 +1,2300 @@
+{
+  "authoritative_root": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments",
+  "files": [
+    {
+      "path": "method_figure_assets/F02/category_features.npz",
+      "bytes": 33882
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q002/gaussian_indices.npy",
+      "bytes": 114816
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q002/frame_000129/response.npz",
+      "bytes": 187237
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q002/frame_000153/response.npz",
+      "bytes": 174823
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q025/gaussian_indices.npy",
+      "bytes": 1040232
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q025/frame_000217/response.npz",
+      "bytes": 159832
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q025/frame_000121/response.npz",
+      "bytes": 718755
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q010/gaussian_indices.npy",
+      "bytes": 483256
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q010/frame_000129/response.npz",
+      "bytes": 291296
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q010/frame_000209/response.npz",
+      "bytes": 21640
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q011/gaussian_indices.npy",
+      "bytes": 247112
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q011/frame_000177/response.npz",
+      "bytes": 286136
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q011/frame_000185/response.npz",
+      "bytes": 303392
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q005/gaussian_indices.npy",
+      "bytes": 1316992
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q005/frame_000217/response.npz",
+      "bytes": 340487
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q005/frame_000065/response.npz",
+      "bytes": 171376
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q001/gaussian_indices.npy",
+      "bytes": 92216
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q001/frame_000265/response.npz",
+      "bytes": 102880
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q001/frame_000329/response.npz",
+      "bytes": 117258
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q024/gaussian_indices.npy",
+      "bytes": 240440
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q024/frame_000313/response.npz",
+      "bytes": 233514
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q024/frame_000249/response.npz",
+      "bytes": 129197
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q009/gaussian_indices.npy",
+      "bytes": 686672
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q009/frame_000161/response.npz",
+      "bytes": 554555
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q009/frame_000065/response.npz",
+      "bytes": 764297
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q021/gaussian_indices.npy",
+      "bytes": 59576
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q021/frame_000089/response.npz",
+      "bytes": 61787
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q021/frame_000281/response.npz",
+      "bytes": 57972
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q004/gaussian_indices.npy",
+      "bytes": 159176
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q004/frame_000321/response.npz",
+      "bytes": 150330
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q004/frame_000025/response.npz",
+      "bytes": 63469
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q006/gaussian_indices.npy",
+      "bytes": 228224
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q006/frame_000273/response.npz",
+      "bytes": 135895
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q006/frame_000321/response.npz",
+      "bytes": 259972
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q023/gaussian_indices.npy",
+      "bytes": 395832
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q023/frame_000305/response.npz",
+      "bytes": 472518
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q023/frame_000073/response.npz",
+      "bytes": 265903
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q007/gaussian_indices.npy",
+      "bytes": 385392
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q007/frame_000185/response.npz",
+      "bytes": 184640
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q007/frame_000193/response.npz",
+      "bytes": 186217
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q003/gaussian_indices.npy",
+      "bytes": 377928
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q003/frame_000169/response.npz",
+      "bytes": 669428
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q003/frame_000113/response.npz",
+      "bytes": 132165
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q022/gaussian_indices.npy",
+      "bytes": 247112
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q022/frame_000177/response.npz",
+      "bytes": 286136
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q022/frame_000185/response.npz",
+      "bytes": 303392
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q008/gaussian_indices.npy",
+      "bytes": 122000
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q008/frame_000209/response.npz",
+      "bytes": 65521
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q008/frame_000225/response.npz",
+      "bytes": 109941
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q018/gaussian_indices.npy",
+      "bytes": 167824
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q018/frame_000169/response.npz",
+      "bytes": 318108
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q018/frame_000273/response.npz",
+      "bytes": 103113
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q015/gaussian_indices.npy",
+      "bytes": 159176
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q015/frame_000321/response.npz",
+      "bytes": 150330
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q015/frame_000025/response.npz",
+      "bytes": 63469
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q012/gaussian_indices.npy",
+      "bytes": 395832
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q012/frame_000305/response.npz",
+      "bytes": 472518
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q012/frame_000073/response.npz",
+      "bytes": 265903
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q014/gaussian_indices.npy",
+      "bytes": 59576
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q014/frame_000089/response.npz",
+      "bytes": 61787
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q014/frame_000281/response.npz",
+      "bytes": 57972
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q013/gaussian_indices.npy",
+      "bytes": 200360
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q013/frame_000297/response.npz",
+      "bytes": 278948
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q013/frame_000065/response.npz",
+      "bytes": 107410
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q020/gaussian_indices.npy",
+      "bytes": 524280
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q020/frame_000001/response.npz",
+      "bytes": 185291
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q020/frame_000009/response.npz",
+      "bytes": 181277
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q016/gaussian_indices.npy",
+      "bytes": 501424
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q016/frame_000193/response.npz",
+      "bytes": 711128
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q016/frame_000017/response.npz",
+      "bytes": 287318
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q019/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q019/frame_000201/response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q019/frame_000193/response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q017/gaussian_indices.npy",
+      "bytes": 433296
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q017/frame_000169/response.npz",
+      "bytes": 140020
+    },
+    {
+      "path": "E02_ablation/predictions/box_gated/Q017/frame_000305/response.npz",
+      "bytes": 278243
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q002/gaussian_indices.npy",
+      "bytes": 291880
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q002/frame_000129/response.npz",
+      "bytes": 139117
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q002/frame_000153/response.npz",
+      "bytes": 143353
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q025/gaussian_indices.npy",
+      "bytes": 1451272
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q025/frame_000217/response.npz",
+      "bytes": 337147
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q025/frame_000121/response.npz",
+      "bytes": 749726
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q010/gaussian_indices.npy",
+      "bytes": 291880
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q010/frame_000129/response.npz",
+      "bytes": 139117
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q010/frame_000209/response.npz",
+      "bytes": 17154
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q011/gaussian_indices.npy",
+      "bytes": 457720
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q011/frame_000177/response.npz",
+      "bytes": 206403
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q011/frame_000185/response.npz",
+      "bytes": 349749
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q005/gaussian_indices.npy",
+      "bytes": 1451272
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q005/frame_000217/response.npz",
+      "bytes": 337147
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q005/frame_000065/response.npz",
+      "bytes": 155968
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q001/gaussian_indices.npy",
+      "bytes": 220024
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q001/frame_000265/response.npz",
+      "bytes": 70413
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q001/frame_000329/response.npz",
+      "bytes": 105380
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q024/gaussian_indices.npy",
+      "bytes": 813432
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q024/frame_000313/response.npz",
+      "bytes": 353679
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q024/frame_000249/response.npz",
+      "bytes": 171269
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q009/gaussian_indices.npy",
+      "bytes": 736400
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q009/frame_000161/response.npz",
+      "bytes": 414219
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q009/frame_000065/response.npz",
+      "bytes": 388714
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q021/gaussian_indices.npy",
+      "bytes": 220024
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q021/frame_000089/response.npz",
+      "bytes": 57198
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q021/frame_000281/response.npz",
+      "bytes": 36870
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q004/gaussian_indices.npy",
+      "bytes": 220736
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q004/frame_000321/response.npz",
+      "bytes": 71493
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q004/frame_000025/response.npz",
+      "bytes": 31466
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q006/gaussian_indices.npy",
+      "bytes": 813432
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q006/frame_000273/response.npz",
+      "bytes": 227657
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q006/frame_000321/response.npz",
+      "bytes": 368464
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q023/gaussian_indices.npy",
+      "bytes": 717952
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q023/frame_000305/response.npz",
+      "bytes": 553073
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q023/frame_000073/response.npz",
+      "bytes": 238033
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q007/gaussian_indices.npy",
+      "bytes": 1451272
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q007/frame_000185/response.npz",
+      "bytes": 177990
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q007/frame_000193/response.npz",
+      "bytes": 545988
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q003/gaussian_indices.npy",
+      "bytes": 736400
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q003/frame_000169/response.npz",
+      "bytes": 533702
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q003/frame_000113/response.npz",
+      "bytes": 136581
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q022/gaussian_indices.npy",
+      "bytes": 457720
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q022/frame_000177/response.npz",
+      "bytes": 206403
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q022/frame_000185/response.npz",
+      "bytes": 349749
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q008/gaussian_indices.npy",
+      "bytes": 220736
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q008/frame_000209/response.npz",
+      "bytes": 55205
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q008/frame_000225/response.npz",
+      "bytes": 86418
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q018/gaussian_indices.npy",
+      "bytes": 736400
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q018/frame_000169/response.npz",
+      "bytes": 533702
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q018/frame_000273/response.npz",
+      "bytes": 133188
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q015/gaussian_indices.npy",
+      "bytes": 220736
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q015/frame_000321/response.npz",
+      "bytes": 71493
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q015/frame_000025/response.npz",
+      "bytes": 31466
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q012/gaussian_indices.npy",
+      "bytes": 717952
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q012/frame_000305/response.npz",
+      "bytes": 553073
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q012/frame_000073/response.npz",
+      "bytes": 238033
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q014/gaussian_indices.npy",
+      "bytes": 220024
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q014/frame_000089/response.npz",
+      "bytes": 57198
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q014/frame_000281/response.npz",
+      "bytes": 36870
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q013/gaussian_indices.npy",
+      "bytes": 813432
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q013/frame_000297/response.npz",
+      "bytes": 279109
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q013/frame_000065/response.npz",
+      "bytes": 189058
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q020/gaussian_indices.npy",
+      "bytes": 1451272
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q020/frame_000001/response.npz",
+      "bytes": 158416
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q020/frame_000009/response.npz",
+      "bytes": 153595
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q016/gaussian_indices.npy",
+      "bytes": 457720
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q016/frame_000193/response.npz",
+      "bytes": 459521
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q016/frame_000017/response.npz",
+      "bytes": 261443
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q019/gaussian_indices.npy",
+      "bytes": 291880
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q019/frame_000201/response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q019/frame_000193/response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q017/gaussian_indices.npy",
+      "bytes": 717952
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q017/frame_000169/response.npz",
+      "bytes": 181001
+    },
+    {
+      "path": "E02_ablation/predictions/no_relation/Q017/frame_000305/response.npz",
+      "bytes": 553073
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q002/gaussian_indices.npy",
+      "bytes": 114816
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q002/frame_000129/response.npz",
+      "bytes": 187237
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q002/frame_000153/response.npz",
+      "bytes": 174823
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q025/gaussian_indices.npy",
+      "bytes": 1332072
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q025/frame_000217/response.npz",
+      "bytes": 167030
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q025/frame_000121/response.npz",
+      "bytes": 837559
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q010/gaussian_indices.npy",
+      "bytes": 806800
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q010/frame_000129/response.npz",
+      "bytes": 310250
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q010/frame_000209/response.npz",
+      "bytes": 93520
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q011/gaussian_indices.npy",
+      "bytes": 247112
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q011/frame_000177/response.npz",
+      "bytes": 286136
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q011/frame_000185/response.npz",
+      "bytes": 303392
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q005/gaussian_indices.npy",
+      "bytes": 1608832
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q005/frame_000217/response.npz",
+      "bytes": 347061
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q005/frame_000065/response.npz",
+      "bytes": 319198
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q001/gaussian_indices.npy",
+      "bytes": 92216
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q001/frame_000265/response.npz",
+      "bytes": 102880
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q001/frame_000329/response.npz",
+      "bytes": 117258
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q024/gaussian_indices.npy",
+      "bytes": 240440
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q024/frame_000313/response.npz",
+      "bytes": 233514
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q024/frame_000249/response.npz",
+      "bytes": 129197
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q009/gaussian_indices.npy",
+      "bytes": 686672
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q009/frame_000161/response.npz",
+      "bytes": 554555
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q009/frame_000065/response.npz",
+      "bytes": 764297
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q021/gaussian_indices.npy",
+      "bytes": 59576
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q021/frame_000089/response.npz",
+      "bytes": 61787
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q021/frame_000281/response.npz",
+      "bytes": 57972
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q004/gaussian_indices.npy",
+      "bytes": 159176
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q004/frame_000321/response.npz",
+      "bytes": 150330
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q004/frame_000025/response.npz",
+      "bytes": 63469
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q006/gaussian_indices.npy",
+      "bytes": 228224
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q006/frame_000273/response.npz",
+      "bytes": 135895
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q006/frame_000321/response.npz",
+      "bytes": 259972
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q023/gaussian_indices.npy",
+      "bytes": 395832
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q023/frame_000305/response.npz",
+      "bytes": 472518
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q023/frame_000073/response.npz",
+      "bytes": 265903
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q007/gaussian_indices.npy",
+      "bytes": 385392
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q007/frame_000185/response.npz",
+      "bytes": 184640
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q007/frame_000193/response.npz",
+      "bytes": 186217
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q003/gaussian_indices.npy",
+      "bytes": 377928
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q003/frame_000169/response.npz",
+      "bytes": 669428
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q003/frame_000113/response.npz",
+      "bytes": 132165
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q022/gaussian_indices.npy",
+      "bytes": 247112
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q022/frame_000177/response.npz",
+      "bytes": 286136
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q022/frame_000185/response.npz",
+      "bytes": 303392
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q008/gaussian_indices.npy",
+      "bytes": 122000
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q008/frame_000209/response.npz",
+      "bytes": 65521
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q008/frame_000225/response.npz",
+      "bytes": 109941
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q018/gaussian_indices.npy",
+      "bytes": 167824
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q018/frame_000169/response.npz",
+      "bytes": 318108
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q018/frame_000273/response.npz",
+      "bytes": 103113
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q015/gaussian_indices.npy",
+      "bytes": 159176
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q015/frame_000321/response.npz",
+      "bytes": 150330
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q015/frame_000025/response.npz",
+      "bytes": 63469
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q012/gaussian_indices.npy",
+      "bytes": 395832
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q012/frame_000305/response.npz",
+      "bytes": 472518
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q012/frame_000073/response.npz",
+      "bytes": 265903
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q014/gaussian_indices.npy",
+      "bytes": 59576
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q014/frame_000089/response.npz",
+      "bytes": 61787
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q014/frame_000281/response.npz",
+      "bytes": 57972
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q013/gaussian_indices.npy",
+      "bytes": 200360
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q013/frame_000297/response.npz",
+      "bytes": 278948
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q013/frame_000065/response.npz",
+      "bytes": 107410
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q020/gaussian_indices.npy",
+      "bytes": 524280
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q020/frame_000001/response.npz",
+      "bytes": 185291
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q020/frame_000009/response.npz",
+      "bytes": 181277
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q016/gaussian_indices.npy",
+      "bytes": 501424
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q016/frame_000193/response.npz",
+      "bytes": 711128
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q016/frame_000017/response.npz",
+      "bytes": 287318
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q019/gaussian_indices.npy",
+      "bytes": 323672
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q019/frame_000201/response.npz",
+      "bytes": 98887
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q019/frame_000193/response.npz",
+      "bytes": 98656
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q017/gaussian_indices.npy",
+      "bytes": 433296
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q017/frame_000169/response.npz",
+      "bytes": 140020
+    },
+    {
+      "path": "E02_ablation/predictions/box_all33/Q017/frame_000305/response.npz",
+      "bytes": 278243
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q002/gaussian_indices.npy",
+      "bytes": 50400
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q002/frame_000153_response.npz",
+      "bytes": 43337
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q002/frame_000129_response.npz",
+      "bytes": 54831
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q025/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q025/frame_000121_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q025/frame_000217_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q010/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q010/frame_000209_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q010/frame_000129_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q011/frame_000177_response.npz",
+      "bytes": 120797
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q011/gaussian_indices.npy",
+      "bytes": 112880
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q011/frame_000185_response.npz",
+      "bytes": 109528
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q005/frame_000065_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q005/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q005/frame_000217_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q001/frame_000265_response.npz",
+      "bytes": 70390
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q001/gaussian_indices.npy",
+      "bytes": 18832
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q001/frame_000329_response.npz",
+      "bytes": 63343
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q024/frame_000313_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q024/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q024/frame_000249_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q009/frame_000161_response.npz",
+      "bytes": 127403
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q009/frame_000065_response.npz",
+      "bytes": 210948
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q009/gaussian_indices.npy",
+      "bytes": 290096
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q021/gaussian_indices.npy",
+      "bytes": 34824
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q021/frame_000281_response.npz",
+      "bytes": 20334
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q021/frame_000089_response.npz",
+      "bytes": 18619
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q004/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q004/frame_000025_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q004/frame_000321_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q006/gaussian_indices.npy",
+      "bytes": 77032
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q006/frame_000273_response.npz",
+      "bytes": 71235
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q006/frame_000321_response.npz",
+      "bytes": 80829
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q023/frame_000305_response.npz",
+      "bytes": 167071
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q023/gaussian_indices.npy",
+      "bytes": 100520
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q023/frame_000073_response.npz",
+      "bytes": 82345
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q007/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q007/frame_000193_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q007/frame_000185_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q003/gaussian_indices.npy",
+      "bytes": 127784
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q003/frame_000113_response.npz",
+      "bytes": 49370
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q003/frame_000169_response.npz",
+      "bytes": 197576
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q022/frame_000177_response.npz",
+      "bytes": 120797
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q022/gaussian_indices.npy",
+      "bytes": 112880
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q022/frame_000185_response.npz",
+      "bytes": 109528
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q008/gaussian_indices.npy",
+      "bytes": 29736
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q008/frame_000209_response.npz",
+      "bytes": 22374
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q008/frame_000225_response.npz",
+      "bytes": 34825
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q018/gaussian_indices.npy",
+      "bytes": 47872
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q018/frame_000273_response.npz",
+      "bytes": 30878
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q018/frame_000169_response.npz",
+      "bytes": 95681
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q015/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q015/frame_000025_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q015/frame_000321_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q012/frame_000305_response.npz",
+      "bytes": 167071
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q012/gaussian_indices.npy",
+      "bytes": 100520
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q012/frame_000073_response.npz",
+      "bytes": 82345
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q014/gaussian_indices.npy",
+      "bytes": 34824
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q014/frame_000281_response.npz",
+      "bytes": 20334
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q014/frame_000089_response.npz",
+      "bytes": 18619
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q013/frame_000065_response.npz",
+      "bytes": 30373
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q013/gaussian_indices.npy",
+      "bytes": 78720
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q013/frame_000297_response.npz",
+      "bytes": 75826
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q020/frame_000001_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q020/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q020/frame_000009_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q016/gaussian_indices.npy",
+      "bytes": 183584
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q016/frame_000017_response.npz",
+      "bytes": 96081
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q016/frame_000193_response.npz",
+      "bytes": 248730
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q019/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q019/frame_000201_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q019/frame_000193_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q017/frame_000305_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q017/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_common/Q017/frame_000169_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q002/gaussian_indices.npy",
+      "bytes": 50400
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q002/frame_000153_response.npz",
+      "bytes": 43337
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q002/frame_000129_response.npz",
+      "bytes": 54831
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q025/gaussian_indices.npy",
+      "bytes": 21080
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q025/frame_000121_response.npz",
+      "bytes": 30283
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q025/frame_000217_response.npz",
+      "bytes": 2340
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q010/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q010/frame_000209_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q010/frame_000129_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q011/frame_000177_response.npz",
+      "bytes": 120797
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q011/gaussian_indices.npy",
+      "bytes": 112880
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q011/frame_000185_response.npz",
+      "bytes": 109528
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q005/frame_000065_response.npz",
+      "bytes": 13245
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q005/gaussian_indices.npy",
+      "bytes": 21080
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q005/frame_000217_response.npz",
+      "bytes": 2340
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q001/frame_000265_response.npz",
+      "bytes": 70390
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q001/gaussian_indices.npy",
+      "bytes": 18832
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q001/frame_000329_response.npz",
+      "bytes": 63343
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q024/frame_000313_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q024/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q024/frame_000249_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q009/frame_000161_response.npz",
+      "bytes": 127403
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q009/frame_000065_response.npz",
+      "bytes": 210948
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q009/gaussian_indices.npy",
+      "bytes": 290096
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q021/gaussian_indices.npy",
+      "bytes": 34824
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q021/frame_000281_response.npz",
+      "bytes": 20334
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q021/frame_000089_response.npz",
+      "bytes": 18619
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q004/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q004/frame_000025_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q004/frame_000321_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q006/gaussian_indices.npy",
+      "bytes": 77032
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q006/frame_000273_response.npz",
+      "bytes": 71235
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q006/frame_000321_response.npz",
+      "bytes": 80829
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q023/frame_000305_response.npz",
+      "bytes": 167071
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q023/gaussian_indices.npy",
+      "bytes": 100520
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q023/frame_000073_response.npz",
+      "bytes": 82345
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q007/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q007/frame_000193_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q007/frame_000185_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q003/gaussian_indices.npy",
+      "bytes": 127784
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q003/frame_000113_response.npz",
+      "bytes": 49370
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q003/frame_000169_response.npz",
+      "bytes": 197576
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q022/frame_000177_response.npz",
+      "bytes": 120797
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q022/gaussian_indices.npy",
+      "bytes": 112880
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q022/frame_000185_response.npz",
+      "bytes": 109528
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q008/gaussian_indices.npy",
+      "bytes": 29736
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q008/frame_000209_response.npz",
+      "bytes": 22374
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q008/frame_000225_response.npz",
+      "bytes": 34825
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q018/gaussian_indices.npy",
+      "bytes": 47872
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q018/frame_000273_response.npz",
+      "bytes": 30878
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q018/frame_000169_response.npz",
+      "bytes": 95681
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q015/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q015/frame_000025_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q015/frame_000321_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q012/frame_000305_response.npz",
+      "bytes": 167071
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q012/gaussian_indices.npy",
+      "bytes": 100520
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q012/frame_000073_response.npz",
+      "bytes": 82345
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q014/gaussian_indices.npy",
+      "bytes": 34824
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q014/frame_000281_response.npz",
+      "bytes": 20334
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q014/frame_000089_response.npz",
+      "bytes": 18619
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q013/frame_000065_response.npz",
+      "bytes": 30373
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q013/gaussian_indices.npy",
+      "bytes": 78720
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q013/frame_000297_response.npz",
+      "bytes": 75826
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q020/frame_000001_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q020/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q020/frame_000009_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q016/gaussian_indices.npy",
+      "bytes": 183584
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q016/frame_000017_response.npz",
+      "bytes": 96081
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q016/frame_000193_response.npz",
+      "bytes": 248730
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q019/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q019/frame_000201_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q019/frame_000193_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q017/frame_000305_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q017/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/sam_original/Q017/frame_000169_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q002/gaussian_indices.npy",
+      "bytes": 74352
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q002/frame_000129/response.npz",
+      "bytes": 78039
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q002/frame_000153/response.npz",
+      "bytes": 62128
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q025/gaussian_indices.npy",
+      "bytes": 775152
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q025/frame_000217/response.npz",
+      "bytes": 110091
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q025/frame_000121/response.npz",
+      "bytes": 678406
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q010/gaussian_indices.npy",
+      "bytes": 217656
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q010/frame_000129/response.npz",
+      "bytes": 78415
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q010/frame_000209/response.npz",
+      "bytes": 12098
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q011/gaussian_indices.npy",
+      "bytes": 132416
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q011/frame_000177/response.npz",
+      "bytes": 184587
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q011/frame_000185/response.npz",
+      "bytes": 160100
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q005/gaussian_indices.npy",
+      "bytes": 1000568
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q005/frame_000217/response.npz",
+      "bytes": 295551
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q005/frame_000065/response.npz",
+      "bytes": 124783
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q001/gaussian_indices.npy",
+      "bytes": 87744
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q001/frame_000265/response.npz",
+      "bytes": 64782
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q001/frame_000329/response.npz",
+      "bytes": 76506
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q024/gaussian_indices.npy",
+      "bytes": 183808
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q024/frame_000313/response.npz",
+      "bytes": 134556
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q024/frame_000249/response.npz",
+      "bytes": 80953
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q009/gaussian_indices.npy",
+      "bytes": 516384
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q009/frame_000161/response.npz",
+      "bytes": 220895
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q009/frame_000065/response.npz",
+      "bytes": 346278
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q021/gaussian_indices.npy",
+      "bytes": 56872
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q021/frame_000089/response.npz",
+      "bytes": 47101
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q021/frame_000281/response.npz",
+      "bytes": 36870
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q004/gaussian_indices.npy",
+      "bytes": 115024
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q004/frame_000321/response.npz",
+      "bytes": 59786
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q004/frame_000025/response.npz",
+      "bytes": 31466
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q006/gaussian_indices.npy",
+      "bytes": 217536
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q006/frame_000273/response.npz",
+      "bytes": 89057
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q006/frame_000321/response.npz",
+      "bytes": 168279
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q023/gaussian_indices.npy",
+      "bytes": 339256
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q023/frame_000305/response.npz",
+      "bytes": 442762
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q023/frame_000073/response.npz",
+      "bytes": 201423
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q007/gaussian_indices.npy",
+      "bytes": 206128
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q007/frame_000185/response.npz",
+      "bytes": 61049
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q007/frame_000193/response.npz",
+      "bytes": 65726
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q003/gaussian_indices.npy",
+      "bytes": 220144
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q003/frame_000169/response.npz",
+      "bytes": 370561
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q003/frame_000113/response.npz",
+      "bytes": 76061
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q022/gaussian_indices.npy",
+      "bytes": 132416
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q022/frame_000177/response.npz",
+      "bytes": 184587
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q022/frame_000185/response.npz",
+      "bytes": 160100
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q008/gaussian_indices.npy",
+      "bytes": 105840
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q008/frame_000209/response.npz",
+      "bytes": 44211
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q008/frame_000225/response.npz",
+      "bytes": 77229
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q018/gaussian_indices.npy",
+      "bytes": 95776
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q018/frame_000169/response.npz",
+      "bytes": 201997
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q018/frame_000273/response.npz",
+      "bytes": 57489
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q015/gaussian_indices.npy",
+      "bytes": 115024
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q015/frame_000321/response.npz",
+      "bytes": 59786
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q015/frame_000025/response.npz",
+      "bytes": 31466
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q012/gaussian_indices.npy",
+      "bytes": 339256
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q012/frame_000305/response.npz",
+      "bytes": 442762
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q012/frame_000073/response.npz",
+      "bytes": 201423
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q014/gaussian_indices.npy",
+      "bytes": 56872
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q014/frame_000089/response.npz",
+      "bytes": 47101
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q014/frame_000281/response.npz",
+      "bytes": 36870
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q013/gaussian_indices.npy",
+      "bytes": 187600
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q013/frame_000297/response.npz",
+      "bytes": 202477
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q013/frame_000065/response.npz",
+      "bytes": 78131
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q020/gaussian_indices.npy",
+      "bytes": 429968
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q020/frame_000001/response.npz",
+      "bytes": 158416
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q020/frame_000009/response.npz",
+      "bytes": 153595
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q016/gaussian_indices.npy",
+      "bytes": 325432
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q016/frame_000193/response.npz",
+      "bytes": 422242
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q016/frame_000017/response.npz",
+      "bytes": 187329
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q019/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q019/frame_000201/response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q019/frame_000193/response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q017/gaussian_indices.npy",
+      "bytes": 378824
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q017/frame_000169/response.npz",
+      "bytes": 104882
+    },
+    {
+      "path": "E02_ablation/predictions/ours/Q017/frame_000305/response.npz",
+      "bytes": 168456
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q002/gaussian_indices.npy",
+      "bytes": 74352
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q002/frame_000153_response.npz",
+      "bytes": 62128
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q002/frame_000129_response.npz",
+      "bytes": 78039
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q025/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q025/frame_000121_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q025/frame_000217_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q010/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q010/frame_000209_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q010/frame_000129_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q011/frame_000177_response.npz",
+      "bytes": 184587
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q011/gaussian_indices.npy",
+      "bytes": 132416
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q011/frame_000185_response.npz",
+      "bytes": 160100
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q005/frame_000065_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q005/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q005/frame_000217_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q001/frame_000265_response.npz",
+      "bytes": 64782
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q001/gaussian_indices.npy",
+      "bytes": 87744
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q001/frame_000329_response.npz",
+      "bytes": 76506
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q024/frame_000313_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q024/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q024/frame_000249_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q009/frame_000161_response.npz",
+      "bytes": 220895
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q009/frame_000065_response.npz",
+      "bytes": 346278
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q009/gaussian_indices.npy",
+      "bytes": 516384
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q021/gaussian_indices.npy",
+      "bytes": 56872
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q021/frame_000281_response.npz",
+      "bytes": 36870
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q021/frame_000089_response.npz",
+      "bytes": 47101
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q004/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q004/frame_000025_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q004/frame_000321_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q006/gaussian_indices.npy",
+      "bytes": 217536
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q006/frame_000273_response.npz",
+      "bytes": 89057
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q006/frame_000321_response.npz",
+      "bytes": 168279
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q023/frame_000305_response.npz",
+      "bytes": 442762
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q023/gaussian_indices.npy",
+      "bytes": 339256
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q023/frame_000073_response.npz",
+      "bytes": 201423
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q007/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q007/frame_000193_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q007/frame_000185_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q003/gaussian_indices.npy",
+      "bytes": 220144
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q003/frame_000113_response.npz",
+      "bytes": 76061
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q003/frame_000169_response.npz",
+      "bytes": 370561
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q022/frame_000177_response.npz",
+      "bytes": 184587
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q022/gaussian_indices.npy",
+      "bytes": 132416
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q022/frame_000185_response.npz",
+      "bytes": 160100
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q008/gaussian_indices.npy",
+      "bytes": 105840
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q008/frame_000209_response.npz",
+      "bytes": 44211
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q008/frame_000225_response.npz",
+      "bytes": 77229
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q018/gaussian_indices.npy",
+      "bytes": 95776
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q018/frame_000273_response.npz",
+      "bytes": 57489
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q018/frame_000169_response.npz",
+      "bytes": 201997
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q015/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q015/frame_000025_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q015/frame_000321_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q012/frame_000305_response.npz",
+      "bytes": 442762
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q012/gaussian_indices.npy",
+      "bytes": 339256
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q012/frame_000073_response.npz",
+      "bytes": 201423
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q014/gaussian_indices.npy",
+      "bytes": 56872
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q014/frame_000281_response.npz",
+      "bytes": 36870
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q014/frame_000089_response.npz",
+      "bytes": 47101
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q013/frame_000065_response.npz",
+      "bytes": 78131
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q013/gaussian_indices.npy",
+      "bytes": 187600
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q013/frame_000297_response.npz",
+      "bytes": 202477
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q020/frame_000001_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q020/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q020/frame_000009_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q016/gaussian_indices.npy",
+      "bytes": 325432
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q016/frame_000017_response.npz",
+      "bytes": 187329
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q016/frame_000193_response.npz",
+      "bytes": 422242
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q019/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q019/frame_000201_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q019/frame_000193_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q017/frame_000305_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q017/gaussian_indices.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E02_ablation/predictions/ours_common/Q017/frame_000169_response.npz",
+      "bytes": 2164
+    },
+    {
+      "path": "E04_relation_retrieval/scene/native_scene_display_points.npz",
+      "bytes": 3516259
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_8429bc5f3c33/prompt_features.npy",
+      "bytes": 2816
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_8429bc5f3c33/selected_before_conflicts.npy",
+      "bytes": 163944
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_8429bc5f3c33/gaussian_indices.npy",
+      "bytes": 163944
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_8429bc5f3c33/actual_intermediates.npz",
+      "bytes": 1072072
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_8429bc5f3c33/lost_conflict_ids.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_c7c9293c6c6d/prompt_features.npy",
+      "bytes": 4480
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_c7c9293c6c6d/selected_before_conflicts.npy",
+      "bytes": 339256
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_c7c9293c6c6d/gaussian_indices.npy",
+      "bytes": 339256
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_c7c9293c6c6d/actual_intermediates.npz",
+      "bytes": 1822963
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_c7c9293c6c6d/lost_conflict_ids.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_141f3e5dbe3a/prompt_features.npy",
+      "bytes": 2560
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_141f3e5dbe3a/selected_before_conflicts.npy",
+      "bytes": 172136
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_141f3e5dbe3a/gaussian_indices.npy",
+      "bytes": 172136
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_141f3e5dbe3a/actual_intermediates.npz",
+      "bytes": 1489925
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_141f3e5dbe3a/lost_conflict_ids.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_f9a0e863e32d/prompt_features.npy",
+      "bytes": 1280
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_f9a0e863e32d/selected_before_conflicts.npy",
+      "bytes": 217536
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_f9a0e863e32d/gaussian_indices.npy",
+      "bytes": 217536
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_f9a0e863e32d/actual_intermediates.npz",
+      "bytes": 1054540
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_f9a0e863e32d/lost_conflict_ids.npy",
+      "bytes": 128
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_aad6e7f85a9a/prompt_features.npy",
+      "bytes": 1920
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_aad6e7f85a9a/selected_before_conflicts.npy",
+      "bytes": 622560
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_aad6e7f85a9a/gaussian_indices.npy",
+      "bytes": 570728
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_aad6e7f85a9a/actual_intermediates.npz",
+      "bytes": 3697297
+    },
+    {
+      "path": "E03_entity_construction/objects/obj_aad6e7f85a9a/lost_conflict_ids.npy",
+      "bytes": 51960
+    },
+    {
+      "path": "E05_multiview_application/multiview/Q006/fixed_gaussian_ids.npy",
+      "bytes": 217536
+    },
+    {
+      "path": "E05_multiview_application/multiview/Q006/top/contribution.npz",
+      "bytes": 1139739
+    },
+    {
+      "path": "E05_multiview_application/multiview/Q006/side/contribution.npz",
+      "bytes": 1205637
+    },
+    {
+      "path": "E05_multiview_application/multiview/Q006/oblique/contribution.npz",
+      "bytes": 1182897
+    },
+    {
+      "path": "E05_multiview_application/multiview/Q003/fixed_gaussian_ids.npy",
+      "bytes": 220144
+    },
+    {
+      "path": "E05_multiview_application/multiview/Q003/top/contribution.npz",
+      "bytes": 275890
+    },
+    {
+      "path": "E05_multiview_application/multiview/Q003/side/contribution.npz",
+      "bytes": 202032
+    },
+    {
+      "path": "E05_multiview_application/multiview/Q003/oblique/contribution.npz",
+      "bytes": 212045
+    },
+    {
+      "path": "E05_multiview_application/nearest/N04/gaussian_ids.npy",
+      "bytes": 51400
+    },
+    {
+      "path": "E05_multiview_application/nearest/N02/gaussian_ids.npy",
+      "bytes": 75664
+    },
+    {
+      "path": "E05_multiview_application/nearest/N03/gaussian_ids.npy",
+      "bytes": 73176
+    },
+    {
+      "path": "E05_multiview_application/nearest/N01/gaussian_ids.npy",
+      "bytes": 51400
+    },
+    {
+      "path": "E05_multiview_application/nearest/N05/gaussian_ids.npy",
+      "bytes": 128
+    }
+  ],
+  "external_models": {
+    "created_utc": "2026-11-27T07:51:26.620121+00:00",
+    "sha256": {
+      "experiments/saga_relags_v2/world_model/query.py": "9261c9ccef8a95b78f0589fbdaf5ce8df5c81f1da9ad4c5446bf131e0d9c5ba9",
+      "experiments/saga_relags_v2/world_model/scene_graph.json": "6f1a2943ddaf61a8f69127351954001c30b21be84b34e0a7a4bd808fca94b342",
+      "experiments/saga_relags_v2/world_model/category_features.npz": "dce89c6b25a5e760b40e0597fff28fdfb620bc0913d103e5e35f971d8f2cfded",
+      "experiments/saga_relags_v2/inputs/m0_state.json": "515be7d7c790b106f294db11812191f7cf476b6014f1d7b98dc9f0a38fa351c5",
+      "experiments/saga_relags_v2/outputs/A/frozen_manifest.json": "250444f4e72ec76fc157e42ce85799461780b97fb7edeb041ea96e6d46c5f708",
+      "experiments/relational_retrieval_benchmark/configs/FROZEN.json": "90291b46bf865bf50c33c79aad96409cb603f916abaa3500fcb7f96517a8302e",
+      "experiments/relational_retrieval_benchmark/evaluation/pseudo_ground_truth/REFERENCE_FROZEN.json": "83e182f9781fa6eeeaddd6fc45b61e5f31c8dcd9fb8d58802117aa6d9c2387e6",
+      "data/gaussian_scene/original_3dgs/point_cloud/iteration_30000/point_cloud.ply": "1d5cc6a5b58e7d99fbefd54ba6de7ab351ee23b884b2fcacba11720906b5bf7a",
+      "experiments/saga_relags_v1/outputs/A/saga_model/point_cloud/iteration_10000/contrastive_feature_point_cloud.ply": "eba841a6480181b724e985e437e70461152c8079998d8003652d5c4562934b12",
+      "experiments/saga_relags_v1/outputs/A/saga_model/point_cloud/iteration_10000/scale_gate.pt": "1adf27f1e4dcf3915fcd9871a88f5d8c8da2d8a750906083aefe7813689f2b56",
+      "experiments/saga_relags_v1/outputs/A/saga_model/point_cloud/iteration_10000/training_state.pt": "add900c053bf46af72fdf0b7cde2fe5cb98e3c59aa484ddefe1535b80bcbbd93",
+      "experiments/saga_relags_v1/outputs/A/saga_model/all_mask_scales.npy": "270705b7f9304b32bf540ed6ac8ba5dfdc09e49b80da25bdaca2a993edd7a64c",
+      "experiments/saga_relags_v1/inputs/m0_state.json": "515be7d7c790b106f294db11812191f7cf476b6014f1d7b98dc9f0a38fa351c5",
+      "experiments/saga_relags_v1/inputs/geometry/original_gaussian_ids.npy": "9e2f93a5dee4e5f9667bce88fff53142b00af508d5396d1b76d71cf5bb1c08c5",
+      "experiments/relational_retrieval_benchmark/configs/relation_mapping.json": "54e31c966b72d07d4101d9cbda3d3cef41f4126b8710d4386f7a06c3761ee6fa",
+      "experiments/relational_retrieval_benchmark/configs/benchmark_queries.json": "5eadee8b93894498b838a5fc61a66429fabc9e5d1487468e1b79a6e8339507e1",
+      "experiments/relational_retrieval_benchmark/configs/evaluation_views.json": "209a764a89632317d877533befc66cd57c2962199165981160a58c36da59e89e",
+      "experiments/relational_retrieval_benchmark/configs/virtual_display_views.json": "560555d26e6af1b2cacdada465bbaf8ebf1ba5625816b34006ad7c214592d110",
+      "experiments/relational_retrieval_benchmark/configs/methods.json": "ac4d9b6c626589b6d9c479fe2e432bd60c0c42ccb77f4f5b4c271514947fdcaf",
+      "experiments/relational_retrieval_benchmark/configs/category_mapping.json": "0247823694db7c0be7fd192a07a3e14942292f20cbc02673ec0af5b79a047e2a",
+      "experiments/saga_relags_v2/src/common.py": "e890330e349a1a51e8789fb7d406dda173d787b00329a177d115c2b6ad99df4f",
+      "experiments/saga_relags_v2/src/inspect_instances.py": "fcda3c06b13988d2327117041e5429ae07bca12bca13f6e15e291be7acd819f9",
+      "experiments/saga_relags_v2/src/build_world_model.py": "40815eb2151c0a8f84ec2479f0d3fac93627c1c24cdfc24a2f3b8caa9a1c98cc",
+      "experiments/saga_relags_v2/src/compare_extraction.py": "bd9ab7ac023cf3fa84d1db27ecd608d131610befa16676d6ffd852eb799809c1",
+      "experiments/saga_relags_v2/src/prepare_references.py": "0715ff1018e2990fbc2078c181699a3ddb4eb4acdae8c4c12f283bdb9a52ce6c",
+      "experiments/saga_relags_v2/src/query_engine.py": "9261c9ccef8a95b78f0589fbdaf5ce8df5c81f1da9ad4c5446bf131e0d9c5ba9",
+      "experiments/saga_relags_v2/src/final_visualizations.py": "89d3b14785d2169defc19f5766ae973237a54ded9904a80b0d56785d914e6f7e",
+      "experiments/saga_relags_v2/src/extract_instances.py": "6f03bad53b291b890af5103677579b916961af8513b71b08e8c8ccad8c8836cb",
+      "experiments/saga_relags_v2/src/test_queries.py": "54dae7bc4fc6225fadead9cae68dab4a440abb137c3c264096227d15f3e48aa6",
+      "experiments/paper_final_experiments/configs/experiment.json": "2aeba02d9caef37b89885129ec9841d530ef5906946660cb73279620f943b6b9"
+    }
+  }
+}

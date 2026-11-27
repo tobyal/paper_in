@@ -1,0 +1,351 @@
+﻿method,query_id,camera_id,relation,evaluated,status,reason,empty_prediction,prediction_pixels,reference_pixels,execution_status,tp,fp,fn,iou,precision,recall
+box_gated,Q001,frame_000329,left_of,True,evaluated,,False,13911,12319,completed,12234,1677,85,0.8741068876821949,0.8794479189130904,0.9931000892929621
+box_gated,Q001,frame_000265,left_of,True,evaluated,,False,12822,10879,completed,10776,2046,103,0.8337330754352031,0.8404305100608329,0.9905322180347459
+box_gated,Q002,frame_000129,left_of,True,evaluated,,False,13008,9504,completed,7985,5023,1519,0.5496661389137468,0.6138530135301353,0.8401725589225589
+box_gated,Q002,frame_000153,left_of,True,evaluated,,False,12081,9904,completed,9148,2933,756,0.7126275609566098,0.7572220842645476,0.9236672051696284
+box_gated,Q003,frame_000169,left_of,True,evaluated,,False,88232,70114,completed,61690,26542,8424,0.6382428405893064,0.6991794360322785,0.8798528111361497
+box_gated,Q003,frame_000113,left_of,True,evaluated,,False,17421,15989,completed,12546,4875,3443,0.6013228527607362,0.7201653177199931,0.7846644568140597
+box_gated,Q004,frame_000321,left_of,True,evaluated,,False,12166,8655,completed,7621,4545,1034,0.5773484848484849,0.6264178859115568,0.8805314846909301
+box_gated,Q004,frame_000025,left_of,True,evaluated,,False,5537,3831,completed,2883,2654,948,0.4445643793369314,0.5206790680874119,0.7525450274079875
+box_gated,Q005,frame_000217,left_of,False,excluded_unreliable,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,False,53500,53663,completed,,,,,,
+box_gated,Q005,frame_000065,left_of,False,excluded_unreliable,M0 box spans rear large panel/rack plus separate front workstation; visible ownership cannot be reliably resolved in this view after additional prompts.,False,16055,24333,completed,,,,,,
+box_gated,Q006,frame_000321,right_of,True,evaluated,,False,36084,30190,completed,29955,6129,235,0.8247749112035023,0.8301463252411041,0.9922159655515072
+box_gated,Q006,frame_000273,right_of,True,evaluated,,False,20427,17128,completed,17006,3421,122,0.827582850746995,0.8325255788906839,0.9928771602055114
+box_gated,Q007,frame_000185,right_of,True,evaluated,,False,22071,9846,completed,8883,13188,963,0.38564730398541286,0.40247383444338725,0.9021937842778793
+box_gated,Q007,frame_000193,right_of,True,evaluated,,False,21946,9734,completed,8942,13004,792,0.3932623801565661,0.4074546614417206,0.9186357098828848
+box_gated,Q008,frame_000225,right_of,True,evaluated,,False,14007,9761,completed,8700,5307,1061,0.5773825325192461,0.6211180124223602,0.8913021206843561
+box_gated,Q008,frame_000209,right_of,True,evaluated,,False,8050,5282,completed,4899,3151,383,0.5809320526503023,0.6085714285714285,0.9274895872775464
+box_gated,Q009,frame_000161,right_of,False,excluded_unreliable,Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable.,False,40022,28731,completed,,,,,,
+box_gated,Q009,frame_000065,right_of,True,evaluated,,False,62361,46843,completed,45072,17289,1771,0.7028004740223289,0.7227594169432818,0.962192856990372
+box_gated,Q010,frame_000129,right_of,False,excluded_unreliable,Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.; Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points.,False,20952,19237,completed,,,,,,
+box_gated,Q010,frame_000209,right_of,True,evaluated,,False,2494,12398,completed,2388,106,10010,0.190978886756238,0.9574979951884522,0.19261171156638168
+box_gated,Q011,frame_000177,in_front_of,True,evaluated,,False,30100,24814,completed,22939,7161,1875,0.7174042220484754,0.762093023255814,0.924437817361167
+box_gated,Q011,frame_000185,in_front_of,True,evaluated,,False,28614,24951,completed,21979,6635,2972,0.6958462610017097,0.768120500454323,0.8808865376137229
+box_gated,Q012,frame_000073,in_front_of,True,evaluated,,False,39666,31388,completed,30765,8901,623,0.7636079326863412,0.77560127060959,0.9801516503122212
+box_gated,Q012,frame_000305,in_front_of,True,evaluated,,False,77323,58684,completed,56994,20329,1690,0.7213243390328173,0.7370898697670809,0.9712016904096517
+box_gated,Q013,frame_000297,in_front_of,True,evaluated,,False,33324,29749,completed,28970,4354,779,0.849485382517667,0.8693434161565238,0.9738142458570036
+box_gated,Q013,frame_000065,in_front_of,True,evaluated,,False,11991,10993,completed,10623,1368,370,0.8593964889572041,0.8859144358268701,0.9663422177749477
+box_gated,Q014,frame_000089,in_front_of,True,evaluated,,False,7330,6934,completed,6876,454,58,0.9306984298863021,0.9380627557980901,0.9916354196711855
+box_gated,Q014,frame_000281,in_front_of,True,evaluated,,False,5874,5382,completed,5157,717,225,0.8455484505656665,0.8779366700715016,0.9581939799331104
+box_gated,Q015,frame_000321,in_front_of,True,evaluated,,False,12166,8655,completed,7621,4545,1034,0.5773484848484849,0.6264178859115568,0.8805314846909301
+box_gated,Q015,frame_000025,in_front_of,True,evaluated,,False,5537,3831,completed,2883,2654,948,0.4445643793369314,0.5206790680874119,0.7525450274079875
+box_gated,Q016,frame_000193,behind,True,evaluated,,False,55102,39602,completed,31365,23737,8237,0.49519253540472696,0.5692170883089543,0.7920054542699864
+box_gated,Q016,frame_000017,behind,True,evaluated,,False,30310,22671,completed,15984,14326,6687,0.43203502986728654,0.5273507093368526,0.7050416832076221
+box_gated,Q017,frame_000305,behind,True,evaluated,,False,27641,21498,completed,19803,7838,1695,0.6750409053722389,0.7164357295322167,0.9211554563215183
+box_gated,Q017,frame_000169,behind,True,evaluated,,False,20279,19299,completed,17793,2486,1506,0.816754647693367,0.8774101287045712,0.9219648686460439
+box_gated,Q018,frame_000273,behind,True,evaluated,,False,13323,9337,completed,9219,4104,118,0.6858864667807455,0.6919612699842378,0.9873621077433865
+box_gated,Q018,frame_000169,behind,True,evaluated,,False,50916,38758,completed,35707,15209,3051,0.6616450794003743,0.7012923246130882,0.9212807678414779
+box_gated,Q019,frame_000193,behind,True,evaluated,,True,0,10169,completed,0,0,10169,0.0,0.0,0.0
+box_gated,Q019,frame_000201,behind,True,evaluated,,True,0,10490,completed,0,0,10490,0.0,0.0,0.0
+box_gated,Q020,frame_000001,behind,True,evaluated,,False,23999,25227,completed,17542,6457,7685,0.553654841560409,0.7309471227967832,0.6953660760296507
+box_gated,Q020,frame_000009,behind,True,evaluated,,False,23070,26551,completed,17765,5305,8786,0.5576657458563536,0.770047680970958,0.6690896764716959
+box_gated,Q021,frame_000089,near,True,evaluated,,False,7330,6934,completed,6876,454,58,0.9306984298863021,0.9380627557980901,0.9916354196711855
+box_gated,Q021,frame_000281,near,True,evaluated,,False,5874,5382,completed,5157,717,225,0.8455484505656665,0.8779366700715016,0.9581939799331104
+box_gated,Q022,frame_000177,near,True,evaluated,,False,30100,24814,completed,22939,7161,1875,0.7174042220484754,0.762093023255814,0.924437817361167
+box_gated,Q022,frame_000185,near,True,evaluated,,False,28614,24951,completed,21979,6635,2972,0.6958462610017097,0.768120500454323,0.8808865376137229
+box_gated,Q023,frame_000073,near,True,evaluated,,False,39666,31388,completed,30765,8901,623,0.7636079326863412,0.77560127060959,0.9801516503122212
+box_gated,Q023,frame_000305,near,True,evaluated,,False,77323,58684,completed,56994,20329,1690,0.7213243390328173,0.7370898697670809,0.9712016904096517
+box_gated,Q024,frame_000313,near,True,evaluated,,False,22715,17817,completed,16793,5922,1024,0.7074013227178904,0.7392912172573189,0.9425268002469551
+box_gated,Q024,frame_000249,near,True,evaluated,,False,15461,10711,completed,10616,4845,95,0.6824376446387246,0.686630877692258,0.9911306133881057
+box_gated,Q025,frame_000217,near,False,excluded_unreliable,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,False,10879,18330,completed,,,,,,
+box_gated,Q025,frame_000121,near,False,excluded_unreliable,Overlapping open racks: SAM alternatives either fill substantial visible gaps or omit many visible rods. Cannot reliably define complete device-specific visible mask.,False,94297,56273,completed,,,,,,
+no_relation,Q001,frame_000329,left_of,True,evaluated,,False,16190,12319,completed,11956,4234,363,0.7222859904549024,0.7384805435453984,0.970533322509944
+no_relation,Q001,frame_000265,left_of,True,evaluated,,False,11441,10879,completed,10716,725,163,0.9234746639089969,0.9366314133379949,0.9850170052394521
+no_relation,Q002,frame_000129,left_of,True,evaluated,,False,16202,9504,completed,5566,10636,3938,0.2763654419066534,0.34353783483520556,0.5856481481481481
+no_relation,Q002,frame_000153,left_of,True,evaluated,,False,18822,9904,completed,6423,12399,3481,0.28798816302739544,0.34124960153012435,0.6485258481421647
+no_relation,Q003,frame_000169,left_of,True,evaluated,,False,71630,70114,completed,46560,25070,23554,0.4891578416540595,0.6500069803155103,0.6640613857432182
+no_relation,Q003,frame_000113,left_of,True,evaluated,,False,17703,15989,completed,9170,8533,6819,0.37394992251855474,0.5179913009094503,0.5735192945149791
+no_relation,Q004,frame_000321,left_of,True,evaluated,,False,8968,8655,completed,5958,3010,2697,0.5107586798114017,0.6643621766280107,0.6883882149046794
+no_relation,Q004,frame_000025,left_of,True,evaluated,,False,3551,3831,completed,2670,881,1161,0.5666383701188455,0.7519008729935229,0.696945967110415
+no_relation,Q005,frame_000217,left_of,False,excluded_unreliable,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,False,47017,53663,completed,,,,,,
+no_relation,Q005,frame_000065,left_of,False,excluded_unreliable,M0 box spans rear large panel/rack plus separate front workstation; visible ownership cannot be reliably resolved in this view after additional prompts.,False,14691,24333,completed,,,,,,
+no_relation,Q006,frame_000321,right_of,True,evaluated,,False,68436,30190,completed,29471,38965,719,0.42615862916636543,0.430635922613829,0.9761841669426963
+no_relation,Q006,frame_000273,right_of,True,evaluated,,False,38346,17128,completed,16893,21453,235,0.437858013011586,0.44054138632451884,0.9862797758056983
+no_relation,Q007,frame_000185,right_of,True,evaluated,,False,22657,9846,completed,7774,14883,2072,0.31436774637065795,0.34311691750893764,0.7895592118626854
+no_relation,Q007,frame_000193,right_of,True,evaluated,,False,57835,9734,completed,7325,50510,2409,0.12158887192085518,0.12665341056453705,0.7525169508937744
+no_relation,Q008,frame_000225,right_of,True,evaluated,,False,12216,9761,completed,8127,4089,1634,0.5867870036101083,0.6652750491159135,0.8325991189427313
+no_relation,Q008,frame_000209,right_of,True,evaluated,,False,8131,5282,completed,4865,3266,417,0.5691389798783341,0.5983273890050425,0.9210526315789473
+no_relation,Q009,frame_000161,right_of,False,excluded_unreliable,Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable.,False,53089,28731,completed,,,,,,
+no_relation,Q009,frame_000065,right_of,True,evaluated,,False,53291,46843,completed,42090,11201,4753,0.725139549307422,0.7898144151920587,0.8985333988002476
+no_relation,Q010,frame_000129,right_of,False,excluded_unreliable,Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.; Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points.,False,16202,19237,completed,,,,,,
+no_relation,Q010,frame_000209,right_of,True,evaluated,,False,1884,12398,completed,1584,300,10814,0.1247440541817609,0.8407643312101911,0.1277625423455396
+no_relation,Q011,frame_000177,in_front_of,True,evaluated,,False,15888,24814,completed,13002,2886,11812,0.46938628158844764,0.8183534743202417,0.523978399290723
+no_relation,Q011,frame_000185,in_front_of,True,evaluated,,False,31148,24951,completed,11921,19227,13030,0.2698401919507447,0.3827212020033389,0.4777764418259789
+no_relation,Q012,frame_000073,in_front_of,True,evaluated,,False,31874,31388,completed,24193,7681,7195,0.6192377588369296,0.7590198908201041,0.7707722696571938
+no_relation,Q012,frame_000305,in_front_of,True,evaluated,,False,83394,58684,completed,51056,32338,7628,0.560919338181978,0.612226299254143,0.8700156771862859
+no_relation,Q013,frame_000297,in_front_of,True,evaluated,,False,36487,29749,completed,28381,8106,1368,0.7497292299564127,0.7778386822703977,0.954015261017177
+no_relation,Q013,frame_000065,in_front_of,True,evaluated,,False,25873,10993,completed,10366,15507,627,0.39116981132075473,0.4006493255517335,0.9429637041753843
+no_relation,Q014,frame_000089,in_front_of,True,evaluated,,False,7683,6934,completed,6302,1381,632,0.7579073962717979,0.8202525055316934,0.9088549177963657
+no_relation,Q014,frame_000281,in_front_of,True,evaluated,,False,4427,5382,completed,4358,69,1024,0.7994863327829757,0.9844138242602214,0.8097361575622445
+no_relation,Q015,frame_000321,in_front_of,True,evaluated,,False,8968,8655,completed,5958,3010,2697,0.5107586798114017,0.6643621766280107,0.6883882149046794
+no_relation,Q015,frame_000025,in_front_of,True,evaluated,,False,3551,3831,completed,2670,881,1161,0.5666383701188455,0.7519008729935229,0.696945967110415
+no_relation,Q016,frame_000193,behind,True,evaluated,,False,41485,39602,completed,25242,16243,14360,0.4520010744023637,0.6084608894781246,0.6373920509065198
+no_relation,Q016,frame_000017,behind,True,evaluated,,False,24012,22671,completed,13596,10416,9075,0.41091667422250433,0.5662168915542228,0.5997088791848617
+no_relation,Q017,frame_000305,behind,True,evaluated,,False,83394,21498,completed,18067,65327,3431,0.20808522890872444,0.21664628150706286,0.8404037584891618
+no_relation,Q017,frame_000169,behind,True,evaluated,,False,32018,19299,completed,17256,14762,2043,0.5066204750300931,0.5389468424011493,0.8941395927250116
+no_relation,Q018,frame_000273,behind,True,evaluated,,False,17321,9337,completed,5246,12075,4091,0.24500280216700915,0.30286934934472604,0.5618507015101211
+no_relation,Q018,frame_000169,behind,True,evaluated,,False,71630,38758,completed,27944,43686,10814,0.33894522342438504,0.3901158732374703,0.7209866350172868
+no_relation,Q019,frame_000193,behind,True,evaluated,,True,0,10169,completed,0,0,10169,0.0,0.0,0.0
+no_relation,Q019,frame_000201,behind,True,evaluated,,True,0,10490,completed,0,0,10490,0.0,0.0,0.0
+no_relation,Q020,frame_000001,behind,True,evaluated,,False,17788,25227,completed,15768,2020,9459,0.5787059125775315,0.8864402968293231,0.6250445950767035
+no_relation,Q020,frame_000009,behind,True,evaluated,,False,16957,26551,completed,15828,1129,10723,0.5718208092485549,0.9334198266202748,0.5961357387669014
+no_relation,Q021,frame_000089,near,True,evaluated,,False,7683,6934,completed,6302,1381,632,0.7579073962717979,0.8202525055316934,0.9088549177963657
+no_relation,Q021,frame_000281,near,True,evaluated,,False,4427,5382,completed,4358,69,1024,0.7994863327829757,0.9844138242602214,0.8097361575622445
+no_relation,Q022,frame_000177,near,True,evaluated,,False,15888,24814,completed,13002,2886,11812,0.46938628158844764,0.8183534743202417,0.523978399290723
+no_relation,Q022,frame_000185,near,True,evaluated,,False,31148,24951,completed,11921,19227,13030,0.2698401919507447,0.3827212020033389,0.4777764418259789
+no_relation,Q023,frame_000073,near,True,evaluated,,False,31874,31388,completed,24193,7681,7195,0.6192377588369296,0.7590198908201041,0.7707722696571938
+no_relation,Q023,frame_000305,near,True,evaluated,,False,83394,58684,completed,51056,32338,7628,0.560919338181978,0.612226299254143,0.8700156771862859
+no_relation,Q024,frame_000313,near,True,evaluated,,False,61026,17817,completed,16467,44559,1350,0.2639957676029242,0.2698358076885262,0.9242296682943256
+no_relation,Q024,frame_000249,near,True,evaluated,,False,27908,10711,completed,9865,18043,846,0.34308270153717746,0.3534828722946825,0.9210157781719728
+no_relation,Q025,frame_000217,near,False,excluded_unreliable,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,False,47017,18330,completed,,,,,,
+no_relation,Q025,frame_000121,near,False,excluded_unreliable,Overlapping open racks: SAM alternatives either fill substantial visible gaps or omit many visible rods. Cannot reliably define complete device-specific visible mask.,False,77440,56273,completed,,,,,,
+ours,Q001,frame_000329,left_of,True,evaluated,,False,12099,12319,completed,11956,143,363,0.9593965655593003,0.9881808413918506,0.970533322509944
+ours,Q001,frame_000265,left_of,True,evaluated,,False,10903,10879,completed,10716,187,163,0.9683715886499187,0.9828487572227828,0.9850170052394521
+ours,Q002,frame_000129,left_of,True,evaluated,,False,7810,9504,completed,5518,2292,3986,0.4677856900644286,0.7065300896286811,0.5805976430976431
+ours,Q002,frame_000153,left_of,True,evaluated,,False,7864,9904,completed,6388,1476,3516,0.5613356766256591,0.8123092573753815,0.6449919224555735
+ours,Q003,frame_000169,left_of,True,evaluated,,False,51052,70114,completed,46560,4492,23554,0.6240784923464601,0.9120112826138055,0.6640613857432182
+ours,Q003,frame_000113,left_of,True,evaluated,,False,9687,15989,completed,9170,517,6819,0.5555555555555556,0.946629503458243,0.5735192945149791
+ours,Q004,frame_000321,left_of,True,evaluated,,False,7757,8655,completed,5958,1799,2697,0.5699253874115171,0.7680804434704138,0.6883882149046794
+ours,Q004,frame_000025,left_of,True,evaluated,,False,3551,3831,completed,2670,881,1161,0.5666383701188455,0.7519008729935229,0.696945967110415
+ours,Q005,frame_000217,left_of,False,excluded_unreliable,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,False,41196,53663,completed,,,,,,
+ours,Q005,frame_000065,left_of,False,excluded_unreliable,M0 box spans rear large panel/rack plus separate front workstation; visible ownership cannot be reliably resolved in this view after additional prompts.,False,12829,24333,completed,,,,,,
+ours,Q006,frame_000321,right_of,True,evaluated,,False,29976,30190,completed,29471,505,719,0.9601237986642776,0.9831531892180411,0.9761841669426963
+ours,Q006,frame_000273,right_of,True,evaluated,,False,17265,17128,completed,16893,372,235,0.9653142857142857,0.9784535186794092,0.9862797758056983
+ours,Q007,frame_000185,right_of,True,evaluated,,False,8111,9846,completed,7774,337,2072,0.7634292448197977,0.9584514856367895,0.7895592118626854
+ours,Q007,frame_000193,right_of,True,evaluated,,False,8470,9734,completed,7325,1145,2409,0.6733155620921041,0.8648170011806375,0.7525169508937744
+ours,Q008,frame_000225,right_of,True,evaluated,,False,10885,9761,completed,8127,2758,1634,0.6491732566498921,0.7466237942122187,0.8325991189427313
+ours,Q008,frame_000209,right_of,True,evaluated,,False,6781,5282,completed,4865,1916,417,0.6758821894970826,0.7174458044536204,0.9210526315789473
+ours,Q009,frame_000161,right_of,False,excluded_unreliable,Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable.,False,29098,28731,completed,,,,,,
+ours,Q009,frame_000065,right_of,True,evaluated,,False,48865,46843,completed,42090,6775,4753,0.7849975754410832,0.8613527064360994,0.8985333988002476
+ours,Q010,frame_000129,right_of,False,excluded_unreliable,Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.; Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points.,False,8359,19237,completed,,,,,,
+ours,Q010,frame_000209,right_of,True,evaluated,,False,1288,12398,completed,1267,21,11131,0.10202109670665915,0.9836956521739131,0.10219390224229714
+ours,Q011,frame_000177,in_front_of,True,evaluated,,False,14930,24814,completed,12957,1973,11857,0.4837047821704558,0.8678499665103818,0.522164906907391
+ours,Q011,frame_000185,in_front_of,True,evaluated,,False,13044,24951,completed,11921,1123,13030,0.4571987420418808,0.9139067770622509,0.4777764418259789
+ours,Q012,frame_000073,in_front_of,True,evaluated,,False,25720,31388,completed,23812,1908,7576,0.7151609802979337,0.9258164852255054,0.7586338728176373
+ours,Q012,frame_000305,in_front_of,True,evaluated,,False,61847,58684,completed,50642,11205,8042,0.7246061611984719,0.8188271055993015,0.8629609433576443
+ours,Q013,frame_000297,in_front_of,True,evaluated,,False,29165,29749,completed,28381,784,1368,0.9295188812104935,0.9731184639122236,0.954015261017177
+ours,Q013,frame_000065,in_front_of,True,evaluated,,False,10689,10993,completed,10366,323,627,0.9160480735242135,0.9697820188979325,0.9429637041753843
+ours,Q014,frame_000089,in_front_of,True,evaluated,,False,6412,6934,completed,6302,110,632,0.8946621237932992,0.9828446662507798,0.9088549177963657
+ours,Q014,frame_000281,in_front_of,True,evaluated,,False,4427,5382,completed,4358,69,1024,0.7994863327829757,0.9844138242602214,0.8097361575622445
+ours,Q015,frame_000321,in_front_of,True,evaluated,,False,7757,8655,completed,5958,1799,2697,0.5699253874115171,0.7680804434704138,0.6883882149046794
+ours,Q015,frame_000025,in_front_of,True,evaluated,,False,3551,3831,completed,2670,881,1161,0.5666383701188455,0.7519008729935229,0.696945967110415
+ours,Q016,frame_000193,behind,True,evaluated,,False,37911,39602,completed,25242,12669,14360,0.48290639168946453,0.6658225844741632,0.6373920509065198
+ours,Q016,frame_000017,behind,True,evaluated,,False,16087,22671,completed,13596,2491,9075,0.5403386058341945,0.8451544725554796,0.5997088791848617
+ours,Q017,frame_000305,behind,True,evaluated,,False,21456,21498,completed,18059,3397,3439,0.7254067081743322,0.8416759880686056,0.8400316308493814
+ours,Q017,frame_000169,behind,True,evaluated,,False,18922,19299,completed,17256,1666,2043,0.8230860958740759,0.9119543388648135,0.8941395927250116
+ours,Q018,frame_000273,behind,True,evaluated,,False,6047,9337,completed,5242,805,4095,0.5168605797673043,0.8668761369274021,0.5614222983827782
+ours,Q018,frame_000169,behind,True,evaluated,,False,30620,38758,completed,27944,2676,10814,0.6744219722932857,0.9126061397779229,0.7209866350172868
+ours,Q019,frame_000193,behind,True,evaluated,,True,0,10169,completed,0,0,10169,0.0,0.0,0.0
+ours,Q019,frame_000201,behind,True,evaluated,,True,0,10490,completed,0,0,10490,0.0,0.0,0.0
+ours,Q020,frame_000001,behind,True,evaluated,,False,17788,25227,completed,15768,2020,9459,0.5787059125775315,0.8864402968293231,0.6250445950767035
+ours,Q020,frame_000009,behind,True,evaluated,,False,16957,26551,completed,15828,1129,10723,0.5718208092485549,0.9334198266202748,0.5961357387669014
+ours,Q021,frame_000089,near,True,evaluated,,False,6412,6934,completed,6302,110,632,0.8946621237932992,0.9828446662507798,0.9088549177963657
+ours,Q021,frame_000281,near,True,evaluated,,False,4427,5382,completed,4358,69,1024,0.7994863327829757,0.9844138242602214,0.8097361575622445
+ours,Q022,frame_000177,near,True,evaluated,,False,14930,24814,completed,12957,1973,11857,0.4837047821704558,0.8678499665103818,0.522164906907391
+ours,Q022,frame_000185,near,True,evaluated,,False,13044,24951,completed,11921,1123,13030,0.4571987420418808,0.9139067770622509,0.4777764418259789
+ours,Q023,frame_000073,near,True,evaluated,,False,25720,31388,completed,23812,1908,7576,0.7151609802979337,0.9258164852255054,0.7586338728176373
+ours,Q023,frame_000305,near,True,evaluated,,False,61847,58684,completed,50642,11205,8042,0.7246061611984719,0.8188271055993015,0.8629609433576443
+ours,Q024,frame_000313,near,True,evaluated,,False,17486,17817,completed,15596,1890,2221,0.7913939209417973,0.8919135308246597,0.8753437728012572
+ours,Q024,frame_000249,near,True,evaluated,,False,12631,10711,completed,9839,2792,872,0.7286528919499371,0.7789565355078775,0.9185883670992437
+ours,Q025,frame_000217,near,False,excluded_unreliable,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,False,7544,18330,completed,,,,,,
+ours,Q025,frame_000121,near,False,excluded_unreliable,Overlapping open racks: SAM alternatives either fill substantial visible gaps or omit many visible rods. Cannot reliably define complete device-specific visible mask.,False,45248,56273,completed,,,,,,
+box_all33,Q001,frame_000329,left_of,True,evaluated,,False,13911,12319,completed,12234,1677,85,0.8741068876821949,0.8794479189130904,0.9931000892929621
+box_all33,Q001,frame_000265,left_of,True,evaluated,,False,12822,10879,completed,10776,2046,103,0.8337330754352031,0.8404305100608329,0.9905322180347459
+box_all33,Q002,frame_000129,left_of,True,evaluated,,False,13008,9504,completed,7985,5023,1519,0.5496661389137468,0.6138530135301353,0.8401725589225589
+box_all33,Q002,frame_000153,left_of,True,evaluated,,False,12081,9904,completed,9148,2933,756,0.7126275609566098,0.7572220842645476,0.9236672051696284
+box_all33,Q003,frame_000169,left_of,True,evaluated,,False,88232,70114,completed,61690,26542,8424,0.6382428405893064,0.6991794360322785,0.8798528111361497
+box_all33,Q003,frame_000113,left_of,True,evaluated,,False,17421,15989,completed,12546,4875,3443,0.6013228527607362,0.7201653177199931,0.7846644568140597
+box_all33,Q004,frame_000321,left_of,True,evaluated,,False,12166,8655,completed,7621,4545,1034,0.5773484848484849,0.6264178859115568,0.8805314846909301
+box_all33,Q004,frame_000025,left_of,True,evaluated,,False,5537,3831,completed,2883,2654,948,0.4445643793369314,0.5206790680874119,0.7525450274079875
+box_all33,Q005,frame_000217,left_of,False,excluded_unreliable,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,False,54357,53663,completed,,,,,,
+box_all33,Q005,frame_000065,left_of,False,excluded_unreliable,M0 box spans rear large panel/rack plus separate front workstation; visible ownership cannot be reliably resolved in this view after additional prompts.,False,32295,24333,completed,,,,,,
+box_all33,Q006,frame_000321,right_of,True,evaluated,,False,36084,30190,completed,29955,6129,235,0.8247749112035023,0.8301463252411041,0.9922159655515072
+box_all33,Q006,frame_000273,right_of,True,evaluated,,False,20427,17128,completed,17006,3421,122,0.827582850746995,0.8325255788906839,0.9928771602055114
+box_all33,Q007,frame_000185,right_of,True,evaluated,,False,22071,9846,completed,8883,13188,963,0.38564730398541286,0.40247383444338725,0.9021937842778793
+box_all33,Q007,frame_000193,right_of,True,evaluated,,False,21946,9734,completed,8942,13004,792,0.3932623801565661,0.4074546614417206,0.9186357098828848
+box_all33,Q008,frame_000225,right_of,True,evaluated,,False,14007,9761,completed,8700,5307,1061,0.5773825325192461,0.6211180124223602,0.8913021206843561
+box_all33,Q008,frame_000209,right_of,True,evaluated,,False,8050,5282,completed,4899,3151,383,0.5809320526503023,0.6085714285714285,0.9274895872775464
+box_all33,Q009,frame_000161,right_of,False,excluded_unreliable,Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable.,False,40022,28731,completed,,,,,,
+box_all33,Q009,frame_000065,right_of,True,evaluated,,False,62361,46843,completed,45072,17289,1771,0.7028004740223289,0.7227594169432818,0.962192856990372
+box_all33,Q010,frame_000129,right_of,False,excluded_unreliable,Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.; Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points.,False,22781,19237,completed,,,,,,
+box_all33,Q010,frame_000209,right_of,True,evaluated,,False,13755,12398,completed,10616,3139,1782,0.6832721889682692,0.7717920756088695,0.8562671398612679
+box_all33,Q011,frame_000177,in_front_of,True,evaluated,,False,30100,24814,completed,22939,7161,1875,0.7174042220484754,0.762093023255814,0.924437817361167
+box_all33,Q011,frame_000185,in_front_of,True,evaluated,,False,28614,24951,completed,21979,6635,2972,0.6958462610017097,0.768120500454323,0.8808865376137229
+box_all33,Q012,frame_000073,in_front_of,True,evaluated,,False,39666,31388,completed,30765,8901,623,0.7636079326863412,0.77560127060959,0.9801516503122212
+box_all33,Q012,frame_000305,in_front_of,True,evaluated,,False,77323,58684,completed,56994,20329,1690,0.7213243390328173,0.7370898697670809,0.9712016904096517
+box_all33,Q013,frame_000297,in_front_of,True,evaluated,,False,33324,29749,completed,28970,4354,779,0.849485382517667,0.8693434161565238,0.9738142458570036
+box_all33,Q013,frame_000065,in_front_of,True,evaluated,,False,11991,10993,completed,10623,1368,370,0.8593964889572041,0.8859144358268701,0.9663422177749477
+box_all33,Q014,frame_000089,in_front_of,True,evaluated,,False,7330,6934,completed,6876,454,58,0.9306984298863021,0.9380627557980901,0.9916354196711855
+box_all33,Q014,frame_000281,in_front_of,True,evaluated,,False,5874,5382,completed,5157,717,225,0.8455484505656665,0.8779366700715016,0.9581939799331104
+box_all33,Q015,frame_000321,in_front_of,True,evaluated,,False,12166,8655,completed,7621,4545,1034,0.5773484848484849,0.6264178859115568,0.8805314846909301
+box_all33,Q015,frame_000025,in_front_of,True,evaluated,,False,5537,3831,completed,2883,2654,948,0.4445643793369314,0.5206790680874119,0.7525450274079875
+box_all33,Q016,frame_000193,behind,True,evaluated,,False,55102,39602,completed,31365,23737,8237,0.49519253540472696,0.5692170883089543,0.7920054542699864
+box_all33,Q016,frame_000017,behind,True,evaluated,,False,30310,22671,completed,15984,14326,6687,0.43203502986728654,0.5273507093368526,0.7050416832076221
+box_all33,Q017,frame_000305,behind,True,evaluated,,False,27641,21498,completed,19803,7838,1695,0.6750409053722389,0.7164357295322167,0.9211554563215183
+box_all33,Q017,frame_000169,behind,True,evaluated,,False,20279,19299,completed,17793,2486,1506,0.816754647693367,0.8774101287045712,0.9219648686460439
+box_all33,Q018,frame_000273,behind,True,evaluated,,False,13323,9337,completed,9219,4104,118,0.6858864667807455,0.6919612699842378,0.9873621077433865
+box_all33,Q018,frame_000169,behind,True,evaluated,,False,50916,38758,completed,35707,15209,3051,0.6616450794003743,0.7012923246130882,0.9212807678414779
+box_all33,Q019,frame_000193,behind,True,evaluated,,False,15109,10169,completed,10121,4988,48,0.667744276571881,0.6698656429942419,0.9952797718556397
+box_all33,Q019,frame_000201,behind,True,evaluated,,False,14778,10490,completed,10452,4326,38,0.7054535637149028,0.7072675598863175,0.9963775023832221
+box_all33,Q020,frame_000001,behind,True,evaluated,,False,23999,25227,completed,17542,6457,7685,0.553654841560409,0.7309471227967832,0.6953660760296507
+box_all33,Q020,frame_000009,behind,True,evaluated,,False,23070,26551,completed,17765,5305,8786,0.5576657458563536,0.770047680970958,0.6690896764716959
+box_all33,Q021,frame_000089,near,True,evaluated,,False,7330,6934,completed,6876,454,58,0.9306984298863021,0.9380627557980901,0.9916354196711855
+box_all33,Q021,frame_000281,near,True,evaluated,,False,5874,5382,completed,5157,717,225,0.8455484505656665,0.8779366700715016,0.9581939799331104
+box_all33,Q022,frame_000177,near,True,evaluated,,False,30100,24814,completed,22939,7161,1875,0.7174042220484754,0.762093023255814,0.924437817361167
+box_all33,Q022,frame_000185,near,True,evaluated,,False,28614,24951,completed,21979,6635,2972,0.6958462610017097,0.768120500454323,0.8808865376137229
+box_all33,Q023,frame_000073,near,True,evaluated,,False,39666,31388,completed,30765,8901,623,0.7636079326863412,0.77560127060959,0.9801516503122212
+box_all33,Q023,frame_000305,near,True,evaluated,,False,77323,58684,completed,56994,20329,1690,0.7213243390328173,0.7370898697670809,0.9712016904096517
+box_all33,Q024,frame_000313,near,True,evaluated,,False,22715,17817,completed,16793,5922,1024,0.7074013227178904,0.7392912172573189,0.9425268002469551
+box_all33,Q024,frame_000249,near,True,evaluated,,False,15461,10711,completed,10616,4845,95,0.6824376446387246,0.686630877692258,0.9911306133881057
+box_all33,Q025,frame_000217,near,False,excluded_unreliable,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,False,11736,18330,completed,,,,,,
+box_all33,Q025,frame_000121,near,False,excluded_unreliable,Overlapping open racks: SAM alternatives either fill substantial visible gaps or omit many visible rods. Cannot reliably define complete device-specific visible mask.,False,121816,56273,completed,,,,,,
+sam_original,Q001,frame_000329,left_of,True,evaluated,,False,4168,12319,completed,4168,0,8151,0.3383391509051059,1.0,0.3383391509051059
+sam_original,Q001,frame_000265,left_of,True,evaluated,,False,1909,10879,completed,1886,23,8993,0.1729957805907173,0.9879518072289156,0.1733615221987315
+sam_original,Q002,frame_000129,left_of,True,evaluated,,False,4859,9504,completed,3337,1522,6167,0.3026482858697624,0.6867668244494752,0.35111531986531985
+sam_original,Q002,frame_000153,left_of,True,evaluated,,False,4828,9904,completed,3835,993,6069,0.3519317243277966,0.7943247721623861,0.3872172859450727
+sam_original,Q003,frame_000169,left_of,True,evaluated,,False,22426,70114,completed,20056,2370,50058,0.27669554660338835,0.8943190939088558,0.28604843540519725
+sam_original,Q003,frame_000113,left_of,True,evaluated,,False,4759,15989,completed,4703,56,11286,0.293113119351823,0.988232822021433,0.29413972105822755
+sam_original,Q004,frame_000321,left_of,True,evaluated,,True,0,8655,completed,0,0,8655,0.0,0.0,0.0
+sam_original,Q004,frame_000025,left_of,True,evaluated,,True,0,3831,completed,0,0,3831,0.0,0.0,0.0
+sam_original,Q005,frame_000217,left_of,False,excluded_unreliable,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,True,0,53663,completed,,,,,,
+sam_original,Q005,frame_000065,left_of,False,excluded_unreliable,M0 box spans rear large panel/rack plus separate front workstation; visible ownership cannot be reliably resolved in this view after additional prompts.,False,715,24333,completed,,,,,,
+sam_original,Q006,frame_000321,right_of,True,evaluated,,False,7403,30190,completed,7351,52,22839,0.24307254811189735,0.992975820613265,0.24349122225902617
+sam_original,Q006,frame_000273,right_of,True,evaluated,,False,6202,17128,completed,6102,100,11026,0.3541908521012306,0.9838761689777491,0.35625875758991127
+sam_original,Q007,frame_000185,right_of,True,evaluated,,True,0,9846,completed,0,0,9846,0.0,0.0,0.0
+sam_original,Q007,frame_000193,right_of,True,evaluated,,True,0,9734,completed,0,0,9734,0.0,0.0,0.0
+sam_original,Q008,frame_000225,right_of,True,evaluated,,False,3744,9761,completed,3263,481,6498,0.3185901191173599,0.8715277777777778,0.334289519516443
+sam_original,Q008,frame_000209,right_of,True,evaluated,,False,2170,5282,completed,1793,377,3489,0.3168404311715851,0.8262672811059908,0.3394547519878834
+sam_original,Q009,frame_000161,right_of,False,excluded_unreliable,Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable.,False,16592,28731,completed,,,,,,
+sam_original,Q009,frame_000065,right_of,True,evaluated,,False,29071,46843,completed,26150,2921,20693,0.5254802668595772,0.8995218602731244,0.5582477638067588
+sam_original,Q010,frame_000129,right_of,False,excluded_unreliable,Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.; Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points.,True,0,19237,completed,,,,,,
+sam_original,Q010,frame_000209,right_of,True,evaluated,,True,0,12398,completed,0,0,12398,0.0,0.0,0.0
+sam_original,Q011,frame_000177,in_front_of,True,evaluated,,False,17752,24814,completed,15986,1766,8828,0.6014296463506396,0.9005182514646237,0.6442330942210043
+sam_original,Q011,frame_000185,in_front_of,True,evaluated,,False,16124,24951,completed,15286,838,9665,0.5927333359184148,0.9480277846688167,0.6126407759208048
+sam_original,Q012,frame_000073,in_front_of,True,evaluated,,False,8478,31388,completed,7560,918,23828,0.2340122577849316,0.89171974522293,0.2408563782337199
+sam_original,Q012,frame_000305,in_front_of,True,evaluated,,False,20319,58684,completed,16651,3668,42033,0.26704837054144215,0.8194793050839116,0.2837400313543726
+sam_original,Q013,frame_000297,in_front_of,True,evaluated,,False,5615,29749,completed,5615,0,24134,0.1887458401963091,1.0,0.1887458401963091
+sam_original,Q013,frame_000065,in_front_of,True,evaluated,,False,1916,10993,completed,1914,2,9079,0.17407912687585267,0.9989561586638831,0.17411079778040572
+sam_original,Q014,frame_000089,in_front_of,True,evaluated,,False,2332,6934,completed,2320,12,4614,0.33400518283904407,0.9948542024013722,0.3345832131525815
+sam_original,Q014,frame_000281,in_front_of,True,evaluated,,False,1805,5382,completed,1801,4,3581,0.3343854437430375,0.9977839335180055,0.33463396506874765
+sam_original,Q015,frame_000321,in_front_of,True,evaluated,,True,0,8655,completed,0,0,8655,0.0,0.0,0.0
+sam_original,Q015,frame_000025,in_front_of,True,evaluated,,True,0,3831,completed,0,0,3831,0.0,0.0,0.0
+sam_original,Q016,frame_000193,behind,True,evaluated,,False,20397,39602,completed,12180,8217,27422,0.2547104707333905,0.5971466392116488,0.30756022423109947
+sam_original,Q016,frame_000017,behind,True,evaluated,,False,8912,22671,completed,7284,1628,15387,0.29976542244536813,0.8173249551166966,0.321291517798068
+sam_original,Q017,frame_000305,behind,True,evaluated,,True,0,21498,completed,0,0,21498,0.0,0.0,0.0
+sam_original,Q017,frame_000169,behind,True,evaluated,,True,0,19299,completed,0,0,19299,0.0,0.0,0.0
+sam_original,Q018,frame_000273,behind,True,evaluated,,False,1363,9337,completed,1068,295,8269,0.11088039867109635,0.7835656639765224,0.1143836350005355
+sam_original,Q018,frame_000169,behind,True,evaluated,,False,8138,38758,completed,6866,1272,31892,0.17152135898076443,0.8436962398623741,0.17715052376283605
+sam_original,Q019,frame_000193,behind,True,evaluated,,True,0,10169,completed,0,0,10169,0.0,0.0,0.0
+sam_original,Q019,frame_000201,behind,True,evaluated,,True,0,10490,completed,0,0,10490,0.0,0.0,0.0
+sam_original,Q020,frame_000001,behind,True,evaluated,,True,0,25227,completed,0,0,25227,0.0,0.0,0.0
+sam_original,Q020,frame_000009,behind,True,evaluated,,True,0,26551,completed,0,0,26551,0.0,0.0,0.0
+sam_original,Q021,frame_000089,near,True,evaluated,,False,2332,6934,completed,2320,12,4614,0.33400518283904407,0.9948542024013722,0.3345832131525815
+sam_original,Q021,frame_000281,near,True,evaluated,,False,1805,5382,completed,1801,4,3581,0.3343854437430375,0.9977839335180055,0.33463396506874765
+sam_original,Q022,frame_000177,near,True,evaluated,,False,17752,24814,completed,15986,1766,8828,0.6014296463506396,0.9005182514646237,0.6442330942210043
+sam_original,Q022,frame_000185,near,True,evaluated,,False,16124,24951,completed,15286,838,9665,0.5927333359184148,0.9480277846688167,0.6126407759208048
+sam_original,Q023,frame_000073,near,True,evaluated,,False,8478,31388,completed,7560,918,23828,0.2340122577849316,0.89171974522293,0.2408563782337199
+sam_original,Q023,frame_000305,near,True,evaluated,,False,20319,58684,completed,16651,3668,42033,0.26704837054144215,0.8194793050839116,0.2837400313543726
+sam_original,Q024,frame_000313,near,True,evaluated,,True,0,17817,completed,0,0,17817,0.0,0.0,0.0
+sam_original,Q024,frame_000249,near,True,evaluated,,True,0,10711,completed,0,0,10711,0.0,0.0,0.0
+sam_original,Q025,frame_000217,near,False,excluded_unreliable,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,True,0,18330,completed,,,,,,
+sam_original,Q025,frame_000121,near,False,excluded_unreliable,Overlapping open racks: SAM alternatives either fill substantial visible gaps or omit many visible rods. Cannot reliably define complete device-specific visible mask.,False,2330,56273,completed,,,,,,
+sam_common,Q001,frame_000329,left_of,True,evaluated,,False,4168,12319,completed,4168,0,8151,0.3383391509051059,1.0,0.3383391509051059
+sam_common,Q001,frame_000265,left_of,True,evaluated,,False,1909,10879,completed,1886,23,8993,0.1729957805907173,0.9879518072289156,0.1733615221987315
+sam_common,Q002,frame_000129,left_of,True,evaluated,,False,4859,9504,completed,3337,1522,6167,0.3026482858697624,0.6867668244494752,0.35111531986531985
+sam_common,Q002,frame_000153,left_of,True,evaluated,,False,4828,9904,completed,3835,993,6069,0.3519317243277966,0.7943247721623861,0.3872172859450727
+sam_common,Q003,frame_000169,left_of,True,evaluated,,False,22426,70114,completed,20056,2370,50058,0.27669554660338835,0.8943190939088558,0.28604843540519725
+sam_common,Q003,frame_000113,left_of,True,evaluated,,False,4759,15989,completed,4703,56,11286,0.293113119351823,0.988232822021433,0.29413972105822755
+sam_common,Q004,frame_000321,left_of,True,evaluated,,True,0,8655,completed,0,0,8655,0.0,0.0,0.0
+sam_common,Q004,frame_000025,left_of,True,evaluated,,True,0,3831,completed,0,0,3831,0.0,0.0,0.0
+sam_common,Q005,frame_000217,left_of,False,excluded_unreliable,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,True,0,53663,completed,,,,,,
+sam_common,Q005,frame_000065,left_of,False,excluded_unreliable,M0 box spans rear large panel/rack plus separate front workstation; visible ownership cannot be reliably resolved in this view after additional prompts.,True,0,24333,completed,,,,,,
+sam_common,Q006,frame_000321,right_of,True,evaluated,,False,7403,30190,completed,7351,52,22839,0.24307254811189735,0.992975820613265,0.24349122225902617
+sam_common,Q006,frame_000273,right_of,True,evaluated,,False,6202,17128,completed,6102,100,11026,0.3541908521012306,0.9838761689777491,0.35625875758991127
+sam_common,Q007,frame_000185,right_of,True,evaluated,,True,0,9846,completed,0,0,9846,0.0,0.0,0.0
+sam_common,Q007,frame_000193,right_of,True,evaluated,,True,0,9734,completed,0,0,9734,0.0,0.0,0.0
+sam_common,Q008,frame_000225,right_of,True,evaluated,,False,3744,9761,completed,3263,481,6498,0.3185901191173599,0.8715277777777778,0.334289519516443
+sam_common,Q008,frame_000209,right_of,True,evaluated,,False,2170,5282,completed,1793,377,3489,0.3168404311715851,0.8262672811059908,0.3394547519878834
+sam_common,Q009,frame_000161,right_of,False,excluded_unreliable,Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable.,False,16592,28731,completed,,,,,,
+sam_common,Q009,frame_000065,right_of,True,evaluated,,False,29071,46843,completed,26150,2921,20693,0.5254802668595772,0.8995218602731244,0.5582477638067588
+sam_common,Q010,frame_000129,right_of,False,excluded_unreliable,Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.; Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points.,True,0,19237,completed,,,,,,
+sam_common,Q010,frame_000209,right_of,True,evaluated,,True,0,12398,completed,0,0,12398,0.0,0.0,0.0
+sam_common,Q011,frame_000177,in_front_of,True,evaluated,,False,17752,24814,completed,15986,1766,8828,0.6014296463506396,0.9005182514646237,0.6442330942210043
+sam_common,Q011,frame_000185,in_front_of,True,evaluated,,False,16124,24951,completed,15286,838,9665,0.5927333359184148,0.9480277846688167,0.6126407759208048
+sam_common,Q012,frame_000073,in_front_of,True,evaluated,,False,8478,31388,completed,7560,918,23828,0.2340122577849316,0.89171974522293,0.2408563782337199
+sam_common,Q012,frame_000305,in_front_of,True,evaluated,,False,20319,58684,completed,16651,3668,42033,0.26704837054144215,0.8194793050839116,0.2837400313543726
+sam_common,Q013,frame_000297,in_front_of,True,evaluated,,False,5615,29749,completed,5615,0,24134,0.1887458401963091,1.0,0.1887458401963091
+sam_common,Q013,frame_000065,in_front_of,True,evaluated,,False,1916,10993,completed,1914,2,9079,0.17407912687585267,0.9989561586638831,0.17411079778040572
+sam_common,Q014,frame_000089,in_front_of,True,evaluated,,False,2332,6934,completed,2320,12,4614,0.33400518283904407,0.9948542024013722,0.3345832131525815
+sam_common,Q014,frame_000281,in_front_of,True,evaluated,,False,1805,5382,completed,1801,4,3581,0.3343854437430375,0.9977839335180055,0.33463396506874765
+sam_common,Q015,frame_000321,in_front_of,True,evaluated,,True,0,8655,completed,0,0,8655,0.0,0.0,0.0
+sam_common,Q015,frame_000025,in_front_of,True,evaluated,,True,0,3831,completed,0,0,3831,0.0,0.0,0.0
+sam_common,Q016,frame_000193,behind,True,evaluated,,False,20397,39602,completed,12180,8217,27422,0.2547104707333905,0.5971466392116488,0.30756022423109947
+sam_common,Q016,frame_000017,behind,True,evaluated,,False,8912,22671,completed,7284,1628,15387,0.29976542244536813,0.8173249551166966,0.321291517798068
+sam_common,Q017,frame_000305,behind,True,evaluated,,True,0,21498,completed,0,0,21498,0.0,0.0,0.0
+sam_common,Q017,frame_000169,behind,True,evaluated,,True,0,19299,completed,0,0,19299,0.0,0.0,0.0
+sam_common,Q018,frame_000273,behind,True,evaluated,,False,1363,9337,completed,1068,295,8269,0.11088039867109635,0.7835656639765224,0.1143836350005355
+sam_common,Q018,frame_000169,behind,True,evaluated,,False,8138,38758,completed,6866,1272,31892,0.17152135898076443,0.8436962398623741,0.17715052376283605
+sam_common,Q019,frame_000193,behind,True,evaluated,,True,0,10169,completed,0,0,10169,0.0,0.0,0.0
+sam_common,Q019,frame_000201,behind,True,evaluated,,True,0,10490,completed,0,0,10490,0.0,0.0,0.0
+sam_common,Q020,frame_000001,behind,True,evaluated,,True,0,25227,completed,0,0,25227,0.0,0.0,0.0
+sam_common,Q020,frame_000009,behind,True,evaluated,,True,0,26551,completed,0,0,26551,0.0,0.0,0.0
+sam_common,Q021,frame_000089,near,True,evaluated,,False,2332,6934,completed,2320,12,4614,0.33400518283904407,0.9948542024013722,0.3345832131525815
+sam_common,Q021,frame_000281,near,True,evaluated,,False,1805,5382,completed,1801,4,3581,0.3343854437430375,0.9977839335180055,0.33463396506874765
+sam_common,Q022,frame_000177,near,True,evaluated,,False,17752,24814,completed,15986,1766,8828,0.6014296463506396,0.9005182514646237,0.6442330942210043
+sam_common,Q022,frame_000185,near,True,evaluated,,False,16124,24951,completed,15286,838,9665,0.5927333359184148,0.9480277846688167,0.6126407759208048
+sam_common,Q023,frame_000073,near,True,evaluated,,False,8478,31388,completed,7560,918,23828,0.2340122577849316,0.89171974522293,0.2408563782337199
+sam_common,Q023,frame_000305,near,True,evaluated,,False,20319,58684,completed,16651,3668,42033,0.26704837054144215,0.8194793050839116,0.2837400313543726
+sam_common,Q024,frame_000313,near,True,evaluated,,True,0,17817,completed,0,0,17817,0.0,0.0,0.0
+sam_common,Q024,frame_000249,near,True,evaluated,,True,0,10711,completed,0,0,10711,0.0,0.0,0.0
+sam_common,Q025,frame_000217,near,False,excluded_unreliable,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,True,0,18330,completed,,,,,,
+sam_common,Q025,frame_000121,near,False,excluded_unreliable,Overlapping open racks: SAM alternatives either fill substantial visible gaps or omit many visible rods. Cannot reliably define complete device-specific visible mask.,True,0,56273,completed,,,,,,
+ours_common,Q001,frame_000329,left_of,True,evaluated,,False,12099,12319,completed,11956,143,363,0.9593965655593003,0.9881808413918506,0.970533322509944
+ours_common,Q001,frame_000265,left_of,True,evaluated,,False,10903,10879,completed,10716,187,163,0.9683715886499187,0.9828487572227828,0.9850170052394521
+ours_common,Q002,frame_000129,left_of,True,evaluated,,False,7810,9504,completed,5518,2292,3986,0.4677856900644286,0.7065300896286811,0.5805976430976431
+ours_common,Q002,frame_000153,left_of,True,evaluated,,False,7864,9904,completed,6388,1476,3516,0.5613356766256591,0.8123092573753815,0.6449919224555735
+ours_common,Q003,frame_000169,left_of,True,evaluated,,False,51052,70114,completed,46560,4492,23554,0.6240784923464601,0.9120112826138055,0.6640613857432182
+ours_common,Q003,frame_000113,left_of,True,evaluated,,False,9687,15989,completed,9170,517,6819,0.5555555555555556,0.946629503458243,0.5735192945149791
+ours_common,Q004,frame_000321,left_of,True,evaluated,,True,0,8655,completed,0,0,8655,0.0,0.0,0.0
+ours_common,Q004,frame_000025,left_of,True,evaluated,,True,0,3831,completed,0,0,3831,0.0,0.0,0.0
+ours_common,Q005,frame_000217,left_of,False,excluded_unreliable,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,True,0,53663,completed,,,,,,
+ours_common,Q005,frame_000065,left_of,False,excluded_unreliable,M0 box spans rear large panel/rack plus separate front workstation; visible ownership cannot be reliably resolved in this view after additional prompts.,True,0,24333,completed,,,,,,
+ours_common,Q006,frame_000321,right_of,True,evaluated,,False,29976,30190,completed,29471,505,719,0.9601237986642776,0.9831531892180411,0.9761841669426963
+ours_common,Q006,frame_000273,right_of,True,evaluated,,False,17265,17128,completed,16893,372,235,0.9653142857142857,0.9784535186794092,0.9862797758056983
+ours_common,Q007,frame_000185,right_of,True,evaluated,,True,0,9846,completed,0,0,9846,0.0,0.0,0.0
+ours_common,Q007,frame_000193,right_of,True,evaluated,,True,0,9734,completed,0,0,9734,0.0,0.0,0.0
+ours_common,Q008,frame_000225,right_of,True,evaluated,,False,10885,9761,completed,8127,2758,1634,0.6491732566498921,0.7466237942122187,0.8325991189427313
+ours_common,Q008,frame_000209,right_of,True,evaluated,,False,6781,5282,completed,4865,1916,417,0.6758821894970826,0.7174458044536204,0.9210526315789473
+ours_common,Q009,frame_000161,right_of,False,excluded_unreliable,Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable.,False,29098,28731,completed,,,,,,
+ours_common,Q009,frame_000065,right_of,True,evaluated,,False,48865,46843,completed,42090,6775,4753,0.7849975754410832,0.8613527064360994,0.8985333988002476
+ours_common,Q010,frame_000129,right_of,False,excluded_unreliable,Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.; Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points.,True,0,19237,completed,,,,,,
+ours_common,Q010,frame_000209,right_of,True,evaluated,,True,0,12398,completed,0,0,12398,0.0,0.0,0.0
+ours_common,Q011,frame_000177,in_front_of,True,evaluated,,False,14930,24814,completed,12957,1973,11857,0.4837047821704558,0.8678499665103818,0.522164906907391
+ours_common,Q011,frame_000185,in_front_of,True,evaluated,,False,13044,24951,completed,11921,1123,13030,0.4571987420418808,0.9139067770622509,0.4777764418259789
+ours_common,Q012,frame_000073,in_front_of,True,evaluated,,False,25720,31388,completed,23812,1908,7576,0.7151609802979337,0.9258164852255054,0.7586338728176373
+ours_common,Q012,frame_000305,in_front_of,True,evaluated,,False,61847,58684,completed,50642,11205,8042,0.7246061611984719,0.8188271055993015,0.8629609433576443
+ours_common,Q013,frame_000297,in_front_of,True,evaluated,,False,29165,29749,completed,28381,784,1368,0.9295188812104935,0.9731184639122236,0.954015261017177
+ours_common,Q013,frame_000065,in_front_of,True,evaluated,,False,10689,10993,completed,10366,323,627,0.9160480735242135,0.9697820188979325,0.9429637041753843
+ours_common,Q014,frame_000089,in_front_of,True,evaluated,,False,6412,6934,completed,6302,110,632,0.8946621237932992,0.9828446662507798,0.9088549177963657
+ours_common,Q014,frame_000281,in_front_of,True,evaluated,,False,4427,5382,completed,4358,69,1024,0.7994863327829757,0.9844138242602214,0.8097361575622445
+ours_common,Q015,frame_000321,in_front_of,True,evaluated,,True,0,8655,completed,0,0,8655,0.0,0.0,0.0
+ours_common,Q015,frame_000025,in_front_of,True,evaluated,,True,0,3831,completed,0,0,3831,0.0,0.0,0.0
+ours_common,Q016,frame_000193,behind,True,evaluated,,False,37911,39602,completed,25242,12669,14360,0.48290639168946453,0.6658225844741632,0.6373920509065198
+ours_common,Q016,frame_000017,behind,True,evaluated,,False,16087,22671,completed,13596,2491,9075,0.5403386058341945,0.8451544725554796,0.5997088791848617
+ours_common,Q017,frame_000305,behind,True,evaluated,,True,0,21498,completed,0,0,21498,0.0,0.0,0.0
+ours_common,Q017,frame_000169,behind,True,evaluated,,True,0,19299,completed,0,0,19299,0.0,0.0,0.0
+ours_common,Q018,frame_000273,behind,True,evaluated,,False,6047,9337,completed,5242,805,4095,0.5168605797673043,0.8668761369274021,0.5614222983827782
+ours_common,Q018,frame_000169,behind,True,evaluated,,False,30620,38758,completed,27944,2676,10814,0.6744219722932857,0.9126061397779229,0.7209866350172868
+ours_common,Q019,frame_000193,behind,True,evaluated,,True,0,10169,completed,0,0,10169,0.0,0.0,0.0
+ours_common,Q019,frame_000201,behind,True,evaluated,,True,0,10490,completed,0,0,10490,0.0,0.0,0.0
+ours_common,Q020,frame_000001,behind,True,evaluated,,True,0,25227,completed,0,0,25227,0.0,0.0,0.0
+ours_common,Q020,frame_000009,behind,True,evaluated,,True,0,26551,completed,0,0,26551,0.0,0.0,0.0
+ours_common,Q021,frame_000089,near,True,evaluated,,False,6412,6934,completed,6302,110,632,0.8946621237932992,0.9828446662507798,0.9088549177963657
+ours_common,Q021,frame_000281,near,True,evaluated,,False,4427,5382,completed,4358,69,1024,0.7994863327829757,0.9844138242602214,0.8097361575622445
+ours_common,Q022,frame_000177,near,True,evaluated,,False,14930,24814,completed,12957,1973,11857,0.4837047821704558,0.8678499665103818,0.522164906907391
+ours_common,Q022,frame_000185,near,True,evaluated,,False,13044,24951,completed,11921,1123,13030,0.4571987420418808,0.9139067770622509,0.4777764418259789
+ours_common,Q023,frame_000073,near,True,evaluated,,False,25720,31388,completed,23812,1908,7576,0.7151609802979337,0.9258164852255054,0.7586338728176373
+ours_common,Q023,frame_000305,near,True,evaluated,,False,61847,58684,completed,50642,11205,8042,0.7246061611984719,0.8188271055993015,0.8629609433576443
+ours_common,Q024,frame_000313,near,True,evaluated,,True,0,17817,completed,0,0,17817,0.0,0.0,0.0
+ours_common,Q024,frame_000249,near,True,evaluated,,True,0,10711,completed,0,0,10711,0.0,0.0,0.0
+ours_common,Q025,frame_000217,near,False,excluded_unreliable,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,True,0,18330,completed,,,,,,
+ours_common,Q025,frame_000121,near,False,excluded_unreliable,Overlapping open racks: SAM alternatives either fill substantial visible gaps or omit many visible rods. Cannot reliably define complete device-specific visible mask.,True,0,56273,completed,,,,,,

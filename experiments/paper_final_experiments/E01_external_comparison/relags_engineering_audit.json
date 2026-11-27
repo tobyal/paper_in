@@ -1,0 +1,999 @@
+{
+  "status": "passed_no_engineering_error_found",
+  "source_ply": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/03_gaussian_pruning/data/model/point_cloud/iteration_0/point_cloud.ply",
+  "source_nag": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/06_semantic_aggregation/data/model/sai_nag_openseg.pt",
+  "source_ply_sha256": "e4823edd146fdaf9dcb9fe04bc40992dba2dcd2a93cc5afab9f98f1f770b4f03",
+  "source_nag_sha256": "8449501d2caaa7b3d025701619abc096877f2ec0a306075e0550ffcb7ae18c8e",
+  "gaussian_rows": 816661,
+  "levels": [
+    {
+      "level": 2,
+      "gaussian_rows": 816661,
+      "unique_nodes": 2491,
+      "node_ids_contiguous": true,
+      "hierarchy_parent_consistent": true,
+      "language_rows_exact": true,
+      "pre_obb_xyz_centered_exact": true
+    },
+    {
+      "level": 3,
+      "gaussian_rows": 816661,
+      "unique_nodes": 1189,
+      "node_ids_contiguous": true,
+      "hierarchy_parent_consistent": true,
+      "language_rows_exact": true,
+      "pre_obb_xyz_centered_exact": true
+    }
+  ],
+  "coordinate_rotation": [
+    [
+      0.9986058666056884,
+      -0.050232273887817785,
+      0.016219318983359862
+    ],
+    [
+      -0.030754117943858558,
+      -0.3039331811056324,
+      0.9521968316472195
+    ],
+    [
+      -0.0429014228284359,
+      -0.9513681530952454,
+      -0.30505430698394775
+    ]
+  ],
+  "determinant": 1.0000000250140193,
+  "official_defaults": {
+    "topk": "10",
+    "filter_small": "300",
+    "sim_thresholds": "(0.55, 0.4, 0.55)",
+    "max_subjects": "3"
+  },
+  "official_fallback_count": 14,
+  "queries": [
+    {
+      "query_id": "Q001",
+      "selected_nodes": [
+        [
+          [
+            170,
+            2
+          ],
+          [
+            0.44474512338638306,
+            0.34540802240371704,
+            0.6670947670936584
+          ]
+        ]
+      ],
+      "gaussians": 1746,
+      "fallback": true,
+      "views": [
+        {
+          "camera_id": "frame_000329",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000265",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 5428
+        }
+      ]
+    },
+    {
+      "query_id": "Q002",
+      "selected_nodes": [
+        [
+          [
+            3,
+            2
+          ],
+          [
+            0.8486317992210388,
+            0.5034058094024658,
+            0.7512181997299194
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ],
+          [
+            0.847503125667572,
+            0.5034058094024658,
+            0.7502231597900391
+          ]
+        ],
+        [
+          [
+            8,
+            2
+          ],
+          [
+            0.8323119282722473,
+            0.5034058094024658,
+            0.7512181997299194
+          ]
+        ]
+      ],
+      "gaussians": 2512,
+      "fallback": false,
+      "views": [
+        {
+          "camera_id": "frame_000129",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 137
+        },
+        {
+          "camera_id": "frame_000153",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        }
+      ]
+    },
+    {
+      "query_id": "Q003",
+      "selected_nodes": [
+        [
+          [
+            217,
+            2
+          ],
+          [
+            0.5499882698059082,
+            0.5158811211585999,
+            0.7818930149078369
+          ]
+        ]
+      ],
+      "gaussians": 1747,
+      "fallback": true,
+      "views": [
+        {
+          "camera_id": "frame_000169",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 2994
+        },
+        {
+          "camera_id": "frame_000113",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 610
+        }
+      ]
+    },
+    {
+      "query_id": "Q004",
+      "selected_nodes": [
+        [
+          [
+            921,
+            2
+          ],
+          [
+            0.6649196743965149,
+            0.3613540828227997,
+            0.44474512338638306
+          ]
+        ]
+      ],
+      "gaussians": 61,
+      "fallback": true,
+      "views": [
+        {
+          "camera_id": "frame_000321",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000025",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 190
+        }
+      ]
+    },
+    {
+      "query_id": "Q005",
+      "selected_nodes": [
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0.7865535616874695,
+            0.6678121089935303,
+            0.6493751406669617
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            0.785357654094696,
+            0.6678121089935303,
+            0.644424319267273
+          ]
+        ]
+      ],
+      "gaussians": 45067,
+      "fallback": false,
+      "views": [
+        {
+          "camera_id": "frame_000217",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 935
+        },
+        {
+          "camera_id": "frame_000065",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 15191
+        }
+      ]
+    },
+    {
+      "query_id": "Q006",
+      "selected_nodes": [
+        [
+          [
+            371,
+            2
+          ],
+          [
+            0.7818930149078369,
+            0.33034443855285645,
+            0.7865535616874695
+          ]
+        ]
+      ],
+      "gaussians": 162,
+      "fallback": true,
+      "views": [
+        {
+          "camera_id": "frame_000321",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000273",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        }
+      ]
+    },
+    {
+      "query_id": "Q007",
+      "selected_nodes": [
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0.7865535616874695,
+            0.9999344348907471,
+            0.8650243282318115
+          ]
+        ]
+      ],
+      "gaussians": 44705,
+      "fallback": false,
+      "views": [
+        {
+          "camera_id": "frame_000185",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000193",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        }
+      ]
+    },
+    {
+      "query_id": "Q008",
+      "selected_nodes": [
+        [
+          [
+            921,
+            2
+          ],
+          [
+            0.6649196743965149,
+            0.33034443855285645,
+            0.5499882698059082
+          ]
+        ]
+      ],
+      "gaussians": 61,
+      "fallback": true,
+      "views": [
+        {
+          "camera_id": "frame_000225",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000209",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        }
+      ]
+    },
+    {
+      "query_id": "Q009",
+      "selected_nodes": [
+        [
+          [
+            217,
+            2
+          ],
+          [
+            0.5499882698059082,
+            0.4129379987716675,
+            0.6517332792282104
+          ]
+        ]
+      ],
+      "gaussians": 1747,
+      "fallback": true,
+      "views": [
+        {
+          "camera_id": "frame_000161",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 64
+        },
+        {
+          "camera_id": "frame_000065",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 681
+        }
+      ]
+    },
+    {
+      "query_id": "Q010",
+      "selected_nodes": [
+        [
+          [
+            2208,
+            2
+          ],
+          [
+            0.8650243282318115,
+            0.33034443855285645,
+            0.44474512338638306
+          ]
+        ]
+      ],
+      "gaussians": 52,
+      "fallback": true,
+      "views": [
+        {
+          "camera_id": "frame_000129",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000209",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 38
+        }
+      ]
+    },
+    {
+      "query_id": "Q011",
+      "selected_nodes": [
+        [
+          [
+            2068,
+            2
+          ],
+          [
+            0.6517332792282104,
+            0.7237789630889893,
+            0.8650243282318115
+          ]
+        ],
+        [
+          [
+            81,
+            2
+          ],
+          [
+            0.6493751406669617,
+            0.7237789630889893,
+            0.8650243282318115
+          ]
+        ],
+        [
+          [
+            732,
+            2
+          ],
+          [
+            0.6477420926094055,
+            0.7237789630889893,
+            0.8650243282318115
+          ]
+        ]
+      ],
+      "gaussians": 9389,
+      "fallback": false,
+      "views": [
+        {
+          "camera_id": "frame_000177",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 11766
+        },
+        {
+          "camera_id": "frame_000185",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 13916
+        }
+      ]
+    },
+    {
+      "query_id": "Q012",
+      "selected_nodes": [
+        [
+          [
+            1099,
+            2
+          ],
+          [
+            0.7814231514930725,
+            0.314090371131897,
+            0.5499882698059082
+          ]
+        ]
+      ],
+      "gaussians": 26,
+      "fallback": true,
+      "views": [
+        {
+          "camera_id": "frame_000073",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000305",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        }
+      ]
+    },
+    {
+      "query_id": "Q013",
+      "selected_nodes": [
+        [
+          [
+            371,
+            2
+          ],
+          [
+            0.7818930149078369,
+            0.4116998314857483,
+            0.7814231514930725
+          ]
+        ],
+        [
+          [
+            392,
+            2
+          ],
+          [
+            0.7804946303367615,
+            0.4116998314857483,
+            0.7814231514930725
+          ]
+        ],
+        [
+          [
+            244,
+            3
+          ],
+          [
+            0.7784446477890015,
+            0.4116998314857483,
+            0.7694986462593079
+          ]
+        ]
+      ],
+      "gaussians": 303,
+      "fallback": false,
+      "views": [
+        {
+          "camera_id": "frame_000297",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000065",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        }
+      ]
+    },
+    {
+      "query_id": "Q014",
+      "selected_nodes": [
+        [
+          [
+            170,
+            2
+          ],
+          [
+            0.44474512338638306,
+            0.3562491238117218,
+            0.7818930149078369
+          ]
+        ]
+      ],
+      "gaussians": 1746,
+      "fallback": true,
+      "views": [
+        {
+          "camera_id": "frame_000089",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000281",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        }
+      ]
+    },
+    {
+      "query_id": "Q015",
+      "selected_nodes": [
+        [
+          [
+            921,
+            2
+          ],
+          [
+            0.6649196743965149,
+            0.314090371131897,
+            0.7865535616874695
+          ]
+        ]
+      ],
+      "gaussians": 61,
+      "fallback": true,
+      "views": [
+        {
+          "camera_id": "frame_000321",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000025",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 190
+        }
+      ]
+    },
+    {
+      "query_id": "Q016",
+      "selected_nodes": [
+        [
+          [
+            2068,
+            2
+          ],
+          [
+            0.6517332792282104,
+            0.9999358654022217,
+            0.6670947670936584
+          ]
+        ],
+        [
+          [
+            732,
+            2
+          ],
+          [
+            0.6477420926094055,
+            0.7234199047088623,
+            0.6670947670936584
+          ]
+        ]
+      ],
+      "gaussians": 133,
+      "fallback": false,
+      "views": [
+        {
+          "camera_id": "frame_000193",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000017",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        }
+      ]
+    },
+    {
+      "query_id": "Q017",
+      "selected_nodes": [
+        [
+          [
+            1099,
+            2
+          ],
+          [
+            0.7814231514930725,
+            0.3324004113674164,
+            0.44474512338638306
+          ]
+        ]
+      ],
+      "gaussians": 26,
+      "fallback": true,
+      "views": [
+        {
+          "camera_id": "frame_000305",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000169",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        }
+      ]
+    },
+    {
+      "query_id": "Q018",
+      "selected_nodes": [
+        [
+          [
+            217,
+            2
+          ],
+          [
+            0.5499882698059082,
+            0.3471604287624359,
+            0.7814231514930725
+          ]
+        ]
+      ],
+      "gaussians": 1747,
+      "fallback": true,
+      "views": [
+        {
+          "camera_id": "frame_000273",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 5277
+        },
+        {
+          "camera_id": "frame_000169",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 2994
+        }
+      ]
+    },
+    {
+      "query_id": "Q019",
+      "selected_nodes": [
+        [
+          [
+            2208,
+            2
+          ],
+          [
+            0.8650243282318115,
+            0.7234199047088623,
+            0.6670947670936584
+          ]
+        ],
+        [
+          [
+            3,
+            2
+          ],
+          [
+            0.8486317992210388,
+            0.7234199047088623,
+            0.6670947670936584
+          ]
+        ]
+      ],
+      "gaussians": 809,
+      "fallback": false,
+      "views": [
+        {
+          "camera_id": "frame_000193",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 207
+        },
+        {
+          "camera_id": "frame_000201",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 704
+        }
+      ]
+    },
+    {
+      "query_id": "Q020",
+      "selected_nodes": [
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0.7865535616874695,
+            0.7234199047088623,
+            0.6477420926094055
+          ]
+        ]
+      ],
+      "gaussians": 44705,
+      "fallback": false,
+      "views": [
+        {
+          "camera_id": "frame_000001",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000009",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        }
+      ]
+    },
+    {
+      "query_id": "Q021",
+      "selected_nodes": [
+        [
+          [
+            170,
+            2
+          ],
+          [
+            0.44474512338638306,
+            0.39962977170944214,
+            0.7865535616874695
+          ]
+        ]
+      ],
+      "gaussians": 1746,
+      "fallback": true,
+      "views": [
+        {
+          "camera_id": "frame_000089",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000281",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        }
+      ]
+    },
+    {
+      "query_id": "Q022",
+      "selected_nodes": [
+        [
+          [
+            2068,
+            2
+          ],
+          [
+            0.6517332792282104,
+            0.9999392032623291,
+            0.5499882698059082
+          ]
+        ]
+      ],
+      "gaussians": 17,
+      "fallback": true,
+      "views": [
+        {
+          "camera_id": "frame_000177",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000185",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        }
+      ]
+    },
+    {
+      "query_id": "Q023",
+      "selected_nodes": [
+        [
+          [
+            1099,
+            2
+          ],
+          [
+            0.7814231514930725,
+            0.4490032494068146,
+            0.805661141872406
+          ]
+        ],
+        [
+          [
+            166,
+            3
+          ],
+          [
+            0.7694986462593079,
+            0.4490032494068146,
+            0.847503125667572
+          ]
+        ]
+      ],
+      "gaussians": 1081,
+      "fallback": false,
+      "views": [
+        {
+          "camera_id": "frame_000073",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000305",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        }
+      ]
+    },
+    {
+      "query_id": "Q024",
+      "selected_nodes": [
+        [
+          [
+            371,
+            2
+          ],
+          [
+            0.7818930149078369,
+            0.4308508336544037,
+            0.6670947670936584
+          ]
+        ],
+        [
+          [
+            392,
+            2
+          ],
+          [
+            0.7804946303367615,
+            0.4738607406616211,
+            0.6670947670936584
+          ]
+        ],
+        [
+          [
+            244,
+            3
+          ],
+          [
+            0.7784446477890015,
+            0.4308508336544037,
+            0.6628326177597046
+          ]
+        ]
+      ],
+      "gaussians": 303,
+      "fallback": false,
+      "views": [
+        {
+          "camera_id": "frame_000313",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        },
+        {
+          "camera_id": "frame_000249",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 0
+        }
+      ]
+    },
+    {
+      "query_id": "Q025",
+      "selected_nodes": [
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0.7865535616874695,
+            0.5005651116371155,
+            0.7818930149078369
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            0.785357654094696,
+            0.5005651116371155,
+            0.7784446477890015
+          ]
+        ]
+      ],
+      "gaussians": 45067,
+      "fallback": false,
+      "views": [
+        {
+          "camera_id": "frame_000217",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 935
+        },
+        {
+          "camera_id": "frame_000121",
+          "response_max_abs_error": 0.0,
+          "mask_exact": true,
+          "pixels": 91121
+        }
+      ]
+    }
+  ],
+  "conclusion": "All 25 selected-node unions and 50 full-scene projections exactly match frozen outputs. No index, hierarchy, camera or rotation mismatch found. Learned-relation/domain mismatch remains a scientific limitation; no threshold changes or reranking."
+}

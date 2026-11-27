@@ -1,0 +1,20 @@
+{
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E04_relation_retrieval/scene/frame_000329_instances.png": {
+    "bytes": 1973104,
+    "sha256": "be3257aebc8607b6e59bde5d60c01f5752c9728999257f1e8355e6a9f17f6682"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E04_relation_retrieval/scene/oblique_colored.png": {
+    "bytes": 185955,
+    "sha256": "22ef975d398529bb5bce8568590961dcc4b066b156260f185349cacdf0daab7b",
+    "display_crop_xyxy": [
+      359,
+      591,
+      1334,
+      1265
+    ]
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/evaluation/pseudo_ground_truth/Q006/frame_000321/original_rgb.png": {
+    "bytes": 761974,
+    "sha256": "073a142611296bb3f53d6498fd5ecf404d5dc450b2b4c521e3d4a38bb5cf17bf"
+  }
+}

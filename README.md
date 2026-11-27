@@ -2,6 +2,20 @@
 
 基于真实工业车间图像复现 [ReLaGS](https://github.com/dfki-av/ReLaGS)（[论文](https://arxiv.org/abs/2603.17605) / [项目主页](https://dfki-av.github.io/ReLaGS/)）。本仓库保存核心控制与适配代码、固定上游版本、补丁、实验报告、关键检查记录，以及各阶段真实中间结果图。
 
+## Paper experiments: controlled ablations and publication figures
+
+The [paper experiment package](experiments/paper_final_experiments/README.md) completes E01—E06 with six PNG/SVG paper figures, four principal quantitative tables, 350 ablation/supplement masks, full 25-query comparison galleries and real affinity/relationship traces.
+
+| Configuration | mIoU | Precision | Recall |
+|---|---:|---:|---:|
+| Box-based (same availability) | 62.95% | 70.33% | 83.72% |
+| Ours w/o Relation | 46.52% | 59.18% | 70.54% |
+| Ours | 63.70% | 84.33% | 70.21% |
+
+On the same 23-query / 44-view **SAM-assisted reference**, relations add 17.18 percentage points mIoU. Fine extraction improves Precision but sacrifices Recall, with only 0.75 points mIoU gain over gated coarse boxes. The separate all-33 coarse-box supplement reaches 68.07% mIoU; instance availability remains a material limitation. These are not independent human-GT results.
+
+[F04—F09 gallery](experiments/paper_final_experiments/docs/GALLERY.md) · [Full experiment report](experiments/paper_final_experiments/EXPERIMENT_REPORT.md) · [Tables and figure index](experiments/paper_final_experiments/FIGURE_INDEX.md). Existing v2 and benchmark results are preserved; ReLaGS indexing and all 50 projections were checked without changing predictions. Large arrays and models stay on the server.
+
 ## External comparison: SAM-assisted Pseudo-GT evaluation
 
 The [relational retrieval benchmark](experiments/relational_retrieval_benchmark/README.md) runs LangSplat, THGS, ReLaGS and frozen v2 Ours on 25 shared queries. Quantitative evaluation uses the same 23 queries / 44 reliable views for every method; 6 views are excluded with documented reasons. References are SAM-assisted Pseudo-GT reviewed by Codex, **not independent human ground truth**.

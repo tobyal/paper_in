@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "variant": "ours_common",
+  "query_id": "Q019",
+  "returned_object_ids": [],
+  "gaussian_count": 0,
+  "views": [
+    {
+      "camera_id": "frame_000193",
+      "mask_pixels": 0
+    },
+    {
+      "camera_id": "frame_000201",
+      "mask_pixels": 0
+    }
+  ],
+  "source": "frozen v2 on shared availability"
+}

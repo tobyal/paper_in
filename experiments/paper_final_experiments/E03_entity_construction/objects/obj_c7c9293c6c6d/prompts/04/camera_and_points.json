@@ -1,0 +1,98 @@
+{
+  "image_id": "virtual_free_obj_c7c9293c6c6d_023",
+  "pixels_xy": [
+    [
+      425,
+      225
+    ],
+    [
+      591,
+      278
+    ],
+    [
+      322,
+      282
+    ],
+    [
+      504,
+      222
+    ],
+    [
+      423,
+      278
+    ],
+    [
+      401,
+      222
+    ]
+  ],
+  "source_type": "object_guided_virtual",
+  "in_affinity_training": false,
+  "camera": {
+    "width": 960,
+    "height": 720,
+    "K": [
+      [
+        921.853205744849,
+        0.0,
+        479.5
+      ],
+      [
+        0.0,
+        921.853205744849,
+        359.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_to_camera_R": [
+      [
+        0.9986058420598188,
+        -0.05023227377014964,
+        0.016219322068407302
+      ],
+      [
+        0.05065250013675462,
+        0.9983612142909639,
+        -0.02663057801709758
+      ],
+      [
+        -0.014855024853219913,
+        0.027414992806224916,
+        0.9995137533767972
+      ]
+    ],
+    "world_to_camera_t": [
+      -1.7113280306354013,
+      -0.22120766161266747,
+      0.3274971772499701
+    ],
+    "center": [
+      1.7250119124067396,
+      0.12590292094025157,
+      -0.3054722449385108
+    ],
+    "industrial_eye": [
+      1.9197415735908057,
+      2.868616921096896,
+      0.9557015082712472
+    ],
+    "horizontal_fov_degrees": 55.01110934523056,
+    "image_id": "virtual_free_obj_c7c9293c6c6d_023",
+    "source_type": "object_guided_virtual",
+    "parent_image_id": null,
+    "generation": {
+      "method": "Object-box size fitting in industrial coordinates",
+      "direction": "front",
+      "distance": 1.8811796246513541
+    },
+    "split": "train",
+    "filename": "virtual_free_obj_c7c9293c6c6d_023.png",
+    "sha256": "d7ec43c63b7463cdbffadf75b3bcb8a85739599c0b9bd63990dc10b6f8fca4ec",
+    "rgb_path": "observations/virtual_free_obj_c7c9293c6c6d_023/rgb.png"
+  },
+  "mask_source": "outputs/A/reference_prompts/obj_c7c9293c6c6d/virtual_free_obj_c7c9293c6c6d_023/mask.png"
+}

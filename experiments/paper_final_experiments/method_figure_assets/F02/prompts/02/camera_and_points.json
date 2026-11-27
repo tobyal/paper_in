@@ -1,0 +1,94 @@
+{
+  "image_id": "virtual_free_obj_f9a0e863e32d_020",
+  "pixels_xy": [
+    [
+      244,
+      181
+    ],
+    [
+      258,
+      180
+    ],
+    [
+      232,
+      173
+    ]
+  ],
+  "extra_visual_clicks": [],
+  "mask_source": "outputs/A/reference_prompts/obj_f9a0e863e32d/virtual_free_obj_f9a0e863e32d_020/mask.png",
+  "camera": {
+    "width": 480,
+    "height": 360,
+    "K": [
+      [
+        466.9799571525936,
+        0.0,
+        239.75
+      ],
+      [
+        0.0,
+        466.9799571525936,
+        179.75
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_to_camera_R": [
+      [
+        -0.8563100961120189,
+        -0.12227917150029201,
+        0.5017776427128581
+      ],
+      [
+        0.21051664647514567,
+        0.8045508178657739,
+        0.5553203582463978
+      ],
+      [
+        -0.4716097286771943,
+        0.5811589825924823,
+        -0.6632032073760471
+      ]
+    ],
+    "world_to_camera_t": [
+      0.2088256219002617,
+      -0.6727263991790436,
+      1.3147875839924745
+    ],
+    "center": [
+      0.9405062295328346,
+      -0.19732301126489915,
+      1.1407659784816269
+    ],
+    "industrial_eye": [
+      1.1760229689131756,
+      4.368086241334331,
+      0.8556835774589089
+    ],
+    "horizontal_fov_degrees": 54.4009514023071,
+    "image_id": "virtual_free_obj_f9a0e863e32d_020",
+    "source_type": "object_guided_virtual",
+    "parent_image_id": null,
+    "generation": {
+      "method": "Object-box size fitting in industrial coordinates",
+      "direction": "trajectory_oblique_-40_0.35",
+      "distance": 1.6748291358497052
+    },
+    "split": "train",
+    "filename": "virtual_free_obj_f9a0e863e32d_020.png",
+    "sha256": "f76a251c955154486d33326b03994c13d57e7642a2cc100f320992eb52404f17",
+    "rgb_path": "observations/virtual_free_obj_f9a0e863e32d_020/rgb.png",
+    "input_path": "inputs/saga_dataset/images/virtual_free_obj_f9a0e863e32d_020.png",
+    "source_path": "outputs/industrial_world_model/M2_1_hybrid_view_selection_20261126_r29/images/virtual_free_obj_f9a0e863e32d_020.png",
+    "selection_reasons": [
+      {
+        "object_id": "obj_f9a0e863e32d",
+        "purpose": "Representative virtual observation"
+      }
+    ],
+    "saga_colmap_id": 72
+  }
+}

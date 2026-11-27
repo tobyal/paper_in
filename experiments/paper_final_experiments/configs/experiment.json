@@ -1,0 +1,23 @@
+{
+  "native_scene": "data/gaussian_scene/original_3dgs/point_cloud/iteration_30000/point_cloud.ply",
+  "variants": [
+    "box_gated",
+    "no_relation",
+    "ours",
+    "box_all33"
+  ],
+  "box_gate": "same renderable IDs as frozen Ours; never substitute another device",
+  "mask_threshold": 0.5,
+  "resolution": [
+    938,
+    528
+  ],
+  "reference": "frozen SAM-assisted Pseudo-GT",
+  "aggregation": "equal query weight after mean of valid views",
+  "empty_precision": 0,
+  "training": false,
+  "reference_changes": false,
+  "affinity_checkpoint": "iteration_10000",
+  "plot_width_mm": 180,
+  "dpi": 450
+}

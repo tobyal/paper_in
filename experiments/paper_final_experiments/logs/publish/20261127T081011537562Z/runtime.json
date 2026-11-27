@@ -1,0 +1,9 @@
+{
+  "exit_code": 0,
+  "wall_seconds": 2.0498294504359365,
+  "command": [
+    "../saga_relags_v1/envs/saga/bin/python",
+    "scripts/publish.py"
+  ],
+  "finished_utc": "2026-11-27T08:10:13.590690+00:00"
+}

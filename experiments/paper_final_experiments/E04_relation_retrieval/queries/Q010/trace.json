@@ -1,0 +1,332 @@
+{
+  "query": {
+    "query_id": "Q010",
+    "subject_category": "group of blue storage bins",
+    "subject_category_id": "category_05",
+    "predicate": "right of",
+    "predicate_ours": "right_of",
+    "predicate_relags": "right",
+    "object_category": "upright portable air cooler",
+    "object_category_id": "category_06",
+    "query_en": "group of blue storage bins to the right of the upright portable air cooler",
+    "query_zh": "位于立式移动冷风机右侧的蓝色箱组",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000129",
+      "frame_000209"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 2; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "raw_relation_query": {
+    "query": "位于立式移动冷风机右侧的蓝色箱组",
+    "status": "ok",
+    "relation": "right_of",
+    "anchor_text": "立式移动冷风机",
+    "target_text": "蓝色箱组",
+    "matched_object_ids": [
+      "obj_141f3e5dbe3a",
+      "obj_3c963764ddb5"
+    ],
+    "objects": [
+      {
+        "object_id": "obj_141f3e5dbe3a",
+        "category_id": "category_05",
+        "name_zh": "蓝色箱组 01",
+        "name_en": "Blue bin group 01",
+        "bbox": {
+          "center": [
+            1.8982143136791598,
+            0.918864094880959,
+            0.340919773189663
+          ],
+          "size": [
+            1.1006855289669342,
+            1.112896034191583,
+            0.598160453620674
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "needs_improvement",
+        "quality_record": {
+          "note_zh": "只保留部分蓝箱表面，前方小架仍混入；原始重建、遮挡及跨材质亲和筛选共同影响。0.80/0.90比较未明显改善，常规精细查询停用。",
+          "diagnosis": "E",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": false,
+        "gaussian_indices": null,
+        "location_source": "M0 r29",
+        "representation": "M0_location_only"
+      },
+      {
+        "object_id": "obj_3c963764ddb5",
+        "category_id": "category_05",
+        "name_zh": "蓝色箱组 02",
+        "name_en": "Blue bin group 02",
+        "bbox": {
+          "center": [
+            1.69263318223181,
+            6.014665271862771,
+            0.2755891561480108
+          ],
+          "size": [
+            0.7475826467446662,
+            1.4880602741741327,
+            0.7287693677671694
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "partial_usable",
+        "quality_record": {
+          "note_zh": "保留箱组的可见上表面和局部立面；部分原始箱体已不完整，另有亲和筛选孔洞。有限阈值比较无明确收益，查询明确显示局部实例。",
+          "diagnosis": "E",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_3c963764ddb5/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      }
+    ],
+    "relation_evidence": [
+      {
+        "subject": "obj_141f3e5dbe3a",
+        "relation": "right_of",
+        "object": "obj_e57b3a886c2d",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.6225659037950393,
+          "center_delta": [
+            1.3292382301673153,
+            -0.44144734596996726,
+            0.07769620700048324
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_3c963764ddb5",
+        "relation": "right_of",
+        "object": "obj_e57b3a886c2d",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 3.7864567917621264,
+          "center_delta": [
+            1.1236570987199654,
+            4.654353831011845,
+            0.01236558995883108
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ],
+    "renderable_object_ids": [
+      "obj_3c963764ddb5"
+    ],
+    "unavailable_object_ids": [
+      "obj_141f3e5dbe3a"
+    ],
+    "segmentation_rerun": false,
+    "geometry_scope": "all M0 equipment nodes",
+    "reference_semantics": "union over explicitly listed matching anchors",
+    "target_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_05",
+        "method": "exact_known_alias",
+        "query": "蓝色箱组",
+        "abstained": false
+      }
+    },
+    "known_category_instances": [
+      "obj_141f3e5dbe3a",
+      "obj_3c963764ddb5",
+      "obj_7463bab859d0"
+    ],
+    "same_category_candidates_before": 3,
+    "anchor_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_06",
+        "method": "exact_known_alias",
+        "query": "立式移动冷风机",
+        "abstained": false
+      }
+    },
+    "anchor_object_ids": [
+      "obj_e57b3a886c2d",
+      "obj_04c477562e49",
+      "obj_c57876bf22ca"
+    ],
+    "matches_after": 2
+  },
+  "raw_category_query": {
+    "query": "蓝色箱组",
+    "status": "ok",
+    "relation": null,
+    "anchor_text": null,
+    "target_text": "蓝色箱组",
+    "matched_object_ids": [
+      "obj_141f3e5dbe3a",
+      "obj_3c963764ddb5",
+      "obj_7463bab859d0"
+    ],
+    "objects": [
+      {
+        "object_id": "obj_141f3e5dbe3a",
+        "category_id": "category_05",
+        "name_zh": "蓝色箱组 01",
+        "name_en": "Blue bin group 01",
+        "bbox": {
+          "center": [
+            1.8982143136791598,
+            0.918864094880959,
+            0.340919773189663
+          ],
+          "size": [
+            1.1006855289669342,
+            1.112896034191583,
+            0.598160453620674
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "needs_improvement",
+        "quality_record": {
+          "note_zh": "只保留部分蓝箱表面，前方小架仍混入；原始重建、遮挡及跨材质亲和筛选共同影响。0.80/0.90比较未明显改善，常规精细查询停用。",
+          "diagnosis": "E",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": false,
+        "gaussian_indices": null,
+        "location_source": "M0 r29",
+        "representation": "M0_location_only"
+      },
+      {
+        "object_id": "obj_3c963764ddb5",
+        "category_id": "category_05",
+        "name_zh": "蓝色箱组 02",
+        "name_en": "Blue bin group 02",
+        "bbox": {
+          "center": [
+            1.69263318223181,
+            6.014665271862771,
+            0.2755891561480108
+          ],
+          "size": [
+            0.7475826467446662,
+            1.4880602741741327,
+            0.7287693677671694
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "partial_usable",
+        "quality_record": {
+          "note_zh": "保留箱组的可见上表面和局部立面；部分原始箱体已不完整，另有亲和筛选孔洞。有限阈值比较无明确收益，查询明确显示局部实例。",
+          "diagnosis": "E",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_3c963764ddb5/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_7463bab859d0",
+        "category_id": "category_05",
+        "name_zh": "蓝色箱组 03",
+        "name_en": "Blue bin group 03",
+        "bbox": {
+          "center": [
+            1.0412862348546634,
+            6.45491429638748,
+            0.2945728173515998
+          ],
+          "size": [
+            0.66703938376227,
+            0.5523404361430511,
+            0.770622185725514
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "partial_usable",
+        "quality_record": {
+          "note_zh": "原始高斯主要表达箱组的部分可见面；提取保留这些结构，不宣称获得完整箱体。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_7463bab859d0/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      }
+    ],
+    "relation_evidence": [],
+    "renderable_object_ids": [
+      "obj_3c963764ddb5",
+      "obj_7463bab859d0"
+    ],
+    "unavailable_object_ids": [
+      "obj_141f3e5dbe3a"
+    ],
+    "segmentation_rerun": false,
+    "geometry_scope": "all M0 equipment nodes",
+    "reference_semantics": "union over explicitly listed matching anchors",
+    "target_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_05",
+        "method": "exact_known_alias",
+        "query": "蓝色箱组",
+        "abstained": false
+      }
+    },
+    "known_category_instances": [
+      "obj_141f3e5dbe3a",
+      "obj_3c963764ddb5",
+      "obj_7463bab859d0"
+    ],
+    "same_category_candidates_before": 3,
+    "matches_after": 3
+  },
+  "excluded_same_class": [
+    "obj_7463bab859d0"
+  ]
+}

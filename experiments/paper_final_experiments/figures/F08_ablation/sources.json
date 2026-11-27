@@ -1,0 +1,66 @@
+{
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/evaluation/pseudo_ground_truth/Q006/frame_000321/original_rgb.png": {
+    "bytes": 761974,
+    "sha256": "073a142611296bb3f53d6498fd5ecf404d5dc450b2b4c521e3d4a38bb5cf17bf"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E02_ablation/predictions/box_gated/Q006/frame_000321/mask.png": {
+    "bytes": 1820,
+    "sha256": "228cabac3778ae485f4115b160c1469335b57418431291defca051533084813b"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E02_ablation/predictions/no_relation/Q006/frame_000321/mask.png": {
+    "bytes": 3483,
+    "sha256": "6188482131df3b7d0dd37daef17759f161048e672d44e827858cc944050c278e"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E02_ablation/predictions/ours/Q006/frame_000321/mask.png": {
+    "bytes": 1631,
+    "sha256": "68f87448d640b62156398f84d68d97b79e8681aebfc1746259b388b505cce427"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/evaluation/pseudo_ground_truth/Q007/frame_000185/original_rgb.png": {
+    "bytes": 721311,
+    "sha256": "aa729c8615c0a171df256fa8acc29c40b5d98578051a329b3ee439960a795843"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E02_ablation/predictions/box_gated/Q007/frame_000185/mask.png": {
+    "bytes": 1713,
+    "sha256": "b6e00c99b0b4e82549ca71baad12d3a6edec8dd822b20aaaff569224aa773162"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E02_ablation/predictions/no_relation/Q007/frame_000185/mask.png": {
+    "bytes": 3695,
+    "sha256": "c5abd38f2e9a8ce89d17c3bc7d46f919f272300ed19ce49a8d86061eb4e05574"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E02_ablation/predictions/ours/Q007/frame_000185/mask.png": {
+    "bytes": 1488,
+    "sha256": "61d404f79e927f45b2c0ba929c351afc1a1b8bc7f836ebba8f8c25d398fb8018"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/evaluation/pseudo_ground_truth/Q011/frame_000177/original_rgb.png": {
+    "bytes": 706915,
+    "sha256": "b0bc1514d8ab78e15868fbfe1cdbb09b327b98788bc78462ec0334e2b91e5cfd"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E02_ablation/predictions/box_gated/Q011/frame_000177/mask.png": {
+    "bytes": 3191,
+    "sha256": "44bdbe7f874ccfae8212a20ce1640afea15f1fb9c32fdb2e3bd099a9c0b286fd"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E02_ablation/predictions/no_relation/Q011/frame_000177/mask.png": {
+    "bytes": 3078,
+    "sha256": "00552b2a060cbfe38b98635a138dfbc6f233bf0375aacc4883839e38afadd448"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E02_ablation/predictions/ours/Q011/frame_000177/mask.png": {
+    "bytes": 2835,
+    "sha256": "343bd38736432afdf98bba97c738f0cebc04e573b1dbf63e4794ba794dbed858"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/evaluation/pseudo_ground_truth/Q024/frame_000313/original_rgb.png": {
+    "bytes": 793307,
+    "sha256": "5e1040b76d007c3cfa670d5d34de908ae4719ef2e2f15b3da9560ab6cc38dd05"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E02_ablation/predictions/box_gated/Q024/frame_000313/mask.png": {
+    "bytes": 2430,
+    "sha256": "aa815d10b7f730bbd61723adf6e0288c2a9ed22fd53ef68ae4c42f90844c3384"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E02_ablation/predictions/no_relation/Q024/frame_000313/mask.png": {
+    "bytes": 4347,
+    "sha256": "ddd75996f42021623129d505ee7b44bc43757fc931ed91843be74526ac9def90"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E02_ablation/predictions/ours/Q024/frame_000313/mask.png": {
+    "bytes": 2217,
+    "sha256": "a9c764c1259dc328a6f580853634ab94535962ebd1a590bb7e321d8ca37ce2c3"
+  }
+}

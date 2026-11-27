@@ -1,0 +1,237 @@
+{
+  "query": {
+    "query_id": "Q017",
+    "subject_category": "compartmented material rack",
+    "subject_category_id": "category_08",
+    "predicate": "behind",
+    "predicate_ours": "behind",
+    "predicate_relags": "behind",
+    "object_category": "upright portable air cooler",
+    "object_category_id": "category_06",
+    "query_en": "compartmented material rack behind the upright portable air cooler",
+    "query_zh": "位于立式移动冷风机后方的分隔式料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000305",
+      "frame_000169"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "raw_relation_query": {
+    "query": "位于立式移动冷风机后方的分隔式料架",
+    "status": "ok",
+    "relation": "behind",
+    "anchor_text": "立式移动冷风机",
+    "target_text": "分隔式料架",
+    "matched_object_ids": [
+      "obj_5746b7e7d040"
+    ],
+    "objects": [
+      {
+        "object_id": "obj_5746b7e7d040",
+        "category_id": "category_08",
+        "name_zh": "分隔式料架 01",
+        "name_en": "Compartment rack 01",
+        "bbox": {
+          "center": [
+            2.026993985374096,
+            3.411873689454221,
+            0.40709851886195747
+          ],
+          "size": [
+            0.7643379100115125,
+            1.4110884644503603,
+            0.8584977381520096
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "partial_usable",
+        "quality_record": {
+          "note_zh": "两段相连架体和顶部保留；深色槽内及背侧不完整，保留原始局部实例。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_5746b7e7d040/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      }
+    ],
+    "relation_evidence": [
+      {
+        "subject": "obj_5746b7e7d040",
+        "relation": "behind",
+        "object": "obj_c57876bf22ca",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.851135016221705,
+          "center_delta": [
+            0.5479196848631791,
+            -1.672207510703498,
+            0.23863080794630562
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ],
+    "renderable_object_ids": [
+      "obj_5746b7e7d040"
+    ],
+    "unavailable_object_ids": [],
+    "segmentation_rerun": false,
+    "geometry_scope": "all M0 equipment nodes",
+    "reference_semantics": "union over explicitly listed matching anchors",
+    "target_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_08",
+        "method": "exact_known_alias",
+        "query": "分隔式料架",
+        "abstained": false
+      }
+    },
+    "known_category_instances": [
+      "obj_c7c9293c6c6d",
+      "obj_5746b7e7d040"
+    ],
+    "same_category_candidates_before": 2,
+    "anchor_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_06",
+        "method": "exact_known_alias",
+        "query": "立式移动冷风机",
+        "abstained": false
+      }
+    },
+    "anchor_object_ids": [
+      "obj_e57b3a886c2d",
+      "obj_04c477562e49",
+      "obj_c57876bf22ca"
+    ],
+    "matches_after": 1
+  },
+  "raw_category_query": {
+    "query": "分隔式料架",
+    "status": "ok",
+    "relation": null,
+    "anchor_text": null,
+    "target_text": "分隔式料架",
+    "matched_object_ids": [
+      "obj_c7c9293c6c6d",
+      "obj_5746b7e7d040"
+    ],
+    "objects": [
+      {
+        "object_id": "obj_c7c9293c6c6d",
+        "category_id": "category_08",
+        "name_zh": "分隔式料架 02",
+        "name_en": "Compartment rack 02",
+        "bbox": {
+          "center": [
+            1.9197415735908059,
+            4.644184029649565,
+            0.3342530202778131
+          ],
+          "size": [
+            0.5944764885464938,
+            1.0060694402682788,
+            0.7638748771115469
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "partial_usable",
+        "quality_record": {
+          "note_zh": "分隔式架体轮廓与正面槽位可辨；背面和部分内槽原始重建不足，不能要求恢复不存在的面。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_c7c9293c6c6d/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_5746b7e7d040",
+        "category_id": "category_08",
+        "name_zh": "分隔式料架 01",
+        "name_en": "Compartment rack 01",
+        "bbox": {
+          "center": [
+            2.026993985374096,
+            3.411873689454221,
+            0.40709851886195747
+          ],
+          "size": [
+            0.7643379100115125,
+            1.4110884644503603,
+            0.8584977381520096
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "partial_usable",
+        "quality_record": {
+          "note_zh": "两段相连架体和顶部保留；深色槽内及背侧不完整，保留原始局部实例。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_5746b7e7d040/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      }
+    ],
+    "relation_evidence": [],
+    "renderable_object_ids": [
+      "obj_c7c9293c6c6d",
+      "obj_5746b7e7d040"
+    ],
+    "unavailable_object_ids": [],
+    "segmentation_rerun": false,
+    "geometry_scope": "all M0 equipment nodes",
+    "reference_semantics": "union over explicitly listed matching anchors",
+    "target_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_08",
+        "method": "exact_known_alias",
+        "query": "分隔式料架",
+        "abstained": false
+      }
+    },
+    "known_category_instances": [
+      "obj_c7c9293c6c6d",
+      "obj_5746b7e7d040"
+    ],
+    "same_category_candidates_before": 2,
+    "matches_after": 2
+  },
+  "excluded_same_class": [
+    "obj_c7c9293c6c6d"
+  ]
+}

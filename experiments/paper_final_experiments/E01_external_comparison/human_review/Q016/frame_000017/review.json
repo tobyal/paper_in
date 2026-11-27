@@ -1,0 +1,51 @@
+{
+  "query": {
+    "query_id": "Q016",
+    "subject_category": "assembly fixture table",
+    "subject_category_id": "category_02",
+    "predicate": "behind",
+    "predicate_ours": "behind",
+    "predicate_relags": "behind",
+    "object_category": "workbench",
+    "object_category_id": "category_07",
+    "query_en": "assembly fixture table behind the workbench",
+    "query_zh": "位于工作台后方的装配夹具台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000193",
+      "frame_000017"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 2; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "target_object_ids": [
+    "obj_8429bc5f3c33",
+    "obj_d058f708eb01"
+  ],
+  "current_reference_review": {
+    "query_id": "Q016",
+    "camera_id": "frame_000017",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01"
+    ],
+    "task_ids": [
+      "T007",
+      "T008"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 22671,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q016/frame_000017/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q016/frame_000017/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  "independent_human_review_status": "not_confirmed",
+  "instruction": "Review original RGB, target identity, visible extent and gaps. Do not consult any method prediction. Any edited reference must create a new version and evaluate every method on the same sample set."
+}

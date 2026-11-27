@@ -1,0 +1,5 @@
+N01 frame_000009 {'camera_id': 'frame_000009', 'target_box_coverage': 1.0, 'anchor_box_coverage': 1.0, 'visible_pixels': 4719, 'complete': True}
+N02 frame_000225 {'camera_id': 'frame_000225', 'target_box_coverage': 1.0, 'anchor_box_coverage': 1.0, 'visible_pixels': 6063, 'complete': True}
+N03 frame_000177 {'camera_id': 'frame_000177', 'target_box_coverage': 1.0, 'anchor_box_coverage': 0.9420266553684905, 'visible_pixels': 2276, 'complete': True}
+N04 frame_000025 {'camera_id': 'frame_000025', 'target_box_coverage': 1.0, 'anchor_box_coverage': 1.0, 'visible_pixels': 4948, 'complete': True}
+N05 frame_000193 {'camera_id': 'frame_000193', 'target_box_coverage': 1.0, 'anchor_box_coverage': 1.0, 'visible_pixels': 15109, 'complete': True}

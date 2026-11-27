@@ -1,0 +1,9 @@
+{
+  "exit_code": 0,
+  "wall_seconds": 0.27708004880696535,
+  "command": [
+    "../saga_relags_v1/envs/saga/bin/python",
+    "scripts/efficiency.py"
+  ],
+  "finished_utc": "2026-11-27T07:57:29.645548+00:00"
+}

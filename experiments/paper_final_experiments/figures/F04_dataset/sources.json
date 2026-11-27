@@ -1,0 +1,50 @@
+{
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/evaluation/pseudo_ground_truth/Q001/frame_000329/original_rgb.png": {
+    "bytes": 764336,
+    "sha256": "61a6ee1610bdc5be3f13c75802bed5864feef2899851063216e6071aca890c27"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/evaluation/pseudo_ground_truth/Q003/frame_000113/original_rgb.png": {
+    "bytes": 796799,
+    "sha256": "12accd175e74c1bc768670290afc3394e5cd8a67002a49365217489069ebaf6a"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/evaluation/pseudo_ground_truth/Q005/frame_000217/original_rgb.png": {
+    "bytes": 748354,
+    "sha256": "397a70eaf2a324abfdc6a46fef702f4a12e204c8d0b5f627c9969d277925c94e"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E04_relation_retrieval/scene/frame_000329_native.png": {
+    "bytes": 2057733,
+    "sha256": "7dea18d16bfd7ced79c37ec2f347318641e9381617731d153ed6b30d879a1eb6"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/extractions/refined/objects/obj_f9a0e863e32d/visualizations/real_crop.jpg": {
+    "bytes": 27838,
+    "sha256": "6b21c3dca8c875140416a400f51a377980e8fd90bb2d160e7d8a8c12c10e393e"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/extractions/refined/objects/obj_8429bc5f3c33/visualizations/real_crop.jpg": {
+    "bytes": 28685,
+    "sha256": "2815bd26bf3d954ef973933e0faae9f9aa8d13ce03284ae4c5c24c03a602a308"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/extractions/refined/objects/obj_ad85774e5f18/visualizations/real_crop.jpg": {
+    "bytes": 56078,
+    "sha256": "f66360be7f4992d834db09efdaee46923b851e84e6f93976b5beb0a651527fd4"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/extractions/refined/objects/obj_aad6e7f85a9a/visualizations/real_crop.jpg": {
+    "bytes": 53804,
+    "sha256": "318526f3db7b512a1b0125b561b141a8f2d1c2504ed6d487a1449bc37ae99812"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/extractions/refined/objects/obj_7463bab859d0/visualizations/real_crop.jpg": {
+    "bytes": 45512,
+    "sha256": "266d6240ca0ad81a368ba1ced85c1226e34fb984b2160241e2ebc704fe53043d"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/extractions/refined/objects/obj_e57b3a886c2d/visualizations/real_crop.jpg": {
+    "bytes": 14323,
+    "sha256": "3b32f06a8e1f455c2c253dac9b885d87c8157842ab5b568f0b54a56b86a72e8c"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/extractions/refined/objects/obj_2e1a6e5960f5/visualizations/real_crop.jpg": {
+    "bytes": 25218,
+    "sha256": "5df54eb3d141eab77f8841069d86aeb66b73da3279e20ade65ccf069dab12ce1"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/extractions/refined/objects/obj_c7c9293c6c6d/visualizations/real_crop.jpg": {
+    "bytes": 48148,
+    "sha256": "bf117083af5c0b43838049d9a5af777f258493d7efa73487c96a7d989becac59"
+  }
+}

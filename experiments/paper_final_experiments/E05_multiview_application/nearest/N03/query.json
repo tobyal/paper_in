@@ -1,0 +1,136 @@
+{
+  "query": "multi-tier material rack nearest to Compartment rack 02",
+  "status": "ok",
+  "relation": "nearest_to",
+  "anchor_text": "Compartment rack 02",
+  "target_text": "multi-tier material rack",
+  "matched_object_ids": [
+    "obj_06d9693cfb0a"
+  ],
+  "objects": [
+    {
+      "object_id": "obj_06d9693cfb0a",
+      "category_id": "category_04",
+      "name_zh": "多层料架 06",
+      "name_en": "Multi-tier rack 06",
+      "bbox": {
+        "center": [
+          1.4605776859764394,
+          4.579562148921754,
+          0.19181749863220474
+        ],
+        "size": [
+          0.2175417200941808,
+          0.6623019829250625,
+          0.46964497082341033
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "reconstruction_status": "well_reconstructed",
+      "extraction_status": "usable",
+      "quality_record": {
+        "note_zh": "窄架及蓝箱主体保留，底部有少量地面/漂浮残留。",
+        "diagnosis": "D",
+        "reviewer": "Codex visual inspection"
+      },
+      "fine_instance_available": true,
+      "gaussian_indices": "instances/obj_06d9693cfb0a/gaussian_indices.npy",
+      "location_source": "M0 r29",
+      "representation": "SAGA_instance"
+    }
+  ],
+  "relation_evidence": [
+    {
+      "subject": "obj_06d9693cfb0a",
+      "relation": "nearest_to",
+      "object": "obj_c7c9293c6c6d",
+      "source": "industrial_geometry",
+      "evidence": {
+        "target_category": "category_04",
+        "center_distance": 0.4850725110582896,
+        "tie_tolerance": 1e-06,
+        "candidate_distances": [
+          {
+            "object_id": "obj_485ade540e7d",
+            "distance": 1.613363056246046
+          },
+          {
+            "object_id": "obj_126125e3a773",
+            "distance": 5.465113911942094
+          },
+          {
+            "object_id": "obj_aad6e7f85a9a",
+            "distance": 3.4725349222693715
+          },
+          {
+            "object_id": "obj_5bfd32389355",
+            "distance": 2.454208119408194
+          },
+          {
+            "object_id": "obj_b7e0494ce9dd",
+            "distance": 5.9553932377139125
+          },
+          {
+            "object_id": "obj_b8542dc54ed2",
+            "distance": 4.899216203495577
+          },
+          {
+            "object_id": "obj_06d9693cfb0a",
+            "distance": 0.4850725110582896
+          },
+          {
+            "object_id": "obj_933bd7d6e703",
+            "distance": 3.0313862479734306
+          },
+          {
+            "object_id": "obj_dee5bef52687",
+            "distance": 3.0710577352285906
+          }
+        ],
+        "units": "SfM relative units"
+      }
+    }
+  ],
+  "renderable_object_ids": [
+    "obj_06d9693cfb0a"
+  ],
+  "unavailable_object_ids": [],
+  "segmentation_rerun": false,
+  "geometry_scope": "all M0 equipment nodes",
+  "reference_semantics": "union over explicitly listed matching anchors",
+  "target_match": {
+    "method": "category",
+    "status": "ok",
+    "category_match": {
+      "category_id": "category_04",
+      "method": "exact_known_alias",
+      "query": "multi-tier material rack",
+      "abstained": false
+    }
+  },
+  "known_category_instances": [
+    "obj_485ade540e7d",
+    "obj_126125e3a773",
+    "obj_aad6e7f85a9a",
+    "obj_5bfd32389355",
+    "obj_b7e0494ce9dd",
+    "obj_b8542dc54ed2",
+    "obj_06d9693cfb0a",
+    "obj_933bd7d6e703",
+    "obj_dee5bef52687"
+  ],
+  "same_category_candidates_before": 9,
+  "anchor_match": {
+    "method": "exact_equipment_identity",
+    "status": "ok"
+  },
+  "anchor_object_ids": [
+    "obj_c7c9293c6c6d"
+  ],
+  "matches_after": 1
+}

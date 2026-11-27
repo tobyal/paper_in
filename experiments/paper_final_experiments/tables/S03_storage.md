@@ -1,0 +1,14 @@
+# S03_storage
+
+| Asset | Bytes | MiB | Source |
+| --- | --- | --- | --- |
+| native_3dgs | 453538228 | 432.528 | /mnt/sda/ubuntu/lkx/papers/paper_in/data/gaussian_scene/original_3dgs/point_cloud/iteration_30000/point_cloud.ply |
+| saga_shared_checkpoint | 336495949 | 320.908 | /mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/A/saga_model/point_cloud/iteration_10000/contrastive_feature_point_cloud.ply |
+| saga_scale_gate | 1834 | 0.002 | /mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/A/saga_model/point_cloud/iteration_10000/scale_gate.pt |
+| category_prototypes | 33882 | 0.032 | /mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/world_model/category_features.npz |
+| relation_graph | 1169372 | 1.115 | /mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/world_model/scene_graph.json |
+| clip_weights | 598529951 | 570.803 | /mnt/sda/ubuntu/lkx/papers/paper_in/models/openclip_vit_b16/open_clip_pytorch_model.bin |
+| all33_gaussian_ids | 5856808 | 5.585 | /mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/extractions/refined/objects |
+| all33_independent_ply | 181480589 | 173.073 | /mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/extractions/refined/objects |
+
+Storage from actual file sizes; model paths stay on server.

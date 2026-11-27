@@ -1,0 +1,9 @@
+{
+  "exit_code": 0,
+  "wall_seconds": 13.732055868022144,
+  "command": [
+    "../saga_relags_v1/envs/saga/bin/python",
+    "scripts/refine_nearest_display.py"
+  ],
+  "finished_utc": "2026-11-27T08:12:33.048219+00:00"
+}

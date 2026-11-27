@@ -1,0 +1,56 @@
+[
+  {
+    "object_id": "obj_06d9693cfb0a",
+    "name_en": "Multi-tier rack 06",
+    "center_distance": 0.4850725110582896,
+    "fine_available": true
+  },
+  {
+    "object_id": "obj_485ade540e7d",
+    "name_en": "Multi-tier rack 05",
+    "center_distance": 1.613363056246046,
+    "fine_available": false
+  },
+  {
+    "object_id": "obj_5bfd32389355",
+    "name_en": "Multi-tier rack 04",
+    "center_distance": 2.454208119408194,
+    "fine_available": true
+  },
+  {
+    "object_id": "obj_933bd7d6e703",
+    "name_en": "Multi-tier rack 09",
+    "center_distance": 3.0313862479734306,
+    "fine_available": true
+  },
+  {
+    "object_id": "obj_dee5bef52687",
+    "name_en": "Multi-tier rack 07",
+    "center_distance": 3.0710577352285906,
+    "fine_available": false
+  },
+  {
+    "object_id": "obj_aad6e7f85a9a",
+    "name_en": "Multi-tier rack 08",
+    "center_distance": 3.4725349222693715,
+    "fine_available": true
+  },
+  {
+    "object_id": "obj_b8542dc54ed2",
+    "name_en": "Multi-tier rack 03",
+    "center_distance": 4.899216203495577,
+    "fine_available": true
+  },
+  {
+    "object_id": "obj_126125e3a773",
+    "name_en": "Multi-tier rack 02",
+    "center_distance": 5.465113911942094,
+    "fine_available": true
+  },
+  {
+    "object_id": "obj_b7e0494ce9dd",
+    "name_en": "Multi-tier rack 01",
+    "center_distance": 5.9553932377139125,
+    "fine_available": true
+  }
+]

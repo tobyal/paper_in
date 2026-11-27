@@ -1,0 +1,488 @@
+{
+  "query": {
+    "query_id": "Q006",
+    "subject_category": "material cart",
+    "subject_category_id": "category_01",
+    "predicate": "right of",
+    "predicate_ours": "right_of",
+    "predicate_relags": "right",
+    "object_category": "multi-tier material rack",
+    "object_category_id": "category_04",
+    "query_en": "material cart to the right of the multi-tier material rack",
+    "query_zh": "位于多层料架右侧的物料车",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000321",
+      "frame_000273"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 6 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "raw_relation_query": {
+    "query": "位于多层料架右侧的物料车",
+    "status": "ok",
+    "relation": "right_of",
+    "anchor_text": "多层料架",
+    "target_text": "物料车",
+    "matched_object_ids": [
+      "obj_f9a0e863e32d"
+    ],
+    "objects": [
+      {
+        "object_id": "obj_f9a0e863e32d",
+        "category_id": "category_01",
+        "name_zh": "物料车 03",
+        "name_en": "Material cart 03",
+        "bbox": {
+          "center": [
+            0.3203496090971163,
+            3.038892348107301,
+            0.3024030610839519
+          ],
+          "size": [
+            0.5731912350422347,
+            0.7528548424211999,
+            0.6282605860009616
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "well_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "直接复用v1；箱体和车架完整，边缘少量原始重建伪影。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_f9a0e863e32d/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      }
+    ],
+    "relation_evidence": [
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_126125e3a773",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.381742575650091,
+          "center_delta": [
+            1.4383391878120244,
+            2.9377946912166335,
+            -0.036922085653839865
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_aad6e7f85a9a",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.448154669616324,
+          "center_delta": [
+            1.4638273356486589,
+            -3.2386643400478663,
+            0.053473332245882244
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_b7e0494ce9dd",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.944503122729039,
+          "center_delta": [
+            1.3540298670898454,
+            3.566139390460511,
+            -0.049421756443725984
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_b8542dc54ed2",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.7276685987559606,
+          "center_delta": [
+            1.4137010065641362,
+            2.257782592546658,
+            -0.04757602761184199
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_933bd7d6e703",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.835142945126227,
+          "center_delta": [
+            0.8016124089231573,
+            -3.454927845513617,
+            0.02582710873565619
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_dee5bef52687",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.272747314680956,
+          "center_delta": [
+            1.4634799458334702,
+            -1.8249326493695444,
+            0.012524800389829782
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ],
+    "renderable_object_ids": [
+      "obj_f9a0e863e32d"
+    ],
+    "unavailable_object_ids": [],
+    "segmentation_rerun": false,
+    "geometry_scope": "all M0 equipment nodes",
+    "reference_semantics": "union over explicitly listed matching anchors",
+    "target_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_01",
+        "method": "exact_known_alias",
+        "query": "物料车",
+        "abstained": false
+      }
+    },
+    "known_category_instances": [
+      "obj_f9a0e863e32d",
+      "obj_4fd05384c476",
+      "obj_3efbeb5e8179",
+      "obj_7047e5f33259",
+      "obj_c0162cd69680",
+      "obj_57b0f30bdd9e"
+    ],
+    "same_category_candidates_before": 6,
+    "anchor_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_04",
+        "method": "exact_known_alias",
+        "query": "多层料架",
+        "abstained": false
+      }
+    },
+    "anchor_object_ids": [
+      "obj_485ade540e7d",
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_5bfd32389355",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_06d9693cfb0a",
+      "obj_933bd7d6e703",
+      "obj_dee5bef52687"
+    ],
+    "matches_after": 1
+  },
+  "raw_category_query": {
+    "query": "物料车",
+    "status": "ok",
+    "relation": null,
+    "anchor_text": null,
+    "target_text": "物料车",
+    "matched_object_ids": [
+      "obj_f9a0e863e32d",
+      "obj_4fd05384c476",
+      "obj_3efbeb5e8179",
+      "obj_7047e5f33259",
+      "obj_c0162cd69680",
+      "obj_57b0f30bdd9e"
+    ],
+    "objects": [
+      {
+        "object_id": "obj_f9a0e863e32d",
+        "category_id": "category_01",
+        "name_zh": "物料车 03",
+        "name_en": "Material cart 03",
+        "bbox": {
+          "center": [
+            0.3203496090971163,
+            3.038892348107301,
+            0.3024030610839519
+          ],
+          "size": [
+            0.5731912350422347,
+            0.7528548424211999,
+            0.6282605860009616
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "well_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "直接复用v1；箱体和车架完整，边缘少量原始重建伪影。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_f9a0e863e32d/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_4fd05384c476",
+        "category_id": "category_01",
+        "name_zh": "物料车 06",
+        "name_en": "Material cart 06",
+        "bbox": {
+          "center": [
+            -1.1317571196223535,
+            5.49751446726379,
+            0.3017582031813671
+          ],
+          "size": [
+            0.8668250484399223,
+            0.5580783456992681,
+            0.7573614198226924
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "车体框架及已重建箱面保留；遮挡背面在原始场景中存在模糊。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_4fd05384c476/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_3efbeb5e8179",
+        "category_id": "category_01",
+        "name_zh": "物料车 05",
+        "name_en": "Material cart 05",
+        "bbox": {
+          "center": [
+            -1.0441140005146106,
+            3.9834423038783635,
+            0.2640952951314075
+          ],
+          "size": [
+            0.9545608106173601,
+            0.5824630648220313,
+            0.6074605321167859
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "主要车架及箱体范围保留，布罩和背侧原始重建欠完整。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_3efbeb5e8179/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_7047e5f33259",
+        "category_id": "category_01",
+        "name_zh": "物料车 04",
+        "name_en": "Material cart 04",
+        "bbox": {
+          "center": [
+            -1.1575430504786524,
+            3.1437380978969944,
+            0.3426079996656776
+          ],
+          "size": [
+            1.085019163303957,
+            0.5513576710625292,
+            0.7237675549534278
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "partial_usable",
+        "quality_record": {
+          "note_zh": "原生场景中只有展开箱面及底部局部结构，提取保留该实际形态；不补造不可见侧面。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_7047e5f33259/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_c0162cd69680",
+        "category_id": "category_01",
+        "name_zh": "物料车 02",
+        "name_en": "Material cart 02",
+        "bbox": {
+          "center": [
+            -0.9784095993621313,
+            2.048337585840815,
+            0.324269511019875
+          ],
+          "size": [
+            0.7740350590973742,
+            0.6907989079671565,
+            0.6335431130270219
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "箱体和布罩主体保留；原始视角截断、背面模糊及边缘漂浮仍可见。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_c0162cd69680/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_57b0f30bdd9e",
+        "category_id": "category_01",
+        "name_zh": "物料车 01",
+        "name_en": "Material cart 01",
+        "bbox": {
+          "center": [
+            -1.0354247188939238,
+            1.3890677385733508,
+            0.33388672805354636
+          ],
+          "size": [
+            0.640952557166137,
+            0.5913993872608642,
+            0.6176697099074393
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "直接复用v1；箱体及蓝色内部主体保留，顶部和背侧仍有原始漂浮。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_57b0f30bdd9e/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      }
+    ],
+    "relation_evidence": [],
+    "renderable_object_ids": [
+      "obj_f9a0e863e32d",
+      "obj_4fd05384c476",
+      "obj_3efbeb5e8179",
+      "obj_7047e5f33259",
+      "obj_c0162cd69680",
+      "obj_57b0f30bdd9e"
+    ],
+    "unavailable_object_ids": [],
+    "segmentation_rerun": false,
+    "geometry_scope": "all M0 equipment nodes",
+    "reference_semantics": "union over explicitly listed matching anchors",
+    "target_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_01",
+        "method": "exact_known_alias",
+        "query": "物料车",
+        "abstained": false
+      }
+    },
+    "known_category_instances": [
+      "obj_f9a0e863e32d",
+      "obj_4fd05384c476",
+      "obj_3efbeb5e8179",
+      "obj_7047e5f33259",
+      "obj_c0162cd69680",
+      "obj_57b0f30bdd9e"
+    ],
+    "same_category_candidates_before": 6,
+    "matches_after": 6
+  },
+  "excluded_same_class": [
+    "obj_3efbeb5e8179",
+    "obj_4fd05384c476",
+    "obj_57b0f30bdd9e",
+    "obj_7047e5f33259",
+    "obj_c0162cd69680"
+  ]
+}

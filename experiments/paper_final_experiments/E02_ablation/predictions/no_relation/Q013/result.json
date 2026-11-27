@@ -1,0 +1,38 @@
+{
+  "variant": "no_relation",
+  "query_id": "Q013",
+  "status": "completed",
+  "returned_object_ids": [
+    "obj_f9a0e863e32d",
+    "obj_4fd05384c476",
+    "obj_3efbeb5e8179",
+    "obj_7047e5f33259",
+    "obj_c0162cd69680",
+    "obj_57b0f30bdd9e"
+  ],
+  "matched_object_ids": [
+    "obj_4fd05384c476"
+  ],
+  "category_candidate_ids": [
+    "obj_f9a0e863e32d",
+    "obj_4fd05384c476",
+    "obj_3efbeb5e8179",
+    "obj_7047e5f33259",
+    "obj_c0162cd69680",
+    "obj_57b0f30bdd9e"
+  ],
+  "unavailable_ids": [],
+  "gaussian_count": 101663,
+  "views": [
+    {
+      "camera_id": "frame_000297",
+      "mask_pixels": 36487
+    },
+    {
+      "camera_id": "frame_000065",
+      "mask_pixels": 25873
+    }
+  ],
+  "wall_seconds": 0.13423420954495668,
+  "reused_prediction": false
+}

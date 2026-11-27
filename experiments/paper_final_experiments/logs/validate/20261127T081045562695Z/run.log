@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "protected_existing_files": 16365,
+  "modified_existing_files": [],
+  "missing_existing_files": [],
+  "critical_lock_hashes_passed": true,
+  "ablation_binary_masks": 350,
+  "variants": 7,
+  "queries": 25,
+  "views_per_query": 2,
+  "main_valid_queries": 23,
+  "main_valid_views": 44,
+  "ours_predictions_pixel_exact": true,
+  "box_gated_identity_exact": true,
+  "scene_nodes": 33,
+  "scene_edges": 2020,
+  "nearest_cases": 5,
+  "multiview": [
+    {
+      "query_id": "Q003",
+      "direction_separations_deg": [
+        52.18405003957632,
+        58.67841657732899,
+        71.56913737038091
+      ],
+      "fixed_ids_exact": true
+    },
+    {
+      "query_id": "Q006",
+      "direction_separations_deg": [
+        52.12603592393323,
+        58.60970165432481,
+        71.56505117707798
+      ],
+      "fixed_ids_exact": true
+    }
+  ],
+  "figures": [
+    {
+      "figure": "F04_dataset",
+      "size": [
+        3186,
+        3510
+      ],
+      "png_bytes": 6299008,
+      "svg_bytes": 7565800,
+      "subplots": 15,
+      "png_sha256": "8587ff425defda06b465319f6ac401f652fde376aae60a55324ddeeb43e50474"
+    },
+    {
+      "figure": "F05_external_comparison",
+      "size": [
+        3186,
+        2943
+      ],
+      "png_bytes": 2645113,
+      "svg_bytes": 13229410,
+      "subplots": 42,
+      "png_sha256": "d3dd146f42e97d3d0ee4042bbda4b94d4ca5a8ae6f097678e323359d64b86994"
+    },
+    {
+      "figure": "F06_entity_construction",
+      "size": [
+        3186,
+        2970
+      ],
+      "png_bytes": 3692655,
+      "svg_bytes": 4486522,
+      "subplots": 25,
+      "png_sha256": "b0a4ac5da926616316e879c3195eaf1aab1ce491e87ce825596f07a6aac6f723"
+    },
+    {
+      "figure": "F07_relation_retrieval",
+      "size": [
+        3186,
+        3510
+      ],
+      "png_bytes": 3495246,
+      "svg_bytes": 5618731,
+      "subplots": 6,
+      "png_sha256": "ec4c56c3b1e28b1eea9b0ad7fd74d0efce859112d2a63eba22317653b86dc3c9"
+    },
+    {
+      "figure": "F08_ablation",
+      "size": [
+        3186,
+        2025
+      ],
+      "png_bytes": 2212317,
+      "svg_bytes": 10146608,
+      "subplots": 24,
+      "png_sha256": "4f750b7279fe8b2697a38c0746adf43eb70c929cd7ce9f88ad935a746515d3c7"
+    },
+    {
+      "figure": "F09_multiview_application",
+      "size": [
+        3186,
+        3914
+      ],
+      "png_bytes": 3538396,
+      "svg_bytes": 4106049,
+      "subplots": 21,
+      "png_sha256": "8e844ddc6227e30980a0aecfa5a551fbf2e248113c01660991bbf584be83a19b"
+    }
+  ],
+  "complete_comparison_boards": 50,
+  "human_review_packages": 50,
+  "markdown_links": 119,
+  "reference_type": "SAM-assisted Pseudo-GT",
+  "independent_human_gt": false
+}

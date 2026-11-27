@@ -1,0 +1,278 @@
+{
+  "frozen_utc": "2026-11-26T16:10:06.681395+00:00",
+  "source_extraction": "outputs/A/extractions/refined",
+  "objects": [
+    {
+      "object_id": "obj_8429bc5f3c33",
+      "indices": "outputs/A/extractions/refined/objects/obj_8429bc5f3c33/gaussian_indices.npy",
+      "sha256": "765abcfc9d9595fceb88e98c8025c404764e4f61a9380ed7fe7e4141a012eb8f",
+      "ply": "outputs/A/extractions/refined/objects/obj_8429bc5f3c33/object.ply",
+      "ply_sha256": "cb2304b53e61379d3bde137c56dfeec51b283f3698f73b72e5f17aa193454056",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_d058f708eb01",
+      "indices": "outputs/A/extractions/refined/objects/obj_d058f708eb01/gaussian_indices.npy",
+      "sha256": "092b233c829b68e7000d54fe80b6635ec263532911ad660ac787250b10aaad8b",
+      "ply": "outputs/A/extractions/refined/objects/obj_d058f708eb01/object.ply",
+      "ply_sha256": "38f552f4e68b0b1ffe9dd477188488dab52c63aa35f5ae8ef3064285099dd7a6",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_09a35ba03c92",
+      "indices": "outputs/A/extractions/refined/objects/obj_09a35ba03c92/gaussian_indices.npy",
+      "sha256": "05282fb5d3cf87d6a5e9f0ef1c61d2920307099920e54ca969364f27dfa8eb5a",
+      "ply": "outputs/A/extractions/refined/objects/obj_09a35ba03c92/object.ply",
+      "ply_sha256": "a7aaa8663d9791770f5d1b174eea8783964005645b6b2a1d32d88274f338f271",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_ad85774e5f18",
+      "indices": "outputs/A/extractions/refined/objects/obj_ad85774e5f18/gaussian_indices.npy",
+      "sha256": "a74109e88386c2be55595deef9f8b110ab5deb8930e8eb90b960b1663830d655",
+      "ply": "outputs/A/extractions/refined/objects/obj_ad85774e5f18/object.ply",
+      "ply_sha256": "b3186525bd0aaa3f2b6959203c62787bf73f9576bafef44d95ce622954955f1c",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_c812ae8b15bd",
+      "indices": "outputs/A/extractions/refined/objects/obj_c812ae8b15bd/gaussian_indices.npy",
+      "sha256": "6c88dbff3b649f7c8ede6d0c98016c2c6be4d4bc84cf0050538f02b6946d6652",
+      "ply": "outputs/A/extractions/refined/objects/obj_c812ae8b15bd/object.ply",
+      "ply_sha256": "556384b4f05d6395518623d9bb3b0bd9dcfa76e8e2bba69e92a50c4873f7b374",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_485ade540e7d",
+      "indices": "outputs/A/extractions/refined/objects/obj_485ade540e7d/gaussian_indices.npy",
+      "sha256": "2c71b857cc6789739404844be524aabda23b9344a5869def0bf6564dd2fa3570",
+      "ply": "outputs/A/extractions/refined/objects/obj_485ade540e7d/object.ply",
+      "ply_sha256": "82197b29618da3159f5adcdd3975daaae72a797c1347f54e9a5513b1c481ec1e",
+      "fine_instance_available": false
+    },
+    {
+      "object_id": "obj_f9a0e863e32d",
+      "indices": "outputs/A/extractions/refined/objects/obj_f9a0e863e32d/gaussian_indices.npy",
+      "sha256": "c8fbaea0408a38fd08748a4a4e0d579265f1288d6187639d63bf8b0f123dcbb8",
+      "ply": "outputs/A/extractions/refined/objects/obj_f9a0e863e32d/object.ply",
+      "ply_sha256": "3d35e1ef903b8f8f48d09eb5b8c515dbba182c32953a709c7552d5874d7817b6",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_126125e3a773",
+      "indices": "outputs/A/extractions/refined/objects/obj_126125e3a773/gaussian_indices.npy",
+      "sha256": "0ddfb275705f318ef41164cc3e073b2c1df5bc58ab7678c34306d4b729c013ce",
+      "ply": "outputs/A/extractions/refined/objects/obj_126125e3a773/object.ply",
+      "ply_sha256": "8985117129c99e483f49f346f1b58ec56e820b1ac3ffcc5f5bc15cf21c4e23d2",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_aad6e7f85a9a",
+      "indices": "outputs/A/extractions/refined/objects/obj_aad6e7f85a9a/gaussian_indices.npy",
+      "sha256": "1c1a60de506db43b644ccccd9ee75a950b1e494d47f32794f8638b200f4102bc",
+      "ply": "outputs/A/extractions/refined/objects/obj_aad6e7f85a9a/object.ply",
+      "ply_sha256": "8949dbc7b8178e240f8bfafee0f8fd58e1372bb0bb108fdb157f12140bc9bb80",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_5bfd32389355",
+      "indices": "outputs/A/extractions/refined/objects/obj_5bfd32389355/gaussian_indices.npy",
+      "sha256": "269b385594f8462c6d873635102eea9b96b2b2fa92bb36c445290ae048d1784f",
+      "ply": "outputs/A/extractions/refined/objects/obj_5bfd32389355/object.ply",
+      "ply_sha256": "a751cc4fd7c0ba7937bcabb4ae9f9653ed8e25aab21911662cd31c6d52cf8348",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_141f3e5dbe3a",
+      "indices": "outputs/A/extractions/refined/objects/obj_141f3e5dbe3a/gaussian_indices.npy",
+      "sha256": "85cc998a244a8b780667324533feb04ccd36b76e7fedd89853b7523fcb08735d",
+      "ply": "outputs/A/extractions/refined/objects/obj_141f3e5dbe3a/object.ply",
+      "ply_sha256": "770b864bd77f8b5dffedc5e1201a331070d39f0e64aaf2f2480a6865f9b33b7a",
+      "fine_instance_available": false
+    },
+    {
+      "object_id": "obj_3c963764ddb5",
+      "indices": "outputs/A/extractions/refined/objects/obj_3c963764ddb5/gaussian_indices.npy",
+      "sha256": "a642df9a542f28f9290309f9f7b19403c450c7833fa232770aae553bd120e798",
+      "ply": "outputs/A/extractions/refined/objects/obj_3c963764ddb5/object.ply",
+      "ply_sha256": "851bb6c1a5079ee0e7a8c6174eea7b6b07941964f5f0770e3be141c3d0532686",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_e57b3a886c2d",
+      "indices": "outputs/A/extractions/refined/objects/obj_e57b3a886c2d/gaussian_indices.npy",
+      "sha256": "0cd2c40456cf2eaf230db7e054d3bbc0bc4774bcc0cc33868a56d6f3c2df147c",
+      "ply": "outputs/A/extractions/refined/objects/obj_e57b3a886c2d/object.ply",
+      "ply_sha256": "d03b215394704a52bfb701ddc99fd7823c042d98258b36929fad92b121717a8d",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_04c477562e49",
+      "indices": "outputs/A/extractions/refined/objects/obj_04c477562e49/gaussian_indices.npy",
+      "sha256": "4c95dd22be34673f5d204327a35fc9a5040e1b28026800c64fb7075c400f0a40",
+      "ply": "outputs/A/extractions/refined/objects/obj_04c477562e49/object.ply",
+      "ply_sha256": "2192da1d3718138dd324512539389dc55a771d7d3deb1be323c0f5d5ac7c7b1c",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_2e1a6e5960f5",
+      "indices": "outputs/A/extractions/refined/objects/obj_2e1a6e5960f5/gaussian_indices.npy",
+      "sha256": "353f985dd7f922a09d8e6b17c53fd0507425b25819be83aece29d2ac96153c09",
+      "ply": "outputs/A/extractions/refined/objects/obj_2e1a6e5960f5/object.ply",
+      "ply_sha256": "e963581c0d5d23b796c7427f86dfa4f0ad1acd2016ed3686ca9f3fd73d73cc71",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_8528f4bf8a3d",
+      "indices": "outputs/A/extractions/refined/objects/obj_8528f4bf8a3d/gaussian_indices.npy",
+      "sha256": "7274900c0874c2e6abf65d0a3ae264ebf2f2d72580ace5cf68414d5861fd8378",
+      "ply": "outputs/A/extractions/refined/objects/obj_8528f4bf8a3d/object.ply",
+      "ply_sha256": "904b4062d8de1501a818ebc3f02fe9e72829084086b350daf113a954e6d3b4bc",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_8e79bd39b8b9",
+      "indices": "outputs/A/extractions/refined/objects/obj_8e79bd39b8b9/gaussian_indices.npy",
+      "sha256": "f2518f65b975785a471598bfe03d6554acc2d81b85a6b3ac0c263371de430642",
+      "ply": "outputs/A/extractions/refined/objects/obj_8e79bd39b8b9/object.ply",
+      "ply_sha256": "fd2f462f8560e411dccd9d4aa5b024aea6e384a76e3a5284d237e56ed2759d09",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_087984e7c374",
+      "indices": "outputs/A/extractions/refined/objects/obj_087984e7c374/gaussian_indices.npy",
+      "sha256": "be8ae720653a408538b0b2df78778e0b8edd4ca7687de21a38d2c031504eaba5",
+      "ply": "outputs/A/extractions/refined/objects/obj_087984e7c374/object.ply",
+      "ply_sha256": "0381cc0c4f7b6de2d4492190de6e6a39d689ac204a5da7863b10c1d2732f3e2e",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_b7e0494ce9dd",
+      "indices": "outputs/A/extractions/refined/objects/obj_b7e0494ce9dd/gaussian_indices.npy",
+      "sha256": "b327679e3d493a4b4eb8a5b7bf3140f60ea0b1957e1f789a6d7b488d717cca51",
+      "ply": "outputs/A/extractions/refined/objects/obj_b7e0494ce9dd/object.ply",
+      "ply_sha256": "8060942aee9c26b2896a34ef245aa8058e9d554c65c721b8682afd0e50782dda",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_b8542dc54ed2",
+      "indices": "outputs/A/extractions/refined/objects/obj_b8542dc54ed2/gaussian_indices.npy",
+      "sha256": "e32846871f445d8246790fa09fc5cc50f80528948e93b6611e0bbaa123c9eb29",
+      "ply": "outputs/A/extractions/refined/objects/obj_b8542dc54ed2/object.ply",
+      "ply_sha256": "52b9024d53f5f30de23d96a23ff54fd9b81339af703f109040ece04550543858",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_7463bab859d0",
+      "indices": "outputs/A/extractions/refined/objects/obj_7463bab859d0/gaussian_indices.npy",
+      "sha256": "7fe3242f583fa7bebaa8ec198af9da9378a8d04d1a8f3853217b1ed73f788689",
+      "ply": "outputs/A/extractions/refined/objects/obj_7463bab859d0/object.ply",
+      "ply_sha256": "9331bcd0e260463948c945c80c62d44cf194ac0e753f9c6cf15c1f6ce19c5296",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_c57876bf22ca",
+      "indices": "outputs/A/extractions/refined/objects/obj_c57876bf22ca/gaussian_indices.npy",
+      "sha256": "d207230069efd64a3185ecb66c5f51a80e3356fef6aed0c63e36116be11c6f76",
+      "ply": "outputs/A/extractions/refined/objects/obj_c57876bf22ca/object.ply",
+      "ply_sha256": "73d2ca243cd8fa7f798120bfa6a7d85f9e19bf5e10b1349f0388882bb722387d",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_06d9693cfb0a",
+      "indices": "outputs/A/extractions/refined/objects/obj_06d9693cfb0a/gaussian_indices.npy",
+      "sha256": "77b11db8b778c9d8ffb03417c4b6f2853fec8991db375fef051be23034b063d0",
+      "ply": "outputs/A/extractions/refined/objects/obj_06d9693cfb0a/object.ply",
+      "ply_sha256": "71afe878edc3ee25c8b610309ce6de8a1e9cd99f6a5c8c9887ebaeb3dfd6f28a",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_c7c9293c6c6d",
+      "indices": "outputs/A/extractions/refined/objects/obj_c7c9293c6c6d/gaussian_indices.npy",
+      "sha256": "7e9a961fcdb36590b1ad4f5bac94c65cbd3e58ab0dfd8aa558cdf467476b9a1e",
+      "ply": "outputs/A/extractions/refined/objects/obj_c7c9293c6c6d/object.ply",
+      "ply_sha256": "b0a5b82372ccf305df0579dbb1d1168a00b9d1713fe353c4d876264f5b024f82",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_5746b7e7d040",
+      "indices": "outputs/A/extractions/refined/objects/obj_5746b7e7d040/gaussian_indices.npy",
+      "sha256": "8f95926acff0d8aa16a4f6183c2883af226a2a69cc2e68fa6126579a34cd8520",
+      "ply": "outputs/A/extractions/refined/objects/obj_5746b7e7d040/object.ply",
+      "ply_sha256": "e160c49b352a02d3bb38ec3e635406ecfacfd32a32424866cb093a18003cefbb",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_933bd7d6e703",
+      "indices": "outputs/A/extractions/refined/objects/obj_933bd7d6e703/gaussian_indices.npy",
+      "sha256": "2b48120bd61a0d07a630e4d1e73bd91eeec1e3ed171b4f0e00367da3c8315526",
+      "ply": "outputs/A/extractions/refined/objects/obj_933bd7d6e703/object.ply",
+      "ply_sha256": "f8ad4697c1bf97ac11b43279c278bc7c6cc00cf87e0ef77a7f89872d65ae925d",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_4fd05384c476",
+      "indices": "outputs/A/extractions/refined/objects/obj_4fd05384c476/gaussian_indices.npy",
+      "sha256": "e42b59037903b39146a10d4c07cc3ab4215bb3a9a281cb7581a29f420795e6d8",
+      "ply": "outputs/A/extractions/refined/objects/obj_4fd05384c476/object.ply",
+      "ply_sha256": "9c742f2db29361889ec232ce54237040f6493ec136ff4731f16089390487133b",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_dee5bef52687",
+      "indices": "outputs/A/extractions/refined/objects/obj_dee5bef52687/gaussian_indices.npy",
+      "sha256": "33ce3c538bc6a57b0b03313d1ffbbcbfa62a4bb2d95c3c72c04817258401be71",
+      "ply": "outputs/A/extractions/refined/objects/obj_dee5bef52687/object.ply",
+      "ply_sha256": "0ae6336feee594c2d00942469613ac2a742214cc69d75cf39712e5f163a1a00a",
+      "fine_instance_available": false
+    },
+    {
+      "object_id": "obj_3efbeb5e8179",
+      "indices": "outputs/A/extractions/refined/objects/obj_3efbeb5e8179/gaussian_indices.npy",
+      "sha256": "712cc2734400b91db3cfd6189a67cc736f2cb9901362e5a3976ea3d6bd854ba2",
+      "ply": "outputs/A/extractions/refined/objects/obj_3efbeb5e8179/object.ply",
+      "ply_sha256": "af3e816836f445441b922544059b2872c81b4b346ad777a887eb45c3a0f64a3a",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_7047e5f33259",
+      "indices": "outputs/A/extractions/refined/objects/obj_7047e5f33259/gaussian_indices.npy",
+      "sha256": "0d32a87fea3365344a2ff1a5bfd0c47a433a297613ee6ff7e0f59f20ad21be83",
+      "ply": "outputs/A/extractions/refined/objects/obj_7047e5f33259/object.ply",
+      "ply_sha256": "c2bb1dfca006e763a6805acdf04e1f6146695740b0d9fa7483db7f305f80fe85",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_df0a6cc33263",
+      "indices": "outputs/A/extractions/refined/objects/obj_df0a6cc33263/gaussian_indices.npy",
+      "sha256": "105c08f431ba77e01e84ab61b138e564ecee8623f34f522f0d07c57b4a05f4dd",
+      "ply": "outputs/A/extractions/refined/objects/obj_df0a6cc33263/object.ply",
+      "ply_sha256": "fe8c3ed4b26404099b69b5471e38ebafe918d37ac5455f4b8e507a0f18f8b812",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_c0162cd69680",
+      "indices": "outputs/A/extractions/refined/objects/obj_c0162cd69680/gaussian_indices.npy",
+      "sha256": "7a2971f02c2c6c7733ced3ab040e3d550776acb7ff3736032fd4d9df7a66b9c9",
+      "ply": "outputs/A/extractions/refined/objects/obj_c0162cd69680/object.ply",
+      "ply_sha256": "6de0314caac73b6c953f031116bd552b4b36184b9e7f00e38d64813de0cae3d9",
+      "fine_instance_available": true
+    },
+    {
+      "object_id": "obj_57b0f30bdd9e",
+      "indices": "outputs/A/extractions/refined/objects/obj_57b0f30bdd9e/gaussian_indices.npy",
+      "sha256": "9c616979baaa77b96900df77164ce2be009af9ec39ad7aaf18591df241546e8e",
+      "ply": "outputs/A/extractions/refined/objects/obj_57b0f30bdd9e/object.ply",
+      "ply_sha256": "aee8088fb89ec99825a7703ecb9ea85b623711ef81405fbcc3787b3e18adca8d",
+      "fine_instance_available": true
+    }
+  ],
+  "threshold": 0.85,
+  "gate_rule": "unchanged v1",
+  "heldout_used_for_selection": false,
+  "status_counts": {
+    "usable": 20,
+    "needs_improvement": 3,
+    "partial_usable": 10
+  }
+}

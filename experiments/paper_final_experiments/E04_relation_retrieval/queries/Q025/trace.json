@@ -1,0 +1,645 @@
+{
+  "query": {
+    "query_id": "Q025",
+    "subject_category": "multi-tier material rack",
+    "subject_category_id": "category_04",
+    "predicate": "near",
+    "predicate_ours": "near",
+    "predicate_relags": "close by",
+    "object_category": "material cart",
+    "object_category_id": "category_01",
+    "query_en": "multi-tier material rack near the material cart",
+    "query_zh": "位于物料车附近的多层料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000217",
+      "frame_000121"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 9 same-class devices to 3; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "raw_relation_query": {
+    "query": "位于物料车附近的多层料架",
+    "status": "ok",
+    "relation": "near",
+    "anchor_text": "物料车",
+    "target_text": "多层料架",
+    "matched_object_ids": [
+      "obj_aad6e7f85a9a",
+      "obj_b8542dc54ed2",
+      "obj_dee5bef52687"
+    ],
+    "objects": [
+      {
+        "object_id": "obj_aad6e7f85a9a",
+        "category_id": "category_04",
+        "name_zh": "多层料架 08",
+        "name_en": "Multi-tier rack 08",
+        "bbox": {
+          "center": [
+            -1.1434777265515426,
+            6.277556688155167,
+            0.24892972883806963
+          ],
+          "size": [
+            1.0627186169791223,
+            1.0016314236900736,
+            0.7021405423238607
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "well_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "大部分层架横杆保留；与料架09有候选重叠，按亲和分配后保持独立，细杆仍有少量漂浮。",
+          "diagnosis": "E",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_aad6e7f85a9a/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_b8542dc54ed2",
+        "category_id": "category_04",
+        "name_zh": "多层料架 03",
+        "name_en": "Multi-tier rack 03",
+        "bbox": {
+          "center": [
+            -1.09335139746702,
+            0.7811097555606428,
+            0.34997908869579386
+          ],
+          "size": [
+            0.9431160953511498,
+            0.5657765176745079,
+            0.6209814173121511
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "well_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "直接复用v1；层架主体保留，局部细杆及边界仍有漂浮。",
+          "diagnosis": "D",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_b8542dc54ed2/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_dee5bef52687",
+        "category_id": "category_04",
+        "name_zh": "多层料架 07",
+        "name_en": "Multi-tier rack 07",
+        "bbox": {
+          "center": [
+            -1.143130336736354,
+            4.863824997476845,
+            0.2898782606941221
+          ],
+          "size": [
+            1.1000470986722959,
+            0.6816718449007273,
+            0.7064471723375997
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "uncertain",
+        "extraction_status": "needs_improvement",
+        "quality_record": {
+          "note_zh": "粗框内包含台面、立式面板、小架及邻近结构，现有视角难以可靠核定M0设备边界；提取仍混杂。保留身份和诊断，不作为常规精细实例。",
+          "diagnosis": "E",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": false,
+        "gaussian_indices": null,
+        "location_source": "M0 r29",
+        "representation": "M0_location_only"
+      }
+    ],
+    "relation_evidence": [
+      {
+        "subject": "obj_aad6e7f85a9a",
+        "relation": "near",
+        "object": "obj_4fd05384c476",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.00018733619670641133,
+          "center_delta": [
+            -0.011720606929189081,
+            0.7800422208913771,
+            -0.05282847434329746
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_b8542dc54ed2",
+        "relation": "near",
+        "object": "obj_57b0f30bdd9e",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.029370030545021963,
+          "center_delta": [
+            -0.05792667857309608,
+            -0.607957983012708,
+            0.016092360642247505
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_dee5bef52687",
+        "relation": "near",
+        "object": "obj_4fd05384c476",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.013814374486947223,
+          "center_delta": [
+            -0.011373217114000411,
+            -0.6336894697869448,
+            -0.011879942487244999
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_dee5bef52687",
+        "relation": "near",
+        "object": "obj_3efbeb5e8179",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.24831523873710282,
+          "center_delta": [
+            -0.09901633622174333,
+            0.8803826935984818,
+            0.025782965562714588
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ],
+    "renderable_object_ids": [
+      "obj_aad6e7f85a9a",
+      "obj_b8542dc54ed2"
+    ],
+    "unavailable_object_ids": [
+      "obj_dee5bef52687"
+    ],
+    "segmentation_rerun": false,
+    "geometry_scope": "all M0 equipment nodes",
+    "reference_semantics": "union over explicitly listed matching anchors",
+    "target_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_04",
+        "method": "exact_known_alias",
+        "query": "多层料架",
+        "abstained": false
+      }
+    },
+    "known_category_instances": [
+      "obj_485ade540e7d",
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_5bfd32389355",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_06d9693cfb0a",
+      "obj_933bd7d6e703",
+      "obj_dee5bef52687"
+    ],
+    "same_category_candidates_before": 9,
+    "anchor_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_01",
+        "method": "exact_known_alias",
+        "query": "物料车",
+        "abstained": false
+      }
+    },
+    "anchor_object_ids": [
+      "obj_f9a0e863e32d",
+      "obj_4fd05384c476",
+      "obj_3efbeb5e8179",
+      "obj_7047e5f33259",
+      "obj_c0162cd69680",
+      "obj_57b0f30bdd9e"
+    ],
+    "matches_after": 3
+  },
+  "raw_category_query": {
+    "query": "多层料架",
+    "status": "ok",
+    "relation": null,
+    "anchor_text": null,
+    "target_text": "多层料架",
+    "matched_object_ids": [
+      "obj_485ade540e7d",
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_5bfd32389355",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_06d9693cfb0a",
+      "obj_933bd7d6e703",
+      "obj_dee5bef52687"
+    ],
+    "objects": [
+      {
+        "object_id": "obj_485ade540e7d",
+        "category_id": "category_04",
+        "name_zh": "多层料架 05",
+        "name_en": "Multi-tier rack 05",
+        "bbox": {
+          "center": [
+            0.30781993988982403,
+            4.61558652333949,
+            0.2723564880713576
+          ],
+          "size": [
+            0.657014166634275,
+            1.081269987440117,
+            0.6546428019274613
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "needs_improvement",
+        "quality_record": {
+          "note_zh": "架体保留，但M0范围及SAM掩膜同时覆盖前方灰箱/小架；粗框边界、遮挡与提示混入共同影响。常规精细查询停用，保留诊断结果。",
+          "diagnosis": "E",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": false,
+        "gaussian_indices": null,
+        "location_source": "M0 r29",
+        "representation": "M0_location_only"
+      },
+      {
+        "object_id": "obj_126125e3a773",
+        "category_id": "category_04",
+        "name_zh": "多层料架 02",
+        "name_en": "Multi-tier rack 02",
+        "bbox": {
+          "center": [
+            -1.1179895787149081,
+            0.10109765689066752,
+            0.33932514673779174
+          ],
+          "size": [
+            0.9084872241668563,
+            0.5680922906296216,
+            0.5661982728644351
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "partial_usable",
+        "quality_record": {
+          "note_zh": "首轮因镂空结构SAM粗贡献精度门槛而无提示。一次放宽参考掩膜检查后提取出主体架和细杆；遮挡侧及底部仍不足。未放宽最终亲和阈值。",
+          "diagnosis": "C",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_126125e3a773/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_aad6e7f85a9a",
+        "category_id": "category_04",
+        "name_zh": "多层料架 08",
+        "name_en": "Multi-tier rack 08",
+        "bbox": {
+          "center": [
+            -1.1434777265515426,
+            6.277556688155167,
+            0.24892972883806963
+          ],
+          "size": [
+            1.0627186169791223,
+            1.0016314236900736,
+            0.7021405423238607
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "well_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "大部分层架横杆保留；与料架09有候选重叠，按亲和分配后保持独立，细杆仍有少量漂浮。",
+          "diagnosis": "E",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_aad6e7f85a9a/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_5bfd32389355",
+        "category_id": "category_04",
+        "name_zh": "多层料架 04",
+        "name_en": "Multi-tier rack 04",
+        "bbox": {
+          "center": [
+            1.9112699533508015,
+            2.19,
+            0.3274358630522818
+          ],
+          "size": [
+            0.9967798540597704,
+            1.2018856236462312,
+            0.6356317046389337
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "partial_usable",
+        "quality_record": {
+          "note_zh": "用10个经Codex视觉检查的中央料架点击替换受污染提示，明显减少两侧独立灰箱。保留中央上部和部分层架，底部仍不完整；阈值和门控有限比较无明确收益。",
+          "diagnosis": "E",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_5bfd32389355/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_b7e0494ce9dd",
+        "category_id": "category_04",
+        "name_zh": "多层料架 01",
+        "name_en": "Multi-tier rack 01",
+        "bbox": {
+          "center": [
+            -1.0336802579927291,
+            -0.5272470423532102,
+            0.35182481752767786
+          ],
+          "size": [
+            0.9590520987214908,
+            0.6089949811728987,
+            0.5606581100360152
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "partial_usable",
+        "quality_record": {
+          "note_zh": "主要层架和可见物料保留；镂空背侧与细杆在原始重建和提取中均存在不足。",
+          "diagnosis": "E",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_b7e0494ce9dd/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_b8542dc54ed2",
+        "category_id": "category_04",
+        "name_zh": "多层料架 03",
+        "name_en": "Multi-tier rack 03",
+        "bbox": {
+          "center": [
+            -1.09335139746702,
+            0.7811097555606428,
+            0.34997908869579386
+          ],
+          "size": [
+            0.9431160953511498,
+            0.5657765176745079,
+            0.6209814173121511
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "well_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "直接复用v1；层架主体保留，局部细杆及边界仍有漂浮。",
+          "diagnosis": "D",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_b8542dc54ed2/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_06d9693cfb0a",
+        "category_id": "category_04",
+        "name_zh": "多层料架 06",
+        "name_en": "Multi-tier rack 06",
+        "bbox": {
+          "center": [
+            1.4605776859764394,
+            4.579562148921754,
+            0.19181749863220474
+          ],
+          "size": [
+            0.2175417200941808,
+            0.6623019829250625,
+            0.46964497082341033
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "well_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "窄架及蓝箱主体保留，底部有少量地面/漂浮残留。",
+          "diagnosis": "D",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_06d9693cfb0a/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_933bd7d6e703",
+        "category_id": "category_04",
+        "name_zh": "多层料架 09",
+        "name_en": "Multi-tier rack 09",
+        "bbox": {
+          "center": [
+            -0.481262799826041,
+            6.493820193620918,
+            0.2765759523482957
+          ],
+          "size": [
+            0.6204938811178636,
+            0.501523918236781,
+            0.7481751811560386
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "well_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "架体、平台及黑色物料保留；与料架08重叠部分经统一归属处理，仍可区分两台设备。",
+          "diagnosis": "E",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_933bd7d6e703/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_dee5bef52687",
+        "category_id": "category_04",
+        "name_zh": "多层料架 07",
+        "name_en": "Multi-tier rack 07",
+        "bbox": {
+          "center": [
+            -1.143130336736354,
+            4.863824997476845,
+            0.2898782606941221
+          ],
+          "size": [
+            1.1000470986722959,
+            0.6816718449007273,
+            0.7064471723375997
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "uncertain",
+        "extraction_status": "needs_improvement",
+        "quality_record": {
+          "note_zh": "粗框内包含台面、立式面板、小架及邻近结构，现有视角难以可靠核定M0设备边界；提取仍混杂。保留身份和诊断，不作为常规精细实例。",
+          "diagnosis": "E",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": false,
+        "gaussian_indices": null,
+        "location_source": "M0 r29",
+        "representation": "M0_location_only"
+      }
+    ],
+    "relation_evidence": [],
+    "renderable_object_ids": [
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_5bfd32389355",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_06d9693cfb0a",
+      "obj_933bd7d6e703"
+    ],
+    "unavailable_object_ids": [
+      "obj_485ade540e7d",
+      "obj_dee5bef52687"
+    ],
+    "segmentation_rerun": false,
+    "geometry_scope": "all M0 equipment nodes",
+    "reference_semantics": "union over explicitly listed matching anchors",
+    "target_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_04",
+        "method": "exact_known_alias",
+        "query": "多层料架",
+        "abstained": false
+      }
+    },
+    "known_category_instances": [
+      "obj_485ade540e7d",
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_5bfd32389355",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_06d9693cfb0a",
+      "obj_933bd7d6e703",
+      "obj_dee5bef52687"
+    ],
+    "same_category_candidates_before": 9,
+    "matches_after": 9
+  },
+  "excluded_same_class": [
+    "obj_06d9693cfb0a",
+    "obj_126125e3a773",
+    "obj_485ade540e7d",
+    "obj_5bfd32389355",
+    "obj_933bd7d6e703",
+    "obj_b7e0494ce9dd"
+  ]
+}

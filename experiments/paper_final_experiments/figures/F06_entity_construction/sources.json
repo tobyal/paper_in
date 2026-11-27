@@ -1,0 +1,170 @@
+{
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_8429bc5f3c33/original_crop.png": {
+    "bytes": 376580,
+    "sha256": "ecf496637907641b78d2947b2e79851b5559454cc4dd99057596ec51ccdd4773"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_8429bc5f3c33/coarse_oblique.png": {
+    "bytes": 225193,
+    "sha256": "f0c5dcae76b27475b5720cb060e789037a7c6f5042bdc5a03109d790d3300178"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_8429bc5f3c33/affinity_oblique.png": {
+    "bytes": 199936,
+    "sha256": "9d7735396ece08ad10a12f1906ce50969b23c609738f9185859598f8797aff23",
+    "display_crop_xyxy": [
+      267,
+      360,
+      882,
+      964
+    ]
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_8429bc5f3c33/refined_oblique.png": {
+    "bytes": 136641,
+    "sha256": "f5ce040d3d21cff0182ade3e2fe6c6dd70d39430e24eeae413dfd3df30534310",
+    "display_crop_xyxy": [
+      267,
+      360,
+      882,
+      964
+    ]
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_8429bc5f3c33/refined_side.png": {
+    "bytes": 144669,
+    "sha256": "66b4ef3950185e008374c9b8bfcc521c10e38b8f0096fb3268013e0dfc13e63e",
+    "display_crop_xyxy": [
+      167,
+      398,
+      1039,
+      865
+    ]
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_8429bc5f3c33/coarse_side.png": {
+    "bytes": 203177,
+    "sha256": "e253e1c2e6a9cc5805d04be5423ff095244eb3cac7f71059a12fca2ff2031deb"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_aad6e7f85a9a/original_crop.png": {
+    "bytes": 684889,
+    "sha256": "9694b5c3b67fc249f859f7b769dfaa01b725dc7068bbed39cd95d0b283a4eb71"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_aad6e7f85a9a/coarse_oblique.png": {
+    "bytes": 662708,
+    "sha256": "4c69aa1dd2fa4afe91b760d9f4cadbb3cd02e16155d5b93fbeb6a56ec0a54345"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_aad6e7f85a9a/affinity_oblique.png": {
+    "bytes": 584440,
+    "sha256": "0fa68092bc350084cad6b9c9eb37e892919eeadf4b729f939af0cb48dfd08e31",
+    "display_crop_xyxy": [
+      0,
+      238,
+      1137,
+      1133
+    ]
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_aad6e7f85a9a/refined_oblique.png": {
+    "bytes": 561060,
+    "sha256": "ccf68a6434fb26a82c14eb19d544f95fa073b424122059716d3132abf2244e7c",
+    "display_crop_xyxy": [
+      0,
+      238,
+      1137,
+      1133
+    ]
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_aad6e7f85a9a/refined_side.png": {
+    "bytes": 341419,
+    "sha256": "76b9c651df601a547f1aa5ca4bfa62d1dafdb51b8d9ccdd62f31362f4aa59a8c",
+    "display_crop_xyxy": [
+      164,
+      260,
+      1129,
+      1134
+    ]
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_aad6e7f85a9a/coarse_side.png": {
+    "bytes": 442742,
+    "sha256": "e11d67bbcf27537f72abe8f250046b650d878d30f79fb9cadc5612e0d07a54f6"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/original_crop.png": {
+    "bytes": 327970,
+    "sha256": "51f5c1ed9107ea99f8d49e11c400d2f07e0543b373944259c1b44c1a7b14eb0b"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/coarse_oblique.png": {
+    "bytes": 381427,
+    "sha256": "ce58ec2c46ebf930ff273e6fbaad6ee9587bd4ee689bff22b515d46ff2d99dab"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/affinity_oblique.png": {
+    "bytes": 265232,
+    "sha256": "8904a8365b6880d5c4b54e94c891122cf2cf1b6ae83e5177f39f7f1d56b06b00",
+    "display_crop_xyxy": [
+      145,
+      284,
+      1004,
+      1088
+    ]
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/refined_oblique.png": {
+    "bytes": 276624,
+    "sha256": "effd8b243112037daea5956353de5eb0ff885022d2da76dd721c911c60f451c4",
+    "display_crop_xyxy": [
+      145,
+      284,
+      1004,
+      1088
+    ]
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/refined_side.png": {
+    "bytes": 221756,
+    "sha256": "02ae452b77d1fe6d7fe79aa80df3ec7016bb372413af900874a1f10e6ad92767",
+    "display_crop_xyxy": [
+      194,
+      337,
+      1046,
+      1032
+    ]
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/coarse_side.png": {
+    "bytes": 310300,
+    "sha256": "55a2ba971cd98e03ac4f5d63a5b9a503645bf65dae83b37e473507c5e0715461"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_c7c9293c6c6d/original_crop.png": {
+    "bytes": 599948,
+    "sha256": "92d9a8152776fafaa9bb261cfccab7da0387e449355da14fec01648747cb3762"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_c7c9293c6c6d/coarse_oblique.png": {
+    "bytes": 321675,
+    "sha256": "16307d602f91b80a9468e2bbdc0d85e84b9f936f383e8a1879e875190b7b0e62"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_c7c9293c6c6d/affinity_oblique.png": {
+    "bytes": 282645,
+    "sha256": "75758430ce2c6de97af3580c359d72a14a4ba7e9b9c80438a086abdd975c35d2",
+    "display_crop_xyxy": [
+      203,
+      209,
+      983,
+      1104
+    ]
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_c7c9293c6c6d/refined_oblique.png": {
+    "bytes": 268283,
+    "sha256": "a1782480cd0aa4cc63d72fae2ae7608300b455132e75a906631f7d29b318f656",
+    "display_crop_xyxy": [
+      203,
+      209,
+      983,
+      1104
+    ]
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_c7c9293c6c6d/refined_side.png": {
+    "bytes": 263022,
+    "sha256": "f8b045ceee35a96e8304381ad105d79b9698e3e4b3af61a2fb594fd0fb58cd93",
+    "display_crop_xyxy": [
+      70,
+      250,
+      1128,
+      1078
+    ]
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_c7c9293c6c6d/coarse_side.png": {
+    "bytes": 322105,
+    "sha256": "524d1b78bf34cab8538549b16c10c1281ff6111760ce966960cb343252656041"
+  }
+}

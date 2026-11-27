@@ -1,0 +1,501 @@
+{
+  "physical_scale": 0.8060361534402946,
+  "normalized_scale": 0.7062199032835085,
+  "scale_offset": 0,
+  "threshold": 0.85,
+  "prompts": [
+    {
+      "image_id": "frame_000302",
+      "pixels_xy": [
+        [
+          81,
+          254
+        ],
+        [
+          309,
+          270
+        ],
+        [
+          185,
+          391
+        ],
+        [
+          68,
+          391
+        ],
+        [
+          234,
+          337
+        ],
+        [
+          250,
+          391
+        ],
+        [
+          117,
+          219
+        ]
+      ],
+      "source_type": "real",
+      "in_affinity_training": true,
+      "camera": {
+        "image_id": "frame_000302",
+        "filename": "frame_000302.jpg",
+        "width": 960,
+        "height": 541,
+        "split": "train",
+        "camera_id": 1,
+        "colmap_image_id": 302,
+        "K": [
+          [
+            723.2381568720195,
+            0.0,
+            480.0
+          ],
+          [
+            0.0,
+            720.4940451019152,
+            270.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            -0.9649166345979607,
+            0.12261367202676342,
+            -0.23216755955184348
+          ],
+          [
+            -0.019592342233110557,
+            0.8481667547291835,
+            0.5293668825096502
+          ],
+          [
+            0.26182442285234997,
+            0.5153436170209915,
+            -0.816007921526351
+          ]
+        ],
+        "world_to_camera_t": [
+          1.283316658365838,
+          -0.8267585106923392,
+          2.499212223330164
+        ],
+        "center": [
+          0.5677406574692856,
+          -0.7440761517707375,
+          2.7749800439114463
+        ],
+        "forward": [
+          0.26182442285234997,
+          0.5153436170209915,
+          -0.816007921526351
+        ],
+        "sha256": "8beca25ef7251ea1a123e3c032040318233b67e6cd844fc82d5712f62e9909ed",
+        "source_type": "real"
+      },
+      "mask_source": "outputs/A/reference_prompts/obj_c7c9293c6c6d/frame_000302/mask.png"
+    },
+    {
+      "image_id": "frame_000304",
+      "pixels_xy": [
+        [
+          203,
+          238
+        ],
+        [
+          431,
+          254
+        ],
+        [
+          361,
+          366
+        ],
+        [
+          194,
+          360
+        ],
+        [
+          343,
+          304
+        ],
+        [
+          248,
+          202
+        ],
+        [
+          399,
+          293
+        ]
+      ],
+      "source_type": "real",
+      "in_affinity_training": false,
+      "camera": {
+        "image_id": "frame_000304",
+        "filename": "frame_000304.jpg",
+        "width": 960,
+        "height": 541,
+        "split": "train",
+        "camera_id": 1,
+        "colmap_image_id": 304,
+        "K": [
+          [
+            723.2381568720195,
+            0.0,
+            480.0
+          ],
+          [
+            0.0,
+            720.4940451019152,
+            270.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            -0.8628889215988781,
+            0.1868996710591793,
+            -0.4695649283537857
+          ],
+          [
+            -0.08857129758233115,
+            0.8588042766400975,
+            0.5045892781949107
+          ],
+          [
+            0.4975719387450497,
+            0.476994473115412,
+            -0.724498749751056
+          ]
+        ],
+        "world_to_camera_t": [
+          1.7422826369170108,
+          -0.7159820490661958,
+          2.107388507096143
+        ],
+        "center": [
+          0.39140354139345607,
+          -0.7159562765881192,
+          2.706192025545706
+        ],
+        "forward": [
+          0.4975719387450497,
+          0.476994473115412,
+          -0.724498749751056
+        ],
+        "sha256": "4c1febaa4a011706c46a3b7b5195d9db7c101da45add31660b6177d384cbd073",
+        "source_type": "real"
+      },
+      "mask_source": "outputs/A/reference_prompts/obj_c7c9293c6c6d/frame_000304/mask.png"
+    },
+    {
+      "image_id": "virtual_guided_obj_c7c9293c6c6d_008",
+      "pixels_xy": [
+        [
+          643,
+          289
+        ],
+        [
+          343,
+          459
+        ],
+        [
+          345,
+          243
+        ],
+        [
+          681,
+          419
+        ],
+        [
+          468,
+          489
+        ],
+        [
+          333,
+          287
+        ],
+        [
+          607,
+          275
+        ]
+      ],
+      "source_type": "camera_guided_virtual",
+      "in_affinity_training": false,
+      "camera": {
+        "width": 960,
+        "height": 720,
+        "K": [
+          [
+            697.8987603305724,
+            0.0,
+            479.5
+          ],
+          [
+            0.0,
+            697.8987603305724,
+            359.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            -0.07619232081423152,
+            0.3075617434619669,
+            -0.9484727218877097
+          ],
+          [
+            -0.5313553945574806,
+            0.7923896452444199,
+            0.29963322543372517
+          ],
+          [
+            0.8437156809335115,
+            0.5268058479433103,
+            0.10305058628827883
+          ]
+        ],
+        "world_to_camera_t": [
+          1.5683666929555022,
+          0.28925576351682236,
+          -0.39266710624490175
+        ],
+        "center": [
+          0.6044945139695989,
+          -0.5047135388426893,
+          1.4413469628736673
+        ],
+        "industrial_eye": [
+          0.8607958425414817,
+          4.75805842714524,
+          1.070846992757984
+        ],
+        "horizontal_fov_degrees": 69.03874050247948,
+        "image_id": "virtual_guided_obj_c7c9293c6c6d_008",
+        "source_type": "camera_guided_virtual",
+        "parent_image_id": "frame_000287",
+        "generation": {
+          "method": "Original camera position retargeted and adaptively reframed",
+          "industrial_offset": [
+            0,
+            0,
+            0
+          ]
+        },
+        "split": "train",
+        "filename": "virtual_guided_obj_c7c9293c6c6d_008.png",
+        "sha256": "3491c0c67629c15e5cce99c06a485a4bdbe1803491868b3cd14c054a880b6e8a",
+        "rgb_path": "observations/virtual_guided_obj_c7c9293c6c6d_008/rgb.png"
+      },
+      "mask_source": "outputs/A/reference_prompts/obj_c7c9293c6c6d/virtual_guided_obj_c7c9293c6c6d_008/mask.png"
+    },
+    {
+      "image_id": "frame_000066",
+      "pixels_xy": [
+        [
+          0,
+          333
+        ],
+        [
+          110,
+          423
+        ],
+        [
+          110,
+          281
+        ],
+        [
+          0,
+          423
+        ],
+        [
+          55,
+          305
+        ],
+        [
+          75,
+          423
+        ],
+        [
+          0,
+          305
+        ]
+      ],
+      "source_type": "real",
+      "in_affinity_training": false,
+      "camera": {
+        "image_id": "frame_000066",
+        "filename": "frame_000066.jpg",
+        "width": 960,
+        "height": 541,
+        "split": "train",
+        "camera_id": 1,
+        "colmap_image_id": 66,
+        "K": [
+          [
+            723.2381568720195,
+            0.0,
+            480.0
+          ],
+          [
+            0.0,
+            720.4940451019152,
+            270.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            -0.6490358910577575,
+            -0.17492792190403644,
+            0.740373307364061
+          ],
+          [
+            0.26609918698493584,
+            0.8595278837903516,
+            0.43635196765092754
+          ],
+          [
+            -0.7127016450134089,
+            0.48022082329405014,
+            -0.511316268145231
+          ]
+        ],
+        "world_to_camera_t": [
+          -1.1510736648259765,
+          -1.0615463879195697,
+          3.5537781431105757
+        ],
+        "center": [
+          2.068172037656352,
+          -0.9955244694816335,
+          3.132536649319706
+        ],
+        "forward": [
+          -0.7127016450134089,
+          0.48022082329405014,
+          -0.511316268145231
+        ],
+        "sha256": "1fb8935dda5a64b4ce32a093077a381d7e42b6c05bb741b6586f963a2d9b7a0e",
+        "source_type": "real"
+      },
+      "mask_source": "outputs/A/reference_prompts/obj_c7c9293c6c6d/frame_000066/mask.png"
+    },
+    {
+      "image_id": "virtual_free_obj_c7c9293c6c6d_023",
+      "pixels_xy": [
+        [
+          425,
+          225
+        ],
+        [
+          591,
+          278
+        ],
+        [
+          322,
+          282
+        ],
+        [
+          504,
+          222
+        ],
+        [
+          423,
+          278
+        ],
+        [
+          401,
+          222
+        ]
+      ],
+      "source_type": "object_guided_virtual",
+      "in_affinity_training": false,
+      "camera": {
+        "width": 960,
+        "height": 720,
+        "K": [
+          [
+            921.853205744849,
+            0.0,
+            479.5
+          ],
+          [
+            0.0,
+            921.853205744849,
+            359.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9986058420598188,
+            -0.05023227377014964,
+            0.016219322068407302
+          ],
+          [
+            0.05065250013675462,
+            0.9983612142909639,
+            -0.02663057801709758
+          ],
+          [
+            -0.014855024853219913,
+            0.027414992806224916,
+            0.9995137533767972
+          ]
+        ],
+        "world_to_camera_t": [
+          -1.7113280306354013,
+          -0.22120766161266747,
+          0.3274971772499701
+        ],
+        "center": [
+          1.7250119124067396,
+          0.12590292094025157,
+          -0.3054722449385108
+        ],
+        "industrial_eye": [
+          1.9197415735908057,
+          2.868616921096896,
+          0.9557015082712472
+        ],
+        "horizontal_fov_degrees": 55.01110934523056,
+        "image_id": "virtual_free_obj_c7c9293c6c6d_023",
+        "source_type": "object_guided_virtual",
+        "parent_image_id": null,
+        "generation": {
+          "method": "Object-box size fitting in industrial coordinates",
+          "direction": "front",
+          "distance": 1.8811796246513541
+        },
+        "split": "train",
+        "filename": "virtual_free_obj_c7c9293c6c6d_023.png",
+        "sha256": "d7ec43c63b7463cdbffadf75b3bcb8a85739599c0b9bd63990dc10b6f8fca4ec",
+        "rgb_path": "observations/virtual_free_obj_c7c9293c6c6d_023/rgb.png"
+      },
+      "mask_source": "outputs/A/reference_prompts/obj_c7c9293c6c6d/virtual_free_obj_c7c9293c6c6d_023/mask.png"
+    }
+  ],
+  "heldout_used": false,
+  "score": "(cosine+1)/2 maximum over safe positive clicks; original SAGA inference"
+}

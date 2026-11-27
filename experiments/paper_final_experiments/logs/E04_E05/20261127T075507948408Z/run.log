@@ -1,0 +1,10 @@
+/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/scripts/export_applications.py:7: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  colors={o['object_id']:list(cm.get_cmap('tab20')(i%20)[:3]) if i<20 else list(cm.get_cmap('tab20b')((i-20)%20)[:3]) for i,o in enumerate(objects)}
+Multiview Q003 [('oblique', 22616), ('side', 13456), ('top', 31386)]
+Multiview Q006 [('oblique', 256867), ('side', 230461), ('top', 210719)]
+Nearest N01 material cart nearest to Assembly fixture table 01 ['obj_57b0f30bdd9e']
+Nearest N02 upright portable air cooler nearest to Workbench 01 ['obj_04c477562e49']
+Nearest N03 multi-tier material rack nearest to Compartment rack 02 ['obj_06d9693cfb0a']
+Nearest N04 material cart nearest to Portable upright air cooler 02 ['obj_57b0f30bdd9e']
+Nearest N05 group of blue storage bins nearest to Assembly fixture table 02 ['obj_141f3e5dbe3a']
+Scene and application exports complete

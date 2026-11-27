@@ -1,0 +1,249 @@
+[
+  {
+    "case_id": "N01",
+    "query": "material cart nearest to Assembly fixture table 01",
+    "anchor_id": "obj_8429bc5f3c33",
+    "matched_ids": [
+      "obj_57b0f30bdd9e"
+    ],
+    "renderable_ids": [
+      "obj_57b0f30bdd9e"
+    ],
+    "unavailable_ids": [],
+    "distance_definition": "Euclidean distance of frozen M0 centers; SfM relative units; ties 1e-6",
+    "ranking": [
+      {
+        "object_id": "obj_57b0f30bdd9e",
+        "name_en": "Material cart 01",
+        "center_distance": 1.7592941497093393,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_c0162cd69680",
+        "name_en": "Material cart 02",
+        "center_distance": 2.3360882224644333,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_f9a0e863e32d",
+        "name_en": "Material cart 03",
+        "center_distance": 3.221981727057917,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_7047e5f33259",
+        "name_en": "Material cart 04",
+        "center_distance": 3.432549011224805,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_3efbeb5e8179",
+        "name_en": "Material cart 05",
+        "center_distance": 4.219536118468786,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_4fd05384c476",
+        "name_en": "Material cart 06",
+        "center_distance": 5.723150303766106,
+        "fine_available": true
+      }
+    ],
+    "chosen_camera": "frame_000185",
+    "view_selection": "largest target contribution among existing 29 heldout cameras; coarse only if fine unavailable"
+  },
+  {
+    "case_id": "N02",
+    "query": "upright portable air cooler nearest to Workbench 01",
+    "anchor_id": "obj_2e1a6e5960f5",
+    "matched_ids": [
+      "obj_04c477562e49"
+    ],
+    "renderable_ids": [
+      "obj_04c477562e49"
+    ],
+    "unavailable_ids": [],
+    "distance_definition": "Euclidean distance of frozen M0 centers; SfM relative units; ties 1e-6",
+    "ranking": [
+      {
+        "object_id": "obj_04c477562e49",
+        "name_en": "Portable upright air cooler 01",
+        "center_distance": 0.3086240630553534,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_e57b3a886c2d",
+        "name_en": "Portable upright air cooler 02",
+        "center_distance": 1.7638387075154285,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_c57876bf22ca",
+        "name_en": "Portable upright air cooler 03",
+        "center_distance": 5.033981037239417,
+        "fine_available": true
+      }
+    ],
+    "chosen_camera": "frame_000249",
+    "view_selection": "largest target contribution among existing 29 heldout cameras; coarse only if fine unavailable"
+  },
+  {
+    "case_id": "N03",
+    "query": "multi-tier material rack nearest to Compartment rack 02",
+    "anchor_id": "obj_c7c9293c6c6d",
+    "matched_ids": [
+      "obj_06d9693cfb0a"
+    ],
+    "renderable_ids": [
+      "obj_06d9693cfb0a"
+    ],
+    "unavailable_ids": [],
+    "distance_definition": "Euclidean distance of frozen M0 centers; SfM relative units; ties 1e-6",
+    "ranking": [
+      {
+        "object_id": "obj_06d9693cfb0a",
+        "name_en": "Multi-tier rack 06",
+        "center_distance": 0.4850725110582896,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_485ade540e7d",
+        "name_en": "Multi-tier rack 05",
+        "center_distance": 1.613363056246046,
+        "fine_available": false
+      },
+      {
+        "object_id": "obj_5bfd32389355",
+        "name_en": "Multi-tier rack 04",
+        "center_distance": 2.454208119408194,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_933bd7d6e703",
+        "name_en": "Multi-tier rack 09",
+        "center_distance": 3.0313862479734306,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_dee5bef52687",
+        "name_en": "Multi-tier rack 07",
+        "center_distance": 3.0710577352285906,
+        "fine_available": false
+      },
+      {
+        "object_id": "obj_aad6e7f85a9a",
+        "name_en": "Multi-tier rack 08",
+        "center_distance": 3.4725349222693715,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_b8542dc54ed2",
+        "name_en": "Multi-tier rack 03",
+        "center_distance": 4.899216203495577,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_126125e3a773",
+        "name_en": "Multi-tier rack 02",
+        "center_distance": 5.465113911942094,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_b7e0494ce9dd",
+        "name_en": "Multi-tier rack 01",
+        "center_distance": 5.9553932377139125,
+        "fine_available": true
+      }
+    ],
+    "chosen_camera": "frame_000305",
+    "view_selection": "largest target contribution among existing 29 heldout cameras; coarse only if fine unavailable"
+  },
+  {
+    "case_id": "N04",
+    "query": "material cart nearest to Portable upright air cooler 02",
+    "anchor_id": "obj_e57b3a886c2d",
+    "matched_ids": [
+      "obj_57b0f30bdd9e"
+    ],
+    "renderable_ids": [
+      "obj_57b0f30bdd9e"
+    ],
+    "unavailable_ids": [],
+    "distance_definition": "Euclidean distance of frozen M0 centers; SfM relative units; ties 1e-6",
+    "ranking": [
+      {
+        "object_id": "obj_57b0f30bdd9e",
+        "name_en": "Material cart 01",
+        "center_distance": 1.6062136040588262,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_c0162cd69680",
+        "name_en": "Material cart 02",
+        "center_distance": 1.6945527537180067,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_f9a0e863e32d",
+        "name_en": "Material cart 03",
+        "center_distance": 1.6973461694085095,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_7047e5f33259",
+        "name_en": "Material cart 04",
+        "center_distance": 2.4835017313012275,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_3efbeb5e8179",
+        "name_en": "Material cart 05",
+        "center_distance": 3.079427853297247,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_4fd05384c476",
+        "name_en": "Material cart 06",
+        "center_distance": 4.473301602647757,
+        "fine_available": true
+      }
+    ],
+    "chosen_camera": "frame_000185",
+    "view_selection": "largest target contribution among existing 29 heldout cameras; coarse only if fine unavailable"
+  },
+  {
+    "case_id": "N05",
+    "query": "group of blue storage bins nearest to Assembly fixture table 02",
+    "anchor_id": "obj_d058f708eb01",
+    "matched_ids": [
+      "obj_141f3e5dbe3a"
+    ],
+    "renderable_ids": [],
+    "unavailable_ids": [
+      "obj_141f3e5dbe3a"
+    ],
+    "distance_definition": "Euclidean distance of frozen M0 centers; SfM relative units; ties 1e-6",
+    "ranking": [
+      {
+        "object_id": "obj_141f3e5dbe3a",
+        "name_en": "Blue bin group 01",
+        "center_distance": 2.0666977820670094,
+        "fine_available": false
+      },
+      {
+        "object_id": "obj_3c963764ddb5",
+        "name_en": "Blue bin group 02",
+        "center_distance": 5.340284371155467,
+        "fine_available": true
+      },
+      {
+        "object_id": "obj_7463bab859d0",
+        "name_en": "Blue bin group 03",
+        "center_distance": 5.578651473835776,
+        "fine_available": true
+      }
+    ],
+    "chosen_camera": "frame_000017",
+    "view_selection": "largest target contribution among existing 29 heldout cameras; coarse only if fine unavailable"
+  }
+]

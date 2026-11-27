@@ -1,0 +1,66 @@
+{
+  "object_id": "obj_8429bc5f3c33",
+  "name_en": "Assembly fixture table 01",
+  "display_id": "O01",
+  "candidate_gaussians": 28512,
+  "before_conflicts": 20477,
+  "final_gaussians": 20477,
+  "removed_gaussians": 8035,
+  "lost_conflicts": 0,
+  "retained_fraction": 0.718188832772166,
+  "affinity_min": 0.2342529296875,
+  "affinity_max": 1.0,
+  "score_storage": "float16 from frozen v2; float32 threshold membership retained separately",
+  "threshold": 0.85,
+  "normalized_scale": 0.7049169271549272,
+  "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/extractions/refined/objects/obj_8429bc5f3c33",
+  "source_score_sha256": "bcea1855647ee99819464554f052b3fee6e10e81fed8716bbea6c4dae943f631",
+  "prompts": [
+    {
+      "directory": "E03_entity_construction/objects/obj_8429bc5f3c33/prompts/00",
+      "original_mask": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/reference_prompts/obj_8429bc5f3c33/frame_000336/mask.png",
+      "mask_sha256": "36163184608b6ab0298959972079941d79981ec68fe53a388b6bba152c2e8e56",
+      "source_type": "real"
+    },
+    {
+      "directory": "E03_entity_construction/objects/obj_8429bc5f3c33/prompts/01",
+      "original_mask": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/reference_prompts/obj_8429bc5f3c33/frame_000229/mask.png",
+      "mask_sha256": "01b791e7967b34115ea8532ba3038d41a19ee0e63539bb1c0fedf94889237c98",
+      "source_type": "real"
+    },
+    {
+      "directory": "E03_entity_construction/objects/obj_8429bc5f3c33/prompts/02",
+      "original_mask": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/reference_prompts/obj_8429bc5f3c33/frame_000195/mask.png",
+      "mask_sha256": "180be664dc123018f461ebeec98d128ed401c157597bf85b70899a5baccb4a36",
+      "source_type": "real"
+    }
+  ],
+  "quality": {
+    "object_id": "obj_8429bc5f3c33",
+    "category_id": "category_02",
+    "name_zh": "装配夹具台 01",
+    "name_en": "Assembly fixture table 01",
+    "reused_v1": false,
+    "status": "extracted_pending_visual_review",
+    "prompt_clicks": 21,
+    "scale": 0.7049169271549272,
+    "effective_real_views": 3,
+    "effective_virtual_views": 0,
+    "candidate_gaussians": 28512,
+    "selected_before_conflicts": 20477,
+    "gaussian_count": 20477,
+    "conflicts_removed": 0,
+    "gaussian_indices": "outputs/A/extractions/refined/objects/obj_8429bc5f3c33/gaussian_indices.npy",
+    "ply": "outputs/A/extractions/refined/objects/obj_8429bc5f3c33/object.ply",
+    "review_image_id": "frame_000336",
+    "review_source_type": "real",
+    "training_visible_pixels": 46748,
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "diagnosis": "D",
+    "note_zh": "底座、立柱及主要夹具得到保留；细线缆和轮缘局部缺失。",
+    "fine_instance_available": true,
+    "extra_optimization": false,
+    "quality_reviewer": "Codex visual inspection"
+  }
+}

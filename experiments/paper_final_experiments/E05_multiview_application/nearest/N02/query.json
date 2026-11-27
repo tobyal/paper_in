@@ -1,0 +1,106 @@
+{
+  "query": "upright portable air cooler nearest to Workbench 01",
+  "status": "ok",
+  "relation": "nearest_to",
+  "anchor_text": "Workbench 01",
+  "target_text": "upright portable air cooler",
+  "matched_object_ids": [
+    "obj_04c477562e49"
+  ],
+  "objects": [
+    {
+      "object_id": "obj_04c477562e49",
+      "category_id": "category_06",
+      "name_zh": "立式移动冷风机 01",
+      "name_en": "Portable upright air cooler 01",
+      "bbox": {
+        "center": [
+          1.4849999999999999,
+          -0.060930727513434146,
+          0.3078579213514364
+        ],
+        "size": [
+          0.32999999999999985,
+          0.31999999999999995,
+          0.4642841572971272
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "reconstruction_status": "partially_reconstructed",
+      "extraction_status": "usable",
+      "quality_record": {
+        "note_zh": "直接复用v1；已有机身结构提取有效，背面彩色伪影来自原始3DGS，不能解释为补全失败。",
+        "diagnosis": "A",
+        "reviewer": "Codex visual inspection"
+      },
+      "fine_instance_available": true,
+      "gaussian_indices": "instances/obj_04c477562e49/gaussian_indices.npy",
+      "location_source": "M0 r29",
+      "representation": "SAGA_instance"
+    }
+  ],
+  "relation_evidence": [
+    {
+      "subject": "obj_04c477562e49",
+      "relation": "nearest_to",
+      "object": "obj_2e1a6e5960f5",
+      "source": "industrial_geometry",
+      "evidence": {
+        "target_category": "category_06",
+        "center_distance": 0.3086240630553534,
+        "tie_tolerance": 1e-06,
+        "candidate_distances": [
+          {
+            "object_id": "obj_e57b3a886c2d",
+            "distance": 1.7638387075154285
+          },
+          {
+            "object_id": "obj_04c477562e49",
+            "distance": 0.3086240630553534
+          },
+          {
+            "object_id": "obj_c57876bf22ca",
+            "distance": 5.033981037239417
+          }
+        ],
+        "units": "SfM relative units"
+      }
+    }
+  ],
+  "renderable_object_ids": [
+    "obj_04c477562e49"
+  ],
+  "unavailable_object_ids": [],
+  "segmentation_rerun": false,
+  "geometry_scope": "all M0 equipment nodes",
+  "reference_semantics": "union over explicitly listed matching anchors",
+  "target_match": {
+    "method": "category",
+    "status": "ok",
+    "category_match": {
+      "category_id": "category_06",
+      "method": "exact_known_alias",
+      "query": "upright portable air cooler",
+      "abstained": false
+    }
+  },
+  "known_category_instances": [
+    "obj_e57b3a886c2d",
+    "obj_04c477562e49",
+    "obj_c57876bf22ca"
+  ],
+  "same_category_candidates_before": 3,
+  "anchor_match": {
+    "method": "exact_equipment_identity",
+    "status": "ok"
+  },
+  "anchor_object_ids": [
+    "obj_2e1a6e5960f5"
+  ],
+  "matches_after": 1
+}

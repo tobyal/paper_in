@@ -1,0 +1,502 @@
+[
+  {
+    "query_id": "Q001",
+    "subject_category": "upright portable air cooler",
+    "subject_category_id": "category_06",
+    "predicate": "left of",
+    "predicate_ours": "left_of",
+    "predicate_relags": "left",
+    "object_category": "workbench",
+    "object_category_id": "category_07",
+    "query_en": "upright portable air cooler to the left of the workbench",
+    "query_zh": "位于工作台左侧的立式移动冷风机",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000329",
+      "frame_000265"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q002",
+    "subject_category": "group of blue storage bins",
+    "subject_category_id": "category_05",
+    "predicate": "left of",
+    "predicate_ours": "left_of",
+    "predicate_relags": "left",
+    "object_category": "compartmented material rack",
+    "object_category_id": "category_08",
+    "query_en": "group of blue storage bins to the left of the compartmented material rack",
+    "query_zh": "位于分隔式料架左侧的蓝色箱组",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000129",
+      "frame_000153"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q003",
+    "subject_category": "fixture table carrying a black workpiece",
+    "subject_category_id": "category_03",
+    "predicate": "left of",
+    "predicate_ours": "left_of",
+    "predicate_relags": "left",
+    "object_category": "material cart",
+    "object_category_id": "category_01",
+    "query_en": "fixture table carrying a black workpiece to the left of the material cart",
+    "query_zh": "位于物料车左侧的带黑色工件的夹具台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000169",
+      "frame_000113"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 5 same-class devices to 2; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q004",
+    "subject_category": "workbench",
+    "subject_category_id": "category_07",
+    "predicate": "left of",
+    "predicate_ours": "left_of",
+    "predicate_relags": "left",
+    "object_category": "upright portable air cooler",
+    "object_category_id": "category_06",
+    "query_en": "workbench to the left of the upright portable air cooler",
+    "query_zh": "位于立式移动冷风机左侧的工作台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000321",
+      "frame_000025"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q005",
+    "subject_category": "multi-tier material rack",
+    "subject_category_id": "category_04",
+    "predicate": "left of",
+    "predicate_ours": "left_of",
+    "predicate_relags": "left",
+    "object_category": "assembly fixture table",
+    "object_category_id": "category_02",
+    "query_en": "multi-tier material rack to the left of the assembly fixture table",
+    "query_zh": "位于装配夹具台左侧的多层料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000217",
+      "frame_000065"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 9 same-class devices to 5; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q006",
+    "subject_category": "material cart",
+    "subject_category_id": "category_01",
+    "predicate": "right of",
+    "predicate_ours": "right_of",
+    "predicate_relags": "right",
+    "object_category": "multi-tier material rack",
+    "object_category_id": "category_04",
+    "query_en": "material cart to the right of the multi-tier material rack",
+    "query_zh": "位于多层料架右侧的物料车",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000321",
+      "frame_000273"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 6 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q007",
+    "subject_category": "multi-tier material rack",
+    "subject_category_id": "category_04",
+    "predicate": "right of",
+    "predicate_ours": "right_of",
+    "predicate_relags": "right",
+    "object_category": "group of blue storage bins",
+    "object_category_id": "category_05",
+    "query_en": "multi-tier material rack to the right of the group of blue storage bins",
+    "query_zh": "位于蓝色箱组右侧的多层料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000185",
+      "frame_000193"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 9 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q008",
+    "subject_category": "workbench",
+    "subject_category_id": "category_07",
+    "predicate": "right of",
+    "predicate_ours": "right_of",
+    "predicate_relags": "right",
+    "object_category": "fixture table carrying a black workpiece",
+    "object_category_id": "category_03",
+    "query_en": "workbench to the right of the fixture table carrying a black workpiece",
+    "query_zh": "位于带黑色工件的夹具台右侧的工作台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000225",
+      "frame_000209"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q009",
+    "subject_category": "fixture table carrying a black workpiece",
+    "subject_category_id": "category_03",
+    "predicate": "right of",
+    "predicate_ours": "right_of",
+    "predicate_relags": "right",
+    "object_category": "assembly fixture table",
+    "object_category_id": "category_02",
+    "query_en": "fixture table carrying a black workpiece to the right of the assembly fixture table",
+    "query_zh": "位于装配夹具台右侧的带黑色工件的夹具台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000161",
+      "frame_000065"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 5 same-class devices to 3; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q010",
+    "subject_category": "group of blue storage bins",
+    "subject_category_id": "category_05",
+    "predicate": "right of",
+    "predicate_ours": "right_of",
+    "predicate_relags": "right",
+    "object_category": "upright portable air cooler",
+    "object_category_id": "category_06",
+    "query_en": "group of blue storage bins to the right of the upright portable air cooler",
+    "query_zh": "位于立式移动冷风机右侧的蓝色箱组",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000129",
+      "frame_000209"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 2; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q011",
+    "subject_category": "assembly fixture table",
+    "subject_category_id": "category_02",
+    "predicate": "in front of",
+    "predicate_ours": "in_front_of",
+    "predicate_relags": "front",
+    "object_category": "group of blue storage bins",
+    "object_category_id": "category_05",
+    "query_en": "assembly fixture table in front of the group of blue storage bins",
+    "query_zh": "位于蓝色箱组前方的装配夹具台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000177",
+      "frame_000185"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q012",
+    "subject_category": "compartmented material rack",
+    "subject_category_id": "category_08",
+    "predicate": "in front of",
+    "predicate_ours": "in_front_of",
+    "predicate_relags": "front",
+    "object_category": "fixture table carrying a black workpiece",
+    "object_category_id": "category_03",
+    "query_en": "compartmented material rack in front of the fixture table carrying a black workpiece",
+    "query_zh": "位于带黑色工件的夹具台前方的分隔式料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000073",
+      "frame_000305"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q013",
+    "subject_category": "material cart",
+    "subject_category_id": "category_01",
+    "predicate": "in front of",
+    "predicate_ours": "in_front_of",
+    "predicate_relags": "front",
+    "object_category": "compartmented material rack",
+    "object_category_id": "category_08",
+    "query_en": "material cart in front of the compartmented material rack",
+    "query_zh": "位于分隔式料架前方的物料车",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000297",
+      "frame_000065"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 6 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q014",
+    "subject_category": "upright portable air cooler",
+    "subject_category_id": "category_06",
+    "predicate": "in front of",
+    "predicate_ours": "in_front_of",
+    "predicate_relags": "front",
+    "object_category": "material cart",
+    "object_category_id": "category_01",
+    "query_en": "upright portable air cooler in front of the material cart",
+    "query_zh": "位于物料车前方的立式移动冷风机",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000089",
+      "frame_000281"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q015",
+    "subject_category": "workbench",
+    "subject_category_id": "category_07",
+    "predicate": "in front of",
+    "predicate_ours": "in_front_of",
+    "predicate_relags": "front",
+    "object_category": "multi-tier material rack",
+    "object_category_id": "category_04",
+    "query_en": "workbench in front of the multi-tier material rack",
+    "query_zh": "位于多层料架前方的工作台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000321",
+      "frame_000025"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q016",
+    "subject_category": "assembly fixture table",
+    "subject_category_id": "category_02",
+    "predicate": "behind",
+    "predicate_ours": "behind",
+    "predicate_relags": "behind",
+    "object_category": "workbench",
+    "object_category_id": "category_07",
+    "query_en": "assembly fixture table behind the workbench",
+    "query_zh": "位于工作台后方的装配夹具台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000193",
+      "frame_000017"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 2; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q017",
+    "subject_category": "compartmented material rack",
+    "subject_category_id": "category_08",
+    "predicate": "behind",
+    "predicate_ours": "behind",
+    "predicate_relags": "behind",
+    "object_category": "upright portable air cooler",
+    "object_category_id": "category_06",
+    "query_en": "compartmented material rack behind the upright portable air cooler",
+    "query_zh": "位于立式移动冷风机后方的分隔式料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000305",
+      "frame_000169"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q018",
+    "subject_category": "fixture table carrying a black workpiece",
+    "subject_category_id": "category_03",
+    "predicate": "behind",
+    "predicate_ours": "behind",
+    "predicate_relags": "behind",
+    "object_category": "compartmented material rack",
+    "object_category_id": "category_08",
+    "query_en": "fixture table carrying a black workpiece behind the compartmented material rack",
+    "query_zh": "位于分隔式料架后方的带黑色工件的夹具台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000273",
+      "frame_000169"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 5 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q019",
+    "subject_category": "group of blue storage bins",
+    "subject_category_id": "category_05",
+    "predicate": "behind",
+    "predicate_ours": "behind",
+    "predicate_relags": "behind",
+    "object_category": "workbench",
+    "object_category_id": "category_07",
+    "query_en": "group of blue storage bins behind the workbench",
+    "query_zh": "位于工作台后方的蓝色箱组",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000193",
+      "frame_000201"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q020",
+    "subject_category": "multi-tier material rack",
+    "subject_category_id": "category_04",
+    "predicate": "behind",
+    "predicate_ours": "behind",
+    "predicate_relags": "behind",
+    "object_category": "assembly fixture table",
+    "object_category_id": "category_02",
+    "query_en": "multi-tier material rack behind the assembly fixture table",
+    "query_zh": "位于装配夹具台后方的多层料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000001",
+      "frame_000009"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 9 same-class devices to 3; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q021",
+    "subject_category": "upright portable air cooler",
+    "subject_category_id": "category_06",
+    "predicate": "near",
+    "predicate_ours": "near",
+    "predicate_relags": "close by",
+    "object_category": "multi-tier material rack",
+    "object_category_id": "category_04",
+    "query_en": "upright portable air cooler near the multi-tier material rack",
+    "query_zh": "位于多层料架附近的立式移动冷风机",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000089",
+      "frame_000281"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q022",
+    "subject_category": "assembly fixture table",
+    "subject_category_id": "category_02",
+    "predicate": "near",
+    "predicate_ours": "near",
+    "predicate_relags": "close by",
+    "object_category": "fixture table carrying a black workpiece",
+    "object_category_id": "category_03",
+    "query_en": "assembly fixture table near the fixture table carrying a black workpiece",
+    "query_zh": "位于带黑色工件的夹具台附近的装配夹具台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000177",
+      "frame_000185"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q023",
+    "subject_category": "compartmented material rack",
+    "subject_category_id": "category_08",
+    "predicate": "near",
+    "predicate_ours": "near",
+    "predicate_relags": "close by",
+    "object_category": "group of blue storage bins",
+    "object_category_id": "category_05",
+    "query_en": "compartmented material rack near the group of blue storage bins",
+    "query_zh": "位于蓝色箱组附近的分隔式料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000073",
+      "frame_000305"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q024",
+    "subject_category": "material cart",
+    "subject_category_id": "category_01",
+    "predicate": "near",
+    "predicate_ours": "near",
+    "predicate_relags": "close by",
+    "object_category": "workbench",
+    "object_category_id": "category_07",
+    "query_en": "material cart near the workbench",
+    "query_zh": "位于工作台附近的物料车",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000313",
+      "frame_000249"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 6 same-class devices to 2; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  {
+    "query_id": "Q025",
+    "subject_category": "multi-tier material rack",
+    "subject_category_id": "category_04",
+    "predicate": "near",
+    "predicate_ours": "near",
+    "predicate_relags": "close by",
+    "object_category": "material cart",
+    "object_category_id": "category_01",
+    "query_en": "multi-tier material rack near the material cart",
+    "query_zh": "位于物料车附近的多层料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000217",
+      "frame_000121"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 9 same-class devices to 3; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  }
+]

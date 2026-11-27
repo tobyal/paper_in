@@ -1,0 +1,60 @@
+{
+  "object_id": "obj_aad6e7f85a9a",
+  "name_en": "Multi-tier rack 08",
+  "display_id": "O09",
+  "candidate_gaussians": 99089,
+  "before_conflicts": 77804,
+  "final_gaussians": 71325,
+  "removed_gaussians": 27764,
+  "lost_conflicts": 6479,
+  "retained_fraction": 0.7198074458315252,
+  "affinity_min": 0.0599365234375,
+  "affinity_max": 0.99853515625,
+  "score_storage": "float16 from frozen v2; float32 threshold membership retained separately",
+  "threshold": 0.85,
+  "normalized_scale": 0.7364938332423129,
+  "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/extractions/refined/objects/obj_aad6e7f85a9a",
+  "source_score_sha256": "b19a69c4371c088ba4ad3fe81ad708a999cc5cf02d55b420d2c22a50fde2ca48",
+  "prompts": [
+    {
+      "directory": "E03_entity_construction/objects/obj_aad6e7f85a9a/prompts/00",
+      "original_mask": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/reference_prompts/obj_aad6e7f85a9a/frame_000295/mask.png",
+      "mask_sha256": "c92f124c4886385150fdc79f0af5c07f037918b4e9ee0a56a364d5bca3fe951c",
+      "source_type": "real"
+    },
+    {
+      "directory": "E03_entity_construction/objects/obj_aad6e7f85a9a/prompts/01",
+      "original_mask": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/reference_prompts/obj_aad6e7f85a9a/frame_000296/mask.png",
+      "mask_sha256": "da031fa5f06146a4b50b5841218ff52eb91caaed8cb0956f28395ae419268673",
+      "source_type": "real"
+    }
+  ],
+  "quality": {
+    "object_id": "obj_aad6e7f85a9a",
+    "category_id": "category_04",
+    "name_zh": "多层料架 08",
+    "name_en": "Multi-tier rack 08",
+    "reused_v1": false,
+    "status": "extracted_pending_visual_review",
+    "prompt_clicks": 14,
+    "scale": 0.7364938332423129,
+    "effective_real_views": 2,
+    "effective_virtual_views": 0,
+    "candidate_gaussians": 99089,
+    "selected_before_conflicts": 77804,
+    "gaussian_count": 71325,
+    "conflicts_removed": 6479,
+    "gaussian_indices": "outputs/A/extractions/refined/objects/obj_aad6e7f85a9a/gaussian_indices.npy",
+    "ply": "outputs/A/extractions/refined/objects/obj_aad6e7f85a9a/object.ply",
+    "review_image_id": "frame_000295",
+    "review_source_type": "real",
+    "training_visible_pixels": 111116,
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "diagnosis": "E",
+    "note_zh": "大部分层架横杆保留；与料架09有候选重叠，按亲和分配后保持独立，细杆仍有少量漂浮。",
+    "fine_instance_available": true,
+    "extra_optimization": false,
+    "quality_reviewer": "Codex visual inspection"
+  }
+}

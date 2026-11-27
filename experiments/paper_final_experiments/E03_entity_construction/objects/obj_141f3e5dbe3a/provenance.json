@@ -1,0 +1,66 @@
+{
+  "object_id": "obj_141f3e5dbe3a",
+  "name_en": "Blue bin group 01",
+  "display_id": "O11",
+  "candidate_gaussians": 40443,
+  "before_conflicts": 21501,
+  "final_gaussians": 21501,
+  "removed_gaussians": 18942,
+  "lost_conflicts": 0,
+  "retained_fraction": 0.5316371189080928,
+  "affinity_min": 0.49609375,
+  "affinity_max": 0.99853515625,
+  "score_storage": "float16 from frozen v2; float32 threshold membership retained separately",
+  "threshold": 0.85,
+  "normalized_scale": 0.7430201308953079,
+  "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/extractions/refined/objects/obj_141f3e5dbe3a",
+  "source_score_sha256": "69eeb40ac13b1271fab9805e196b65ce1d8e8733d9c94eb8345c256b05e65c03",
+  "prompts": [
+    {
+      "directory": "E03_entity_construction/objects/obj_141f3e5dbe3a/prompts/00",
+      "original_mask": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/reference_prompts/obj_141f3e5dbe3a/frame_000203/mask.png",
+      "mask_sha256": "7009422da2516013e26dea9f960e042da5041d5da7b6fb77ff31da9a6549cf85",
+      "source_type": "real"
+    },
+    {
+      "directory": "E03_entity_construction/objects/obj_141f3e5dbe3a/prompts/01",
+      "original_mask": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/reference_prompts/obj_141f3e5dbe3a/frame_000330/mask.png",
+      "mask_sha256": "a14b7042508902208610712aefdc84495fa22bd3d548a521e7fad1211a747b35",
+      "source_type": "real"
+    },
+    {
+      "directory": "E03_entity_construction/objects/obj_141f3e5dbe3a/prompts/02",
+      "original_mask": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/reference_prompts/obj_141f3e5dbe3a/frame_000208/mask.png",
+      "mask_sha256": "4bbb1a760229f42ef472648c1eb4e5ed01525de6cd090c520cff8e3a33e901d7",
+      "source_type": "real"
+    }
+  ],
+  "quality": {
+    "object_id": "obj_141f3e5dbe3a",
+    "category_id": "category_05",
+    "name_zh": "蓝色箱组 01",
+    "name_en": "Blue bin group 01",
+    "reused_v1": false,
+    "status": "extracted_pending_visual_review",
+    "prompt_clicks": 19,
+    "scale": 0.7430201308953079,
+    "effective_real_views": 3,
+    "effective_virtual_views": 0,
+    "candidate_gaussians": 40443,
+    "selected_before_conflicts": 21501,
+    "gaussian_count": 21501,
+    "conflicts_removed": 0,
+    "gaussian_indices": "outputs/A/extractions/refined/objects/obj_141f3e5dbe3a/gaussian_indices.npy",
+    "ply": "outputs/A/extractions/refined/objects/obj_141f3e5dbe3a/object.ply",
+    "review_image_id": "frame_000330",
+    "review_source_type": "real",
+    "training_visible_pixels": 28182,
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "needs_improvement",
+    "diagnosis": "E",
+    "extra_optimization": true,
+    "note_zh": "只保留部分蓝箱表面，前方小架仍混入；原始重建、遮挡及跨材质亲和筛选共同影响。0.80/0.90比较未明显改善，常规精细查询停用。",
+    "fine_instance_available": false,
+    "quality_reviewer": "Codex visual inspection"
+  }
+}

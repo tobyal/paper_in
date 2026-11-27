@@ -1,0 +1,4 @@
+﻿Configuration,Refined,Relation,mIoU (%),Precision (%),Recall (%)
+Box-based,No,Yes,62.95,70.33,83.72
+Ours w/o Relation,Yes,No,46.52,59.18,70.54
+Ours,Yes,Yes,63.70,84.33,70.21

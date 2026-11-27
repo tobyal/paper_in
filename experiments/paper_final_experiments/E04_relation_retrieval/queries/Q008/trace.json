@@ -1,0 +1,307 @@
+{
+  "query": {
+    "query_id": "Q008",
+    "subject_category": "workbench",
+    "subject_category_id": "category_07",
+    "predicate": "right of",
+    "predicate_ours": "right_of",
+    "predicate_relags": "right",
+    "object_category": "fixture table carrying a black workpiece",
+    "object_category_id": "category_03",
+    "query_en": "workbench to the right of the fixture table carrying a black workpiece",
+    "query_zh": "位于带黑色工件的夹具台右侧的工作台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000225",
+      "frame_000209"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "raw_relation_query": {
+    "query": "位于带黑色工件的夹具台右侧的工作台",
+    "status": "ok",
+    "relation": "right_of",
+    "anchor_text": "带黑色工件的夹具台",
+    "target_text": "工作台",
+    "matched_object_ids": [
+      "obj_2e1a6e5960f5"
+    ],
+    "objects": [
+      {
+        "object_id": "obj_2e1a6e5960f5",
+        "category_id": "category_07",
+        "name_zh": "工作台 01",
+        "name_en": "Workbench 01",
+        "bbox": {
+          "center": [
+            1.7572036521409542,
+            0.06245015022514497,
+            0.3848718361096076
+          ],
+          "size": [
+            0.3149936899585931,
+            0.6540495636503916,
+            0.6302563277807847
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "partial_usable",
+        "quality_record": {
+          "note_zh": "台面与主要正面结构保留；原生3DGS下部、背侧本就模糊或缺失，少量漂浮仍在。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_2e1a6e5960f5/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      }
+    ],
+    "relation_evidence": [
+      {
+        "subject": "obj_2e1a6e5960f5",
+        "relation": "right_of",
+        "object": "obj_ad85774e5f18",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.8599011098335385,
+          "center_delta": [
+            2.0066682699620944,
+            -3.22507334476663,
+            0.10125516515928334
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_2e1a6e5960f5",
+        "relation": "right_of",
+        "object": "obj_c812ae8b15bd",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.864955250594707,
+          "center_delta": [
+            0.8072036521409542,
+            -3.753458536661328,
+            0.09304150778488895
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_2e1a6e5960f5",
+        "relation": "right_of",
+        "object": "obj_8528f4bf8a3d",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 3.8424662904066302,
+          "center_delta": [
+            2.0539435753025277,
+            -4.358326628167067,
+            0.10221173713789888
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_2e1a6e5960f5",
+        "relation": "right_of",
+        "object": "obj_8e79bd39b8b9",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 4.037983794423442,
+          "center_delta": [
+            0.8033378842479778,
+            -4.8978226651984835,
+            0.1073233915207375
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_2e1a6e5960f5",
+        "relation": "right_of",
+        "object": "obj_087984e7c374",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 5.12294684902403,
+          "center_delta": [
+            1.0142360330737927,
+            -5.864827760131355,
+            0.09935845856481079
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ],
+    "renderable_object_ids": [
+      "obj_2e1a6e5960f5"
+    ],
+    "unavailable_object_ids": [],
+    "segmentation_rerun": false,
+    "geometry_scope": "all M0 equipment nodes",
+    "reference_semantics": "union over explicitly listed matching anchors",
+    "target_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_07",
+        "method": "exact_known_alias",
+        "query": "工作台",
+        "abstained": false
+      }
+    },
+    "known_category_instances": [
+      "obj_2e1a6e5960f5",
+      "obj_df0a6cc33263"
+    ],
+    "same_category_candidates_before": 2,
+    "anchor_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_03",
+        "method": "exact_known_alias",
+        "query": "带黑色工件的夹具台",
+        "abstained": false
+      }
+    },
+    "anchor_object_ids": [
+      "obj_ad85774e5f18",
+      "obj_c812ae8b15bd",
+      "obj_8528f4bf8a3d",
+      "obj_8e79bd39b8b9",
+      "obj_087984e7c374"
+    ],
+    "matches_after": 1
+  },
+  "raw_category_query": {
+    "query": "工作台",
+    "status": "ok",
+    "relation": null,
+    "anchor_text": null,
+    "target_text": "工作台",
+    "matched_object_ids": [
+      "obj_2e1a6e5960f5",
+      "obj_df0a6cc33263"
+    ],
+    "objects": [
+      {
+        "object_id": "obj_2e1a6e5960f5",
+        "category_id": "category_07",
+        "name_zh": "工作台 01",
+        "name_en": "Workbench 01",
+        "bbox": {
+          "center": [
+            1.7572036521409542,
+            0.06245015022514497,
+            0.3848718361096076
+          ],
+          "size": [
+            0.3149936899585931,
+            0.6540495636503916,
+            0.6302563277807847
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "partial_usable",
+        "quality_record": {
+          "note_zh": "台面与主要正面结构保留；原生3DGS下部、背侧本就模糊或缺失，少量漂浮仍在。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_2e1a6e5960f5/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_df0a6cc33263",
+        "category_id": "category_07",
+        "name_zh": "工作台 02",
+        "name_en": "Workbench 02",
+        "bbox": {
+          "center": [
+            -0.9306035899893904,
+            2.6645830046741574,
+            0.39714053082068446
+          ],
+          "size": [
+            0.50530424729963,
+            0.4578968766279694,
+            0.8024120554494734
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "partial_usable",
+        "quality_record": {
+          "note_zh": "已有面板和台面可辨，腿部、背面缺失较多；原始欠重建与亲和筛选共同影响，查询显示局部结果。",
+          "diagnosis": "E",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_df0a6cc33263/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      }
+    ],
+    "relation_evidence": [],
+    "renderable_object_ids": [
+      "obj_2e1a6e5960f5",
+      "obj_df0a6cc33263"
+    ],
+    "unavailable_object_ids": [],
+    "segmentation_rerun": false,
+    "geometry_scope": "all M0 equipment nodes",
+    "reference_semantics": "union over explicitly listed matching anchors",
+    "target_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_07",
+        "method": "exact_known_alias",
+        "query": "工作台",
+        "abstained": false
+      }
+    },
+    "known_category_instances": [
+      "obj_2e1a6e5960f5",
+      "obj_df0a6cc33263"
+    ],
+    "same_category_candidates_before": 2,
+    "matches_after": 2
+  },
+  "excluded_same_class": [
+    "obj_df0a6cc33263"
+  ]
+}

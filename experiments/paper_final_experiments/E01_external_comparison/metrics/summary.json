@@ -1,0 +1,46 @@
+[
+  {
+    "method": "langsplat",
+    "valid_queries": 23,
+    "valid_views": 44,
+    "normal_empty_evaluated": 0,
+    "normal_empty_all": 0,
+    "failed_queries": 0,
+    "iou": 0.20869207053377467,
+    "precision": 0.2927636251636847,
+    "recall": 0.3632033619848316
+  },
+  {
+    "method": "thgs",
+    "valid_queries": 23,
+    "valid_views": 44,
+    "normal_empty_evaluated": 11,
+    "normal_empty_all": 11,
+    "failed_queries": 0,
+    "iou": 0.08680339030570908,
+    "precision": 0.14395260116581443,
+    "recall": 0.10162389166530403
+  },
+  {
+    "method": "relags",
+    "valid_queries": 23,
+    "valid_views": 44,
+    "normal_empty_evaluated": 30,
+    "normal_empty_all": 31,
+    "failed_queries": 0,
+    "iou": 0.003470397745029418,
+    "precision": 0.11002734217735784,
+    "recall": 0.0035171833209915303
+  },
+  {
+    "method": "ours",
+    "valid_queries": 23,
+    "valid_views": 44,
+    "normal_empty_evaluated": 2,
+    "normal_empty_all": 2,
+    "failed_queries": 0,
+    "iou": 0.6369505620271781,
+    "precision": 0.8433163447455854,
+    "recall": 0.7020665739617316
+  }
+]

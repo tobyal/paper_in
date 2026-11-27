@@ -1,0 +1,329 @@
+{
+  "query": {
+    "query_id": "Q016",
+    "subject_category": "assembly fixture table",
+    "subject_category_id": "category_02",
+    "predicate": "behind",
+    "predicate_ours": "behind",
+    "predicate_relags": "behind",
+    "object_category": "workbench",
+    "object_category_id": "category_07",
+    "query_en": "assembly fixture table behind the workbench",
+    "query_zh": "位于工作台后方的装配夹具台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000193",
+      "frame_000017"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 2; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "raw_relation_query": {
+    "query": "位于工作台后方的装配夹具台",
+    "status": "ok",
+    "relation": "behind",
+    "anchor_text": "工作台",
+    "target_text": "装配夹具台",
+    "matched_object_ids": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01"
+    ],
+    "objects": [
+      {
+        "object_id": "obj_8429bc5f3c33",
+        "category_id": "category_02",
+        "name_zh": "装配夹具台 01",
+        "name_en": "Assembly fixture table 01",
+        "bbox": {
+          "center": [
+            -0.17386776380843333,
+            -0.14482609077105557,
+            0.33159791952534423
+          ],
+          "size": [
+            0.48928389568888575,
+            1.1792209392228499,
+            0.5437789731437292
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "well_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "底座、立柱及主要夹具得到保留；细线缆和轮缘局部缺失。",
+          "diagnosis": "D",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_8429bc5f3c33/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_d058f708eb01",
+        "category_id": "category_02",
+        "name_zh": "装配夹具台 02",
+        "name_en": "Assembly fixture table 02",
+        "bbox": {
+          "center": [
+            -0.16643743070526743,
+            1.0086260235141904,
+            0.3210277401341963
+          ],
+          "size": [
+            0.5010696794597378,
+            1.08562822256152,
+            0.5772987309280759
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "well_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "直接复用v1；长底座和夹具连贯，细线缆仍不完整。",
+          "diagnosis": "D",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_d058f708eb01/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      }
+    ],
+    "relation_evidence": [
+      {
+        "subject": "obj_8429bc5f3c33",
+        "relation": "behind",
+        "object": "obj_df0a6cc33263",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.007683862868492,
+          "center_delta": [
+            0.7567358261809571,
+            -2.809409095445213,
+            -0.06554261129534023
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_d058f708eb01",
+        "relation": "behind",
+        "object": "obj_df0a6cc33263",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.9219055990207863,
+          "center_delta": [
+            0.764166159284123,
+            -1.655956981159967,
+            -0.07611279068648813
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ],
+    "renderable_object_ids": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01"
+    ],
+    "unavailable_object_ids": [],
+    "segmentation_rerun": false,
+    "geometry_scope": "all M0 equipment nodes",
+    "reference_semantics": "union over explicitly listed matching anchors",
+    "target_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_02",
+        "method": "exact_known_alias",
+        "query": "装配夹具台",
+        "abstained": false
+      }
+    },
+    "known_category_instances": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01",
+      "obj_09a35ba03c92"
+    ],
+    "same_category_candidates_before": 3,
+    "anchor_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_07",
+        "method": "exact_known_alias",
+        "query": "工作台",
+        "abstained": false
+      }
+    },
+    "anchor_object_ids": [
+      "obj_2e1a6e5960f5",
+      "obj_df0a6cc33263"
+    ],
+    "matches_after": 2
+  },
+  "raw_category_query": {
+    "query": "装配夹具台",
+    "status": "ok",
+    "relation": null,
+    "anchor_text": null,
+    "target_text": "装配夹具台",
+    "matched_object_ids": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01",
+      "obj_09a35ba03c92"
+    ],
+    "objects": [
+      {
+        "object_id": "obj_8429bc5f3c33",
+        "category_id": "category_02",
+        "name_zh": "装配夹具台 01",
+        "name_en": "Assembly fixture table 01",
+        "bbox": {
+          "center": [
+            -0.17386776380843333,
+            -0.14482609077105557,
+            0.33159791952534423
+          ],
+          "size": [
+            0.48928389568888575,
+            1.1792209392228499,
+            0.5437789731437292
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "well_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "底座、立柱及主要夹具得到保留；细线缆和轮缘局部缺失。",
+          "diagnosis": "D",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_8429bc5f3c33/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_d058f708eb01",
+        "category_id": "category_02",
+        "name_zh": "装配夹具台 02",
+        "name_en": "Assembly fixture table 02",
+        "bbox": {
+          "center": [
+            -0.16643743070526743,
+            1.0086260235141904,
+            0.3210277401341963
+          ],
+          "size": [
+            0.5010696794597378,
+            1.08562822256152,
+            0.5772987309280759
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "well_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "直接复用v1；长底座和夹具连贯，细线缆仍不完整。",
+          "diagnosis": "D",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_d058f708eb01/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_09a35ba03c92",
+        "category_id": "category_02",
+        "name_zh": "装配夹具台 03",
+        "name_en": "Assembly fixture table 03",
+        "bbox": {
+          "center": [
+            -0.16525946846347808,
+            2.0926460326822753,
+            0.3034759613841481
+          ],
+          "size": [
+            0.5150885538456178,
+            1.0485211755464037,
+            0.5948836758522971
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "well_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "直接复用v1；主要支架保留，局部细杆有孔洞。",
+          "diagnosis": "D",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_09a35ba03c92/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      }
+    ],
+    "relation_evidence": [],
+    "renderable_object_ids": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01",
+      "obj_09a35ba03c92"
+    ],
+    "unavailable_object_ids": [],
+    "segmentation_rerun": false,
+    "geometry_scope": "all M0 equipment nodes",
+    "reference_semantics": "union over explicitly listed matching anchors",
+    "target_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_02",
+        "method": "exact_known_alias",
+        "query": "装配夹具台",
+        "abstained": false
+      }
+    },
+    "known_category_instances": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01",
+      "obj_09a35ba03c92"
+    ],
+    "same_category_candidates_before": 3,
+    "matches_after": 3
+  },
+  "excluded_same_class": [
+    "obj_09a35ba03c92"
+  ]
+}

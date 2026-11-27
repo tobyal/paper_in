@@ -1,0 +1,9 @@
+{
+  "exit_code": 0,
+  "wall_seconds": 15.739541214890778,
+  "command": [
+    "../saga_relags_v1/envs/saga/bin/python",
+    "scripts/sam_supplement.py"
+  ],
+  "finished_utc": "2026-11-27T07:57:22.362962+00:00"
+}

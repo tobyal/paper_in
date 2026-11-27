@@ -1,0 +1,199 @@
+{
+  "query": "位于多层料架右侧的物料车",
+  "status": "ok",
+  "relation": "right_of",
+  "anchor_text": "多层料架",
+  "target_text": "物料车",
+  "matched_object_ids": [
+    "obj_f9a0e863e32d"
+  ],
+  "objects": [
+    {
+      "object_id": "obj_f9a0e863e32d",
+      "category_id": "category_01",
+      "name_zh": "物料车 03",
+      "name_en": "Material cart 03",
+      "bbox": {
+        "center": [
+          0.3203496090971163,
+          3.038892348107301,
+          0.3024030610839519
+        ],
+        "size": [
+          0.5731912350422347,
+          0.7528548424211999,
+          0.6282605860009616
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "reconstruction_status": "well_reconstructed",
+      "extraction_status": "usable",
+      "quality_record": {
+        "note_zh": "直接复用v1；箱体和车架完整，边缘少量原始重建伪影。",
+        "diagnosis": "A",
+        "reviewer": "Codex visual inspection"
+      },
+      "fine_instance_available": true,
+      "gaussian_indices": "instances/obj_f9a0e863e32d/gaussian_indices.npy",
+      "location_source": "M0 r29",
+      "representation": "SAGA_instance"
+    }
+  ],
+  "relation_evidence": [
+    {
+      "subject": "obj_f9a0e863e32d",
+      "relation": "right_of",
+      "object": "obj_126125e3a773",
+      "source": "industrial_geometry",
+      "evidence": {
+        "aabb_gap": 2.381742575650091,
+        "center_delta": [
+          1.4383391878120244,
+          2.9377946912166335,
+          -0.036922085653839865
+        ],
+        "coordinate_frame": "industrial",
+        "units": "SfM relative units; not meters",
+        "extent_source": "M0 OBB projected into industrial axes"
+      }
+    },
+    {
+      "subject": "obj_f9a0e863e32d",
+      "relation": "right_of",
+      "object": "obj_aad6e7f85a9a",
+      "source": "industrial_geometry",
+      "evidence": {
+        "aabb_gap": 2.448154669616324,
+        "center_delta": [
+          1.4638273356486589,
+          -3.2386643400478663,
+          0.053473332245882244
+        ],
+        "coordinate_frame": "industrial",
+        "units": "SfM relative units; not meters",
+        "extent_source": "M0 OBB projected into industrial axes"
+      }
+    },
+    {
+      "subject": "obj_f9a0e863e32d",
+      "relation": "right_of",
+      "object": "obj_b7e0494ce9dd",
+      "source": "industrial_geometry",
+      "evidence": {
+        "aabb_gap": 2.944503122729039,
+        "center_delta": [
+          1.3540298670898454,
+          3.566139390460511,
+          -0.049421756443725984
+        ],
+        "coordinate_frame": "industrial",
+        "units": "SfM relative units; not meters",
+        "extent_source": "M0 OBB projected into industrial axes"
+      }
+    },
+    {
+      "subject": "obj_f9a0e863e32d",
+      "relation": "right_of",
+      "object": "obj_b8542dc54ed2",
+      "source": "industrial_geometry",
+      "evidence": {
+        "aabb_gap": 1.7276685987559606,
+        "center_delta": [
+          1.4137010065641362,
+          2.257782592546658,
+          -0.04757602761184199
+        ],
+        "coordinate_frame": "industrial",
+        "units": "SfM relative units; not meters",
+        "extent_source": "M0 OBB projected into industrial axes"
+      }
+    },
+    {
+      "subject": "obj_f9a0e863e32d",
+      "relation": "right_of",
+      "object": "obj_933bd7d6e703",
+      "source": "industrial_geometry",
+      "evidence": {
+        "aabb_gap": 2.835142945126227,
+        "center_delta": [
+          0.8016124089231573,
+          -3.454927845513617,
+          0.02582710873565619
+        ],
+        "coordinate_frame": "industrial",
+        "units": "SfM relative units; not meters",
+        "extent_source": "M0 OBB projected into industrial axes"
+      }
+    },
+    {
+      "subject": "obj_f9a0e863e32d",
+      "relation": "right_of",
+      "object": "obj_dee5bef52687",
+      "source": "industrial_geometry",
+      "evidence": {
+        "aabb_gap": 1.272747314680956,
+        "center_delta": [
+          1.4634799458334702,
+          -1.8249326493695444,
+          0.012524800389829782
+        ],
+        "coordinate_frame": "industrial",
+        "units": "SfM relative units; not meters",
+        "extent_source": "M0 OBB projected into industrial axes"
+      }
+    }
+  ],
+  "renderable_object_ids": [
+    "obj_f9a0e863e32d"
+  ],
+  "unavailable_object_ids": [],
+  "segmentation_rerun": false,
+  "geometry_scope": "all M0 equipment nodes",
+  "reference_semantics": "union over explicitly listed matching anchors",
+  "target_match": {
+    "method": "category",
+    "status": "ok",
+    "category_match": {
+      "category_id": "category_01",
+      "method": "exact_known_alias",
+      "query": "物料车",
+      "abstained": false
+    }
+  },
+  "known_category_instances": [
+    "obj_f9a0e863e32d",
+    "obj_4fd05384c476",
+    "obj_3efbeb5e8179",
+    "obj_7047e5f33259",
+    "obj_c0162cd69680",
+    "obj_57b0f30bdd9e"
+  ],
+  "same_category_candidates_before": 6,
+  "anchor_match": {
+    "method": "category",
+    "status": "ok",
+    "category_match": {
+      "category_id": "category_04",
+      "method": "exact_known_alias",
+      "query": "多层料架",
+      "abstained": false
+    }
+  },
+  "anchor_object_ids": [
+    "obj_485ade540e7d",
+    "obj_126125e3a773",
+    "obj_aad6e7f85a9a",
+    "obj_5bfd32389355",
+    "obj_b7e0494ce9dd",
+    "obj_b8542dc54ed2",
+    "obj_06d9693cfb0a",
+    "obj_933bd7d6e703",
+    "obj_dee5bef52687"
+  ],
+  "matches_after": 1
+}

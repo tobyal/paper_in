@@ -1,0 +1,9 @@
+{
+  "exit_code": 0,
+  "wall_seconds": 7.866703958250582,
+  "command": [
+    "../../envs/relags/bin/python",
+    "scripts/audit_relags.py"
+  ],
+  "finished_utc": "2026-11-27T07:52:42.885143+00:00"
+}

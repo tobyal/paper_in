@@ -1,0 +1,57 @@
+[
+  {
+    "task_id": "T038",
+    "object_id": "obj_5bfd32389355",
+    "name": "Multi-tier rack 04",
+    "camera_id": "frame_000185",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9772657155990601,
+    "mask_pixels": 9846,
+    "note": "Central rack isolated from flanking small stand and grey bin stack; rail gaps approximate.",
+    "prompt": {
+      "box": [
+        302,
+        153,
+        408,
+        276
+      ],
+      "points": [
+        [
+          353,
+          190
+        ],
+        [
+          368,
+          238
+        ],
+        [
+          326,
+          254
+        ],
+        [
+          433,
+          222
+        ],
+        [
+          283,
+          239
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T038/review1/record.json"
+  }
+]

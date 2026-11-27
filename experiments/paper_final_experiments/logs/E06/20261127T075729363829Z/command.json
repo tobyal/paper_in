@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "../saga_relags_v1/envs/saga/bin/python",
+    "scripts/efficiency.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments",
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "CUDA_VISIBLE_DEVICES": "0",
+    "TMPDIR": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/cache/tmp",
+    "MPLCONFIGDIR": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/cache/matplotlib"
+  },
+  "utc": "20261127T075729363829Z"
+}

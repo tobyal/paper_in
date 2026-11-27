@@ -1,0 +1,29 @@
+{
+  "variant": "box_all33",
+  "query_id": "Q012",
+  "status": "completed",
+  "returned_object_ids": [
+    "obj_c7c9293c6c6d"
+  ],
+  "matched_object_ids": [
+    "obj_c7c9293c6c6d"
+  ],
+  "category_candidate_ids": [
+    "obj_c7c9293c6c6d",
+    "obj_5746b7e7d040"
+  ],
+  "unavailable_ids": [],
+  "gaussian_count": 49463,
+  "views": [
+    {
+      "camera_id": "frame_000073",
+      "mask_pixels": 39666
+    },
+    {
+      "camera_id": "frame_000305",
+      "mask_pixels": 77323
+    }
+  ],
+  "wall_seconds": 0.14818745106458664,
+  "reused_prediction": false
+}

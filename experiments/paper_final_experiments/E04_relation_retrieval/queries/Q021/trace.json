@@ -1,0 +1,283 @@
+{
+  "query": {
+    "query_id": "Q021",
+    "subject_category": "upright portable air cooler",
+    "subject_category_id": "category_06",
+    "predicate": "near",
+    "predicate_ours": "near",
+    "predicate_relags": "close by",
+    "object_category": "multi-tier material rack",
+    "object_category_id": "category_04",
+    "query_en": "upright portable air cooler near the multi-tier material rack",
+    "query_zh": "位于多层料架附近的立式移动冷风机",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000089",
+      "frame_000281"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "raw_relation_query": {
+    "query": "位于多层料架附近的立式移动冷风机",
+    "status": "ok",
+    "relation": "near",
+    "anchor_text": "多层料架",
+    "target_text": "立式移动冷风机",
+    "matched_object_ids": [
+      "obj_c57876bf22ca"
+    ],
+    "objects": [
+      {
+        "object_id": "obj_c57876bf22ca",
+        "category_id": "category_06",
+        "name_zh": "立式移动冷风机 03",
+        "name_en": "Portable upright air cooler 03",
+        "bbox": {
+          "center": [
+            1.479074300510917,
+            5.084081200157719,
+            0.16846771091565185
+          ],
+          "size": [
+            0.2450528309004127,
+            0.23325305915396924,
+            0.4372315859776114
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "直接复用v1；机身格栅有效，原始轮脚与下部模糊。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_c57876bf22ca/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      }
+    ],
+    "relation_evidence": [
+      {
+        "subject": "obj_c57876bf22ca",
+        "relation": "near",
+        "object": "obj_06d9693cfb0a",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.05674153019644912,
+          "center_delta": [
+            0.018496614534477596,
+            0.504519051235965,
+            -0.023349787716552883
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ],
+    "renderable_object_ids": [
+      "obj_c57876bf22ca"
+    ],
+    "unavailable_object_ids": [],
+    "segmentation_rerun": false,
+    "geometry_scope": "all M0 equipment nodes",
+    "reference_semantics": "union over explicitly listed matching anchors",
+    "target_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_06",
+        "method": "exact_known_alias",
+        "query": "立式移动冷风机",
+        "abstained": false
+      }
+    },
+    "known_category_instances": [
+      "obj_e57b3a886c2d",
+      "obj_04c477562e49",
+      "obj_c57876bf22ca"
+    ],
+    "same_category_candidates_before": 3,
+    "anchor_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_04",
+        "method": "exact_known_alias",
+        "query": "多层料架",
+        "abstained": false
+      }
+    },
+    "anchor_object_ids": [
+      "obj_485ade540e7d",
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_5bfd32389355",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_06d9693cfb0a",
+      "obj_933bd7d6e703",
+      "obj_dee5bef52687"
+    ],
+    "matches_after": 1
+  },
+  "raw_category_query": {
+    "query": "立式移动冷风机",
+    "status": "ok",
+    "relation": null,
+    "anchor_text": null,
+    "target_text": "立式移动冷风机",
+    "matched_object_ids": [
+      "obj_e57b3a886c2d",
+      "obj_04c477562e49",
+      "obj_c57876bf22ca"
+    ],
+    "objects": [
+      {
+        "object_id": "obj_e57b3a886c2d",
+        "category_id": "category_06",
+        "name_zh": "立式移动冷风机 02",
+        "name_en": "Portable upright air cooler 02",
+        "bbox": {
+          "center": [
+            0.5689760835118445,
+            1.3603114408509263,
+            0.26322356618917975
+          ],
+          "size": [
+            0.31265912377761795,
+            0.3413506831601389,
+            0.45355286762164054
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "well_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "冷风机机身及格栅清晰，底部脚轮在原始重建中模糊。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_e57b3a886c2d/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_04c477562e49",
+        "category_id": "category_06",
+        "name_zh": "立式移动冷风机 01",
+        "name_en": "Portable upright air cooler 01",
+        "bbox": {
+          "center": [
+            1.4849999999999999,
+            -0.060930727513434146,
+            0.3078579213514364
+          ],
+          "size": [
+            0.32999999999999985,
+            0.31999999999999995,
+            0.4642841572971272
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "直接复用v1；已有机身结构提取有效，背面彩色伪影来自原始3DGS，不能解释为补全失败。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_04c477562e49/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      },
+      {
+        "object_id": "obj_c57876bf22ca",
+        "category_id": "category_06",
+        "name_zh": "立式移动冷风机 03",
+        "name_en": "Portable upright air cooler 03",
+        "bbox": {
+          "center": [
+            1.479074300510917,
+            5.084081200157719,
+            0.16846771091565185
+          ],
+          "size": [
+            0.2450528309004127,
+            0.23325305915396924,
+            0.4372315859776114
+          ],
+          "quaternion": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "reconstruction_status": "partially_reconstructed",
+        "extraction_status": "usable",
+        "quality_record": {
+          "note_zh": "直接复用v1；机身格栅有效，原始轮脚与下部模糊。",
+          "diagnosis": "A",
+          "reviewer": "Codex visual inspection"
+        },
+        "fine_instance_available": true,
+        "gaussian_indices": "instances/obj_c57876bf22ca/gaussian_indices.npy",
+        "location_source": "M0 r29",
+        "representation": "SAGA_instance"
+      }
+    ],
+    "relation_evidence": [],
+    "renderable_object_ids": [
+      "obj_e57b3a886c2d",
+      "obj_04c477562e49",
+      "obj_c57876bf22ca"
+    ],
+    "unavailable_object_ids": [],
+    "segmentation_rerun": false,
+    "geometry_scope": "all M0 equipment nodes",
+    "reference_semantics": "union over explicitly listed matching anchors",
+    "target_match": {
+      "method": "category",
+      "status": "ok",
+      "category_match": {
+        "category_id": "category_06",
+        "method": "exact_known_alias",
+        "query": "立式移动冷风机",
+        "abstained": false
+      }
+    },
+    "known_category_instances": [
+      "obj_e57b3a886c2d",
+      "obj_04c477562e49",
+      "obj_c57876bf22ca"
+    ],
+    "same_category_candidates_before": 3,
+    "matches_after": 3
+  },
+  "excluded_same_class": [
+    "obj_04c477562e49",
+    "obj_e57b3a886c2d"
+  ]
+}

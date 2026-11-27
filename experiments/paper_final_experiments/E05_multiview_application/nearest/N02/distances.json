@@ -1,0 +1,20 @@
+[
+  {
+    "object_id": "obj_04c477562e49",
+    "name_en": "Portable upright air cooler 01",
+    "center_distance": 0.3086240630553534,
+    "fine_available": true
+  },
+  {
+    "object_id": "obj_e57b3a886c2d",
+    "name_en": "Portable upright air cooler 02",
+    "center_distance": 1.7638387075154285,
+    "fine_available": true
+  },
+  {
+    "object_id": "obj_c57876bf22ca",
+    "name_en": "Portable upright air cooler 03",
+    "center_distance": 5.033981037239417,
+    "fine_available": true
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "query": {
+    "query_id": "Q015",
+    "subject_category": "workbench",
+    "subject_category_id": "category_07",
+    "predicate": "in front of",
+    "predicate_ours": "in_front_of",
+    "predicate_relags": "front",
+    "object_category": "multi-tier material rack",
+    "object_category_id": "category_04",
+    "query_en": "workbench in front of the multi-tier material rack",
+    "query_zh": "位于多层料架前方的工作台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000321",
+      "frame_000025"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "target_object_ids": [
+    "obj_df0a6cc33263"
+  ],
+  "current_reference_review": {
+    "query_id": "Q015",
+    "camera_id": "frame_000321",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_df0a6cc33263"
+    ],
+    "task_ids": [
+      "T065"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 8655,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q015/frame_000321/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q015/frame_000321/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  "independent_human_review_status": "not_confirmed",
+  "instruction": "Review original RGB, target identity, visible extent and gaps. Do not consult any method prediction. Any edited reference must create a new version and evaluate every method on the same sample set."
+}

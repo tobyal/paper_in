@@ -1,0 +1,5 @@
+﻿Configuration	mIoU (%)	Precision (%)	Recall (%)	Evaluated_views
+Box-based (all 33)	68.07	72.51	90.94	44
+Multi-view SAM (19 available)	21.62	58.63	22.62	44
+Multi-view SAM (shared 17)	21.62	58.63	22.62	44
+Ours (shared 17)	46.01	58.08	50.06	44

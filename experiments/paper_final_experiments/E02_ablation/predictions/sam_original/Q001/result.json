@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "variant": "sam_original",
+  "query_id": "Q001",
+  "returned_object_ids": [
+    "obj_e57b3a886c2d"
+  ],
+  "gaussian_count": 2338,
+  "views": [
+    {
+      "camera_id": "frame_000329",
+      "mask_pixels": 4168
+    },
+    {
+      "camera_id": "frame_000265",
+      "mask_pixels": 1909
+    }
+  ],
+  "source": "historical multiview SAM fusion"
+}

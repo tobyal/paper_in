@@ -1,0 +1,198 @@
+{
+  "metrics_independently_recomputed": true,
+  "previous_aggregates_exact": true,
+  "common_queries": 23,
+  "common_views": 44,
+  "total_queries": 25,
+  "total_views": 50,
+  "excluded_samples": [
+    {
+      "query_id": "Q005",
+      "camera_id": "frame_000217",
+      "reference_type": "SAM-assisted Pseudo-GT",
+      "status": "excluded_unreliable",
+      "target_visible": true,
+      "target_ids": [
+        "obj_126125e3a773",
+        "obj_aad6e7f85a9a",
+        "obj_b7e0494ce9dd",
+        "obj_b8542dc54ed2",
+        "obj_dee5bef52687"
+      ],
+      "task_ids": [
+        "T047",
+        "T048",
+        "T049",
+        "T050",
+        "T051"
+      ],
+      "unreliable_task_ids": [
+        "T051"
+      ],
+      "reasons": [
+        "Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts."
+      ],
+      "mask_pixels": 53663,
+      "reviewer": "Codex visual review; not independent human annotation",
+      "independent_human_ground_truth": false,
+      "mask_path": "evaluation/pseudo_ground_truth/Q005/frame_000217/mask.png",
+      "original_rgb": "evaluation/pseudo_ground_truth/Q005/frame_000217/original_rgb.png",
+      "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+    },
+    {
+      "query_id": "Q005",
+      "camera_id": "frame_000065",
+      "reference_type": "SAM-assisted Pseudo-GT",
+      "status": "excluded_unreliable",
+      "target_visible": true,
+      "target_ids": [
+        "obj_126125e3a773",
+        "obj_aad6e7f85a9a",
+        "obj_b7e0494ce9dd",
+        "obj_b8542dc54ed2",
+        "obj_dee5bef52687"
+      ],
+      "task_ids": [
+        "T011",
+        "T012",
+        "T015",
+        "T016",
+        "T018"
+      ],
+      "unreliable_task_ids": [
+        "T018"
+      ],
+      "reasons": [
+        "M0 box spans rear large panel/rack plus separate front workstation; visible ownership cannot be reliably resolved in this view after additional prompts."
+      ],
+      "mask_pixels": 24333,
+      "reviewer": "Codex visual review; not independent human annotation",
+      "independent_human_ground_truth": false,
+      "mask_path": "evaluation/pseudo_ground_truth/Q005/frame_000065/mask.png",
+      "original_rgb": "evaluation/pseudo_ground_truth/Q005/frame_000065/original_rgb.png",
+      "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+    },
+    {
+      "query_id": "Q009",
+      "camera_id": "frame_000161",
+      "reference_type": "SAM-assisted Pseudo-GT",
+      "status": "excluded_unreliable",
+      "target_visible": true,
+      "target_ids": [
+        "obj_c812ae8b15bd",
+        "obj_8e79bd39b8b9",
+        "obj_087984e7c374"
+      ],
+      "task_ids": [
+        "T030",
+        "T031",
+        "T032"
+      ],
+      "unreliable_task_ids": [
+        "T031"
+      ],
+      "reasons": [
+        "Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable."
+      ],
+      "mask_pixels": 28731,
+      "reviewer": "Codex visual review; not independent human annotation",
+      "independent_human_ground_truth": false,
+      "mask_path": "evaluation/pseudo_ground_truth/Q009/frame_000161/mask.png",
+      "original_rgb": "evaluation/pseudo_ground_truth/Q009/frame_000161/original_rgb.png",
+      "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+    },
+    {
+      "query_id": "Q010",
+      "camera_id": "frame_000129",
+      "reference_type": "SAM-assisted Pseudo-GT",
+      "status": "excluded_unreliable",
+      "target_visible": true,
+      "target_ids": [
+        "obj_141f3e5dbe3a",
+        "obj_3c963764ddb5"
+      ],
+      "task_ids": [
+        "T026",
+        "T027"
+      ],
+      "unreliable_task_ids": [
+        "T026",
+        "T027"
+      ],
+      "reasons": [
+        "Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.",
+        "Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points."
+      ],
+      "mask_pixels": 19237,
+      "reviewer": "Codex visual review; not independent human annotation",
+      "independent_human_ground_truth": false,
+      "mask_path": "evaluation/pseudo_ground_truth/Q010/frame_000129/mask.png",
+      "original_rgb": "evaluation/pseudo_ground_truth/Q010/frame_000129/original_rgb.png",
+      "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+    },
+    {
+      "query_id": "Q025",
+      "camera_id": "frame_000217",
+      "reference_type": "SAM-assisted Pseudo-GT",
+      "status": "excluded_unreliable",
+      "target_visible": true,
+      "target_ids": [
+        "obj_aad6e7f85a9a",
+        "obj_b8542dc54ed2",
+        "obj_dee5bef52687"
+      ],
+      "task_ids": [
+        "T048",
+        "T050",
+        "T051"
+      ],
+      "unreliable_task_ids": [
+        "T051"
+      ],
+      "reasons": [
+        "Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts."
+      ],
+      "mask_pixels": 18330,
+      "reviewer": "Codex visual review; not independent human annotation",
+      "independent_human_ground_truth": false,
+      "mask_path": "evaluation/pseudo_ground_truth/Q025/frame_000217/mask.png",
+      "original_rgb": "evaluation/pseudo_ground_truth/Q025/frame_000217/original_rgb.png",
+      "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+    },
+    {
+      "query_id": "Q025",
+      "camera_id": "frame_000121",
+      "reference_type": "SAM-assisted Pseudo-GT",
+      "status": "excluded_unreliable",
+      "target_visible": true,
+      "target_ids": [
+        "obj_aad6e7f85a9a",
+        "obj_b8542dc54ed2",
+        "obj_dee5bef52687"
+      ],
+      "task_ids": [
+        "T023",
+        "T024",
+        "T025"
+      ],
+      "unreliable_task_ids": [
+        "T023"
+      ],
+      "reasons": [
+        "Overlapping open racks: SAM alternatives either fill substantial visible gaps or omit many visible rods. Cannot reliably define complete device-specific visible mask."
+      ],
+      "mask_pixels": 56273,
+      "reviewer": "Codex visual review; not independent human annotation",
+      "independent_human_ground_truth": false,
+      "mask_path": "evaluation/pseudo_ground_truth/Q025/frame_000121/mask.png",
+      "original_rgb": "evaluation/pseudo_ground_truth/Q025/frame_000121/original_rgb.png",
+      "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+    }
+  ],
+  "camera_parameters_exact": true,
+  "binary_mask_dimensions_exact": true,
+  "reference_sha256": "83e182f9781fa6eeeaddd6fc45b61e5f31c8dcd9fb8d58802117aa6d9c2387e6",
+  "human_reference_files": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/evaluation/ground_truth/README.md"
+  ]
+}

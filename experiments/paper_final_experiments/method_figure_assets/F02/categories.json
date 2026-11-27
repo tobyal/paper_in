@@ -1,0 +1,122 @@
+[
+  {
+    "category_id": "category_01",
+    "name_zh": "物料车",
+    "name_en": "material cart",
+    "aliases": [
+      "物料车",
+      "料车",
+      "运输小车",
+      "material cart",
+      "wheeled material trolley"
+    ],
+    "description_en": "A wheeled industrial material cart with a box-shaped metal body, trays and handles.",
+    "category_known_from_m0": true,
+    "visual_observations": 6
+  },
+  {
+    "category_id": "category_02",
+    "name_zh": "装配夹具台",
+    "name_en": "assembly fixture table",
+    "aliases": [
+      "装配夹具台",
+      "装配台",
+      "assembly fixture table",
+      "assembly jig"
+    ],
+    "description_en": "A long white wheeled base with open metal fixture supports and clamps for industrial assembly.",
+    "category_known_from_m0": true,
+    "visual_observations": 6
+  },
+  {
+    "category_id": "category_03",
+    "name_zh": "带黑色工件的夹具台",
+    "name_en": "fixture table carrying a black workpiece",
+    "aliases": [
+      "带黑色工件的夹具台",
+      "带工件的夹具台",
+      "黑色工件夹具台",
+      "loaded fixture",
+      "fixture table carrying a black workpiece"
+    ],
+    "description_en": "An industrial fixture on a long white base carrying a prominent dark elongated workpiece.",
+    "category_known_from_m0": true,
+    "visual_observations": 6
+  },
+  {
+    "category_id": "category_04",
+    "name_zh": "多层料架",
+    "name_en": "multi-tier material rack",
+    "aliases": [
+      "多层料架",
+      "工业料架",
+      "多层货架",
+      "multi-tier rack",
+      "multi-level storage rack",
+      "industrial shelf"
+    ],
+    "description_en": "A tall open metal rack with several horizontal tiers or trays for storing industrial parts.",
+    "category_known_from_m0": true,
+    "visual_observations": 6
+  },
+  {
+    "category_id": "category_05",
+    "name_zh": "蓝色箱组",
+    "name_en": "group of blue storage bins",
+    "aliases": [
+      "蓝色箱组",
+      "蓝色料箱",
+      "周转箱",
+      "blue storage bins",
+      "blue plastic containers"
+    ],
+    "description_en": "Several blue rectangular plastic storage bins grouped or stacked together.",
+    "category_known_from_m0": true,
+    "visual_observations": 6
+  },
+  {
+    "category_id": "category_06",
+    "name_zh": "立式移动冷风机",
+    "name_en": "upright portable air cooler",
+    "aliases": [
+      "立式移动冷风机",
+      "冷风机",
+      "立式冷风机",
+      "移动冷风机",
+      "air cooler",
+      "portable cooling unit"
+    ],
+    "description_en": "A tall narrow light gray portable air cooler with a dark ventilation grille and wheels.",
+    "category_known_from_m0": true,
+    "visual_observations": 6
+  },
+  {
+    "category_id": "category_07",
+    "name_zh": "工作台",
+    "name_en": "workbench",
+    "aliases": [
+      "工作台",
+      "操作台",
+      "workbench",
+      "industrial work table"
+    ],
+    "description_en": "An industrial work table with a flat working surface and a metal support frame.",
+    "category_known_from_m0": true,
+    "visual_observations": 4
+  },
+  {
+    "category_id": "category_08",
+    "name_zh": "分隔式料架",
+    "name_en": "compartmented material rack",
+    "aliases": [
+      "分隔式料架",
+      "分格料架",
+      "隔层料架",
+      "compartmented rack",
+      "partitioned storage rack"
+    ],
+    "description_en": "A tall metal material rack divided into many narrow vertical compartments for separate parts.",
+    "category_known_from_m0": true,
+    "visual_observations": 4
+  }
+]

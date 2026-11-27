@@ -1,0 +1,62 @@
+[
+  {
+    "method": "langsplat",
+    "queries": 25,
+    "views_per_query": 2,
+    "resolution": "938x528",
+    "warmup": 1,
+    "repetitions": 3,
+    "statistic": "mean across queries of 3-repeat medians",
+    "hardware": "NVIDIA RTX A6000 GPU 0",
+    "model_load_seconds": 7.4406506000086665,
+    "query_seconds": 0.3466099638864398,
+    "render_seconds": 0.053794719204306604,
+    "end_to_end_seconds": 0.4067161226272583,
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/langsplat/summary.json"
+  },
+  {
+    "method": "thgs",
+    "queries": 25,
+    "views_per_query": 2,
+    "resolution": "938x528",
+    "warmup": 1,
+    "repetitions": 3,
+    "statistic": "mean across queries of 3-repeat medians",
+    "hardware": "NVIDIA RTX A6000 GPU 0",
+    "model_load_seconds": 8.320566789247096,
+    "query_seconds": 0.010730234868824483,
+    "render_seconds": 0.044889611378312114,
+    "end_to_end_seconds": 0.05557210747152567,
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/thgs/summary.json"
+  },
+  {
+    "method": "relags",
+    "queries": 25,
+    "views_per_query": 2,
+    "resolution": "938x528",
+    "warmup": 1,
+    "repetitions": 3,
+    "statistic": "mean across queries of 3-repeat medians",
+    "hardware": "NVIDIA RTX A6000 GPU 0",
+    "model_load_seconds": 56.58772244863212,
+    "query_seconds": 0.10659015279263258,
+    "render_seconds": 0.021297026090323926,
+    "end_to_end_seconds": 0.1277859690412879,
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/relags/summary.json"
+  },
+  {
+    "method": "ours",
+    "queries": 25,
+    "views_per_query": 2,
+    "resolution": "938x528",
+    "warmup": 1,
+    "repetitions": 3,
+    "statistic": "mean across queries of 3-repeat medians",
+    "hardware": "NVIDIA RTX A6000 GPU 0",
+    "model_load_seconds": 4.0975393848493695,
+    "query_seconds": 0.002580387145280838,
+    "render_seconds": 0.017453278340399267,
+    "end_to_end_seconds": 0.020073212683200836,
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/ours/summary.json"
+  }
+]

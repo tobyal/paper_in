@@ -1,0 +1,10 @@
+{
+  "objects": [
+    "obj_8429bc5f3c33",
+    "obj_aad6e7f85a9a",
+    "obj_f9a0e863e32d",
+    "obj_c7c9293c6c6d",
+    "obj_141f3e5dbe3a"
+  ],
+  "reason": "Assembly fixture, open multi-tier rack with overlap conflicts, material cart, partial compartmented rack, unavailable blue-bin limitation; no tuning."
+}

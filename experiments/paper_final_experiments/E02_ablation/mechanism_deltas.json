@@ -1,0 +1,117 @@
+[
+  {
+    "query_id": "Q001",
+    "fine_minus_box_iou_pp": 10.996409554591047,
+    "relation_gain_iou_pp": 14.100374992265996
+  },
+  {
+    "query_id": "Q002",
+    "fine_minus_box_iou_pp": -11.658616659013454,
+    "relation_gain_iou_pp": 23.238388087801937
+  },
+  {
+    "query_id": "Q003",
+    "fine_minus_box_iou_pp": -2.996582272401338,
+    "relation_gain_iou_pp": 15.826314186470075
+  },
+  {
+    "query_id": "Q004",
+    "fine_minus_box_iou_pp": 5.7325446672473195,
+    "relation_gain_iou_pp": 2.958335380005772
+  },
+  {
+    "query_id": "Q006",
+    "fine_minus_box_iou_pp": 13.6540161214033,
+    "relation_gain_iou_pp": 53.07107211003059
+  },
+  {
+    "query_id": "Q007",
+    "fine_minus_box_iou_pp": 32.89175613849614,
+    "relation_gain_iou_pp": 50.039409431019436
+  },
+  {
+    "query_id": "Q008",
+    "fine_minus_box_iou_pp": 8.337043048871317,
+    "relation_gain_iou_pp": 8.456473132926623
+  },
+  {
+    "query_id": "Q009",
+    "fine_minus_box_iou_pp": 8.219710141875424,
+    "relation_gain_iou_pp": 5.98580261336612
+  },
+  {
+    "query_id": "Q010",
+    "fine_minus_box_iou_pp": -8.895779004957886,
+    "relation_gain_iou_pp": -2.2722957475101753
+  },
+  {
+    "query_id": "Q011",
+    "fine_minus_box_iou_pp": -23.61734794189242,
+    "relation_gain_iou_pp": 10.083852533657216
+  },
+  {
+    "query_id": "Q012",
+    "fine_minus_box_iou_pp": -2.2582565111376462,
+    "relation_gain_iou_pp": 12.9805022238749
+  },
+  {
+    "query_id": "Q013",
+    "fine_minus_box_iou_pp": 6.834254162991793,
+    "relation_gain_iou_pp": 35.23339567287699
+  },
+  {
+    "query_id": "Q014",
+    "fine_minus_box_iou_pp": -4.104921193784694,
+    "relation_gain_iou_pp": 6.837736376075054
+  },
+  {
+    "query_id": "Q015",
+    "fine_minus_box_iou_pp": 5.7325446672473195,
+    "relation_gain_iou_pp": 2.958335380005772
+  },
+  {
+    "query_id": "Q016",
+    "fine_minus_box_iou_pp": 4.800871612582281,
+    "relation_gain_iou_pp": 8.016362444939551
+  },
+  {
+    "query_id": "Q017",
+    "fine_minus_box_iou_pp": 2.8348625491401047,
+    "relation_gain_iou_pp": 41.68935500547952
+  },
+  {
+    "query_id": "Q018",
+    "fine_minus_box_iou_pp": -7.812449706026503,
+    "relation_gain_iou_pp": 30.36672632345978
+  },
+  {
+    "query_id": "Q019",
+    "fine_minus_box_iou_pp": 0.0,
+    "relation_gain_iou_pp": 0.0
+  },
+  {
+    "query_id": "Q020",
+    "fine_minus_box_iou_pp": 1.9603067204661873,
+    "relation_gain_iou_pp": 0.0
+  },
+  {
+    "query_id": "Q021",
+    "fine_minus_box_iou_pp": -4.104921193784694,
+    "relation_gain_iou_pp": 6.837736376075054
+  },
+  {
+    "query_id": "Q022",
+    "fine_minus_box_iou_pp": -23.61734794189242,
+    "relation_gain_iou_pp": 10.083852533657216
+  },
+  {
+    "query_id": "Q023",
+    "fine_minus_box_iou_pp": -2.2582565111376462,
+    "relation_gain_iou_pp": 12.9805022238749
+  },
+  {
+    "query_id": "Q024",
+    "fine_minus_box_iou_pp": 6.510392276755972,
+    "relation_gain_iou_pp": 45.648417187581636
+  }
+]

@@ -1,0 +1,5 @@
+﻿Method	Projection mIoU (%)	Precision (%)	Recall (%)
+LangSplat	20.87	29.28	36.32
+THGS	8.68	14.40	10.16
+ReLaGS	0.35	11.00	0.35
+Ours	63.70	84.33	70.21

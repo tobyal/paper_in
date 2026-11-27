@@ -1,0 +1,282 @@
+{
+  "physical_scale": 0.6557565527969873,
+  "normalized_scale": 0.6594946353973241,
+  "physical_scale_rule": "M0 OBB diagonal / sqrt(3), mapped using training-mask scale quantiles",
+  "threshold": 0.85,
+  "score": "(cosine+1)/2, maximum over positive clicks; official SAGA GUI",
+  "prompts": [
+    {
+      "image_id": "frame_000182",
+      "pixels_xy": [
+        [
+          198,
+          309
+        ],
+        [
+          207,
+          290
+        ],
+        [
+          199,
+          334
+        ]
+      ],
+      "extra_visual_clicks": [],
+      "mask_source": "outputs/A/reference_prompts/obj_f9a0e863e32d/frame_000182/mask.png",
+      "camera": {
+        "image_id": "frame_000182",
+        "filename": "frame_000182.jpg",
+        "width": 937,
+        "height": 528,
+        "split": "train",
+        "camera_id": 1,
+        "colmap_image_id": 182,
+        "K": [
+          [
+            705.910576030294,
+            0.0,
+            468.5
+          ],
+          [
+            0.0,
+            703.1808795079689,
+            264.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.05657419572663758,
+            0.2848806468624315,
+            -0.9568920406300425
+          ],
+          [
+            -0.23631871523080955,
+            0.9350126969716425,
+            0.26439501003890953
+          ],
+          [
+            0.9700272291072782,
+            0.2111735626091916,
+            0.12022021978601671
+          ]
+        ],
+        "world_to_camera_t": [
+          -1.2692393368325705,
+          -0.5818349403947374,
+          2.1416069819271675
+        ],
+        "center": [
+          -2.143109377440177,
+          0.45335400402864595,
+          -1.3181552262255374
+        ],
+        "forward": [
+          0.9700272291072782,
+          0.2111735626091916,
+          0.12022021978601671
+        ],
+        "sha256": "d5b8826ede8134560b1108389c2eca4699c0278f118e6d5700660f1be104c2ef",
+        "source_type": "real",
+        "input_path": "inputs/saga_dataset/images/frame_000182.jpg",
+        "source_path": "data/images/frame_000182.jpg",
+        "selection_reasons": [
+          {
+            "object_id": "obj_f9a0e863e32d",
+            "purpose": "Representative real observation"
+          }
+        ],
+        "saga_colmap_id": 22
+      }
+    },
+    {
+      "image_id": "frame_000276",
+      "pixels_xy": [
+        [
+          271,
+          388
+        ],
+        [
+          284,
+          370
+        ],
+        [
+          280,
+          407
+        ]
+      ],
+      "extra_visual_clicks": [],
+      "mask_source": "outputs/A/reference_prompts/obj_f9a0e863e32d/frame_000276/mask.png",
+      "camera": {
+        "image_id": "frame_000276",
+        "filename": "frame_000276.jpg",
+        "width": 937,
+        "height": 528,
+        "split": "train",
+        "camera_id": 1,
+        "colmap_image_id": 276,
+        "K": [
+          [
+            705.910576030294,
+            0.0,
+            468.5
+          ],
+          [
+            0.0,
+            703.1808795079689,
+            264.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.998818480546581,
+            -0.04592434695855719,
+            0.015893309128350932
+          ],
+          [
+            0.046020521966693546,
+            0.9989240076061603,
+            -0.005739214751254548
+          ],
+          [
+            -0.015612638359109598,
+            0.006463852139243316,
+            0.9998572218766986
+          ]
+        ],
+        "world_to_camera_t": [
+          -0.5768735128112864,
+          -0.49057541516644443,
+          1.8410331456268978
+        ],
+        "center": [
+          0.6275118469135316,
+          0.45165485436079505,
+          -1.834417374961688
+        ],
+        "forward": [
+          -0.015612638359109598,
+          0.006463852139243316,
+          0.9998572218766986
+        ],
+        "sha256": "101e158918b6fd37571a4a0a70f53cdd82284033f6963a3668a14af8a9f691d1",
+        "source_type": "real",
+        "input_path": "inputs/saga_dataset/images/frame_000276.jpg",
+        "source_path": "data/images/frame_000276.jpg",
+        "selection_reasons": [
+          {
+            "object_id": "obj_f9a0e863e32d",
+            "purpose": "Representative real observation"
+          }
+        ],
+        "saga_colmap_id": 44
+      }
+    },
+    {
+      "image_id": "virtual_free_obj_f9a0e863e32d_020",
+      "pixels_xy": [
+        [
+          244,
+          181
+        ],
+        [
+          258,
+          180
+        ],
+        [
+          232,
+          173
+        ]
+      ],
+      "extra_visual_clicks": [],
+      "mask_source": "outputs/A/reference_prompts/obj_f9a0e863e32d/virtual_free_obj_f9a0e863e32d_020/mask.png",
+      "camera": {
+        "width": 480,
+        "height": 360,
+        "K": [
+          [
+            466.9799571525936,
+            0.0,
+            239.75
+          ],
+          [
+            0.0,
+            466.9799571525936,
+            179.75
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            -0.8563100961120189,
+            -0.12227917150029201,
+            0.5017776427128581
+          ],
+          [
+            0.21051664647514567,
+            0.8045508178657739,
+            0.5553203582463978
+          ],
+          [
+            -0.4716097286771943,
+            0.5811589825924823,
+            -0.6632032073760471
+          ]
+        ],
+        "world_to_camera_t": [
+          0.2088256219002617,
+          -0.6727263991790436,
+          1.3147875839924745
+        ],
+        "center": [
+          0.9405062295328346,
+          -0.19732301126489915,
+          1.1407659784816269
+        ],
+        "industrial_eye": [
+          1.1760229689131756,
+          4.368086241334331,
+          0.8556835774589089
+        ],
+        "horizontal_fov_degrees": 54.4009514023071,
+        "image_id": "virtual_free_obj_f9a0e863e32d_020",
+        "source_type": "object_guided_virtual",
+        "parent_image_id": null,
+        "generation": {
+          "method": "Object-box size fitting in industrial coordinates",
+          "direction": "trajectory_oblique_-40_0.35",
+          "distance": 1.6748291358497052
+        },
+        "split": "train",
+        "filename": "virtual_free_obj_f9a0e863e32d_020.png",
+        "sha256": "f76a251c955154486d33326b03994c13d57e7642a2cc100f320992eb52404f17",
+        "rgb_path": "observations/virtual_free_obj_f9a0e863e32d_020/rgb.png",
+        "input_path": "inputs/saga_dataset/images/virtual_free_obj_f9a0e863e32d_020.png",
+        "source_path": "outputs/industrial_world_model/M2_1_hybrid_view_selection_20261126_r29/images/virtual_free_obj_f9a0e863e32d_020.png",
+        "selection_reasons": [
+          {
+            "object_id": "obj_f9a0e863e32d",
+            "purpose": "Representative virtual observation"
+          }
+        ],
+        "saga_colmap_id": 72
+      }
+    }
+  ],
+  "spatial_filter": "Read-only M0 box and scene bounds",
+  "geometry_unchanged": true,
+  "source_readonly": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/A/extractions/iteration_10000/objects/obj_f9a0e863e32d/prompt.json"
+}

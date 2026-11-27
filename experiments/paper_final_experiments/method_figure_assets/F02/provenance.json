@@ -1,0 +1,68 @@
+{
+  "object_id": "obj_f9a0e863e32d",
+  "name_en": "Material cart 03",
+  "display_id": "O07",
+  "candidate_gaussians": 28512,
+  "before_conflicts": 27176,
+  "final_gaussians": 27176,
+  "removed_gaussians": 1336,
+  "lost_conflicts": 0,
+  "retained_fraction": 0.9531425364758698,
+  "affinity_min": 0.040191650390625,
+  "affinity_max": 1.0,
+  "score_storage": "float16 from frozen v2; float32 threshold membership retained separately",
+  "threshold": 0.85,
+  "normalized_scale": 0.6594946353973241,
+  "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/extractions/refined/objects/obj_f9a0e863e32d",
+  "source_score_sha256": "4bf2122e1748231842448415eafd053cbf62577f6b4dce93e2c79e931e7faebb",
+  "prompts": [
+    {
+      "directory": "E03_entity_construction/objects/obj_f9a0e863e32d/prompts/00",
+      "original_mask": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/A/reference_prompts/obj_f9a0e863e32d/frame_000182/mask.png",
+      "mask_sha256": "a21788149209922fe1205f11273e5431c17bc9b5a78142f7424114a50ec4b194",
+      "source_type": "real"
+    },
+    {
+      "directory": "E03_entity_construction/objects/obj_f9a0e863e32d/prompts/01",
+      "original_mask": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/A/reference_prompts/obj_f9a0e863e32d/frame_000276/mask.png",
+      "mask_sha256": "96bb4b8d77e07b6a1d2d8678e6a55384b759d2f7dc97c3fdf1b76629fec5e441",
+      "source_type": "real"
+    },
+    {
+      "directory": "E03_entity_construction/objects/obj_f9a0e863e32d/prompts/02",
+      "original_mask": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/outputs/A/reference_prompts/obj_f9a0e863e32d/virtual_free_obj_f9a0e863e32d_020/mask.png",
+      "mask_sha256": "34b656106ab58c8e88a2ea8d0284872bfa51bf6ac77f3209f875641c54badd88",
+      "source_type": "object_guided_virtual"
+    }
+  ],
+  "quality": {
+    "object_id": "obj_f9a0e863e32d",
+    "category_id": "category_01",
+    "name_zh": "物料车 03",
+    "name_en": "Material cart 03",
+    "status": "extracted_pending_visual_review",
+    "candidate_gaussians": 28512,
+    "selected_before_conflicts": 27176,
+    "fraction_retained": 0.9531425364758698,
+    "prompt_clicks": 9,
+    "scale": 0.6594946353973241,
+    "gaussian_count": 27176,
+    "conflicts_removed": 0,
+    "gaussian_indices": "outputs/A/extractions/refined/objects/obj_f9a0e863e32d/gaussian_indices.npy",
+    "ply": "outputs/A/extractions/refined/objects/obj_f9a0e863e32d/object.ply",
+    "reused_v1": true,
+    "initialization": "Exact v1 accepted Gaussian IDs, prompts and threshold; before all-object conflict resolution",
+    "review_image_id": "frame_000182",
+    "review_source_type": "real",
+    "training_visible_pixels": 27054,
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "diagnosis": "A",
+    "note_zh": "直接复用v1；箱体和车架完整，边缘少量原始重建伪影。",
+    "fine_instance_available": true,
+    "effective_real_views": 2,
+    "effective_virtual_views": 1,
+    "extra_optimization": false,
+    "quality_reviewer": "Codex visual inspection"
+  }
+}

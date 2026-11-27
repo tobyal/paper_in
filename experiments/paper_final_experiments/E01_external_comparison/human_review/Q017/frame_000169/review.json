@@ -1,0 +1,48 @@
+{
+  "query": {
+    "query_id": "Q017",
+    "subject_category": "compartmented material rack",
+    "subject_category_id": "category_08",
+    "predicate": "behind",
+    "predicate_ours": "behind",
+    "predicate_relags": "behind",
+    "object_category": "upright portable air cooler",
+    "object_category_id": "category_06",
+    "query_en": "compartmented material rack behind the upright portable air cooler",
+    "query_zh": "位于立式移动冷风机后方的分隔式料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000305",
+      "frame_000169"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "target_object_ids": [
+    "obj_5746b7e7d040"
+  ],
+  "current_reference_review": {
+    "query_id": "Q017",
+    "camera_id": "frame_000169",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_5746b7e7d040"
+    ],
+    "task_ids": [
+      "T035"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 19299,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q017/frame_000169/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q017/frame_000169/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  "independent_human_review_status": "not_confirmed",
+  "instruction": "Review original RGB, target identity, visible extent and gaps. Do not consult any method prediction. Any edited reference must create a new version and evaluate every method on the same sample set."
+}

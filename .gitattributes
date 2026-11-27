@@ -5,3 +5,5 @@
 
 # Preserve archived experiment bytes and their SHA-256 manifests.
 experiments/relational_retrieval_benchmark/** -text !eol
+
+experiments/paper_final_experiments/** -text !eol

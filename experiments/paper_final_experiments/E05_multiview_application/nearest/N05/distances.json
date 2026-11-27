@@ -1,0 +1,20 @@
+[
+  {
+    "object_id": "obj_141f3e5dbe3a",
+    "name_en": "Blue bin group 01",
+    "center_distance": 2.0666977820670094,
+    "fine_available": false
+  },
+  {
+    "object_id": "obj_3c963764ddb5",
+    "name_en": "Blue bin group 02",
+    "center_distance": 5.340284371155467,
+    "fine_available": true
+  },
+  {
+    "object_id": "obj_7463bab859d0",
+    "name_en": "Blue bin group 03",
+    "center_distance": 5.578651473835776,
+    "fine_available": true
+  }
+]

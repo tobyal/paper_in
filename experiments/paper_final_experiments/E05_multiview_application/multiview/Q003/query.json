@@ -1,0 +1,164 @@
+{
+  "query": "位于物料车左侧的带黑色工件的夹具台",
+  "status": "ok",
+  "relation": "left_of",
+  "anchor_text": "物料车",
+  "target_text": "带黑色工件的夹具台",
+  "matched_object_ids": [
+    "obj_8528f4bf8a3d",
+    "obj_ad85774e5f18"
+  ],
+  "objects": [
+    {
+      "object_id": "obj_8528f4bf8a3d",
+      "category_id": "category_03",
+      "name_zh": "带黑色工件的夹具台 03",
+      "name_en": "Fixture table with black workpiece 03",
+      "bbox": {
+        "center": [
+          -0.2967399231615735,
+          4.420776778392212,
+          0.28266009897170874
+        ],
+        "size": [
+          0.4910929693479444,
+          1.1231294844093125,
+          0.6711405617620141
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "reconstruction_status": "well_reconstructed",
+      "extraction_status": "usable",
+      "quality_record": {
+        "note_zh": "底座与黑色工件主体保留；部分轮脚、细线缆未完全选择。",
+        "diagnosis": "D",
+        "reviewer": "Codex visual inspection"
+      },
+      "fine_instance_available": true,
+      "gaussian_indices": "instances/obj_8528f4bf8a3d/gaussian_indices.npy",
+      "location_source": "M0 r29",
+      "representation": "SAGA_instance"
+    },
+    {
+      "object_id": "obj_ad85774e5f18",
+      "category_id": "category_03",
+      "name_zh": "带黑色工件的夹具台 01",
+      "name_en": "Fixture table with black workpiece 01",
+      "bbox": {
+        "center": [
+          -0.24946461782114004,
+          3.287523494991775,
+          0.2836166709503243
+        ],
+        "size": [
+          0.491238011281263,
+          1.06,
+          0.6151014205366523
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "reconstruction_status": "well_reconstructed",
+      "extraction_status": "usable",
+      "quality_record": {
+        "note_zh": "直接复用v1及已记录补点；黑色工件、浅色覆盖物和底座保留。",
+        "diagnosis": "E",
+        "reviewer": "Codex visual inspection"
+      },
+      "fine_instance_available": true,
+      "gaussian_indices": "instances/obj_ad85774e5f18/gaussian_indices.npy",
+      "location_source": "M0 r29",
+      "representation": "SAGA_instance"
+    }
+  ],
+  "relation_evidence": [
+    {
+      "subject": "obj_ad85774e5f18",
+      "relation": "left_of",
+      "object": "obj_f9a0e863e32d",
+      "source": "industrial_geometry",
+      "evidence": {
+        "aabb_gap": 0.037599603756507505,
+        "center_delta": [
+          -0.5698142269182563,
+          0.24863114688447396,
+          -0.018786390133627595
+        ],
+        "coordinate_frame": "industrial",
+        "units": "SfM relative units; not meters",
+        "extent_source": "M0 OBB projected into industrial axes"
+      }
+    },
+    {
+      "subject": "obj_8528f4bf8a3d",
+      "relation": "left_of",
+      "object": "obj_f9a0e863e32d",
+      "source": "industrial_geometry",
+      "evidence": {
+        "aabb_gap": 0.4519473536387745,
+        "center_delta": [
+          -0.6170895322586898,
+          1.3818844302849111,
+          -0.019742962112243134
+        ],
+        "coordinate_frame": "industrial",
+        "units": "SfM relative units; not meters",
+        "extent_source": "M0 OBB projected into industrial axes"
+      }
+    }
+  ],
+  "renderable_object_ids": [
+    "obj_8528f4bf8a3d",
+    "obj_ad85774e5f18"
+  ],
+  "unavailable_object_ids": [],
+  "segmentation_rerun": false,
+  "geometry_scope": "all M0 equipment nodes",
+  "reference_semantics": "union over explicitly listed matching anchors",
+  "target_match": {
+    "method": "category",
+    "status": "ok",
+    "category_match": {
+      "category_id": "category_03",
+      "method": "exact_known_alias",
+      "query": "带黑色工件的夹具台",
+      "abstained": false
+    }
+  },
+  "known_category_instances": [
+    "obj_ad85774e5f18",
+    "obj_c812ae8b15bd",
+    "obj_8528f4bf8a3d",
+    "obj_8e79bd39b8b9",
+    "obj_087984e7c374"
+  ],
+  "same_category_candidates_before": 5,
+  "anchor_match": {
+    "method": "category",
+    "status": "ok",
+    "category_match": {
+      "category_id": "category_01",
+      "method": "exact_known_alias",
+      "query": "物料车",
+      "abstained": false
+    }
+  },
+  "anchor_object_ids": [
+    "obj_f9a0e863e32d",
+    "obj_4fd05384c476",
+    "obj_3efbeb5e8179",
+    "obj_7047e5f33259",
+    "obj_c0162cd69680",
+    "obj_57b0f30bdd9e"
+  ],
+  "matches_after": 2
+}

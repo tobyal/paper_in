@@ -1,0 +1,2026 @@
+[
+  {
+    "query_id": "Q001",
+    "query": "upright portable air cooler to the left of the workbench",
+    "same_category_candidates_before": 3,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_e57b3a886c2d",
+      "obj_04c477562e49",
+      "obj_c57876bf22ca"
+    ],
+    "anchor_object_ids": [
+      "obj_2e1a6e5960f5",
+      "obj_df0a6cc33263"
+    ],
+    "matched_object_ids": [
+      "obj_e57b3a886c2d"
+    ],
+    "renderable_object_ids": [
+      "obj_e57b3a886c2d"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_e57b3a886c2d",
+        "relation": "left_of",
+        "object": "obj_2e1a6e5960f5",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.1852574763386614,
+          "center_delta": [
+            -1.1882275686291097,
+            1.2978612906257814,
+            -0.12164826992042788
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q002",
+    "query": "group of blue storage bins to the left of the compartmented material rack",
+    "same_category_candidates_before": 3,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_141f3e5dbe3a",
+      "obj_3c963764ddb5",
+      "obj_7463bab859d0"
+    ],
+    "anchor_object_ids": [
+      "obj_c7c9293c6c6d",
+      "obj_5746b7e7d040"
+    ],
+    "matched_object_ids": [
+      "obj_7463bab859d0"
+    ],
+    "renderable_object_ids": [
+      "obj_7463bab859d0"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_7463bab859d0",
+        "relation": "left_of",
+        "object": "obj_c7c9293c6c6d",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.0608480129826883,
+          "center_delta": [
+            -0.8784553387361425,
+            1.8107302667379157,
+            -0.039680202926213326
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_7463bab859d0",
+        "relation": "left_of",
+        "object": "obj_5746b7e7d040",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.07893622806486,
+          "center_delta": [
+            -0.9857077505194327,
+            3.043040606933259,
+            -0.11252570151035768
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q003",
+    "query": "fixture table carrying a black workpiece to the left of the material cart",
+    "same_category_candidates_before": 5,
+    "matches_after": 2,
+    "known_category_instances": [
+      "obj_ad85774e5f18",
+      "obj_c812ae8b15bd",
+      "obj_8528f4bf8a3d",
+      "obj_8e79bd39b8b9",
+      "obj_087984e7c374"
+    ],
+    "anchor_object_ids": [
+      "obj_f9a0e863e32d",
+      "obj_4fd05384c476",
+      "obj_3efbeb5e8179",
+      "obj_7047e5f33259",
+      "obj_c0162cd69680",
+      "obj_57b0f30bdd9e"
+    ],
+    "matched_object_ids": [
+      "obj_8528f4bf8a3d",
+      "obj_ad85774e5f18"
+    ],
+    "renderable_object_ids": [
+      "obj_8528f4bf8a3d",
+      "obj_ad85774e5f18"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_ad85774e5f18",
+        "relation": "left_of",
+        "object": "obj_f9a0e863e32d",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.037599603756507505,
+          "center_delta": [
+            -0.5698142269182563,
+            0.24863114688447396,
+            -0.018786390133627595
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_8528f4bf8a3d",
+        "relation": "left_of",
+        "object": "obj_f9a0e863e32d",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.4519473536387745,
+          "center_delta": [
+            -0.6170895322586898,
+            1.3818844302849111,
+            -0.019742962112243134
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q004",
+    "query": "workbench to the left of the upright portable air cooler",
+    "same_category_candidates_before": 2,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_2e1a6e5960f5",
+      "obj_df0a6cc33263"
+    ],
+    "anchor_object_ids": [
+      "obj_e57b3a886c2d",
+      "obj_04c477562e49",
+      "obj_c57876bf22ca"
+    ],
+    "matched_object_ids": [
+      "obj_df0a6cc33263"
+    ],
+    "renderable_object_ids": [
+      "obj_df0a6cc33263"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_df0a6cc33263",
+        "relation": "left_of",
+        "object": "obj_e57b3a886c2d",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.416965625664951,
+          "center_delta": [
+            -1.499579673501235,
+            1.3042715638232312,
+            0.1339169646315047
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_df0a6cc33263",
+        "relation": "left_of",
+        "object": "obj_04c477562e49",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 3.0743043821949567,
+          "center_delta": [
+            -2.41560358998939,
+            2.7255137321875917,
+            0.08928260946924804
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_df0a6cc33263",
+        "relation": "left_of",
+        "object": "obj_c57876bf22ca",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.9052272139707522,
+          "center_delta": [
+            -2.4096778905003076,
+            -2.4194981954835617,
+            0.2286728199050326
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q005",
+    "query": "multi-tier material rack to the left of the assembly fixture table",
+    "same_category_candidates_before": 9,
+    "matches_after": 5,
+    "known_category_instances": [
+      "obj_485ade540e7d",
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_5bfd32389355",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_06d9693cfb0a",
+      "obj_933bd7d6e703",
+      "obj_dee5bef52687"
+    ],
+    "anchor_object_ids": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01",
+      "obj_09a35ba03c92"
+    ],
+    "matched_object_ids": [
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_dee5bef52687"
+    ],
+    "renderable_object_ids": [
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2"
+    ],
+    "unavailable_object_ids": [
+      "obj_dee5bef52687"
+    ],
+    "relation_evidence": [
+      {
+        "subject": "obj_126125e3a773",
+        "relation": "left_of",
+        "object": "obj_8429bc5f3c33",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.2452362549786038,
+          "center_delta": [
+            -0.9441218149064747,
+            0.2459237476617231,
+            0.007727227212447507
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_126125e3a773",
+        "relation": "left_of",
+        "object": "obj_d058f708eb01",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.2596239609702601,
+          "center_delta": [
+            -0.9515521480096407,
+            -0.9075283666235229,
+            0.018297406603595412
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_126125e3a773",
+        "relation": "left_of",
+        "object": "obj_09a35ba03c92",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.2075238875510788,
+          "center_delta": [
+            -0.9527301102514301,
+            -1.991548375791608,
+            0.03584918535364362
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_aad6e7f85a9a",
+        "relation": "left_of",
+        "object": "obj_8429bc5f3c33",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 5.335470503010837,
+          "center_delta": [
+            -0.9696099627431092,
+            6.422382778926223,
+            -0.0826681906872746
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_aad6e7f85a9a",
+        "relation": "left_of",
+        "object": "obj_d058f708eb01",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 4.229804867868314,
+          "center_delta": [
+            -0.9770402958462752,
+            5.268930664640977,
+            -0.0720980112961267
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_aad6e7f85a9a",
+        "relation": "left_of",
+        "object": "obj_09a35ba03c92",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 3.1655004662343202,
+          "center_delta": [
+            -0.9782182580880645,
+            4.184910655472892,
+            -0.05454623254607849
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_b7e0494ce9dd",
+        "relation": "left_of",
+        "object": "obj_8429bc5f3c33",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.13564449697910752,
+          "center_delta": [
+            -0.8598124941842957,
+            -0.3824209515821546,
+            0.020226898002333626
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_b7e0494ce9dd",
+        "relation": "left_of",
+        "object": "obj_d058f708eb01",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.702093849761932,
+          "center_delta": [
+            -0.8672428272874617,
+            -1.5358730658674005,
+            0.03079707739348153
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_b7e0494ce9dd",
+        "relation": "left_of",
+        "object": "obj_09a35ba03c92",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.795944743167729,
+          "center_delta": [
+            -0.8684207895292511,
+            -2.6198930750354856,
+            0.04834885614352974
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_b8542dc54ed2",
+        "relation": "left_of",
+        "object": "obj_8429bc5f3c33",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.2101898263534567,
+          "center_delta": [
+            -0.9194836336585865,
+            0.9259358463316983,
+            0.01838116917044963
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_b8542dc54ed2",
+        "relation": "left_of",
+        "object": "obj_d058f708eb01",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.20482107935630867,
+          "center_delta": [
+            -0.9269139667617525,
+            -0.22751626795354762,
+            0.028951348561597534
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_b8542dc54ed2",
+        "relation": "left_of",
+        "object": "obj_09a35ba03c92",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.5422209353381595,
+          "center_delta": [
+            -0.9280919290035419,
+            -1.3115362771216326,
+            0.04650312731164574
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_dee5bef52687",
+        "relation": "left_of",
+        "object": "obj_8429bc5f3c33",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 4.081940431076131,
+          "center_delta": [
+            -0.9692625729279205,
+            5.008651088247901,
+            -0.04171965883122214
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_dee5bef52687",
+        "relation": "left_of",
+        "object": "obj_d058f708eb01",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.976764430091447,
+          "center_delta": [
+            -0.9766929060310865,
+            3.855198973962655,
+            -0.031149479440074235
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_dee5bef52687",
+        "relation": "left_of",
+        "object": "obj_09a35ba03c92",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.9136753773152384,
+          "center_delta": [
+            -0.9778708682728758,
+            2.77117896479457,
+            -0.013597700690026027
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q006",
+    "query": "material cart to the right of the multi-tier material rack",
+    "same_category_candidates_before": 6,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_f9a0e863e32d",
+      "obj_4fd05384c476",
+      "obj_3efbeb5e8179",
+      "obj_7047e5f33259",
+      "obj_c0162cd69680",
+      "obj_57b0f30bdd9e"
+    ],
+    "anchor_object_ids": [
+      "obj_485ade540e7d",
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_5bfd32389355",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_06d9693cfb0a",
+      "obj_933bd7d6e703",
+      "obj_dee5bef52687"
+    ],
+    "matched_object_ids": [
+      "obj_f9a0e863e32d"
+    ],
+    "renderable_object_ids": [
+      "obj_f9a0e863e32d"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_126125e3a773",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.381742575650091,
+          "center_delta": [
+            1.4383391878120244,
+            2.9377946912166335,
+            -0.036922085653839865
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_aad6e7f85a9a",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.448154669616324,
+          "center_delta": [
+            1.4638273356486589,
+            -3.2386643400478663,
+            0.053473332245882244
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_b7e0494ce9dd",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.944503122729039,
+          "center_delta": [
+            1.3540298670898454,
+            3.566139390460511,
+            -0.049421756443725984
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_b8542dc54ed2",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.7276685987559606,
+          "center_delta": [
+            1.4137010065641362,
+            2.257782592546658,
+            -0.04757602761184199
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_933bd7d6e703",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.835142945126227,
+          "center_delta": [
+            0.8016124089231573,
+            -3.454927845513617,
+            0.02582710873565619
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_dee5bef52687",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.272747314680956,
+          "center_delta": [
+            1.4634799458334702,
+            -1.8249326493695444,
+            0.012524800389829782
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q007",
+    "query": "multi-tier material rack to the right of the group of blue storage bins",
+    "same_category_candidates_before": 9,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_485ade540e7d",
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_5bfd32389355",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_06d9693cfb0a",
+      "obj_933bd7d6e703",
+      "obj_dee5bef52687"
+    ],
+    "anchor_object_ids": [
+      "obj_141f3e5dbe3a",
+      "obj_3c963764ddb5",
+      "obj_7463bab859d0"
+    ],
+    "matched_object_ids": [
+      "obj_5bfd32389355"
+    ],
+    "renderable_object_ids": [
+      "obj_5bfd32389355"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_5bfd32389355",
+        "relation": "right_of",
+        "object": "obj_7463bab859d0",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 3.3880152092795717,
+          "center_delta": [
+            0.8699837184961381,
+            -4.264914296387481,
+            0.03286304570068199
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q008",
+    "query": "workbench to the right of the fixture table carrying a black workpiece",
+    "same_category_candidates_before": 2,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_2e1a6e5960f5",
+      "obj_df0a6cc33263"
+    ],
+    "anchor_object_ids": [
+      "obj_ad85774e5f18",
+      "obj_c812ae8b15bd",
+      "obj_8528f4bf8a3d",
+      "obj_8e79bd39b8b9",
+      "obj_087984e7c374"
+    ],
+    "matched_object_ids": [
+      "obj_2e1a6e5960f5"
+    ],
+    "renderable_object_ids": [
+      "obj_2e1a6e5960f5"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_2e1a6e5960f5",
+        "relation": "right_of",
+        "object": "obj_ad85774e5f18",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.8599011098335385,
+          "center_delta": [
+            2.0066682699620944,
+            -3.22507334476663,
+            0.10125516515928334
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_2e1a6e5960f5",
+        "relation": "right_of",
+        "object": "obj_c812ae8b15bd",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.864955250594707,
+          "center_delta": [
+            0.8072036521409542,
+            -3.753458536661328,
+            0.09304150778488895
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_2e1a6e5960f5",
+        "relation": "right_of",
+        "object": "obj_8528f4bf8a3d",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 3.8424662904066302,
+          "center_delta": [
+            2.0539435753025277,
+            -4.358326628167067,
+            0.10221173713789888
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_2e1a6e5960f5",
+        "relation": "right_of",
+        "object": "obj_8e79bd39b8b9",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 4.037983794423442,
+          "center_delta": [
+            0.8033378842479778,
+            -4.8978226651984835,
+            0.1073233915207375
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_2e1a6e5960f5",
+        "relation": "right_of",
+        "object": "obj_087984e7c374",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 5.12294684902403,
+          "center_delta": [
+            1.0142360330737927,
+            -5.864827760131355,
+            0.09935845856481079
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q009",
+    "query": "fixture table carrying a black workpiece to the right of the assembly fixture table",
+    "same_category_candidates_before": 5,
+    "matches_after": 3,
+    "known_category_instances": [
+      "obj_ad85774e5f18",
+      "obj_c812ae8b15bd",
+      "obj_8528f4bf8a3d",
+      "obj_8e79bd39b8b9",
+      "obj_087984e7c374"
+    ],
+    "anchor_object_ids": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01",
+      "obj_09a35ba03c92"
+    ],
+    "matched_object_ids": [
+      "obj_087984e7c374",
+      "obj_8e79bd39b8b9",
+      "obj_c812ae8b15bd"
+    ],
+    "renderable_object_ids": [
+      "obj_087984e7c374",
+      "obj_8e79bd39b8b9",
+      "obj_c812ae8b15bd"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_c812ae8b15bd",
+        "relation": "right_of",
+        "object": "obj_8429bc5f3c33",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.853582059582011,
+          "center_delta": [
+            1.1238677638084333,
+            3.9607347776575286,
+            -0.03976759120062556
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_c812ae8b15bd",
+        "relation": "right_of",
+        "object": "obj_d058f708eb01",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.7889453844710315,
+          "center_delta": [
+            1.1164374307052674,
+            2.8072826633722823,
+            -0.029197411809477658
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_c812ae8b15bd",
+        "relation": "right_of",
+        "object": "obj_09a35ba03c92",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.8730097422312836,
+          "center_delta": [
+            1.115259468463478,
+            1.7232626542041976,
+            -0.01164563305942945
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_8e79bd39b8b9",
+        "relation": "right_of",
+        "object": "obj_8429bc5f3c33",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 4.013762008009426,
+          "center_delta": [
+            1.1277335317014097,
+            5.1050989061946845,
+            -0.05404947493647411
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_8e79bd39b8b9",
+        "relation": "right_of",
+        "object": "obj_d058f708eb01",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.923585180627579,
+          "center_delta": [
+            1.120303198598244,
+            3.9516467919094387,
+            -0.0434792955453262
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_8e79bd39b8b9",
+        "relation": "right_of",
+        "object": "obj_09a35ba03c92",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.8937427691438014,
+          "center_delta": [
+            1.1191252363564546,
+            2.8676267827413535,
+            -0.025927516795277994
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_087984e7c374",
+        "relation": "right_of",
+        "object": "obj_8429bc5f3c33",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 5.061735912368626,
+          "center_delta": [
+            0.9168353828755949,
+            6.072104001127556,
+            -0.0460845419805474
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_087984e7c374",
+        "relation": "right_of",
+        "object": "obj_d058f708eb01",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 3.955003108786778,
+          "center_delta": [
+            0.9094050497724289,
+            4.91865188684231,
+            -0.035514362589399495
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_087984e7c374",
+        "relation": "right_of",
+        "object": "obj_09a35ba03c92",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.889541444501026,
+          "center_delta": [
+            0.9082270875306395,
+            3.834631877674225,
+            -0.017962583839351287
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q010",
+    "query": "group of blue storage bins to the right of the upright portable air cooler",
+    "same_category_candidates_before": 3,
+    "matches_after": 2,
+    "known_category_instances": [
+      "obj_141f3e5dbe3a",
+      "obj_3c963764ddb5",
+      "obj_7463bab859d0"
+    ],
+    "anchor_object_ids": [
+      "obj_e57b3a886c2d",
+      "obj_04c477562e49",
+      "obj_c57876bf22ca"
+    ],
+    "matched_object_ids": [
+      "obj_141f3e5dbe3a",
+      "obj_3c963764ddb5"
+    ],
+    "renderable_object_ids": [
+      "obj_3c963764ddb5"
+    ],
+    "unavailable_object_ids": [
+      "obj_141f3e5dbe3a"
+    ],
+    "relation_evidence": [
+      {
+        "subject": "obj_141f3e5dbe3a",
+        "relation": "right_of",
+        "object": "obj_e57b3a886c2d",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.6225659037950393,
+          "center_delta": [
+            1.3292382301673153,
+            -0.44144734596996726,
+            0.07769620700048324
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_3c963764ddb5",
+        "relation": "right_of",
+        "object": "obj_e57b3a886c2d",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 3.7864567917621264,
+          "center_delta": [
+            1.1236570987199654,
+            4.654353831011845,
+            0.01236558995883108
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q011",
+    "query": "assembly fixture table in front of the group of blue storage bins",
+    "same_category_candidates_before": 3,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01",
+      "obj_09a35ba03c92"
+    ],
+    "anchor_object_ids": [
+      "obj_141f3e5dbe3a",
+      "obj_3c963764ddb5",
+      "obj_7463bab859d0"
+    ],
+    "matched_object_ids": [
+      "obj_09a35ba03c92"
+    ],
+    "renderable_object_ids": [
+      "obj_09a35ba03c92"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_09a35ba03c92",
+        "relation": "in_front_of",
+        "object": "obj_141f3e5dbe3a",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.259031655208117,
+          "center_delta": [
+            -2.063473782142638,
+            1.1737819378013163,
+            -0.03744381180551487
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q012",
+    "query": "compartmented material rack in front of the fixture table carrying a black workpiece",
+    "same_category_candidates_before": 2,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_c7c9293c6c6d",
+      "obj_5746b7e7d040"
+    ],
+    "anchor_object_ids": [
+      "obj_ad85774e5f18",
+      "obj_c812ae8b15bd",
+      "obj_8528f4bf8a3d",
+      "obj_8e79bd39b8b9",
+      "obj_087984e7c374"
+    ],
+    "matched_object_ids": [
+      "obj_c7c9293c6c6d"
+    ],
+    "renderable_object_ids": [
+      "obj_c7c9293c6c6d"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_c7c9293c6c6d",
+        "relation": "in_front_of",
+        "object": "obj_ad85774e5f18",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.6582353715133389,
+          "center_delta": [
+            2.169206191411946,
+            1.3566605346577898,
+            0.05063634932748884
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q013",
+    "query": "material cart in front of the compartmented material rack",
+    "same_category_candidates_before": 6,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_f9a0e863e32d",
+      "obj_4fd05384c476",
+      "obj_3efbeb5e8179",
+      "obj_7047e5f33259",
+      "obj_c0162cd69680",
+      "obj_57b0f30bdd9e"
+    ],
+    "anchor_object_ids": [
+      "obj_c7c9293c6c6d",
+      "obj_5746b7e7d040"
+    ],
+    "matched_object_ids": [
+      "obj_4fd05384c476"
+    ],
+    "renderable_object_ids": [
+      "obj_4fd05384c476"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_4fd05384c476",
+        "relation": "in_front_of",
+        "object": "obj_c7c9293c6c6d",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.321941554998656,
+          "center_delta": [
+            -3.0514986932131594,
+            0.8533304376142254,
+            -0.03249481709644603
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_4fd05384c476",
+        "relation": "in_front_of",
+        "object": "obj_5746b7e7d040",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.5889710761590434,
+          "center_delta": [
+            -3.1587511049964494,
+            2.085640777809569,
+            -0.10534031568059038
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q014",
+    "query": "upright portable air cooler in front of the material cart",
+    "same_category_candidates_before": 3,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_e57b3a886c2d",
+      "obj_04c477562e49",
+      "obj_c57876bf22ca"
+    ],
+    "anchor_object_ids": [
+      "obj_f9a0e863e32d",
+      "obj_4fd05384c476",
+      "obj_3efbeb5e8179",
+      "obj_7047e5f33259",
+      "obj_c0162cd69680",
+      "obj_57b0f30bdd9e"
+    ],
+    "matched_object_ids": [
+      "obj_c57876bf22ca"
+    ],
+    "renderable_object_ids": [
+      "obj_c57876bf22ca"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_c57876bf22ca",
+        "relation": "in_front_of",
+        "object": "obj_f9a0e863e32d",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.7236667013266267,
+          "center_delta": [
+            1.1587246914138007,
+            2.0451888520504182,
+            -0.13393535016830002
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_c57876bf22ca",
+        "relation": "in_front_of",
+        "object": "obj_3efbeb5e8179",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.0443438074340925,
+          "center_delta": [
+            2.5231883010255274,
+            1.1006388962793556,
+            -0.09562758421575565
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_c57876bf22ca",
+        "relation": "in_front_of",
+        "object": "obj_7047e5f33259",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.506701791327514,
+          "center_delta": [
+            2.636617350989569,
+            1.9403431022607247,
+            -0.17414028875002577
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_c57876bf22ca",
+        "relation": "in_front_of",
+        "object": "obj_c0162cd69680",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 3.227768967981004,
+          "center_delta": [
+            2.4574838998730484,
+            3.035743614316904,
+            -0.15580180010422315
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_c57876bf22ca",
+        "relation": "in_front_of",
+        "object": "obj_57b0f30bdd9e",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 3.881640443295952,
+          "center_delta": [
+            2.514499019404841,
+            3.6950134615843684,
+            -0.1654190171378945
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q015",
+    "query": "workbench in front of the multi-tier material rack",
+    "same_category_candidates_before": 2,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_2e1a6e5960f5",
+      "obj_df0a6cc33263"
+    ],
+    "anchor_object_ids": [
+      "obj_485ade540e7d",
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_5bfd32389355",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_06d9693cfb0a",
+      "obj_933bd7d6e703",
+      "obj_dee5bef52687"
+    ],
+    "matched_object_ids": [
+      "obj_df0a6cc33263"
+    ],
+    "renderable_object_ids": [
+      "obj_df0a6cc33263"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_df0a6cc33263",
+        "relation": "in_front_of",
+        "object": "obj_126125e3a773",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.0504907641546946,
+          "center_delta": [
+            0.1873859887255177,
+            2.56348534778349,
+            0.05781538408289272
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_df0a6cc33263",
+        "relation": "in_front_of",
+        "object": "obj_b7e0494ce9dd",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.658384118126934,
+          "center_delta": [
+            0.1030766680033387,
+            3.1918300470273677,
+            0.0453157132930066
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_df0a6cc33263",
+        "relation": "in_front_of",
+        "object": "obj_b8542dc54ed2",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.3716365519622762,
+          "center_delta": [
+            0.1627478074776295,
+            1.8834732491135147,
+            0.047161442124890596
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q016",
+    "query": "assembly fixture table behind the workbench",
+    "same_category_candidates_before": 3,
+    "matches_after": 2,
+    "known_category_instances": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01",
+      "obj_09a35ba03c92"
+    ],
+    "anchor_object_ids": [
+      "obj_2e1a6e5960f5",
+      "obj_df0a6cc33263"
+    ],
+    "matched_object_ids": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01"
+    ],
+    "renderable_object_ids": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_8429bc5f3c33",
+        "relation": "behind",
+        "object": "obj_df0a6cc33263",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.007683862868492,
+          "center_delta": [
+            0.7567358261809571,
+            -2.809409095445213,
+            -0.06554261129534023
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_d058f708eb01",
+        "relation": "behind",
+        "object": "obj_df0a6cc33263",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.9219055990207863,
+          "center_delta": [
+            0.764166159284123,
+            -1.655956981159967,
+            -0.07611279068648813
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q017",
+    "query": "compartmented material rack behind the upright portable air cooler",
+    "same_category_candidates_before": 2,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_c7c9293c6c6d",
+      "obj_5746b7e7d040"
+    ],
+    "anchor_object_ids": [
+      "obj_e57b3a886c2d",
+      "obj_04c477562e49",
+      "obj_c57876bf22ca"
+    ],
+    "matched_object_ids": [
+      "obj_5746b7e7d040"
+    ],
+    "renderable_object_ids": [
+      "obj_5746b7e7d040"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_5746b7e7d040",
+        "relation": "behind",
+        "object": "obj_c57876bf22ca",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.851135016221705,
+          "center_delta": [
+            0.5479196848631791,
+            -1.672207510703498,
+            0.23863080794630562
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q018",
+    "query": "fixture table carrying a black workpiece behind the compartmented material rack",
+    "same_category_candidates_before": 5,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_ad85774e5f18",
+      "obj_c812ae8b15bd",
+      "obj_8528f4bf8a3d",
+      "obj_8e79bd39b8b9",
+      "obj_087984e7c374"
+    ],
+    "anchor_object_ids": [
+      "obj_c7c9293c6c6d",
+      "obj_5746b7e7d040"
+    ],
+    "matched_object_ids": [
+      "obj_ad85774e5f18"
+    ],
+    "renderable_object_ids": [
+      "obj_ad85774e5f18"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_ad85774e5f18",
+        "relation": "behind",
+        "object": "obj_c7c9293c6c6d",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.6582353715133389,
+          "center_delta": [
+            -2.169206191411946,
+            -1.3566605346577898,
+            -0.05063634932748884
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q019",
+    "query": "group of blue storage bins behind the workbench",
+    "same_category_candidates_before": 3,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_141f3e5dbe3a",
+      "obj_3c963764ddb5",
+      "obj_7463bab859d0"
+    ],
+    "anchor_object_ids": [
+      "obj_2e1a6e5960f5",
+      "obj_df0a6cc33263"
+    ],
+    "matched_object_ids": [
+      "obj_141f3e5dbe3a"
+    ],
+    "renderable_object_ids": [],
+    "unavailable_object_ids": [
+      "obj_141f3e5dbe3a"
+    ],
+    "relation_evidence": [
+      {
+        "subject": "obj_141f3e5dbe3a",
+        "relation": "behind",
+        "object": "obj_df0a6cc33263",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.2419139382825133,
+          "center_delta": [
+            2.82881790366855,
+            -1.7457189097931984,
+            -0.05622075763102147
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q020",
+    "query": "multi-tier material rack behind the assembly fixture table",
+    "same_category_candidates_before": 9,
+    "matches_after": 3,
+    "known_category_instances": [
+      "obj_485ade540e7d",
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_5bfd32389355",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_06d9693cfb0a",
+      "obj_933bd7d6e703",
+      "obj_dee5bef52687"
+    ],
+    "anchor_object_ids": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01",
+      "obj_09a35ba03c92"
+    ],
+    "matched_object_ids": [
+      "obj_126125e3a773",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2"
+    ],
+    "renderable_object_ids": [
+      "obj_126125e3a773",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_126125e3a773",
+        "relation": "behind",
+        "object": "obj_d058f708eb01",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.2596239609702601,
+          "center_delta": [
+            -0.9515521480096407,
+            -0.9075283666235229,
+            0.018297406603595412
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_126125e3a773",
+        "relation": "behind",
+        "object": "obj_09a35ba03c92",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.2075238875510788,
+          "center_delta": [
+            -0.9527301102514301,
+            -1.991548375791608,
+            0.03584918535364362
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_b7e0494ce9dd",
+        "relation": "behind",
+        "object": "obj_d058f708eb01",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.702093849761932,
+          "center_delta": [
+            -0.8672428272874617,
+            -1.5358730658674005,
+            0.03079707739348153
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_b7e0494ce9dd",
+        "relation": "behind",
+        "object": "obj_09a35ba03c92",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.795944743167729,
+          "center_delta": [
+            -0.8684207895292511,
+            -2.6198930750354856,
+            0.04834885614352974
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_b8542dc54ed2",
+        "relation": "behind",
+        "object": "obj_09a35ba03c92",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.5422209353381595,
+          "center_delta": [
+            -0.9280919290035419,
+            -1.3115362771216326,
+            0.04650312731164574
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q021",
+    "query": "upright portable air cooler near the multi-tier material rack",
+    "same_category_candidates_before": 3,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_e57b3a886c2d",
+      "obj_04c477562e49",
+      "obj_c57876bf22ca"
+    ],
+    "anchor_object_ids": [
+      "obj_485ade540e7d",
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_5bfd32389355",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_06d9693cfb0a",
+      "obj_933bd7d6e703",
+      "obj_dee5bef52687"
+    ],
+    "matched_object_ids": [
+      "obj_c57876bf22ca"
+    ],
+    "renderable_object_ids": [
+      "obj_c57876bf22ca"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_c57876bf22ca",
+        "relation": "near",
+        "object": "obj_06d9693cfb0a",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.05674153019644912,
+          "center_delta": [
+            0.018496614534477596,
+            0.504519051235965,
+            -0.023349787716552883
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q022",
+    "query": "assembly fixture table near the fixture table carrying a black workpiece",
+    "same_category_candidates_before": 3,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01",
+      "obj_09a35ba03c92"
+    ],
+    "anchor_object_ids": [
+      "obj_ad85774e5f18",
+      "obj_c812ae8b15bd",
+      "obj_8528f4bf8a3d",
+      "obj_8e79bd39b8b9",
+      "obj_087984e7c374"
+    ],
+    "matched_object_ids": [
+      "obj_09a35ba03c92"
+    ],
+    "renderable_object_ids": [
+      "obj_09a35ba03c92"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_09a35ba03c92",
+        "relation": "near",
+        "object": "obj_ad85774e5f18",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.14061687453629723,
+          "center_delta": [
+            0.08420514935766196,
+            -1.1948774623094995,
+            0.01985929043382384
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q023",
+    "query": "compartmented material rack near the group of blue storage bins",
+    "same_category_candidates_before": 2,
+    "matches_after": 1,
+    "known_category_instances": [
+      "obj_c7c9293c6c6d",
+      "obj_5746b7e7d040"
+    ],
+    "anchor_object_ids": [
+      "obj_141f3e5dbe3a",
+      "obj_3c963764ddb5",
+      "obj_7463bab859d0"
+    ],
+    "matched_object_ids": [
+      "obj_c7c9293c6c6d"
+    ],
+    "renderable_object_ids": [
+      "obj_c7c9293c6c6d"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_c7c9293c6c6d",
+        "relation": "near",
+        "object": "obj_3c963764ddb5",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.1234163849920007,
+          "center_delta": [
+            0.22710839135899596,
+            -1.3704812422132067,
+            0.05866386412980229
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q024",
+    "query": "material cart near the workbench",
+    "same_category_candidates_before": 6,
+    "matches_after": 2,
+    "known_category_instances": [
+      "obj_f9a0e863e32d",
+      "obj_4fd05384c476",
+      "obj_3efbeb5e8179",
+      "obj_7047e5f33259",
+      "obj_c0162cd69680",
+      "obj_57b0f30bdd9e"
+    ],
+    "anchor_object_ids": [
+      "obj_2e1a6e5960f5",
+      "obj_df0a6cc33263"
+    ],
+    "matched_object_ids": [
+      "obj_7047e5f33259",
+      "obj_c0162cd69680"
+    ],
+    "renderable_object_ids": [
+      "obj_7047e5f33259",
+      "obj_c0162cd69680"
+    ],
+    "unavailable_object_ids": [],
+    "relation_evidence": [
+      {
+        "subject": "obj_7047e5f33259",
+        "relation": "near",
+        "object": "obj_df0a6cc33263",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.0,
+          "center_delta": [
+            -0.22693946048926195,
+            0.479155093222837,
+            -0.054532531155006836
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_c0162cd69680",
+        "relation": "near",
+        "object": "obj_df0a6cc33263",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.041897526535779495,
+          "center_delta": [
+            -0.04780600937274093,
+            -0.6162454188333424,
+            -0.07287101980080946
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q025",
+    "query": "multi-tier material rack near the material cart",
+    "same_category_candidates_before": 9,
+    "matches_after": 3,
+    "known_category_instances": [
+      "obj_485ade540e7d",
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_5bfd32389355",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_06d9693cfb0a",
+      "obj_933bd7d6e703",
+      "obj_dee5bef52687"
+    ],
+    "anchor_object_ids": [
+      "obj_f9a0e863e32d",
+      "obj_4fd05384c476",
+      "obj_3efbeb5e8179",
+      "obj_7047e5f33259",
+      "obj_c0162cd69680",
+      "obj_57b0f30bdd9e"
+    ],
+    "matched_object_ids": [
+      "obj_aad6e7f85a9a",
+      "obj_b8542dc54ed2",
+      "obj_dee5bef52687"
+    ],
+    "renderable_object_ids": [
+      "obj_aad6e7f85a9a",
+      "obj_b8542dc54ed2"
+    ],
+    "unavailable_object_ids": [
+      "obj_dee5bef52687"
+    ],
+    "relation_evidence": [
+      {
+        "subject": "obj_aad6e7f85a9a",
+        "relation": "near",
+        "object": "obj_4fd05384c476",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.00018733619670641133,
+          "center_delta": [
+            -0.011720606929189081,
+            0.7800422208913771,
+            -0.05282847434329746
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_b8542dc54ed2",
+        "relation": "near",
+        "object": "obj_57b0f30bdd9e",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.029370030545021963,
+          "center_delta": [
+            -0.05792667857309608,
+            -0.607957983012708,
+            0.016092360642247505
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_dee5bef52687",
+        "relation": "near",
+        "object": "obj_4fd05384c476",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.013814374486947223,
+          "center_delta": [
+            -0.011373217114000411,
+            -0.6336894697869448,
+            -0.011879942487244999
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_dee5bef52687",
+        "relation": "near",
+        "object": "obj_3efbeb5e8179",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 0.24831523873710282,
+          "center_delta": [
+            -0.09901633622174333,
+            0.8803826935984818,
+            0.025782965562714588
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ]
+  }
+]

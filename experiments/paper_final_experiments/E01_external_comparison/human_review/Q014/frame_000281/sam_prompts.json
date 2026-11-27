@@ -1,0 +1,30 @@
+[
+  {
+    "task_id": "T058",
+    "object_id": "obj_c57876bf22ca",
+    "name": "Portable upright air cooler 03",
+    "camera_id": "frame_000281",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9369615316390991,
+    "mask_pixels": 5382,
+    "note": "Cooler selected behind small blue-bin stands.",
+    "prompt": {
+      "box": [
+        622.6377900668458,
+        263.4611645160445,
+        729.6117194778088,
+        415.7888035623637
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T058/initial/record.json"
+  }
+]

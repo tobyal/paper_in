@@ -1,0 +1,122 @@
+{
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/evaluation/pseudo_ground_truth/Q001/frame_000329/original_rgb.png": {
+    "bytes": 764336,
+    "sha256": "61a6ee1610bdc5be3f13c75802bed5864feef2899851063216e6071aca890c27"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/langsplat/Q001/frame_000329/mask.png": {
+    "bytes": 1515,
+    "sha256": "2be8bd92548d2ad6578a1b08e31f863adb86a173c967ef438a28f6dc4e1e29c9"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/thgs/Q001/frame_000329/mask.png": {
+    "bytes": 1593,
+    "sha256": "0cb9fb47b8e9325f177bdcf09c9b75714247d3296242906c203935156830683a"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/relags/Q001/frame_000329/mask.png": {
+    "bytes": 560,
+    "sha256": "98a13e91ec263778d7d942e76e690c32ccd6e39d351155ef07d39b9f8f9d0696"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/ours/Q001/frame_000329/mask.png": {
+    "bytes": 1073,
+    "sha256": "7678b6fbaf2e3cf534510d65cd659bd75e9413f6a21dca332391ddf801c58c63"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/evaluation/pseudo_ground_truth/Q003/frame_000169/original_rgb.png": {
+    "bytes": 717520,
+    "sha256": "f296e5594c87461f480a5988eff7e9715d9cb74e4585487be249f9a22bf714fd"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/langsplat/Q003/frame_000169/mask.png": {
+    "bytes": 6659,
+    "sha256": "f7d0546f75e2eefb4384620252158d2e93450124a5b323cbd62a1f9438edead2"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/thgs/Q003/frame_000169/mask.png": {
+    "bytes": 560,
+    "sha256": "98a13e91ec263778d7d942e76e690c32ccd6e39d351155ef07d39b9f8f9d0696"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/relags/Q003/frame_000169/mask.png": {
+    "bytes": 1480,
+    "sha256": "3926ac8a4acadc68a54c80a78eeb653e3fab3cb5455fcefe6b4af800fcaa5df7"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/ours/Q003/frame_000169/mask.png": {
+    "bytes": 5491,
+    "sha256": "c225c35328bb8d7d5a7dba77cc6eea04b75386cdd0bda48601063913f99f62e4"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/evaluation/pseudo_ground_truth/Q006/frame_000321/original_rgb.png": {
+    "bytes": 761974,
+    "sha256": "073a142611296bb3f53d6498fd5ecf404d5dc450b2b4c521e3d4a38bb5cf17bf"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/langsplat/Q006/frame_000321/mask.png": {
+    "bytes": 6314,
+    "sha256": "6f6d3bd1a0c2cda64eee306ebd1829b71d87afa52f3d8c2bc432ff25703f98e3"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/thgs/Q006/frame_000321/mask.png": {
+    "bytes": 1484,
+    "sha256": "f082f7cd94ae65f841af5b5b33d503c7e6d26d81dae85b6e402110e30e7a5fcd"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/relags/Q006/frame_000321/mask.png": {
+    "bytes": 560,
+    "sha256": "98a13e91ec263778d7d942e76e690c32ccd6e39d351155ef07d39b9f8f9d0696"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/ours/Q006/frame_000321/mask.png": {
+    "bytes": 1631,
+    "sha256": "68f87448d640b62156398f84d68d97b79e8681aebfc1746259b388b505cce427"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/evaluation/pseudo_ground_truth/Q011/frame_000177/original_rgb.png": {
+    "bytes": 706915,
+    "sha256": "b0bc1514d8ab78e15868fbfe1cdbb09b327b98788bc78462ec0334e2b91e5cfd"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/langsplat/Q011/frame_000177/mask.png": {
+    "bytes": 2847,
+    "sha256": "1427fda8996cba829d501334f731825c731d8ecb16911c7bb162bb7c1ced018d"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/thgs/Q011/frame_000177/mask.png": {
+    "bytes": 1756,
+    "sha256": "049b8dee5729821904b451444f37d4cfbe6f4defd72a9d48070fcedade029de0"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/relags/Q011/frame_000177/mask.png": {
+    "bytes": 1549,
+    "sha256": "96603348aae4a152e0b821c5905dccbfb1ae41dbf93b99e56d333cd0db7e88de"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/ours/Q011/frame_000177/mask.png": {
+    "bytes": 2835,
+    "sha256": "343bd38736432afdf98bba97c738f0cebc04e573b1dbf63e4794ba794dbed858"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/evaluation/pseudo_ground_truth/Q019/frame_000193/original_rgb.png": {
+    "bytes": 681514,
+    "sha256": "9a70fff41a2610ce99b12f65c23b1d0428361b77309b3f2b06c2d1378eeeec52"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/langsplat/Q019/frame_000193/mask.png": {
+    "bytes": 1278,
+    "sha256": "563a1e11f0cf52bb648f11b104f41cc179b97a261b5e43b9d6f6b7700bbb383c"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/thgs/Q019/frame_000193/mask.png": {
+    "bytes": 1478,
+    "sha256": "fc9ea9dc2eb86a2963bf628f7e5edebf0e84c3e0f8a510bbe84c11ee8ed5747c"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/relags/Q019/frame_000193/mask.png": {
+    "bytes": 786,
+    "sha256": "ec1086f6429e5120954bea46384e9d8ea91f49c03f73840a780ceadbc89f4f70"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/ours/Q019/frame_000193/mask.png": {
+    "bytes": 560,
+    "sha256": "98a13e91ec263778d7d942e76e690c32ccd6e39d351155ef07d39b9f8f9d0696"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/evaluation/pseudo_ground_truth/Q024/frame_000313/original_rgb.png": {
+    "bytes": 793307,
+    "sha256": "5e1040b76d007c3cfa670d5d34de908ae4719ef2e2f15b3da9560ab6cc38dd05"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/langsplat/Q024/frame_000313/mask.png": {
+    "bytes": 7369,
+    "sha256": "8c6f9d750c1d427fdb2e25b4148f9e9c2366d8a58ea866a3f03769b29d93d47e"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/thgs/Q024/frame_000313/mask.png": {
+    "bytes": 3451,
+    "sha256": "bca296d4e9753e6df6977a5248d3ba7f649ee2bd8d682595d0df9cbcaa1b6e04"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/relags/Q024/frame_000313/mask.png": {
+    "bytes": 560,
+    "sha256": "98a13e91ec263778d7d942e76e690c32ccd6e39d351155ef07d39b9f8f9d0696"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/ours/Q024/frame_000313/mask.png": {
+    "bytes": 2217,
+    "sha256": "a9c764c1259dc328a6f580853634ab94535962ebd1a590bb7e321d8ca37ce2c3"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "size_inches": [
+    7.08,
+    7.8
+  ],
+  "width_mm": 179.832,
+  "dpi": 450,
+  "editable_text": "SVG text elements; DejaVu Sans",
+  "description": {
+    "query": "Q006",
+    "nodes": 33,
+    "edges": 2020,
+    "drawn_edges": [
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_126125e3a773",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.381742575650091,
+          "center_delta": [
+            1.4383391878120244,
+            2.9377946912166335,
+            -0.036922085653839865
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_aad6e7f85a9a",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.448154669616324,
+          "center_delta": [
+            1.4638273356486589,
+            -3.2386643400478663,
+            0.053473332245882244
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_b7e0494ce9dd",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.944503122729039,
+          "center_delta": [
+            1.3540298670898454,
+            3.566139390460511,
+            -0.049421756443725984
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_b8542dc54ed2",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.7276685987559606,
+          "center_delta": [
+            1.4137010065641362,
+            2.257782592546658,
+            -0.04757602761184199
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_933bd7d6e703",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 2.835142945126227,
+          "center_delta": [
+            0.8016124089231573,
+            -3.454927845513617,
+            0.02582710873565619
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      },
+      {
+        "subject": "obj_f9a0e863e32d",
+        "relation": "right_of",
+        "object": "obj_dee5bef52687",
+        "source": "industrial_geometry",
+        "evidence": {
+          "aabb_gap": 1.272747314680956,
+          "center_delta": [
+            1.4634799458334702,
+            -1.8249326493695444,
+            0.012524800389829782
+          ],
+          "coordinate_frame": "industrial",
+          "units": "SfM relative units; not meters",
+          "extent_source": "M0 OBB projected into industrial axes"
+        }
+      }
+    ],
+    "all_anchors": [
+      "obj_485ade540e7d",
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_5bfd32389355",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_06d9693cfb0a",
+      "obj_933bd7d6e703",
+      "obj_dee5bef52687"
+    ],
+    "no_fine_substitution": true
+  },
+  "axes": [
+    {
+      "title": "(a) Scene-level equipment identities",
+      "position": [
+        0.06,
+        0.7417732460651981,
+        0.4246575342465753,
+        0.21692740896850482
+      ]
+    },
+    {
+      "title": "30 fine / partial instances (consistent colors)",
+      "position": [
+        0.5868050844351148,
+        0.7304739010989011,
+        0.3817322968831951,
+        0.23952609890109888
+      ]
+    },
+    {
+      "title": "(b) 33 nodes / 2,020 directed relations",
+      "position": [
+        0.1649664639654349,
+        0.32535542582417576,
+        0.2147246063157055,
+        0.3233602335164836
+      ]
+    },
+    {
+      "title": "Q006: category candidates 6 → relation target 1",
+      "position": [
+        0.6703089297188596,
+        0.32535542582417576,
+        0.21472460631570556,
+        0.3233602335164836
+      ]
+    },
+    {
+      "title": "(c) Category-only candidates",
+      "position": [
+        0.07309083195861124,
+        0.039999999999999925,
+        0.39847587032935283,
+        0.20359718406593408
+      ]
+    },
+    {
+      "title": "Relation-constrained 3D instance",
+      "position": [
+        0.5784332977120359,
+        0.039999999999999925,
+        0.39847587032935283,
+        0.20359718406593408
+      ]
+    }
+  ]
+}

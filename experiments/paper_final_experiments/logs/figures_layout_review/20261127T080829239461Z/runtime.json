@@ -1,0 +1,10 @@
+{
+  "exit_code": 0,
+  "wall_seconds": 102.09818843379617,
+  "command": [
+    "../saga_relags_v1/envs/saga/bin/python",
+    "scripts/plot_figures.py",
+    "--main-only"
+  ],
+  "finished_utc": "2026-11-27T08:10:11.340819+00:00"
+}

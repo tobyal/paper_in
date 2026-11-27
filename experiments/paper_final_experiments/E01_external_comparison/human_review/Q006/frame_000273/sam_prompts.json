@@ -1,0 +1,30 @@
+[
+  {
+    "task_id": "T057",
+    "object_id": "obj_f9a0e863e32d",
+    "name": "Material cart 03",
+    "camera_id": "frame_000273",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 0,
+    "sam_predicted_iou": 0.9805808663368225,
+    "mask_pixels": 17128,
+    "note": "Material cart body and wheels clearly visible.",
+    "prompt": {
+      "box": [
+        223.96738923212928,
+        181.23927251226868,
+        432.1573465944632,
+        416.6300826166353
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T057/initial/record.json"
+  }
+]

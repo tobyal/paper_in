@@ -1,0 +1,254 @@
+{
+  "F04_dataset": {
+    "description": {
+      "cameras": {
+        "train": 306,
+        "heldout": 44
+      },
+      "objects": 33,
+      "categories": 8,
+      "category_example_ids": [
+        "obj_f9a0e863e32d",
+        "obj_8429bc5f3c33",
+        "obj_ad85774e5f18",
+        "obj_aad6e7f85a9a",
+        "obj_7463bab859d0",
+        "obj_e57b3a886c2d",
+        "obj_2e1a6e5960f5",
+        "obj_c7c9293c6c6d"
+      ],
+      "native_points_display": "subsampled source Gaussian centers with SH DC colors; visualization only"
+    },
+    "experiment": "Dataset"
+  },
+  "F05_external_comparison": {
+    "description": {
+      "cases": [
+        [
+          "Q001",
+          "frame_000329"
+        ],
+        [
+          "Q003",
+          "frame_000169"
+        ],
+        [
+          "Q006",
+          "frame_000321"
+        ],
+        [
+          "Q011",
+          "frame_000177"
+        ],
+        [
+          "Q019",
+          "frame_000193"
+        ],
+        [
+          "Q024",
+          "frame_000313"
+        ]
+      ],
+      "methods": [
+        "langsplat",
+        "thgs",
+        "relags",
+        "ours"
+      ],
+      "common_camera_crop": true,
+      "overlay_alpha": 0.55,
+      "reference": "SAM-assisted Pseudo-GT",
+      "not_human_gt": true
+    },
+    "experiment": "E01_external_comparison"
+  },
+  "F06_entity_construction": {
+    "description": {
+      "objects": [
+        "obj_8429bc5f3c33",
+        "obj_aad6e7f85a9a",
+        "obj_f9a0e863e32d",
+        "obj_c7c9293c6c6d"
+      ],
+      "color_scale": [
+        0,
+        1
+      ],
+      "affinity": "stored float16; exact before/after indices separately retained",
+      "counts_not_accuracy": true
+    },
+    "experiment": "E03"
+  },
+  "F07_relation_retrieval": {
+    "description": {
+      "query": "Q006",
+      "nodes": 33,
+      "edges": 2020,
+      "drawn_edges": [
+        {
+          "subject": "obj_f9a0e863e32d",
+          "relation": "right_of",
+          "object": "obj_126125e3a773",
+          "source": "industrial_geometry",
+          "evidence": {
+            "aabb_gap": 2.381742575650091,
+            "center_delta": [
+              1.4383391878120244,
+              2.9377946912166335,
+              -0.036922085653839865
+            ],
+            "coordinate_frame": "industrial",
+            "units": "SfM relative units; not meters",
+            "extent_source": "M0 OBB projected into industrial axes"
+          }
+        },
+        {
+          "subject": "obj_f9a0e863e32d",
+          "relation": "right_of",
+          "object": "obj_aad6e7f85a9a",
+          "source": "industrial_geometry",
+          "evidence": {
+            "aabb_gap": 2.448154669616324,
+            "center_delta": [
+              1.4638273356486589,
+              -3.2386643400478663,
+              0.053473332245882244
+            ],
+            "coordinate_frame": "industrial",
+            "units": "SfM relative units; not meters",
+            "extent_source": "M0 OBB projected into industrial axes"
+          }
+        },
+        {
+          "subject": "obj_f9a0e863e32d",
+          "relation": "right_of",
+          "object": "obj_b7e0494ce9dd",
+          "source": "industrial_geometry",
+          "evidence": {
+            "aabb_gap": 2.944503122729039,
+            "center_delta": [
+              1.3540298670898454,
+              3.566139390460511,
+              -0.049421756443725984
+            ],
+            "coordinate_frame": "industrial",
+            "units": "SfM relative units; not meters",
+            "extent_source": "M0 OBB projected into industrial axes"
+          }
+        },
+        {
+          "subject": "obj_f9a0e863e32d",
+          "relation": "right_of",
+          "object": "obj_b8542dc54ed2",
+          "source": "industrial_geometry",
+          "evidence": {
+            "aabb_gap": 1.7276685987559606,
+            "center_delta": [
+              1.4137010065641362,
+              2.257782592546658,
+              -0.04757602761184199
+            ],
+            "coordinate_frame": "industrial",
+            "units": "SfM relative units; not meters",
+            "extent_source": "M0 OBB projected into industrial axes"
+          }
+        },
+        {
+          "subject": "obj_f9a0e863e32d",
+          "relation": "right_of",
+          "object": "obj_933bd7d6e703",
+          "source": "industrial_geometry",
+          "evidence": {
+            "aabb_gap": 2.835142945126227,
+            "center_delta": [
+              0.8016124089231573,
+              -3.454927845513617,
+              0.02582710873565619
+            ],
+            "coordinate_frame": "industrial",
+            "units": "SfM relative units; not meters",
+            "extent_source": "M0 OBB projected into industrial axes"
+          }
+        },
+        {
+          "subject": "obj_f9a0e863e32d",
+          "relation": "right_of",
+          "object": "obj_dee5bef52687",
+          "source": "industrial_geometry",
+          "evidence": {
+            "aabb_gap": 1.272747314680956,
+            "center_delta": [
+              1.4634799458334702,
+              -1.8249326493695444,
+              0.012524800389829782
+            ],
+            "coordinate_frame": "industrial",
+            "units": "SfM relative units; not meters",
+            "extent_source": "M0 OBB projected into industrial axes"
+          }
+        }
+      ],
+      "all_anchors": [
+        "obj_485ade540e7d",
+        "obj_126125e3a773",
+        "obj_aad6e7f85a9a",
+        "obj_5bfd32389355",
+        "obj_b7e0494ce9dd",
+        "obj_b8542dc54ed2",
+        "obj_06d9693cfb0a",
+        "obj_933bd7d6e703",
+        "obj_dee5bef52687"
+      ],
+      "no_fine_substitution": true
+    },
+    "experiment": "E04"
+  },
+  "F08_ablation": {
+    "description": {
+      "cases": [
+        [
+          "Q006",
+          "frame_000321"
+        ],
+        [
+          "Q007",
+          "frame_000185"
+        ],
+        [
+          "Q011",
+          "frame_000177"
+        ],
+        [
+          "Q024",
+          "frame_000313"
+        ]
+      ],
+      "methods": [
+        "box_gated",
+        "no_relation",
+        "ours"
+      ],
+      "common_camera_crop": true,
+      "overlay_alpha": 0.55,
+      "reference": "SAM-assisted Pseudo-GT",
+      "not_human_gt": true
+    },
+    "experiment": "E02_ablation"
+  },
+  "F09_multiview_application": {
+    "description": {
+      "multiview_queries": [
+        "Q003",
+        "Q006"
+      ],
+      "fixed_ids": true,
+      "nearest_example": "N02",
+      "difficult_objects": [
+        "obj_c7c9293c6c6d",
+        "obj_141f3e5dbe3a"
+      ],
+      "unavailable_attempt_labelled": true
+    },
+    "experiment": "E05"
+  }
+}

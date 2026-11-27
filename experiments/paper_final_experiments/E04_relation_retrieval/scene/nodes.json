@@ -1,0 +1,1883 @@
+[
+  {
+    "object_id": "obj_8429bc5f3c33",
+    "category_id": "category_02",
+    "name_zh": "装配夹具台 01",
+    "name_en": "Assembly fixture table 01",
+    "bbox": {
+      "center": [
+        -0.17386776380843333,
+        -0.14482609077105557,
+        0.33159791952534423
+      ],
+      "size": [
+        0.48928389568888575,
+        1.1792209392228499,
+        0.5437789731437292
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O01",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      -0.17386776380843333,
+      -0.14482609077105557,
+      0.33159791952534423
+    ],
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 20477,
+    "gaussian_indices": "instances/obj_8429bc5f3c33/gaussian_indices.npy",
+    "instance_ply": "instances/obj_8429bc5f3c33/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -0.41173893213272095,
+        -0.719204843044281,
+        0.062376949936151505
+      ],
+      "max": [
+        0.06943611055612564,
+        0.42479658126831055,
+        0.5750664472579956
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "底座、立柱及主要夹具得到保留；细线缆和轮缘局部缺失。",
+      "diagnosis": "D",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_d058f708eb01",
+    "category_id": "category_02",
+    "name_zh": "装配夹具台 02",
+    "name_en": "Assembly fixture table 02",
+    "bbox": {
+      "center": [
+        -0.16643743070526743,
+        1.0086260235141904,
+        0.3210277401341963
+      ],
+      "size": [
+        0.5010696794597378,
+        1.08562822256152,
+        0.5772987309280759
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O02",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      -0.16643743070526743,
+      1.0086260235141904,
+      0.3210277401341963
+    ],
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 20186,
+    "gaussian_indices": "instances/obj_d058f708eb01/gaussian_indices.npy",
+    "instance_ply": "instances/obj_d058f708eb01/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -0.3742159605026245,
+        0.4658209979534149,
+        0.047864627093076706
+      ],
+      "max": [
+        0.021419376134872437,
+        1.5339686870574951,
+        0.5060327053070068
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "直接复用v1；长底座和夹具连贯，细线缆仍不完整。",
+      "diagnosis": "D",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_09a35ba03c92",
+    "category_id": "category_02",
+    "name_zh": "装配夹具台 03",
+    "name_en": "Assembly fixture table 03",
+    "bbox": {
+      "center": [
+        -0.16525946846347808,
+        2.0926460326822753,
+        0.3034759613841481
+      ],
+      "size": [
+        0.5150885538456178,
+        1.0485211755464037,
+        0.5948836758522971
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O03",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      -0.16525946846347808,
+      2.0926460326822753,
+      0.3034759613841481
+    ],
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 16536,
+    "gaussian_indices": "instances/obj_09a35ba03c92/gaussian_indices.npy",
+    "instance_ply": "instances/obj_09a35ba03c92/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -0.3353235125541687,
+        1.5698751211166382,
+        0.010579340159893036
+      ],
+      "max": [
+        0.04395807906985283,
+        2.5925204753875732,
+        0.48731550574302673
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "直接复用v1；主要支架保留，局部细杆有孔洞。",
+      "diagnosis": "D",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_ad85774e5f18",
+    "category_id": "category_03",
+    "name_zh": "带黑色工件的夹具台 01",
+    "name_en": "Fixture table with black workpiece 01",
+    "bbox": {
+      "center": [
+        -0.24946461782114004,
+        3.287523494991775,
+        0.2836166709503243
+      ],
+      "size": [
+        0.491238011281263,
+        1.06,
+        0.6151014205366523
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O04",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      -0.24946461782114004,
+      3.287523494991775,
+      0.2836166709503243
+    ],
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 11956,
+    "gaussian_indices": "instances/obj_ad85774e5f18/gaussian_indices.npy",
+    "instance_ply": "instances/obj_ad85774e5f18/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -0.4191383719444275,
+        2.7879374027252197,
+        -0.020810533314943314
+      ],
+      "max": [
+        -0.02384261041879654,
+        3.8161096572875977,
+        0.45581477880477905
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "直接复用v1及已记录补点；黑色工件、浅色覆盖物和底座保留。",
+      "diagnosis": "E",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_c812ae8b15bd",
+    "category_id": "category_03",
+    "name_zh": "带黑色工件的夹具台 02",
+    "name_en": "Fixture table with black workpiece 02",
+    "bbox": {
+      "center": [
+        0.95,
+        3.815908686886473,
+        0.29183032832471867
+      ],
+      "size": [
+        0.45974133874351003,
+        1.1848145087500463,
+        0.6502767267109519
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O05",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      0.95,
+      3.815908686886473,
+      0.29183032832471867
+    ],
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 17755,
+    "gaussian_indices": "instances/obj_c812ae8b15bd/gaussian_indices.npy",
+    "instance_ply": "instances/obj_c812ae8b15bd/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        0.7490898966789246,
+        3.275111436843872,
+        -0.027257103472948074
+      ],
+      "max": [
+        1.1522473096847534,
+        4.3942670822143555,
+        0.4676189124584198
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "直接复用v1及已记录补点；主要设备结构保留，底部细支撑有模糊。",
+      "diagnosis": "E",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_485ade540e7d",
+    "category_id": "category_04",
+    "name_zh": "多层料架 05",
+    "name_en": "Multi-tier rack 05",
+    "bbox": {
+      "center": [
+        0.30781993988982403,
+        4.61558652333949,
+        0.2723564880713576
+      ],
+      "size": [
+        0.657014166634275,
+        1.081269987440117,
+        0.6546428019274613
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O06",
+    "geometry_source": "M0 r29",
+    "segmentation_available": false,
+    "industrial_position": [
+      0.30781993988982403,
+      4.61558652333949,
+      0.2723564880713576
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "needs_improvement",
+    "fine_instance_available": false,
+    "gaussian_count": 66137,
+    "gaussian_indices": "instances/obj_485ade540e7d/gaussian_indices.npy",
+    "instance_ply": "instances/obj_485ade540e7d/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -0.019982149824500084,
+        4.124488830566406,
+        -0.04184701666235924
+      ],
+      "max": [
+        0.6282907724380493,
+        5.14591121673584,
+        0.5660480856895447
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "架体保留，但M0范围及SAM掩膜同时覆盖前方灰箱/小架；粗框边界、遮挡与提示混入共同影响。常规精细查询停用，保留诊断结果。",
+      "diagnosis": "E",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_f9a0e863e32d",
+    "category_id": "category_01",
+    "name_zh": "物料车 03",
+    "name_en": "Material cart 03",
+    "bbox": {
+      "center": [
+        0.3203496090971163,
+        3.038892348107301,
+        0.3024030610839519
+      ],
+      "size": [
+        0.5731912350422347,
+        0.7528548424211999,
+        0.6282605860009616
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O07",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      0.3203496090971163,
+      3.038892348107301,
+      0.3024030610839519
+    ],
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 27176,
+    "gaussian_indices": "instances/obj_f9a0e863e32d/gaussian_indices.npy",
+    "instance_ply": "instances/obj_f9a0e863e32d/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        0.05462488532066345,
+        2.6727592945098877,
+        0.00496962945908308
+      ],
+      "max": [
+        0.5310048460960388,
+        3.401479721069336,
+        0.5990029573440552
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "直接复用v1；箱体和车架完整，边缘少量原始重建伪影。",
+      "diagnosis": "A",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_126125e3a773",
+    "category_id": "category_04",
+    "name_zh": "多层料架 02",
+    "name_en": "Multi-tier rack 02",
+    "bbox": {
+      "center": [
+        -1.1179895787149081,
+        0.10109765689066752,
+        0.33932514673779174
+      ],
+      "size": [
+        0.9084872241668563,
+        0.5680922906296216,
+        0.5661982728644351
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O08",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      -1.1179895787149081,
+      0.10109765689066752,
+      0.33932514673779174
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "partial_usable",
+    "fine_instance_available": true,
+    "gaussian_count": 14008,
+    "gaussian_indices": "instances/obj_126125e3a773/gaussian_indices.npy",
+    "instance_ply": "instances/obj_126125e3a773/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -1.4775458574295044,
+        -0.18293054401874542,
+        0.06631699949502945
+      ],
+      "max": [
+        -0.6640766859054565,
+        0.38509106636047363,
+        0.6203123927116394
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "首轮因镂空结构SAM粗贡献精度门槛而无提示。一次放宽参考掩膜检查后提取出主体架和细杆；遮挡侧及底部仍不足。未放宽最终亲和阈值。",
+      "diagnosis": "C",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_aad6e7f85a9a",
+    "category_id": "category_04",
+    "name_zh": "多层料架 08",
+    "name_en": "Multi-tier rack 08",
+    "bbox": {
+      "center": [
+        -1.1434777265515426,
+        6.277556688155167,
+        0.24892972883806963
+      ],
+      "size": [
+        1.0627186169791223,
+        1.0016314236900736,
+        0.7021405423238607
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O09",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      -1.1434777265515426,
+      6.277556688155167,
+      0.24892972883806963
+    ],
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 71325,
+    "gaussian_indices": "instances/obj_aad6e7f85a9a/gaussian_indices.npy",
+    "instance_ply": "instances/obj_aad6e7f85a9a/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -1.6496042013168335,
+        5.7826032638549805,
+        -0.09359252452850342
+      ],
+      "max": [
+        -0.6121516823768616,
+        6.757303237915039,
+        0.590627133846283
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "大部分层架横杆保留；与料架09有候选重叠，按亲和分配后保持独立，细杆仍有少量漂浮。",
+      "diagnosis": "E",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_5bfd32389355",
+    "category_id": "category_04",
+    "name_zh": "多层料架 04",
+    "name_en": "Multi-tier rack 04",
+    "bbox": {
+      "center": [
+        1.9112699533508015,
+        2.19,
+        0.3274358630522818
+      ],
+      "size": [
+        0.9967798540597704,
+        1.2018856236462312,
+        0.6356317046389337
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O10",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      1.9112699533508015,
+      2.19,
+      0.3274358630522818
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "partial_usable",
+    "fine_instance_available": true,
+    "gaussian_count": 25750,
+    "gaussian_indices": "instances/obj_5bfd32389355/gaussian_indices.npy",
+    "instance_ply": "instances/obj_5bfd32389355/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        1.4320130348205566,
+        1.9274955987930298,
+        0.014142327010631561
+      ],
+      "max": [
+        2.3316164016723633,
+        2.782942533493042,
+        0.6440714001655579
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "用10个经Codex视觉检查的中央料架点击替换受污染提示，明显减少两侧独立灰箱。保留中央上部和部分层架，底部仍不完整；阈值和门控有限比较无明确收益。",
+      "diagnosis": "E",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_141f3e5dbe3a",
+    "category_id": "category_05",
+    "name_zh": "蓝色箱组 01",
+    "name_en": "Blue bin group 01",
+    "bbox": {
+      "center": [
+        1.8982143136791598,
+        0.918864094880959,
+        0.340919773189663
+      ],
+      "size": [
+        1.1006855289669342,
+        1.112896034191583,
+        0.598160453620674
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O11",
+    "geometry_source": "M0 r29",
+    "segmentation_available": false,
+    "industrial_position": [
+      1.8982143136791598,
+      0.918864094880959,
+      0.340919773189663
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "needs_improvement",
+    "fine_instance_available": false,
+    "gaussian_count": 21501,
+    "gaussian_indices": "instances/obj_141f3e5dbe3a/gaussian_indices.npy",
+    "instance_ply": "instances/obj_141f3e5dbe3a/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        1.3565696477890015,
+        0.5785700678825378,
+        0.06739869713783264
+      ],
+      "max": [
+        1.7796626091003418,
+        1.4663505554199219,
+        0.43203210830688477
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "只保留部分蓝箱表面，前方小架仍混入；原始重建、遮挡及跨材质亲和筛选共同影响。0.80/0.90比较未明显改善，常规精细查询停用。",
+      "diagnosis": "E",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_3c963764ddb5",
+    "category_id": "category_05",
+    "name_zh": "蓝色箱组 02",
+    "name_en": "Blue bin group 02",
+    "bbox": {
+      "center": [
+        1.69263318223181,
+        6.014665271862771,
+        0.2755891561480108
+      ],
+      "size": [
+        0.7475826467446662,
+        1.4880602741741327,
+        0.7287693677671694
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O12",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      1.69263318223181,
+      6.014665271862771,
+      0.2755891561480108
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "partial_usable",
+    "fine_instance_available": true,
+    "gaussian_count": 27191,
+    "gaussian_indices": "instances/obj_3c963764ddb5/gaussian_indices.npy",
+    "instance_ply": "instances/obj_3c963764ddb5/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        1.3433387279510498,
+        5.271347522735596,
+        -0.05067063868045807
+      ],
+      "max": [
+        1.9598300457000732,
+        6.491187572479248,
+        0.5890203714370728
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "保留箱组的可见上表面和局部立面；部分原始箱体已不完整，另有亲和筛选孔洞。有限阈值比较无明确收益，查询明确显示局部实例。",
+      "diagnosis": "E",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_e57b3a886c2d",
+    "category_id": "category_06",
+    "name_zh": "立式移动冷风机 02",
+    "name_en": "Portable upright air cooler 02",
+    "bbox": {
+      "center": [
+        0.5689760835118445,
+        1.3603114408509263,
+        0.26322356618917975
+      ],
+      "size": [
+        0.31265912377761795,
+        0.3413506831601389,
+        0.45355286762164054
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O13",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      0.5689760835118445,
+      1.3603114408509263,
+      0.26322356618917975
+    ],
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 10952,
+    "gaussian_indices": "instances/obj_e57b3a886c2d/gaussian_indices.npy",
+    "instance_ply": "instances/obj_e57b3a886c2d/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        0.42367100715637207,
+        1.2504726648330688,
+        0.0379018671810627
+      ],
+      "max": [
+        0.6842859387397766,
+        1.5226963758468628,
+        0.4807907044887543
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "冷风机机身及格栅清晰，底部脚轮在原始重建中模糊。",
+      "diagnosis": "A",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_04c477562e49",
+    "category_id": "category_06",
+    "name_zh": "立式移动冷风机 01",
+    "name_en": "Portable upright air cooler 01",
+    "bbox": {
+      "center": [
+        1.4849999999999999,
+        -0.060930727513434146,
+        0.3078579213514364
+      ],
+      "size": [
+        0.32999999999999985,
+        0.31999999999999995,
+        0.4642841572971272
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O14",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      1.4849999999999999,
+      -0.060930727513434146,
+      0.3078579213514364
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 9442,
+    "gaussian_indices": "instances/obj_04c477562e49/gaussian_indices.npy",
+    "instance_ply": "instances/obj_04c477562e49/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        1.3210444450378418,
+        -0.18642950057983398,
+        0.1133812814950943
+      ],
+      "max": [
+        1.5845239162445068,
+        0.09134577214717865,
+        0.5238302946090698
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "直接复用v1；已有机身结构提取有效，背面彩色伪影来自原始3DGS，不能解释为补全失败。",
+      "diagnosis": "A",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_2e1a6e5960f5",
+    "category_id": "category_07",
+    "name_zh": "工作台 01",
+    "name_en": "Workbench 01",
+    "bbox": {
+      "center": [
+        1.7572036521409542,
+        0.06245015022514497,
+        0.3848718361096076
+      ],
+      "size": [
+        0.3149936899585931,
+        0.6540495636503916,
+        0.6302563277807847
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O15",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      1.7572036521409542,
+      0.06245015022514497,
+      0.3848718361096076
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "partial_usable",
+    "fine_instance_available": true,
+    "gaussian_count": 13214,
+    "gaussian_indices": "instances/obj_2e1a6e5960f5/gaussian_indices.npy",
+    "instance_ply": "instances/obj_2e1a6e5960f5/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        1.599757432937622,
+        -0.23938454687595367,
+        0.1163700520992279
+      ],
+      "max": [
+        1.9134328365325928,
+        0.3667098581790924,
+        0.6628490686416626
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "台面与主要正面结构保留；原生3DGS下部、背侧本就模糊或缺失，少量漂浮仍在。",
+      "diagnosis": "A",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_8528f4bf8a3d",
+    "category_id": "category_03",
+    "name_zh": "带黑色工件的夹具台 03",
+    "name_en": "Fixture table with black workpiece 03",
+    "bbox": {
+      "center": [
+        -0.2967399231615735,
+        4.420776778392212,
+        0.28266009897170874
+      ],
+      "size": [
+        0.4910929693479444,
+        1.1231294844093125,
+        0.6711405617620141
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O16",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      -0.2967399231615735,
+      4.420776778392212,
+      0.28266009897170874
+    ],
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 15546,
+    "gaussian_indices": "instances/obj_8528f4bf8a3d/gaussian_indices.npy",
+    "instance_ply": "instances/obj_8528f4bf8a3d/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -0.38993966579437256,
+        3.9154052734375,
+        -0.04746747761964798
+      ],
+      "max": [
+        -0.05549917742609978,
+        4.947102069854736,
+        0.4466199576854706
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "底座与黑色工件主体保留；部分轮脚、细线缆未完全选择。",
+      "diagnosis": "D",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_8e79bd39b8b9",
+    "category_id": "category_03",
+    "name_zh": "带黑色工件的夹具台 04",
+    "name_en": "Fixture table with black workpiece 04",
+    "bbox": {
+      "center": [
+        0.9538657678929764,
+        4.960272815423629,
+        0.2775484445888701
+      ],
+      "size": [
+        0.49042458066268135,
+        1.105474879265791,
+        0.6763879663109397
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O17",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      0.9538657678929764,
+      4.960272815423629,
+      0.2775484445888701
+    ],
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 22085,
+    "gaussian_indices": "instances/obj_8e79bd39b8b9/gaussian_indices.npy",
+    "instance_ply": "instances/obj_8e79bd39b8b9/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        0.732233464717865,
+        4.414814472198486,
+        -0.05618662014603615
+      ],
+      "max": [
+        1.1462527513504028,
+        5.492673397064209,
+        0.45629140734672546
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "设备主体和细长底座连贯；局部反光、细杆仍有孔洞。",
+      "diagnosis": "D",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_087984e7c374",
+    "category_id": "category_03",
+    "name_zh": "带黑色工件的夹具台 05",
+    "name_en": "Fixture table with black workpiece 05",
+    "bbox": {
+      "center": [
+        0.7429676190671615,
+        5.9272779103565005,
+        0.28551337754479683
+      ],
+      "size": [
+        0.4204497610710623,
+        1.1276269622592128,
+        0.7369929256597244
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.5447458305091698,
+        0.8386012044725877
+      ]
+    },
+    "display_id": "O18",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      0.7429676190671615,
+      5.9272779103565005,
+      0.28551337754479683
+    ],
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 24692,
+    "gaussian_indices": "instances/obj_087984e7c374/gaussian_indices.npy",
+    "instance_ply": "instances/obj_087984e7c374/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        0.260295033454895,
+        5.5719523429870605,
+        -0.07943232357501984
+      ],
+      "max": [
+        1.2319942712783813,
+        6.179688453674316,
+        0.41077518463134766
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "工件及底座整体提取有效；原始重建底部有少量模糊残影。",
+      "diagnosis": "A",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_b7e0494ce9dd",
+    "category_id": "category_04",
+    "name_zh": "多层料架 01",
+    "name_en": "Multi-tier rack 01",
+    "bbox": {
+      "center": [
+        -1.0336802579927291,
+        -0.5272470423532102,
+        0.35182481752767786
+      ],
+      "size": [
+        0.9590520987214908,
+        0.6089949811728987,
+        0.5606581100360152
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O19",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      -1.0336802579927291,
+      -0.5272470423532102,
+      0.35182481752767786
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "partial_usable",
+    "fine_instance_available": true,
+    "gaussian_count": 14169,
+    "gaussian_indices": "instances/obj_b7e0494ce9dd/gaussian_indices.npy",
+    "instance_ply": "instances/obj_b7e0494ce9dd/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -1.4201034307479858,
+        -0.8316594362258911,
+        0.12481167912483215
+      ],
+      "max": [
+        -0.5838258266448975,
+        -0.24005191028118134,
+        0.6287593245506287
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "主要层架和可见物料保留；镂空背侧与细杆在原始重建和提取中均存在不足。",
+      "diagnosis": "E",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_b8542dc54ed2",
+    "category_id": "category_04",
+    "name_zh": "多层料架 03",
+    "name_en": "Multi-tier rack 03",
+    "bbox": {
+      "center": [
+        -1.09335139746702,
+        0.7811097555606428,
+        0.34997908869579386
+      ],
+      "size": [
+        0.9431160953511498,
+        0.5657765176745079,
+        0.6209814173121511
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O20",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      -1.09335139746702,
+      0.7811097555606428,
+      0.34997908869579386
+    ],
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 25553,
+    "gaussian_indices": "instances/obj_b8542dc54ed2/gaussian_indices.npy",
+    "instance_ply": "instances/obj_b8542dc54ed2/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -1.5215643644332886,
+        0.49823707342147827,
+        0.045541420578956604
+      ],
+      "max": [
+        -0.623351514339447,
+        1.0614835023880005,
+        0.6598089337348938
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "直接复用v1；层架主体保留，局部细杆及边界仍有漂浮。",
+      "diagnosis": "D",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_7463bab859d0",
+    "category_id": "category_05",
+    "name_zh": "蓝色箱组 03",
+    "name_en": "Blue bin group 03",
+    "bbox": {
+      "center": [
+        1.0412862348546634,
+        6.45491429638748,
+        0.2945728173515998
+      ],
+      "size": [
+        0.66703938376227,
+        0.5523404361430511,
+        0.770622185725514
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O21",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      1.0412862348546634,
+      6.45491429638748,
+      0.2945728173515998
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "partial_usable",
+    "fine_instance_available": true,
+    "gaussian_count": 9278,
+    "gaussian_indices": "instances/obj_7463bab859d0/gaussian_indices.npy",
+    "instance_ply": "instances/obj_7463bab859d0/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        0.9255475997924805,
+        6.310786247253418,
+        -0.06527911126613617
+      ],
+      "max": [
+        1.3747693300247192,
+        6.6948394775390625,
+        0.6418247818946838
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "原始高斯主要表达箱组的部分可见面；提取保留这些结构，不宣称获得完整箱体。",
+      "diagnosis": "A",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_c57876bf22ca",
+    "category_id": "category_06",
+    "name_zh": "立式移动冷风机 03",
+    "name_en": "Portable upright air cooler 03",
+    "bbox": {
+      "center": [
+        1.479074300510917,
+        5.084081200157719,
+        0.16846771091565185
+      ],
+      "size": [
+        0.2450528309004127,
+        0.23325305915396924,
+        0.4372315859776114
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O22",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      1.479074300510917,
+      5.084081200157719,
+      0.16846771091565185
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 7093,
+    "gaussian_indices": "instances/obj_c57876bf22ca/gaussian_indices.npy",
+    "instance_ply": "instances/obj_c57876bf22ca/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        1.359300971031189,
+        5.008289813995361,
+        -0.002725549042224884
+      ],
+      "max": [
+        1.6015957593917847,
+        5.193675518035889,
+        0.38089415431022644
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "直接复用v1；机身格栅有效，原始轮脚与下部模糊。",
+      "diagnosis": "A",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_06d9693cfb0a",
+    "category_id": "category_04",
+    "name_zh": "多层料架 06",
+    "name_en": "Multi-tier rack 06",
+    "bbox": {
+      "center": [
+        1.4605776859764394,
+        4.579562148921754,
+        0.19181749863220474
+      ],
+      "size": [
+        0.2175417200941808,
+        0.6623019829250625,
+        0.46964497082341033
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O23",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      1.4605776859764394,
+      4.579562148921754,
+      0.19181749863220474
+    ],
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 9131,
+    "gaussian_indices": "instances/obj_06d9693cfb0a/gaussian_indices.npy",
+    "instance_ply": "instances/obj_06d9693cfb0a/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        1.352783203125,
+        4.33146858215332,
+        -0.04031548649072647
+      ],
+      "max": [
+        1.5670630931854248,
+        4.902565002441406,
+        0.36638718843460083
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "窄架及蓝箱主体保留，底部有少量地面/漂浮残留。",
+      "diagnosis": "D",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_c7c9293c6c6d",
+    "category_id": "category_08",
+    "name_zh": "分隔式料架 02",
+    "name_en": "Compartment rack 02",
+    "bbox": {
+      "center": [
+        1.9197415735908059,
+        4.644184029649565,
+        0.3342530202778131
+      ],
+      "size": [
+        0.5944764885464938,
+        1.0060694402682788,
+        0.7638748771115469
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O24",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      1.9197415735908059,
+      4.644184029649565,
+      0.3342530202778131
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "partial_usable",
+    "fine_instance_available": true,
+    "gaussian_count": 42391,
+    "gaussian_indices": "instances/obj_c7c9293c6c6d/gaussian_indices.npy",
+    "instance_ply": "instances/obj_c7c9293c6c6d/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        1.6225109100341797,
+        4.151644706726074,
+        0.03067748248577118
+      ],
+      "max": [
+        2.2125778198242188,
+        5.1391191482543945,
+        0.716157853603363
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "分隔式架体轮廓与正面槽位可辨；背面和部分内槽原始重建不足，不能要求恢复不存在的面。",
+      "diagnosis": "A",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_5746b7e7d040",
+    "category_id": "category_08",
+    "name_zh": "分隔式料架 01",
+    "name_en": "Compartment rack 01",
+    "bbox": {
+      "center": [
+        2.026993985374096,
+        3.411873689454221,
+        0.40709851886195747
+      ],
+      "size": [
+        0.7643379100115125,
+        1.4110884644503603,
+        0.8584977381520096
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O25",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      2.026993985374096,
+      3.411873689454221,
+      0.40709851886195747
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "partial_usable",
+    "fine_instance_available": true,
+    "gaussian_count": 47337,
+    "gaussian_indices": "instances/obj_5746b7e7d040/gaussian_indices.npy",
+    "instance_ply": "instances/obj_5746b7e7d040/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        1.6467781066894531,
+        2.7388052940368652,
+        0.047385018318891525
+      ],
+      "max": [
+        2.397383213043213,
+        4.095117092132568,
+        0.7743172645568848
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "两段相连架体和顶部保留；深色槽内及背侧不完整，保留原始局部实例。",
+      "diagnosis": "A",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_933bd7d6e703",
+    "category_id": "category_04",
+    "name_zh": "多层料架 09",
+    "name_en": "Multi-tier rack 09",
+    "bbox": {
+      "center": [
+        -0.481262799826041,
+        6.493820193620918,
+        0.2765759523482957
+      ],
+      "size": [
+        0.6204938811178636,
+        0.501523918236781,
+        0.7481751811560386
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O26",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      -0.481262799826041,
+      6.493820193620918,
+      0.2765759523482957
+    ],
+    "reconstruction_status": "well_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 21457,
+    "gaussian_indices": "instances/obj_933bd7d6e703/gaussian_indices.npy",
+    "instance_ply": "instances/obj_933bd7d6e703/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -0.7914990782737732,
+        6.243438720703125,
+        -0.09136390686035156
+      ],
+      "max": [
+        -0.1714145690202713,
+        6.737206935882568,
+        0.515277624130249
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "架体、平台及黑色物料保留；与料架08重叠部分经统一归属处理，仍可区分两台设备。",
+      "diagnosis": "E",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_4fd05384c476",
+    "category_id": "category_01",
+    "name_zh": "物料车 06",
+    "name_en": "Material cart 06",
+    "bbox": {
+      "center": [
+        -1.1317571196223535,
+        5.49751446726379,
+        0.3017582031813671
+      ],
+      "size": [
+        0.8668250484399223,
+        0.5580783456992681,
+        0.7573614198226924
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O27",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      -1.1317571196223535,
+      5.49751446726379,
+      0.3017582031813671
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 23434,
+    "gaussian_indices": "instances/obj_4fd05384c476/gaussian_indices.npy",
+    "instance_ply": "instances/obj_4fd05384c476/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -1.4678229093551636,
+        5.249765872955322,
+        -0.06271634250879288
+      ],
+      "max": [
+        -0.7103850245475769,
+        5.775665760040283,
+        0.5314118266105652
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "车体框架及已重建箱面保留；遮挡背面在原始场景中存在模糊。",
+      "diagnosis": "A",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_dee5bef52687",
+    "category_id": "category_04",
+    "name_zh": "多层料架 07",
+    "name_en": "Multi-tier rack 07",
+    "bbox": {
+      "center": [
+        -1.143130336736354,
+        4.863824997476845,
+        0.2898782606941221
+      ],
+      "size": [
+        1.1000470986722959,
+        0.6816718449007273,
+        0.7064471723375997
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O28",
+    "geometry_source": "M0 r29",
+    "segmentation_available": false,
+    "industrial_position": [
+      -1.143130336736354,
+      4.863824997476845,
+      0.2898782606941221
+    ],
+    "reconstruction_status": "uncertain",
+    "extraction_status": "needs_improvement",
+    "fine_instance_available": false,
+    "gaussian_count": 30386,
+    "gaussian_indices": "instances/obj_dee5bef52687/gaussian_indices.npy",
+    "instance_ply": "instances/obj_dee5bef52687/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -1.6474641561508179,
+        4.620594024658203,
+        -0.061727359890937805
+      ],
+      "max": [
+        -0.6026081442832947,
+        5.203959941864014,
+        0.630002498626709
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "粗框内包含台面、立式面板、小架及邻近结构，现有视角难以可靠核定M0设备边界；提取仍混杂。保留身份和诊断，不作为常规精细实例。",
+      "diagnosis": "E",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_3efbeb5e8179",
+    "category_id": "category_01",
+    "name_zh": "物料车 05",
+    "name_en": "Material cart 05",
+    "bbox": {
+      "center": [
+        -1.0441140005146106,
+        3.9834423038783635,
+        0.2640952951314075
+      ],
+      "size": [
+        0.9545608106173601,
+        0.5824630648220313,
+        0.6074605321167859
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O29",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      -1.0441140005146106,
+      3.9834423038783635,
+      0.2640952951314075
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 21684,
+    "gaussian_indices": "instances/obj_3efbeb5e8179/gaussian_indices.npy",
+    "instance_ply": "instances/obj_3efbeb5e8179/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -1.4774913787841797,
+        3.751831531524658,
+        0.0018320942763239145
+      ],
+      "max": [
+        -0.6891859173774719,
+        4.253425598144531,
+        0.5678147673606873
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "主要车架及箱体范围保留，布罩和背侧原始重建欠完整。",
+      "diagnosis": "A",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_7047e5f33259",
+    "category_id": "category_01",
+    "name_zh": "物料车 04",
+    "name_en": "Material cart 04",
+    "bbox": {
+      "center": [
+        -1.1575430504786524,
+        3.1437380978969944,
+        0.3426079996656776
+      ],
+      "size": [
+        1.085019163303957,
+        0.5513576710625292,
+        0.7237675549534278
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O30",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      -1.1575430504786524,
+      3.1437380978969944,
+      0.3426079996656776
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "partial_usable",
+    "fine_instance_available": true,
+    "gaussian_count": 12071,
+    "gaussian_indices": "instances/obj_7047e5f33259/gaussian_indices.npy",
+    "instance_ply": "instances/obj_7047e5f33259/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -1.5848602056503296,
+        2.868790864944458,
+        0.0024059521965682507
+      ],
+      "max": [
+        -0.6333478689193726,
+        3.337489366531372,
+        0.6705709099769592
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "原生场景中只有展开箱面及底部局部结构，提取保留该实际形态；不补造不可见侧面。",
+      "diagnosis": "A",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_df0a6cc33263",
+    "category_id": "category_07",
+    "name_zh": "工作台 02",
+    "name_en": "Workbench 02",
+    "bbox": {
+      "center": [
+        -0.9306035899893904,
+        2.6645830046741574,
+        0.39714053082068446
+      ],
+      "size": [
+        0.50530424729963,
+        0.4578968766279694,
+        0.8024120554494734
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O31",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      -0.9306035899893904,
+      2.6645830046741574,
+      0.39714053082068446
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "partial_usable",
+    "fine_instance_available": true,
+    "gaussian_count": 14362,
+    "gaussian_indices": "instances/obj_df0a6cc33263/gaussian_indices.npy",
+    "instance_ply": "instances/obj_df0a6cc33263/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -1.0265761613845825,
+        2.4547688961029053,
+        0.23373469710350037
+      ],
+      "max": [
+        -0.6780821681022644,
+        2.8819735050201416,
+        0.7973663210868835
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "已有面板和台面可辨，腿部、背面缺失较多；原始欠重建与亲和筛选共同影响，查询显示局部结果。",
+      "diagnosis": "E",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_c0162cd69680",
+    "category_id": "category_01",
+    "name_zh": "物料车 02",
+    "name_en": "Material cart 02",
+    "bbox": {
+      "center": [
+        -0.9784095993621313,
+        2.048337585840815,
+        0.324269511019875
+      ],
+      "size": [
+        0.7740350590973742,
+        0.6907989079671565,
+        0.6335431130270219
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O32",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      -0.9784095993621313,
+      2.048337585840815,
+      0.324269511019875
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 10889,
+    "gaussian_indices": "instances/obj_c0162cd69680/gaussian_indices.npy",
+    "instance_ply": "instances/obj_c0162cd69680/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -1.3262864351272583,
+        1.7042566537857056,
+        0.044751401990652084
+      ],
+      "max": [
+        -0.6817615628242493,
+        2.3754308223724365,
+        0.5222088694572449
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "箱体和布罩主体保留；原始视角截断、背面模糊及边缘漂浮仍可见。",
+      "diagnosis": "A",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  },
+  {
+    "object_id": "obj_57b0f30bdd9e",
+    "category_id": "category_01",
+    "name_zh": "物料车 01",
+    "name_en": "Material cart 01",
+    "bbox": {
+      "center": [
+        -1.0354247188939238,
+        1.3890677385733508,
+        0.33388672805354636
+      ],
+      "size": [
+        0.640952557166137,
+        0.5913993872608642,
+        0.6176697099074393
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "display_id": "O33",
+    "geometry_source": "M0 r29",
+    "segmentation_available": true,
+    "industrial_position": [
+      -1.0354247188939238,
+      1.3890677385733508,
+      0.33388672805354636
+    ],
+    "reconstruction_status": "partially_reconstructed",
+    "extraction_status": "usable",
+    "fine_instance_available": true,
+    "gaussian_count": 6409,
+    "gaussian_indices": "instances/obj_57b0f30bdd9e/gaussian_indices.npy",
+    "instance_ply": "instances/obj_57b0f30bdd9e/object.ply",
+    "effective_instance_bounds": {
+      "min": [
+        -1.2748231887817383,
+        1.1560397148132324,
+        0.14360235631465912
+      ],
+      "max": [
+        -0.8388909101486206,
+        1.6147384643554688,
+        0.6188256144523621
+      ],
+      "used_for_relations": false
+    },
+    "quality_record": {
+      "note_zh": "直接复用v1；箱体及蓝色内部主体保留，顶部和背侧仍有原始漂浮。",
+      "diagnosis": "A",
+      "reviewer": "Codex visual inspection"
+    },
+    "m0_annotation_state": "draft; frozen r29; not changed"
+  }
+]

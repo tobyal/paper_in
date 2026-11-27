@@ -1,0 +1,443 @@
+[
+  {
+    "group": "F01",
+    "name": "original.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/evaluation/pseudo_ground_truth/Q006/frame_000321/original_rgb.png",
+    "destination": "method_figure_assets/F01/original.png",
+    "sha256": "073a142611296bb3f53d6498fd5ecf404d5dc450b2b4c521e3d4a38bb5cf17bf"
+  },
+  {
+    "group": "F01",
+    "name": "category_query.jpg",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E02_ablation/predictions/no_relation/Q006/frame_000321/overlay.jpg",
+    "destination": "method_figure_assets/F01/category_query.jpg",
+    "sha256": "3c46fc9b0a9d5bf15ce820879f815abba88252f3087816ea3df6cdbfab0c581c"
+  },
+  {
+    "group": "F01",
+    "name": "lang_relation.jpg",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/langsplat/Q006/frame_000321/overlay.jpg",
+    "destination": "method_figure_assets/F01/lang_relation.jpg",
+    "sha256": "0b6cf8e33e2a74fe187b4074849476faaf9f0a4b25d3a4c2d886abe841a1ac62"
+  },
+  {
+    "group": "F01",
+    "name": "ours_relation.jpg",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/ours/Q006/frame_000321/overlay.jpg",
+    "destination": "method_figure_assets/F01/ours_relation.jpg",
+    "sha256": "8e14f8ec546cd3bb50a0250907c1ac7bf1c7e079de9ba99621df8a6fd7d1d1d1"
+  },
+  {
+    "group": "F01",
+    "name": "instance.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E05_multiview_application/multiview/Q006/oblique/isolated.png",
+    "destination": "method_figure_assets/F01/instance.png",
+    "sha256": "268d763cfa2405d57b3a24151147a17322f59abcaee80e7b3fdd019cea203303"
+  },
+  {
+    "group": "F02",
+    "name": "original_crop.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/original_crop.png",
+    "destination": "method_figure_assets/F02/original_crop.png",
+    "sha256": "51f5c1ed9107ea99f8d49e11c400d2f07e0543b373944259c1b44c1a7b14eb0b"
+  },
+  {
+    "group": "F02",
+    "name": "coarse_oblique.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/coarse_oblique.png",
+    "destination": "method_figure_assets/F02/coarse_oblique.png",
+    "sha256": "ce58ec2c46ebf930ff273e6fbaad6ee9587bd4ee689bff22b515d46ff2d99dab"
+  },
+  {
+    "group": "F02",
+    "name": "affinity_oblique.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/affinity_oblique.png",
+    "destination": "method_figure_assets/F02/affinity_oblique.png",
+    "sha256": "8904a8365b6880d5c4b54e94c891122cf2cf1b6ae83e5177f39f7f1d56b06b00"
+  },
+  {
+    "group": "F02",
+    "name": "threshold_oblique.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/threshold_oblique.png",
+    "destination": "method_figure_assets/F02/threshold_oblique.png",
+    "sha256": "effd8b243112037daea5956353de5eb0ff885022d2da76dd721c911c60f451c4"
+  },
+  {
+    "group": "F02",
+    "name": "refined_oblique.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/refined_oblique.png",
+    "destination": "method_figure_assets/F02/refined_oblique.png",
+    "sha256": "effd8b243112037daea5956353de5eb0ff885022d2da76dd721c911c60f451c4"
+  },
+  {
+    "group": "F02",
+    "name": "refined_side.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/refined_side.png",
+    "destination": "method_figure_assets/F02/refined_side.png",
+    "sha256": "02ae452b77d1fe6d7fe79aa80df3ec7016bb372413af900874a1f10e6ad92767"
+  },
+  {
+    "group": "F02",
+    "name": "prompt.json",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompt.json",
+    "destination": "method_figure_assets/F02/prompt.json",
+    "sha256": "13aeb15d655b78061d040a32859abaaa9cb0a6fc056ec0adeb8a7e2e99e4b382"
+  },
+  {
+    "group": "F02",
+    "name": "provenance.json",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/provenance.json",
+    "destination": "method_figure_assets/F02/provenance.json",
+    "sha256": "894a30c68cf093e64582ac92e450f97ffae2e3846b24218e87cd5e72a9dbcff5"
+  },
+  {
+    "group": "F02",
+    "name": "prompts/00/rgb.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/00/rgb.png",
+    "destination": "method_figure_assets/F02/prompts/00/rgb.png",
+    "sha256": "8bff2d87e6d15962871500ee40ee6844e076b2a8591a7e25cc443edf7c129b3c"
+  },
+  {
+    "group": "F02",
+    "name": "prompts/00/camera_and_points.json",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/00/camera_and_points.json",
+    "destination": "method_figure_assets/F02/prompts/00/camera_and_points.json",
+    "sha256": "679686dca30ee5d2322eeaa4d83abf03ee599408ea28a25dcb7a1bc6c364c621"
+  },
+  {
+    "group": "F02",
+    "name": "prompts/00/overlay.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/00/overlay.png",
+    "destination": "method_figure_assets/F02/prompts/00/overlay.png",
+    "sha256": "b06e41b19e85ce901e9f6059a1c3b7feb4901e778dbdc1b3225eb8c07ba157bb"
+  },
+  {
+    "group": "F02",
+    "name": "prompts/00/crop.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/00/crop.png",
+    "destination": "method_figure_assets/F02/prompts/00/crop.png",
+    "sha256": "7359ff19c4e625269b61a7d306270c92b0cc2d044b9acc84c1e14bbf1db454aa"
+  },
+  {
+    "group": "F02",
+    "name": "prompts/00/mask.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/00/mask.png",
+    "destination": "method_figure_assets/F02/prompts/00/mask.png",
+    "sha256": "a21788149209922fe1205f11273e5431c17bc9b5a78142f7424114a50ec4b194"
+  },
+  {
+    "group": "F02",
+    "name": "prompts/01/rgb.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/01/rgb.png",
+    "destination": "method_figure_assets/F02/prompts/01/rgb.png",
+    "sha256": "c7cd9ed2d5a5c45d58661982d526db16e972fc3854a6f50e0dc0cb0c3ce16082"
+  },
+  {
+    "group": "F02",
+    "name": "prompts/01/camera_and_points.json",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/01/camera_and_points.json",
+    "destination": "method_figure_assets/F02/prompts/01/camera_and_points.json",
+    "sha256": "75ee04590d61ba4ab48a4718a94a3a18edd5320e68fd3876b067f4cf6cc3038f"
+  },
+  {
+    "group": "F02",
+    "name": "prompts/01/overlay.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/01/overlay.png",
+    "destination": "method_figure_assets/F02/prompts/01/overlay.png",
+    "sha256": "07855cc1f68b0d7391aa7efc4ed24f3762b92e8ffda0ba6ffe1b99be5249d353"
+  },
+  {
+    "group": "F02",
+    "name": "prompts/01/crop.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/01/crop.png",
+    "destination": "method_figure_assets/F02/prompts/01/crop.png",
+    "sha256": "f48b6267f97bbed4cf05804fdf2fea7b09a0001065ed5b5e7f616984e815ad5e"
+  },
+  {
+    "group": "F02",
+    "name": "prompts/01/mask.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/01/mask.png",
+    "destination": "method_figure_assets/F02/prompts/01/mask.png",
+    "sha256": "96bb4b8d77e07b6a1d2d8678e6a55384b759d2f7dc97c3fdf1b76629fec5e441"
+  },
+  {
+    "group": "F02",
+    "name": "prompts/02/rgb.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/02/rgb.png",
+    "destination": "method_figure_assets/F02/prompts/02/rgb.png",
+    "sha256": "1d233d46ac7d9552a83d2664587df6e3b7725c127aff904cf23c2caeaca8016f"
+  },
+  {
+    "group": "F02",
+    "name": "prompts/02/camera_and_points.json",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/02/camera_and_points.json",
+    "destination": "method_figure_assets/F02/prompts/02/camera_and_points.json",
+    "sha256": "984d110b9030081e8c4d1a49385b391dd4d3892f57d58034c7b4b9289cab1be5"
+  },
+  {
+    "group": "F02",
+    "name": "prompts/02/overlay.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/02/overlay.png",
+    "destination": "method_figure_assets/F02/prompts/02/overlay.png",
+    "sha256": "118f4ac1fe931a9dba3fd7db870f5cf21c75c011b8a130c217ee2d20ebdb0c28"
+  },
+  {
+    "group": "F02",
+    "name": "prompts/02/crop.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/02/crop.png",
+    "destination": "method_figure_assets/F02/prompts/02/crop.png",
+    "sha256": "32480e60563d75b36eb249a40da8d2188f452c8dd7372e25cc20879778030607"
+  },
+  {
+    "group": "F02",
+    "name": "prompts/02/mask.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/02/mask.png",
+    "destination": "method_figure_assets/F02/prompts/02/mask.png",
+    "sha256": "34b656106ab58c8e88a2ea8d0284872bfa51bf6ac77f3209f875641c54badd88"
+  },
+  {
+    "group": "F03",
+    "name": "original_crop.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/original_crop.png",
+    "destination": "method_figure_assets/F03/original_crop.png",
+    "sha256": "51f5c1ed9107ea99f8d49e11c400d2f07e0543b373944259c1b44c1a7b14eb0b"
+  },
+  {
+    "group": "F03",
+    "name": "coarse_oblique.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/coarse_oblique.png",
+    "destination": "method_figure_assets/F03/coarse_oblique.png",
+    "sha256": "ce58ec2c46ebf930ff273e6fbaad6ee9587bd4ee689bff22b515d46ff2d99dab"
+  },
+  {
+    "group": "F03",
+    "name": "affinity_oblique.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/affinity_oblique.png",
+    "destination": "method_figure_assets/F03/affinity_oblique.png",
+    "sha256": "8904a8365b6880d5c4b54e94c891122cf2cf1b6ae83e5177f39f7f1d56b06b00"
+  },
+  {
+    "group": "F03",
+    "name": "threshold_oblique.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/threshold_oblique.png",
+    "destination": "method_figure_assets/F03/threshold_oblique.png",
+    "sha256": "effd8b243112037daea5956353de5eb0ff885022d2da76dd721c911c60f451c4"
+  },
+  {
+    "group": "F03",
+    "name": "refined_oblique.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/refined_oblique.png",
+    "destination": "method_figure_assets/F03/refined_oblique.png",
+    "sha256": "effd8b243112037daea5956353de5eb0ff885022d2da76dd721c911c60f451c4"
+  },
+  {
+    "group": "F03",
+    "name": "refined_side.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/refined_side.png",
+    "destination": "method_figure_assets/F03/refined_side.png",
+    "sha256": "02ae452b77d1fe6d7fe79aa80df3ec7016bb372413af900874a1f10e6ad92767"
+  },
+  {
+    "group": "F03",
+    "name": "prompt.json",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompt.json",
+    "destination": "method_figure_assets/F03/prompt.json",
+    "sha256": "13aeb15d655b78061d040a32859abaaa9cb0a6fc056ec0adeb8a7e2e99e4b382"
+  },
+  {
+    "group": "F03",
+    "name": "provenance.json",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/provenance.json",
+    "destination": "method_figure_assets/F03/provenance.json",
+    "sha256": "894a30c68cf093e64582ac92e450f97ffae2e3846b24218e87cd5e72a9dbcff5"
+  },
+  {
+    "group": "F03",
+    "name": "prompts/00/rgb.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/00/rgb.png",
+    "destination": "method_figure_assets/F03/prompts/00/rgb.png",
+    "sha256": "8bff2d87e6d15962871500ee40ee6844e076b2a8591a7e25cc443edf7c129b3c"
+  },
+  {
+    "group": "F03",
+    "name": "prompts/00/camera_and_points.json",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/00/camera_and_points.json",
+    "destination": "method_figure_assets/F03/prompts/00/camera_and_points.json",
+    "sha256": "679686dca30ee5d2322eeaa4d83abf03ee599408ea28a25dcb7a1bc6c364c621"
+  },
+  {
+    "group": "F03",
+    "name": "prompts/00/overlay.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/00/overlay.png",
+    "destination": "method_figure_assets/F03/prompts/00/overlay.png",
+    "sha256": "b06e41b19e85ce901e9f6059a1c3b7feb4901e778dbdc1b3225eb8c07ba157bb"
+  },
+  {
+    "group": "F03",
+    "name": "prompts/00/crop.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/00/crop.png",
+    "destination": "method_figure_assets/F03/prompts/00/crop.png",
+    "sha256": "7359ff19c4e625269b61a7d306270c92b0cc2d044b9acc84c1e14bbf1db454aa"
+  },
+  {
+    "group": "F03",
+    "name": "prompts/00/mask.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/00/mask.png",
+    "destination": "method_figure_assets/F03/prompts/00/mask.png",
+    "sha256": "a21788149209922fe1205f11273e5431c17bc9b5a78142f7424114a50ec4b194"
+  },
+  {
+    "group": "F03",
+    "name": "prompts/01/rgb.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/01/rgb.png",
+    "destination": "method_figure_assets/F03/prompts/01/rgb.png",
+    "sha256": "c7cd9ed2d5a5c45d58661982d526db16e972fc3854a6f50e0dc0cb0c3ce16082"
+  },
+  {
+    "group": "F03",
+    "name": "prompts/01/camera_and_points.json",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/01/camera_and_points.json",
+    "destination": "method_figure_assets/F03/prompts/01/camera_and_points.json",
+    "sha256": "75ee04590d61ba4ab48a4718a94a3a18edd5320e68fd3876b067f4cf6cc3038f"
+  },
+  {
+    "group": "F03",
+    "name": "prompts/01/overlay.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/01/overlay.png",
+    "destination": "method_figure_assets/F03/prompts/01/overlay.png",
+    "sha256": "07855cc1f68b0d7391aa7efc4ed24f3762b92e8ffda0ba6ffe1b99be5249d353"
+  },
+  {
+    "group": "F03",
+    "name": "prompts/01/crop.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/01/crop.png",
+    "destination": "method_figure_assets/F03/prompts/01/crop.png",
+    "sha256": "f48b6267f97bbed4cf05804fdf2fea7b09a0001065ed5b5e7f616984e815ad5e"
+  },
+  {
+    "group": "F03",
+    "name": "prompts/01/mask.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/01/mask.png",
+    "destination": "method_figure_assets/F03/prompts/01/mask.png",
+    "sha256": "96bb4b8d77e07b6a1d2d8678e6a55384b759d2f7dc97c3fdf1b76629fec5e441"
+  },
+  {
+    "group": "F03",
+    "name": "prompts/02/rgb.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/02/rgb.png",
+    "destination": "method_figure_assets/F03/prompts/02/rgb.png",
+    "sha256": "1d233d46ac7d9552a83d2664587df6e3b7725c127aff904cf23c2caeaca8016f"
+  },
+  {
+    "group": "F03",
+    "name": "prompts/02/camera_and_points.json",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/02/camera_and_points.json",
+    "destination": "method_figure_assets/F03/prompts/02/camera_and_points.json",
+    "sha256": "984d110b9030081e8c4d1a49385b391dd4d3892f57d58034c7b4b9289cab1be5"
+  },
+  {
+    "group": "F03",
+    "name": "prompts/02/overlay.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/02/overlay.png",
+    "destination": "method_figure_assets/F03/prompts/02/overlay.png",
+    "sha256": "118f4ac1fe931a9dba3fd7db870f5cf21c75c011b8a130c217ee2d20ebdb0c28"
+  },
+  {
+    "group": "F03",
+    "name": "prompts/02/crop.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/02/crop.png",
+    "destination": "method_figure_assets/F03/prompts/02/crop.png",
+    "sha256": "32480e60563d75b36eb249a40da8d2188f452c8dd7372e25cc20879778030607"
+  },
+  {
+    "group": "F03",
+    "name": "prompts/02/mask.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/prompts/02/mask.png",
+    "destination": "method_figure_assets/F03/prompts/02/mask.png",
+    "sha256": "34b656106ab58c8e88a2ea8d0284872bfa51bf6ac77f3209f875641c54badd88"
+  },
+  {
+    "group": "F02",
+    "name": "categories.json",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/world_model/categories.json",
+    "destination": "method_figure_assets/F02/categories.json",
+    "sha256": "aca2b9c72c30eb20ee8a9d4a2e2400948512c3bff29ccbb984889276d409f83c"
+  },
+  {
+    "group": "F02",
+    "name": "scene_graph.json",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/world_model/scene_graph.json",
+    "destination": "method_figure_assets/F02/scene_graph.json",
+    "sha256": "6f1a2943ddaf61a8f69127351954001c30b21be84b34e0a7a4bd808fca94b342"
+  },
+  {
+    "group": "F02",
+    "name": "scene.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E04_relation_retrieval/scene/frame_000329_native.png",
+    "destination": "method_figure_assets/F02/scene.png",
+    "sha256": "7dea18d16bfd7ced79c37ec2f347318641e9381617731d153ed6b30d879a1eb6"
+  },
+  {
+    "group": "F02",
+    "name": "category_features.npz",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/world_model/category_features.npz",
+    "destination": "method_figure_assets/F02/category_features.npz",
+    "sha256": "dce89c6b25a5e760b40e0597fff28fdfb620bc0913d103e5e35f971d8f2cfded"
+  },
+  {
+    "group": "F03",
+    "name": "O01_shared_feature_instance.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_8429bc5f3c33/refined_oblique.png",
+    "destination": "method_figure_assets/F03/O01_shared_feature_instance.png",
+    "sha256": "f5ce040d3d21cff0182ade3e2fe6c6dd70d39430e24eeae413dfd3df30534310"
+  },
+  {
+    "group": "F03",
+    "name": "O01_provenance.json",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_8429bc5f3c33/provenance.json",
+    "destination": "method_figure_assets/F03/O01_provenance.json",
+    "sha256": "3df3f44a9a3bcf69d51ccda1fcee93c4d0e615af45c933e39ce1e09901e4f5ef"
+  },
+  {
+    "group": "F03",
+    "name": "O09_shared_feature_instance.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_aad6e7f85a9a/refined_oblique.png",
+    "destination": "method_figure_assets/F03/O09_shared_feature_instance.png",
+    "sha256": "ccf68a6434fb26a82c14eb19d544f95fa073b424122059716d3132abf2244e7c"
+  },
+  {
+    "group": "F03",
+    "name": "O09_provenance.json",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_aad6e7f85a9a/provenance.json",
+    "destination": "method_figure_assets/F03/O09_provenance.json",
+    "sha256": "323331b6492e11b6d499966316d9a0ea67f6e731a9e714e493a63830716c9e12"
+  },
+  {
+    "group": "F03",
+    "name": "O07_shared_feature_instance.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/refined_oblique.png",
+    "destination": "method_figure_assets/F03/O07_shared_feature_instance.png",
+    "sha256": "effd8b243112037daea5956353de5eb0ff885022d2da76dd721c911c60f451c4"
+  },
+  {
+    "group": "F03",
+    "name": "O07_provenance.json",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_f9a0e863e32d/provenance.json",
+    "destination": "method_figure_assets/F03/O07_provenance.json",
+    "sha256": "894a30c68cf093e64582ac92e450f97ffae2e3846b24218e87cd5e72a9dbcff5"
+  },
+  {
+    "group": "F03",
+    "name": "O24_shared_feature_instance.png",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_c7c9293c6c6d/refined_oblique.png",
+    "destination": "method_figure_assets/F03/O24_shared_feature_instance.png",
+    "sha256": "a1782480cd0aa4cc63d72fae2ae7608300b455132e75a906631f7d29b318f656"
+  },
+  {
+    "group": "F03",
+    "name": "O24_provenance.json",
+    "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E03_entity_construction/objects/obj_c7c9293c6c6d/provenance.json",
+    "destination": "method_figure_assets/F03/O24_provenance.json",
+    "sha256": "5f073924e4246ff60039f043eebc459f5fa9185a2ad9123c4fb68810cca32cb1"
+  }
+]

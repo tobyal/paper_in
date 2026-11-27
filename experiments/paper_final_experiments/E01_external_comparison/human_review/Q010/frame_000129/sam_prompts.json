@@ -1,0 +1,157 @@
+[
+  {
+    "task_id": "T026",
+    "object_id": "obj_141f3e5dbe3a",
+    "name": "Blue bin group 01",
+    "camera_id": "frame_000129",
+    "status": "unreliable",
+    "visible": true,
+    "quality": "unreliable",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review2",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.7776587009429932,
+    "mask_pixels": 2334,
+    "note": "Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.",
+    "prompt": {
+      "box": [
+        833,
+        125,
+        937,
+        181
+      ],
+      "points": [
+        [
+          870,
+          137
+        ],
+        [
+          911,
+          165
+        ],
+        [
+          851,
+          168
+        ],
+        [
+          922,
+          126
+        ],
+        [
+          866,
+          154
+        ],
+        [
+          818,
+          163
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T026/review2/record.json"
+  },
+  {
+    "task_id": "T027",
+    "object_id": "obj_3c963764ddb5",
+    "name": "Blue bin group 02",
+    "camera_id": "frame_000129",
+    "status": "unreliable",
+    "visible": true,
+    "quality": "unreliable",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review2",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.8558815717697144,
+    "mask_pixels": 16903,
+    "note": "Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points.",
+    "prompt": {
+      "box": [
+        130,
+        146,
+        414,
+        278
+      ],
+      "points": [
+        [
+          157,
+          173
+        ],
+        [
+          155,
+          200
+        ],
+        [
+          252,
+          199
+        ],
+        [
+          307,
+          231
+        ],
+        [
+          354,
+          176
+        ],
+        [
+          315,
+          188
+        ],
+        [
+          350,
+          251
+        ],
+        [
+          382,
+          223
+        ],
+        [
+          194,
+          311
+        ],
+        [
+          183,
+          257
+        ],
+        [
+          267,
+          285
+        ],
+        [
+          400,
+          289
+        ],
+        [
+          290,
+          135
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T027/review2/record.json"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "method": "langsplat",
+    "relation": "left_of",
+    "valid_queries": 4,
+    "valid_views": 8,
+    "iou": 0.2435476170897472,
+    "precision": 0.2803758906879066,
+    "recall": 0.3201494094439847
+  },
+  {
+    "method": "langsplat",
+    "relation": "right_of",
+    "valid_queries": 5,
+    "valid_views": 8,
+    "iou": 0.19610582593122536,
+    "precision": 0.29221274711011136,
+    "recall": 0.5023390508138145
+  },
+  {
+    "method": "langsplat",
+    "relation": "in_front_of",
+    "valid_queries": 5,
+    "valid_views": 10,
+    "iou": 0.18373038741716616,
+    "precision": 0.2160560558448911,
+    "recall": 0.34032543248734637
+  },
+  {
+    "method": "langsplat",
+    "relation": "behind",
+    "valid_queries": 5,
+    "valid_views": 10,
+    "iou": 0.2321515068449142,
+    "precision": 0.3785644202712892,
+    "recall": 0.2739266210033245
+  },
+  {
+    "method": "langsplat",
+    "relation": "near",
+    "valid_queries": 4,
+    "valid_views": 8,
+    "iou": 0.19144713823782494,
+    "precision": 0.2944734249704159,
+    "recall": 0.37253104158818995
+  },
+  {
+    "method": "thgs",
+    "relation": "left_of",
+    "valid_queries": 4,
+    "valid_views": 8,
+    "iou": 0.20316487857499052,
+    "precision": 0.20559439223558817,
+    "recall": 0.2460244843452793
+  },
+  {
+    "method": "thgs",
+    "relation": "right_of",
+    "valid_queries": 5,
+    "valid_views": 8,
+    "iou": 0.12541715640876805,
+    "precision": 0.3083683684929496,
+    "recall": 0.15563979310938036
+  },
+  {
+    "method": "thgs",
+    "relation": "in_front_of",
+    "valid_queries": 5,
+    "valid_views": 10,
+    "iou": 2.1490933512424445e-05,
+    "precision": 3.048780487804878e-05,
+    "recall": 7.277358318930229e-05
+  },
+  {
+    "method": "thgs",
+    "relation": "behind",
+    "valid_queries": 5,
+    "valid_views": 10,
+    "iou": 0.11132504520398882,
+    "precision": 0.18930759527644817,
+    "recall": 0.11493774749160542
+  },
+  {
+    "method": "thgs",
+    "relation": "near",
+    "valid_queries": 4,
+    "valid_views": 8,
+    "iou": 0.0,
+    "precision": 0.0,
+    "recall": 0.0
+  },
+  {
+    "method": "relags",
+    "relation": "left_of",
+    "valid_queries": 4,
+    "valid_views": 8,
+    "iou": 0.0035768483676706935,
+    "precision": 0.08709947216838049,
+    "recall": 0.003650305830480522
+  },
+  {
+    "method": "relags",
+    "relation": "right_of",
+    "valid_queries": 5,
+    "valid_views": 8,
+    "iou": 0.000819426531025023,
+    "precision": 0.21439060205580027,
+    "recall": 0.0008222115841222361
+  },
+  {
+    "method": "relags",
+    "relation": "in_front_of",
+    "valid_queries": 5,
+    "valid_views": 10,
+    "iou": 0.0,
+    "precision": 0.0,
+    "recall": 0.0
+  },
+  {
+    "method": "relags",
+    "relation": "behind",
+    "valid_queries": 5,
+    "valid_views": 10,
+    "iou": 0.012282924401973743,
+    "precision": 0.22205559422534132,
+    "recall": 0.012436587028054384
+  },
+  {
+    "method": "relags",
+    "relation": "near",
+    "valid_queries": 4,
+    "valid_views": 8,
+    "iou": 0.0,
+    "precision": 0.0,
+    "recall": 0.0
+  },
+  {
+    "method": "ours",
+    "relation": "left_of",
+    "valid_queries": 4,
+    "valid_views": 8,
+    "iou": 0.6591359157914607,
+    "precision": 0.8585613810193351,
+    "recall": 0.7255068444469881
+  },
+  {
+    "method": "ours",
+    "relation": "right_of",
+    "valid_queries": 5,
+    "valid_views": 8,
+    "iou": 0.6461275681732925,
+    "precision": 0.8939041510600741,
+    "recall": 0.7259646458111623
+  },
+  {
+    "method": "ours",
+    "relation": "in_front_of",
+    "valid_queries": 5,
+    "valid_views": 10,
+    "iou": 0.7056949834550086,
+    "precision": 0.8956540624182534,
+    "recall": 0.7622440387474917
+  },
+  {
+    "method": "ours",
+    "relation": "behind",
+    "valid_queries": 5,
+    "valid_views": 10,
+    "iou": 0.49135470754587435,
+    "precision": 0.6863949784117984,
+    "recall": 0.5474861420909444
+  },
+  {
+    "method": "ours",
+    "relation": "near",
+    "valid_queries": 4,
+    "valid_views": 8,
+    "iou": 0.699358241897094,
+    "precision": 0.8955661114051223,
+    "recall": 0.7667574225209702
+  }
+]

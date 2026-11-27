@@ -1,0 +1,105 @@
+{
+  "image_id": "virtual_guided_obj_c7c9293c6c6d_008",
+  "pixels_xy": [
+    [
+      643,
+      289
+    ],
+    [
+      343,
+      459
+    ],
+    [
+      345,
+      243
+    ],
+    [
+      681,
+      419
+    ],
+    [
+      468,
+      489
+    ],
+    [
+      333,
+      287
+    ],
+    [
+      607,
+      275
+    ]
+  ],
+  "source_type": "camera_guided_virtual",
+  "in_affinity_training": false,
+  "camera": {
+    "width": 960,
+    "height": 720,
+    "K": [
+      [
+        697.8987603305724,
+        0.0,
+        479.5
+      ],
+      [
+        0.0,
+        697.8987603305724,
+        359.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_to_camera_R": [
+      [
+        -0.07619232081423152,
+        0.3075617434619669,
+        -0.9484727218877097
+      ],
+      [
+        -0.5313553945574806,
+        0.7923896452444199,
+        0.29963322543372517
+      ],
+      [
+        0.8437156809335115,
+        0.5268058479433103,
+        0.10305058628827883
+      ]
+    ],
+    "world_to_camera_t": [
+      1.5683666929555022,
+      0.28925576351682236,
+      -0.39266710624490175
+    ],
+    "center": [
+      0.6044945139695989,
+      -0.5047135388426893,
+      1.4413469628736673
+    ],
+    "industrial_eye": [
+      0.8607958425414817,
+      4.75805842714524,
+      1.070846992757984
+    ],
+    "horizontal_fov_degrees": 69.03874050247948,
+    "image_id": "virtual_guided_obj_c7c9293c6c6d_008",
+    "source_type": "camera_guided_virtual",
+    "parent_image_id": "frame_000287",
+    "generation": {
+      "method": "Original camera position retargeted and adaptively reframed",
+      "industrial_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "split": "train",
+    "filename": "virtual_guided_obj_c7c9293c6c6d_008.png",
+    "sha256": "3491c0c67629c15e5cce99c06a485a4bdbe1803491868b3cd14c054a880b6e8a",
+    "rgb_path": "observations/virtual_guided_obj_c7c9293c6c6d_008/rgb.png"
+  },
+  "mask_source": "outputs/A/reference_prompts/obj_c7c9293c6c6d/virtual_guided_obj_c7c9293c6c6d_008/mask.png"
+}

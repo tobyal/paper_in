@@ -17,6 +17,7 @@ $PY scripts/run_stage.py SAM_supplement $PY scripts/sam_supplement.py
 $PY scripts/run_stage.py evaluate $PY scripts/evaluate.py
 $PY scripts/run_stage.py E03 $PY scripts/export_entities.py
 $PY scripts/run_stage.py E04_E05 $PY scripts/export_applications.py
+$PY scripts/run_stage.py nearest_display $PY scripts/refine_nearest_display.py
 $PY scripts/run_stage.py E06 $PY scripts/efficiency.py
 $PY scripts/run_stage.py figures $PY scripts/plot_figures.py
 $PY scripts/run_stage.py publish $PY scripts/publish.py

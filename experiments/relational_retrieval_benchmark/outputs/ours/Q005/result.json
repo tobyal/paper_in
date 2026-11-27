@@ -1,0 +1,84 @@
+{
+  "query": {
+    "query_id": "Q005",
+    "subject_category": "multi-tier material rack",
+    "subject_category_id": "category_04",
+    "predicate": "left of",
+    "predicate_ours": "left_of",
+    "predicate_relags": "left",
+    "object_category": "assembly fixture table",
+    "object_category_id": "category_02",
+    "query_en": "multi-tier material rack to the left of the assembly fixture table",
+    "query_zh": "位于装配夹具台左侧的多层料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000217",
+      "frame_000065"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 9 same-class devices to 5; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "query_status": "ok",
+  "empty_result": false,
+  "selected_gaussians": 125055,
+  "matched_object_ids": [
+    "obj_126125e3a773",
+    "obj_aad6e7f85a9a",
+    "obj_b7e0494ce9dd",
+    "obj_b8542dc54ed2",
+    "obj_dee5bef52687"
+  ],
+  "renderable_object_ids": [
+    "obj_126125e3a773",
+    "obj_aad6e7f85a9a",
+    "obj_b7e0494ce9dd",
+    "obj_b8542dc54ed2"
+  ],
+  "unavailable_object_ids": [
+    "obj_dee5bef52687"
+  ],
+  "fine_output_status": "partial_unavailable",
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.004541641101241112,
+        0.0044883498921990395,
+        0.004649256356060505
+      ],
+      "median_seconds": 0.004541641101241112
+    },
+    "render": {
+      "samples_seconds": [
+        0.02101764641702175,
+        0.02097514271736145,
+        0.021131983026862144
+      ],
+      "median_seconds": 0.02101764641702175
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.025559287518262863,
+        0.02546349260956049,
+        0.02578123938292265
+      ],
+      "median_seconds": 0.025559287518262863
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000217",
+      "mask_pixels": 41196,
+      "directory": "outputs/ours/Q005/frame_000217"
+    },
+    {
+      "camera_id": "frame_000065",
+      "mask_pixels": 12829,
+      "directory": "outputs/ours/Q005/frame_000065"
+    }
+  ]
+}

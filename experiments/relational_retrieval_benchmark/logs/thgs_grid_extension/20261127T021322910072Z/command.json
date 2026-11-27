@@ -1,0 +1,12 @@
+{
+  "command": [
+    "envs/thgs/bin/python",
+    "third_party/THGS/ext/spt/dependencies/grid_graph/python/setup.py",
+    "build_ext"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "1",
+  "start_utc": "20261127T021322910072Z",
+  "stage": "thgs_grid_extension",
+  "pid": 2805552
+}

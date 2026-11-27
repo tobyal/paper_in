@@ -1,0 +1,11 @@
+{
+  "command": [
+    "../../envs/relags/bin/python",
+    "scripts/generate_comparisons.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "0",
+  "start_utc": "20261127T024044499317Z",
+  "stage": "comparison_gallery_final",
+  "pid": 2906505
+}

@@ -1,0 +1,461 @@
+{
+  "reference_type": "SAM-assisted Pseudo-GT",
+  "formal_human_ground_truth": false,
+  "methods": [
+    {
+      "method": "LangSplat",
+      "method_id": "langsplat",
+      "reference_type": "SAM-assisted Pseudo-GT",
+      "projection_miou": 0.20869207053377467,
+      "precision": 0.2927636251636847,
+      "recall": 0.3632033619848316,
+      "valid_queries": 23,
+      "valid_views": 44,
+      "total_queries": 25,
+      "total_views": 50,
+      "excluded_views": 6,
+      "normal_empty_view_masks_all": 0,
+      "normal_empty_view_masks_evaluated": 0,
+      "normal_empty_query_outputs": 0,
+      "failed_final_queries": 0,
+      "unavailable_fine_instance_queries": 0,
+      "query_seconds": 0.3466099638864398,
+      "end_to_end_seconds": 0.4067161226272583,
+      "query_seconds_valid_subset": 0.346283208295379,
+      "model_load_seconds": 7.4406506000086665
+    },
+    {
+      "method": "THGS",
+      "method_id": "thgs",
+      "reference_type": "SAM-assisted Pseudo-GT",
+      "projection_miou": 0.08680339030570908,
+      "precision": 0.14395260116581443,
+      "recall": 0.10162389166530403,
+      "valid_queries": 23,
+      "valid_views": 44,
+      "total_queries": 25,
+      "total_views": 50,
+      "excluded_views": 6,
+      "normal_empty_view_masks_all": 11,
+      "normal_empty_view_masks_evaluated": 11,
+      "normal_empty_query_outputs": 0,
+      "failed_final_queries": 0,
+      "unavailable_fine_instance_queries": 0,
+      "query_seconds": 0.010730234868824483,
+      "end_to_end_seconds": 0.05557210747152567,
+      "query_seconds_valid_subset": 0.010721295505114223,
+      "model_load_seconds": 8.320566789247096
+    },
+    {
+      "method": "ReLaGS",
+      "method_id": "relags",
+      "reference_type": "SAM-assisted Pseudo-GT",
+      "projection_miou": 0.003470397745029418,
+      "precision": 0.11002734217735784,
+      "recall": 0.0035171833209915303,
+      "valid_queries": 23,
+      "valid_views": 44,
+      "total_queries": 25,
+      "total_views": 50,
+      "excluded_views": 6,
+      "normal_empty_view_masks_all": 31,
+      "normal_empty_view_masks_evaluated": 30,
+      "normal_empty_query_outputs": 0,
+      "failed_final_queries": 0,
+      "unavailable_fine_instance_queries": 0,
+      "query_seconds": 0.10659015279263258,
+      "end_to_end_seconds": 0.1277859690412879,
+      "query_seconds_valid_subset": 0.10473225642319607,
+      "model_load_seconds": 56.58772244863212
+    },
+    {
+      "method": "Ours",
+      "method_id": "ours",
+      "reference_type": "SAM-assisted Pseudo-GT",
+      "projection_miou": 0.6369505620271781,
+      "precision": 0.8433163447455854,
+      "recall": 0.7020665739617316,
+      "valid_queries": 23,
+      "valid_views": 44,
+      "total_queries": 25,
+      "total_views": 50,
+      "excluded_views": 6,
+      "normal_empty_view_masks_all": 2,
+      "normal_empty_view_masks_evaluated": 2,
+      "normal_empty_query_outputs": 1,
+      "failed_final_queries": 0,
+      "unavailable_fine_instance_queries": 4,
+      "query_seconds": 0.002580387145280838,
+      "end_to_end_seconds": 0.020073212683200836,
+      "query_seconds_valid_subset": 0.002440994079022304,
+      "model_load_seconds": 4.0975393848493695
+    }
+  ],
+  "averaging": "mean of valid views within query, then equal-weight mean of valid queries",
+  "empty_prediction_precision": 0,
+  "common_evaluated_samples": [
+    {
+      "query_id": "Q001",
+      "camera_id": "frame_000329"
+    },
+    {
+      "query_id": "Q001",
+      "camera_id": "frame_000265"
+    },
+    {
+      "query_id": "Q002",
+      "camera_id": "frame_000129"
+    },
+    {
+      "query_id": "Q002",
+      "camera_id": "frame_000153"
+    },
+    {
+      "query_id": "Q003",
+      "camera_id": "frame_000169"
+    },
+    {
+      "query_id": "Q003",
+      "camera_id": "frame_000113"
+    },
+    {
+      "query_id": "Q004",
+      "camera_id": "frame_000321"
+    },
+    {
+      "query_id": "Q004",
+      "camera_id": "frame_000025"
+    },
+    {
+      "query_id": "Q006",
+      "camera_id": "frame_000321"
+    },
+    {
+      "query_id": "Q006",
+      "camera_id": "frame_000273"
+    },
+    {
+      "query_id": "Q007",
+      "camera_id": "frame_000185"
+    },
+    {
+      "query_id": "Q007",
+      "camera_id": "frame_000193"
+    },
+    {
+      "query_id": "Q008",
+      "camera_id": "frame_000225"
+    },
+    {
+      "query_id": "Q008",
+      "camera_id": "frame_000209"
+    },
+    {
+      "query_id": "Q009",
+      "camera_id": "frame_000065"
+    },
+    {
+      "query_id": "Q010",
+      "camera_id": "frame_000209"
+    },
+    {
+      "query_id": "Q011",
+      "camera_id": "frame_000177"
+    },
+    {
+      "query_id": "Q011",
+      "camera_id": "frame_000185"
+    },
+    {
+      "query_id": "Q012",
+      "camera_id": "frame_000073"
+    },
+    {
+      "query_id": "Q012",
+      "camera_id": "frame_000305"
+    },
+    {
+      "query_id": "Q013",
+      "camera_id": "frame_000297"
+    },
+    {
+      "query_id": "Q013",
+      "camera_id": "frame_000065"
+    },
+    {
+      "query_id": "Q014",
+      "camera_id": "frame_000089"
+    },
+    {
+      "query_id": "Q014",
+      "camera_id": "frame_000281"
+    },
+    {
+      "query_id": "Q015",
+      "camera_id": "frame_000321"
+    },
+    {
+      "query_id": "Q015",
+      "camera_id": "frame_000025"
+    },
+    {
+      "query_id": "Q016",
+      "camera_id": "frame_000193"
+    },
+    {
+      "query_id": "Q016",
+      "camera_id": "frame_000017"
+    },
+    {
+      "query_id": "Q017",
+      "camera_id": "frame_000305"
+    },
+    {
+      "query_id": "Q017",
+      "camera_id": "frame_000169"
+    },
+    {
+      "query_id": "Q018",
+      "camera_id": "frame_000273"
+    },
+    {
+      "query_id": "Q018",
+      "camera_id": "frame_000169"
+    },
+    {
+      "query_id": "Q019",
+      "camera_id": "frame_000193"
+    },
+    {
+      "query_id": "Q019",
+      "camera_id": "frame_000201"
+    },
+    {
+      "query_id": "Q020",
+      "camera_id": "frame_000001"
+    },
+    {
+      "query_id": "Q020",
+      "camera_id": "frame_000009"
+    },
+    {
+      "query_id": "Q021",
+      "camera_id": "frame_000089"
+    },
+    {
+      "query_id": "Q021",
+      "camera_id": "frame_000281"
+    },
+    {
+      "query_id": "Q022",
+      "camera_id": "frame_000177"
+    },
+    {
+      "query_id": "Q022",
+      "camera_id": "frame_000185"
+    },
+    {
+      "query_id": "Q023",
+      "camera_id": "frame_000073"
+    },
+    {
+      "query_id": "Q023",
+      "camera_id": "frame_000305"
+    },
+    {
+      "query_id": "Q024",
+      "camera_id": "frame_000313"
+    },
+    {
+      "query_id": "Q024",
+      "camera_id": "frame_000249"
+    }
+  ],
+  "common_exclusions": [
+    {
+      "query_id": "Q005",
+      "camera_id": "frame_000217",
+      "reference_type": "SAM-assisted Pseudo-GT",
+      "status": "excluded_unreliable",
+      "target_visible": true,
+      "target_ids": [
+        "obj_126125e3a773",
+        "obj_aad6e7f85a9a",
+        "obj_b7e0494ce9dd",
+        "obj_b8542dc54ed2",
+        "obj_dee5bef52687"
+      ],
+      "task_ids": [
+        "T047",
+        "T048",
+        "T049",
+        "T050",
+        "T051"
+      ],
+      "unreliable_task_ids": [
+        "T051"
+      ],
+      "reasons": [
+        "Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts."
+      ],
+      "mask_pixels": 53663,
+      "reviewer": "Codex visual review; not independent human annotation",
+      "independent_human_ground_truth": false,
+      "mask_path": "evaluation/pseudo_ground_truth/Q005/frame_000217/mask.png",
+      "original_rgb": "evaluation/pseudo_ground_truth/Q005/frame_000217/original_rgb.png",
+      "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+    },
+    {
+      "query_id": "Q005",
+      "camera_id": "frame_000065",
+      "reference_type": "SAM-assisted Pseudo-GT",
+      "status": "excluded_unreliable",
+      "target_visible": true,
+      "target_ids": [
+        "obj_126125e3a773",
+        "obj_aad6e7f85a9a",
+        "obj_b7e0494ce9dd",
+        "obj_b8542dc54ed2",
+        "obj_dee5bef52687"
+      ],
+      "task_ids": [
+        "T011",
+        "T012",
+        "T015",
+        "T016",
+        "T018"
+      ],
+      "unreliable_task_ids": [
+        "T018"
+      ],
+      "reasons": [
+        "M0 box spans rear large panel/rack plus separate front workstation; visible ownership cannot be reliably resolved in this view after additional prompts."
+      ],
+      "mask_pixels": 24333,
+      "reviewer": "Codex visual review; not independent human annotation",
+      "independent_human_ground_truth": false,
+      "mask_path": "evaluation/pseudo_ground_truth/Q005/frame_000065/mask.png",
+      "original_rgb": "evaluation/pseudo_ground_truth/Q005/frame_000065/original_rgb.png",
+      "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+    },
+    {
+      "query_id": "Q009",
+      "camera_id": "frame_000161",
+      "reference_type": "SAM-assisted Pseudo-GT",
+      "status": "excluded_unreliable",
+      "target_visible": true,
+      "target_ids": [
+        "obj_c812ae8b15bd",
+        "obj_8e79bd39b8b9",
+        "obj_087984e7c374"
+      ],
+      "task_ids": [
+        "T030",
+        "T031",
+        "T032"
+      ],
+      "unreliable_task_ids": [
+        "T031"
+      ],
+      "reasons": [
+        "Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable."
+      ],
+      "mask_pixels": 28731,
+      "reviewer": "Codex visual review; not independent human annotation",
+      "independent_human_ground_truth": false,
+      "mask_path": "evaluation/pseudo_ground_truth/Q009/frame_000161/mask.png",
+      "original_rgb": "evaluation/pseudo_ground_truth/Q009/frame_000161/original_rgb.png",
+      "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+    },
+    {
+      "query_id": "Q010",
+      "camera_id": "frame_000129",
+      "reference_type": "SAM-assisted Pseudo-GT",
+      "status": "excluded_unreliable",
+      "target_visible": true,
+      "target_ids": [
+        "obj_141f3e5dbe3a",
+        "obj_3c963764ddb5"
+      ],
+      "task_ids": [
+        "T026",
+        "T027"
+      ],
+      "unreliable_task_ids": [
+        "T026",
+        "T027"
+      ],
+      "reasons": [
+        "Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.",
+        "Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points."
+      ],
+      "mask_pixels": 19237,
+      "reviewer": "Codex visual review; not independent human annotation",
+      "independent_human_ground_truth": false,
+      "mask_path": "evaluation/pseudo_ground_truth/Q010/frame_000129/mask.png",
+      "original_rgb": "evaluation/pseudo_ground_truth/Q010/frame_000129/original_rgb.png",
+      "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+    },
+    {
+      "query_id": "Q025",
+      "camera_id": "frame_000217",
+      "reference_type": "SAM-assisted Pseudo-GT",
+      "status": "excluded_unreliable",
+      "target_visible": true,
+      "target_ids": [
+        "obj_aad6e7f85a9a",
+        "obj_b8542dc54ed2",
+        "obj_dee5bef52687"
+      ],
+      "task_ids": [
+        "T048",
+        "T050",
+        "T051"
+      ],
+      "unreliable_task_ids": [
+        "T051"
+      ],
+      "reasons": [
+        "Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts."
+      ],
+      "mask_pixels": 18330,
+      "reviewer": "Codex visual review; not independent human annotation",
+      "independent_human_ground_truth": false,
+      "mask_path": "evaluation/pseudo_ground_truth/Q025/frame_000217/mask.png",
+      "original_rgb": "evaluation/pseudo_ground_truth/Q025/frame_000217/original_rgb.png",
+      "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+    },
+    {
+      "query_id": "Q025",
+      "camera_id": "frame_000121",
+      "reference_type": "SAM-assisted Pseudo-GT",
+      "status": "excluded_unreliable",
+      "target_visible": true,
+      "target_ids": [
+        "obj_aad6e7f85a9a",
+        "obj_b8542dc54ed2",
+        "obj_dee5bef52687"
+      ],
+      "task_ids": [
+        "T023",
+        "T024",
+        "T025"
+      ],
+      "unreliable_task_ids": [
+        "T023"
+      ],
+      "reasons": [
+        "Overlapping open racks: SAM alternatives either fill substantial visible gaps or omit many visible rods. Cannot reliably define complete device-specific visible mask."
+      ],
+      "mask_pixels": 56273,
+      "reviewer": "Codex visual review; not independent human annotation",
+      "independent_human_ground_truth": false,
+      "mask_path": "evaluation/pseudo_ground_truth/Q025/frame_000121/mask.png",
+      "original_rgb": "evaluation/pseudo_ground_truth/Q025/frame_000121/original_rgb.png",
+      "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+    }
+  ],
+  "reference_lock_sha256": "83e182f9781fa6eeeaddd6fc45b61e5f31c8dcd9fb8d58802117aa6d9c2387e6",
+  "formal_gt_status": "Pending independent human GT",
+  "computed_utc": "2026-11-27T03:05:44.046144+00:00"
+}

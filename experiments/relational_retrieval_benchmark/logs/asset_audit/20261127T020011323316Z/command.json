@@ -1,0 +1,11 @@
+{
+  "command": [
+    "../../envs/relags/bin/python",
+    "scripts/initialize.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "0",
+  "start_utc": "20261127T020011323316Z",
+  "stage": "asset_audit",
+  "pid": 2747466
+}

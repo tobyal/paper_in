@@ -1,0 +1,57 @@
+[
+  {
+    "task_id": "T019",
+    "object_id": "obj_c7c9293c6c6d",
+    "name": "Compartment rack 02",
+    "camera_id": "frame_000073",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9741244316101074,
+    "mask_pixels": 31388,
+    "note": "Rack rear panel selected; foreground blue bins correctly excluded.",
+    "prompt": {
+      "box": [
+        0.0,
+        143.8065467651364,
+        293.09312637023316,
+        513.5481356492434
+      ],
+      "points": [
+        [
+          115,
+          218
+        ],
+        [
+          84,
+          280
+        ],
+        [
+          80,
+          164
+        ],
+        [
+          200,
+          326
+        ],
+        [
+          26,
+          300
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T019/review1/record.json"
+  }
+]

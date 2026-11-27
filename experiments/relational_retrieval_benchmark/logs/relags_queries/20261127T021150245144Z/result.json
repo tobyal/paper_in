@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/bin/python",
+    "scripts/run_relags.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "0",
+  "start_utc": "20261127T021150245144Z",
+  "stage": "relags_queries",
+  "pid": 2800360,
+  "exit_code": 1,
+  "status": "failed",
+  "seconds": 3.7828330993652344
+}

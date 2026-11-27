@@ -1,0 +1,18 @@
+{
+  "command": [
+    "../../envs/relags/bin/python",
+    "scripts/sam_pseudo_reference.py",
+    "--revision",
+    "review3",
+    "--edits",
+    "prompt_edits_review3.json"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "0",
+  "start_utc": "20261127T030100070573Z",
+  "stage": "pseudo_sam_review3",
+  "pid": 2962690,
+  "exit_code": 0,
+  "status": "completed",
+  "seconds": 9.708011627197266
+}

@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/envs/thgs/bin/python",
+    "graph_weight.py",
+    "-s",
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/inputs/thgs_data",
+    "-m",
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/thgs/model",
+    "-r",
+    "2",
+    "--config",
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/third_party/THGS/configs/lerf.yml",
+    "--level",
+    "1"
+  ],
+  "seconds": 50.42555226199329,
+  "artifact": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/thgs/model/neighbor_new.pt",
+  "exit_code": 0
+}

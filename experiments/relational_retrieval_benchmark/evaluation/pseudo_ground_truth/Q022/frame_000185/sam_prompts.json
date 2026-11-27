@@ -1,0 +1,57 @@
+[
+  {
+    "task_id": "T037",
+    "object_id": "obj_09a35ba03c92",
+    "name": "Assembly fixture table 03",
+    "camera_id": "frame_000185",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9198451042175293,
+    "mask_pixels": 24951,
+    "note": "Fixture selected; foreground dark platform excluded.",
+    "prompt": {
+      "box": [
+        39.12090193301427,
+        232.4927733035547,
+        486.57889531442714,
+        515.6015647240241
+      ],
+      "points": [
+        [
+          310,
+          402
+        ],
+        [
+          216,
+          345
+        ],
+        [
+          406,
+          348
+        ],
+        [
+          226,
+          474
+        ],
+        [
+          75,
+          310
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T037/review1/record.json"
+  }
+]

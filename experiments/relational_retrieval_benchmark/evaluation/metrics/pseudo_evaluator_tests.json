@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "cases": [
+    "TP FP FN",
+    "empty prediction",
+    "ignore pixels",
+    "equal query weighting",
+    "Pending GT"
+  ],
+  "reference_lock_verified": true,
+  "empty_prediction_precision_rule": 0
+}

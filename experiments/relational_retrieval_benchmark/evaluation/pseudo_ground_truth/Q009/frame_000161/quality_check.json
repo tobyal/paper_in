@@ -1,0 +1,29 @@
+{
+  "query_id": "Q009",
+  "camera_id": "frame_000161",
+  "reference_type": "SAM-assisted Pseudo-GT",
+  "status": "excluded_unreliable",
+  "target_visible": true,
+  "target_ids": [
+    "obj_c812ae8b15bd",
+    "obj_8e79bd39b8b9",
+    "obj_087984e7c374"
+  ],
+  "task_ids": [
+    "T030",
+    "T031",
+    "T032"
+  ],
+  "unreliable_task_ids": [
+    "T031"
+  ],
+  "reasons": [
+    "Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable."
+  ],
+  "mask_pixels": 28731,
+  "reviewer": "Codex visual review; not independent human annotation",
+  "independent_human_ground_truth": false,
+  "mask_path": "evaluation/pseudo_ground_truth/Q009/frame_000161/mask.png",
+  "original_rgb": "evaluation/pseudo_ground_truth/Q009/frame_000161/original_rgb.png",
+  "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+}

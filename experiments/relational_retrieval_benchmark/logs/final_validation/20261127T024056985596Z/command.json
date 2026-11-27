@@ -1,0 +1,11 @@
+{
+  "command": [
+    "../../envs/relags/bin/python",
+    "scripts/finalize.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "0",
+  "start_utc": "20261127T024056985596Z",
+  "stage": "final_validation",
+  "pid": 2907291
+}

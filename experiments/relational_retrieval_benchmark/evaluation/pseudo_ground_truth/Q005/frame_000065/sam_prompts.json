@@ -1,0 +1,174 @@
+[
+  {
+    "task_id": "T011",
+    "object_id": "obj_126125e3a773",
+    "name": "Multi-tier rack 02",
+    "camera_id": "frame_000065",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.8424357175827026,
+    "mask_pixels": 4309,
+    "note": "Small distant rack silhouette; lower structure occluded, fine bars low resolution.",
+    "prompt": {
+      "box": [
+        98.24986937009406,
+        110.46880609632727,
+        231.04703010213632,
+        184.29421059290667
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T011/initial/record.json"
+  },
+  {
+    "task_id": "T012",
+    "object_id": "obj_aad6e7f85a9a",
+    "name": "Multi-tier rack 08",
+    "camera_id": "frame_000065",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.972956657409668,
+    "mask_pixels": 12448,
+    "note": "Truncated foreground rack side retained; image boundary preserved.",
+    "prompt": {
+      "box": [
+        800.2216014405485,
+        126.80869582981519,
+        937.0,
+        373.0511868390962
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T012/initial/record.json"
+  },
+  {
+    "task_id": "T015",
+    "object_id": "obj_b7e0494ce9dd",
+    "name": "Multi-tier rack 01",
+    "camera_id": "frame_000065",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.8473303318023682,
+    "mask_pixels": 2977,
+    "note": "Distant first rack located; poles and fixture limit visible detail.",
+    "prompt": {
+      "box": [
+        53.10773018806999,
+        109.20534235180637,
+        190.25516954216295,
+        179.51372200101113
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T015/initial/record.json"
+  },
+  {
+    "task_id": "T016",
+    "object_id": "obj_b8542dc54ed2",
+    "name": "Multi-tier rack 03",
+    "camera_id": "frame_000065",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.7510462999343872,
+    "mask_pixels": 1674,
+    "note": "Only upper visible rack structure remains behind foreground equipment.",
+    "prompt": {
+      "box": [
+        131.6826472638652,
+        107.20481028078053,
+        274.7134040814915,
+        193.22793362758074
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T016/initial/record.json"
+  },
+  {
+    "task_id": "T018",
+    "object_id": "obj_dee5bef52687",
+    "name": "Multi-tier rack 07",
+    "camera_id": "frame_000065",
+    "status": "unreliable",
+    "visible": true,
+    "quality": "unreliable",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review2",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.8949571847915649,
+    "mask_pixels": 6521,
+    "note": "M0 box spans rear large panel/rack plus separate front workstation; visible ownership cannot be reliably resolved in this view after additional prompts.",
+    "prompt": {
+      "box": [
+        573,
+        119,
+        722,
+        253
+      ],
+      "points": [
+        [
+          581,
+          181
+        ],
+        [
+          686,
+          177
+        ],
+        [
+          688,
+          228
+        ],
+        [
+          649,
+          163
+        ],
+        [
+          642,
+          223
+        ],
+        [
+          768,
+          205
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T018/review2/record.json"
+  }
+]

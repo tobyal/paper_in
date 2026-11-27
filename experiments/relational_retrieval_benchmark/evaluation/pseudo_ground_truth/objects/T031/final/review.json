@@ -1,0 +1,65 @@
+{
+  "task_id": "T031",
+  "object_id": "obj_8e79bd39b8b9",
+  "name": "Fixture table with black workpiece 04",
+  "camera_id": "frame_000161",
+  "status": "unreliable",
+  "visible": true,
+  "quality": "unreliable",
+  "reviewer": "Codex visual inspection, not human certification",
+  "independent_human_ground_truth": false,
+  "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+  "revision": "review3",
+  "selected_candidate": 0,
+  "sam_predicted_iou": 0.802772581577301,
+  "mask_pixels": 3278,
+  "note": "Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable.",
+  "prompt": {
+    "box": [
+      393,
+      217,
+      476,
+      311
+    ],
+    "points": [
+      [
+        425,
+        250
+      ],
+      [
+        434,
+        287
+      ],
+      [
+        432,
+        239
+      ],
+      [
+        412,
+        238
+      ],
+      [
+        467,
+        187
+      ],
+      [
+        568,
+        249
+      ],
+      [
+        368,
+        209
+      ]
+    ],
+    "labels": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "source_record": "evaluation/pseudo_ground_truth/objects/T031/review3/record.json"
+}

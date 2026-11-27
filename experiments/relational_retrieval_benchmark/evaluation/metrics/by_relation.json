@@ -1,0 +1,162 @@
+[
+  {
+    "method": "langsplat",
+    "relation": "left_of",
+    "completed": 5,
+    "empty_views": 0,
+    "query_seconds": 0.35018860809504987,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "langsplat",
+    "relation": "right_of",
+    "completed": 5,
+    "empty_views": 0,
+    "query_seconds": 0.3490347549319267,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "langsplat",
+    "relation": "in_front_of",
+    "completed": 5,
+    "empty_views": 0,
+    "query_seconds": 0.3418966233730316,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "langsplat",
+    "relation": "behind",
+    "completed": 5,
+    "empty_views": 0,
+    "query_seconds": 0.3456527180969715,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "langsplat",
+    "relation": "near",
+    "completed": 5,
+    "empty_views": 0,
+    "query_seconds": 0.3462771149352193,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "thgs",
+    "relation": "left_of",
+    "completed": 5,
+    "empty_views": 2,
+    "query_seconds": 0.01064523532986641,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "thgs",
+    "relation": "right_of",
+    "completed": 5,
+    "empty_views": 0,
+    "query_seconds": 0.010720279812812806,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "thgs",
+    "relation": "in_front_of",
+    "completed": 5,
+    "empty_views": 1,
+    "query_seconds": 0.010767342150211334,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "thgs",
+    "relation": "behind",
+    "completed": 5,
+    "empty_views": 5,
+    "query_seconds": 0.010817118175327777,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "thgs",
+    "relation": "near",
+    "completed": 5,
+    "empty_views": 3,
+    "query_seconds": 0.010701198875904084,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "relags",
+    "relation": "left_of",
+    "completed": 5,
+    "empty_views": 3,
+    "query_seconds": 0.1171563845127821,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "relags",
+    "relation": "right_of",
+    "completed": 5,
+    "empty_views": 7,
+    "query_seconds": 0.1083270275965333,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "relags",
+    "relation": "in_front_of",
+    "completed": 5,
+    "empty_views": 7,
+    "query_seconds": 0.10078869182616472,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "relags",
+    "relation": "behind",
+    "completed": 5,
+    "empty_views": 6,
+    "query_seconds": 0.10066936947405339,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "relags",
+    "relation": "near",
+    "completed": 5,
+    "empty_views": 8,
+    "query_seconds": 0.1060092905536294,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "ours",
+    "relation": "left_of",
+    "completed": 5,
+    "empty_views": 0,
+    "query_seconds": 0.0027997538447380064,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "ours",
+    "relation": "right_of",
+    "completed": 5,
+    "empty_views": 0,
+    "query_seconds": 0.0025688400492072105,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "ours",
+    "relation": "in_front_of",
+    "completed": 5,
+    "empty_views": 0,
+    "query_seconds": 0.0023160865530371666,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "ours",
+    "relation": "behind",
+    "completed": 5,
+    "empty_views": 2,
+    "query_seconds": 0.0025154054164886475,
+    "projection_miou": "Pending GT"
+  },
+  {
+    "method": "ours",
+    "relation": "near",
+    "completed": 5,
+    "empty_views": 0,
+    "query_seconds": 0.002701849862933159,
+    "projection_miou": "Pending GT"
+  }
+]

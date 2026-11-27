@@ -1,0 +1,28 @@
+{
+  "methods": [
+    {
+      "method": "langsplat",
+      "completed": 25,
+      "camera_mask_response_alignment": true
+    },
+    {
+      "method": "thgs",
+      "completed": 25,
+      "camera_mask_response_alignment": true
+    },
+    {
+      "method": "relags",
+      "completed": 25,
+      "camera_mask_response_alignment": true
+    },
+    {
+      "method": "ours",
+      "completed": 25,
+      "camera_mask_response_alignment": true
+    }
+  ],
+  "expected_queries": 25,
+  "unique_heldout_cameras": 29,
+  "query_view_pairs": 50,
+  "frozen_hashes_valid": true
+}

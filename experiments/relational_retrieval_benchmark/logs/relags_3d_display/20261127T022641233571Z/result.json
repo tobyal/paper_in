@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/bin/python",
+    "scripts/export_3d_views.py",
+    "--method",
+    "relags"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "1",
+  "start_utc": "20261127T022641233571Z",
+  "stage": "relags_3d_display",
+  "pid": 2850469,
+  "exit_code": 0,
+  "status": "completed",
+  "seconds": 5.394995450973511
+}

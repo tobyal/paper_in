@@ -1,0 +1,55 @@
+{
+  "task_id": "T062",
+  "object_id": "obj_7047e5f33259",
+  "name": "Material cart 04",
+  "camera_id": "frame_000313",
+  "status": "accepted_pseudo",
+  "visible": true,
+  "quality": "moderate_pseudo",
+  "reviewer": "Codex visual inspection, not human certification",
+  "independent_human_ground_truth": false,
+  "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+  "revision": "review1",
+  "selected_candidate": 1,
+  "sam_predicted_iou": 0.9600183963775635,
+  "mask_pixels": 13642,
+  "note": "Grey tarp cart isolated from front rack and workbench.",
+  "prompt": {
+    "box": [
+      628,
+      131,
+      753,
+      293
+    ],
+    "points": [
+      [
+        674,
+        173
+      ],
+      [
+        671,
+        248
+      ],
+      [
+        718,
+        219
+      ],
+      [
+        831,
+        226
+      ],
+      [
+        610,
+        185
+      ]
+    ],
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  "source_record": "evaluation/pseudo_ground_truth/objects/T062/review1/record.json"
+}

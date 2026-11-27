@@ -1,0 +1,86 @@
+[
+  {
+    "task_id": "T001",
+    "object_id": "obj_126125e3a773",
+    "name": "Multi-tier rack 02",
+    "camera_id": "frame_000001",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9085707664489746,
+    "mask_pixels": 8225,
+    "note": "Rack body correctly located; fine holes and rear bars remain approximate.",
+    "prompt": {
+      "box": [
+        583.1636321493448,
+        134.5431259742437,
+        717.5867684248719,
+        266.2641504331264
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T001/initial/record.json"
+  },
+  {
+    "task_id": "T002",
+    "object_id": "obj_b7e0494ce9dd",
+    "name": "Multi-tier rack 01",
+    "camera_id": "frame_000001",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9603378772735596,
+    "mask_pixels": 7862,
+    "note": "Rack and lower support located; foreground fixture occlusion retained approximately.",
+    "prompt": {
+      "box": [
+        469.97374358080805,
+        136.8009746600562,
+        595.5106110895823,
+        271.52356281875103
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T002/initial/record.json"
+  },
+  {
+    "task_id": "T003",
+    "object_id": "obj_b8542dc54ed2",
+    "name": "Multi-tier rack 03",
+    "camera_id": "frame_000001",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9023746252059937,
+    "mask_pixels": 9140,
+    "note": "Rear rack selected behind cooler/fixture; fine bars approximate.",
+    "prompt": {
+      "box": [
+        691.0271887799452,
+        125.24783174093773,
+        865.322713631494,
+        269.7919739338672
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T003/initial/record.json"
+  }
+]

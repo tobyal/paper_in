@@ -1,0 +1,83 @@
+{
+  "query": {
+    "query_id": "Q001",
+    "subject_category": "upright portable air cooler",
+    "subject_category_id": "category_06",
+    "predicate": "left of",
+    "predicate_ours": "left_of",
+    "predicate_relags": "left",
+    "object_category": "workbench",
+    "object_category_id": "category_07",
+    "query_en": "upright portable air cooler to the left of the workbench",
+    "query_zh": "位于工作台左侧的立式移动冷风机",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000329",
+      "frame_000265"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "selected_gaussians": 9143,
+  "selected_nodes": [
+    {
+      "level": 3,
+      "score": 0.6679981350898743,
+      "node_id": 33
+    },
+    {
+      "level": 2,
+      "score": 0.6247262358665466,
+      "node_id": 45
+    },
+    {
+      "level": 3,
+      "score": 0.6165330410003662,
+      "node_id": 46
+    }
+  ],
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.01066156942397356,
+        0.010641738772392273,
+        0.010475740768015385
+      ],
+      "median_seconds": 0.010641738772392273
+    },
+    "render": {
+      "samples_seconds": [
+        0.04424714203923941,
+        0.044188971631228924,
+        0.04415361303836107
+      ],
+      "median_seconds": 0.044188971631228924
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.05490871146321297,
+        0.0548307104036212,
+        0.05462935380637646
+      ],
+      "median_seconds": 0.0548307104036212
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000329",
+      "mask_pixels": 17408,
+      "directory": "outputs/thgs/Q001/frame_000329"
+    },
+    {
+      "camera_id": "frame_000265",
+      "mask_pixels": 11304,
+      "directory": "outputs/thgs/Q001/frame_000265"
+    }
+  ]
+}

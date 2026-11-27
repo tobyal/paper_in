@@ -1,0 +1,142 @@
+[
+  {
+    "task_id": "T044",
+    "object_id": "obj_141f3e5dbe3a",
+    "name": "Blue bin group 01",
+    "camera_id": "frame_000209",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.9096018075942993,
+    "mask_pixels": 8267,
+    "note": "Blue bin group separated from workbench, cooler and left stand.",
+    "prompt": {
+      "box": [
+        524,
+        174,
+        651,
+        266
+      ],
+      "points": [
+        [
+          563,
+          198
+        ],
+        [
+          604,
+          229
+        ],
+        [
+          541,
+          226
+        ],
+        [
+          640,
+          257
+        ],
+        [
+          666,
+          223
+        ],
+        [
+          490,
+          192
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T044/review1/record.json"
+  },
+  {
+    "task_id": "T045",
+    "object_id": "obj_3c963764ddb5",
+    "name": "Blue bin group 02",
+    "camera_id": "frame_000209",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review2",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.8698318004608154,
+    "mask_pixels": 4131,
+    "note": "Distant bin group visible above workpieces; coarse pixel boundaries uncertain at this resolution.",
+    "prompt": {
+      "box": [
+        202,
+        93,
+        292,
+        151
+      ],
+      "points": [
+        [
+          245,
+          112
+        ],
+        [
+          278,
+          125
+        ],
+        [
+          233,
+          144
+        ],
+        [
+          207,
+          116
+        ],
+        [
+          224,
+          103
+        ],
+        [
+          282,
+          163
+        ],
+        [
+          219,
+          164
+        ],
+        [
+          290,
+          142
+        ],
+        [
+          310,
+          113
+        ],
+        [
+          287,
+          101
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T045/review2/record.json"
+  }
+]

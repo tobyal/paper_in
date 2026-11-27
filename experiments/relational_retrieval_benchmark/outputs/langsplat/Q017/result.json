@@ -1,0 +1,70 @@
+{
+  "query": {
+    "query_id": "Q017",
+    "subject_category": "compartmented material rack",
+    "subject_category_id": "category_08",
+    "predicate": "behind",
+    "predicate_ours": "behind",
+    "predicate_relags": "behind",
+    "object_category": "upright portable air cooler",
+    "object_category_id": "category_06",
+    "query_en": "compartmented material rack behind the upright portable air cooler",
+    "query_zh": "位于立式移动冷风机后方的分隔式料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000305",
+      "frame_000169"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "output_kind": "official per-view semantic masks; no invented 3D instance conversion",
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.34723604191094637,
+        0.34934958443045616,
+        0.35299924947321415
+      ],
+      "median_seconds": 0.34934958443045616
+    },
+    "render": {
+      "samples_seconds": [
+        0.04778229910880327,
+        0.04835691023617983,
+        0.04828969296067953
+      ],
+      "median_seconds": 0.04828969296067953
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.39893361181020737,
+        0.40536816231906414,
+        0.40511367097496986
+      ],
+      "median_seconds": 0.40511367097496986
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+    "render_includes": "three native latent feature rasters per view",
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000305",
+      "mask_pixels": 53936,
+      "directory": "outputs/langsplat/Q017/frame_000305",
+      "selected_level": 3
+    },
+    {
+      "camera_id": "frame_000169",
+      "mask_pixels": 4326,
+      "directory": "outputs/langsplat/Q017/frame_000169",
+      "selected_level": 2
+    }
+  ]
+}

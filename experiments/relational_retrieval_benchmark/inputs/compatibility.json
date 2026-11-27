@@ -1,0 +1,71 @@
+{
+  "shared_training_images": 306,
+  "shared_heldout_images": 44,
+  "langsplat": [
+    {
+      "path": "/mnt/sda/ubuntu/lkx/papers/paper_eli/outputs/gsle/langsplat_1/chkpnt30000.pth",
+      "iteration": 30000,
+      "gaussians": 1828777,
+      "latent_shape": [
+        1828777,
+        3
+      ],
+      "finite": true
+    },
+    {
+      "path": "/mnt/sda/ubuntu/lkx/papers/paper_eli/outputs/gsle/langsplat_2/chkpnt30000.pth",
+      "iteration": 30000,
+      "gaussians": 1828777,
+      "latent_shape": [
+        1828777,
+        3
+      ],
+      "finite": true
+    },
+    {
+      "path": "/mnt/sda/ubuntu/lkx/papers/paper_eli/outputs/gsle/langsplat_3/chkpnt30000.pth",
+      "iteration": 30000,
+      "gaussians": 1828777,
+      "latent_shape": [
+        1828777,
+        3
+      ],
+      "finite": true
+    }
+  ],
+  "industrial_transform": [
+    [
+      0.9986058666056884,
+      -0.050232273887817785,
+      0.016219318983359862,
+      0.20841349968590545
+    ],
+    [
+      -0.030754117943858558,
+      -0.3039331811056324,
+      0.9521968316472195,
+      3.250803919964089
+    ],
+    [
+      -0.0429014228284359,
+      -0.9513681530952454,
+      -0.30505430698394775,
+      1.0563013790911733
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "linear_determinant": 1.0000000250140193,
+  "orthogonality_error": 2.5014019078284377e-08,
+  "raw_z_in_industrial": [
+    0.016219318983359862,
+    0.9521968316472195,
+    -0.30505430698394775
+  ],
+  "protected_files": 44930,
+  "gt": "No independently confirmed fine query masks identified; historical automatic masks are excluded as truth"
+}

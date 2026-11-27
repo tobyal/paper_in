@@ -1,0 +1,78 @@
+{
+  "query": {
+    "query_id": "Q010",
+    "subject_category": "group of blue storage bins",
+    "subject_category_id": "category_05",
+    "predicate": "right of",
+    "predicate_ours": "right_of",
+    "predicate_relags": "right",
+    "object_category": "upright portable air cooler",
+    "object_category_id": "category_06",
+    "query_en": "group of blue storage bins to the right of the upright portable air cooler",
+    "query_zh": "位于立式移动冷风机右侧的蓝色箱组",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000129",
+      "frame_000209"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 2; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "query_status": "ok",
+  "empty_result": false,
+  "selected_gaussians": 27191,
+  "matched_object_ids": [
+    "obj_141f3e5dbe3a",
+    "obj_3c963764ddb5"
+  ],
+  "renderable_object_ids": [
+    "obj_3c963764ddb5"
+  ],
+  "unavailable_object_ids": [
+    "obj_141f3e5dbe3a"
+  ],
+  "fine_output_status": "partial_unavailable",
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.002426392398774624,
+        0.002376796677708626,
+        0.002375757321715355
+      ],
+      "median_seconds": 0.002376796677708626
+    },
+    "render": {
+      "samples_seconds": [
+        0.02037187945097685,
+        0.02047649212181568,
+        0.020209185779094696
+      ],
+      "median_seconds": 0.02037187945097685
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.022798271849751472,
+        0.022853288799524307,
+        0.02258494310081005
+      ],
+      "median_seconds": 0.022798271849751472
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000129",
+      "mask_pixels": 8359,
+      "directory": "outputs/ours/Q010/frame_000129"
+    },
+    {
+      "camera_id": "frame_000209",
+      "mask_pixels": 1288,
+      "directory": "outputs/ours/Q010/frame_000209"
+    }
+  ]
+}

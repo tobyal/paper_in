@@ -1,0 +1,28 @@
+{
+  "task_id": "T035",
+  "object_id": "obj_5746b7e7d040",
+  "name": "Compartment rack 01",
+  "camera_id": "frame_000169",
+  "status": "accepted_pseudo",
+  "visible": true,
+  "quality": "moderate_pseudo",
+  "reviewer": "Codex visual inspection, not human certification",
+  "independent_human_ground_truth": false,
+  "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+  "revision": "initial",
+  "selected_candidate": 1,
+  "sam_predicted_iou": 0.9391069412231445,
+  "mask_pixels": 19299,
+  "note": "Rear compartment rack selected across pole occlusion; slot interiors approximate.",
+  "prompt": {
+    "box": [
+      443.2056819298118,
+      98.0018005554892,
+      727.0368103943607,
+      274.9775676775424
+    ],
+    "points": [],
+    "labels": []
+  },
+  "source_record": "evaluation/pseudo_ground_truth/objects/T035/initial/record.json"
+}

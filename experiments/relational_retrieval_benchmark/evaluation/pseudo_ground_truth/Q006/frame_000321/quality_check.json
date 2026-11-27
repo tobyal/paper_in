@@ -1,0 +1,21 @@
+{
+  "query_id": "Q006",
+  "camera_id": "frame_000321",
+  "reference_type": "SAM-assisted Pseudo-GT",
+  "status": "accepted_pseudo",
+  "target_visible": true,
+  "target_ids": [
+    "obj_f9a0e863e32d"
+  ],
+  "task_ids": [
+    "T064"
+  ],
+  "unreliable_task_ids": [],
+  "reasons": [],
+  "mask_pixels": 30190,
+  "reviewer": "Codex visual review; not independent human annotation",
+  "independent_human_ground_truth": false,
+  "mask_path": "evaluation/pseudo_ground_truth/Q006/frame_000321/mask.png",
+  "original_rgb": "evaluation/pseudo_ground_truth/Q006/frame_000321/original_rgb.png",
+  "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+}

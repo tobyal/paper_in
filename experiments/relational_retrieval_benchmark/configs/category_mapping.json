@@ -1,0 +1,50 @@
+[
+  {
+    "category_id": "category_01",
+    "zh": "物料车",
+    "en": "material cart",
+    "instances": 6
+  },
+  {
+    "category_id": "category_02",
+    "zh": "装配夹具台",
+    "en": "assembly fixture table",
+    "instances": 3
+  },
+  {
+    "category_id": "category_03",
+    "zh": "带黑色工件的夹具台",
+    "en": "fixture table carrying a black workpiece",
+    "instances": 5
+  },
+  {
+    "category_id": "category_04",
+    "zh": "多层料架",
+    "en": "multi-tier material rack",
+    "instances": 9
+  },
+  {
+    "category_id": "category_05",
+    "zh": "蓝色箱组",
+    "en": "group of blue storage bins",
+    "instances": 3
+  },
+  {
+    "category_id": "category_06",
+    "zh": "立式移动冷风机",
+    "en": "upright portable air cooler",
+    "instances": 3
+  },
+  {
+    "category_id": "category_07",
+    "zh": "工作台",
+    "en": "workbench",
+    "instances": 2
+  },
+  {
+    "category_id": "category_08",
+    "zh": "分隔式料架",
+    "en": "compartmented material rack",
+    "instances": 2
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-27T02:08:26.584955+00:00",
+  "sha256": {
+    "benchmark_queries.json": "5eadee8b93894498b838a5fc61a66429fabc9e5d1487468e1b79a6e8339507e1",
+    "category_mapping.json": "0247823694db7c0be7fd192a07a3e14942292f20cbc02673ec0af5b79a047e2a",
+    "relation_mapping.json": "54e31c966b72d07d4101d9cbda3d3cef41f4126b8710d4386f7a06c3761ee6fa",
+    "evaluation_views.json": "209a764a89632317d877533befc66cd57c2962199165981160a58c36da59e89e",
+    "methods.json": "ac4d9b6c626589b6d9c479fe2e432bd60c0c42ccb77f4f5b4c271514947fdcaf"
+  },
+  "selection_uses_method_predictions": false,
+  "gt": "pending_independent_review",
+  "visual_review": "Codex inspected original RGB contact sheet and existing equipment reference RGB; not human truth"
+}

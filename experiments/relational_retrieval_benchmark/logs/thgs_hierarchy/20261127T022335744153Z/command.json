@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/envs/thgs/bin/python",
+    "merge_proj.py",
+    "-s",
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/inputs/thgs_data",
+    "-m",
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/thgs/model",
+    "-r",
+    "2",
+    "--thres_connect",
+    "0.9,0.7,0.7",
+    "--thres_merge",
+    "20",
+    "--feat_assign",
+    "2"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/third_party/THGS",
+  "gpu": "0",
+  "start_utc": "20261127T022335744153Z",
+  "stage": "thgs_hierarchy",
+  "pid": 2841437
+}

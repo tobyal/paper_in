@@ -1,0 +1,29 @@
+{
+  "query_id": "Q025",
+  "camera_id": "frame_000121",
+  "reference_type": "SAM-assisted Pseudo-GT",
+  "status": "excluded_unreliable",
+  "target_visible": true,
+  "target_ids": [
+    "obj_aad6e7f85a9a",
+    "obj_b8542dc54ed2",
+    "obj_dee5bef52687"
+  ],
+  "task_ids": [
+    "T023",
+    "T024",
+    "T025"
+  ],
+  "unreliable_task_ids": [
+    "T023"
+  ],
+  "reasons": [
+    "Overlapping open racks: SAM alternatives either fill substantial visible gaps or omit many visible rods. Cannot reliably define complete device-specific visible mask."
+  ],
+  "mask_pixels": 56273,
+  "reviewer": "Codex visual review; not independent human annotation",
+  "independent_human_ground_truth": false,
+  "mask_path": "evaluation/pseudo_ground_truth/Q025/frame_000121/mask.png",
+  "original_rgb": "evaluation/pseudo_ground_truth/Q025/frame_000121/original_rgb.png",
+  "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+}

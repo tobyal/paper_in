@@ -1,0 +1,65 @@
+{
+  "task_id": "T039",
+  "object_id": "obj_8429bc5f3c33",
+  "name": "Assembly fixture table 01",
+  "camera_id": "frame_000193",
+  "status": "accepted_pseudo",
+  "visible": true,
+  "quality": "moderate_pseudo",
+  "reviewer": "Codex visual inspection, not human certification",
+  "independent_human_ground_truth": false,
+  "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+  "revision": "review2",
+  "selected_candidate": 2,
+  "sam_predicted_iou": 0.9090309143066406,
+  "mask_pixels": 32254,
+  "note": "Tighter prompt separates fixture from foreground mechanisms; small rail intersections uncertain.",
+  "prompt": {
+    "box": [
+      518,
+      321,
+      926,
+      474
+    ],
+    "points": [
+      [
+        702,
+        422
+      ],
+      [
+        591,
+        344
+      ],
+      [
+        848,
+        342
+      ],
+      [
+        823,
+        388
+      ],
+      [
+        623,
+        506
+      ],
+      [
+        689,
+        482
+      ],
+      [
+        730,
+        301
+      ]
+    ],
+    "labels": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "source_record": "evaluation/pseudo_ground_truth/objects/T039/review2/record.json"
+}

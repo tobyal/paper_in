@@ -1,0 +1,28 @@
+{
+  "task_id": "T003",
+  "object_id": "obj_b8542dc54ed2",
+  "name": "Multi-tier rack 03",
+  "camera_id": "frame_000001",
+  "status": "accepted_pseudo",
+  "visible": true,
+  "quality": "moderate_pseudo",
+  "reviewer": "Codex visual inspection, not human certification",
+  "independent_human_ground_truth": false,
+  "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+  "revision": "initial",
+  "selected_candidate": 1,
+  "sam_predicted_iou": 0.9023746252059937,
+  "mask_pixels": 9140,
+  "note": "Rear rack selected behind cooler/fixture; fine bars approximate.",
+  "prompt": {
+    "box": [
+      691.0271887799452,
+      125.24783174093773,
+      865.322713631494,
+      269.7919739338672
+    ],
+    "points": [],
+    "labels": []
+  },
+  "source_record": "evaluation/pseudo_ground_truth/objects/T003/initial/record.json"
+}

@@ -1,0 +1,62 @@
+{
+  "langsplat": {
+    "model": "frozen 3 levels iteration30000",
+    "query": "official full-English-description relevancy",
+    "negatives": [
+      "object",
+      "things",
+      "stuff",
+      "texture"
+    ],
+    "temperature": 10,
+    "layer_selection": "official maximum smoothed relevancy, no GT",
+    "mean_filter": 30,
+    "mask_threshold": 0.4,
+    "threshold_rule": "official eval/eval.sh and evaluate_iou_loc.py default verified 0.4",
+    "m0": false
+  },
+  "thgs": {
+    "model": "unpruned 2DGS iteration30000",
+    "official_config": "configs/lerf.yml",
+    "query_topk": 3,
+    "query_levels": [
+      2,
+      3
+    ],
+    "contribution_threshold": 0.5,
+    "m0": false
+  },
+  "relags": {
+    "model": "R1 hierarchy/semantics/weights; coordinate-aligned geometry prediction copy",
+    "topk": 10,
+    "filter_small": 300,
+    "sim_thresholds": [
+      0.55,
+      0.4,
+      0.55
+    ],
+    "max_subjects": 3,
+    "contribution_threshold": 0.5,
+    "m0_device_priors": false,
+    "global_coordinate_calibration": "Rigid industrial axes shared for directional meaning; no equipment boxes/classes supplied"
+  },
+  "ours": {
+    "model": "frozen saga_relags_v2",
+    "m0": true,
+    "graph_nodes": 33,
+    "fine_available": 30,
+    "contribution_threshold": 0.5
+  },
+  "timing": {
+    "hardware": "RTX A6000",
+    "warmup": 1,
+    "repetitions": 3,
+    "report_load_query_render_end_to_end_separately": true
+  },
+  "metrics": {
+    "projection_miou": "Pending GT",
+    "precision": "Pending GT",
+    "recall": "Pending GT",
+    "averaging": "mean over GT-valid views per query, then equal query mean"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "task_id": "T010",
+  "object_id": "obj_c812ae8b15bd",
+  "name": "Fixture table with black workpiece 02",
+  "camera_id": "frame_000065",
+  "status": "accepted_pseudo",
+  "visible": true,
+  "quality": "moderate_pseudo",
+  "reviewer": "Codex visual inspection, not human certification",
+  "independent_human_ground_truth": false,
+  "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+  "revision": "review1",
+  "selected_candidate": 1,
+  "sam_predicted_iou": 0.7651877403259277,
+  "mask_pixels": 7953,
+  "note": "Visible black workpiece and white base selected using RGB points; rear rack excluded via candidate1.",
+  "prompt": {
+    "box": [
+      45.963243354054796,
+      153.41370525011962,
+      337.6139945494497,
+      377.0851381390312
+    ],
+    "points": [
+      [
+        199,
+        245
+      ],
+      [
+        239,
+        299
+      ],
+      [
+        300,
+        267
+      ],
+      [
+        251,
+        180
+      ],
+      [
+        105,
+        290
+      ]
+    ],
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "source_record": "evaluation/pseudo_ground_truth/objects/T010/review1/record.json"
+}

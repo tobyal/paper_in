@@ -1,0 +1,13 @@
+{
+  "command": [
+    "../../envs/relags/bin/python",
+    "scripts/sam_pseudo_reference.py",
+    "--revision",
+    "review1"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "0",
+  "start_utc": "20261127T025614973783Z",
+  "stage": "pseudo_sam_review1",
+  "pid": 2949480
+}

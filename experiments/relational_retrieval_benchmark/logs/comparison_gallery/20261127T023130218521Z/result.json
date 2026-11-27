@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/bin/python",
+    "scripts/generate_comparisons.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "1",
+  "start_utc": "20261127T023130218521Z",
+  "stage": "comparison_gallery",
+  "pid": 2864314,
+  "exit_code": 0,
+  "status": "completed",
+  "seconds": 13.554442167282104
+}

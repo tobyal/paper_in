@@ -1,0 +1,80 @@
+{
+  "query": {
+    "query_id": "Q008",
+    "subject_category": "workbench",
+    "subject_category_id": "category_07",
+    "predicate": "right of",
+    "predicate_ours": "right_of",
+    "predicate_relags": "right",
+    "object_category": "fixture table carrying a black workpiece",
+    "object_category_id": "category_03",
+    "query_en": "workbench to the right of the fixture table carrying a black workpiece",
+    "query_zh": "位于带黑色工件的夹具台右侧的工作台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000225",
+      "frame_000209"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "selected_gaussians": 61,
+  "selected_nodes": [
+    [
+      [
+        921,
+        2
+      ],
+      [
+        0.6649196743965149,
+        0.33034443855285645,
+        0.5499882698059082
+      ]
+    ]
+  ],
+  "official_threshold_fallback_used": true,
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.10734082199633121,
+        0.10702848248183727,
+        0.10574711952358484
+      ],
+      "median_seconds": 0.10702848248183727
+    },
+    "render": {
+      "samples_seconds": [
+        0.025614552199840546,
+        0.02549358829855919,
+        0.025083311833441257
+      ],
+      "median_seconds": 0.02549358829855919
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.13295537419617176,
+        0.13252207078039646,
+        0.1308304313570261
+      ],
+      "median_seconds": 0.13252207078039646
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000225",
+      "mask_pixels": 0,
+      "directory": "outputs/relags/Q008/frame_000225"
+    },
+    {
+      "camera_id": "frame_000209",
+      "mask_pixels": 0,
+      "directory": "outputs/relags/Q008/frame_000209"
+    }
+  ]
+}

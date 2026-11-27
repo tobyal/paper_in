@@ -1,0 +1,77 @@
+{
+  "query": {
+    "query_id": "Q024",
+    "subject_category": "material cart",
+    "subject_category_id": "category_01",
+    "predicate": "near",
+    "predicate_ours": "near",
+    "predicate_relags": "close by",
+    "object_category": "workbench",
+    "object_category_id": "category_07",
+    "query_en": "material cart near the workbench",
+    "query_zh": "位于工作台附近的物料车",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000313",
+      "frame_000249"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 6 same-class devices to 2; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "query_status": "ok",
+  "empty_result": false,
+  "selected_gaussians": 22960,
+  "matched_object_ids": [
+    "obj_7047e5f33259",
+    "obj_c0162cd69680"
+  ],
+  "renderable_object_ids": [
+    "obj_7047e5f33259",
+    "obj_c0162cd69680"
+  ],
+  "unavailable_object_ids": [],
+  "fine_output_status": "available",
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.002590983174741268,
+        0.0025227004662156105,
+        0.002452472224831581
+      ],
+      "median_seconds": 0.0025227004662156105
+    },
+    "render": {
+      "samples_seconds": [
+        0.021119723096489906,
+        0.02100678626447916,
+        0.021373088471591473
+      ],
+      "median_seconds": 0.021119723096489906
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.023710706271231174,
+        0.02352948673069477,
+        0.023825560696423054
+      ],
+      "median_seconds": 0.023710706271231174
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000313",
+      "mask_pixels": 17486,
+      "directory": "outputs/ours/Q024/frame_000313"
+    },
+    {
+      "camera_id": "frame_000249",
+      "mask_pixels": 12631,
+      "directory": "outputs/ours/Q024/frame_000249"
+    }
+  ]
+}

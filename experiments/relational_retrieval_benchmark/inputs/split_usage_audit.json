@@ -1,0 +1,27 @@
+{
+  "shared_original_train": 306,
+  "shared_original_heldout": 44,
+  "ours_affinity_training_cameras": 74,
+  "ours_training_real": 57,
+  "ours_training_virtual": 17,
+  "ours_heldout_overlap": [],
+  "ours_all_split_train": true,
+  "relags_config_evidence": {
+    "01_gaussian_scene": {
+      "config_path": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/01_gaussian_scene/data/model/cfg_args",
+      "config": "Namespace(sh_degree=3, source_path='/mnt/sda/ubuntu/lkx/papers/paper_in/data', model_path='/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/01_gaussian_scene/data/model', images='images', resolution=2, white_background=False, data_device='cuda', eval=True, render_items=['RGB', 'Alpha', 'Normal', 'Depth', 'Edge', 'Curvature'])"
+    },
+    "05_hierarchical_grouping": {
+      "config_path": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/05_hierarchical_grouping/data/model/cfg_args",
+      "config": "Namespace(source_path='/mnt/sda/ubuntu/lkx/papers/paper_in/data', model_path='/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/05_hierarchical_grouping/data/model', images='images', resolution=1, sh_degree=3, eval=True, white_background=False, data_device='cpu')"
+    },
+    "06_semantic_aggregation": {
+      "config_path": "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/06_semantic_aggregation/data/model/cfg_args",
+      "config": "Namespace(source_path='/mnt/sda/ubuntu/lkx/papers/paper_in/data', model_path='/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_baseline/06_semantic_aggregation/data/model', images='images', resolution=1, sh_degree=3, eval=True, white_background=False, data_device='cpu')"
+    }
+  },
+  "relags_semantics_evidence": "merge_proj.py uses getTrainCameras(); Stage05/06 logs report views num:306. Sorted COLMAP holdout every 8 frames matches shared split.",
+  "thgs_scene": "306 train-only images/COLMAP; existing LangSplat features; no heldout images supplied",
+  "langsplat": "Original 306/44 record checked by initialize.py",
+  "ours_extra_information": "Frozen SAGA affinity uses selected real and native full-scene virtual training observations plus M0 priors. Not equal data/priors to external methods."
+}

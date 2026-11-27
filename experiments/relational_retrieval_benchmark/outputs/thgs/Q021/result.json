@@ -1,0 +1,83 @@
+{
+  "query": {
+    "query_id": "Q021",
+    "subject_category": "upright portable air cooler",
+    "subject_category_id": "category_06",
+    "predicate": "near",
+    "predicate_ours": "near",
+    "predicate_relags": "close by",
+    "object_category": "multi-tier material rack",
+    "object_category_id": "category_04",
+    "query_en": "upright portable air cooler near the multi-tier material rack",
+    "query_zh": "位于多层料架附近的立式移动冷风机",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000089",
+      "frame_000281"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "selected_gaussians": 9143,
+  "selected_nodes": [
+    {
+      "level": 3,
+      "score": 0.691952645778656,
+      "node_id": 33
+    },
+    {
+      "level": 2,
+      "score": 0.649775505065918,
+      "node_id": 45
+    },
+    {
+      "level": 3,
+      "score": 0.6450108289718628,
+      "node_id": 46
+    }
+  ],
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.010704210959374905,
+        0.010607828386127949,
+        0.010628261603415012
+      ],
+      "median_seconds": 0.010628261603415012
+    },
+    "render": {
+      "samples_seconds": [
+        0.04509131796658039,
+        0.04502675775438547,
+        0.044943248853087425
+      ],
+      "median_seconds": 0.04502675775438547
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.055795528925955296,
+        0.05563458614051342,
+        0.05557151045650244
+      ],
+      "median_seconds": 0.05563458614051342
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000089",
+      "mask_pixels": 1327,
+      "directory": "outputs/thgs/Q021/frame_000089"
+    },
+    {
+      "camera_id": "frame_000281",
+      "mask_pixels": 0,
+      "directory": "outputs/thgs/Q021/frame_000281"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "query": {
+    "query_id": "Q016",
+    "subject_category": "assembly fixture table",
+    "subject_category_id": "category_02",
+    "predicate": "behind",
+    "predicate_ours": "behind",
+    "predicate_relags": "behind",
+    "object_category": "workbench",
+    "object_category_id": "category_07",
+    "query_en": "assembly fixture table behind the workbench",
+    "query_zh": "位于工作台后方的装配夹具台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000193",
+      "frame_000017"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 2; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "output_kind": "official per-view semantic masks; no invented 3D instance conversion",
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.34636039938777685,
+        0.3443757267668843,
+        0.33504062704741955
+      ],
+      "median_seconds": 0.3443757267668843
+    },
+    "render": {
+      "samples_seconds": [
+        0.045551021583378315,
+        0.045587437227368355,
+        0.04564992990344763
+      ],
+      "median_seconds": 0.045587437227368355
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.39590781182050705,
+        0.3938646027818322,
+        0.3845862206071615
+      ],
+      "median_seconds": 0.3938646027818322
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+    "render_includes": "three native latent feature rasters per view",
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000193",
+      "mask_pixels": 11438,
+      "directory": "outputs/langsplat/Q016/frame_000193",
+      "selected_level": 3
+    },
+    {
+      "camera_id": "frame_000017",
+      "mask_pixels": 26272,
+      "directory": "outputs/langsplat/Q016/frame_000017",
+      "selected_level": 3
+    }
+  ]
+}

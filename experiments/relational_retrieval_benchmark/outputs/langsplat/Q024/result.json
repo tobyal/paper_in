@@ -1,0 +1,70 @@
+{
+  "query": {
+    "query_id": "Q024",
+    "subject_category": "material cart",
+    "subject_category_id": "category_01",
+    "predicate": "near",
+    "predicate_ours": "near",
+    "predicate_relags": "close by",
+    "object_category": "workbench",
+    "object_category_id": "category_07",
+    "query_en": "material cart near the workbench",
+    "query_zh": "位于工作台附近的物料车",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000313",
+      "frame_000249"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 6 same-class devices to 2; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "output_kind": "official per-view semantic masks; no invented 3D instance conversion",
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.34441848658025265,
+        0.3467646911740303,
+        0.3435223037377
+      ],
+      "median_seconds": 0.34441848658025265
+    },
+    "render": {
+      "samples_seconds": [
+        0.06509931106120348,
+        0.0653254659846425,
+        0.06491959653794765
+      ],
+      "median_seconds": 0.06509931106120348
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.4134241146966815,
+        0.41593877878040075,
+        0.42160617653280497
+      ],
+      "median_seconds": 0.41593877878040075
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+    "render_includes": "three native latent feature rasters per view",
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000313",
+      "mask_pixels": 69492,
+      "directory": "outputs/langsplat/Q024/frame_000313",
+      "selected_level": 3
+    },
+    {
+      "camera_id": "frame_000249",
+      "mask_pixels": 28072,
+      "directory": "outputs/langsplat/Q024/frame_000249",
+      "selected_level": 3
+    }
+  ]
+}

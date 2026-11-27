@@ -1,0 +1,83 @@
+{
+  "query": {
+    "query_id": "Q009",
+    "subject_category": "fixture table carrying a black workpiece",
+    "subject_category_id": "category_03",
+    "predicate": "right of",
+    "predicate_ours": "right_of",
+    "predicate_relags": "right",
+    "object_category": "assembly fixture table",
+    "object_category_id": "category_02",
+    "query_en": "fixture table carrying a black workpiece to the right of the assembly fixture table",
+    "query_zh": "位于装配夹具台右侧的带黑色工件的夹具台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000161",
+      "frame_000065"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 5 same-class devices to 3; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "selected_gaussians": 52332,
+  "selected_nodes": [
+    {
+      "level": 3,
+      "score": 0.6060237288475037,
+      "node_id": 0
+    },
+    {
+      "level": 2,
+      "score": 0.5902760028839111,
+      "node_id": 0
+    },
+    {
+      "level": 2,
+      "score": 0.5747843980789185,
+      "node_id": 269
+    }
+  ],
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.01099605392664671,
+        0.01091208215802908,
+        0.01093790028244257
+      ],
+      "median_seconds": 0.01093790028244257
+    },
+    "render": {
+      "samples_seconds": [
+        0.04412608500570059,
+        0.04397683311253786,
+        0.04403617326170206
+      ],
+      "median_seconds": 0.04403617326170206
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.0551221389323473,
+        0.05488891527056694,
+        0.05497407354414463
+      ],
+      "median_seconds": 0.05497407354414463
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000161",
+      "mask_pixels": 1570,
+      "directory": "outputs/thgs/Q009/frame_000161"
+    },
+    {
+      "camera_id": "frame_000065",
+      "mask_pixels": 15733,
+      "directory": "outputs/thgs/Q009/frame_000065"
+    }
+  ]
+}

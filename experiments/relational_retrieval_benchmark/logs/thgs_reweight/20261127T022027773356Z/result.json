@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/envs/thgs/bin/python",
+    "graph_weight.py",
+    "-s",
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/inputs/thgs_data",
+    "-m",
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/thgs/model",
+    "-r",
+    "2",
+    "--config",
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/third_party/THGS/configs/lerf.yml",
+    "--level",
+    "1"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/third_party/THGS",
+  "gpu": "0",
+  "start_utc": "20261127T022027773356Z",
+  "stage": "thgs_reweight",
+  "pid": 2827202,
+  "exit_code": 0,
+  "status": "completed",
+  "seconds": 50.35233020782471
+}

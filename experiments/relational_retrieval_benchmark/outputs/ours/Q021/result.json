@@ -1,0 +1,75 @@
+{
+  "query": {
+    "query_id": "Q021",
+    "subject_category": "upright portable air cooler",
+    "subject_category_id": "category_06",
+    "predicate": "near",
+    "predicate_ours": "near",
+    "predicate_relags": "close by",
+    "object_category": "multi-tier material rack",
+    "object_category_id": "category_04",
+    "query_en": "upright portable air cooler near the multi-tier material rack",
+    "query_zh": "位于多层料架附近的立式移动冷风机",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000089",
+      "frame_000281"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "query_status": "ok",
+  "empty_result": false,
+  "selected_gaussians": 7093,
+  "matched_object_ids": [
+    "obj_c57876bf22ca"
+  ],
+  "renderable_object_ids": [
+    "obj_c57876bf22ca"
+  ],
+  "unavailable_object_ids": [],
+  "fine_output_status": "available",
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.0021636206656694412,
+        0.0021526673808693886,
+        0.0021736091002821922
+      ],
+      "median_seconds": 0.0021636206656694412
+    },
+    "render": {
+      "samples_seconds": [
+        0.018625718541443348,
+        0.018534976989030838,
+        0.01851834263652563
+      ],
+      "median_seconds": 0.018534976989030838
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.02078933920711279,
+        0.020687644369900227,
+        0.020691951736807823
+      ],
+      "median_seconds": 0.020691951736807823
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000089",
+      "mask_pixels": 6412,
+      "directory": "outputs/ours/Q021/frame_000089"
+    },
+    {
+      "camera_id": "frame_000281",
+      "mask_pixels": 4427,
+      "directory": "outputs/ours/Q021/frame_000281"
+    }
+  ]
+}

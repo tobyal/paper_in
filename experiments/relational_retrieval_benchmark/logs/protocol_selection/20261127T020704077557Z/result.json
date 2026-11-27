@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/envs/saga/bin/python",
+    "scripts/prepare_protocol.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "0",
+  "start_utc": "20261127T020704077557Z",
+  "stage": "protocol_selection",
+  "pid": 2784614,
+  "exit_code": 0,
+  "status": "completed",
+  "seconds": 15.471879959106445
+}

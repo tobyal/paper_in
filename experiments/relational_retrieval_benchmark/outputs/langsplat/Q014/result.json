@@ -1,0 +1,70 @@
+{
+  "query": {
+    "query_id": "Q014",
+    "subject_category": "upright portable air cooler",
+    "subject_category_id": "category_06",
+    "predicate": "in front of",
+    "predicate_ours": "in_front_of",
+    "predicate_relags": "front",
+    "object_category": "material cart",
+    "object_category_id": "category_01",
+    "query_en": "upright portable air cooler in front of the material cart",
+    "query_zh": "位于物料车前方的立式移动冷风机",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000089",
+      "frame_000281"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "output_kind": "official per-view semantic masks; no invented 3D instance conversion",
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.3424750789999962,
+        0.3477919464930892,
+        0.3344029998406768
+      ],
+      "median_seconds": 0.3424750789999962
+    },
+    "render": {
+      "samples_seconds": [
+        0.05758696794509888,
+        0.057722740806639194,
+        0.05756974499672651
+      ],
+      "median_seconds": 0.05758696794509888
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.40758400596678257,
+        0.41318978928029537,
+        0.3955709058791399
+      ],
+      "median_seconds": 0.40758400596678257
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+    "render_includes": "three native latent feature rasters per view",
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000089",
+      "mask_pixels": 8670,
+      "directory": "outputs/langsplat/Q014/frame_000089",
+      "selected_level": 3
+    },
+    {
+      "camera_id": "frame_000281",
+      "mask_pixels": 8484,
+      "directory": "outputs/langsplat/Q014/frame_000281",
+      "selected_level": 3
+    }
+  ]
+}

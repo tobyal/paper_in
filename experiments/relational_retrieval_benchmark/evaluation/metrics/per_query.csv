@@ -1,0 +1,101 @@
+﻿method,method_id,query_id,relation,query,status,valid_views,total_views,empty_evaluated_predictions,iou,precision,recall,query_seconds,end_to_end_seconds
+LangSplat,langsplat,Q001,left_of,upright portable air cooler to the left of the workbench,evaluated,2,2,0,0.8406963654489223,0.9069719805566663,0.9191197931096045,0.36390913743525743,0.42281793151050806
+LangSplat,langsplat,Q002,left_of,group of blue storage bins to the left of the compartmented material rack,evaluated,2,2,0,0.06757642693562024,0.0834532845956323,0.25622873525236206,0.342535600066185,0.4108351031318307
+LangSplat,langsplat,Q003,left_of,fixture table carrying a black workpiece to the left of the material cart,evaluated,2,2,0,0.06540741063647051,0.13001844722526287,0.10426701813725364,0.34763773158192635,0.42236448265612125
+LangSplat,langsplat,Q004,left_of,workbench to the left of the upright portable air cooler,evaluated,2,2,0,0.0005102653379757474,0.001059850374064838,0.0009820912767186597,0.34554611053317785,0.3978119380772114
+LangSplat,langsplat,Q005,left_of,multi-tier material rack to the left of the assembly fixture table,excluded_no_reliable_reference,0,2,0,,,,0.35131446085870266,0.4227442480623722
+LangSplat,langsplat,Q006,right_of,material cart to the right of the multi-tier material rack,evaluated,2,2,0,0.25630671630282376,0.2825395088738548,0.775602451018994,0.3477644547820091,0.4063858035951853
+LangSplat,langsplat,Q007,right_of,multi-tier material rack to the right of the group of blue storage bins,evaluated,2,2,0,0.1659503641314226,0.19903028088234817,0.5067103039572933,0.34690653812140226,0.3978088991716504
+LangSplat,langsplat,Q008,right_of,workbench to the right of the fixture table carrying a black workpiece,evaluated,2,2,0,0.019283219500427447,0.019482825646207465,0.6343365038583447,0.35089727863669395,0.42511929851025343
+LangSplat,langsplat,Q009,right_of,fixture table carrying a black workpiece to the right of the assembly fixture table,evaluated,1,2,0,0.02723808333853939,0.05048731062433658,0.05584612428751361,0.3496111799031496,0.40502878557890654
+LangSplat,langsplat,Q010,right_of,group of blue storage bins to the right of the upright portable air cooler,evaluated,1,2,0,0.5117507463829136,0.9095238095238095,0.5391998709469269,0.3499943232163787,0.42023991607129574
+LangSplat,langsplat,Q011,in_front_of,assembly fixture table in front of the group of blue storage bins,evaluated,2,2,0,0.0,0.0,0.0,0.343611610122025,0.3997950544580817
+LangSplat,langsplat,Q012,in_front_of,compartmented material rack in front of the fixture table carrying a black workpiece,evaluated,2,2,0,0.12257594867063375,0.16378072090208898,0.2467623202235703,0.3420955343171954,0.4037563744932413
+LangSplat,langsplat,Q013,in_front_of,material cart in front of the compartmented material rack,evaluated,2,2,0,0.28399684766711525,0.34328747172918844,0.6692814737300076,0.33716059662401676,0.39003579411655664
+LangSplat,langsplat,Q014,in_front_of,upright portable air cooler in front of the material cart,evaluated,2,2,0,0.5117017730702321,0.572734428657893,0.7837924961550198,0.3424750789999962,0.40758400596678257
+LangSplat,langsplat,Q015,in_front_of,workbench in front of the multi-tier material rack,evaluated,2,2,0,0.0003773676778497346,0.0004776579352850539,0.0017908723281340267,0.3441402968019247,0.3976732837036252
+LangSplat,langsplat,Q016,behind,assembly fixture table behind the workbench,evaluated,2,2,0,0.0004908477349422232,0.0009135200974421437,0.0010586211459573905,0.3443757267668843,0.3938646027818322
+LangSplat,langsplat,Q017,behind,compartmented material rack behind the upright portable air cooler,evaluated,2,2,0,0.07119821005469545,0.15405306307792677,0.1934666681764648,0.34934958443045616,0.40511367097496986
+LangSplat,langsplat,Q018,behind,fixture table carrying a black workpiece behind the compartmented material rack,evaluated,2,2,0,0.0,0.0,0.0,0.3454187037423253,0.4002773743122816
+LangSplat,langsplat,Q019,behind,group of blue storage bins behind the workbench,evaluated,2,2,0,0.630823662959367,0.9458819055724831,0.657486678189128,0.34659818559885025,0.3956966269761324
+LangSplat,langsplat,Q020,behind,multi-tier material rack behind the assembly fixture table,evaluated,2,2,0,0.4582448134755665,0.791973612608594,0.5176211375050723,0.3425213899463415,0.3873195927590132
+LangSplat,langsplat,Q021,near,upright portable air cooler near the multi-tier material rack,evaluated,2,2,0,0.5118913298550072,0.8351587801761111,0.6300781525916651,0.346654349938035,0.40810639690607786
+LangSplat,langsplat,Q022,near,assembly fixture table near the fixture table carrying a black workpiece,evaluated,2,2,0,0.10670411392632759,0.12466333601721968,0.42506245908459184,0.34647440630942583,0.39806084148585796
+LangSplat,langsplat,Q023,near,compartmented material rack near the group of blue storage bins,evaluated,2,2,0,0.05048680607334291,0.10122891598547731,0.0840889443206463,0.3444174863398075,0.40842959843575954
+LangSplat,langsplat,Q024,near,material cart near the workbench,evaluated,2,2,0,0.09670630309662212,0.11684266770285556,0.3508946103558567,0.34441848658025265,0.41593877878040075
+LangSplat,langsplat,Q025,near,multi-tier material rack near the material cart,excluded_no_reliable_reference,0,2,0,,,,0.34942084550857544,0.4250946631655097
+THGS,thgs,Q001,left_of,upright portable air cooler to the left of the workbench,evaluated,2,2,0,0.8125526200880513,0.8222520463864952,0.9833786929005368,0.010641738772392273,0.0548307104036212
+THGS,thgs,Q002,left_of,group of blue storage bins to the left of the compartmented material rack,evaluated,2,2,1,0.0,0.0,0.0,0.01044876966625452,0.05630235467106104
+THGS,thgs,Q003,left_of,fixture table carrying a black workpiece to the left of the material cart,evaluated,2,2,1,0.00010689421191080375,0.00012552255585753736,0.000719244480580399,0.010811235755681992,0.055607493966817856
+THGS,thgs,Q004,left_of,workbench to the left of the upright portable air cooler,evaluated,2,2,0,0.0,0.0,0.0,0.010493065230548382,0.05294464249163866
+THGS,thgs,Q005,left_of,multi-tier material rack to the left of the assembly fixture table,excluded_no_reliable_reference,0,2,0,,,,0.01083136722445488,0.057772367261350155
+THGS,thgs,Q006,right_of,material cart to the right of the multi-tier material rack,evaluated,2,2,0,0.0,0.0,0.0,0.010880806483328342,0.054872093722224236
+THGS,thgs,Q007,right_of,multi-tier material rack to the right of the group of blue storage bins,evaluated,2,2,0,0.35855691947643886,0.5485640361959248,0.5091612705398081,0.010551922023296356,0.05339223798364401
+THGS,thgs,Q008,right_of,workbench to the right of the fixture table carrying a black workpiece,evaluated,2,2,0,0.0,0.0,0.0,0.010747389867901802,0.06112899910658598
+THGS,thgs,Q009,right_of,fixture table carrying a black workpiece to the right of the assembly fixture table,evaluated,1,2,0,3.196215680634129e-05,0.00012712133731646857,4.269581367546912e-05,0.01093790028244257,0.05497407354414463
+THGS,thgs,Q010,right_of,group of blue storage bins to the right of the upright portable air cooler,evaluated,1,2,0,0.268496900410595,0.9931506849315068,0.2689949991934183,0.010483380407094955,0.058162977918982506
+THGS,thgs,Q011,in_front_of,assembly fixture table in front of the group of blue storage bins,evaluated,2,2,0,0.0,0.0,0.0,0.009750952012836933,0.051591143012046814
+THGS,thgs,Q012,in_front_of,compartmented material rack in front of the fixture table carrying a black workpiece,evaluated,2,2,0,0.0,0.0,0.0,0.011051812209188938,0.05948946624994278
+THGS,thgs,Q013,in_front_of,material cart in front of the compartmented material rack,evaluated,2,2,0,0.00010745466756212223,0.0001524390243902439,0.00036386791594651143,0.011035546660423279,0.05859343986958265
+THGS,thgs,Q014,in_front_of,upright portable air cooler in front of the material cart,evaluated,2,2,1,0.0,0.0,0.0,0.010602324269711971,0.05451839417219162
+THGS,thgs,Q015,in_front_of,workbench in front of the multi-tier material rack,evaluated,2,2,0,0.0,0.0,0.0,0.01139607559889555,0.05644514970481396
+THGS,thgs,Q016,behind,assembly fixture table behind the workbench,evaluated,2,2,2,0.0,0.0,0.0,0.011001501232385635,0.054483650252223015
+THGS,thgs,Q017,behind,compartmented material rack behind the upright portable air cooler,evaluated,2,2,1,0.0,0.0,0.0,0.010607688687741756,0.054676610976457596
+THGS,thgs,Q018,behind,fixture table carrying a black workpiece behind the compartmented material rack,evaluated,2,2,0,0.0,0.0,0.0,0.010909500531852245,0.05506832990795374
+THGS,thgs,Q019,behind,group of blue storage bins behind the workbench,evaluated,2,2,0,0.5566252260199441,0.9465379763822408,0.5746887374580271,0.010550974868237972,0.052179062739014626
+THGS,thgs,Q020,behind,multi-tier material rack behind the assembly fixture table,evaluated,2,2,2,0.0,0.0,0.0,0.01101592555642128,0.05273113492876291
+THGS,thgs,Q021,near,upright portable air cooler near the multi-tier material rack,evaluated,2,2,1,0.0,0.0,0.0,0.010628261603415012,0.05563458614051342
+THGS,thgs,Q022,near,assembly fixture table near the fixture table carrying a black workpiece,evaluated,2,2,2,0.0,0.0,0.0,0.010930300690233707,0.05318852607160807
+THGS,thgs,Q023,near,compartmented material rack near the group of blue storage bins,evaluated,2,2,0,0.0,0.0,0.0,0.010418794117867947,0.054786757566034794
+THGS,thgs,Q024,near,material cart near the workbench,evaluated,2,2,0,0.0,0.0,0.0,0.010693930089473724,0.05732434894889593
+THGS,thgs,Q025,near,multi-tier material rack near the material cart,excluded_no_reliable_reference,0,2,0,,,,0.010834707878530025,0.05860413517802954
+ReLaGS,relags,Q001,left_of,upright portable air cooler to the left of the workbench,evaluated,2,2,1,0.0,0.0,0.0,0.12312754429876804,0.14292526431381702
+ReLaGS,relags,Q002,left_of,group of blue storage bins to the left of the compartmented material rack,evaluated,2,2,1,0.0,0.0,0.0,0.10228912346065044,0.1233908161520958
+ReLaGS,relags,Q003,left_of,fixture table carrying a black workpiece to the left of the material cart,evaluated,2,2,0,0.014307393470682774,0.34839788867352195,0.014601223321922088,0.11299481708556414,0.13411039765924215
+ReLaGS,relags,Q004,left_of,workbench to the left of the upright portable air cooler,evaluated,2,2,1,0.0,0.0,0.0,0.12749591004103422,0.1483752690255642
+ReLaGS,relags,Q005,left_of,multi-tier material rack to the left of the assembly fixture table,excluded_no_reliable_reference,0,2,0,,,,0.11987452767789364,0.14550570026040077
+ReLaGS,relags,Q006,right_of,material cart to the right of the multi-tier material rack,evaluated,2,2,2,0.0,0.0,0.0,0.12326736096292734,0.1455303281545639
+ReLaGS,relags,Q007,right_of,multi-tier material rack to the right of the group of blue storage bins,evaluated,2,2,2,0.0,0.0,0.0,0.10810665972530842,0.12736849021166563
+ReLaGS,relags,Q008,right_of,workbench to the right of the fixture table carrying a black workpiece,evaluated,2,2,2,0.0,0.0,0.0,0.10702848248183727,0.13252207078039646
+ReLaGS,relags,Q009,right_of,fixture table carrying a black workpiece to the right of the assembly fixture table,evaluated,1,2,0,0.0010321221695629278,0.07195301027900147,0.0010460474350489934,0.10262427292764187,0.12367998156696558
+ReLaGS,relags,Q010,right_of,group of blue storage bins to the right of the upright portable air cooler,evaluated,1,2,0,0.0030650104855621876,1.0,0.0030650104855621876,0.10060836188495159,0.12377070263028145
+ReLaGS,relags,Q011,in_front_of,assembly fixture table in front of the group of blue storage bins,evaluated,2,2,0,0.0,0.0,0.0,0.10055399034172297,0.12030716799199581
+ReLaGS,relags,Q012,in_front_of,compartmented material rack in front of the fixture table carrying a black workpiece,evaluated,2,2,2,0.0,0.0,0.0,0.10245249047875404,0.12443068064749241
+ReLaGS,relags,Q013,in_front_of,material cart in front of the compartmented material rack,evaluated,2,2,2,0.0,0.0,0.0,0.1004770677536726,0.11996494419872761
+ReLaGS,relags,Q014,in_front_of,upright portable air cooler in front of the material cart,evaluated,2,2,2,0.0,0.0,0.0,0.10135495942085981,0.12286541983485222
+ReLaGS,relags,Q015,in_front_of,workbench in front of the multi-tier material rack,evaluated,2,2,1,0.0,0.0,0.0,0.09910495113581419,0.11909379251301289
+ReLaGS,relags,Q016,behind,assembly fixture table behind the workbench,evaluated,2,2,2,0.0,0.0,0.0,0.10123672056943178,0.12043711543083191
+ReLaGS,relags,Q017,behind,compartmented material rack behind the upright portable air cooler,evaluated,2,2,2,0.0,0.0,0.0,0.09886259026825428,0.11854405421763659
+ReLaGS,relags,Q018,behind,fixture table carrying a black workpiece behind the compartmented material rack,evaluated,2,2,0,0.021521896624946912,0.2877421509686039,0.02222766912637391,0.10391215793788433,0.12401222996413708
+ReLaGS,relags,Q019,behind,group of blue storage bins behind the workbench,evaluated,2,2,0,0.03989272538492181,0.8225358201581028,0.03995526601389801,0.10499809868633747,0.12419587932527065
+ReLaGS,relags,Q020,behind,multi-tier material rack behind the assembly fixture table,evaluated,2,2,2,0.0,0.0,0.0,0.09433727990835905,0.11180741619318724
+ReLaGS,relags,Q021,near,upright portable air cooler near the multi-tier material rack,evaluated,2,2,2,0.0,0.0,0.0,0.09687426779419184,0.11794603150337934
+ReLaGS,relags,Q022,near,assembly fixture table near the fixture table carrying a black workpiece,evaluated,2,2,2,0.0,0.0,0.0,0.0925506791099906,0.11142887640744448
+ReLaGS,relags,Q023,near,compartmented material rack near the group of blue storage bins,evaluated,2,2,2,0.0,0.0,0.0,0.10271037556231022,0.12434651516377926
+ReLaGS,relags,Q024,near,material cart near the workbench,evaluated,2,2,2,0.0,0.0,0.0,0.10187373589724302,0.1256815306842327
+ReLaGS,relags,Q025,near,multi-tier material rack near the material cart,excluded_no_reliable_reference,0,2,0,,,,0.13603739440441132,0.16240855120122433
+Ours,ours,Q001,left_of,upright portable air cooler to the left of the workbench,evaluated,2,2,0,0.9638840771046095,0.9855147993073167,0.9777751638746981,0.0023593977093696594,0.020202532410621643
+Ours,ours,Q002,left_of,group of blue storage bins to the left of the compartmented material rack,evaluated,2,2,0,0.5145606833450438,0.7594196735020313,0.6127947827766083,0.0022114748135209084,0.02026133704930544
+Ours,ours,Q003,left_of,fixture table carrying a black workpiece to the left of the material cart,evaluated,2,2,0,0.5898170239510079,0.9293203930360243,0.6187903401290986,0.0026821959763765335,0.02154296636581421
+Ours,ours,Q004,left_of,workbench to the left of the upright portable air cooler,evaluated,2,2,0,0.5682818787651813,0.7599906582319684,0.6926670910075472,0.00220405962318182,0.017832386307418346
+Ours,ours,Q005,left_of,multi-tier material rack to the left of the assembly fixture table,excluded_no_reliable_reference,0,2,0,,,,0.004541641101241112,0.025559287518262863
+Ours,ours,Q006,right_of,material cart to the right of the multi-tier material rack,evaluated,2,2,0,0.9627190421892816,0.9808033539487251,0.9812319713741973,0.002542664296925068,0.019268126226961613
+Ours,ours,Q007,right_of,multi-tier material rack to the right of the group of blue storage bins,evaluated,2,2,0,0.7183724034559509,0.9116342434087135,0.7710380813782298,0.002583371475338936,0.018318564631044865
+Ours,ours,Q008,right_of,workbench to the right of the fixture table carrying a black workpiece,evaluated,2,2,0,0.6625277230734874,0.7320347993329195,0.8768258752608393,0.0020938562229275703,0.024267234839498997
+Ours,ours,Q009,right_of,fixture table carrying a black workpiece to the right of the assembly fixture table,evaluated,1,2,0,0.7849975754410832,0.8613527064360994,0.8985333988002476,0.003247511573135853,0.019747836515307426
+Ours,ours,Q010,right_of,group of blue storage bins to the right of the upright portable air cooler,evaluated,1,2,0,0.10202109670665915,0.9836956521739131,0.10219390224229714,0.002376796677708626,0.022798271849751472
+Ours,ours,Q011,in_front_of,assembly fixture table in front of the group of blue storage bins,evaluated,2,2,0,0.47045176210616835,0.8908783717863163,0.49997067436668496,0.002228955738246441,0.017046866938471794
+Ours,ours,Q012,in_front_of,compartmented material rack in front of the fixture table carrying a black workpiece,evaluated,2,2,0,0.7198835707482028,0.8723217954124034,0.8107974080876408,0.002600790001451969,0.021313554607331753
+Ours,ours,Q013,in_front_of,material cart in front of the compartmented material rack,evaluated,2,2,0,0.9227834773673536,0.9714502414050781,0.9484894825962806,0.0023428304120898247,0.018296183086931705
+Ours,ours,Q014,in_front_of,upright portable air cooler in front of the material cart,evaluated,2,2,0,0.8470742282881374,0.9836292452555007,0.8592955376793051,0.002148066647350788,0.020620446652173996
+Ours,ours,Q015,in_front_of,workbench in front of the multi-tier material rack,evaluated,2,2,0,0.5682818787651813,0.7599906582319684,0.6926670910075472,0.00225978996604681,0.01841926760971546
+Ours,ours,Q016,behind,assembly fixture table behind the workbench,evaluated,2,2,0,0.5116224987618295,0.7554885285148214,0.6185504650456908,0.0026801181957125664,0.017518844455480576
+Ours,ours,Q017,behind,compartmented material rack behind the upright portable air cooler,evaluated,2,2,0,0.774246402024204,0.8768151634667095,0.8670856117871966,0.002755992114543915,0.01839950494468212
+Ours,ours,Q018,behind,fixture table carrying a black workpiece behind the compartmented material rack,evaluated,2,2,0,0.5956412760302949,0.8897411383526626,0.6412044667000325,0.0022536301985383034,0.018595854751765728
+Ours,ours,Q019,behind,group of blue storage bins behind the workbench,evaluated,2,2,2,0.0,0.0,0.0,0.0017149941995739937,0.015305906534194946
+Ours,ours,Q020,behind,multi-tier material rack behind the assembly fixture table,evaluated,2,2,0,0.5752633609130432,0.909930061724799,0.6105901669218025,0.003172292374074459,0.016609791666269302
+Ours,ours,Q021,near,upright portable air cooler near the multi-tier material rack,evaluated,2,2,0,0.8470742282881374,0.9836292452555007,0.8592955376793051,0.0021636206656694412,0.020691951736807823
+Ours,ours,Q022,near,assembly fixture table near the fixture table carrying a black workpiece,evaluated,2,2,0,0.47045176210616835,0.8908783717863163,0.49997067436668496,0.002303468994796276,0.01715963613241911
+Ours,ours,Q023,near,compartmented material rack near the group of blue storage bins,evaluated,2,2,0,0.7198835707482028,0.8723217954124034,0.8107974080876408,0.002694285474717617,0.021399916149675846
+Ours,ours,Q024,near,material cart near the workbench,evaluated,2,2,0,0.7600234064458672,0.8354350331662685,0.8969660699502504,0.0025227004662156105,0.023710706271231174
+Ours,ours,Q025,near,multi-tier material rack near the material cart,excluded_no_reliable_reference,0,2,0,,,,0.0038251737132668495,0.026943341828882694

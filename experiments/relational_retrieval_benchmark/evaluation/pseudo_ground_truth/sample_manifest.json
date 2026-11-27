@@ -1,0 +1,1134 @@
+[
+  {
+    "query_id": "Q001",
+    "camera_id": "frame_000329",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_e57b3a886c2d"
+    ],
+    "task_ids": [
+      "T066"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 12319,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q001/frame_000329/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q001/frame_000329/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q001",
+    "camera_id": "frame_000265",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_e57b3a886c2d"
+    ],
+    "task_ids": [
+      "T055"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 10879,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q001/frame_000265/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q001/frame_000265/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q002",
+    "camera_id": "frame_000129",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_7463bab859d0"
+    ],
+    "task_ids": [
+      "T028"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 9504,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q002/frame_000129/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q002/frame_000129/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q002",
+    "camera_id": "frame_000153",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_7463bab859d0"
+    ],
+    "task_ids": [
+      "T029"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 9904,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q002/frame_000153/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q002/frame_000153/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q003",
+    "camera_id": "frame_000169",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_ad85774e5f18",
+      "obj_8528f4bf8a3d"
+    ],
+    "task_ids": [
+      "T033",
+      "T034"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 70114,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q003/frame_000169/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q003/frame_000169/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q003",
+    "camera_id": "frame_000113",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_ad85774e5f18",
+      "obj_8528f4bf8a3d"
+    ],
+    "task_ids": [
+      "T021",
+      "T022"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 15989,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q003/frame_000113/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q003/frame_000113/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q004",
+    "camera_id": "frame_000321",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_df0a6cc33263"
+    ],
+    "task_ids": [
+      "T065"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 8655,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q004/frame_000321/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q004/frame_000321/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q004",
+    "camera_id": "frame_000025",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_df0a6cc33263"
+    ],
+    "task_ids": [
+      "T009"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 3831,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q004/frame_000025/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q004/frame_000025/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q005",
+    "camera_id": "frame_000217",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "excluded_unreliable",
+    "target_visible": true,
+    "target_ids": [
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_dee5bef52687"
+    ],
+    "task_ids": [
+      "T047",
+      "T048",
+      "T049",
+      "T050",
+      "T051"
+    ],
+    "unreliable_task_ids": [
+      "T051"
+    ],
+    "reasons": [
+      "Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts."
+    ],
+    "mask_pixels": 53663,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q005/frame_000217/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q005/frame_000217/original_rgb.png",
+    "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+  },
+  {
+    "query_id": "Q005",
+    "camera_id": "frame_000065",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "excluded_unreliable",
+    "target_visible": true,
+    "target_ids": [
+      "obj_126125e3a773",
+      "obj_aad6e7f85a9a",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2",
+      "obj_dee5bef52687"
+    ],
+    "task_ids": [
+      "T011",
+      "T012",
+      "T015",
+      "T016",
+      "T018"
+    ],
+    "unreliable_task_ids": [
+      "T018"
+    ],
+    "reasons": [
+      "M0 box spans rear large panel/rack plus separate front workstation; visible ownership cannot be reliably resolved in this view after additional prompts."
+    ],
+    "mask_pixels": 24333,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q005/frame_000065/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q005/frame_000065/original_rgb.png",
+    "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+  },
+  {
+    "query_id": "Q006",
+    "camera_id": "frame_000321",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_f9a0e863e32d"
+    ],
+    "task_ids": [
+      "T064"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 30190,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q006/frame_000321/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q006/frame_000321/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q006",
+    "camera_id": "frame_000273",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_f9a0e863e32d"
+    ],
+    "task_ids": [
+      "T057"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 17128,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q006/frame_000273/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q006/frame_000273/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q007",
+    "camera_id": "frame_000185",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_5bfd32389355"
+    ],
+    "task_ids": [
+      "T038"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 9846,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q007/frame_000185/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q007/frame_000185/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q007",
+    "camera_id": "frame_000193",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_5bfd32389355"
+    ],
+    "task_ids": [
+      "T041"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 9734,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q007/frame_000193/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q007/frame_000193/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q008",
+    "camera_id": "frame_000225",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_2e1a6e5960f5"
+    ],
+    "task_ids": [
+      "T052"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 9761,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q008/frame_000225/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q008/frame_000225/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q008",
+    "camera_id": "frame_000209",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_2e1a6e5960f5"
+    ],
+    "task_ids": [
+      "T046"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 5282,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q008/frame_000209/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q008/frame_000209/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q009",
+    "camera_id": "frame_000161",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "excluded_unreliable",
+    "target_visible": true,
+    "target_ids": [
+      "obj_c812ae8b15bd",
+      "obj_8e79bd39b8b9",
+      "obj_087984e7c374"
+    ],
+    "task_ids": [
+      "T030",
+      "T031",
+      "T032"
+    ],
+    "unreliable_task_ids": [
+      "T031"
+    ],
+    "reasons": [
+      "Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable."
+    ],
+    "mask_pixels": 28731,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q009/frame_000161/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q009/frame_000161/original_rgb.png",
+    "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+  },
+  {
+    "query_id": "Q009",
+    "camera_id": "frame_000065",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_c812ae8b15bd",
+      "obj_8e79bd39b8b9",
+      "obj_087984e7c374"
+    ],
+    "task_ids": [
+      "T010",
+      "T013",
+      "T014"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 46843,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q009/frame_000065/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q009/frame_000065/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q010",
+    "camera_id": "frame_000129",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "excluded_unreliable",
+    "target_visible": true,
+    "target_ids": [
+      "obj_141f3e5dbe3a",
+      "obj_3c963764ddb5"
+    ],
+    "task_ids": [
+      "T026",
+      "T027"
+    ],
+    "unreliable_task_ids": [
+      "T026",
+      "T027"
+    ],
+    "reasons": [
+      "Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.",
+      "Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points."
+    ],
+    "mask_pixels": 19237,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q010/frame_000129/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q010/frame_000129/original_rgb.png",
+    "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+  },
+  {
+    "query_id": "Q010",
+    "camera_id": "frame_000209",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_141f3e5dbe3a",
+      "obj_3c963764ddb5"
+    ],
+    "task_ids": [
+      "T044",
+      "T045"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 12398,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q010/frame_000209/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q010/frame_000209/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q011",
+    "camera_id": "frame_000177",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_09a35ba03c92"
+    ],
+    "task_ids": [
+      "T036"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 24814,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q011/frame_000177/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q011/frame_000177/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q011",
+    "camera_id": "frame_000185",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_09a35ba03c92"
+    ],
+    "task_ids": [
+      "T037"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 24951,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q011/frame_000185/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q011/frame_000185/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q012",
+    "camera_id": "frame_000073",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_c7c9293c6c6d"
+    ],
+    "task_ids": [
+      "T019"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 31388,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q012/frame_000073/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q012/frame_000073/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q012",
+    "camera_id": "frame_000305",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_c7c9293c6c6d"
+    ],
+    "task_ids": [
+      "T060"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 58684,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q012/frame_000305/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q012/frame_000305/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q013",
+    "camera_id": "frame_000297",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_4fd05384c476"
+    ],
+    "task_ids": [
+      "T059"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 29749,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q013/frame_000297/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q013/frame_000297/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q013",
+    "camera_id": "frame_000065",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_4fd05384c476"
+    ],
+    "task_ids": [
+      "T017"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 10993,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q013/frame_000065/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q013/frame_000065/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q014",
+    "camera_id": "frame_000089",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_c57876bf22ca"
+    ],
+    "task_ids": [
+      "T020"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 6934,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q014/frame_000089/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q014/frame_000089/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q014",
+    "camera_id": "frame_000281",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_c57876bf22ca"
+    ],
+    "task_ids": [
+      "T058"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 5382,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q014/frame_000281/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q014/frame_000281/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q015",
+    "camera_id": "frame_000321",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_df0a6cc33263"
+    ],
+    "task_ids": [
+      "T065"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 8655,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q015/frame_000321/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q015/frame_000321/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q015",
+    "camera_id": "frame_000025",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_df0a6cc33263"
+    ],
+    "task_ids": [
+      "T009"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 3831,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q015/frame_000025/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q015/frame_000025/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q016",
+    "camera_id": "frame_000193",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01"
+    ],
+    "task_ids": [
+      "T039",
+      "T040"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 39602,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q016/frame_000193/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q016/frame_000193/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q016",
+    "camera_id": "frame_000017",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_8429bc5f3c33",
+      "obj_d058f708eb01"
+    ],
+    "task_ids": [
+      "T007",
+      "T008"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 22671,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q016/frame_000017/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q016/frame_000017/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q017",
+    "camera_id": "frame_000305",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_5746b7e7d040"
+    ],
+    "task_ids": [
+      "T061"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 21498,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q017/frame_000305/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q017/frame_000305/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q017",
+    "camera_id": "frame_000169",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_5746b7e7d040"
+    ],
+    "task_ids": [
+      "T035"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 19299,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q017/frame_000169/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q017/frame_000169/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q018",
+    "camera_id": "frame_000273",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_ad85774e5f18"
+    ],
+    "task_ids": [
+      "T056"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 9337,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q018/frame_000273/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q018/frame_000273/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q018",
+    "camera_id": "frame_000169",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_ad85774e5f18"
+    ],
+    "task_ids": [
+      "T033"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 38758,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q018/frame_000169/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q018/frame_000169/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q019",
+    "camera_id": "frame_000193",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_141f3e5dbe3a"
+    ],
+    "task_ids": [
+      "T042"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 10169,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q019/frame_000193/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q019/frame_000193/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q019",
+    "camera_id": "frame_000201",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_141f3e5dbe3a"
+    ],
+    "task_ids": [
+      "T043"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 10490,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q019/frame_000201/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q019/frame_000201/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q020",
+    "camera_id": "frame_000001",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_126125e3a773",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2"
+    ],
+    "task_ids": [
+      "T001",
+      "T002",
+      "T003"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 25227,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q020/frame_000001/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q020/frame_000001/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q020",
+    "camera_id": "frame_000009",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_126125e3a773",
+      "obj_b7e0494ce9dd",
+      "obj_b8542dc54ed2"
+    ],
+    "task_ids": [
+      "T004",
+      "T005",
+      "T006"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 26551,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q020/frame_000009/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q020/frame_000009/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q021",
+    "camera_id": "frame_000089",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_c57876bf22ca"
+    ],
+    "task_ids": [
+      "T020"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 6934,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q021/frame_000089/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q021/frame_000089/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q021",
+    "camera_id": "frame_000281",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_c57876bf22ca"
+    ],
+    "task_ids": [
+      "T058"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 5382,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q021/frame_000281/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q021/frame_000281/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q022",
+    "camera_id": "frame_000177",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_09a35ba03c92"
+    ],
+    "task_ids": [
+      "T036"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 24814,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q022/frame_000177/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q022/frame_000177/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q022",
+    "camera_id": "frame_000185",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_09a35ba03c92"
+    ],
+    "task_ids": [
+      "T037"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 24951,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q022/frame_000185/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q022/frame_000185/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q023",
+    "camera_id": "frame_000073",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_c7c9293c6c6d"
+    ],
+    "task_ids": [
+      "T019"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 31388,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q023/frame_000073/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q023/frame_000073/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q023",
+    "camera_id": "frame_000305",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_c7c9293c6c6d"
+    ],
+    "task_ids": [
+      "T060"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 58684,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q023/frame_000305/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q023/frame_000305/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q024",
+    "camera_id": "frame_000313",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_7047e5f33259",
+      "obj_c0162cd69680"
+    ],
+    "task_ids": [
+      "T062",
+      "T063"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 17817,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q024/frame_000313/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q024/frame_000313/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q024",
+    "camera_id": "frame_000249",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "accepted_pseudo",
+    "target_visible": true,
+    "target_ids": [
+      "obj_7047e5f33259",
+      "obj_c0162cd69680"
+    ],
+    "task_ids": [
+      "T053",
+      "T054"
+    ],
+    "unreliable_task_ids": [],
+    "reasons": [],
+    "mask_pixels": 10711,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q024/frame_000249/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q024/frame_000249/original_rgb.png",
+    "reference_status_note": "Reviewed SAM union; remaining thin-structure and occlusion uncertainty disclosed"
+  },
+  {
+    "query_id": "Q025",
+    "camera_id": "frame_000217",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "excluded_unreliable",
+    "target_visible": true,
+    "target_ids": [
+      "obj_aad6e7f85a9a",
+      "obj_b8542dc54ed2",
+      "obj_dee5bef52687"
+    ],
+    "task_ids": [
+      "T048",
+      "T050",
+      "T051"
+    ],
+    "unreliable_task_ids": [
+      "T051"
+    ],
+    "reasons": [
+      "Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts."
+    ],
+    "mask_pixels": 18330,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q025/frame_000217/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q025/frame_000217/original_rgb.png",
+    "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+  },
+  {
+    "query_id": "Q025",
+    "camera_id": "frame_000121",
+    "reference_type": "SAM-assisted Pseudo-GT",
+    "status": "excluded_unreliable",
+    "target_visible": true,
+    "target_ids": [
+      "obj_aad6e7f85a9a",
+      "obj_b8542dc54ed2",
+      "obj_dee5bef52687"
+    ],
+    "task_ids": [
+      "T023",
+      "T024",
+      "T025"
+    ],
+    "unreliable_task_ids": [
+      "T023"
+    ],
+    "reasons": [
+      "Overlapping open racks: SAM alternatives either fill substantial visible gaps or omit many visible rods. Cannot reliably define complete device-specific visible mask."
+    ],
+    "mask_pixels": 56273,
+    "reviewer": "Codex visual review; not independent human annotation",
+    "independent_human_ground_truth": false,
+    "mask_path": "evaluation/pseudo_ground_truth/Q025/frame_000121/mask.png",
+    "original_rgb": "evaluation/pseudo_ground_truth/Q025/frame_000121/original_rgb.png",
+    "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+  }
+]

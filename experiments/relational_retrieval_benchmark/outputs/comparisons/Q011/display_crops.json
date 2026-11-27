@@ -1,0 +1,18 @@
+{
+  "crops": {
+    "oblique": [
+      262,
+      294,
+      519,
+      551
+    ],
+    "top": [
+      296,
+      303,
+      557,
+      564
+    ]
+  },
+  "same_crop_and_scale_for_all_three_methods": true,
+  "purpose": "Remove blank margins in supplementary figure only; full original virtual renders retained"
+}

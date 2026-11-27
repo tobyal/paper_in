@@ -1,0 +1,83 @@
+{
+  "query": {
+    "query_id": "Q019",
+    "subject_category": "group of blue storage bins",
+    "subject_category_id": "category_05",
+    "predicate": "behind",
+    "predicate_ours": "behind",
+    "predicate_relags": "behind",
+    "object_category": "workbench",
+    "object_category_id": "category_07",
+    "query_en": "group of blue storage bins behind the workbench",
+    "query_zh": "位于工作台后方的蓝色箱组",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000193",
+      "frame_000201"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "selected_gaussians": 7592,
+  "selected_nodes": [
+    {
+      "level": 3,
+      "score": 0.5811184644699097,
+      "node_id": 638
+    },
+    {
+      "level": 3,
+      "score": 0.5764338374137878,
+      "node_id": 12
+    },
+    {
+      "level": 3,
+      "score": 0.566778838634491,
+      "node_id": 18
+    }
+  ],
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.010550974868237972,
+        0.010510639287531376,
+        0.010987987741827965
+      ],
+      "median_seconds": 0.010550974868237972
+    },
+    "render": {
+      "samples_seconds": [
+        0.04162808787077665,
+        0.041657038033008575,
+        0.04175826720893383
+      ],
+      "median_seconds": 0.041657038033008575
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.052179062739014626,
+        0.05216767732053995,
+        0.052746254950761795
+      ],
+      "median_seconds": 0.052179062739014626
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000193",
+      "mask_pixels": 6177,
+      "directory": "outputs/thgs/Q019/frame_000193"
+    },
+    {
+      "camera_id": "frame_000201",
+      "mask_pixels": 6366,
+      "directory": "outputs/thgs/Q019/frame_000201"
+    }
+  ]
+}

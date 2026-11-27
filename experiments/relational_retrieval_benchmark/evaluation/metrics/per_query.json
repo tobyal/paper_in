@@ -1,0 +1,3860 @@
+[
+  {
+    "method": "langsplat",
+    "query_id": "Q001",
+    "relation": "left_of",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.36390913743525743,
+          0.3733522016555071,
+          0.35924310330301523
+        ],
+        "median_seconds": 0.36390913743525743
+      },
+      "render": {
+        "samples_seconds": [
+          0.05047001224011183,
+          0.050685157999396324,
+          0.05040000379085541
+        ],
+        "median_seconds": 0.05047001224011183
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.42281793151050806,
+          0.44743390288203955,
+          0.4137192629277706
+        ],
+        "median_seconds": 0.42281793151050806
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q002",
+    "relation": "left_of",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.34283696208149195,
+          0.3412168547511101,
+          0.342535600066185
+        ],
+        "median_seconds": 0.342535600066185
+      },
+      "render": {
+        "samples_seconds": [
+          0.056125941686332226,
+          0.055793244391679764,
+          0.055822450667619705
+        ],
+        "median_seconds": 0.055822450667619705
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.4028082210570574,
+          0.41178635507822037,
+          0.4108351031318307
+        ],
+        "median_seconds": 0.4108351031318307
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q003",
+    "relation": "left_of",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.33685624599456787,
+          0.4435373330488801,
+          0.34763773158192635
+        ],
+        "median_seconds": 0.34763773158192635
+      },
+      "render": {
+        "samples_seconds": [
+          0.05820992682129145,
+          0.05833037942647934,
+          0.05849424656480551
+        ],
+        "median_seconds": 0.05833037942647934
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.39880840480327606,
+          0.5056936917826533,
+          0.42236448265612125
+        ],
+        "median_seconds": 0.42236448265612125
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q004",
+    "relation": "left_of",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.34554611053317785,
+          0.3459219029173255,
+          0.3436555517837405
+        ],
+        "median_seconds": 0.34554611053317785
+      },
+      "render": {
+        "samples_seconds": [
+          0.04846507031470537,
+          0.048321171663701534,
+          0.04835438635200262
+        ],
+        "median_seconds": 0.04835438635200262
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.3978119380772114,
+          0.40049886982887983,
+          0.39779210835695267
+        ],
+        "median_seconds": 0.3978119380772114
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q005",
+    "relation": "left_of",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.34249131102114916,
+          0.35424056742340326,
+          0.35131446085870266
+        ],
+        "median_seconds": 0.35131446085870266
+      },
+      "render": {
+        "samples_seconds": [
+          0.06452865898609161,
+          0.064513323828578,
+          0.06458351295441389
+        ],
+        "median_seconds": 0.06452865898609161
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.4110242910683155,
+          0.4227442480623722,
+          0.42387796845287085
+        ],
+        "median_seconds": 0.4227442480623722
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q006",
+    "relation": "right_of",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.34721506852656603,
+          0.34942259825766087,
+          0.3477644547820091
+        ],
+        "median_seconds": 0.3477644547820091
+      },
+      "render": {
+        "samples_seconds": [
+          0.051202024333179,
+          0.051415721885859966,
+          0.0512212086468935
+        ],
+        "median_seconds": 0.0512212086468935
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.4023365555331111,
+          0.4063858035951853,
+          0.4066877979785204
+        ],
+        "median_seconds": 0.4063858035951853
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q007",
+    "relation": "right_of",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.3462623981758952,
+          0.34690653812140226,
+          0.35698365792632103
+        ],
+        "median_seconds": 0.34690653812140226
+      },
+      "render": {
+        "samples_seconds": [
+          0.045568508096039295,
+          0.04562308080494404,
+          0.04589750897139311
+        ],
+        "median_seconds": 0.04562308080494404
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.39584810100495815,
+          0.3978088991716504,
+          0.406945263966918
+        ],
+        "median_seconds": 0.3978088991716504
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q008",
+    "relation": "right_of",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.3461299706250429,
+          0.35089727863669395,
+          0.35185550060123205
+        ],
+        "median_seconds": 0.35089727863669395
+      },
+      "render": {
+        "samples_seconds": [
+          0.06920470017939806,
+          0.06936718244105577,
+          0.06932037509977818
+        ],
+        "median_seconds": 0.06932037509977818
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.41932495031505823,
+          0.431809863075614,
+          0.42511929851025343
+        ],
+        "median_seconds": 0.42511929851025343
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q009",
+    "relation": "right_of",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.3496111799031496,
+          0.34866555128246546,
+          0.352409184910357
+        ],
+        "median_seconds": 0.3496111799031496
+      },
+      "render": {
+        "samples_seconds": [
+          0.05143730156123638,
+          0.051727188751101494,
+          0.05174423009157181
+        ],
+        "median_seconds": 0.051727188751101494
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.40502878557890654,
+          0.40440559014678,
+          0.408208766952157
+        ],
+        "median_seconds": 0.40502878557890654
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q010",
+    "relation": "right_of",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.3525828383862972,
+          0.3495652386918664,
+          0.3499943232163787
+        ],
+        "median_seconds": 0.3499943232163787
+      },
+      "render": {
+        "samples_seconds": [
+          0.06370794773101807,
+          0.06326399650424719,
+          0.06349407229572535
+        ],
+        "median_seconds": 0.06349407229572535
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.42023991607129574,
+          0.4284556433558464,
+          0.4174197195097804
+        ],
+        "median_seconds": 0.42023991607129574
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q011",
+    "relation": "in_front_of",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.343611610122025,
+          0.34575568977743387,
+          0.3426620615646243
+        ],
+        "median_seconds": 0.343611610122025
+      },
+      "render": {
+        "samples_seconds": [
+          0.046004269272089005,
+          0.04635308776050806,
+          0.046254933811724186
+        ],
+        "median_seconds": 0.046254933811724186
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.39344480261206627,
+          0.3997950544580817,
+          0.40186901204288006
+        ],
+        "median_seconds": 0.3997950544580817
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q012",
+    "relation": "in_front_of",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.3420955343171954,
+          0.33978305850178003,
+          0.3437277730554342
+        ],
+        "median_seconds": 0.3420955343171954
+      },
+      "render": {
+        "samples_seconds": [
+          0.05790095217525959,
+          0.05830522160977125,
+          0.058041803538799286
+        ],
+        "median_seconds": 0.058041803538799286
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.4037563744932413,
+          0.4017989272251725,
+          0.4138190420344472
+        ],
+        "median_seconds": 0.4037563744932413
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q013",
+    "relation": "in_front_of",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.34062852151691914,
+          0.33716059662401676,
+          0.33078007865697145
+        ],
+        "median_seconds": 0.33716059662401676
+      },
+      "render": {
+        "samples_seconds": [
+          0.05018754489719868,
+          0.04912256449460983,
+          0.04986621532589197
+        ],
+        "median_seconds": 0.04986621532589197
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.3945652348920703,
+          0.39003579411655664,
+          0.3843397060409188
+        ],
+        "median_seconds": 0.39003579411655664
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q014",
+    "relation": "in_front_of",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.3424750789999962,
+          0.3477919464930892,
+          0.3344029998406768
+        ],
+        "median_seconds": 0.3424750789999962
+      },
+      "render": {
+        "samples_seconds": [
+          0.05758696794509888,
+          0.057722740806639194,
+          0.05756974499672651
+        ],
+        "median_seconds": 0.05758696794509888
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.40758400596678257,
+          0.41318978928029537,
+          0.3955709058791399
+        ],
+        "median_seconds": 0.40758400596678257
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q015",
+    "relation": "in_front_of",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.3441402968019247,
+          0.3439237307757139,
+          0.34549508709460497
+        ],
+        "median_seconds": 0.3441402968019247
+      },
+      "render": {
+        "samples_seconds": [
+          0.048167455941438675,
+          0.04832999315112829,
+          0.04836432635784149
+        ],
+        "median_seconds": 0.04832999315112829
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.3961499100551009,
+          0.40113313030451536,
+          0.3976732837036252
+        ],
+        "median_seconds": 0.3976732837036252
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q016",
+    "relation": "behind",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.34636039938777685,
+          0.3443757267668843,
+          0.33504062704741955
+        ],
+        "median_seconds": 0.3443757267668843
+      },
+      "render": {
+        "samples_seconds": [
+          0.045551021583378315,
+          0.045587437227368355,
+          0.04564992990344763
+        ],
+        "median_seconds": 0.045587437227368355
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.39590781182050705,
+          0.3938646027818322,
+          0.3845862206071615
+        ],
+        "median_seconds": 0.3938646027818322
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q017",
+    "relation": "behind",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.34723604191094637,
+          0.34934958443045616,
+          0.35299924947321415
+        ],
+        "median_seconds": 0.34934958443045616
+      },
+      "render": {
+        "samples_seconds": [
+          0.04778229910880327,
+          0.04835691023617983,
+          0.04828969296067953
+        ],
+        "median_seconds": 0.04828969296067953
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.39893361181020737,
+          0.40536816231906414,
+          0.40511367097496986
+        ],
+        "median_seconds": 0.40511367097496986
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q018",
+    "relation": "behind",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.3454187037423253,
+          0.34809547010809183,
+          0.33455309364944696
+        ],
+        "median_seconds": 0.3454187037423253
+      },
+      "render": {
+        "samples_seconds": [
+          0.051030113361775875,
+          0.05111097637563944,
+          0.051070758141577244
+        ],
+        "median_seconds": 0.051070758141577244
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.4002773743122816,
+          0.4030053708702326,
+          0.3893903698772192
+        ],
+        "median_seconds": 0.4002773743122816
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q019",
+    "relation": "behind",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.3496184330433607,
+          0.3441291796043515,
+          0.34659818559885025
+        ],
+        "median_seconds": 0.34659818559885025
+      },
+      "render": {
+        "samples_seconds": [
+          0.04221480991691351,
+          0.04204185027629137,
+          0.04214764945209026
+        ],
+        "median_seconds": 0.04214764945209026
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.3956966269761324,
+          0.39663925021886826,
+          0.39272584207355976
+        ],
+        "median_seconds": 0.3956966269761324
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q020",
+    "relation": "behind",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.34286337718367577,
+          0.3425213899463415,
+          0.3381509827449918
+        ],
+        "median_seconds": 0.3425213899463415
+      },
+      "render": {
+        "samples_seconds": [
+          0.041060956194996834,
+          0.04102362599223852,
+          0.04103292804211378
+        ],
+        "median_seconds": 0.04103292804211378
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.38768309727311134,
+          0.3873195927590132,
+          0.3828554591163993
+        ],
+        "median_seconds": 0.3873195927590132
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q021",
+    "relation": "near",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.346654349938035,
+          0.34676824789494276,
+          0.34132713731378317
+        ],
+        "median_seconds": 0.346654349938035
+      },
+      "render": {
+        "samples_seconds": [
+          0.057982816360890865,
+          0.05744795221835375,
+          0.05741378013044596
+        ],
+        "median_seconds": 0.05744795221835375
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.4086063839495182,
+          0.40810639690607786,
+          0.40257500391453505
+        ],
+        "median_seconds": 0.40810639690607786
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q022",
+    "relation": "near",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.34647440630942583,
+          0.3478734539821744,
+          0.346381445415318
+        ],
+        "median_seconds": 0.34647440630942583
+      },
+      "render": {
+        "samples_seconds": [
+          0.046062201261520386,
+          0.046240078285336494,
+          0.046234278939664364
+        ],
+        "median_seconds": 0.046234278939664364
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.3962529497221112,
+          0.39806084148585796,
+          0.3991955127567053
+        ],
+        "median_seconds": 0.39806084148585796
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q023",
+    "relation": "near",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.3463528100401163,
+          0.3444174863398075,
+          0.3432635497301817
+        ],
+        "median_seconds": 0.3444174863398075
+      },
+      "render": {
+        "samples_seconds": [
+          0.05805908050388098,
+          0.05800613295286894,
+          0.057701717130839825
+        ],
+        "median_seconds": 0.05800613295286894
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.40842959843575954,
+          0.40633872244507074,
+          0.40877702087163925
+        ],
+        "median_seconds": 0.40842959843575954
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q024",
+    "relation": "near",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.34441848658025265,
+          0.3467646911740303,
+          0.3435223037377
+        ],
+        "median_seconds": 0.34441848658025265
+      },
+      "render": {
+        "samples_seconds": [
+          0.06509931106120348,
+          0.0653254659846425,
+          0.06491959653794765
+        ],
+        "median_seconds": 0.06509931106120348
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.4134241146966815,
+          0.41593877878040075,
+          0.42160617653280497
+        ],
+        "median_seconds": 0.41593877878040075
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "langsplat",
+    "query_id": "Q025",
+    "relation": "near",
+    "selected_gaussians": null,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.34942084550857544,
+          0.352173637598753,
+          0.34556818939745426
+        ],
+        "median_seconds": 0.34942084550857544
+      },
+      "render": {
+        "samples_seconds": [
+          0.07180455140769482,
+          0.07098011206835508,
+          0.07091435045003891
+        ],
+        "median_seconds": 0.07098011206835508
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.4250946631655097,
+          0.43111135717481375,
+          0.420328582637012
+        ],
+        "median_seconds": 0.4250946631655097
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+      "render_includes": "three native latent feature rasters per view",
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q001",
+    "relation": "left_of",
+    "selected_gaussians": 9143,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.01066156942397356,
+          0.010641738772392273,
+          0.010475740768015385
+        ],
+        "median_seconds": 0.010641738772392273
+      },
+      "render": {
+        "samples_seconds": [
+          0.04424714203923941,
+          0.044188971631228924,
+          0.04415361303836107
+        ],
+        "median_seconds": 0.044188971631228924
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.05490871146321297,
+          0.0548307104036212,
+          0.05462935380637646
+        ],
+        "median_seconds": 0.0548307104036212
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q002",
+    "relation": "left_of",
+    "selected_gaussians": 3993,
+    "empty_views": 1,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.010387301445007324,
+          0.010452160611748695,
+          0.01044876966625452
+        ],
+        "median_seconds": 0.01044876966625452
+      },
+      "render": {
+        "samples_seconds": [
+          0.04604924563318491,
+          0.04576884210109711,
+          0.04585358500480652
+        ],
+        "median_seconds": 0.04585358500480652
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.056436547078192234,
+          0.0562210027128458,
+          0.05630235467106104
+        ],
+        "median_seconds": 0.05630235467106104
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q003",
+    "relation": "left_of",
+    "selected_gaussians": 52332,
+    "empty_views": 1,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.010806022211909294,
+          0.010845989920198917,
+          0.010811235755681992
+        ],
+        "median_seconds": 0.010811235755681992
+      },
+      "render": {
+        "samples_seconds": [
+          0.044882736168801785,
+          0.04461497813463211,
+          0.044796258211135864
+        ],
+        "median_seconds": 0.044796258211135864
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.05568875838071108,
+          0.05546096805483103,
+          0.055607493966817856
+        ],
+        "median_seconds": 0.055607493966817856
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q004",
+    "relation": "left_of",
+    "selected_gaussians": 9143,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.010493065230548382,
+          0.010462475009262562,
+          0.010751327499747276
+        ],
+        "median_seconds": 0.010493065230548382
+      },
+      "render": {
+        "samples_seconds": [
+          0.043079118244349957,
+          0.0424821674823761,
+          0.04160551354289055
+        ],
+        "median_seconds": 0.0424821674823761
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.05357218347489834,
+          0.05294464249163866,
+          0.052356841042637825
+        ],
+        "median_seconds": 0.05294464249163866
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q005",
+    "relation": "left_of",
+    "selected_gaussians": 52332,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.01083136722445488,
+          0.0107923224568367,
+          0.010889740660786629
+        ],
+        "median_seconds": 0.01083136722445488
+      },
+      "render": {
+        "samples_seconds": [
+          0.046941000036895275,
+          0.04681419488042593,
+          0.04706340562552214
+        ],
+        "median_seconds": 0.046941000036895275
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.057772367261350155,
+          0.05760651733726263,
+          0.057953146286308765
+        ],
+        "median_seconds": 0.057772367261350155
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q006",
+    "relation": "right_of",
+    "selected_gaussians": 70497,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.010944098234176636,
+          0.01087960321456194,
+          0.010880806483328342
+        ],
+        "median_seconds": 0.010880806483328342
+      },
+      "render": {
+        "samples_seconds": [
+          0.04415667336434126,
+          0.04383985698223114,
+          0.04399128723889589
+        ],
+        "median_seconds": 0.04399128723889589
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.055100771598517895,
+          0.05471946019679308,
+          0.054872093722224236
+        ],
+        "median_seconds": 0.054872093722224236
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q007",
+    "relation": "right_of",
+    "selected_gaussians": 12469,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.010639281012117863,
+          0.010546509176492691,
+          0.010551922023296356
+        ],
+        "median_seconds": 0.010551922023296356
+      },
+      "render": {
+        "samples_seconds": [
+          0.04263267759233713,
+          0.04284572880715132,
+          0.042860458604991436
+        ],
+        "median_seconds": 0.04284572880715132
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.053271958604454994,
+          0.05339223798364401,
+          0.05341238062828779
+        ],
+        "median_seconds": 0.05339223798364401
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q008",
+    "relation": "right_of",
+    "selected_gaussians": 58164,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.010747389867901802,
+          0.010747440159320831,
+          0.01069136243313551
+        ],
+        "median_seconds": 0.010747389867901802
+      },
+      "render": {
+        "samples_seconds": [
+          0.04984662868082523,
+          0.050598145462572575,
+          0.05043763667345047
+        ],
+        "median_seconds": 0.05043763667345047
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.060594018548727036,
+          0.061345585621893406,
+          0.06112899910658598
+        ],
+        "median_seconds": 0.06112899910658598
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q009",
+    "relation": "right_of",
+    "selected_gaussians": 52332,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.01099605392664671,
+          0.01091208215802908,
+          0.01093790028244257
+        ],
+        "median_seconds": 0.01093790028244257
+      },
+      "render": {
+        "samples_seconds": [
+          0.04412608500570059,
+          0.04397683311253786,
+          0.04403617326170206
+        ],
+        "median_seconds": 0.04403617326170206
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.0551221389323473,
+          0.05488891527056694,
+          0.05497407354414463
+        ],
+        "median_seconds": 0.05497407354414463
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q010",
+    "relation": "right_of",
+    "selected_gaussians": 3993,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.010536226443946362,
+          0.01048082485795021,
+          0.010483380407094955
+        ],
+        "median_seconds": 0.010483380407094955
+      },
+      "render": {
+        "samples_seconds": [
+          0.04742315039038658,
+          0.047682153061032295,
+          0.04769646842032671
+        ],
+        "median_seconds": 0.047682153061032295
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.05795937683433294,
+          0.058162977918982506,
+          0.058179848827421665
+        ],
+        "median_seconds": 0.058162977918982506
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q011",
+    "relation": "in_front_of",
+    "selected_gaussians": 14460,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.009860322810709476,
+          0.009742144495248795,
+          0.009750952012836933
+        ],
+        "median_seconds": 0.009750952012836933
+      },
+      "render": {
+        "samples_seconds": [
+          0.04143531061708927,
+          0.04184899851679802,
+          0.04233941808342934
+        ],
+        "median_seconds": 0.04184899851679802
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.05129563342779875,
+          0.051591143012046814,
+          0.05209037009626627
+        ],
+        "median_seconds": 0.051591143012046814
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q012",
+    "relation": "in_front_of",
+    "selected_gaussians": 70497,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.011051812209188938,
+          0.010978725738823414,
+          0.011067329905927181
+        ],
+        "median_seconds": 0.011051812209188938
+      },
+      "render": {
+        "samples_seconds": [
+          0.048232076689600945,
+          0.048510740511119366,
+          0.04854816198348999
+        ],
+        "median_seconds": 0.048510740511119366
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.05928388889878988,
+          0.05948946624994278,
+          0.05961549188941717
+        ],
+        "median_seconds": 0.05948946624994278
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q013",
+    "relation": "in_front_of",
+    "selected_gaussians": 70497,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.010993794538080692,
+          0.011036016047000885,
+          0.011035546660423279
+        ],
+        "median_seconds": 0.011035546660423279
+      },
+      "render": {
+        "samples_seconds": [
+          0.04759964533150196,
+          0.04836714453995228,
+          0.04689795058220625
+        ],
+        "median_seconds": 0.04759964533150196
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.05859343986958265,
+          0.05940316058695316,
+          0.05793349724262953
+        ],
+        "median_seconds": 0.05859343986958265
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q014",
+    "relation": "in_front_of",
+    "selected_gaussians": 9143,
+    "empty_views": 1,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.01064332202076912,
+          0.010602324269711971,
+          0.009759987704455853
+        ],
+        "median_seconds": 0.010602324269711971
+      },
+      "render": {
+        "samples_seconds": [
+          0.04533592704683542,
+          0.043775998055934906,
+          0.04475840646773577
+        ],
+        "median_seconds": 0.04475840646773577
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.05597924906760454,
+          0.05437832232564688,
+          0.05451839417219162
+        ],
+        "median_seconds": 0.05451839417219162
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q015",
+    "relation": "in_front_of",
+    "selected_gaussians": 61379,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.01187853328883648,
+          0.01139607559889555,
+          0.010976698249578476
+        ],
+        "median_seconds": 0.01139607559889555
+      },
+      "render": {
+        "samples_seconds": [
+          0.04489098861813545,
+          0.04504907410591841,
+          0.044967000372707844
+        ],
+        "median_seconds": 0.044967000372707844
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.05676952190697193,
+          0.05644514970481396,
+          0.05594369862228632
+        ],
+        "median_seconds": 0.05644514970481396
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q016",
+    "relation": "behind",
+    "selected_gaussians": 70497,
+    "empty_views": 2,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.010967266745865345,
+          0.011397939175367355,
+          0.011001501232385635
+        ],
+        "median_seconds": 0.011001501232385635
+      },
+      "render": {
+        "samples_seconds": [
+          0.04351638350635767,
+          0.043529623188078403,
+          0.04260479286313057
+        ],
+        "median_seconds": 0.04351638350635767
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.054483650252223015,
+          0.05492756236344576,
+          0.053606294095516205
+        ],
+        "median_seconds": 0.054483650252223015
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q017",
+    "relation": "behind",
+    "selected_gaussians": 9143,
+    "empty_views": 1,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.010607688687741756,
+          0.010595451109111309,
+          0.01093517430126667
+        ],
+        "median_seconds": 0.010607688687741756
+      },
+      "render": {
+        "samples_seconds": [
+          0.04406189173460007,
+          0.04408115986734629,
+          0.043959653936326504
+        ],
+        "median_seconds": 0.04406189173460007
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.054669580422341824,
+          0.054676610976457596,
+          0.054894828237593174
+        ],
+        "median_seconds": 0.054676610976457596
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q018",
+    "relation": "behind",
+    "selected_gaussians": 70497,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.010163194499909878,
+          0.010911300778388977,
+          0.010909500531852245
+        ],
+        "median_seconds": 0.010909500531852245
+      },
+      "render": {
+        "samples_seconds": [
+          0.04454937390983105,
+          0.04415702912956476,
+          0.044845692813396454
+        ],
+        "median_seconds": 0.04454937390983105
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.054712568409740925,
+          0.05506832990795374,
+          0.0557551933452487
+        ],
+        "median_seconds": 0.05506832990795374
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q019",
+    "relation": "behind",
+    "selected_gaussians": 7592,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.010550974868237972,
+          0.010510639287531376,
+          0.010987987741827965
+        ],
+        "median_seconds": 0.010550974868237972
+      },
+      "render": {
+        "samples_seconds": [
+          0.04162808787077665,
+          0.041657038033008575,
+          0.04175826720893383
+        ],
+        "median_seconds": 0.041657038033008575
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.052179062739014626,
+          0.05216767732053995,
+          0.052746254950761795
+        ],
+        "median_seconds": 0.052179062739014626
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q020",
+    "relation": "behind",
+    "selected_gaussians": 70497,
+    "empty_views": 2,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.01101592555642128,
+          0.011026589199900627,
+          0.010989075526595116
+        ],
+        "median_seconds": 0.01101592555642128
+      },
+      "render": {
+        "samples_seconds": [
+          0.04171700403094292,
+          0.04146348498761654,
+          0.0417420594021678
+        ],
+        "median_seconds": 0.04171700403094292
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.0527329295873642,
+          0.052490074187517166,
+          0.05273113492876291
+        ],
+        "median_seconds": 0.05273113492876291
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q021",
+    "relation": "near",
+    "selected_gaussians": 9143,
+    "empty_views": 1,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.010704210959374905,
+          0.010607828386127949,
+          0.010628261603415012
+        ],
+        "median_seconds": 0.010628261603415012
+      },
+      "render": {
+        "samples_seconds": [
+          0.04509131796658039,
+          0.04502675775438547,
+          0.044943248853087425
+        ],
+        "median_seconds": 0.04502675775438547
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.055795528925955296,
+          0.05563458614051342,
+          0.05557151045650244
+        ],
+        "median_seconds": 0.05563458614051342
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q022",
+    "relation": "near",
+    "selected_gaussians": 58123,
+    "empty_views": 2,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.011142030358314514,
+          0.010930300690233707,
+          0.010847398079931736
+        ],
+        "median_seconds": 0.010930300690233707
+      },
+      "render": {
+        "samples_seconds": [
+          0.04204649571329355,
+          0.041765554808080196,
+          0.04235607758164406
+        ],
+        "median_seconds": 0.04204649571329355
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.05318852607160807,
+          0.052695855498313904,
+          0.053203475661575794
+        ],
+        "median_seconds": 0.05318852607160807
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q023",
+    "relation": "near",
+    "selected_gaussians": 12469,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.010418794117867947,
+          0.01043240912258625,
+          0.010377000086009502
+        ],
+        "median_seconds": 0.010418794117867947
+      },
+      "render": {
+        "samples_seconds": [
+          0.04436796344816685,
+          0.044547329656779766,
+          0.04432124178856611
+        ],
+        "median_seconds": 0.04436796344816685
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.054786757566034794,
+          0.054979738779366016,
+          0.054698241874575615
+        ],
+        "median_seconds": 0.054786757566034794
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q024",
+    "relation": "near",
+    "selected_gaussians": 79544,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.01073379535228014,
+          0.010681191459298134,
+          0.010693930089473724
+        ],
+        "median_seconds": 0.010693930089473724
+      },
+      "render": {
+        "samples_seconds": [
+          0.04659055359661579,
+          0.04615882225334644,
+          0.046634357422590256
+        ],
+        "median_seconds": 0.04659055359661579
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.05732434894889593,
+          0.05684001371264458,
+          0.05732828751206398
+        ],
+        "median_seconds": 0.05732434894889593
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "thgs",
+    "query_id": "Q025",
+    "relation": "near",
+    "selected_gaussians": 70497,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.010837065055966377,
+          0.010834707878530025,
+          0.01083400659263134
+        ],
+        "median_seconds": 0.010834707878530025
+      },
+      "render": {
+        "samples_seconds": [
+          0.04776707012206316,
+          0.04761330038309097,
+          0.04827011376619339
+        ],
+        "median_seconds": 0.04776707012206316
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.05860413517802954,
+          0.058448008261621,
+          0.05910412035882473
+        ],
+        "median_seconds": 0.05860413517802954
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q001",
+    "relation": "left_of",
+    "selected_gaussians": 1746,
+    "empty_views": 1,
+    "fallback": true,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.13329851254820824,
+          0.08365252707153559,
+          0.12312754429876804
+        ],
+        "median_seconds": 0.12312754429876804
+      },
+      "render": {
+        "samples_seconds": [
+          0.01958826743066311,
+          0.01986811961978674,
+          0.01979772001504898
+        ],
+        "median_seconds": 0.01979772001504898
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.15288677997887135,
+          0.10352064669132233,
+          0.14292526431381702
+        ],
+        "median_seconds": 0.14292526431381702
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q002",
+    "relation": "left_of",
+    "selected_gaussians": 2512,
+    "empty_views": 1,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.09796593803912401,
+          0.10228912346065044,
+          0.10476309712976217
+        ],
+        "median_seconds": 0.10228912346065044
+      },
+      "render": {
+        "samples_seconds": [
+          0.021200915798544884,
+          0.02110169269144535,
+          0.02159072831273079
+        ],
+        "median_seconds": 0.021200915798544884
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.1191668538376689,
+          0.1233908161520958,
+          0.12635382544249296
+        ],
+        "median_seconds": 0.1233908161520958
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q003",
+    "relation": "left_of",
+    "selected_gaussians": 1747,
+    "empty_views": 0,
+    "fallback": true,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.13208848796784878,
+          0.11299481708556414,
+          0.10569056589156389
+        ],
+        "median_seconds": 0.11299481708556414
+      },
+      "render": {
+        "samples_seconds": [
+          0.024055196903645992,
+          0.021115580573678017,
+          0.022043276578187943
+        ],
+        "median_seconds": 0.022043276578187943
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.15614368487149477,
+          0.13411039765924215,
+          0.12773384246975183
+        ],
+        "median_seconds": 0.13411039765924215
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q004",
+    "relation": "left_of",
+    "selected_gaussians": 61,
+    "empty_views": 1,
+    "fallback": true,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.12332189455628395,
+          0.12963721621781588,
+          0.12749591004103422
+        ],
+        "median_seconds": 0.12749591004103422
+      },
+      "render": {
+        "samples_seconds": [
+          0.020616844296455383,
+          0.022412877529859543,
+          0.020879358984529972
+        ],
+        "median_seconds": 0.020879358984529972
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.14393873885273933,
+          0.15205009374767542,
+          0.1483752690255642
+        ],
+        "median_seconds": 0.1483752690255642
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q005",
+    "relation": "left_of",
+    "selected_gaussians": 45067,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.10025478526949883,
+          0.11987452767789364,
+          0.1219126544892788
+        ],
+        "median_seconds": 0.11987452767789364
+      },
+      "render": {
+        "samples_seconds": [
+          0.024843414314091206,
+          0.025631172582507133,
+          0.025620088912546635
+        ],
+        "median_seconds": 0.025620088912546635
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.12509819958359003,
+          0.14550570026040077,
+          0.14753274340182543
+        ],
+        "median_seconds": 0.14550570026040077
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q006",
+    "relation": "right_of",
+    "selected_gaussians": 162,
+    "empty_views": 2,
+    "fallback": true,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.12324011605232954,
+          0.12326736096292734,
+          0.12415661476552486
+        ],
+        "median_seconds": 0.12326736096292734
+      },
+      "render": {
+        "samples_seconds": [
+          0.021909520030021667,
+          0.022262967191636562,
+          0.024423622526228428
+        ],
+        "median_seconds": 0.022262967191636562
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.1451496360823512,
+          0.1455303281545639,
+          0.1485802372917533
+        ],
+        "median_seconds": 0.1455303281545639
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q007",
+    "relation": "right_of",
+    "selected_gaussians": 44705,
+    "empty_views": 2,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.12177903205156326,
+          0.10810665972530842,
+          0.09354700241237879
+        ],
+        "median_seconds": 0.10810665972530842
+      },
+      "render": {
+        "samples_seconds": [
+          0.020565071143209934,
+          0.019261830486357212,
+          0.020882570184767246
+        ],
+        "median_seconds": 0.020565071143209934
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.1423441031947732,
+          0.12736849021166563,
+          0.11442957259714603
+        ],
+        "median_seconds": 0.12736849021166563
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q008",
+    "relation": "right_of",
+    "selected_gaussians": 61,
+    "empty_views": 2,
+    "fallback": true,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.10734082199633121,
+          0.10702848248183727,
+          0.10574711952358484
+        ],
+        "median_seconds": 0.10702848248183727
+      },
+      "render": {
+        "samples_seconds": [
+          0.025614552199840546,
+          0.02549358829855919,
+          0.025083311833441257
+        ],
+        "median_seconds": 0.02549358829855919
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.13295537419617176,
+          0.13252207078039646,
+          0.1308304313570261
+        ],
+        "median_seconds": 0.13252207078039646
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q009",
+    "relation": "right_of",
+    "selected_gaussians": 1747,
+    "empty_views": 0,
+    "fallback": true,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.10262427292764187,
+          0.10238152928650379,
+          0.10351182706654072
+        ],
+        "median_seconds": 0.10262427292764187
+      },
+      "render": {
+        "samples_seconds": [
+          0.02105570863932371,
+          0.02212122268974781,
+          0.020065181888639927
+        ],
+        "median_seconds": 0.02105570863932371
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.12367998156696558,
+          0.1245027519762516,
+          0.12357700895518064
+        ],
+        "median_seconds": 0.12367998156696558
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q010",
+    "relation": "right_of",
+    "selected_gaussians": 52,
+    "empty_views": 1,
+    "fallback": true,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.09931931272149086,
+          0.10060836188495159,
+          0.10171269439160824
+        ],
+        "median_seconds": 0.10060836188495159
+      },
+      "render": {
+        "samples_seconds": [
+          0.022958663292229176,
+          0.023162340745329857,
+          0.023120367899537086
+        ],
+        "median_seconds": 0.023120367899537086
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.12227797601372004,
+          0.12377070263028145,
+          0.12483306229114532
+        ],
+        "median_seconds": 0.12377070263028145
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q011",
+    "relation": "in_front_of",
+    "selected_gaussians": 9389,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.10146699100732803,
+          0.09687227662652731,
+          0.10055399034172297
+        ],
+        "median_seconds": 0.10055399034172297
+      },
+      "render": {
+        "samples_seconds": [
+          0.018840176984667778,
+          0.019454823806881905,
+          0.019854631274938583
+        ],
+        "median_seconds": 0.019454823806881905
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.12030716799199581,
+          0.11632710043340921,
+          0.12040862161666155
+        ],
+        "median_seconds": 0.12030716799199581
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q012",
+    "relation": "in_front_of",
+    "selected_gaussians": 26,
+    "empty_views": 2,
+    "fallback": true,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.12539897952228785,
+          0.0985398106276989,
+          0.10245249047875404
+        ],
+        "median_seconds": 0.10245249047875404
+      },
+      "render": {
+        "samples_seconds": [
+          0.02335857506841421,
+          0.021292628720402718,
+          0.021978190168738365
+        ],
+        "median_seconds": 0.021978190168738365
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.14875755459070206,
+          0.11983243934810162,
+          0.12443068064749241
+        ],
+        "median_seconds": 0.12443068064749241
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q013",
+    "relation": "in_front_of",
+    "selected_gaussians": 303,
+    "empty_views": 2,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.1000989442691207,
+          0.10257082432508469,
+          0.1004770677536726
+        ],
+        "median_seconds": 0.1004770677536726
+      },
+      "render": {
+        "samples_seconds": [
+          0.019334654323756695,
+          0.020176099613308907,
+          0.019487876445055008
+        ],
+        "median_seconds": 0.019487876445055008
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.11943359859287739,
+          0.12274692393839359,
+          0.11996494419872761
+        ],
+        "median_seconds": 0.11996494419872761
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q014",
+    "relation": "in_front_of",
+    "selected_gaussians": 1746,
+    "empty_views": 2,
+    "fallback": true,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.09865096118301153,
+          0.10135495942085981,
+          0.10232292860746384
+        ],
+        "median_seconds": 0.10135495942085981
+      },
+      "render": {
+        "samples_seconds": [
+          0.02127867564558983,
+          0.021510460413992405,
+          0.022122678346931934
+        ],
+        "median_seconds": 0.021510460413992405
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.11992963682860136,
+          0.12286541983485222,
+          0.12444560695439577
+        ],
+        "median_seconds": 0.12286541983485222
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q015",
+    "relation": "in_front_of",
+    "selected_gaussians": 61,
+    "empty_views": 1,
+    "fallback": true,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.10013581346720457,
+          0.09910495113581419,
+          0.09674945008009672
+        ],
+        "median_seconds": 0.09910495113581419
+      },
+      "render": {
+        "samples_seconds": [
+          0.019815126433968544,
+          0.019988841377198696,
+          0.019080353900790215
+        ],
+        "median_seconds": 0.019815126433968544
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.11995093990117311,
+          0.11909379251301289,
+          0.11582980398088694
+        ],
+        "median_seconds": 0.11909379251301289
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q016",
+    "relation": "behind",
+    "selected_gaussians": 133,
+    "empty_views": 2,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.10123672056943178,
+          0.1005738815292716,
+          0.10381506942212582
+        ],
+        "median_seconds": 0.10123672056943178
+      },
+      "render": {
+        "samples_seconds": [
+          0.019200394861400127,
+          0.01887903641909361,
+          0.020699016749858856
+        ],
+        "median_seconds": 0.019200394861400127
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.12043711543083191,
+          0.11945291794836521,
+          0.12451408617198467
+        ],
+        "median_seconds": 0.12043711543083191
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q017",
+    "relation": "behind",
+    "selected_gaussians": 26,
+    "empty_views": 2,
+    "fallback": true,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.09886259026825428,
+          0.09821901097893715,
+          0.10241590067744255
+        ],
+        "median_seconds": 0.09886259026825428
+      },
+      "render": {
+        "samples_seconds": [
+          0.01956267189234495,
+          0.020325043238699436,
+          0.020545976236462593
+        ],
+        "median_seconds": 0.020325043238699436
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.11842526216059923,
+          0.11854405421763659,
+          0.12296187691390514
+        ],
+        "median_seconds": 0.11854405421763659
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q018",
+    "relation": "behind",
+    "selected_gaussians": 1747,
+    "empty_views": 0,
+    "fallback": true,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.10019815526902676,
+          0.1080977413803339,
+          0.10391215793788433
+        ],
+        "median_seconds": 0.10391215793788433
+      },
+      "render": {
+        "samples_seconds": [
+          0.02052239328622818,
+          0.0207061767578125,
+          0.020100072026252747
+        ],
+        "median_seconds": 0.02052239328622818
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.12072054855525494,
+          0.1288039181381464,
+          0.12401222996413708
+        ],
+        "median_seconds": 0.12401222996413708
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q019",
+    "relation": "behind",
+    "selected_gaussians": 809,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.10716143809258938,
+          0.10139004420489073,
+          0.10499809868633747
+        ],
+        "median_seconds": 0.10499809868633747
+      },
+      "render": {
+        "samples_seconds": [
+          0.018222427926957607,
+          0.018267938867211342,
+          0.019197780638933182
+        ],
+        "median_seconds": 0.018267938867211342
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.12538386601954699,
+          0.11965798307210207,
+          0.12419587932527065
+        ],
+        "median_seconds": 0.12419587932527065
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q020",
+    "relation": "behind",
+    "selected_gaussians": 44705,
+    "empty_views": 2,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.09433727990835905,
+          0.09762419667094946,
+          0.09403155464679003
+        ],
+        "median_seconds": 0.09433727990835905
+      },
+      "render": {
+        "samples_seconds": [
+          0.017470136284828186,
+          0.017884905450046062,
+          0.01703434344381094
+        ],
+        "median_seconds": 0.017470136284828186
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.11180741619318724,
+          0.11550910212099552,
+          0.11106589809060097
+        ],
+        "median_seconds": 0.11180741619318724
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q021",
+    "relation": "near",
+    "selected_gaussians": 1746,
+    "empty_views": 2,
+    "fallback": true,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.09707196429371834,
+          0.09687426779419184,
+          0.08128967601805925
+        ],
+        "median_seconds": 0.09687426779419184
+      },
+      "render": {
+        "samples_seconds": [
+          0.022156083956360817,
+          0.021071763709187508,
+          0.020616227760910988
+        ],
+        "median_seconds": 0.021071763709187508
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.11922804825007915,
+          0.11794603150337934,
+          0.10190590377897024
+        ],
+        "median_seconds": 0.11794603150337934
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q022",
+    "relation": "near",
+    "selected_gaussians": 17,
+    "empty_views": 2,
+    "fallback": true,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.09963779337704182,
+          0.09000412002205849,
+          0.0925506791099906
+        ],
+        "median_seconds": 0.0925506791099906
+      },
+      "render": {
+        "samples_seconds": [
+          0.01896722801029682,
+          0.017717674374580383,
+          0.01887819729745388
+        ],
+        "median_seconds": 0.01887819729745388
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.11860502138733864,
+          0.10772179439663887,
+          0.11142887640744448
+        ],
+        "median_seconds": 0.11142887640744448
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q023",
+    "relation": "near",
+    "selected_gaussians": 1081,
+    "empty_views": 2,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.10001499950885773,
+          0.10271037556231022,
+          0.10313183348625898
+        ],
+        "median_seconds": 0.10271037556231022
+      },
+      "render": {
+        "samples_seconds": [
+          0.021287464536726475,
+          0.02163613960146904,
+          0.022669753059744835
+        ],
+        "median_seconds": 0.02163613960146904
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.1213024640455842,
+          0.12434651516377926,
+          0.12580158654600382
+        ],
+        "median_seconds": 0.12434651516377926
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q024",
+    "relation": "near",
+    "selected_gaussians": 303,
+    "empty_views": 2,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.10229105781763792,
+          0.09701371006667614,
+          0.10187373589724302
+        ],
+        "median_seconds": 0.10187373589724302
+      },
+      "render": {
+        "samples_seconds": [
+          0.023643355816602707,
+          0.02362709492444992,
+          0.02380779478698969
+        ],
+        "median_seconds": 0.023643355816602707
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.12593441363424063,
+          0.12064080499112606,
+          0.1256815306842327
+        ],
+        "median_seconds": 0.1256815306842327
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "relags",
+    "query_id": "Q025",
+    "relation": "near",
+    "selected_gaussians": 45067,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.13603739440441132,
+          0.13400530256330967,
+          0.1361604444682598
+        ],
+        "median_seconds": 0.13603739440441132
+      },
+      "render": {
+        "samples_seconds": [
+          0.02637115679681301,
+          0.027216301299631596,
+          0.027124748565256596
+        ],
+        "median_seconds": 0.027124748565256596
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.16240855120122433,
+          0.16122160386294127,
+          0.1632851930335164
+        ],
+        "median_seconds": 0.16240855120122433
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q001",
+    "relation": "left_of",
+    "selected_gaussians": 10952,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.0024107471108436584,
+          0.002349056303501129,
+          0.0023593977093696594
+        ],
+        "median_seconds": 0.0023593977093696594
+      },
+      "render": {
+        "samples_seconds": [
+          0.017791785299777985,
+          0.01880731899291277,
+          0.017771082930266857
+        ],
+        "median_seconds": 0.017791785299777985
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.020202532410621643,
+          0.0211563752964139,
+          0.020130480639636517
+        ],
+        "median_seconds": 0.020202532410621643
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q002",
+    "relation": "left_of",
+    "selected_gaussians": 9278,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.0022334540262818336,
+          0.0022114748135209084,
+          0.0021872948855161667
+        ],
+        "median_seconds": 0.0022114748135209084
+      },
+      "render": {
+        "samples_seconds": [
+          0.01880214363336563,
+          0.01804986223578453,
+          0.018019573763012886
+        ],
+        "median_seconds": 0.01804986223578453
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.021035597659647465,
+          0.02026133704930544,
+          0.020206868648529053
+        ],
+        "median_seconds": 0.02026133704930544
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q003",
+    "relation": "left_of",
+    "selected_gaussians": 27502,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.002630637027323246,
+          0.0026821959763765335,
+          0.0026974165812134743
+        ],
+        "median_seconds": 0.0026821959763765335
+      },
+      "render": {
+        "samples_seconds": [
+          0.018912329338490963,
+          0.018916834145784378,
+          0.018814025446772575
+        ],
+        "median_seconds": 0.018912329338490963
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.02154296636581421,
+          0.02159903012216091,
+          0.02151144202798605
+        ],
+        "median_seconds": 0.02154296636581421
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q004",
+    "relation": "left_of",
+    "selected_gaussians": 14362,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.002193423919379711,
+          0.002207258716225624,
+          0.00220405962318182
+        ],
+        "median_seconds": 0.00220405962318182
+      },
+      "render": {
+        "samples_seconds": [
+          0.015721783973276615,
+          0.015623023733496666,
+          0.015628326684236526
+        ],
+        "median_seconds": 0.015628326684236526
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.017915207892656326,
+          0.01783028244972229,
+          0.017832386307418346
+        ],
+        "median_seconds": 0.017832386307418346
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q005",
+    "relation": "left_of",
+    "selected_gaussians": 125055,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.004541641101241112,
+          0.0044883498921990395,
+          0.004649256356060505
+        ],
+        "median_seconds": 0.004541641101241112
+      },
+      "render": {
+        "samples_seconds": [
+          0.02101764641702175,
+          0.02097514271736145,
+          0.021131983026862144
+        ],
+        "median_seconds": 0.02101764641702175
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.025559287518262863,
+          0.02546349260956049,
+          0.02578123938292265
+        ],
+        "median_seconds": 0.025559287518262863
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": [
+      "obj_dee5bef52687"
+    ]
+  },
+  {
+    "method": "ours",
+    "query_id": "Q006",
+    "relation": "right_of",
+    "selected_gaussians": 27176,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.002580956555902958,
+          0.0024855658411979675,
+          0.002542664296925068
+        ],
+        "median_seconds": 0.002542664296925068
+      },
+      "render": {
+        "samples_seconds": [
+          0.01668871846050024,
+          0.016709446907043457,
+          0.016725461930036545
+        ],
+        "median_seconds": 0.016709446907043457
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.019269675016403198,
+          0.019195012748241425,
+          0.019268126226961613
+        ],
+        "median_seconds": 0.019268126226961613
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q007",
+    "relation": "right_of",
+    "selected_gaussians": 25750,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.0025580404326319695,
+          0.002583371475338936,
+          0.003446469083428383
+        ],
+        "median_seconds": 0.002583371475338936
+      },
+      "render": {
+        "samples_seconds": [
+          0.014874067157506943,
+          0.016740613617002964,
+          0.014872095547616482
+        ],
+        "median_seconds": 0.014874067157506943
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.017432107590138912,
+          0.0193239850923419,
+          0.018318564631044865
+        ],
+        "median_seconds": 0.018318564631044865
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q008",
+    "relation": "right_of",
+    "selected_gaussians": 13214,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.0021306686103343964,
+          0.0020841965451836586,
+          0.0020938562229275703
+        ],
+        "median_seconds": 0.0020938562229275703
+      },
+      "render": {
+        "samples_seconds": [
+          0.022110164165496826,
+          0.022183038294315338,
+          0.022268068976700306
+        ],
+        "median_seconds": 0.022183038294315338
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.024240832775831223,
+          0.024267234839498997,
+          0.024361925199627876
+        ],
+        "median_seconds": 0.024267234839498997
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q009",
+    "relation": "right_of",
+    "selected_gaussians": 64532,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.003247511573135853,
+          0.003222482278943062,
+          0.003350580111145973
+        ],
+        "median_seconds": 0.003247511573135853
+      },
+      "render": {
+        "samples_seconds": [
+          0.016453633084893227,
+          0.016525354236364365,
+          0.016640353947877884
+        ],
+        "median_seconds": 0.016525354236364365
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.01970114465802908,
+          0.019747836515307426,
+          0.019990934059023857
+        ],
+        "median_seconds": 0.019747836515307426
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q010",
+    "relation": "right_of",
+    "selected_gaussians": 27191,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.002426392398774624,
+          0.002376796677708626,
+          0.002375757321715355
+        ],
+        "median_seconds": 0.002376796677708626
+      },
+      "render": {
+        "samples_seconds": [
+          0.02037187945097685,
+          0.02047649212181568,
+          0.020209185779094696
+        ],
+        "median_seconds": 0.02037187945097685
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.022798271849751472,
+          0.022853288799524307,
+          0.02258494310081005
+        ],
+        "median_seconds": 0.022798271849751472
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": [
+      "obj_141f3e5dbe3a"
+    ]
+  },
+  {
+    "method": "ours",
+    "query_id": "Q011",
+    "relation": "in_front_of",
+    "selected_gaussians": 16536,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.0022558970376849174,
+          0.002228955738246441,
+          0.002185201272368431
+        ],
+        "median_seconds": 0.002228955738246441
+      },
+      "render": {
+        "samples_seconds": [
+          0.014835705980658531,
+          0.014767373912036419,
+          0.014861665666103363
+        ],
+        "median_seconds": 0.014835705980658531
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.01709160301834345,
+          0.01699632965028286,
+          0.017046866938471794
+        ],
+        "median_seconds": 0.017046866938471794
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q012",
+    "relation": "in_front_of",
+    "selected_gaussians": 42391,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.002600790001451969,
+          0.0026615411043167114,
+          0.0025116968899965286
+        ],
+        "median_seconds": 0.002600790001451969
+      },
+      "render": {
+        "samples_seconds": [
+          0.018712764605879784,
+          0.018850707449018955,
+          0.018557357601821423
+        ],
+        "median_seconds": 0.018712764605879784
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.021313554607331753,
+          0.021512248553335667,
+          0.02106905449181795
+        ],
+        "median_seconds": 0.021313554607331753
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q013",
+    "relation": "in_front_of",
+    "selected_gaussians": 23434,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.0024159178137779236,
+          0.0023428304120898247,
+          0.0022728368639945984
+        ],
+        "median_seconds": 0.0023428304120898247
+      },
+      "render": {
+        "samples_seconds": [
+          0.015841016545891762,
+          0.016017797403037548,
+          0.016023346222937107
+        ],
+        "median_seconds": 0.016017797403037548
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.018256934359669685,
+          0.018360627815127373,
+          0.018296183086931705
+        ],
+        "median_seconds": 0.018296183086931705
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q014",
+    "relation": "in_front_of",
+    "selected_gaussians": 7093,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.0021601002663373947,
+          0.002148066647350788,
+          0.0021139252930879593
+        ],
+        "median_seconds": 0.002148066647350788
+      },
+      "render": {
+        "samples_seconds": [
+          0.01861155405640602,
+          0.018407312221825123,
+          0.018506521359086037
+        ],
+        "median_seconds": 0.018506521359086037
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.020771654322743416,
+          0.02055537886917591,
+          0.020620446652173996
+        ],
+        "median_seconds": 0.020620446652173996
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q015",
+    "relation": "in_front_of",
+    "selected_gaussians": 14362,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.00225978996604681,
+          0.0022237980738282204,
+          0.002441050484776497
+        ],
+        "median_seconds": 0.00225978996604681
+      },
+      "render": {
+        "samples_seconds": [
+          0.015681970864534378,
+          0.01676938496530056,
+          0.015978217124938965
+        ],
+        "median_seconds": 0.015978217124938965
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.017941760830581188,
+          0.01899318303912878,
+          0.01841926760971546
+        ],
+        "median_seconds": 0.01841926760971546
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q016",
+    "relation": "behind",
+    "selected_gaussians": 40663,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.002701609395444393,
+          0.0026801181957125664,
+          0.002663182094693184
+        ],
+        "median_seconds": 0.0026801181957125664
+      },
+      "render": {
+        "samples_seconds": [
+          0.014823328703641891,
+          0.014685878530144691,
+          0.014855662360787392
+        ],
+        "median_seconds": 0.014823328703641891
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.017524938099086285,
+          0.017365996725857258,
+          0.017518844455480576
+        ],
+        "median_seconds": 0.017518844455480576
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q017",
+    "relation": "behind",
+    "selected_gaussians": 47337,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.00277539249509573,
+          0.002684446983039379,
+          0.002755992114543915
+        ],
+        "median_seconds": 0.002755992114543915
+      },
+      "render": {
+        "samples_seconds": [
+          0.015624112449586391,
+          0.01572790089994669,
+          0.015609558671712875
+        ],
+        "median_seconds": 0.015624112449586391
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.01839950494468212,
+          0.01841234788298607,
+          0.01836555078625679
+        ],
+        "median_seconds": 0.01839950494468212
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q018",
+    "relation": "behind",
+    "selected_gaussians": 11956,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.0022536301985383034,
+          0.002266562543809414,
+          0.002196280285716057
+        ],
+        "median_seconds": 0.0022536301985383034
+      },
+      "render": {
+        "samples_seconds": [
+          0.016342224553227425,
+          0.016438313759863377,
+          0.016275962814688683
+        ],
+        "median_seconds": 0.016342224553227425
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.018595854751765728,
+          0.01870487630367279,
+          0.01847224310040474
+        ],
+        "median_seconds": 0.018595854751765728
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q019",
+    "relation": "behind",
+    "selected_gaussians": 0,
+    "empty_views": 2,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.0017160642892122269,
+          0.0016901707276701927,
+          0.0017149941995739937
+        ],
+        "median_seconds": 0.0017149941995739937
+      },
+      "render": {
+        "samples_seconds": [
+          0.013586267828941345,
+          0.013615735806524754,
+          0.013635465875267982
+        ],
+        "median_seconds": 0.013615735806524754
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.015302332118153572,
+          0.015305906534194946,
+          0.015350460074841976
+        ],
+        "median_seconds": 0.015305906534194946
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": [
+      "obj_141f3e5dbe3a"
+    ]
+  },
+  {
+    "method": "ours",
+    "query_id": "Q020",
+    "relation": "behind",
+    "selected_gaussians": 53730,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.003172292374074459,
+          0.003084852360188961,
+          0.0032576173543930054
+        ],
+        "median_seconds": 0.003172292374074459
+      },
+      "render": {
+        "samples_seconds": [
+          0.013437499292194843,
+          0.013144749216735363,
+          0.013689174316823483
+        ],
+        "median_seconds": 0.013437499292194843
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.016609791666269302,
+          0.016229601576924324,
+          0.016946791671216488
+        ],
+        "median_seconds": 0.016609791666269302
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q021",
+    "relation": "near",
+    "selected_gaussians": 7093,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.0021636206656694412,
+          0.0021526673808693886,
+          0.0021736091002821922
+        ],
+        "median_seconds": 0.0021636206656694412
+      },
+      "render": {
+        "samples_seconds": [
+          0.018625718541443348,
+          0.018534976989030838,
+          0.01851834263652563
+        ],
+        "median_seconds": 0.018534976989030838
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.02078933920711279,
+          0.020687644369900227,
+          0.020691951736807823
+        ],
+        "median_seconds": 0.020691951736807823
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q022",
+    "relation": "near",
+    "selected_gaussians": 16536,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.002303468994796276,
+          0.0023109614849090576,
+          0.002221871167421341
+        ],
+        "median_seconds": 0.002303468994796276
+      },
+      "render": {
+        "samples_seconds": [
+          0.014856167137622833,
+          0.015080759301781654,
+          0.014760605059564114
+        ],
+        "median_seconds": 0.014856167137622833
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.01715963613241911,
+          0.017391720786690712,
+          0.016982476226985455
+        ],
+        "median_seconds": 0.01715963613241911
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q023",
+    "relation": "near",
+    "selected_gaussians": 42391,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.002794763073325157,
+          0.002694285474717617,
+          0.0026364829391241074
+        ],
+        "median_seconds": 0.002694285474717617
+      },
+      "render": {
+        "samples_seconds": [
+          0.018745279870927334,
+          0.018700693733990192,
+          0.01876343321055174
+        ],
+        "median_seconds": 0.018745279870927334
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.02154004294425249,
+          0.02139497920870781,
+          0.021399916149675846
+        ],
+        "median_seconds": 0.021399916149675846
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q024",
+    "relation": "near",
+    "selected_gaussians": 22960,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.002590983174741268,
+          0.0025227004662156105,
+          0.002452472224831581
+        ],
+        "median_seconds": 0.0025227004662156105
+      },
+      "render": {
+        "samples_seconds": [
+          0.021119723096489906,
+          0.02100678626447916,
+          0.021373088471591473
+        ],
+        "median_seconds": 0.021119723096489906
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.023710706271231174,
+          0.02352948673069477,
+          0.023825560696423054
+        ],
+        "median_seconds": 0.023710706271231174
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": []
+  },
+  {
+    "method": "ours",
+    "query_id": "Q025",
+    "relation": "near",
+    "selected_gaussians": 96878,
+    "empty_views": 0,
+    "fallback": false,
+    "timing": {
+      "query": {
+        "samples_seconds": [
+          0.003886663354933262,
+          0.0038251737132668495,
+          0.0037856558337807655
+        ],
+        "median_seconds": 0.0038251737132668495
+      },
+      "render": {
+        "samples_seconds": [
+          0.023219015449285507,
+          0.023118168115615845,
+          0.022696505300700665
+        ],
+        "median_seconds": 0.023118168115615845
+      },
+      "end_to_end": {
+        "samples_seconds": [
+          0.02710567880421877,
+          0.026943341828882694,
+          0.02648216113448143
+        ],
+        "median_seconds": 0.026943341828882694
+      },
+      "warmup": 1,
+      "repetitions": 3,
+      "export_io_excluded": true
+    },
+    "unavailable": [
+      "obj_dee5bef52687"
+    ]
+  }
+]

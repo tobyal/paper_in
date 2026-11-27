@@ -1,0 +1,16 @@
+{
+  "command": [
+    "envs/thgs/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--no-build-isolation",
+    "--no-deps",
+    "third_party/THGS/submodules/diff-surfel-rasterization"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "1",
+  "start_utc": "20261127T020712341630Z",
+  "stage": "thgs_environment",
+  "pid": 2784988
+}

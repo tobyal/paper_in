@@ -1,0 +1,60 @@
+{
+  "task_id": "T013",
+  "object_id": "obj_8e79bd39b8b9",
+  "name": "Fixture table with black workpiece 04",
+  "camera_id": "frame_000065",
+  "status": "accepted_pseudo",
+  "visible": true,
+  "quality": "moderate_pseudo",
+  "reviewer": "Codex visual inspection, not human certification",
+  "independent_human_ground_truth": false,
+  "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+  "revision": "review1",
+  "selected_candidate": 0,
+  "sam_predicted_iou": 0.8635587692260742,
+  "mask_pixels": 10234,
+  "note": "Loaded black fixture and visible support retained; bins occlude lower base.",
+  "prompt": {
+    "box": [
+      205.30515684949572,
+      168.73777117208624,
+      598.2384633149444,
+      495.93015549716677
+    ],
+    "points": [
+      [
+        380,
+        289
+      ],
+      [
+        478,
+        355
+      ],
+      [
+        331,
+        265
+      ],
+      [
+        440,
+        210
+      ],
+      [
+        336,
+        376
+      ],
+      [
+        559,
+        331
+      ]
+    ],
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "source_record": "evaluation/pseudo_ground_truth/objects/T013/review1/record.json"
+}

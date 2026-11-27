@@ -1,0 +1,33 @@
+{
+  "query_id": "Q005",
+  "camera_id": "frame_000217",
+  "reference_type": "SAM-assisted Pseudo-GT",
+  "status": "excluded_unreliable",
+  "target_visible": true,
+  "target_ids": [
+    "obj_126125e3a773",
+    "obj_aad6e7f85a9a",
+    "obj_b7e0494ce9dd",
+    "obj_b8542dc54ed2",
+    "obj_dee5bef52687"
+  ],
+  "task_ids": [
+    "T047",
+    "T048",
+    "T049",
+    "T050",
+    "T051"
+  ],
+  "unreliable_task_ids": [
+    "T051"
+  ],
+  "reasons": [
+    "Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts."
+  ],
+  "mask_pixels": 53663,
+  "reviewer": "Codex visual review; not independent human annotation",
+  "independent_human_ground_truth": false,
+  "mask_path": "evaluation/pseudo_ground_truth/Q005/frame_000217/mask.png",
+  "original_rgb": "evaluation/pseudo_ground_truth/Q005/frame_000217/original_rgb.png",
+  "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+}

@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/envs/thgs/bin/python",
+    "sp_partition.py",
+    "-m",
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/thgs/model",
+    "-a"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/third_party/THGS",
+  "gpu": "0",
+  "start_utc": "20261127T021831194483Z",
+  "stage": "thgs_neighbors",
+  "pid": 2820942,
+  "exit_code": 1,
+  "status": "failed",
+  "seconds": 9.68224048614502
+}

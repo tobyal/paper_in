@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_eli/envs/gsle_langsplat/bin/python",
+    "scripts/run_langsplat.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "0",
+  "start_utc": "20261127T021551610971Z",
+  "stage": "langsplat_queries",
+  "pid": 2812983,
+  "exit_code": 0,
+  "status": "completed",
+  "seconds": 159.30252361297607
+}

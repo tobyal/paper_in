@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/bin/python",
+    "scripts/align_relags.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "0",
+  "start_utc": "20261127T020826827581Z",
+  "stage": "relags_coordinate_alignment",
+  "pid": 2789021,
+  "exit_code": 1,
+  "status": "failed",
+  "seconds": 10.290965557098389
+}

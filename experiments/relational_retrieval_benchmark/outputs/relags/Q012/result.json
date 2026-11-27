@@ -1,0 +1,80 @@
+{
+  "query": {
+    "query_id": "Q012",
+    "subject_category": "compartmented material rack",
+    "subject_category_id": "category_08",
+    "predicate": "in front of",
+    "predicate_ours": "in_front_of",
+    "predicate_relags": "front",
+    "object_category": "fixture table carrying a black workpiece",
+    "object_category_id": "category_03",
+    "query_en": "compartmented material rack in front of the fixture table carrying a black workpiece",
+    "query_zh": "位于带黑色工件的夹具台前方的分隔式料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000073",
+      "frame_000305"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "selected_gaussians": 26,
+  "selected_nodes": [
+    [
+      [
+        1099,
+        2
+      ],
+      [
+        0.7814231514930725,
+        0.314090371131897,
+        0.5499882698059082
+      ]
+    ]
+  ],
+  "official_threshold_fallback_used": true,
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.12539897952228785,
+        0.0985398106276989,
+        0.10245249047875404
+      ],
+      "median_seconds": 0.10245249047875404
+    },
+    "render": {
+      "samples_seconds": [
+        0.02335857506841421,
+        0.021292628720402718,
+        0.021978190168738365
+      ],
+      "median_seconds": 0.021978190168738365
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.14875755459070206,
+        0.11983243934810162,
+        0.12443068064749241
+      ],
+      "median_seconds": 0.12443068064749241
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000073",
+      "mask_pixels": 0,
+      "directory": "outputs/relags/Q012/frame_000073"
+    },
+    {
+      "camera_id": "frame_000305",
+      "mask_pixels": 0,
+      "directory": "outputs/relags/Q012/frame_000305"
+    }
+  ]
+}

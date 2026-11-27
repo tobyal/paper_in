@@ -1,0 +1,70 @@
+{
+  "query": {
+    "query_id": "Q007",
+    "subject_category": "multi-tier material rack",
+    "subject_category_id": "category_04",
+    "predicate": "right of",
+    "predicate_ours": "right_of",
+    "predicate_relags": "right",
+    "object_category": "group of blue storage bins",
+    "object_category_id": "category_05",
+    "query_en": "multi-tier material rack to the right of the group of blue storage bins",
+    "query_zh": "位于蓝色箱组右侧的多层料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000185",
+      "frame_000193"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 9 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "output_kind": "official per-view semantic masks; no invented 3D instance conversion",
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.3462623981758952,
+        0.34690653812140226,
+        0.35698365792632103
+      ],
+      "median_seconds": 0.34690653812140226
+    },
+    "render": {
+      "samples_seconds": [
+        0.045568508096039295,
+        0.04562308080494404,
+        0.04589750897139311
+      ],
+      "median_seconds": 0.04562308080494404
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.39584810100495815,
+        0.3978088991716504,
+        0.406945263966918
+      ],
+      "median_seconds": 0.3978088991716504
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "query_includes": "text encoding, per-view AE decoding, CLIP relevancy and official segmentation",
+    "render_includes": "three native latent feature rasters per view",
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000185",
+      "mask_pixels": 28830,
+      "directory": "outputs/langsplat/Q007/frame_000185",
+      "selected_level": 3
+    },
+    {
+      "camera_id": "frame_000193",
+      "mask_pixels": 20815,
+      "directory": "outputs/langsplat/Q007/frame_000193",
+      "selected_level": 3
+    }
+  ]
+}

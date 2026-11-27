@@ -1,0 +1,80 @@
+{
+  "query": {
+    "query_id": "Q001",
+    "subject_category": "upright portable air cooler",
+    "subject_category_id": "category_06",
+    "predicate": "left of",
+    "predicate_ours": "left_of",
+    "predicate_relags": "left",
+    "object_category": "workbench",
+    "object_category_id": "category_07",
+    "query_en": "upright portable air cooler to the left of the workbench",
+    "query_zh": "位于工作台左侧的立式移动冷风机",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000329",
+      "frame_000265"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "selected_gaussians": 1746,
+  "selected_nodes": [
+    [
+      [
+        170,
+        2
+      ],
+      [
+        0.44474512338638306,
+        0.34540802240371704,
+        0.6670947670936584
+      ]
+    ]
+  ],
+  "official_threshold_fallback_used": true,
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.13329851254820824,
+        0.08365252707153559,
+        0.12312754429876804
+      ],
+      "median_seconds": 0.12312754429876804
+    },
+    "render": {
+      "samples_seconds": [
+        0.01958826743066311,
+        0.01986811961978674,
+        0.01979772001504898
+      ],
+      "median_seconds": 0.01979772001504898
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.15288677997887135,
+        0.10352064669132233,
+        0.14292526431381702
+      ],
+      "median_seconds": 0.14292526431381702
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000329",
+      "mask_pixels": 0,
+      "directory": "outputs/relags/Q001/frame_000329"
+    },
+    {
+      "camera_id": "frame_000265",
+      "mask_pixels": 5428,
+      "directory": "outputs/relags/Q001/frame_000265"
+    }
+  ]
+}

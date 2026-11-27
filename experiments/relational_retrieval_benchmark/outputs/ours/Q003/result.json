@@ -1,0 +1,77 @@
+{
+  "query": {
+    "query_id": "Q003",
+    "subject_category": "fixture table carrying a black workpiece",
+    "subject_category_id": "category_03",
+    "predicate": "left of",
+    "predicate_ours": "left_of",
+    "predicate_relags": "left",
+    "object_category": "material cart",
+    "object_category_id": "category_01",
+    "query_en": "fixture table carrying a black workpiece to the left of the material cart",
+    "query_zh": "位于物料车左侧的带黑色工件的夹具台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000169",
+      "frame_000113"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 5 same-class devices to 2; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "query_status": "ok",
+  "empty_result": false,
+  "selected_gaussians": 27502,
+  "matched_object_ids": [
+    "obj_8528f4bf8a3d",
+    "obj_ad85774e5f18"
+  ],
+  "renderable_object_ids": [
+    "obj_8528f4bf8a3d",
+    "obj_ad85774e5f18"
+  ],
+  "unavailable_object_ids": [],
+  "fine_output_status": "available",
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.002630637027323246,
+        0.0026821959763765335,
+        0.0026974165812134743
+      ],
+      "median_seconds": 0.0026821959763765335
+    },
+    "render": {
+      "samples_seconds": [
+        0.018912329338490963,
+        0.018916834145784378,
+        0.018814025446772575
+      ],
+      "median_seconds": 0.018912329338490963
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.02154296636581421,
+        0.02159903012216091,
+        0.02151144202798605
+      ],
+      "median_seconds": 0.02154296636581421
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000169",
+      "mask_pixels": 51052,
+      "directory": "outputs/ours/Q003/frame_000169"
+    },
+    {
+      "camera_id": "frame_000113",
+      "mask_pixels": 9687,
+      "directory": "outputs/ours/Q003/frame_000113"
+    }
+  ]
+}

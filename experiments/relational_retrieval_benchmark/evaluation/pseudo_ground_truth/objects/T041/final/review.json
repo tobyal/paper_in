@@ -1,0 +1,60 @@
+{
+  "task_id": "T041",
+  "object_id": "obj_5bfd32389355",
+  "name": "Multi-tier rack 04",
+  "camera_id": "frame_000193",
+  "status": "accepted_pseudo",
+  "visible": true,
+  "quality": "moderate_pseudo",
+  "reviewer": "Codex visual inspection, not human certification",
+  "independent_human_ground_truth": false,
+  "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+  "revision": "review1",
+  "selected_candidate": 0,
+  "sam_predicted_iou": 0.8260849118232727,
+  "mask_pixels": 9734,
+  "note": "Candidate0 better preserves visible rack openings and excludes side stacks.",
+  "prompt": {
+    "box": [
+      74,
+      153,
+      197,
+      276
+    ],
+    "points": [
+      [
+        116,
+        192
+      ],
+      [
+        157,
+        235
+      ],
+      [
+        109,
+        253
+      ],
+      [
+        205,
+        228
+      ],
+      [
+        59,
+        223
+      ],
+      [
+        34,
+        150
+      ]
+    ],
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "source_record": "evaluation/pseudo_ground_truth/objects/T041/review1/record.json"
+}

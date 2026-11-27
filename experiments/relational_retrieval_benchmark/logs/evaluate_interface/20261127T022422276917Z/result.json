@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/bin/python",
+    "scripts/evaluate_metrics.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "1",
+  "start_utc": "20261127T022422276917Z",
+  "stage": "evaluate_interface",
+  "pid": 2843793,
+  "exit_code": 0,
+  "status": "completed",
+  "seconds": 0.1869978904724121
+}

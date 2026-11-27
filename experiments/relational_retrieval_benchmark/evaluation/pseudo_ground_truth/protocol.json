@@ -1,0 +1,32 @@
+{
+  "reference_type": "SAM-assisted Pseudo-GT",
+  "independent_human_ground_truth": false,
+  "reviewer": "Codex visual review",
+  "created_utc": "2026-11-27T02:51:39.576084+00:00",
+  "sam_checkpoint": "/mnt/sda/ubuntu/lkx/papers/paper_in/models/sam/sam_vit_h_4b8939.pth",
+  "sam_model": "vit_h",
+  "pixels": [
+    938,
+    528
+  ],
+  "target_identity_basis": "Original RGB, M0 labels and separately recomputed OBB relations; no retrieval output used",
+  "relation_rules": {
+    "axis_gap": 0.02,
+    "near_aabb_gap": 0.35,
+    "frame": "+X right, +Y front, +Z up"
+  },
+  "mask_basis": "Fresh SAM inference on original held-out RGB with projected boxes and visually specified positive/negative points; no model prediction masks",
+  "empty_prediction_precision": 0,
+  "empty_prediction_recall": 0,
+  "invisible_or_unreliable": "Excluded identically for all methods",
+  "averaging": "Mean valid views per query then equal query mean",
+  "limitations": [
+    "M0-derived target semantics share priors with Ours; not independent human truth",
+    "SAM has difficulty with holes, fine rods, material changes and occlusion"
+  ],
+  "source_hashes": {
+    "inputs/objects.json": "1ee773ce9b3626b8f1e418db7eeac566a98cc5dd391debd37270205282a24f52",
+    "inputs/m0_state.json": "515be7d7c790b106f294db11812191f7cf476b6014f1d7b98dc9f0a38fa351c5",
+    "configs/FROZEN.json": "90291b46bf865bf50c33c79aad96409cb603f916abaa3500fcb7f96517a8302e"
+  }
+}

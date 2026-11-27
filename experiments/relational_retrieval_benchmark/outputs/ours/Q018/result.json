@@ -1,0 +1,75 @@
+{
+  "query": {
+    "query_id": "Q018",
+    "subject_category": "fixture table carrying a black workpiece",
+    "subject_category_id": "category_03",
+    "predicate": "behind",
+    "predicate_ours": "behind",
+    "predicate_relags": "behind",
+    "object_category": "compartmented material rack",
+    "object_category_id": "category_08",
+    "query_en": "fixture table carrying a black workpiece behind the compartmented material rack",
+    "query_zh": "位于分隔式料架后方的带黑色工件的夹具台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000273",
+      "frame_000169"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 5 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "query_status": "ok",
+  "empty_result": false,
+  "selected_gaussians": 11956,
+  "matched_object_ids": [
+    "obj_ad85774e5f18"
+  ],
+  "renderable_object_ids": [
+    "obj_ad85774e5f18"
+  ],
+  "unavailable_object_ids": [],
+  "fine_output_status": "available",
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.0022536301985383034,
+        0.002266562543809414,
+        0.002196280285716057
+      ],
+      "median_seconds": 0.0022536301985383034
+    },
+    "render": {
+      "samples_seconds": [
+        0.016342224553227425,
+        0.016438313759863377,
+        0.016275962814688683
+      ],
+      "median_seconds": 0.016342224553227425
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.018595854751765728,
+        0.01870487630367279,
+        0.01847224310040474
+      ],
+      "median_seconds": 0.018595854751765728
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000273",
+      "mask_pixels": 6047,
+      "directory": "outputs/ours/Q018/frame_000273"
+    },
+    {
+      "camera_id": "frame_000169",
+      "mask_pixels": 30620,
+      "directory": "outputs/ours/Q018/frame_000169"
+    }
+  ]
+}

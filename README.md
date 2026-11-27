@@ -2,6 +2,19 @@
 
 基于真实工业车间图像复现 [ReLaGS](https://github.com/dfki-av/ReLaGS)（[论文](https://arxiv.org/abs/2603.17605) / [项目主页](https://dfki-av.github.io/ReLaGS/)）。本仓库保存核心控制与适配代码、固定上游版本、补丁、实验报告、关键检查记录，以及各阶段真实中间结果图。
 
+## External comparison: SAM-assisted Pseudo-GT evaluation
+
+The [relational retrieval benchmark](experiments/relational_retrieval_benchmark/README.md) runs LangSplat, THGS, ReLaGS and frozen v2 Ours on 25 shared queries. Quantitative evaluation uses the same 23 queries / 44 reliable views for every method; 6 views are excluded with documented reasons. References are SAM-assisted Pseudo-GT reviewed by Codex, **not independent human ground truth**.
+
+| Method | Projection mIoU | Mean Precision | Mean Recall |
+|---|---:|---:|---:|
+| LangSplat | 20.87% | 29.28% | 36.32% |
+| THGS | 8.68% | 14.40% | 10.16% |
+| ReLaGS | 0.35% | 11.00% | 0.35% |
+| Ours | 63.70% | 84.33% | 70.21% |
+
+[Quantitative report](experiments/relational_retrieval_benchmark/QUANTITATIVE_EVALUATION_REPORT.md) · [All queries with reference masks and IoU](experiments/relational_retrieval_benchmark/docs/GALLERY.md) · [Detailed metrics](experiments/relational_retrieval_benchmark/evaluation/metrics/summary.csv). Shared M0 priors, SAM errors and exclusions limit interpretation. Q019 retains the Ours failure alongside useful external-method results. Weights, original RGB, candidate arrays and full point clouds remain on the server.
+
 ## SAGA + ReLaGS：工业对象实例与关系查询
 
 新增独立实验 [saga_relags_v1](experiments/saga_relags_v1/README.md)：官方SAGA完成10,000步共享亲和训练；10个对象尝试中9个可用于设备级查询展示、1个料架失败；8类共享语义；33节点几何图；5项类别查询和5项关系查询。视觉关系提升已运行，但没有得到可靠新增语义边，不能视为该部分验证成功。

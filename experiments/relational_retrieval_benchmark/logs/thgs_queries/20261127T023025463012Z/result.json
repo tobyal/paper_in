@@ -1,0 +1,14 @@
+{
+  "command": [
+    "envs/thgs/bin/python",
+    "scripts/run_thgs.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "0",
+  "start_utc": "20261127T023025463012Z",
+  "stage": "thgs_queries",
+  "pid": 2860973,
+  "exit_code": 0,
+  "status": "completed",
+  "seconds": 21.683581113815308
+}

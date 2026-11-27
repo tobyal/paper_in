@@ -1,0 +1,1994 @@
+[
+  {
+    "task_id": "T001",
+    "camera_id": "frame_000001",
+    "object_id": "obj_126125e3a773",
+    "label": "O08",
+    "name": "Multi-tier rack 02",
+    "name_zh": "多层料架 02",
+    "projection": {
+      "bbox": [
+        583.1636321493448,
+        134.5431259742437,
+        717.5867684248719,
+        266.2641504331264
+      ],
+      "unclipped_bbox": [
+        583.1636321493448,
+        134.5431259742437,
+        717.5867684248719,
+        266.2641504331264
+      ],
+      "area_fraction": 0.03575134316483417,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q020"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T002",
+    "camera_id": "frame_000001",
+    "object_id": "obj_b7e0494ce9dd",
+    "label": "O19",
+    "name": "Multi-tier rack 01",
+    "name_zh": "多层料架 01",
+    "projection": {
+      "bbox": [
+        469.97374358080805,
+        136.8009746600562,
+        595.5106110895823,
+        271.52356281875103
+      ],
+      "unclipped_bbox": [
+        469.97374358080805,
+        136.8009746600562,
+        595.5106110895823,
+        271.52356281875103
+      ],
+      "area_fraction": 0.034148760459305004,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q020"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T003",
+    "camera_id": "frame_000001",
+    "object_id": "obj_b8542dc54ed2",
+    "label": "O20",
+    "name": "Multi-tier rack 03",
+    "name_zh": "多层料架 03",
+    "projection": {
+      "bbox": [
+        691.0271887799452,
+        125.24783174093773,
+        865.322713631494,
+        269.7919739338672
+      ],
+      "unclipped_bbox": [
+        691.0271887799452,
+        125.24783174093773,
+        865.322713631494,
+        269.7919739338672
+      ],
+      "area_fraction": 0.05086862184155028,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q020"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T004",
+    "camera_id": "frame_000009",
+    "object_id": "obj_126125e3a773",
+    "label": "O08",
+    "name": "Multi-tier rack 02",
+    "name_zh": "多层料架 02",
+    "projection": {
+      "bbox": [
+        524.5453361570909,
+        134.69618221471615,
+        641.5338366134637,
+        265.9394240453943
+      ],
+      "unclipped_bbox": [
+        524.5453361570909,
+        134.69618221471615,
+        641.5338366134637,
+        265.9394240453943
+      ],
+      "area_fraction": 0.031001546764562196,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q020"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T005",
+    "camera_id": "frame_000009",
+    "object_id": "obj_b7e0494ce9dd",
+    "label": "O19",
+    "name": "Multi-tier rack 01",
+    "name_zh": "多层料架 01",
+    "projection": {
+      "bbox": [
+        394.34522342700524,
+        136.8884137531198,
+        519.9807490094125,
+        271.0492353336718
+      ],
+      "unclipped_bbox": [
+        394.34522342700524,
+        136.8884137531198,
+        519.9807490094125,
+        271.0492353336718
+      ],
+      "area_fraction": 0.03403309211216689,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q020"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T006",
+    "camera_id": "frame_000009",
+    "object_id": "obj_b8542dc54ed2",
+    "label": "O20",
+    "name": "Multi-tier rack 03",
+    "name_zh": "多层料架 03",
+    "projection": {
+      "bbox": [
+        632.5217178774014,
+        125.49641079318967,
+        786.6264047261816,
+        269.5839851948313
+      ],
+      "unclipped_bbox": [
+        632.5217178774014,
+        125.49641079318967,
+        786.6264047261816,
+        269.5839851948313
+      ],
+      "area_fraction": 0.04483380688272375,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q020"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T007",
+    "camera_id": "frame_000017",
+    "object_id": "obj_8429bc5f3c33",
+    "label": "O01",
+    "name": "Assembly fixture table 01",
+    "name_zh": "装配夹具台 01",
+    "projection": {
+      "bbox": [
+        147.584064491724,
+        167.28504245431782,
+        450.6282619380488,
+        316.46079900313987
+      ],
+      "unclipped_bbox": [
+        147.584064491724,
+        167.28504245431782,
+        450.6282619380488,
+        316.46079900313987
+      ],
+      "area_fraction": 0.09127828273766336,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q016"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T008",
+    "camera_id": "frame_000017",
+    "object_id": "obj_d058f708eb01",
+    "label": "O02",
+    "name": "Assembly fixture table 02",
+    "name_zh": "装配夹具台 02",
+    "projection": {
+      "bbox": [
+        438.678283698873,
+        160.292112197662,
+        719.8863243583606,
+        321.4225908866003
+      ],
+      "unclipped_bbox": [
+        438.678283698873,
+        160.292112197662,
+        719.8863243583606,
+        321.4225908866003
+      ],
+      "area_fraction": 0.0914889557945695,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q016"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T009",
+    "camera_id": "frame_000025",
+    "object_id": "obj_df0a6cc33263",
+    "label": "O31",
+    "name": "Workbench 02",
+    "name_zh": "工作台 02",
+    "projection": {
+      "bbox": [
+        634.8920732040018,
+        98.27074200260668,
+        757.354199781875,
+        269.77963005817685
+      ],
+      "unclipped_bbox": [
+        634.8920732040018,
+        98.27074200260668,
+        757.354199781875,
+        269.77963005817685
+      ],
+      "area_fraction": 0.04240837847752211,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q004",
+      "Q015"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T010",
+    "camera_id": "frame_000065",
+    "object_id": "obj_c812ae8b15bd",
+    "label": "O05",
+    "name": "Fixture table with black workpiece 02",
+    "name_zh": "带黑色工件的夹具台 02",
+    "projection": {
+      "bbox": [
+        45.963243354054796,
+        153.41370525011962,
+        337.6139945494497,
+        377.0851381390312
+      ],
+      "unclipped_bbox": [
+        45.963243354054796,
+        153.41370525011962,
+        337.6139945494497,
+        377.0851381390312
+      ],
+      "area_fraction": 0.13171549198609514,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q009"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T011",
+    "camera_id": "frame_000065",
+    "object_id": "obj_126125e3a773",
+    "label": "O08",
+    "name": "Multi-tier rack 02",
+    "name_zh": "多层料架 02",
+    "projection": {
+      "bbox": [
+        98.24986937009406,
+        110.46880609632727,
+        231.04703010213632,
+        184.29421059290667
+      ],
+      "unclipped_bbox": [
+        98.24986937009406,
+        110.46880609632727,
+        231.04703010213632,
+        184.29421059290667
+      ],
+      "area_fraction": 0.01979510747205589,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q005"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T012",
+    "camera_id": "frame_000065",
+    "object_id": "obj_aad6e7f85a9a",
+    "label": "O09",
+    "name": "Multi-tier rack 08",
+    "name_zh": "多层料架 08",
+    "projection": {
+      "bbox": [
+        800.2216014405485,
+        126.80869582981519,
+        937.0,
+        373.0511868390962
+      ],
+      "unclipped_bbox": [
+        800.2216014405485,
+        126.80869582981519,
+        1170.1098941191171,
+        373.0511868390962
+      ],
+      "area_fraction": 0.0680054548231642,
+      "image_coverage": 0.36978298926133174,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q005"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T013",
+    "camera_id": "frame_000065",
+    "object_id": "obj_8e79bd39b8b9",
+    "label": "O17",
+    "name": "Fixture table with black workpiece 04",
+    "name_zh": "带黑色工件的夹具台 04",
+    "projection": {
+      "bbox": [
+        205.30515684949572,
+        168.73777117208624,
+        598.2384633149444,
+        495.93015549716677
+      ],
+      "unclipped_bbox": [
+        205.30515684949572,
+        168.73777117208624,
+        598.2384633149444,
+        495.93015549716677
+      ],
+      "area_fraction": 0.2595883920962714,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q009"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T014",
+    "camera_id": "frame_000065",
+    "object_id": "obj_087984e7c374",
+    "label": "O18",
+    "name": "Fixture table with black workpiece 05",
+    "name_zh": "带黑色工件的夹具台 05",
+    "projection": {
+      "bbox": [
+        497.0642329164539,
+        162.57270903531386,
+        937.0,
+        527.0
+      ],
+      "unclipped_bbox": [
+        497.0642329164539,
+        162.57270903531386,
+        985.2730198261229,
+        604.0935451083616
+      ],
+      "area_fraction": 0.323715432166941,
+      "image_coverage": 0.743778070249313,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q009"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T015",
+    "camera_id": "frame_000065",
+    "object_id": "obj_b7e0494ce9dd",
+    "label": "O19",
+    "name": "Multi-tier rack 01",
+    "name_zh": "多层料架 01",
+    "projection": {
+      "bbox": [
+        53.10773018806999,
+        109.20534235180637,
+        190.25516954216295,
+        179.51372200101113
+      ],
+      "unclipped_bbox": [
+        53.10773018806999,
+        109.20534235180637,
+        190.25516954216295,
+        179.51372200101113
+      ],
+      "area_fraction": 0.019469644944966433,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q005"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T016",
+    "camera_id": "frame_000065",
+    "object_id": "obj_b8542dc54ed2",
+    "label": "O20",
+    "name": "Multi-tier rack 03",
+    "name_zh": "多层料架 03",
+    "projection": {
+      "bbox": [
+        131.6826472638652,
+        107.20481028078053,
+        274.7134040814915,
+        193.22793362758074
+      ],
+      "unclipped_bbox": [
+        131.6826472638652,
+        107.20481028078053,
+        274.7134040814915,
+        193.22793362758074
+      ],
+      "area_fraction": 0.024843219850642993,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q005"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T017",
+    "camera_id": "frame_000065",
+    "object_id": "obj_4fd05384c476",
+    "label": "O27",
+    "name": "Material cart 06",
+    "name_zh": "物料车 06",
+    "projection": {
+      "bbox": [
+        679.2921420422015,
+        110.86020980987193,
+        864.5833998784553,
+        306.2682633014183
+      ],
+      "unclipped_bbox": [
+        679.2921420422015,
+        110.86020980987193,
+        864.5833998784553,
+        306.2682633014183
+      ],
+      "area_fraction": 0.07310728020365422,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q013"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T018",
+    "camera_id": "frame_000065",
+    "object_id": "obj_dee5bef52687",
+    "label": "O28",
+    "name": "Multi-tier rack 07",
+    "name_zh": "多层料架 07",
+    "projection": {
+      "bbox": [
+        541.7145704561825,
+        114.32544538242146,
+        752.0339759324429,
+        288.1436388070708
+      ],
+      "unclipped_bbox": [
+        541.7145704561825,
+        114.32544538242146,
+        752.0339759324429,
+        288.1436388070708
+      ],
+      "area_fraction": 0.07381384292423813,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q005"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T019",
+    "camera_id": "frame_000073",
+    "object_id": "obj_c7c9293c6c6d",
+    "label": "O24",
+    "name": "Compartment rack 02",
+    "name_zh": "分隔式料架 02",
+    "projection": {
+      "bbox": [
+        0.0,
+        143.8065467651364,
+        293.09312637023316,
+        513.5481356492434
+      ],
+      "unclipped_bbox": [
+        -26.16309165590872,
+        143.8065467651364,
+        293.09312637023316,
+        513.5481356492434
+      ],
+      "area_fraction": 0.21881000483608812,
+      "image_coverage": 0.9180498603357934,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q012",
+      "Q023"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T020",
+    "camera_id": "frame_000089",
+    "object_id": "obj_c57876bf22ca",
+    "label": "O22",
+    "name": "Portable upright air cooler 03",
+    "name_zh": "立式移动冷风机 03",
+    "projection": {
+      "bbox": [
+        14.849800751411259,
+        248.49241757967255,
+        148.56280642601183,
+        401.12352694432514
+      ],
+      "unclipped_bbox": [
+        14.849800751411259,
+        248.49241757967255,
+        148.56280642601183,
+        401.12352694432514
+      ],
+      "area_fraction": 0.04120784953599771,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q014",
+      "Q021"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T021",
+    "camera_id": "frame_000113",
+    "object_id": "obj_ad85774e5f18",
+    "label": "O04",
+    "name": "Fixture table with black workpiece 01",
+    "name_zh": "带黑色工件的夹具台 01",
+    "projection": {
+      "bbox": [
+        319.34246925907127,
+        137.80484996275496,
+        454.3851127652887,
+        279.167950412917
+      ],
+      "unclipped_bbox": [
+        319.34246925907127,
+        137.80484996275496,
+        454.3851127652887,
+        279.167950412917
+      ],
+      "area_fraction": 0.03854519363213323,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q003"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T022",
+    "camera_id": "frame_000113",
+    "object_id": "obj_8528f4bf8a3d",
+    "label": "O16",
+    "name": "Fixture table with black workpiece 03",
+    "name_zh": "带黑色工件的夹具台 03",
+    "projection": {
+      "bbox": [
+        212.00362869481862,
+        151.67113605627785,
+        428.3825726335391,
+        380.6244245260076
+      ],
+      "unclipped_bbox": [
+        212.00362869481862,
+        151.67113605627785,
+        428.3825726335391,
+        380.6244245260076
+      ],
+      "area_fraction": 0.10002881447142807,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q003"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T023",
+    "camera_id": "frame_000121",
+    "object_id": "obj_aad6e7f85a9a",
+    "label": "O09",
+    "name": "Multi-tier rack 08",
+    "name_zh": "多层料架 08",
+    "projection": {
+      "bbox": [
+        0.0,
+        240.66842007630794,
+        900.6113400891375,
+        527.0
+      ],
+      "unclipped_bbox": [
+        -90.25802975558724,
+        240.66842007630794,
+        900.6113400891375,
+        1551.4745096941551
+      ],
+      "area_fraction": 0.5206788054551033,
+      "image_coverage": 0.19854173232212297,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q025"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T024",
+    "camera_id": "frame_000121",
+    "object_id": "obj_b8542dc54ed2",
+    "label": "O20",
+    "name": "Multi-tier rack 03",
+    "name_zh": "多层料架 03",
+    "projection": {
+      "bbox": [
+        754.3205587148686,
+        115.29729575438277,
+        903.5126981022397,
+        207.50618930768894
+      ],
+      "unclipped_bbox": [
+        754.3205587148686,
+        115.29729575438277,
+        903.5126981022397,
+        207.50618930768894
+      ],
+      "area_fraction": 0.02777678591571387,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q025"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T025",
+    "camera_id": "frame_000121",
+    "object_id": "obj_dee5bef52687",
+    "label": "O28",
+    "name": "Multi-tier rack 07",
+    "name_zh": "多层料架 07",
+    "projection": {
+      "bbox": [
+        499.6181803910003,
+        167.48671852263243,
+        920.49753017362,
+        499.39098893520725
+      ],
+      "unclipped_bbox": [
+        499.6181803910003,
+        167.48671852263243,
+        920.49753017362,
+        499.39098893520725
+      ],
+      "area_fraction": 0.28205493135240856,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q025"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T026",
+    "camera_id": "frame_000129",
+    "object_id": "obj_141f3e5dbe3a",
+    "label": "O11",
+    "name": "Blue bin group 01",
+    "name_zh": "蓝色箱组 01",
+    "projection": {
+      "bbox": [
+        741.5909916923248,
+        112.00936615554886,
+        937.0,
+        198.9296127626386
+      ],
+      "unclipped_bbox": [
+        741.5909916923248,
+        112.00936615554886,
+        943.5720048865736,
+        198.9296127626386
+      ],
+      "area_fraction": 0.034294839098642296,
+      "image_coverage": 0.9674622639888771,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q010"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T027",
+    "camera_id": "frame_000129",
+    "object_id": "obj_3c963764ddb5",
+    "label": "O12",
+    "name": "Blue bin group 02",
+    "name_zh": "蓝色箱组 02",
+    "projection": {
+      "bbox": [
+        94.03258839846181,
+        133.69677686836542,
+        447.28393775067184,
+        339.7626498740558
+      ],
+      "unclipped_bbox": [
+        94.03258839846181,
+        133.69677686836542,
+        447.28393775067184,
+        339.7626498740558
+      ],
+      "area_fraction": 0.1469782735969125,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q010"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T028",
+    "camera_id": "frame_000129",
+    "object_id": "obj_7463bab859d0",
+    "label": "O21",
+    "name": "Blue bin group 03",
+    "name_zh": "蓝色箱组 03",
+    "projection": {
+      "bbox": [
+        117.55468526208892,
+        144.6140067329136,
+        322.6523710050487,
+        395.01225529087304
+      ],
+      "unclipped_bbox": [
+        117.55468526208892,
+        144.6140067329136,
+        322.6523710050487,
+        395.01225529087304
+      ],
+      "area_fraction": 0.10369439590466477,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q002"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T029",
+    "camera_id": "frame_000153",
+    "object_id": "obj_7463bab859d0",
+    "label": "O21",
+    "name": "Blue bin group 03",
+    "name_zh": "蓝色箱组 03",
+    "projection": {
+      "bbox": [
+        168.5292305187573,
+        131.93112703006085,
+        351.58956199875894,
+        341.0316989480118
+      ],
+      "unclipped_bbox": [
+        168.5292305187573,
+        131.93112703006085,
+        351.58956199875894,
+        341.0316989480118
+      ],
+      "area_fraction": 0.07728811302246484,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q002"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T030",
+    "camera_id": "frame_000161",
+    "object_id": "obj_c812ae8b15bd",
+    "label": "O05",
+    "name": "Fixture table with black workpiece 02",
+    "name_zh": "带黑色工件的夹具台 02",
+    "projection": {
+      "bbox": [
+        602.4177174122618,
+        160.3234352311835,
+        937.0,
+        341.4465887982218
+      ],
+      "unclipped_bbox": [
+        602.4177174122618,
+        160.3234352311835,
+        946.5397764995723,
+        341.4465887982218
+      ],
+      "area_fraction": 0.12236019203889058,
+      "image_coverage": 0.972277927997775,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q009"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T031",
+    "camera_id": "frame_000161",
+    "object_id": "obj_8e79bd39b8b9",
+    "label": "O17",
+    "name": "Fixture table with black workpiece 04",
+    "name_zh": "带黑色工件的夹具台 04",
+    "projection": {
+      "bbox": [
+        345.0602759083621,
+        155.0269129206533,
+        634.460535603971,
+        341.71681875284435
+      ],
+      "unclipped_bbox": [
+        345.0602759083621,
+        155.0269129206533,
+        634.460535603971,
+        341.71681875284435
+      ],
+      "area_fraction": 0.10908951030235363,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q009"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T032",
+    "camera_id": "frame_000161",
+    "object_id": "obj_087984e7c374",
+    "label": "O18",
+    "name": "Fixture table with black workpiece 05",
+    "name_zh": "带黑色工件的夹具台 05",
+    "projection": {
+      "bbox": [
+        69.36697180964272,
+        141.2879658975034,
+        369.6552019545763,
+        401.33710377178403
+      ],
+      "unclipped_bbox": [
+        69.36697180964272,
+        141.2879658975034,
+        369.6552019545763,
+        401.33710377178403
+      ],
+      "area_fraction": 0.1576728681329221,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q009"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T033",
+    "camera_id": "frame_000169",
+    "object_id": "obj_ad85774e5f18",
+    "label": "O04",
+    "name": "Fixture table with black workpiece 01",
+    "name_zh": "带黑色工件的夹具台 01",
+    "projection": {
+      "bbox": [
+        508.35419219477586,
+        230.49537678430636,
+        937.0,
+        527.0
+      ],
+      "unclipped_bbox": [
+        508.35419219477586,
+        230.49537678430636,
+        1011.206006496007,
+        533.3075261082945
+      ],
+      "area_fraction": 0.2566216477197507,
+      "image_coverage": 0.834673706708868,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q003",
+      "Q018"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T034",
+    "camera_id": "frame_000169",
+    "object_id": "obj_8528f4bf8a3d",
+    "label": "O16",
+    "name": "Fixture table with black workpiece 03",
+    "name_zh": "带黑色工件的夹具台 03",
+    "projection": {
+      "bbox": [
+        0.0,
+        215.90486775333815,
+        506.27159277154715,
+        527.0
+      ],
+      "unclipped_bbox": [
+        -14.017783456480396,
+        215.90486775333815,
+        506.27159277154715,
+        542.4821730568017
+      ],
+      "area_fraction": 0.3180094416432298,
+      "image_coverage": 0.9269276043783236,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q003"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T035",
+    "camera_id": "frame_000169",
+    "object_id": "obj_5746b7e7d040",
+    "label": "O25",
+    "name": "Compartment rack 01",
+    "name_zh": "分隔式料架 01",
+    "projection": {
+      "bbox": [
+        443.2056819298118,
+        98.0018005554892,
+        727.0368103943607,
+        274.9775676775424
+      ],
+      "unclipped_bbox": [
+        443.2056819298118,
+        98.0018005554892,
+        727.0368103943607,
+        274.9775676775424
+      ],
+      "area_fraction": 0.1014231434005532,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q017"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T036",
+    "camera_id": "frame_000177",
+    "object_id": "obj_09a35ba03c92",
+    "label": "O03",
+    "name": "Assembly fixture table 03",
+    "name_zh": "装配夹具台 03",
+    "projection": {
+      "bbox": [
+        465.9955072276717,
+        231.2725234865787,
+        929.4405882450071,
+        517.3432517621354
+      ],
+      "unclipped_bbox": [
+        465.9955072276717,
+        231.2725234865787,
+        929.4405882450071,
+        517.3432517621354
+      ],
+      "area_fraction": 0.26769171965326277,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q011",
+      "Q022"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T037",
+    "camera_id": "frame_000185",
+    "object_id": "obj_09a35ba03c92",
+    "label": "O03",
+    "name": "Assembly fixture table 03",
+    "name_zh": "装配夹具台 03",
+    "projection": {
+      "bbox": [
+        39.12090193301427,
+        232.4927733035547,
+        486.57889531442714,
+        515.6015647240241
+      ],
+      "unclipped_bbox": [
+        39.12090193301427,
+        232.4927733035547,
+        486.57889531442714,
+        515.6015647240241
+      ],
+      "area_fraction": 0.25578134432876243,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q011",
+      "Q022"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T038",
+    "camera_id": "frame_000185",
+    "object_id": "obj_5bfd32389355",
+    "label": "O10",
+    "name": "Multi-tier rack 04",
+    "name_zh": "多层料架 04",
+    "projection": {
+      "bbox": [
+        234.54850097209118,
+        136.9496223657406,
+        484.67520641643324,
+        289.5339483433442
+      ],
+      "unclipped_bbox": [
+        234.54850097209118,
+        136.9496223657406,
+        484.67520641643324,
+        289.5339483433442
+      ],
+      "area_fraction": 0.07706074893233412,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q007"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T039",
+    "camera_id": "frame_000193",
+    "object_id": "obj_8429bc5f3c33",
+    "label": "O01",
+    "name": "Assembly fixture table 01",
+    "name_zh": "装配夹具台 01",
+    "projection": {
+      "bbox": [
+        471.7440822295967,
+        252.25999524648572,
+        937.0,
+        525.3641235436437
+      ],
+      "unclipped_bbox": [
+        471.7440822295967,
+        252.25999524648572,
+        994.2834551467141,
+        525.3641235436437
+      ],
+      "area_fraction": 0.2565567290531519,
+      "image_coverage": 0.8903748538087672,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q016"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T040",
+    "camera_id": "frame_000193",
+    "object_id": "obj_d058f708eb01",
+    "label": "O02",
+    "name": "Assembly fixture table 02",
+    "name_zh": "装配夹具台 02",
+    "projection": {
+      "bbox": [
+        5.971813023029273,
+        239.7293634650813,
+        472.73499002598203,
+        517.7084403225673
+      ],
+      "unclipped_bbox": [
+        5.971813023029273,
+        239.7293634650813,
+        472.73499002598203,
+        517.7084403225673
+      ],
+      "area_fraction": 0.2619822903630148,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q016"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T041",
+    "camera_id": "frame_000193",
+    "object_id": "obj_5bfd32389355",
+    "label": "O10",
+    "name": "Multi-tier rack 04",
+    "name_zh": "多层料架 04",
+    "projection": {
+      "bbox": [
+        1.770478641224879,
+        137.68166226104705,
+        305.1339516751321,
+        289.5942228494773
+      ],
+      "unclipped_bbox": [
+        1.770478641224879,
+        137.68166226104705,
+        305.1339516751321,
+        289.5942228494773
+      ],
+      "area_fraction": 0.09305082133484377,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q007"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T042",
+    "camera_id": "frame_000193",
+    "object_id": "obj_141f3e5dbe3a",
+    "label": "O11",
+    "name": "Blue bin group 01",
+    "name_zh": "蓝色箱组 01",
+    "projection": {
+      "bbox": [
+        266.29845446934513,
+        142.5218028330958,
+        501.4970889292459,
+        294.2597761722453
+      ],
+      "unclipped_bbox": [
+        266.29845446934513,
+        142.5218028330958,
+        501.4970889292459,
+        294.2597761722453
+      ],
+      "area_fraction": 0.07205967751558925,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q019"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T043",
+    "camera_id": "frame_000201",
+    "object_id": "obj_141f3e5dbe3a",
+    "label": "O11",
+    "name": "Blue bin group 01",
+    "name_zh": "蓝色箱组 01",
+    "projection": {
+      "bbox": [
+        68.29213872320285,
+        140.01268591325743,
+        349.16306663608503,
+        288.5275366604079
+      ],
+      "unclipped_bbox": [
+        68.29213872320285,
+        140.01268591325743,
+        349.16306663608503,
+        288.5275366604079
+      ],
+      "area_fraction": 0.08422478504029238,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q019"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T044",
+    "camera_id": "frame_000209",
+    "object_id": "obj_141f3e5dbe3a",
+    "label": "O11",
+    "name": "Blue bin group 01",
+    "name_zh": "蓝色箱组 01",
+    "projection": {
+      "bbox": [
+        483.86964532838033,
+        132.74314161481658,
+        755.2176214478534,
+        286.19120391739517
+      ],
+      "unclipped_bbox": [
+        483.86964532838033,
+        132.74314161481658,
+        755.2176214478534,
+        286.19120391739517
+      ],
+      "area_fraction": 0.08407197200939198,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q010"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T045",
+    "camera_id": "frame_000209",
+    "object_id": "obj_3c963764ddb5",
+    "label": "O12",
+    "name": "Blue bin group 02",
+    "name_zh": "蓝色箱组 02",
+    "projection": {
+      "bbox": [
+        203.7324449255446,
+        90.63012969285417,
+        321.98894170405106,
+        172.4310014832747
+      ],
+      "unclipped_bbox": [
+        203.7324449255446,
+        90.63012969285417,
+        321.98894170405106,
+        172.4310014832747
+      ],
+      "area_fraction": 0.01953197593881826,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q010"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T046",
+    "camera_id": "frame_000209",
+    "object_id": "obj_2e1a6e5960f5",
+    "label": "O15",
+    "name": "Workbench 01",
+    "name_zh": "工作台 01",
+    "projection": {
+      "bbox": [
+        646.8374335743774,
+        148.69859428686925,
+        815.2361537198586,
+        306.4830947800412
+      ],
+      "unclipped_bbox": [
+        646.8374335743774,
+        148.69859428686925,
+        815.2361537198586,
+        306.4830947800412
+      ],
+      "area_fraction": 0.05364958475044462,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q008"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T047",
+    "camera_id": "frame_000217",
+    "object_id": "obj_126125e3a773",
+    "label": "O08",
+    "name": "Multi-tier rack 02",
+    "name_zh": "多层料架 02",
+    "projection": {
+      "bbox": [
+        0.0,
+        203.4789576637953,
+        309.1811923211952,
+        412.0190774781282
+      ],
+      "unclipped_bbox": [
+        -25.68180297858267,
+        203.4789576637953,
+        309.1811923211952,
+        412.0190774781282
+      ],
+      "area_fraction": 0.1301864922364645,
+      "image_coverage": 0.9233065362877985,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q005"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T048",
+    "camera_id": "frame_000217",
+    "object_id": "obj_aad6e7f85a9a",
+    "label": "O09",
+    "name": "Multi-tier rack 08",
+    "name_zh": "多层料架 08",
+    "projection": {
+      "bbox": [
+        275.3684167907532,
+        92.83888046733126,
+        377.64844854213356,
+        162.79572461227608
+      ],
+      "unclipped_bbox": [
+        275.3684167907532,
+        92.83888046733126,
+        377.64844854213356,
+        162.79572461227608
+      ],
+      "area_fraction": 0.01444722055382851,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q005",
+      "Q025"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T049",
+    "camera_id": "frame_000217",
+    "object_id": "obj_b7e0494ce9dd",
+    "label": "O19",
+    "name": "Multi-tier rack 01",
+    "name_zh": "多层料架 01",
+    "projection": {
+      "bbox": [
+        0.0,
+        242.35498418517213,
+        318.75713012131393,
+        527.0
+      ],
+      "unclipped_bbox": [
+        -167.40040619605628,
+        242.35498418517213,
+        318.75713012131393,
+        537.4469703698644
+      ],
+      "area_fraction": 0.18320053212926954,
+      "image_coverage": 0.6324541602720926,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q005"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T050",
+    "camera_id": "frame_000217",
+    "object_id": "obj_b8542dc54ed2",
+    "label": "O20",
+    "name": "Multi-tier rack 03",
+    "name_zh": "多层料架 03",
+    "projection": {
+      "bbox": [
+        72.87010645823021,
+        164.84792424623836,
+        334.6475340840699,
+        335.27410713713385
+      ],
+      "unclipped_bbox": [
+        72.87010645823021,
+        164.84792424623836,
+        334.6475340840699,
+        335.27410713713385
+      ],
+      "area_fraction": 0.09008069990402999,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q005",
+      "Q025"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T051",
+    "camera_id": "frame_000217",
+    "object_id": "obj_dee5bef52687",
+    "label": "O28",
+    "name": "Multi-tier rack 07",
+    "name_zh": "多层料架 07",
+    "projection": {
+      "bbox": [
+        249.85203456130142,
+        99.46958144616899,
+        374.02841097546036,
+        180.32820408422683
+      ],
+      "unclipped_bbox": [
+        249.85203456130142,
+        99.46958144616899,
+        374.02841097546036,
+        180.32820408422683
+      ],
+      "area_fraction": 0.020273492038657973,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q005",
+      "Q025"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T052",
+    "camera_id": "frame_000225",
+    "object_id": "obj_2e1a6e5960f5",
+    "label": "O15",
+    "name": "Workbench 01",
+    "name_zh": "工作台 01",
+    "projection": {
+      "bbox": [
+        676.1679372592301,
+        175.15157971627872,
+        860.6304464932475,
+        387.1865089399832
+      ],
+      "unclipped_bbox": [
+        676.1679372592301,
+        175.15157971627872,
+        860.6304464932475,
+        387.1865089399832
+      ],
+      "area_fraction": 0.07897302265026694,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q008"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T053",
+    "camera_id": "frame_000249",
+    "object_id": "obj_7047e5f33259",
+    "label": "O30",
+    "name": "Material cart 04",
+    "name_zh": "物料车 04",
+    "projection": {
+      "bbox": [
+        88.16483560402492,
+        118.29569179660287,
+        303.5171389508037,
+        246.69078249959256
+      ],
+      "unclipped_bbox": [
+        88.16483560402492,
+        118.29569179660287,
+        303.5171389508037,
+        246.69078249959256
+      ],
+      "area_fraction": 0.055829170949851833,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q024"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T054",
+    "camera_id": "frame_000249",
+    "object_id": "obj_c0162cd69680",
+    "label": "O32",
+    "name": "Material cart 02",
+    "name_zh": "物料车 02",
+    "projection": {
+      "bbox": [
+        18.02388606517478,
+        152.48289647067548,
+        258.4797671245072,
+        313.5708027523733
+      ],
+      "unclipped_bbox": [
+        18.02388606517478,
+        152.48289647067548,
+        258.4797671245072,
+        313.5708027523733
+      ],
+      "area_fraction": 0.0782098727809185,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q024"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T055",
+    "camera_id": "frame_000265",
+    "object_id": "obj_e57b3a886c2d",
+    "label": "O13",
+    "name": "Portable upright air cooler 02",
+    "name_zh": "立式移动冷风机 02",
+    "projection": {
+      "bbox": [
+        325.71040594107615,
+        309.6189934521246,
+        466.10349511997026,
+        527.0
+      ],
+      "unclipped_bbox": [
+        325.71040594107615,
+        309.6189934521246,
+        466.10349511997026,
+        532.8583728990043
+      ],
+      "area_fraction": 0.061621258637966095,
+      "image_coverage": 0.9737574395990547,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q001"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T056",
+    "camera_id": "frame_000273",
+    "object_id": "obj_ad85774e5f18",
+    "label": "O04",
+    "name": "Fixture table with black workpiece 01",
+    "name_zh": "带黑色工件的夹具台 01",
+    "projection": {
+      "bbox": [
+        65.66875178862725,
+        169.80095791097375,
+        309.55834976947614,
+        406.0383177011629
+      ],
+      "unclipped_bbox": [
+        65.66875178862725,
+        169.80095791097375,
+        309.55834976947614,
+        406.0383177011629
+      ],
+      "area_fraction": 0.1163335810947018,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q018"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T057",
+    "camera_id": "frame_000273",
+    "object_id": "obj_f9a0e863e32d",
+    "label": "O07",
+    "name": "Material cart 03",
+    "name_zh": "物料车 03",
+    "projection": {
+      "bbox": [
+        223.96738923212928,
+        181.23927251226868,
+        432.1573465944632,
+        416.6300826166353
+      ],
+      "unclipped_bbox": [
+        223.96738923212928,
+        181.23927251226868,
+        432.1573465944632,
+        416.6300826166353
+      ],
+      "area_fraction": 0.09894925276037292,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q006"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T058",
+    "camera_id": "frame_000281",
+    "object_id": "obj_c57876bf22ca",
+    "label": "O22",
+    "name": "Portable upright air cooler 03",
+    "name_zh": "立式移动冷风机 03",
+    "projection": {
+      "bbox": [
+        622.6377900668458,
+        263.4611645160445,
+        729.6117194778088,
+        415.7888035623637
+      ],
+      "unclipped_bbox": [
+        622.6377900668458,
+        263.4611645160445,
+        729.6117194778088,
+        415.7888035623637
+      ],
+      "area_fraction": 0.032901818235687635,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q014",
+      "Q021"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T059",
+    "camera_id": "frame_000297",
+    "object_id": "obj_4fd05384c476",
+    "label": "O27",
+    "name": "Material cart 06",
+    "name_zh": "物料车 06",
+    "projection": {
+      "bbox": [
+        221.00132401329333,
+        129.60775645406724,
+        510.5305455089377,
+        466.44231468856447
+      ],
+      "unclipped_bbox": [
+        221.00132401329333,
+        129.60775645406724,
+        510.5305455089377,
+        466.44231468856447
+      ],
+      "area_fraction": 0.1969120457341201,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q013"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T060",
+    "camera_id": "frame_000305",
+    "object_id": "obj_c7c9293c6c6d",
+    "label": "O24",
+    "name": "Compartment rack 02",
+    "name_zh": "分隔式料架 02",
+    "projection": {
+      "bbox": [
+        0.0,
+        133.3074875973085,
+        437.43330679222635,
+        527.0
+      ],
+      "unclipped_bbox": [
+        -44.90697937221939,
+        133.3074875973085,
+        437.43330679222635,
+        553.7285560918122
+      ],
+      "area_fraction": 0.34772205845700255,
+      "image_coverage": 0.8492410810389199,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q012",
+      "Q023"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T061",
+    "camera_id": "frame_000305",
+    "object_id": "obj_5746b7e7d040",
+    "label": "O25",
+    "name": "Compartment rack 01",
+    "name_zh": "分隔式料架 01",
+    "projection": {
+      "bbox": [
+        247.14452927516086,
+        90.77150811828757,
+        595.9222477085146,
+        367.45363013031744
+      ],
+      "unclipped_bbox": [
+        247.14452927516086,
+        90.77150811828757,
+        595.9222477085146,
+        367.45363013031744
+      ],
+      "area_fraction": 0.19484670649725117,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q017"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T062",
+    "camera_id": "frame_000313",
+    "object_id": "obj_7047e5f33259",
+    "label": "O30",
+    "name": "Material cart 04",
+    "name_zh": "物料车 04",
+    "projection": {
+      "bbox": [
+        578.8178465207419,
+        111.86242790082524,
+        912.2899416424744,
+        321.3169207914641
+      ],
+      "unclipped_bbox": [
+        578.8178465207419,
+        111.86242790082524,
+        912.2899416424744,
+        321.3169207914641
+      ],
+      "area_fraction": 0.1410302961186385,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q024"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T063",
+    "camera_id": "frame_000313",
+    "object_id": "obj_c0162cd69680",
+    "label": "O32",
+    "name": "Material cart 02",
+    "name_zh": "物料车 02",
+    "projection": {
+      "bbox": [
+        519.0883039317018,
+        114.33695496258419,
+        699.1092321373881,
+        250.21608850613376
+      ],
+      "unclipped_bbox": [
+        519.0883039317018,
+        114.33695496258419,
+        699.1092321373881,
+        250.21608850613376
+      ],
+      "area_fraction": 0.04938999754533783,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q024"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T064",
+    "camera_id": "frame_000321",
+    "object_id": "obj_f9a0e863e32d",
+    "label": "O07",
+    "name": "Material cart 03",
+    "name_zh": "物料车 03",
+    "projection": {
+      "bbox": [
+        265.9229809663186,
+        171.26714904789068,
+        542.6953611551427,
+        491.5158837779749
+      ],
+      "unclipped_bbox": [
+        265.9229809663186,
+        171.26714904789068,
+        542.6953611551427,
+        491.5158837779749
+      ],
+      "area_fraction": 0.1789671863161965,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q006"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T065",
+    "camera_id": "frame_000321",
+    "object_id": "obj_df0a6cc33263",
+    "label": "O31",
+    "name": "Workbench 02",
+    "name_zh": "工作台 02",
+    "projection": {
+      "bbox": [
+        697.751052759957,
+        102.87483822608044,
+        937.0,
+        379.1890610985916
+      ],
+      "unclipped_bbox": [
+        697.751052759957,
+        102.87483822608044,
+        955.1924275257361,
+        379.1890610985916
+      ],
+      "area_fraction": 0.1334800973414157,
+      "image_coverage": 0.9293337073642977,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q004",
+      "Q015"
+    ],
+    "points": [],
+    "point_labels": []
+  },
+  {
+    "task_id": "T066",
+    "camera_id": "frame_000329",
+    "object_id": "obj_e57b3a886c2d",
+    "label": "O13",
+    "name": "Portable upright air cooler 02",
+    "name_zh": "立式移动冷风机 02",
+    "projection": {
+      "bbox": [
+        321.54256629088127,
+        255.18539313984363,
+        476.10148031062687,
+        477.82066727695167
+      ],
+      "unclipped_bbox": [
+        321.54256629088127,
+        255.18539313984363,
+        476.10148031062687,
+        477.82066727695167
+      ],
+      "area_fraction": 0.06947863400755915,
+      "image_coverage": 1.0,
+      "near_plane_clipped": false
+    },
+    "queries": [
+      "Q001"
+    ],
+    "points": [],
+    "point_labels": []
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "query": {
+    "query_id": "Q020",
+    "subject_category": "multi-tier material rack",
+    "subject_category_id": "category_04",
+    "predicate": "behind",
+    "predicate_ours": "behind",
+    "predicate_relags": "behind",
+    "object_category": "assembly fixture table",
+    "object_category_id": "category_02",
+    "query_en": "multi-tier material rack behind the assembly fixture table",
+    "query_zh": "位于装配夹具台后方的多层料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000001",
+      "frame_000009"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 9 same-class devices to 3; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "selected_gaussians": 70497,
+  "selected_nodes": [
+    {
+      "level": 3,
+      "score": 0.6683530807495117,
+      "node_id": 0
+    },
+    {
+      "level": 2,
+      "score": 0.6577088236808777,
+      "node_id": 0
+    },
+    {
+      "level": 3,
+      "score": 0.6134475469589233,
+      "node_id": 11
+    }
+  ],
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.01101592555642128,
+        0.011026589199900627,
+        0.010989075526595116
+      ],
+      "median_seconds": 0.01101592555642128
+    },
+    "render": {
+      "samples_seconds": [
+        0.04171700403094292,
+        0.04146348498761654,
+        0.0417420594021678
+      ],
+      "median_seconds": 0.04171700403094292
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.0527329295873642,
+        0.052490074187517166,
+        0.05273113492876291
+      ],
+      "median_seconds": 0.05273113492876291
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000001",
+      "mask_pixels": 0,
+      "directory": "outputs/thgs/Q020/frame_000001"
+    },
+    {
+      "camera_id": "frame_000009",
+      "mask_pixels": 0,
+      "directory": "outputs/thgs/Q020/frame_000009"
+    }
+  ]
+}

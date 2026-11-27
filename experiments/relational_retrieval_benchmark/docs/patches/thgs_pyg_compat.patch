@@ -1,0 +1,170 @@
+diff --git a/ext/spt/data/data.py b/ext/spt/data/data.py
+index b900a68..be5ecbc 100644
+--- a/ext/spt/data/data.py
++++ b/ext/spt/data/data.py
+@@ -138,7 +138,7 @@ class Data(PyGData):
+         `edge_attr`.
+         """
+         return [
+-            k for k in self.keys
++            k for k in self.keys()
+             if k.startswith('edge_') and k not in ['edge_index', 'edge_attr']]
+ 
+     def raise_if_edge_keys(self):
+@@ -155,7 +155,7 @@ class Data(PyGData):
+     @property
+     def v_edge_keys(self) -> List[str]:
+         """All keys starting with `v_edge_`."""
+-        return [k for k in self.keys if k.startswith('v_edge_')]
++        return [k for k in self.keys() if k.startswith('v_edge_')]
+ 
+     @property
+     def num_edges(self):
+@@ -182,7 +182,7 @@ class Data(PyGData):
+         InstanceData attributes.
+         """
+         self = super().detach()
+-        for k in self.keys:
++        for k in self.keys():
+             if isinstance(self[k], CSRData):
+                 self[k] = self[k].detach()
+         return self
+@@ -192,7 +192,7 @@ class Data(PyGData):
+         InstanceData attributes.
+         """
+         self = super().to(device, **kwargs)
+-        for k in self.keys:
++        for k in self.keys():
+             if isinstance(self[k], CSRData):
+                 self[k] = self[k].to(device, **kwargs)
+         return self
+@@ -554,7 +554,7 @@ class Data(PyGData):
+             if spt.is_debug_enabled():
+                 print(f'{self.__class__.__name__}.__eq__: classes differ')
+             return False
+-        if sorted(self.keys) != sorted(other.keys):
++        if sorted(self.keys()) != sorted(other.keys()):
+             if spt.is_debug_enabled():
+                 print(f'{self.__class__.__name__}.__eq__: keys differ')
+             return False
+@@ -641,7 +641,7 @@ class Data(PyGData):
+ 
+         # Save the information of which attributes are indexable and
+         # which are not
+-        f['_not_indexable_'] = list(set(self.keys) - set(self.node_attrs()))
++        f['_not_indexable_'] = list(set(self.keys()) - set(self.node_attrs()))
+ 
+     @classmethod
+     def load(
+@@ -946,7 +946,7 @@ class Batch(PyGBatch, Data):
+         # objects, so we need to call the to_list() for it to receive a
+         # list of objects that it can manage
+         bckp_dict = {}
+-        for k in self.keys:
++        for k in self.keys():
+             if isinstance(self[k], CSRData):
+                 bckp_dict[k] = self[k].clone()
+                 self[k] = self[k].to_list()
+@@ -988,7 +988,7 @@ class Batch(PyGBatch, Data):
+                  "'Batch' was not created via 'Batch.from_data_list()'"))
+ 
+         # Look for keys that are missing from `self._slice_dict`
+-        all_keys = set(self.keys)
++        all_keys = set(self.keys())
+         all_node_keys = set(self.node_attrs())
+         all_edge_keys = set(self.edge_attrs())
+         all_node_csr_keys = {k for k in all_keys if (
+diff --git a/ext/spt/data/nag.py b/ext/spt/data/nag.py
+index 3cdb620..effcf47 100644
+--- a/ext/spt/data/nag.py
++++ b/ext/spt/data/nag.py
+@@ -243,7 +243,7 @@ class NAG:
+         # To this end, we recompute the instance labels with a bottom-up
+         # approach
+         for k in ['obj', 'obj_pred']:
+-            if k in self[0].keys and self[0][k] is not None:
++            if k in self[0].keys() and self[0][k] is not None:
+                 for i in range(self.num_levels - 1):
+                     data_list[i + 1][k] = data_list[i][k].merge(
+                         data_list[i].super_index)
+diff --git a/ext/spt/transforms/data.py b/ext/spt/transforms/data.py
+index 10a816b..f83250b 100644
+--- a/ext/spt/transforms/data.py
++++ b/ext/spt/transforms/data.py
+@@ -49,7 +49,7 @@ class Cast(Transform):
+         self.rgb_to_float = rgb_to_float
+ 
+     def _process(self, data):
+-        for k in data.keys:
++        for k in data.keys():
+ 
+             # Recursively deal with CSRData attributes (e.g. Cluster for
+             # 'sub' key)
+@@ -118,7 +118,7 @@ class RemoveKeys(Transform):
+         self.strict = strict
+ 
+     def _process(self, data):
+-        keys = set(data.keys)
++        keys = set(data.keys())
+         for k in self.keys:
+             if k not in keys and self.strict:
+                 raise Exception(f"key: {k} is not within Data keys: {keys}")
+@@ -343,7 +343,7 @@ class NAGSelectByKey(Transform):
+ 
+     def _process(self, nag):
+         # Ensure the key exists
+-        if self.key not in nag[self.level].keys:
++        if self.key not in nag[self.level].keys():
+             if self.strict:
+                 raise ValueError(
+                     f'Input NAG does not have `{self.key}` attribute at '
+diff --git a/ext/spt/transforms/partition.py b/ext/spt/transforms/partition.py
+index 8713b26..1f5e623 100644
+--- a/ext/spt/transforms/partition.py
++++ b/ext/spt/transforms/partition.py
+@@ -250,7 +250,7 @@ class CutPursuitPartition(Transform):
+             # is not performed dynamically since not all attributes can
+             # be aggregated (e.g. 'neighbor_index', 'neighbor_distance',
+             # 'edge_index', 'edge_attr'...)
+-            if 'y' in d1.keys:
++            if 'y' in d1.keys():
+                 assert d1.y.dim() == 2, \
+                     "Expected Data.y to hold `(num_nodes, num_classes)` " \
+                     "histograms, not single labels"
+@@ -258,7 +258,7 @@ class CutPursuitPartition(Transform):
+                     d1.y.cuda(), d1.super_index.cuda(), dim=0).cpu()
+                 torch.cuda.empty_cache()
+ 
+-            if 'semantic_pred' in d1.keys:
++            if 'semantic_pred' in d1.keys():
+                 assert d1.semantic_pred.dim() == 2, \
+                     "Expected Data.semantic_pred to hold `(num_nodes, num_classes)` " \
+                     "histograms, not single labels"
+diff --git a/ext/spt/transforms/point.py b/ext/spt/transforms/point.py
+index 72bcb6a..f9e5632 100644
+--- a/ext/spt/transforms/point.py
++++ b/ext/spt/transforms/point.py
+@@ -92,7 +92,7 @@ class PointFeatures(Transform):
+         # already-existing keys in the input Data. Except for 'rgb', for
+         # which we always enforce [0, 1] float encoding
+         keys = set(self.keys) if self.overwrite \
+-            else set(self.keys) - set(data.keys)
++            else set(self.keys) - set(data.keys())
+ 
+         # Add RGB to the features. If colors are stored in int, we
+         # assume they are encoded in  [0, 255] and normalize them.
+diff --git a/sp_partition.py b/sp_partition.py
+index 89d786e..ffe7faf 100644
+--- a/sp_partition.py
++++ b/sp_partition.py
+@@ -94,8 +94,8 @@ def partition(data, filepath, transforms_dict, graph_cut=None, **kwargs):
+ 
+     # Simulate the behavior of the dataset's I/O behavior with only
+     # `point_load_keys` and `segment_load_keys` loaded from disk
+-    nag = NAGRemoveKeys(level=0, keys=[k for k in nag[0].keys if k not in cfg.datamodule.point_load_keys])(nag)
+-    nag = NAGRemoveKeys(level='1+', keys=[k for k in nag[1].keys if k not in cfg.datamodule.segment_load_keys])(nag)
++    nag = NAGRemoveKeys(level=0, keys=[k for k in nag[0].keys() if k not in cfg.datamodule.point_load_keys])(nag)
++    nag = NAGRemoveKeys(level='1+', keys=[k for k in nag[1].keys() if k not in cfg.datamodule.segment_load_keys])(nag)
+     nag = nag.cuda()
+ 
+     return nag

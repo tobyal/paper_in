@@ -1,0 +1,12 @@
+{
+  "T009":{"box":[658,126,719,248],"points":[[691,160],[687,196],[667,218],[739,172],[721,179]],"labels":[1,1,1,0,0],"note":"Tighter RGB box; remove neighboring grey cart and pole."},
+  "T026":{"box":[833,125,937,181],"points":[[870,137],[911,165],[851,168],[922,126],[866,154],[818,163]],"labels":[1,1,1,0,0,0],"note":"Exclude green workbench and beam, retain distant bin surfaces."},
+  "T027":{"box":[130,146,414,278],"points":[[157,173],[155,200],[252,199],[307,231],[354,176],[315,188],[350,251],[382,223],[194,311],[183,257],[267,285],[400,289],[290,135]],"labels":[1,1,1,1,1,1,1,1,0,0,0,0,0],"note":"Rear bins across several stacks; exclude front stack, beam and fixture below."},
+  "T028":{"box":[146,214,242,346],"points":[[177,224],[211,230],[191,265],[204,327],[201,279],[170,170],[267,241],[215,294]],"labels":[1,1,1,1,1,0,0,0],"note":"Front bin stack: add grey upper rim and side panel across material boundaries."},
+  "T034":{"box":[92,304,434,462],"points":[[249,354],[214,435],[156,340],[289,337],[316,353],[303,270],[374,459],[42,392]],"labels":[1,1,1,1,1,0,0,0],"note":"Tighter RGB box and extra black workpiece points; exclude rear rack and tarp occluder."},
+  "T039":{"box":[518,321,926,474],"points":[[702,422],[591,344],[848,342],[823,388],[623,506],[689,482],[730,301]],"labels":[1,1,1,1,0,0,0],"note":"Separate fixture from foreground mechanisms with tighter box and negatives."},
+  "T045":{"box":[202,93,292,151],"points":[[245,112],[278,125],[233,144],[207,116],[224,103],[282,163],[219,164],[290,142],[310,113],[287,101]],"labels":[1,1,1,1,1,0,0,0,0,0],"note":"Only distant blue/grey bin group, excluding pole and foreground workpieces."},
+  "T018":{"box":[573,119,722,253],"points":[[581,181],[686,177],[688,228],[649,163],[642,223],[768,205]],"labels":[1,1,1,0,0,0],"note":"Attempt to isolate large rear rack/panel from front white-panel workstation and right cart; ownership remains uncertain."},
+  "T025":{"box":[493,174,908,502],"points":[[717,275],[652,292],[861,264],[683,187],[867,207],[744,350],[610,412]],"labels":[1,1,1,0,0,0,0],"note":"Target third large cart/rack in row behind front rack and cart06; check ownership against geometry."},
+  "T051":{"box":[267,106,339,198],"points":[[284,147],[308,168],[303,140],[327,132]],"labels":[1,1,0,0],"note":"Attempt target rear panel/rack, excluding small screen and rear cart; distant boundary uncertain."}
+}

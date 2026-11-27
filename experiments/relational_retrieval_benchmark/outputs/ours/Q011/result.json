@@ -1,0 +1,75 @@
+{
+  "query": {
+    "query_id": "Q011",
+    "subject_category": "assembly fixture table",
+    "subject_category_id": "category_02",
+    "predicate": "in front of",
+    "predicate_ours": "in_front_of",
+    "predicate_relags": "front",
+    "object_category": "group of blue storage bins",
+    "object_category_id": "category_05",
+    "query_en": "assembly fixture table in front of the group of blue storage bins",
+    "query_zh": "位于蓝色箱组前方的装配夹具台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000177",
+      "frame_000185"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "query_status": "ok",
+  "empty_result": false,
+  "selected_gaussians": 16536,
+  "matched_object_ids": [
+    "obj_09a35ba03c92"
+  ],
+  "renderable_object_ids": [
+    "obj_09a35ba03c92"
+  ],
+  "unavailable_object_ids": [],
+  "fine_output_status": "available",
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.0022558970376849174,
+        0.002228955738246441,
+        0.002185201272368431
+      ],
+      "median_seconds": 0.002228955738246441
+    },
+    "render": {
+      "samples_seconds": [
+        0.014835705980658531,
+        0.014767373912036419,
+        0.014861665666103363
+      ],
+      "median_seconds": 0.014835705980658531
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.01709160301834345,
+        0.01699632965028286,
+        0.017046866938471794
+      ],
+      "median_seconds": 0.017046866938471794
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000177",
+      "mask_pixels": 14930,
+      "directory": "outputs/ours/Q011/frame_000177"
+    },
+    {
+      "camera_id": "frame_000185",
+      "mask_pixels": 13044,
+      "directory": "outputs/ours/Q011/frame_000185"
+    }
+  ]
+}

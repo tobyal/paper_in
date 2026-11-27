@@ -1,0 +1,4 @@
+{
+  "T023":{"points":[[544,341],[451,415],[746,490],[178,481],[482,426],[671,433],[606,492],[170,447],[353,371],[417,401]],"labels":[1,1,1,1,0,0,0,0,0,0],"note":"Thin rack: positive metal/support pixels and negative visible gaps; test whether SAM can preserve open structure without using any retrieval prediction."},
+  "T031":{"box":[393,217,476,311],"points":[[425,250],[434,287],[432,239],[412,238],[467,187],[568,249],[368,209]],"labels":[1,1,1,1,0,0,0],"note":"Add points on visible black workpiece behind pole; only small left visible section can be reviewed."}
+}

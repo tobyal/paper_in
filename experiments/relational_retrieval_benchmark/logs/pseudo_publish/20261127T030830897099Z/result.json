@@ -1,0 +1,14 @@
+{
+  "command": [
+    "../../envs/relags/bin/python",
+    "scripts/publish_pseudo_evaluation.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "0",
+  "start_utc": "20261127T030830897099Z",
+  "stage": "pseudo_publish",
+  "pid": 2999513,
+  "exit_code": 0,
+  "status": "completed",
+  "seconds": 5.242787599563599
+}

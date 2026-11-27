@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/envs/saga/bin/python",
+    "scripts/export_3d_views.py",
+    "--method",
+    "ours"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "1",
+  "start_utc": "20261127T023124659874Z",
+  "stage": "ours_3d_display",
+  "pid": 2864024
+}

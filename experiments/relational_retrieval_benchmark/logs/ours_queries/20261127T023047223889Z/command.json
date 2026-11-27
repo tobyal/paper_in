@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v1/envs/saga/bin/python",
+    "scripts/run_ours.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "0",
+  "start_utc": "20261127T023047223889Z",
+  "stage": "ours_queries",
+  "pid": 2862177
+}

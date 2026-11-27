@@ -1,0 +1,201 @@
+﻿method,method_id,query_id,camera_id,relation,status,reference_type,reason,reference_pixels,prediction_pixels,empty_prediction,query_execution_status,iou,precision,recall,tp,fp,fn
+LangSplat,langsplat,Q001,frame_000329,left_of,evaluated,SAM-assisted Pseudo-GT,,12319,12188,False,completed,0.7984149115726132,0.8926813258943223,0.8831885705008523,10880,1308,1439
+THGS,thgs,Q001,frame_000329,left_of,evaluated,SAM-assisted Pseudo-GT,,12319,17408,False,completed,0.6776906145945031,0.6897977941176471,0.9747544443542495,12008,5400,311
+ReLaGS,relags,Q001,frame_000329,left_of,evaluated,SAM-assisted Pseudo-GT,,12319,0,True,completed,0.0,0.0,0.0,0,0,12319
+Ours,ours,Q001,frame_000329,left_of,evaluated,SAM-assisted Pseudo-GT,,12319,12099,False,completed,0.9593965655593003,0.9881808413918506,0.970533322509944,11956,143,363
+LangSplat,langsplat,Q001,frame_000265,left_of,evaluated,SAM-assisted Pseudo-GT,,10879,11278,False,completed,0.8829778193252316,0.9212626352190104,0.9550510157183565,10390,888,489
+THGS,thgs,Q001,frame_000265,left_of,evaluated,SAM-assisted Pseudo-GT,,10879,11304,False,completed,0.9474146255815995,0.9547062986553433,0.9920029414468241,10792,512,87
+ReLaGS,relags,Q001,frame_000265,left_of,evaluated,SAM-assisted Pseudo-GT,,10879,5428,False,completed,0.0,0.0,0.0,0,5428,10879
+Ours,ours,Q001,frame_000265,left_of,evaluated,SAM-assisted Pseudo-GT,,10879,10903,False,completed,0.9683715886499187,0.9828487572227828,0.9850170052394521,10716,187,163
+LangSplat,langsplat,Q002,frame_000129,left_of,evaluated,SAM-assisted Pseudo-GT,,9504,30918,False,completed,0.04636173021666537,0.057927420919852514,0.1884469696969697,1791,29127,7713
+THGS,thgs,Q002,frame_000129,left_of,evaluated,SAM-assisted Pseudo-GT,,9504,898,False,completed,0.0,0.0,0.0,0,898,9504
+ReLaGS,relags,Q002,frame_000129,left_of,evaluated,SAM-assisted Pseudo-GT,,9504,137,False,completed,0.0,0.0,0.0,0,137,9504
+Ours,ours,Q002,frame_000129,left_of,evaluated,SAM-assisted Pseudo-GT,,9504,7810,False,completed,0.4677856900644286,0.7065300896286811,0.5805976430976431,5518,2292,3986
+LangSplat,langsplat,Q002,frame_000153,left_of,evaluated,SAM-assisted Pseudo-GT,,9904,29446,False,completed,0.08879112365457513,0.10897914827141207,0.32401050080775445,3209,26237,6695
+THGS,thgs,Q002,frame_000153,left_of,evaluated,SAM-assisted Pseudo-GT,,9904,0,True,completed,0.0,0.0,0.0,0,0,9904
+ReLaGS,relags,Q002,frame_000153,left_of,evaluated,SAM-assisted Pseudo-GT,,9904,0,True,completed,0.0,0.0,0.0,0,0,9904
+Ours,ours,Q002,frame_000153,left_of,evaluated,SAM-assisted Pseudo-GT,,9904,7864,False,completed,0.5613356766256591,0.8123092573753815,0.6449919224555735,6388,1476,3516
+LangSplat,langsplat,Q003,frame_000169,left_of,evaluated,SAM-assisted Pseudo-GT,,70114,56182,False,completed,0.13079292314304133,0.2600121035207006,0.20834640727957326,14608,41574,55506
+THGS,thgs,Q003,frame_000169,left_of,evaluated,SAM-assisted Pseudo-GT,,70114,0,True,completed,0.0,0.0,0.0,0,0,70114
+ReLaGS,relags,Q003,frame_000169,left_of,evaluated,SAM-assisted Pseudo-GT,,70114,2994,False,completed,0.024136723401274776,0.5754843019372078,0.024574264768805087,1723,1271,68391
+Ours,ours,Q003,frame_000169,left_of,evaluated,SAM-assisted Pseudo-GT,,70114,51052,False,completed,0.6240784923464601,0.9120112826138055,0.6640613857432182,46560,4492,23554
+LangSplat,langsplat,Q003,frame_000113,left_of,evaluated,SAM-assisted Pseudo-GT,,15989,121012,False,completed,2.1898129899706564e-05,2.479092982514131e-05,0.00018762899493401713,3,121009,15986
+THGS,thgs,Q003,frame_000113,left_of,evaluated,SAM-assisted Pseudo-GT,,15989,91617,False,completed,0.0002137884238216075,0.0002510451117150747,0.001438488961160798,23,91594,15966
+ReLaGS,relags,Q003,frame_000113,left_of,evaluated,SAM-assisted Pseudo-GT,,15989,610,False,completed,0.004478063540090772,0.12131147540983607,0.004628181875039089,74,536,15915
+Ours,ours,Q003,frame_000113,left_of,evaluated,SAM-assisted Pseudo-GT,,15989,9687,False,completed,0.5555555555555556,0.946629503458243,0.5735192945149791,9170,517,6819
+LangSplat,langsplat,Q004,frame_000321,left_of,evaluated,SAM-assisted Pseudo-GT,,8655,8020,False,completed,0.0010205306759514948,0.002119700748129676,0.0019641825534373195,17,8003,8638
+THGS,thgs,Q004,frame_000321,left_of,evaluated,SAM-assisted Pseudo-GT,,8655,4101,False,completed,0.0,0.0,0.0,0,4101,8655
+ReLaGS,relags,Q004,frame_000321,left_of,evaluated,SAM-assisted Pseudo-GT,,8655,0,True,completed,0.0,0.0,0.0,0,0,8655
+Ours,ours,Q004,frame_000321,left_of,evaluated,SAM-assisted Pseudo-GT,,8655,7757,False,completed,0.5699253874115171,0.7680804434704138,0.6883882149046794,5958,1799,2697
+LangSplat,langsplat,Q004,frame_000025,left_of,evaluated,SAM-assisted Pseudo-GT,,3831,3298,False,completed,0.0,0.0,0.0,0,3298,3831
+THGS,thgs,Q004,frame_000025,left_of,evaluated,SAM-assisted Pseudo-GT,,3831,4433,False,completed,0.0,0.0,0.0,0,4433,3831
+ReLaGS,relags,Q004,frame_000025,left_of,evaluated,SAM-assisted Pseudo-GT,,3831,190,False,completed,0.0,0.0,0.0,0,190,3831
+Ours,ours,Q004,frame_000025,left_of,evaluated,SAM-assisted Pseudo-GT,,3831,3551,False,completed,0.5666383701188455,0.7519008729935229,0.696945967110415,2670,881,1161
+LangSplat,langsplat,Q005,frame_000217,left_of,excluded_unreliable,SAM-assisted Pseudo-GT,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,53663,32648,False,completed,,,,,,
+THGS,thgs,Q005,frame_000217,left_of,excluded_unreliable,SAM-assisted Pseudo-GT,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,53663,919,False,completed,,,,,,
+ReLaGS,relags,Q005,frame_000217,left_of,excluded_unreliable,SAM-assisted Pseudo-GT,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,53663,935,False,completed,,,,,,
+Ours,ours,Q005,frame_000217,left_of,excluded_unreliable,SAM-assisted Pseudo-GT,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,53663,41196,False,completed,,,,,,
+LangSplat,langsplat,Q005,frame_000065,left_of,excluded_unreliable,SAM-assisted Pseudo-GT,M0 box spans rear large panel/rack plus separate front workstation; visible ownership cannot be reliably resolved in this view after additional prompts.,24333,16665,False,completed,,,,,,
+THGS,thgs,Q005,frame_000065,left_of,excluded_unreliable,SAM-assisted Pseudo-GT,M0 box spans rear large panel/rack plus separate front workstation; visible ownership cannot be reliably resolved in this view after additional prompts.,24333,15733,False,completed,,,,,,
+ReLaGS,relags,Q005,frame_000065,left_of,excluded_unreliable,SAM-assisted Pseudo-GT,M0 box spans rear large panel/rack plus separate front workstation; visible ownership cannot be reliably resolved in this view after additional prompts.,24333,15191,False,completed,,,,,,
+Ours,ours,Q005,frame_000065,left_of,excluded_unreliable,SAM-assisted Pseudo-GT,M0 box spans rear large panel/rack plus separate front workstation; visible ownership cannot be reliably resolved in this view after additional prompts.,24333,12829,False,completed,,,,,,
+LangSplat,langsplat,Q006,frame_000321,right_of,evaluated,SAM-assisted Pseudo-GT,,30190,62213,False,completed,0.27276859504132234,0.3183096780415669,0.6559456773766148,19803,42410,10387
+THGS,thgs,Q006,frame_000321,right_of,evaluated,SAM-assisted Pseudo-GT,,30190,15300,False,completed,0.0,0.0,0.0,0,15300,30190
+ReLaGS,relags,Q006,frame_000321,right_of,evaluated,SAM-assisted Pseudo-GT,,30190,0,True,completed,0.0,0.0,0.0,0,0,30190
+Ours,ours,Q006,frame_000321,right_of,evaluated,SAM-assisted Pseudo-GT,,30190,29976,False,completed,0.9601237986642776,0.9831531892180411,0.9761841669426963,29471,505,719
+LangSplat,langsplat,Q006,frame_000273,right_of,evaluated,SAM-assisted Pseudo-GT,,17128,62139,False,completed,0.23984483756432515,0.24676933970614268,0.8952592246613732,15334,46805,1794
+THGS,thgs,Q006,frame_000273,right_of,evaluated,SAM-assisted Pseudo-GT,,17128,10518,False,completed,0.0,0.0,0.0,0,10518,17128
+ReLaGS,relags,Q006,frame_000273,right_of,evaluated,SAM-assisted Pseudo-GT,,17128,0,True,completed,0.0,0.0,0.0,0,0,17128
+Ours,ours,Q006,frame_000273,right_of,evaluated,SAM-assisted Pseudo-GT,,17128,17265,False,completed,0.9653142857142857,0.9784535186794092,0.9862797758056983,16893,372,235
+LangSplat,langsplat,Q007,frame_000185,right_of,evaluated,SAM-assisted Pseudo-GT,,9846,28830,False,completed,0.18080234475178605,0.20541103017689907,0.6014625228519196,5922,22908,3924
+THGS,thgs,Q007,frame_000185,right_of,evaluated,SAM-assisted Pseudo-GT,,9846,8695,False,completed,0.3672295553425264,0.5727429557216791,0.505789152955515,4980,3715,4866
+ReLaGS,relags,Q007,frame_000185,right_of,evaluated,SAM-assisted Pseudo-GT,,9846,0,True,completed,0.0,0.0,0.0,0,0,9846
+Ours,ours,Q007,frame_000185,right_of,evaluated,SAM-assisted Pseudo-GT,,9846,8111,False,completed,0.7634292448197977,0.9584514856367895,0.7895592118626854,7774,337,2072
+LangSplat,langsplat,Q007,frame_000193,right_of,evaluated,SAM-assisted Pseudo-GT,,9734,20815,False,completed,0.1510983835110592,0.19264953158779727,0.41195808506266696,4010,16805,5724
+THGS,thgs,Q007,frame_000193,right_of,evaluated,SAM-assisted Pseudo-GT,,9734,9514,False,completed,0.34988428361035134,0.5243851166701703,0.5125333881241011,4989,4525,4745
+ReLaGS,relags,Q007,frame_000193,right_of,evaluated,SAM-assisted Pseudo-GT,,9734,0,True,completed,0.0,0.0,0.0,0,0,9734
+Ours,ours,Q007,frame_000193,right_of,evaluated,SAM-assisted Pseudo-GT,,9734,8470,False,completed,0.6733155620921041,0.8648170011806375,0.7525169508937744,7325,1145,2409
+LangSplat,langsplat,Q008,frame_000225,right_of,evaluated,SAM-assisted Pseudo-GT,,9761,255239,False,completed,0.027199466631522232,0.027491880159380033,0.7188812621657618,7017,248222,2744
+THGS,thgs,Q008,frame_000225,right_of,evaluated,SAM-assisted Pseudo-GT,,9761,2077,False,completed,0.0,0.0,0.0,0,2077,9761
+ReLaGS,relags,Q008,frame_000225,right_of,evaluated,SAM-assisted Pseudo-GT,,9761,0,True,completed,0.0,0.0,0.0,0,0,9761
+Ours,ours,Q008,frame_000225,right_of,evaluated,SAM-assisted Pseudo-GT,,9761,10885,False,completed,0.6491732566498921,0.7466237942122187,0.8325991189427313,8127,2758,1634
+LangSplat,langsplat,Q008,frame_000209,right_of,evaluated,SAM-assisted Pseudo-GT,,5282,253099,False,completed,0.01136697236933266,0.0114737711330349,0.5497917455509277,2904,250195,2378
+THGS,thgs,Q008,frame_000209,right_of,evaluated,SAM-assisted Pseudo-GT,,5282,663,False,completed,0.0,0.0,0.0,0,663,5282
+ReLaGS,relags,Q008,frame_000209,right_of,evaluated,SAM-assisted Pseudo-GT,,5282,0,True,completed,0.0,0.0,0.0,0,0,5282
+Ours,ours,Q008,frame_000209,right_of,evaluated,SAM-assisted Pseudo-GT,,5282,6781,False,completed,0.6758821894970826,0.7174458044536204,0.9210526315789473,4865,1916,417
+LangSplat,langsplat,Q009,frame_000161,right_of,excluded_unreliable,SAM-assisted Pseudo-GT,Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable.,28731,74735,False,completed,,,,,,
+THGS,thgs,Q009,frame_000161,right_of,excluded_unreliable,SAM-assisted Pseudo-GT,Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable.,28731,1570,False,completed,,,,,,
+ReLaGS,relags,Q009,frame_000161,right_of,excluded_unreliable,SAM-assisted Pseudo-GT,Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable.,28731,64,False,completed,,,,,,
+Ours,ours,Q009,frame_000161,right_of,excluded_unreliable,SAM-assisted Pseudo-GT,Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable.,28731,29098,False,completed,,,,,,
+LangSplat,langsplat,Q009,frame_000065,right_of,evaluated,SAM-assisted Pseudo-GT,,46843,51815,False,completed,0.02723808333853939,0.05048731062433658,0.05584612428751361,2616,49199,44227
+THGS,thgs,Q009,frame_000065,right_of,evaluated,SAM-assisted Pseudo-GT,,46843,15733,False,completed,3.196215680634129e-05,0.00012712133731646857,4.269581367546912e-05,2,15731,46841
+ReLaGS,relags,Q009,frame_000065,right_of,evaluated,SAM-assisted Pseudo-GT,,46843,681,False,completed,0.0010321221695629278,0.07195301027900147,0.0010460474350489934,49,632,46794
+Ours,ours,Q009,frame_000065,right_of,evaluated,SAM-assisted Pseudo-GT,,46843,48865,False,completed,0.7849975754410832,0.8613527064360994,0.8985333988002476,42090,6775,4753
+LangSplat,langsplat,Q010,frame_000129,right_of,excluded_unreliable,SAM-assisted Pseudo-GT,Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.; Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points.,19237,15925,False,completed,,,,,,
+THGS,thgs,Q010,frame_000129,right_of,excluded_unreliable,SAM-assisted Pseudo-GT,Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.; Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points.,19237,898,False,completed,,,,,,
+ReLaGS,relags,Q010,frame_000129,right_of,excluded_unreliable,SAM-assisted Pseudo-GT,Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.; Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points.,19237,0,True,completed,,,,,,
+Ours,ours,Q010,frame_000129,right_of,excluded_unreliable,SAM-assisted Pseudo-GT,Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.; Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points.,19237,8359,False,completed,,,,,,
+LangSplat,langsplat,Q010,frame_000209,right_of,evaluated,SAM-assisted Pseudo-GT,,12398,7350,False,completed,0.5117507463829136,0.9095238095238095,0.5391998709469269,6685,665,5713
+THGS,thgs,Q010,frame_000209,right_of,evaluated,SAM-assisted Pseudo-GT,,12398,3358,False,completed,0.268496900410595,0.9931506849315068,0.2689949991934183,3335,23,9063
+ReLaGS,relags,Q010,frame_000209,right_of,evaluated,SAM-assisted Pseudo-GT,,12398,38,False,completed,0.0030650104855621876,1.0,0.0030650104855621876,38,0,12360
+Ours,ours,Q010,frame_000209,right_of,evaluated,SAM-assisted Pseudo-GT,,12398,1288,False,completed,0.10202109670665915,0.9836956521739131,0.10219390224229714,1267,21,11131
+LangSplat,langsplat,Q011,frame_000177,in_front_of,evaluated,SAM-assisted Pseudo-GT,,24814,15542,False,completed,0.0,0.0,0.0,0,15542,24814
+THGS,thgs,Q011,frame_000177,in_front_of,evaluated,SAM-assisted Pseudo-GT,,24814,10365,False,completed,0.0,0.0,0.0,0,10365,24814
+ReLaGS,relags,Q011,frame_000177,in_front_of,evaluated,SAM-assisted Pseudo-GT,,24814,11766,False,completed,0.0,0.0,0.0,0,11766,24814
+Ours,ours,Q011,frame_000177,in_front_of,evaluated,SAM-assisted Pseudo-GT,,24814,14930,False,completed,0.4837047821704558,0.8678499665103818,0.522164906907391,12957,1973,11857
+LangSplat,langsplat,Q011,frame_000185,in_front_of,evaluated,SAM-assisted Pseudo-GT,,24951,26556,False,completed,0.0,0.0,0.0,0,26556,24951
+THGS,thgs,Q011,frame_000185,in_front_of,evaluated,SAM-assisted Pseudo-GT,,24951,8087,False,completed,0.0,0.0,0.0,0,8087,24951
+ReLaGS,relags,Q011,frame_000185,in_front_of,evaluated,SAM-assisted Pseudo-GT,,24951,13916,False,completed,0.0,0.0,0.0,0,13916,24951
+Ours,ours,Q011,frame_000185,in_front_of,evaluated,SAM-assisted Pseudo-GT,,24951,13044,False,completed,0.4571987420418808,0.9139067770622509,0.4777764418259789,11921,1123,13030
+LangSplat,langsplat,Q012,frame_000073,in_front_of,evaluated,SAM-assisted Pseudo-GT,,31388,32018,False,completed,0.0,0.0,0.0,0,32018,31388
+THGS,thgs,Q012,frame_000073,in_front_of,evaluated,SAM-assisted Pseudo-GT,,31388,10367,False,completed,0.0,0.0,0.0,0,10367,31388
+ReLaGS,relags,Q012,frame_000073,in_front_of,evaluated,SAM-assisted Pseudo-GT,,31388,0,True,completed,0.0,0.0,0.0,0,0,31388
+Ours,ours,Q012,frame_000073,in_front_of,evaluated,SAM-assisted Pseudo-GT,,31388,25720,False,completed,0.7151609802979337,0.9258164852255054,0.7586338728176373,23812,1908,7576
+LangSplat,langsplat,Q012,frame_000305,in_front_of,evaluated,SAM-assisted Pseudo-GT,,58684,88417,False,completed,0.2451518973412675,0.32756144180417796,0.4935246404471406,28962,59455,29722
+THGS,thgs,Q012,frame_000305,in_front_of,evaluated,SAM-assisted Pseudo-GT,,58684,14363,False,completed,0.0,0.0,0.0,0,14363,58684
+ReLaGS,relags,Q012,frame_000305,in_front_of,evaluated,SAM-assisted Pseudo-GT,,58684,0,True,completed,0.0,0.0,0.0,0,0,58684
+Ours,ours,Q012,frame_000305,in_front_of,evaluated,SAM-assisted Pseudo-GT,,58684,61847,False,completed,0.7246061611984719,0.8188271055993015,0.8629609433576443,50642,11205,8042
+LangSplat,langsplat,Q013,frame_000297,in_front_of,evaluated,SAM-assisted Pseudo-GT,,29749,40461,False,completed,0.3572395128552097,0.4567361162601023,0.6211973511714679,18480,21981,11269
+THGS,thgs,Q013,frame_000297,in_front_of,evaluated,SAM-assisted Pseudo-GT,,29749,76941,False,completed,0.0,0.0,0.0,0,76941,29749
+ReLaGS,relags,Q013,frame_000297,in_front_of,evaluated,SAM-assisted Pseudo-GT,,29749,0,True,completed,0.0,0.0,0.0,0,0,29749
+Ours,ours,Q013,frame_000297,in_front_of,evaluated,SAM-assisted Pseudo-GT,,29749,29165,False,completed,0.9295188812104935,0.9731184639122236,0.954015261017177,28381,784,1368
+LangSplat,langsplat,Q013,frame_000065,in_front_of,evaluated,SAM-assisted Pseudo-GT,,10993,34311,False,completed,0.21075418247902078,0.22983882719827461,0.7173655962885472,7886,26425,3107
+THGS,thgs,Q013,frame_000065,in_front_of,evaluated,SAM-assisted Pseudo-GT,,10993,26240,False,completed,0.00021490933512424446,0.0003048780487804878,0.0007277358318930229,8,26232,10985
+ReLaGS,relags,Q013,frame_000065,in_front_of,evaluated,SAM-assisted Pseudo-GT,,10993,0,True,completed,0.0,0.0,0.0,0,0,10993
+Ours,ours,Q013,frame_000065,in_front_of,evaluated,SAM-assisted Pseudo-GT,,10993,10689,False,completed,0.9160480735242135,0.9697820188979325,0.9429637041753843,10366,323,627
+LangSplat,langsplat,Q014,frame_000089,in_front_of,evaluated,SAM-assisted Pseudo-GT,,6934,8670,False,completed,0.682916307161346,0.7303344867358709,0.9131814248629939,6332,2338,602
+THGS,thgs,Q014,frame_000089,in_front_of,evaluated,SAM-assisted Pseudo-GT,,6934,1327,False,completed,0.0,0.0,0.0,0,1327,6934
+ReLaGS,relags,Q014,frame_000089,in_front_of,evaluated,SAM-assisted Pseudo-GT,,6934,0,True,completed,0.0,0.0,0.0,0,0,6934
+Ours,ours,Q014,frame_000089,in_front_of,evaluated,SAM-assisted Pseudo-GT,,6934,6412,False,completed,0.8946621237932992,0.9828446662507798,0.9088549177963657,6302,110,632
+LangSplat,langsplat,Q014,frame_000281,in_front_of,evaluated,SAM-assisted Pseudo-GT,,5382,8484,False,completed,0.3404872389791183,0.41513437057991515,0.6544035674470458,3522,4962,1860
+THGS,thgs,Q014,frame_000281,in_front_of,evaluated,SAM-assisted Pseudo-GT,,5382,0,True,completed,0.0,0.0,0.0,0,0,5382
+ReLaGS,relags,Q014,frame_000281,in_front_of,evaluated,SAM-assisted Pseudo-GT,,5382,0,True,completed,0.0,0.0,0.0,0,0,5382
+Ours,ours,Q014,frame_000281,in_front_of,evaluated,SAM-assisted Pseudo-GT,,5382,4427,False,completed,0.7994863327829757,0.9844138242602214,0.8097361575622445,4358,69,1024
+LangSplat,langsplat,Q015,frame_000321,in_front_of,evaluated,SAM-assisted Pseudo-GT,,8655,32450,False,completed,0.0007547353556994692,0.0009553158705701078,0.0035817446562680533,31,32419,8624
+THGS,thgs,Q015,frame_000321,in_front_of,evaluated,SAM-assisted Pseudo-GT,,8655,8487,False,completed,0.0,0.0,0.0,0,8487,8655
+ReLaGS,relags,Q015,frame_000321,in_front_of,evaluated,SAM-assisted Pseudo-GT,,8655,0,True,completed,0.0,0.0,0.0,0,0,8655
+Ours,ours,Q015,frame_000321,in_front_of,evaluated,SAM-assisted Pseudo-GT,,8655,7757,False,completed,0.5699253874115171,0.7680804434704138,0.6883882149046794,5958,1799,2697
+LangSplat,langsplat,Q015,frame_000025,in_front_of,evaluated,SAM-assisted Pseudo-GT,,3831,36717,False,completed,0.0,0.0,0.0,0,36717,3831
+THGS,thgs,Q015,frame_000025,in_front_of,evaluated,SAM-assisted Pseudo-GT,,3831,53259,False,completed,0.0,0.0,0.0,0,53259,3831
+ReLaGS,relags,Q015,frame_000025,in_front_of,evaluated,SAM-assisted Pseudo-GT,,3831,190,False,completed,0.0,0.0,0.0,0,190,3831
+Ours,ours,Q015,frame_000025,in_front_of,evaluated,SAM-assisted Pseudo-GT,,3831,3551,False,completed,0.5666383701188455,0.7519008729935229,0.696945967110415,2670,881,1161
+LangSplat,langsplat,Q016,frame_000193,behind,evaluated,SAM-assisted Pseudo-GT,,39602,11438,False,completed,0.0,0.0,0.0,0,11438,39602
+THGS,thgs,Q016,frame_000193,behind,evaluated,SAM-assisted Pseudo-GT,,39602,0,True,completed,0.0,0.0,0.0,0,0,39602
+ReLaGS,relags,Q016,frame_000193,behind,evaluated,SAM-assisted Pseudo-GT,,39602,0,True,completed,0.0,0.0,0.0,0,0,39602
+Ours,ours,Q016,frame_000193,behind,evaluated,SAM-assisted Pseudo-GT,,39602,37911,False,completed,0.48290639168946453,0.6658225844741632,0.6373920509065198,25242,12669,14360
+LangSplat,langsplat,Q016,frame_000017,behind,evaluated,SAM-assisted Pseudo-GT,,22671,26272,False,completed,0.0009816954698844463,0.0018270401948842874,0.002117242291914781,48,26224,22623
+THGS,thgs,Q016,frame_000017,behind,evaluated,SAM-assisted Pseudo-GT,,22671,0,True,completed,0.0,0.0,0.0,0,0,22671
+ReLaGS,relags,Q016,frame_000017,behind,evaluated,SAM-assisted Pseudo-GT,,22671,0,True,completed,0.0,0.0,0.0,0,0,22671
+Ours,ours,Q016,frame_000017,behind,evaluated,SAM-assisted Pseudo-GT,,22671,16087,False,completed,0.5403386058341945,0.8451544725554796,0.5997088791848617,13596,2491,9075
+LangSplat,langsplat,Q017,frame_000305,behind,evaluated,SAM-assisted Pseudo-GT,,21498,53936,False,completed,0.11046665685264243,0.13912785523583507,0.3490557261140571,7504,46432,13994
+THGS,thgs,Q017,frame_000305,behind,evaluated,SAM-assisted Pseudo-GT,,21498,3703,False,completed,0.0,0.0,0.0,0,3703,21498
+ReLaGS,relags,Q017,frame_000305,behind,evaluated,SAM-assisted Pseudo-GT,,21498,0,True,completed,0.0,0.0,0.0,0,0,21498
+Ours,ours,Q017,frame_000305,behind,evaluated,SAM-assisted Pseudo-GT,,21498,21456,False,completed,0.7254067081743322,0.8416759880686056,0.8400316308493814,18059,3397,3439
+LangSplat,langsplat,Q017,frame_000169,behind,evaluated,SAM-assisted Pseudo-GT,,19299,4326,False,completed,0.03192976325674849,0.1689782709200185,0.03787761023887248,731,3595,18568
+THGS,thgs,Q017,frame_000169,behind,evaluated,SAM-assisted Pseudo-GT,,19299,0,True,completed,0.0,0.0,0.0,0,0,19299
+ReLaGS,relags,Q017,frame_000169,behind,evaluated,SAM-assisted Pseudo-GT,,19299,0,True,completed,0.0,0.0,0.0,0,0,19299
+Ours,ours,Q017,frame_000169,behind,evaluated,SAM-assisted Pseudo-GT,,19299,18922,False,completed,0.8230860958740759,0.9119543388648135,0.8941395927250116,17256,1666,2043
+LangSplat,langsplat,Q018,frame_000273,behind,evaluated,SAM-assisted Pseudo-GT,,9337,50226,False,completed,0.0,0.0,0.0,0,50226,9337
+THGS,thgs,Q018,frame_000273,behind,evaluated,SAM-assisted Pseudo-GT,,9337,10518,False,completed,0.0,0.0,0.0,0,10518,9337
+ReLaGS,relags,Q018,frame_000273,behind,evaluated,SAM-assisted Pseudo-GT,,9337,5277,False,completed,0.0,0.0,0.0,0,5277,9337
+Ours,ours,Q018,frame_000273,behind,evaluated,SAM-assisted Pseudo-GT,,9337,6047,False,completed,0.5168605797673043,0.8668761369274021,0.5614222983827782,5242,805,4095
+LangSplat,langsplat,Q018,frame_000169,behind,evaluated,SAM-assisted Pseudo-GT,,38758,36616,False,completed,0.0,0.0,0.0,0,36616,38758
+THGS,thgs,Q018,frame_000169,behind,evaluated,SAM-assisted Pseudo-GT,,38758,17756,False,completed,0.0,0.0,0.0,0,17756,38758
+ReLaGS,relags,Q018,frame_000169,behind,evaluated,SAM-assisted Pseudo-GT,,38758,2994,False,completed,0.043043793249893825,0.5754843019372078,0.04445533825274782,1723,1271,37035
+Ours,ours,Q018,frame_000169,behind,evaluated,SAM-assisted Pseudo-GT,,38758,30620,False,completed,0.6744219722932857,0.9126061397779229,0.7209866350172868,27944,2676,10814
+LangSplat,langsplat,Q019,frame_000193,behind,evaluated,SAM-assisted Pseudo-GT,,10169,7870,False,completed,0.6393129770992366,0.8939008894536213,0.6918084374078081,7035,835,3134
+THGS,thgs,Q019,frame_000193,behind,evaluated,SAM-assisted Pseudo-GT,,10169,6177,False,completed,0.5540977372123977,0.9435000809454428,0.5731143671944144,5828,349,4341
+ReLaGS,relags,Q019,frame_000193,behind,evaluated,SAM-assisted Pseudo-GT,,10169,207,False,completed,0.013182306415389122,0.6521739130434783,0.013275641656013373,135,72,10034
+Ours,ours,Q019,frame_000193,behind,evaluated,SAM-assisted Pseudo-GT,,10169,0,True,completed,0.0,0.0,0.0,0,0,10169
+LangSplat,langsplat,Q019,frame_000201,behind,evaluated,SAM-assisted Pseudo-GT,,10490,6551,False,completed,0.6223343488194973,0.9978629216913448,0.623164918970448,6537,14,3953
+THGS,thgs,Q019,frame_000201,behind,evaluated,SAM-assisted Pseudo-GT,,10490,6366,False,completed,0.5591527148274905,0.9495758718190387,0.5762631077216397,6045,321,4445
+ReLaGS,relags,Q019,frame_000201,behind,evaluated,SAM-assisted Pseudo-GT,,10490,704,False,completed,0.0666031443544545,0.9928977272727273,0.06663489037178265,699,5,9791
+Ours,ours,Q019,frame_000201,behind,evaluated,SAM-assisted Pseudo-GT,,10490,0,True,completed,0.0,0.0,0.0,0,0,10490
+LangSplat,langsplat,Q020,frame_000001,behind,evaluated,SAM-assisted Pseudo-GT,,25227,16700,False,completed,0.5199202465107848,0.8588023952095808,0.5685178578507155,14342,2358,10885
+THGS,thgs,Q020,frame_000001,behind,evaluated,SAM-assisted Pseudo-GT,,25227,0,True,completed,0.0,0.0,0.0,0,0,25227
+ReLaGS,relags,Q020,frame_000001,behind,evaluated,SAM-assisted Pseudo-GT,,25227,0,True,completed,0.0,0.0,0.0,0,0,25227
+Ours,ours,Q020,frame_000001,behind,evaluated,SAM-assisted Pseudo-GT,,25227,17788,False,completed,0.5787059125775315,0.8864402968293231,0.6250445950767035,15768,2020,9459
+LangSplat,langsplat,Q020,frame_000009,behind,evaluated,SAM-assisted Pseudo-GT,,26551,17089,False,completed,0.3965693804403482,0.7251448300076072,0.46672441715942903,12392,4697,14159
+THGS,thgs,Q020,frame_000009,behind,evaluated,SAM-assisted Pseudo-GT,,26551,0,True,completed,0.0,0.0,0.0,0,0,26551
+ReLaGS,relags,Q020,frame_000009,behind,evaluated,SAM-assisted Pseudo-GT,,26551,0,True,completed,0.0,0.0,0.0,0,0,26551
+Ours,ours,Q020,frame_000009,behind,evaluated,SAM-assisted Pseudo-GT,,26551,16957,False,completed,0.5718208092485549,0.9334198266202748,0.5961357387669014,15828,1129,10723
+LangSplat,langsplat,Q021,frame_000089,near,evaluated,SAM-assisted Pseudo-GT,,6934,8655,False,completed,0.6869386430040039,0.7334488734835355,0.915488895298529,6348,2307,586
+THGS,thgs,Q021,frame_000089,near,evaluated,SAM-assisted Pseudo-GT,,6934,1327,False,completed,0.0,0.0,0.0,0,1327,6934
+ReLaGS,relags,Q021,frame_000089,near,evaluated,SAM-assisted Pseudo-GT,,6934,0,True,completed,0.0,0.0,0.0,0,0,6934
+Ours,ours,Q021,frame_000089,near,evaluated,SAM-assisted Pseudo-GT,,6934,6412,False,completed,0.8946621237932992,0.9828446662507798,0.9088549177963657,6302,110,632
+LangSplat,langsplat,Q021,frame_000281,near,evaluated,SAM-assisted Pseudo-GT,,5382,1980,False,completed,0.33684401670601055,0.9368686868686869,0.3446674098848012,1855,125,3527
+THGS,thgs,Q021,frame_000281,near,evaluated,SAM-assisted Pseudo-GT,,5382,0,True,completed,0.0,0.0,0.0,0,0,5382
+ReLaGS,relags,Q021,frame_000281,near,evaluated,SAM-assisted Pseudo-GT,,5382,0,True,completed,0.0,0.0,0.0,0,0,5382
+Ours,ours,Q021,frame_000281,near,evaluated,SAM-assisted Pseudo-GT,,5382,4427,False,completed,0.7994863327829757,0.9844138242602214,0.8097361575622445,4358,69,1024
+LangSplat,langsplat,Q022,frame_000177,near,evaluated,SAM-assisted Pseudo-GT,,24814,82947,False,completed,0.11312997758472869,0.13203611944976912,0.44136374627226566,10952,71995,13862
+THGS,thgs,Q022,frame_000177,near,evaluated,SAM-assisted Pseudo-GT,,24814,0,True,completed,0.0,0.0,0.0,0,0,24814
+ReLaGS,relags,Q022,frame_000177,near,evaluated,SAM-assisted Pseudo-GT,,24814,0,True,completed,0.0,0.0,0.0,0,0,24814
+Ours,ours,Q022,frame_000177,near,evaluated,SAM-assisted Pseudo-GT,,24814,14930,False,completed,0.4837047821704558,0.8678499665103818,0.522164906907391,12957,1973,11857
+LangSplat,langsplat,Q022,frame_000185,near,evaluated,SAM-assisted Pseudo-GT,,24951,86955,False,completed,0.1002782502679265,0.11729055258467024,0.40876117189691796,10199,76756,14752
+THGS,thgs,Q022,frame_000185,near,evaluated,SAM-assisted Pseudo-GT,,24951,0,True,completed,0.0,0.0,0.0,0,0,24951
+ReLaGS,relags,Q022,frame_000185,near,evaluated,SAM-assisted Pseudo-GT,,24951,0,True,completed,0.0,0.0,0.0,0,0,24951
+Ours,ours,Q022,frame_000185,near,evaluated,SAM-assisted Pseudo-GT,,24951,13044,False,completed,0.4571987420418808,0.9139067770622509,0.4777764418259789,11921,1123,13030
+LangSplat,langsplat,Q023,frame_000073,near,evaluated,SAM-assisted Pseudo-GT,,31388,37410,False,completed,0.0007418505534786973,0.00136327185244587,0.001624824773798904,51,37359,31337
+THGS,thgs,Q023,frame_000073,near,evaluated,SAM-assisted Pseudo-GT,,31388,553,False,completed,0.0,0.0,0.0,0,553,31388
+ReLaGS,relags,Q023,frame_000073,near,evaluated,SAM-assisted Pseudo-GT,,31388,0,True,completed,0.0,0.0,0.0,0,0,31388
+Ours,ours,Q023,frame_000073,near,evaluated,SAM-assisted Pseudo-GT,,31388,25720,False,completed,0.7151609802979337,0.9258164852255054,0.7586338728176373,23812,1908,7576
+LangSplat,langsplat,Q023,frame_000305,near,evaluated,SAM-assisted Pseudo-GT,,58684,48604,False,completed,0.10023176159320712,0.20109456011850876,0.1665530638674937,9774,38830,48910
+THGS,thgs,Q023,frame_000305,near,evaluated,SAM-assisted Pseudo-GT,,58684,4324,False,completed,0.0,0.0,0.0,0,4324,58684
+ReLaGS,relags,Q023,frame_000305,near,evaluated,SAM-assisted Pseudo-GT,,58684,0,True,completed,0.0,0.0,0.0,0,0,58684
+Ours,ours,Q023,frame_000305,near,evaluated,SAM-assisted Pseudo-GT,,58684,61847,False,completed,0.7246061611984719,0.8188271055993015,0.8629609433576443,50642,11205,8042
+LangSplat,langsplat,Q024,frame_000313,near,evaluated,SAM-assisted Pseudo-GT,,17817,69492,False,completed,0.05884279078792583,0.06982098658838427,0.27232418476735704,4852,64640,12965
+THGS,thgs,Q024,frame_000313,near,evaluated,SAM-assisted Pseudo-GT,,17817,50123,False,completed,0.0,0.0,0.0,0,50123,17817
+ReLaGS,relags,Q024,frame_000313,near,evaluated,SAM-assisted Pseudo-GT,,17817,0,True,completed,0.0,0.0,0.0,0,0,17817
+Ours,ours,Q024,frame_000313,near,evaluated,SAM-assisted Pseudo-GT,,17817,17486,False,completed,0.7913939209417973,0.8919135308246597,0.8753437728012572,15596,1890,2221
+LangSplat,langsplat,Q024,frame_000249,near,evaluated,SAM-assisted Pseudo-GT,,10711,28072,False,completed,0.13456981540531843,0.16386434881732687,0.42946503594435625,4600,23472,6111
+THGS,thgs,Q024,frame_000249,near,evaluated,SAM-assisted Pseudo-GT,,10711,10772,False,completed,0.0,0.0,0.0,0,10772,10711
+ReLaGS,relags,Q024,frame_000249,near,evaluated,SAM-assisted Pseudo-GT,,10711,0,True,completed,0.0,0.0,0.0,0,0,10711
+Ours,ours,Q024,frame_000249,near,evaluated,SAM-assisted Pseudo-GT,,10711,12631,False,completed,0.7286528919499371,0.7789565355078775,0.9185883670992437,9839,2792,872
+LangSplat,langsplat,Q025,frame_000217,near,excluded_unreliable,SAM-assisted Pseudo-GT,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,18330,45648,False,completed,,,,,,
+THGS,thgs,Q025,frame_000217,near,excluded_unreliable,SAM-assisted Pseudo-GT,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,18330,2392,False,completed,,,,,,
+ReLaGS,relags,Q025,frame_000217,near,excluded_unreliable,SAM-assisted Pseudo-GT,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,18330,935,False,completed,,,,,,
+Ours,ours,Q025,frame_000217,near,excluded_unreliable,SAM-assisted Pseudo-GT,Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.,18330,7544,False,completed,,,,,,
+LangSplat,langsplat,Q025,frame_000121,near,excluded_unreliable,SAM-assisted Pseudo-GT,Overlapping open racks: SAM alternatives either fill substantial visible gaps or omit many visible rods. Cannot reliably define complete device-specific visible mask.,56273,69021,False,completed,,,,,,
+THGS,thgs,Q025,frame_000121,near,excluded_unreliable,SAM-assisted Pseudo-GT,Overlapping open racks: SAM alternatives either fill substantial visible gaps or omit many visible rods. Cannot reliably define complete device-specific visible mask.,56273,104313,False,completed,,,,,,
+ReLaGS,relags,Q025,frame_000121,near,excluded_unreliable,SAM-assisted Pseudo-GT,Overlapping open racks: SAM alternatives either fill substantial visible gaps or omit many visible rods. Cannot reliably define complete device-specific visible mask.,56273,91121,False,completed,,,,,,
+Ours,ours,Q025,frame_000121,near,excluded_unreliable,SAM-assisted Pseudo-GT,Overlapping open racks: SAM alternatives either fill substantial visible gaps or omit many visible rods. Cannot reliably define complete device-specific visible mask.,56273,45248,False,completed,,,,,,

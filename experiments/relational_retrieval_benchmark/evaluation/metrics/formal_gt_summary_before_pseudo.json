@@ -1,0 +1,38 @@
+[
+  {
+    "method": "langsplat",
+    "iou": "Pending GT",
+    "precision": "Pending GT",
+    "recall": "Pending GT",
+    "evaluated_queries": 0,
+    "evaluated_views": 0,
+    "total_queries": 25
+  },
+  {
+    "method": "thgs",
+    "iou": "Pending GT",
+    "precision": "Pending GT",
+    "recall": "Pending GT",
+    "evaluated_queries": 0,
+    "evaluated_views": 0,
+    "total_queries": 25
+  },
+  {
+    "method": "relags",
+    "iou": "Pending GT",
+    "precision": "Pending GT",
+    "recall": "Pending GT",
+    "evaluated_queries": 0,
+    "evaluated_views": 0,
+    "total_queries": 25
+  },
+  {
+    "method": "ours",
+    "iou": "Pending GT",
+    "precision": "Pending GT",
+    "recall": "Pending GT",
+    "evaluated_queries": 0,
+    "evaluated_views": 0,
+    "total_queries": 25
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "task_id": "T061",
+  "object_id": "obj_5746b7e7d040",
+  "name": "Compartment rack 01",
+  "camera_id": "frame_000305",
+  "status": "accepted_pseudo",
+  "visible": true,
+  "quality": "moderate_pseudo",
+  "reviewer": "Codex visual inspection, not human certification",
+  "independent_human_ground_truth": false,
+  "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+  "revision": "review1",
+  "selected_candidate": 0,
+  "sam_predicted_iou": 0.8813686966896057,
+  "mask_pixels": 21498,
+  "note": "Candidate0 removes nearer separate rack; rear compartment rack selected.",
+  "prompt": {
+    "box": [
+      247.14452927516086,
+      90.77150811828757,
+      595.9222477085146,
+      367.45363013031744
+    ],
+    "points": [
+      [
+        432,
+        160
+      ],
+      [
+        480,
+        210
+      ],
+      [
+        550,
+        238
+      ],
+      [
+        289,
+        213
+      ]
+    ],
+    "labels": [
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  "source_record": "evaluation/pseudo_ground_truth/objects/T061/review1/record.json"
+}

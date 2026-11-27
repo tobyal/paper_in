@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/envs/thgs/bin/python",
+    "sp_partition.py",
+    "-m",
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/thgs/model",
+    "-a"
+  ],
+  "seconds": 12.472299354150891,
+  "artifact": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark/outputs/thgs/model/neighbor.pt",
+  "exit_code": 0
+}

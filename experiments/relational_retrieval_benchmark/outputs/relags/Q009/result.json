@@ -1,0 +1,80 @@
+{
+  "query": {
+    "query_id": "Q009",
+    "subject_category": "fixture table carrying a black workpiece",
+    "subject_category_id": "category_03",
+    "predicate": "right of",
+    "predicate_ours": "right_of",
+    "predicate_relags": "right",
+    "object_category": "assembly fixture table",
+    "object_category_id": "category_02",
+    "query_en": "fixture table carrying a black workpiece to the right of the assembly fixture table",
+    "query_zh": "位于装配夹具台右侧的带黑色工件的夹具台",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000161",
+      "frame_000065"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 5 same-class devices to 3; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "selected_gaussians": 1747,
+  "selected_nodes": [
+    [
+      [
+        217,
+        2
+      ],
+      [
+        0.5499882698059082,
+        0.4129379987716675,
+        0.6517332792282104
+      ]
+    ]
+  ],
+  "official_threshold_fallback_used": true,
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.10262427292764187,
+        0.10238152928650379,
+        0.10351182706654072
+      ],
+      "median_seconds": 0.10262427292764187
+    },
+    "render": {
+      "samples_seconds": [
+        0.02105570863932371,
+        0.02212122268974781,
+        0.020065181888639927
+      ],
+      "median_seconds": 0.02105570863932371
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.12367998156696558,
+        0.1245027519762516,
+        0.12357700895518064
+      ],
+      "median_seconds": 0.12367998156696558
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000161",
+      "mask_pixels": 64,
+      "directory": "outputs/relags/Q009/frame_000161"
+    },
+    {
+      "camera_id": "frame_000065",
+      "mask_pixels": 681,
+      "directory": "outputs/relags/Q009/frame_000065"
+    }
+  ]
+}

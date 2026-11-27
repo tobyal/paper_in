@@ -1,0 +1,13 @@
+{
+  "command": [
+    "envs/thgs/bin/python",
+    "scripts/export_3d_views.py",
+    "--method",
+    "thgs"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "1",
+  "start_utc": "20261127T023107392390Z",
+  "stage": "thgs_3d_display",
+  "pid": 2863104
+}

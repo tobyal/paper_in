@@ -1,0 +1,2990 @@
+[
+  {
+    "task_id": "T001",
+    "object_id": "obj_126125e3a773",
+    "name": "Multi-tier rack 02",
+    "camera_id": "frame_000001",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9085707664489746,
+    "mask_pixels": 8225,
+    "note": "Rack body correctly located; fine holes and rear bars remain approximate.",
+    "prompt": {
+      "box": [
+        583.1636321493448,
+        134.5431259742437,
+        717.5867684248719,
+        266.2641504331264
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T001/initial/record.json"
+  },
+  {
+    "task_id": "T002",
+    "object_id": "obj_b7e0494ce9dd",
+    "name": "Multi-tier rack 01",
+    "camera_id": "frame_000001",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9603378772735596,
+    "mask_pixels": 7862,
+    "note": "Rack and lower support located; foreground fixture occlusion retained approximately.",
+    "prompt": {
+      "box": [
+        469.97374358080805,
+        136.8009746600562,
+        595.5106110895823,
+        271.52356281875103
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T002/initial/record.json"
+  },
+  {
+    "task_id": "T003",
+    "object_id": "obj_b8542dc54ed2",
+    "name": "Multi-tier rack 03",
+    "camera_id": "frame_000001",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9023746252059937,
+    "mask_pixels": 9140,
+    "note": "Rear rack selected behind cooler/fixture; fine bars approximate.",
+    "prompt": {
+      "box": [
+        691.0271887799452,
+        125.24783174093773,
+        865.322713631494,
+        269.7919739338672
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T003/initial/record.json"
+  },
+  {
+    "task_id": "T004",
+    "object_id": "obj_126125e3a773",
+    "name": "Multi-tier rack 02",
+    "camera_id": "frame_000009",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9297397136688232,
+    "mask_pixels": 7044,
+    "note": "Same rack02 verified from second RGB view; base partly occluded.",
+    "prompt": {
+      "box": [
+        524.5453361570909,
+        134.69618221471615,
+        641.5338366134637,
+        265.9394240453943
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T004/initial/record.json"
+  },
+  {
+    "task_id": "T005",
+    "object_id": "obj_b7e0494ce9dd",
+    "name": "Multi-tier rack 01",
+    "camera_id": "frame_000009",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9580639600753784,
+    "mask_pixels": 8656,
+    "note": "Same rack01 verified across view; thin bars approximate.",
+    "prompt": {
+      "box": [
+        394.34522342700524,
+        136.8884137531198,
+        519.9807490094125,
+        271.0492353336718
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T005/initial/record.json"
+  },
+  {
+    "task_id": "T006",
+    "object_id": "obj_b8542dc54ed2",
+    "name": "Multi-tier rack 03",
+    "camera_id": "frame_000009",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.9323712587356567,
+    "mask_pixels": 10851,
+    "note": "Rack03 visible face retained; foreground cooler excluded.",
+    "prompt": {
+      "box": [
+        632.5217178774014,
+        125.49641079318967,
+        786.6264047261816,
+        269.5839851948313
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T006/initial/record.json"
+  },
+  {
+    "task_id": "T007",
+    "object_id": "obj_8429bc5f3c33",
+    "name": "Assembly fixture table 01",
+    "camera_id": "frame_000017",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9238619804382324,
+    "mask_pixels": 11732,
+    "note": "White long fixture and mounted clamps selected; cables approximate.",
+    "prompt": {
+      "box": [
+        147.584064491724,
+        167.28504245431782,
+        450.6282619380488,
+        316.46079900313987
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T007/initial/record.json"
+  },
+  {
+    "task_id": "T008",
+    "object_id": "obj_d058f708eb01",
+    "name": "Assembly fixture table 02",
+    "camera_id": "frame_000017",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9243719577789307,
+    "mask_pixels": 10939,
+    "note": "White base and clamps retained; fine rail openings approximate.",
+    "prompt": {
+      "box": [
+        438.678283698873,
+        160.292112197662,
+        719.8863243583606,
+        321.4225908866003
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T008/initial/record.json"
+  },
+  {
+    "task_id": "T009",
+    "object_id": "obj_df0a6cc33263",
+    "name": "Workbench 02",
+    "camera_id": "frame_000025",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review2",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.93343186378479,
+    "mask_pixels": 3831,
+    "note": "White-panel workbench separated from grey cart; building pole remains an occluder.",
+    "prompt": {
+      "box": [
+        658,
+        126,
+        719,
+        248
+      ],
+      "points": [
+        [
+          691,
+          160
+        ],
+        [
+          687,
+          196
+        ],
+        [
+          667,
+          218
+        ],
+        [
+          739,
+          172
+        ],
+        [
+          721,
+          179
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T009/review2/record.json"
+  },
+  {
+    "task_id": "T010",
+    "object_id": "obj_c812ae8b15bd",
+    "name": "Fixture table with black workpiece 02",
+    "camera_id": "frame_000065",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.7651877403259277,
+    "mask_pixels": 7953,
+    "note": "Visible black workpiece and white base selected using RGB points; rear rack excluded via candidate1.",
+    "prompt": {
+      "box": [
+        45.963243354054796,
+        153.41370525011962,
+        337.6139945494497,
+        377.0851381390312
+      ],
+      "points": [
+        [
+          199,
+          245
+        ],
+        [
+          239,
+          299
+        ],
+        [
+          300,
+          267
+        ],
+        [
+          251,
+          180
+        ],
+        [
+          105,
+          290
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T010/review1/record.json"
+  },
+  {
+    "task_id": "T011",
+    "object_id": "obj_126125e3a773",
+    "name": "Multi-tier rack 02",
+    "camera_id": "frame_000065",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.8424357175827026,
+    "mask_pixels": 4309,
+    "note": "Small distant rack silhouette; lower structure occluded, fine bars low resolution.",
+    "prompt": {
+      "box": [
+        98.24986937009406,
+        110.46880609632727,
+        231.04703010213632,
+        184.29421059290667
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T011/initial/record.json"
+  },
+  {
+    "task_id": "T012",
+    "object_id": "obj_aad6e7f85a9a",
+    "name": "Multi-tier rack 08",
+    "camera_id": "frame_000065",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.972956657409668,
+    "mask_pixels": 12448,
+    "note": "Truncated foreground rack side retained; image boundary preserved.",
+    "prompt": {
+      "box": [
+        800.2216014405485,
+        126.80869582981519,
+        937.0,
+        373.0511868390962
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T012/initial/record.json"
+  },
+  {
+    "task_id": "T013",
+    "object_id": "obj_8e79bd39b8b9",
+    "name": "Fixture table with black workpiece 04",
+    "camera_id": "frame_000065",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 0,
+    "sam_predicted_iou": 0.8635587692260742,
+    "mask_pixels": 10234,
+    "note": "Loaded black fixture and visible support retained; bins occlude lower base.",
+    "prompt": {
+      "box": [
+        205.30515684949572,
+        168.73777117208624,
+        598.2384633149444,
+        495.93015549716677
+      ],
+      "points": [
+        [
+          380,
+          289
+        ],
+        [
+          478,
+          355
+        ],
+        [
+          331,
+          265
+        ],
+        [
+          440,
+          210
+        ],
+        [
+          336,
+          376
+        ],
+        [
+          559,
+          331
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T013/review1/record.json"
+  },
+  {
+    "task_id": "T014",
+    "object_id": "obj_087984e7c374",
+    "name": "Fixture table with black workpiece 05",
+    "camera_id": "frame_000065",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 0,
+    "sam_predicted_iou": 0.8953154683113098,
+    "mask_pixels": 28656,
+    "note": "Candidate0 retains black workpiece and white base without rear equipment leakage.",
+    "prompt": {
+      "box": [
+        497.0642329164539,
+        162.57270903531386,
+        937.0,
+        527.0
+      ],
+      "points": [
+        [
+          714,
+          352
+        ],
+        [
+          743,
+          428
+        ],
+        [
+          611,
+          362
+        ],
+        [
+          590,
+          300
+        ],
+        [
+          651,
+          491
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T014/review1/record.json"
+  },
+  {
+    "task_id": "T015",
+    "object_id": "obj_b7e0494ce9dd",
+    "name": "Multi-tier rack 01",
+    "camera_id": "frame_000065",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.8473303318023682,
+    "mask_pixels": 2977,
+    "note": "Distant first rack located; poles and fixture limit visible detail.",
+    "prompt": {
+      "box": [
+        53.10773018806999,
+        109.20534235180637,
+        190.25516954216295,
+        179.51372200101113
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T015/initial/record.json"
+  },
+  {
+    "task_id": "T016",
+    "object_id": "obj_b8542dc54ed2",
+    "name": "Multi-tier rack 03",
+    "camera_id": "frame_000065",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.7510462999343872,
+    "mask_pixels": 1674,
+    "note": "Only upper visible rack structure remains behind foreground equipment.",
+    "prompt": {
+      "box": [
+        131.6826472638652,
+        107.20481028078053,
+        274.7134040814915,
+        193.22793362758074
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T016/initial/record.json"
+  },
+  {
+    "task_id": "T017",
+    "object_id": "obj_4fd05384c476",
+    "name": "Material cart 06",
+    "camera_id": "frame_000065",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9120104312896729,
+    "mask_pixels": 10993,
+    "note": "Grey cart body and wheels delineated; internal holes approximate.",
+    "prompt": {
+      "box": [
+        679.2921420422015,
+        110.86020980987193,
+        864.5833998784553,
+        306.2682633014183
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T017/initial/record.json"
+  },
+  {
+    "task_id": "T018",
+    "object_id": "obj_dee5bef52687",
+    "name": "Multi-tier rack 07",
+    "camera_id": "frame_000065",
+    "status": "unreliable",
+    "visible": true,
+    "quality": "unreliable",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review2",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.8949571847915649,
+    "mask_pixels": 6521,
+    "note": "M0 box spans rear large panel/rack plus separate front workstation; visible ownership cannot be reliably resolved in this view after additional prompts.",
+    "prompt": {
+      "box": [
+        573,
+        119,
+        722,
+        253
+      ],
+      "points": [
+        [
+          581,
+          181
+        ],
+        [
+          686,
+          177
+        ],
+        [
+          688,
+          228
+        ],
+        [
+          649,
+          163
+        ],
+        [
+          642,
+          223
+        ],
+        [
+          768,
+          205
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T018/review2/record.json"
+  },
+  {
+    "task_id": "T019",
+    "object_id": "obj_c7c9293c6c6d",
+    "name": "Compartment rack 02",
+    "camera_id": "frame_000073",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9741244316101074,
+    "mask_pixels": 31388,
+    "note": "Rack rear panel selected; foreground blue bins correctly excluded.",
+    "prompt": {
+      "box": [
+        0.0,
+        143.8065467651364,
+        293.09312637023316,
+        513.5481356492434
+      ],
+      "points": [
+        [
+          115,
+          218
+        ],
+        [
+          84,
+          280
+        ],
+        [
+          80,
+          164
+        ],
+        [
+          200,
+          326
+        ],
+        [
+          26,
+          300
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T019/review1/record.json"
+  },
+  {
+    "task_id": "T020",
+    "object_id": "obj_c57876bf22ca",
+    "name": "Portable upright air cooler 03",
+    "camera_id": "frame_000089",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.973171591758728,
+    "mask_pixels": 6934,
+    "note": "Cooler body retained, partly occluded by bins.",
+    "prompt": {
+      "box": [
+        14.849800751411259,
+        248.49241757967255,
+        148.56280642601183,
+        401.12352694432514
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T020/initial/record.json"
+  },
+  {
+    "task_id": "T021",
+    "object_id": "obj_ad85774e5f18",
+    "name": "Fixture table with black workpiece 01",
+    "camera_id": "frame_000113",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.9195574522018433,
+    "mask_pixels": 6725,
+    "note": "Black workpiece plus white fixture retained.",
+    "prompt": {
+      "box": [
+        319.34246925907127,
+        137.80484996275496,
+        454.3851127652887,
+        279.167950412917
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T021/initial/record.json"
+  },
+  {
+    "task_id": "T022",
+    "object_id": "obj_8528f4bf8a3d",
+    "name": "Fixture table with black workpiece 03",
+    "camera_id": "frame_000113",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9090014696121216,
+    "mask_pixels": 9305,
+    "note": "Black workpiece and fixture retained with front rail occlusion.",
+    "prompt": {
+      "box": [
+        212.00362869481862,
+        151.67113605627785,
+        428.3825726335391,
+        380.6244245260076
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T022/initial/record.json"
+  },
+  {
+    "task_id": "T023",
+    "object_id": "obj_aad6e7f85a9a",
+    "name": "Multi-tier rack 08",
+    "camera_id": "frame_000121",
+    "status": "unreliable",
+    "visible": true,
+    "quality": "unreliable",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review3",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.5116079449653625,
+    "mask_pixels": 31532,
+    "note": "Overlapping open racks: SAM alternatives either fill substantial visible gaps or omit many visible rods. Cannot reliably define complete device-specific visible mask.",
+    "prompt": {
+      "box": [
+        0.0,
+        240.66842007630794,
+        900.6113400891375,
+        527.0
+      ],
+      "points": [
+        [
+          544,
+          341
+        ],
+        [
+          451,
+          415
+        ],
+        [
+          746,
+          490
+        ],
+        [
+          178,
+          481
+        ],
+        [
+          482,
+          426
+        ],
+        [
+          671,
+          433
+        ],
+        [
+          606,
+          492
+        ],
+        [
+          170,
+          447
+        ],
+        [
+          353,
+          371
+        ],
+        [
+          417,
+          401
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T023/review3/record.json"
+  },
+  {
+    "task_id": "T024",
+    "object_id": "obj_b8542dc54ed2",
+    "name": "Multi-tier rack 03",
+    "camera_id": "frame_000121",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9175975322723389,
+    "mask_pixels": 4050,
+    "note": "Distant rack03 upper face visible behind grey cart.",
+    "prompt": {
+      "box": [
+        754.3205587148686,
+        115.29729575438277,
+        903.5126981022397,
+        207.50618930768894
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T024/initial/record.json"
+  },
+  {
+    "task_id": "T025",
+    "object_id": "obj_dee5bef52687",
+    "name": "Multi-tier rack 07",
+    "camera_id": "frame_000121",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review2",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.8958114385604858,
+    "mask_pixels": 20726,
+    "note": "Visible grey-covered rack07 surface separated from nearer cart; thin rear details uncertain.",
+    "prompt": {
+      "box": [
+        493,
+        174,
+        908,
+        502
+      ],
+      "points": [
+        [
+          717,
+          275
+        ],
+        [
+          652,
+          292
+        ],
+        [
+          861,
+          264
+        ],
+        [
+          683,
+          187
+        ],
+        [
+          867,
+          207
+        ],
+        [
+          744,
+          350
+        ],
+        [
+          610,
+          412
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T025/review2/record.json"
+  },
+  {
+    "task_id": "T026",
+    "object_id": "obj_141f3e5dbe3a",
+    "name": "Blue bin group 01",
+    "camera_id": "frame_000129",
+    "status": "unreliable",
+    "visible": true,
+    "quality": "unreliable",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review2",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.7776587009429932,
+    "mask_pixels": 2334,
+    "note": "Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.",
+    "prompt": {
+      "box": [
+        833,
+        125,
+        937,
+        181
+      ],
+      "points": [
+        [
+          870,
+          137
+        ],
+        [
+          911,
+          165
+        ],
+        [
+          851,
+          168
+        ],
+        [
+          922,
+          126
+        ],
+        [
+          866,
+          154
+        ],
+        [
+          818,
+          163
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T026/review2/record.json"
+  },
+  {
+    "task_id": "T027",
+    "object_id": "obj_3c963764ddb5",
+    "name": "Blue bin group 02",
+    "camera_id": "frame_000129",
+    "status": "unreliable",
+    "visible": true,
+    "quality": "unreliable",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review2",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.8558815717697144,
+    "mask_pixels": 16903,
+    "note": "Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points.",
+    "prompt": {
+      "box": [
+        130,
+        146,
+        414,
+        278
+      ],
+      "points": [
+        [
+          157,
+          173
+        ],
+        [
+          155,
+          200
+        ],
+        [
+          252,
+          199
+        ],
+        [
+          307,
+          231
+        ],
+        [
+          354,
+          176
+        ],
+        [
+          315,
+          188
+        ],
+        [
+          350,
+          251
+        ],
+        [
+          382,
+          223
+        ],
+        [
+          194,
+          311
+        ],
+        [
+          183,
+          257
+        ],
+        [
+          267,
+          285
+        ],
+        [
+          400,
+          289
+        ],
+        [
+          290,
+          135
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T027/review2/record.json"
+  },
+  {
+    "task_id": "T028",
+    "object_id": "obj_7463bab859d0",
+    "name": "Blue bin group 03",
+    "camera_id": "frame_000129",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review2",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.8998656272888184,
+    "mask_pixels": 9504,
+    "note": "Front separate blue/grey stack selected; beam occlusion preserved, material boundaries approximate.",
+    "prompt": {
+      "box": [
+        146,
+        214,
+        242,
+        346
+      ],
+      "points": [
+        [
+          177,
+          224
+        ],
+        [
+          211,
+          230
+        ],
+        [
+          191,
+          265
+        ],
+        [
+          204,
+          327
+        ],
+        [
+          201,
+          279
+        ],
+        [
+          170,
+          170
+        ],
+        [
+          267,
+          241
+        ],
+        [
+          215,
+          294
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T028/review2/record.json"
+  },
+  {
+    "task_id": "T029",
+    "object_id": "obj_7463bab859d0",
+    "name": "Blue bin group 03",
+    "camera_id": "frame_000153",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9004651308059692,
+    "mask_pixels": 9904,
+    "note": "Same front bin stack; rear taller stack excluded.",
+    "prompt": {
+      "box": [
+        168.5292305187573,
+        131.93112703006085,
+        351.58956199875894,
+        341.0316989480118
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T029/initial/record.json"
+  },
+  {
+    "task_id": "T030",
+    "object_id": "obj_c812ae8b15bd",
+    "name": "Fixture table with black workpiece 02",
+    "camera_id": "frame_000161",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 0,
+    "sam_predicted_iou": 0.857326090335846,
+    "mask_pixels": 8611,
+    "note": "Candidate0 excludes rear pole and retains covered workpiece and fixture.",
+    "prompt": {
+      "box": [
+        602.4177174122618,
+        160.3234352311835,
+        937.0,
+        341.4465887982218
+      ],
+      "points": [
+        [
+          788,
+          240
+        ],
+        [
+          799,
+          295
+        ],
+        [
+          785,
+          219
+        ],
+        [
+          700,
+          275
+        ],
+        [
+          920,
+          237
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T030/review1/record.json"
+  },
+  {
+    "task_id": "T031",
+    "object_id": "obj_8e79bd39b8b9",
+    "name": "Fixture table with black workpiece 04",
+    "camera_id": "frame_000161",
+    "status": "unreliable",
+    "visible": true,
+    "quality": "unreliable",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review3",
+    "selected_candidate": 0,
+    "sam_predicted_iou": 0.802772581577301,
+    "mask_pixels": 3278,
+    "note": "Loaded fixture heavily occluded by pole and rack; SAM retains base but omits identifiable black-workpiece surfaces. Complete visible extent not reliable.",
+    "prompt": {
+      "box": [
+        393,
+        217,
+        476,
+        311
+      ],
+      "points": [
+        [
+          425,
+          250
+        ],
+        [
+          434,
+          287
+        ],
+        [
+          432,
+          239
+        ],
+        [
+          412,
+          238
+        ],
+        [
+          467,
+          187
+        ],
+        [
+          568,
+          249
+        ],
+        [
+          368,
+          209
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T031/review3/record.json"
+  },
+  {
+    "task_id": "T032",
+    "object_id": "obj_087984e7c374",
+    "name": "Fixture table with black workpiece 05",
+    "camera_id": "frame_000161",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9467500448226929,
+    "mask_pixels": 16842,
+    "note": "Loaded fixture and base clear; small background holes approximate.",
+    "prompt": {
+      "box": [
+        69.36697180964272,
+        141.2879658975034,
+        369.6552019545763,
+        401.33710377178403
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T032/initial/record.json"
+  },
+  {
+    "task_id": "T033",
+    "object_id": "obj_ad85774e5f18",
+    "name": "Fixture table with black workpiece 01",
+    "camera_id": "frame_000169",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 0,
+    "sam_predicted_iou": 0.869454562664032,
+    "mask_pixels": 38758,
+    "note": "Candidate0 removes separate rear cart; black workpiece and fixture visible.",
+    "prompt": {
+      "box": [
+        508.35419219477586,
+        230.49537678430636,
+        937.0,
+        527.0
+      ],
+      "points": [
+        [
+          709,
+          354
+        ],
+        [
+          728,
+          429
+        ],
+        [
+          871,
+          342
+        ],
+        [
+          725,
+          279
+        ],
+        [
+          620,
+          283
+        ],
+        [
+          466,
+          414
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T033/review1/record.json"
+  },
+  {
+    "task_id": "T034",
+    "object_id": "obj_8528f4bf8a3d",
+    "name": "Fixture table with black workpiece 03",
+    "camera_id": "frame_000169",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review2",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9513601064682007,
+    "mask_pixels": 31356,
+    "note": "Tight RGB prompt separates fixture from rear rack and foreground tarp; small left box edge may remain.",
+    "prompt": {
+      "box": [
+        92,
+        304,
+        434,
+        462
+      ],
+      "points": [
+        [
+          249,
+          354
+        ],
+        [
+          214,
+          435
+        ],
+        [
+          156,
+          340
+        ],
+        [
+          289,
+          337
+        ],
+        [
+          316,
+          353
+        ],
+        [
+          303,
+          270
+        ],
+        [
+          374,
+          459
+        ],
+        [
+          42,
+          392
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T034/review2/record.json"
+  },
+  {
+    "task_id": "T035",
+    "object_id": "obj_5746b7e7d040",
+    "name": "Compartment rack 01",
+    "camera_id": "frame_000169",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9391069412231445,
+    "mask_pixels": 19299,
+    "note": "Rear compartment rack selected across pole occlusion; slot interiors approximate.",
+    "prompt": {
+      "box": [
+        443.2056819298118,
+        98.0018005554892,
+        727.0368103943607,
+        274.9775676775424
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T035/initial/record.json"
+  },
+  {
+    "task_id": "T036",
+    "object_id": "obj_09a35ba03c92",
+    "name": "Assembly fixture table 03",
+    "camera_id": "frame_000177",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.8503767251968384,
+    "mask_pixels": 24814,
+    "note": "Candidate1 retains long fixture, excluding dark foreground platform and cooler.",
+    "prompt": {
+      "box": [
+        465.9955072276717,
+        231.2725234865787,
+        929.4405882450071,
+        517.3432517621354
+      ],
+      "points": [
+        [
+          613,
+          416
+        ],
+        [
+          823,
+          378
+        ],
+        [
+          645,
+          341
+        ],
+        [
+          732,
+          473
+        ],
+        [
+          802,
+          281
+        ],
+        [
+          429,
+          398
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T036/review1/record.json"
+  },
+  {
+    "task_id": "T037",
+    "object_id": "obj_09a35ba03c92",
+    "name": "Assembly fixture table 03",
+    "camera_id": "frame_000185",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9198451042175293,
+    "mask_pixels": 24951,
+    "note": "Fixture selected; foreground dark platform excluded.",
+    "prompt": {
+      "box": [
+        39.12090193301427,
+        232.4927733035547,
+        486.57889531442714,
+        515.6015647240241
+      ],
+      "points": [
+        [
+          310,
+          402
+        ],
+        [
+          216,
+          345
+        ],
+        [
+          406,
+          348
+        ],
+        [
+          226,
+          474
+        ],
+        [
+          75,
+          310
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T037/review1/record.json"
+  },
+  {
+    "task_id": "T038",
+    "object_id": "obj_5bfd32389355",
+    "name": "Multi-tier rack 04",
+    "camera_id": "frame_000185",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9772657155990601,
+    "mask_pixels": 9846,
+    "note": "Central rack isolated from flanking small stand and grey bin stack; rail gaps approximate.",
+    "prompt": {
+      "box": [
+        302,
+        153,
+        408,
+        276
+      ],
+      "points": [
+        [
+          353,
+          190
+        ],
+        [
+          368,
+          238
+        ],
+        [
+          326,
+          254
+        ],
+        [
+          433,
+          222
+        ],
+        [
+          283,
+          239
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T038/review1/record.json"
+  },
+  {
+    "task_id": "T039",
+    "object_id": "obj_8429bc5f3c33",
+    "name": "Assembly fixture table 01",
+    "camera_id": "frame_000193",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review2",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.9090309143066406,
+    "mask_pixels": 32254,
+    "note": "Tighter prompt separates fixture from foreground mechanisms; small rail intersections uncertain.",
+    "prompt": {
+      "box": [
+        518,
+        321,
+        926,
+        474
+      ],
+      "points": [
+        [
+          702,
+          422
+        ],
+        [
+          591,
+          344
+        ],
+        [
+          848,
+          342
+        ],
+        [
+          823,
+          388
+        ],
+        [
+          623,
+          506
+        ],
+        [
+          689,
+          482
+        ],
+        [
+          730,
+          301
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T039/review2/record.json"
+  },
+  {
+    "task_id": "T040",
+    "object_id": "obj_d058f708eb01",
+    "name": "Assembly fixture table 02",
+    "camera_id": "frame_000193",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 0,
+    "sam_predicted_iou": 0.6998494863510132,
+    "mask_pixels": 7348,
+    "note": "Only visible upper clamps and right support selected behind rack; no amodal completion.",
+    "prompt": {
+      "box": [
+        5.971813023029273,
+        239.7293634650813,
+        472.73499002598203,
+        517.7084403225673
+      ],
+      "points": [
+        [
+          183,
+          339
+        ],
+        [
+          390,
+          341
+        ],
+        [
+          430,
+          416
+        ],
+        [
+          259,
+          456
+        ],
+        [
+          287,
+          403
+        ],
+        [
+          226,
+          290
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T040/review1/record.json"
+  },
+  {
+    "task_id": "T041",
+    "object_id": "obj_5bfd32389355",
+    "name": "Multi-tier rack 04",
+    "camera_id": "frame_000193",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 0,
+    "sam_predicted_iou": 0.8260849118232727,
+    "mask_pixels": 9734,
+    "note": "Candidate0 better preserves visible rack openings and excludes side stacks.",
+    "prompt": {
+      "box": [
+        74,
+        153,
+        197,
+        276
+      ],
+      "points": [
+        [
+          116,
+          192
+        ],
+        [
+          157,
+          235
+        ],
+        [
+          109,
+          253
+        ],
+        [
+          205,
+          228
+        ],
+        [
+          59,
+          223
+        ],
+        [
+          34,
+          150
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T041/review1/record.json"
+  },
+  {
+    "task_id": "T042",
+    "object_id": "obj_141f3e5dbe3a",
+    "name": "Blue bin group 01",
+    "camera_id": "frame_000193",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.9534773826599121,
+    "mask_pixels": 10169,
+    "note": "Blue/grey bin group and pallet selected without adjacent small stand.",
+    "prompt": {
+      "box": [
+        329,
+        189,
+        470,
+        280
+      ],
+      "points": [
+        [
+          391,
+          206
+        ],
+        [
+          431,
+          244
+        ],
+        [
+          350,
+          232
+        ],
+        [
+          467,
+          269
+        ],
+        [
+          303,
+          237
+        ],
+        [
+          447,
+          166
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T042/review1/record.json"
+  },
+  {
+    "task_id": "T043",
+    "object_id": "obj_141f3e5dbe3a",
+    "name": "Blue bin group 01",
+    "camera_id": "frame_000201",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.9480741024017334,
+    "mask_pixels": 10490,
+    "note": "Same bin group confirmed in second view; floor and stand excluded.",
+    "prompt": {
+      "box": [
+        137,
+        181,
+        305,
+        274
+      ],
+      "points": [
+        [
+          191,
+          203
+        ],
+        [
+          234,
+          238
+        ],
+        [
+          157,
+          246
+        ],
+        [
+          285,
+          259
+        ],
+        [
+          115,
+          232
+        ],
+        [
+          300,
+          185
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T043/review1/record.json"
+  },
+  {
+    "task_id": "T044",
+    "object_id": "obj_141f3e5dbe3a",
+    "name": "Blue bin group 01",
+    "camera_id": "frame_000209",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.9096018075942993,
+    "mask_pixels": 8267,
+    "note": "Blue bin group separated from workbench, cooler and left stand.",
+    "prompt": {
+      "box": [
+        524,
+        174,
+        651,
+        266
+      ],
+      "points": [
+        [
+          563,
+          198
+        ],
+        [
+          604,
+          229
+        ],
+        [
+          541,
+          226
+        ],
+        [
+          640,
+          257
+        ],
+        [
+          666,
+          223
+        ],
+        [
+          490,
+          192
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T044/review1/record.json"
+  },
+  {
+    "task_id": "T045",
+    "object_id": "obj_3c963764ddb5",
+    "name": "Blue bin group 02",
+    "camera_id": "frame_000209",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review2",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.8698318004608154,
+    "mask_pixels": 4131,
+    "note": "Distant bin group visible above workpieces; coarse pixel boundaries uncertain at this resolution.",
+    "prompt": {
+      "box": [
+        202,
+        93,
+        292,
+        151
+      ],
+      "points": [
+        [
+          245,
+          112
+        ],
+        [
+          278,
+          125
+        ],
+        [
+          233,
+          144
+        ],
+        [
+          207,
+          116
+        ],
+        [
+          224,
+          103
+        ],
+        [
+          282,
+          163
+        ],
+        [
+          219,
+          164
+        ],
+        [
+          290,
+          142
+        ],
+        [
+          310,
+          113
+        ],
+        [
+          287,
+          101
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T045/review2/record.json"
+  },
+  {
+    "task_id": "T046",
+    "object_id": "obj_2e1a6e5960f5",
+    "name": "Workbench 01",
+    "camera_id": "frame_000209",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9336050748825073,
+    "mask_pixels": 5282,
+    "note": "Workbench panel and visible right leg retained; cooler occludes left/bottom.",
+    "prompt": {
+      "box": [
+        646.8374335743774,
+        148.69859428686925,
+        815.2361537198586,
+        306.4830947800412
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T046/initial/record.json"
+  },
+  {
+    "task_id": "T047",
+    "object_id": "obj_126125e3a773",
+    "name": "Multi-tier rack 02",
+    "camera_id": "frame_000217",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 0,
+    "sam_predicted_iou": 0.7043910026550293,
+    "mask_pixels": 6512,
+    "note": "Candidate0 retains visible rear rack top/side while rejecting first rack.",
+    "prompt": {
+      "box": [
+        0.0,
+        203.4789576637953,
+        309.1811923211952,
+        412.0190774781282
+      ],
+      "points": [
+        [
+          234,
+          303
+        ],
+        [
+          252,
+          234
+        ],
+        [
+          215,
+          232
+        ],
+        [
+          146,
+          341
+        ],
+        [
+          34,
+          330
+        ],
+        [
+          285,
+          288
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T047/review1/record.json"
+  },
+  {
+    "task_id": "T048",
+    "object_id": "obj_aad6e7f85a9a",
+    "name": "Multi-tier rack 08",
+    "camera_id": "frame_000217",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.6553594470024109,
+    "mask_pixels": 3014,
+    "note": "Distant rack08 visible behind neighboring equipment; small silhouette approximate.",
+    "prompt": {
+      "box": [
+        275.3684167907532,
+        92.83888046733126,
+        377.64844854213356,
+        162.79572461227608
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T048/initial/record.json"
+  },
+  {
+    "task_id": "T049",
+    "object_id": "obj_b7e0494ce9dd",
+    "name": "Multi-tier rack 01",
+    "camera_id": "frame_000217",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.9461350440979004,
+    "mask_pixels": 34190,
+    "note": "Front rack and base retained, cooler/column excluded; internal holes remain approximate.",
+    "prompt": {
+      "box": [
+        0.0,
+        242.35498418517213,
+        318.75713012131393,
+        527.0
+      ],
+      "points": [
+        [
+          145,
+          306
+        ],
+        [
+          197,
+          364
+        ],
+        [
+          174,
+          446
+        ],
+        [
+          135,
+          509
+        ],
+        [
+          25,
+          330
+        ],
+        [
+          256,
+          299
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T049/review1/record.json"
+  },
+  {
+    "task_id": "T050",
+    "object_id": "obj_b8542dc54ed2",
+    "name": "Multi-tier rack 03",
+    "camera_id": "frame_000217",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.892392635345459,
+    "mask_pixels": 13037,
+    "note": "Rear rack03 top and side visible behind first two racks; bars approximate.",
+    "prompt": {
+      "box": [
+        72.87010645823021,
+        164.84792424623836,
+        334.6475340840699,
+        335.27410713713385
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T050/initial/record.json"
+  },
+  {
+    "task_id": "T051",
+    "object_id": "obj_dee5bef52687",
+    "name": "Multi-tier rack 07",
+    "camera_id": "frame_000217",
+    "status": "unreliable",
+    "visible": true,
+    "quality": "unreliable",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review2",
+    "selected_candidate": 0,
+    "sam_predicted_iou": 0.7826030850410461,
+    "mask_pixels": 2336,
+    "note": "Distant panel/rack overlaps a separate workstation; object ownership and thin structure remain uncertain after prompts.",
+    "prompt": {
+      "box": [
+        267,
+        106,
+        339,
+        198
+      ],
+      "points": [
+        [
+          284,
+          147
+        ],
+        [
+          308,
+          168
+        ],
+        [
+          303,
+          140
+        ],
+        [
+          327,
+          132
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T051/review2/record.json"
+  },
+  {
+    "task_id": "T052",
+    "object_id": "obj_2e1a6e5960f5",
+    "name": "Workbench 01",
+    "camera_id": "frame_000225",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9240947961807251,
+    "mask_pixels": 9761,
+    "note": "Workbench panel, platform and frame retained around cooler occlusion.",
+    "prompt": {
+      "box": [
+        676.1679372592301,
+        175.15157971627872,
+        860.6304464932475,
+        387.1865089399832
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T052/initial/record.json"
+  },
+  {
+    "task_id": "T053",
+    "object_id": "obj_7047e5f33259",
+    "name": "Material cart 04",
+    "camera_id": "frame_000249",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 0,
+    "sam_predicted_iou": 0.9600423574447632,
+    "mask_pixels": 2741,
+    "note": "Only grey rear cart panel visible; foreground cart/workbench excluded.",
+    "prompt": {
+      "box": [
+        143,
+        142,
+        207,
+        211
+      ],
+      "points": [
+        [
+          174,
+          168
+        ],
+        [
+          184,
+          190
+        ],
+        [
+          226,
+          168
+        ],
+        [
+          260,
+          153
+        ],
+        [
+          179,
+          231
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T053/review1/record.json"
+  },
+  {
+    "task_id": "T054",
+    "object_id": "obj_c0162cd69680",
+    "name": "Material cart 02",
+    "camera_id": "frame_000249",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9719195365905762,
+    "mask_pixels": 7971,
+    "note": "Front tarp cart selected, separate workbench and purple cart excluded.",
+    "prompt": {
+      "box": [
+        99,
+        186,
+        214,
+        287
+      ],
+      "points": [
+        [
+          139,
+          239
+        ],
+        [
+          180,
+          220
+        ],
+        [
+          170,
+          267
+        ],
+        [
+          222,
+          167
+        ],
+        [
+          82,
+          264
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T054/review1/record.json"
+  },
+  {
+    "task_id": "T055",
+    "object_id": "obj_e57b3a886c2d",
+    "name": "Portable upright air cooler 02",
+    "camera_id": "frame_000265",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9931628704071045,
+    "mask_pixels": 10879,
+    "note": "Isolated cooler clearly visible.",
+    "prompt": {
+      "box": [
+        325.71040594107615,
+        309.6189934521246,
+        466.10349511997026,
+        527.0
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T055/initial/record.json"
+  },
+  {
+    "task_id": "T056",
+    "object_id": "obj_ad85774e5f18",
+    "name": "Fixture table with black workpiece 01",
+    "camera_id": "frame_000273",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.8978420495986938,
+    "mask_pixels": 9337,
+    "note": "Black workpiece and white base selected together.",
+    "prompt": {
+      "box": [
+        65.66875178862725,
+        169.80095791097375,
+        309.55834976947614,
+        406.0383177011629
+      ],
+      "points": [
+        [
+          217,
+          272
+        ],
+        [
+          191,
+          350
+        ],
+        [
+          243,
+          245
+        ],
+        [
+          300,
+          284
+        ],
+        [
+          255,
+          206
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T056/review1/record.json"
+  },
+  {
+    "task_id": "T057",
+    "object_id": "obj_f9a0e863e32d",
+    "name": "Material cart 03",
+    "camera_id": "frame_000273",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 0,
+    "sam_predicted_iou": 0.9805808663368225,
+    "mask_pixels": 17128,
+    "note": "Material cart body and wheels clearly visible.",
+    "prompt": {
+      "box": [
+        223.96738923212928,
+        181.23927251226868,
+        432.1573465944632,
+        416.6300826166353
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T057/initial/record.json"
+  },
+  {
+    "task_id": "T058",
+    "object_id": "obj_c57876bf22ca",
+    "name": "Portable upright air cooler 03",
+    "camera_id": "frame_000281",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9369615316390991,
+    "mask_pixels": 5382,
+    "note": "Cooler selected behind small blue-bin stands.",
+    "prompt": {
+      "box": [
+        622.6377900668458,
+        263.4611645160445,
+        729.6117194778088,
+        415.7888035623637
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T058/initial/record.json"
+  },
+  {
+    "task_id": "T059",
+    "object_id": "obj_4fd05384c476",
+    "name": "Material cart 06",
+    "camera_id": "frame_000297",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.8700568675994873,
+    "mask_pixels": 29749,
+    "note": "Grey cart body retained; open interior approximate.",
+    "prompt": {
+      "box": [
+        221.00132401329333,
+        129.60775645406724,
+        510.5305455089377,
+        466.44231468856447
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T059/initial/record.json"
+  },
+  {
+    "task_id": "T060",
+    "object_id": "obj_c7c9293c6c6d",
+    "name": "Compartment rack 02",
+    "camera_id": "frame_000305",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9292320013046265,
+    "mask_pixels": 58684,
+    "note": "Near compartment rack selected, foreground cooler and small stands excluded.",
+    "prompt": {
+      "box": [
+        0.0,
+        133.3074875973085,
+        437.43330679222635,
+        527.0
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T060/initial/record.json"
+  },
+  {
+    "task_id": "T061",
+    "object_id": "obj_5746b7e7d040",
+    "name": "Compartment rack 01",
+    "camera_id": "frame_000305",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 0,
+    "sam_predicted_iou": 0.8813686966896057,
+    "mask_pixels": 21498,
+    "note": "Candidate0 removes nearer separate rack; rear compartment rack selected.",
+    "prompt": {
+      "box": [
+        247.14452927516086,
+        90.77150811828757,
+        595.9222477085146,
+        367.45363013031744
+      ],
+      "points": [
+        [
+          432,
+          160
+        ],
+        [
+          480,
+          210
+        ],
+        [
+          550,
+          238
+        ],
+        [
+          289,
+          213
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T061/review1/record.json"
+  },
+  {
+    "task_id": "T062",
+    "object_id": "obj_7047e5f33259",
+    "name": "Material cart 04",
+    "camera_id": "frame_000313",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9600183963775635,
+    "mask_pixels": 13642,
+    "note": "Grey tarp cart isolated from front rack and workbench.",
+    "prompt": {
+      "box": [
+        628,
+        131,
+        753,
+        293
+      ],
+      "points": [
+        [
+          674,
+          173
+        ],
+        [
+          671,
+          248
+        ],
+        [
+          718,
+          219
+        ],
+        [
+          831,
+          226
+        ],
+        [
+          610,
+          185
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T062/review1/record.json"
+  },
+  {
+    "task_id": "T063",
+    "object_id": "obj_c0162cd69680",
+    "name": "Material cart 02",
+    "camera_id": "frame_000313",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9533407688140869,
+    "mask_pixels": 4175,
+    "note": "Rear small tarp cart selected; neighboring large cart excluded.",
+    "prompt": {
+      "box": [
+        542,
+        132,
+        602,
+        223
+      ],
+      "points": [
+        [
+          565,
+          164
+        ],
+        [
+          572,
+          202
+        ],
+        [
+          671,
+          176
+        ],
+        [
+          613,
+          179
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T063/review1/record.json"
+  },
+  {
+    "task_id": "T064",
+    "object_id": "obj_f9a0e863e32d",
+    "name": "Material cart 03",
+    "camera_id": "frame_000321",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9385155439376831,
+    "mask_pixels": 30190,
+    "note": "Front material cart visible face and base retained; slot interiors approximate.",
+    "prompt": {
+      "box": [
+        265.9229809663186,
+        171.26714904789068,
+        542.6953611551427,
+        491.5158837779749
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T064/initial/record.json"
+  },
+  {
+    "task_id": "T065",
+    "object_id": "obj_df0a6cc33263",
+    "name": "Workbench 02",
+    "camera_id": "frame_000321",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "review1",
+    "selected_candidate": 2,
+    "sam_predicted_iou": 0.9334347248077393,
+    "mask_pixels": 8655,
+    "note": "White-panel workbench and legs selected; neighboring tarp cart excluded.",
+    "prompt": {
+      "box": [
+        742,
+        147,
+        824,
+        347
+      ],
+      "points": [
+        [
+          790,
+          194
+        ],
+        [
+          781,
+          248
+        ],
+        [
+          803,
+          313
+        ],
+        [
+          884,
+          272
+        ],
+        [
+          720,
+          227
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T065/review1/record.json"
+  },
+  {
+    "task_id": "T066",
+    "object_id": "obj_e57b3a886c2d",
+    "name": "Portable upright air cooler 02",
+    "camera_id": "frame_000329",
+    "status": "accepted_pseudo",
+    "visible": true,
+    "quality": "moderate_pseudo",
+    "reviewer": "Codex visual inspection, not human certification",
+    "independent_human_ground_truth": false,
+    "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+    "revision": "initial",
+    "selected_candidate": 1,
+    "sam_predicted_iou": 0.9693899154663086,
+    "mask_pixels": 12319,
+    "note": "Isolated cooler front face and body clearly visible.",
+    "prompt": {
+      "box": [
+        321.54256629088127,
+        255.18539313984363,
+        476.10148031062687,
+        477.82066727695167
+      ],
+      "points": [],
+      "labels": []
+    },
+    "source_record": "evaluation/pseudo_ground_truth/objects/T066/initial/record.json"
+  }
+]

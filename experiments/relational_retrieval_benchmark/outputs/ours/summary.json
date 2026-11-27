@@ -1,0 +1,1914 @@
+{
+  "method": "Ours",
+  "model_load_seconds": 4.0975393848493695,
+  "queries": [
+    {
+      "query": {
+        "query_id": "Q001",
+        "subject_category": "upright portable air cooler",
+        "subject_category_id": "category_06",
+        "predicate": "left of",
+        "predicate_ours": "left_of",
+        "predicate_relags": "left",
+        "object_category": "workbench",
+        "object_category_id": "category_07",
+        "query_en": "upright portable air cooler to the left of the workbench",
+        "query_zh": "位于工作台左侧的立式移动冷风机",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000329",
+          "frame_000265"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 10952,
+      "matched_object_ids": [
+        "obj_e57b3a886c2d"
+      ],
+      "renderable_object_ids": [
+        "obj_e57b3a886c2d"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.0024107471108436584,
+            0.002349056303501129,
+            0.0023593977093696594
+          ],
+          "median_seconds": 0.0023593977093696594
+        },
+        "render": {
+          "samples_seconds": [
+            0.017791785299777985,
+            0.01880731899291277,
+            0.017771082930266857
+          ],
+          "median_seconds": 0.017791785299777985
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.020202532410621643,
+            0.0211563752964139,
+            0.020130480639636517
+          ],
+          "median_seconds": 0.020202532410621643
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000329",
+          "mask_pixels": 12099,
+          "directory": "outputs/ours/Q001/frame_000329"
+        },
+        {
+          "camera_id": "frame_000265",
+          "mask_pixels": 10903,
+          "directory": "outputs/ours/Q001/frame_000265"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q002",
+        "subject_category": "group of blue storage bins",
+        "subject_category_id": "category_05",
+        "predicate": "left of",
+        "predicate_ours": "left_of",
+        "predicate_relags": "left",
+        "object_category": "compartmented material rack",
+        "object_category_id": "category_08",
+        "query_en": "group of blue storage bins to the left of the compartmented material rack",
+        "query_zh": "位于分隔式料架左侧的蓝色箱组",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000129",
+          "frame_000153"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 9278,
+      "matched_object_ids": [
+        "obj_7463bab859d0"
+      ],
+      "renderable_object_ids": [
+        "obj_7463bab859d0"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.0022334540262818336,
+            0.0022114748135209084,
+            0.0021872948855161667
+          ],
+          "median_seconds": 0.0022114748135209084
+        },
+        "render": {
+          "samples_seconds": [
+            0.01880214363336563,
+            0.01804986223578453,
+            0.018019573763012886
+          ],
+          "median_seconds": 0.01804986223578453
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.021035597659647465,
+            0.02026133704930544,
+            0.020206868648529053
+          ],
+          "median_seconds": 0.02026133704930544
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000129",
+          "mask_pixels": 7810,
+          "directory": "outputs/ours/Q002/frame_000129"
+        },
+        {
+          "camera_id": "frame_000153",
+          "mask_pixels": 7864,
+          "directory": "outputs/ours/Q002/frame_000153"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q003",
+        "subject_category": "fixture table carrying a black workpiece",
+        "subject_category_id": "category_03",
+        "predicate": "left of",
+        "predicate_ours": "left_of",
+        "predicate_relags": "left",
+        "object_category": "material cart",
+        "object_category_id": "category_01",
+        "query_en": "fixture table carrying a black workpiece to the left of the material cart",
+        "query_zh": "位于物料车左侧的带黑色工件的夹具台",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000169",
+          "frame_000113"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 5 same-class devices to 2; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 27502,
+      "matched_object_ids": [
+        "obj_8528f4bf8a3d",
+        "obj_ad85774e5f18"
+      ],
+      "renderable_object_ids": [
+        "obj_8528f4bf8a3d",
+        "obj_ad85774e5f18"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.002630637027323246,
+            0.0026821959763765335,
+            0.0026974165812134743
+          ],
+          "median_seconds": 0.0026821959763765335
+        },
+        "render": {
+          "samples_seconds": [
+            0.018912329338490963,
+            0.018916834145784378,
+            0.018814025446772575
+          ],
+          "median_seconds": 0.018912329338490963
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.02154296636581421,
+            0.02159903012216091,
+            0.02151144202798605
+          ],
+          "median_seconds": 0.02154296636581421
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000169",
+          "mask_pixels": 51052,
+          "directory": "outputs/ours/Q003/frame_000169"
+        },
+        {
+          "camera_id": "frame_000113",
+          "mask_pixels": 9687,
+          "directory": "outputs/ours/Q003/frame_000113"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q004",
+        "subject_category": "workbench",
+        "subject_category_id": "category_07",
+        "predicate": "left of",
+        "predicate_ours": "left_of",
+        "predicate_relags": "left",
+        "object_category": "upright portable air cooler",
+        "object_category_id": "category_06",
+        "query_en": "workbench to the left of the upright portable air cooler",
+        "query_zh": "位于立式移动冷风机左侧的工作台",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000321",
+          "frame_000025"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 14362,
+      "matched_object_ids": [
+        "obj_df0a6cc33263"
+      ],
+      "renderable_object_ids": [
+        "obj_df0a6cc33263"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.002193423919379711,
+            0.002207258716225624,
+            0.00220405962318182
+          ],
+          "median_seconds": 0.00220405962318182
+        },
+        "render": {
+          "samples_seconds": [
+            0.015721783973276615,
+            0.015623023733496666,
+            0.015628326684236526
+          ],
+          "median_seconds": 0.015628326684236526
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.017915207892656326,
+            0.01783028244972229,
+            0.017832386307418346
+          ],
+          "median_seconds": 0.017832386307418346
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000321",
+          "mask_pixels": 7757,
+          "directory": "outputs/ours/Q004/frame_000321"
+        },
+        {
+          "camera_id": "frame_000025",
+          "mask_pixels": 3551,
+          "directory": "outputs/ours/Q004/frame_000025"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q005",
+        "subject_category": "multi-tier material rack",
+        "subject_category_id": "category_04",
+        "predicate": "left of",
+        "predicate_ours": "left_of",
+        "predicate_relags": "left",
+        "object_category": "assembly fixture table",
+        "object_category_id": "category_02",
+        "query_en": "multi-tier material rack to the left of the assembly fixture table",
+        "query_zh": "位于装配夹具台左侧的多层料架",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000217",
+          "frame_000065"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 9 same-class devices to 5; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 125055,
+      "matched_object_ids": [
+        "obj_126125e3a773",
+        "obj_aad6e7f85a9a",
+        "obj_b7e0494ce9dd",
+        "obj_b8542dc54ed2",
+        "obj_dee5bef52687"
+      ],
+      "renderable_object_ids": [
+        "obj_126125e3a773",
+        "obj_aad6e7f85a9a",
+        "obj_b7e0494ce9dd",
+        "obj_b8542dc54ed2"
+      ],
+      "unavailable_object_ids": [
+        "obj_dee5bef52687"
+      ],
+      "fine_output_status": "partial_unavailable",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.004541641101241112,
+            0.0044883498921990395,
+            0.004649256356060505
+          ],
+          "median_seconds": 0.004541641101241112
+        },
+        "render": {
+          "samples_seconds": [
+            0.02101764641702175,
+            0.02097514271736145,
+            0.021131983026862144
+          ],
+          "median_seconds": 0.02101764641702175
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.025559287518262863,
+            0.02546349260956049,
+            0.02578123938292265
+          ],
+          "median_seconds": 0.025559287518262863
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000217",
+          "mask_pixels": 41196,
+          "directory": "outputs/ours/Q005/frame_000217"
+        },
+        {
+          "camera_id": "frame_000065",
+          "mask_pixels": 12829,
+          "directory": "outputs/ours/Q005/frame_000065"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q006",
+        "subject_category": "material cart",
+        "subject_category_id": "category_01",
+        "predicate": "right of",
+        "predicate_ours": "right_of",
+        "predicate_relags": "right",
+        "object_category": "multi-tier material rack",
+        "object_category_id": "category_04",
+        "query_en": "material cart to the right of the multi-tier material rack",
+        "query_zh": "位于多层料架右侧的物料车",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000321",
+          "frame_000273"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 6 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 27176,
+      "matched_object_ids": [
+        "obj_f9a0e863e32d"
+      ],
+      "renderable_object_ids": [
+        "obj_f9a0e863e32d"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.002580956555902958,
+            0.0024855658411979675,
+            0.002542664296925068
+          ],
+          "median_seconds": 0.002542664296925068
+        },
+        "render": {
+          "samples_seconds": [
+            0.01668871846050024,
+            0.016709446907043457,
+            0.016725461930036545
+          ],
+          "median_seconds": 0.016709446907043457
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.019269675016403198,
+            0.019195012748241425,
+            0.019268126226961613
+          ],
+          "median_seconds": 0.019268126226961613
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000321",
+          "mask_pixels": 29976,
+          "directory": "outputs/ours/Q006/frame_000321"
+        },
+        {
+          "camera_id": "frame_000273",
+          "mask_pixels": 17265,
+          "directory": "outputs/ours/Q006/frame_000273"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q007",
+        "subject_category": "multi-tier material rack",
+        "subject_category_id": "category_04",
+        "predicate": "right of",
+        "predicate_ours": "right_of",
+        "predicate_relags": "right",
+        "object_category": "group of blue storage bins",
+        "object_category_id": "category_05",
+        "query_en": "multi-tier material rack to the right of the group of blue storage bins",
+        "query_zh": "位于蓝色箱组右侧的多层料架",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000185",
+          "frame_000193"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 9 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 25750,
+      "matched_object_ids": [
+        "obj_5bfd32389355"
+      ],
+      "renderable_object_ids": [
+        "obj_5bfd32389355"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.0025580404326319695,
+            0.002583371475338936,
+            0.003446469083428383
+          ],
+          "median_seconds": 0.002583371475338936
+        },
+        "render": {
+          "samples_seconds": [
+            0.014874067157506943,
+            0.016740613617002964,
+            0.014872095547616482
+          ],
+          "median_seconds": 0.014874067157506943
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.017432107590138912,
+            0.0193239850923419,
+            0.018318564631044865
+          ],
+          "median_seconds": 0.018318564631044865
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000185",
+          "mask_pixels": 8111,
+          "directory": "outputs/ours/Q007/frame_000185"
+        },
+        {
+          "camera_id": "frame_000193",
+          "mask_pixels": 8470,
+          "directory": "outputs/ours/Q007/frame_000193"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q008",
+        "subject_category": "workbench",
+        "subject_category_id": "category_07",
+        "predicate": "right of",
+        "predicate_ours": "right_of",
+        "predicate_relags": "right",
+        "object_category": "fixture table carrying a black workpiece",
+        "object_category_id": "category_03",
+        "query_en": "workbench to the right of the fixture table carrying a black workpiece",
+        "query_zh": "位于带黑色工件的夹具台右侧的工作台",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000225",
+          "frame_000209"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 13214,
+      "matched_object_ids": [
+        "obj_2e1a6e5960f5"
+      ],
+      "renderable_object_ids": [
+        "obj_2e1a6e5960f5"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.0021306686103343964,
+            0.0020841965451836586,
+            0.0020938562229275703
+          ],
+          "median_seconds": 0.0020938562229275703
+        },
+        "render": {
+          "samples_seconds": [
+            0.022110164165496826,
+            0.022183038294315338,
+            0.022268068976700306
+          ],
+          "median_seconds": 0.022183038294315338
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.024240832775831223,
+            0.024267234839498997,
+            0.024361925199627876
+          ],
+          "median_seconds": 0.024267234839498997
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000225",
+          "mask_pixels": 10885,
+          "directory": "outputs/ours/Q008/frame_000225"
+        },
+        {
+          "camera_id": "frame_000209",
+          "mask_pixels": 6781,
+          "directory": "outputs/ours/Q008/frame_000209"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q009",
+        "subject_category": "fixture table carrying a black workpiece",
+        "subject_category_id": "category_03",
+        "predicate": "right of",
+        "predicate_ours": "right_of",
+        "predicate_relags": "right",
+        "object_category": "assembly fixture table",
+        "object_category_id": "category_02",
+        "query_en": "fixture table carrying a black workpiece to the right of the assembly fixture table",
+        "query_zh": "位于装配夹具台右侧的带黑色工件的夹具台",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000161",
+          "frame_000065"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 5 same-class devices to 3; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 64532,
+      "matched_object_ids": [
+        "obj_087984e7c374",
+        "obj_8e79bd39b8b9",
+        "obj_c812ae8b15bd"
+      ],
+      "renderable_object_ids": [
+        "obj_087984e7c374",
+        "obj_8e79bd39b8b9",
+        "obj_c812ae8b15bd"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.003247511573135853,
+            0.003222482278943062,
+            0.003350580111145973
+          ],
+          "median_seconds": 0.003247511573135853
+        },
+        "render": {
+          "samples_seconds": [
+            0.016453633084893227,
+            0.016525354236364365,
+            0.016640353947877884
+          ],
+          "median_seconds": 0.016525354236364365
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.01970114465802908,
+            0.019747836515307426,
+            0.019990934059023857
+          ],
+          "median_seconds": 0.019747836515307426
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000161",
+          "mask_pixels": 29098,
+          "directory": "outputs/ours/Q009/frame_000161"
+        },
+        {
+          "camera_id": "frame_000065",
+          "mask_pixels": 48865,
+          "directory": "outputs/ours/Q009/frame_000065"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q010",
+        "subject_category": "group of blue storage bins",
+        "subject_category_id": "category_05",
+        "predicate": "right of",
+        "predicate_ours": "right_of",
+        "predicate_relags": "right",
+        "object_category": "upright portable air cooler",
+        "object_category_id": "category_06",
+        "query_en": "group of blue storage bins to the right of the upright portable air cooler",
+        "query_zh": "位于立式移动冷风机右侧的蓝色箱组",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000129",
+          "frame_000209"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 2; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 27191,
+      "matched_object_ids": [
+        "obj_141f3e5dbe3a",
+        "obj_3c963764ddb5"
+      ],
+      "renderable_object_ids": [
+        "obj_3c963764ddb5"
+      ],
+      "unavailable_object_ids": [
+        "obj_141f3e5dbe3a"
+      ],
+      "fine_output_status": "partial_unavailable",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.002426392398774624,
+            0.002376796677708626,
+            0.002375757321715355
+          ],
+          "median_seconds": 0.002376796677708626
+        },
+        "render": {
+          "samples_seconds": [
+            0.02037187945097685,
+            0.02047649212181568,
+            0.020209185779094696
+          ],
+          "median_seconds": 0.02037187945097685
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.022798271849751472,
+            0.022853288799524307,
+            0.02258494310081005
+          ],
+          "median_seconds": 0.022798271849751472
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000129",
+          "mask_pixels": 8359,
+          "directory": "outputs/ours/Q010/frame_000129"
+        },
+        {
+          "camera_id": "frame_000209",
+          "mask_pixels": 1288,
+          "directory": "outputs/ours/Q010/frame_000209"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q011",
+        "subject_category": "assembly fixture table",
+        "subject_category_id": "category_02",
+        "predicate": "in front of",
+        "predicate_ours": "in_front_of",
+        "predicate_relags": "front",
+        "object_category": "group of blue storage bins",
+        "object_category_id": "category_05",
+        "query_en": "assembly fixture table in front of the group of blue storage bins",
+        "query_zh": "位于蓝色箱组前方的装配夹具台",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000177",
+          "frame_000185"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 16536,
+      "matched_object_ids": [
+        "obj_09a35ba03c92"
+      ],
+      "renderable_object_ids": [
+        "obj_09a35ba03c92"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.0022558970376849174,
+            0.002228955738246441,
+            0.002185201272368431
+          ],
+          "median_seconds": 0.002228955738246441
+        },
+        "render": {
+          "samples_seconds": [
+            0.014835705980658531,
+            0.014767373912036419,
+            0.014861665666103363
+          ],
+          "median_seconds": 0.014835705980658531
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.01709160301834345,
+            0.01699632965028286,
+            0.017046866938471794
+          ],
+          "median_seconds": 0.017046866938471794
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000177",
+          "mask_pixels": 14930,
+          "directory": "outputs/ours/Q011/frame_000177"
+        },
+        {
+          "camera_id": "frame_000185",
+          "mask_pixels": 13044,
+          "directory": "outputs/ours/Q011/frame_000185"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q012",
+        "subject_category": "compartmented material rack",
+        "subject_category_id": "category_08",
+        "predicate": "in front of",
+        "predicate_ours": "in_front_of",
+        "predicate_relags": "front",
+        "object_category": "fixture table carrying a black workpiece",
+        "object_category_id": "category_03",
+        "query_en": "compartmented material rack in front of the fixture table carrying a black workpiece",
+        "query_zh": "位于带黑色工件的夹具台前方的分隔式料架",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000073",
+          "frame_000305"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 42391,
+      "matched_object_ids": [
+        "obj_c7c9293c6c6d"
+      ],
+      "renderable_object_ids": [
+        "obj_c7c9293c6c6d"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.002600790001451969,
+            0.0026615411043167114,
+            0.0025116968899965286
+          ],
+          "median_seconds": 0.002600790001451969
+        },
+        "render": {
+          "samples_seconds": [
+            0.018712764605879784,
+            0.018850707449018955,
+            0.018557357601821423
+          ],
+          "median_seconds": 0.018712764605879784
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.021313554607331753,
+            0.021512248553335667,
+            0.02106905449181795
+          ],
+          "median_seconds": 0.021313554607331753
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000073",
+          "mask_pixels": 25720,
+          "directory": "outputs/ours/Q012/frame_000073"
+        },
+        {
+          "camera_id": "frame_000305",
+          "mask_pixels": 61847,
+          "directory": "outputs/ours/Q012/frame_000305"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q013",
+        "subject_category": "material cart",
+        "subject_category_id": "category_01",
+        "predicate": "in front of",
+        "predicate_ours": "in_front_of",
+        "predicate_relags": "front",
+        "object_category": "compartmented material rack",
+        "object_category_id": "category_08",
+        "query_en": "material cart in front of the compartmented material rack",
+        "query_zh": "位于分隔式料架前方的物料车",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000297",
+          "frame_000065"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 6 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 23434,
+      "matched_object_ids": [
+        "obj_4fd05384c476"
+      ],
+      "renderable_object_ids": [
+        "obj_4fd05384c476"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.0024159178137779236,
+            0.0023428304120898247,
+            0.0022728368639945984
+          ],
+          "median_seconds": 0.0023428304120898247
+        },
+        "render": {
+          "samples_seconds": [
+            0.015841016545891762,
+            0.016017797403037548,
+            0.016023346222937107
+          ],
+          "median_seconds": 0.016017797403037548
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.018256934359669685,
+            0.018360627815127373,
+            0.018296183086931705
+          ],
+          "median_seconds": 0.018296183086931705
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000297",
+          "mask_pixels": 29165,
+          "directory": "outputs/ours/Q013/frame_000297"
+        },
+        {
+          "camera_id": "frame_000065",
+          "mask_pixels": 10689,
+          "directory": "outputs/ours/Q013/frame_000065"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q014",
+        "subject_category": "upright portable air cooler",
+        "subject_category_id": "category_06",
+        "predicate": "in front of",
+        "predicate_ours": "in_front_of",
+        "predicate_relags": "front",
+        "object_category": "material cart",
+        "object_category_id": "category_01",
+        "query_en": "upright portable air cooler in front of the material cart",
+        "query_zh": "位于物料车前方的立式移动冷风机",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000089",
+          "frame_000281"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 7093,
+      "matched_object_ids": [
+        "obj_c57876bf22ca"
+      ],
+      "renderable_object_ids": [
+        "obj_c57876bf22ca"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.0021601002663373947,
+            0.002148066647350788,
+            0.0021139252930879593
+          ],
+          "median_seconds": 0.002148066647350788
+        },
+        "render": {
+          "samples_seconds": [
+            0.01861155405640602,
+            0.018407312221825123,
+            0.018506521359086037
+          ],
+          "median_seconds": 0.018506521359086037
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.020771654322743416,
+            0.02055537886917591,
+            0.020620446652173996
+          ],
+          "median_seconds": 0.020620446652173996
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000089",
+          "mask_pixels": 6412,
+          "directory": "outputs/ours/Q014/frame_000089"
+        },
+        {
+          "camera_id": "frame_000281",
+          "mask_pixels": 4427,
+          "directory": "outputs/ours/Q014/frame_000281"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q015",
+        "subject_category": "workbench",
+        "subject_category_id": "category_07",
+        "predicate": "in front of",
+        "predicate_ours": "in_front_of",
+        "predicate_relags": "front",
+        "object_category": "multi-tier material rack",
+        "object_category_id": "category_04",
+        "query_en": "workbench in front of the multi-tier material rack",
+        "query_zh": "位于多层料架前方的工作台",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000321",
+          "frame_000025"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 14362,
+      "matched_object_ids": [
+        "obj_df0a6cc33263"
+      ],
+      "renderable_object_ids": [
+        "obj_df0a6cc33263"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.00225978996604681,
+            0.0022237980738282204,
+            0.002441050484776497
+          ],
+          "median_seconds": 0.00225978996604681
+        },
+        "render": {
+          "samples_seconds": [
+            0.015681970864534378,
+            0.01676938496530056,
+            0.015978217124938965
+          ],
+          "median_seconds": 0.015978217124938965
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.017941760830581188,
+            0.01899318303912878,
+            0.01841926760971546
+          ],
+          "median_seconds": 0.01841926760971546
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000321",
+          "mask_pixels": 7757,
+          "directory": "outputs/ours/Q015/frame_000321"
+        },
+        {
+          "camera_id": "frame_000025",
+          "mask_pixels": 3551,
+          "directory": "outputs/ours/Q015/frame_000025"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q016",
+        "subject_category": "assembly fixture table",
+        "subject_category_id": "category_02",
+        "predicate": "behind",
+        "predicate_ours": "behind",
+        "predicate_relags": "behind",
+        "object_category": "workbench",
+        "object_category_id": "category_07",
+        "query_en": "assembly fixture table behind the workbench",
+        "query_zh": "位于工作台后方的装配夹具台",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000193",
+          "frame_000017"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 2; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 40663,
+      "matched_object_ids": [
+        "obj_8429bc5f3c33",
+        "obj_d058f708eb01"
+      ],
+      "renderable_object_ids": [
+        "obj_8429bc5f3c33",
+        "obj_d058f708eb01"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.002701609395444393,
+            0.0026801181957125664,
+            0.002663182094693184
+          ],
+          "median_seconds": 0.0026801181957125664
+        },
+        "render": {
+          "samples_seconds": [
+            0.014823328703641891,
+            0.014685878530144691,
+            0.014855662360787392
+          ],
+          "median_seconds": 0.014823328703641891
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.017524938099086285,
+            0.017365996725857258,
+            0.017518844455480576
+          ],
+          "median_seconds": 0.017518844455480576
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000193",
+          "mask_pixels": 37911,
+          "directory": "outputs/ours/Q016/frame_000193"
+        },
+        {
+          "camera_id": "frame_000017",
+          "mask_pixels": 16087,
+          "directory": "outputs/ours/Q016/frame_000017"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q017",
+        "subject_category": "compartmented material rack",
+        "subject_category_id": "category_08",
+        "predicate": "behind",
+        "predicate_ours": "behind",
+        "predicate_relags": "behind",
+        "object_category": "upright portable air cooler",
+        "object_category_id": "category_06",
+        "query_en": "compartmented material rack behind the upright portable air cooler",
+        "query_zh": "位于立式移动冷风机后方的分隔式料架",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000305",
+          "frame_000169"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 47337,
+      "matched_object_ids": [
+        "obj_5746b7e7d040"
+      ],
+      "renderable_object_ids": [
+        "obj_5746b7e7d040"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.00277539249509573,
+            0.002684446983039379,
+            0.002755992114543915
+          ],
+          "median_seconds": 0.002755992114543915
+        },
+        "render": {
+          "samples_seconds": [
+            0.015624112449586391,
+            0.01572790089994669,
+            0.015609558671712875
+          ],
+          "median_seconds": 0.015624112449586391
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.01839950494468212,
+            0.01841234788298607,
+            0.01836555078625679
+          ],
+          "median_seconds": 0.01839950494468212
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000305",
+          "mask_pixels": 21456,
+          "directory": "outputs/ours/Q017/frame_000305"
+        },
+        {
+          "camera_id": "frame_000169",
+          "mask_pixels": 18922,
+          "directory": "outputs/ours/Q017/frame_000169"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q018",
+        "subject_category": "fixture table carrying a black workpiece",
+        "subject_category_id": "category_03",
+        "predicate": "behind",
+        "predicate_ours": "behind",
+        "predicate_relags": "behind",
+        "object_category": "compartmented material rack",
+        "object_category_id": "category_08",
+        "query_en": "fixture table carrying a black workpiece behind the compartmented material rack",
+        "query_zh": "位于分隔式料架后方的带黑色工件的夹具台",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000273",
+          "frame_000169"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 5 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 11956,
+      "matched_object_ids": [
+        "obj_ad85774e5f18"
+      ],
+      "renderable_object_ids": [
+        "obj_ad85774e5f18"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.0022536301985383034,
+            0.002266562543809414,
+            0.002196280285716057
+          ],
+          "median_seconds": 0.0022536301985383034
+        },
+        "render": {
+          "samples_seconds": [
+            0.016342224553227425,
+            0.016438313759863377,
+            0.016275962814688683
+          ],
+          "median_seconds": 0.016342224553227425
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.018595854751765728,
+            0.01870487630367279,
+            0.01847224310040474
+          ],
+          "median_seconds": 0.018595854751765728
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000273",
+          "mask_pixels": 6047,
+          "directory": "outputs/ours/Q018/frame_000273"
+        },
+        {
+          "camera_id": "frame_000169",
+          "mask_pixels": 30620,
+          "directory": "outputs/ours/Q018/frame_000169"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q019",
+        "subject_category": "group of blue storage bins",
+        "subject_category_id": "category_05",
+        "predicate": "behind",
+        "predicate_ours": "behind",
+        "predicate_relags": "behind",
+        "object_category": "workbench",
+        "object_category_id": "category_07",
+        "query_en": "group of blue storage bins behind the workbench",
+        "query_zh": "位于工作台后方的蓝色箱组",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000193",
+          "frame_000201"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": true,
+      "selected_gaussians": 0,
+      "matched_object_ids": [
+        "obj_141f3e5dbe3a"
+      ],
+      "renderable_object_ids": [],
+      "unavailable_object_ids": [
+        "obj_141f3e5dbe3a"
+      ],
+      "fine_output_status": "unavailable",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.0017160642892122269,
+            0.0016901707276701927,
+            0.0017149941995739937
+          ],
+          "median_seconds": 0.0017149941995739937
+        },
+        "render": {
+          "samples_seconds": [
+            0.013586267828941345,
+            0.013615735806524754,
+            0.013635465875267982
+          ],
+          "median_seconds": 0.013615735806524754
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.015302332118153572,
+            0.015305906534194946,
+            0.015350460074841976
+          ],
+          "median_seconds": 0.015305906534194946
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000193",
+          "mask_pixels": 0,
+          "directory": "outputs/ours/Q019/frame_000193"
+        },
+        {
+          "camera_id": "frame_000201",
+          "mask_pixels": 0,
+          "directory": "outputs/ours/Q019/frame_000201"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q020",
+        "subject_category": "multi-tier material rack",
+        "subject_category_id": "category_04",
+        "predicate": "behind",
+        "predicate_ours": "behind",
+        "predicate_relags": "behind",
+        "object_category": "assembly fixture table",
+        "object_category_id": "category_02",
+        "query_en": "multi-tier material rack behind the assembly fixture table",
+        "query_zh": "位于装配夹具台后方的多层料架",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000001",
+          "frame_000009"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 9 same-class devices to 3; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 53730,
+      "matched_object_ids": [
+        "obj_126125e3a773",
+        "obj_b7e0494ce9dd",
+        "obj_b8542dc54ed2"
+      ],
+      "renderable_object_ids": [
+        "obj_126125e3a773",
+        "obj_b7e0494ce9dd",
+        "obj_b8542dc54ed2"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.003172292374074459,
+            0.003084852360188961,
+            0.0032576173543930054
+          ],
+          "median_seconds": 0.003172292374074459
+        },
+        "render": {
+          "samples_seconds": [
+            0.013437499292194843,
+            0.013144749216735363,
+            0.013689174316823483
+          ],
+          "median_seconds": 0.013437499292194843
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.016609791666269302,
+            0.016229601576924324,
+            0.016946791671216488
+          ],
+          "median_seconds": 0.016609791666269302
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000001",
+          "mask_pixels": 17788,
+          "directory": "outputs/ours/Q020/frame_000001"
+        },
+        {
+          "camera_id": "frame_000009",
+          "mask_pixels": 16957,
+          "directory": "outputs/ours/Q020/frame_000009"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q021",
+        "subject_category": "upright portable air cooler",
+        "subject_category_id": "category_06",
+        "predicate": "near",
+        "predicate_ours": "near",
+        "predicate_relags": "close by",
+        "object_category": "multi-tier material rack",
+        "object_category_id": "category_04",
+        "query_en": "upright portable air cooler near the multi-tier material rack",
+        "query_zh": "位于多层料架附近的立式移动冷风机",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000089",
+          "frame_000281"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 7093,
+      "matched_object_ids": [
+        "obj_c57876bf22ca"
+      ],
+      "renderable_object_ids": [
+        "obj_c57876bf22ca"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.0021636206656694412,
+            0.0021526673808693886,
+            0.0021736091002821922
+          ],
+          "median_seconds": 0.0021636206656694412
+        },
+        "render": {
+          "samples_seconds": [
+            0.018625718541443348,
+            0.018534976989030838,
+            0.01851834263652563
+          ],
+          "median_seconds": 0.018534976989030838
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.02078933920711279,
+            0.020687644369900227,
+            0.020691951736807823
+          ],
+          "median_seconds": 0.020691951736807823
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000089",
+          "mask_pixels": 6412,
+          "directory": "outputs/ours/Q021/frame_000089"
+        },
+        {
+          "camera_id": "frame_000281",
+          "mask_pixels": 4427,
+          "directory": "outputs/ours/Q021/frame_000281"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q022",
+        "subject_category": "assembly fixture table",
+        "subject_category_id": "category_02",
+        "predicate": "near",
+        "predicate_ours": "near",
+        "predicate_relags": "close by",
+        "object_category": "fixture table carrying a black workpiece",
+        "object_category_id": "category_03",
+        "query_en": "assembly fixture table near the fixture table carrying a black workpiece",
+        "query_zh": "位于带黑色工件的夹具台附近的装配夹具台",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000177",
+          "frame_000185"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 16536,
+      "matched_object_ids": [
+        "obj_09a35ba03c92"
+      ],
+      "renderable_object_ids": [
+        "obj_09a35ba03c92"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.002303468994796276,
+            0.0023109614849090576,
+            0.002221871167421341
+          ],
+          "median_seconds": 0.002303468994796276
+        },
+        "render": {
+          "samples_seconds": [
+            0.014856167137622833,
+            0.015080759301781654,
+            0.014760605059564114
+          ],
+          "median_seconds": 0.014856167137622833
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.01715963613241911,
+            0.017391720786690712,
+            0.016982476226985455
+          ],
+          "median_seconds": 0.01715963613241911
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000177",
+          "mask_pixels": 14930,
+          "directory": "outputs/ours/Q022/frame_000177"
+        },
+        {
+          "camera_id": "frame_000185",
+          "mask_pixels": 13044,
+          "directory": "outputs/ours/Q022/frame_000185"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q023",
+        "subject_category": "compartmented material rack",
+        "subject_category_id": "category_08",
+        "predicate": "near",
+        "predicate_ours": "near",
+        "predicate_relags": "close by",
+        "object_category": "group of blue storage bins",
+        "object_category_id": "category_05",
+        "query_en": "compartmented material rack near the group of blue storage bins",
+        "query_zh": "位于蓝色箱组附近的分隔式料架",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000073",
+          "frame_000305"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 42391,
+      "matched_object_ids": [
+        "obj_c7c9293c6c6d"
+      ],
+      "renderable_object_ids": [
+        "obj_c7c9293c6c6d"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.002794763073325157,
+            0.002694285474717617,
+            0.0026364829391241074
+          ],
+          "median_seconds": 0.002694285474717617
+        },
+        "render": {
+          "samples_seconds": [
+            0.018745279870927334,
+            0.018700693733990192,
+            0.01876343321055174
+          ],
+          "median_seconds": 0.018745279870927334
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.02154004294425249,
+            0.02139497920870781,
+            0.021399916149675846
+          ],
+          "median_seconds": 0.021399916149675846
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000073",
+          "mask_pixels": 25720,
+          "directory": "outputs/ours/Q023/frame_000073"
+        },
+        {
+          "camera_id": "frame_000305",
+          "mask_pixels": 61847,
+          "directory": "outputs/ours/Q023/frame_000305"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q024",
+        "subject_category": "material cart",
+        "subject_category_id": "category_01",
+        "predicate": "near",
+        "predicate_ours": "near",
+        "predicate_relags": "close by",
+        "object_category": "workbench",
+        "object_category_id": "category_07",
+        "query_en": "material cart near the workbench",
+        "query_zh": "位于工作台附近的物料车",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000313",
+          "frame_000249"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 6 same-class devices to 2; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 22960,
+      "matched_object_ids": [
+        "obj_7047e5f33259",
+        "obj_c0162cd69680"
+      ],
+      "renderable_object_ids": [
+        "obj_7047e5f33259",
+        "obj_c0162cd69680"
+      ],
+      "unavailable_object_ids": [],
+      "fine_output_status": "available",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.002590983174741268,
+            0.0025227004662156105,
+            0.002452472224831581
+          ],
+          "median_seconds": 0.0025227004662156105
+        },
+        "render": {
+          "samples_seconds": [
+            0.021119723096489906,
+            0.02100678626447916,
+            0.021373088471591473
+          ],
+          "median_seconds": 0.021119723096489906
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.023710706271231174,
+            0.02352948673069477,
+            0.023825560696423054
+          ],
+          "median_seconds": 0.023710706271231174
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000313",
+          "mask_pixels": 17486,
+          "directory": "outputs/ours/Q024/frame_000313"
+        },
+        {
+          "camera_id": "frame_000249",
+          "mask_pixels": 12631,
+          "directory": "outputs/ours/Q024/frame_000249"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query_id": "Q025",
+        "subject_category": "multi-tier material rack",
+        "subject_category_id": "category_04",
+        "predicate": "near",
+        "predicate_ours": "near",
+        "predicate_relags": "close by",
+        "object_category": "material cart",
+        "object_category_id": "category_01",
+        "query_en": "multi-tier material rack near the material cart",
+        "query_zh": "位于物料车附近的多层料架",
+        "anchor_semantics": "union_over_matching_anchors",
+        "evaluation_camera_ids": [
+          "frame_000217",
+          "frame_000121"
+        ],
+        "query_selection_reason": "M0-only candidate union reduces 9 same-class devices to 3; balance target/anchor classes before method predictions",
+        "ground_truth_status": "pending_independent_review",
+        "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+      },
+      "status": "completed",
+      "query_status": "ok",
+      "empty_result": false,
+      "selected_gaussians": 96878,
+      "matched_object_ids": [
+        "obj_aad6e7f85a9a",
+        "obj_b8542dc54ed2",
+        "obj_dee5bef52687"
+      ],
+      "renderable_object_ids": [
+        "obj_aad6e7f85a9a",
+        "obj_b8542dc54ed2"
+      ],
+      "unavailable_object_ids": [
+        "obj_dee5bef52687"
+      ],
+      "fine_output_status": "partial_unavailable",
+      "timing": {
+        "query": {
+          "samples_seconds": [
+            0.003886663354933262,
+            0.0038251737132668495,
+            0.0037856558337807655
+          ],
+          "median_seconds": 0.0038251737132668495
+        },
+        "render": {
+          "samples_seconds": [
+            0.023219015449285507,
+            0.023118168115615845,
+            0.022696505300700665
+          ],
+          "median_seconds": 0.023118168115615845
+        },
+        "end_to_end": {
+          "samples_seconds": [
+            0.02710567880421877,
+            0.026943341828882694,
+            0.02648216113448143
+          ],
+          "median_seconds": 0.026943341828882694
+        },
+        "warmup": 1,
+        "repetitions": 3,
+        "export_io_excluded": true
+      },
+      "views": [
+        {
+          "camera_id": "frame_000217",
+          "mask_pixels": 7544,
+          "directory": "outputs/ours/Q025/frame_000217"
+        },
+        {
+          "camera_id": "frame_000121",
+          "mask_pixels": 45248,
+          "directory": "outputs/ours/Q025/frame_000121"
+        }
+      ]
+    }
+  ],
+  "completed": 25,
+  "total": 25
+}

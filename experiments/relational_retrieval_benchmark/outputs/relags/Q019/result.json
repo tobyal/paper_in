@@ -1,0 +1,91 @@
+{
+  "query": {
+    "query_id": "Q019",
+    "subject_category": "group of blue storage bins",
+    "subject_category_id": "category_05",
+    "predicate": "behind",
+    "predicate_ours": "behind",
+    "predicate_relags": "behind",
+    "object_category": "workbench",
+    "object_category_id": "category_07",
+    "query_en": "group of blue storage bins behind the workbench",
+    "query_zh": "位于工作台后方的蓝色箱组",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000193",
+      "frame_000201"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "selected_gaussians": 809,
+  "selected_nodes": [
+    [
+      [
+        2208,
+        2
+      ],
+      [
+        0.8650243282318115,
+        0.7234199047088623,
+        0.6670947670936584
+      ]
+    ],
+    [
+      [
+        3,
+        2
+      ],
+      [
+        0.8486317992210388,
+        0.7234199047088623,
+        0.6670947670936584
+      ]
+    ]
+  ],
+  "official_threshold_fallback_used": false,
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.10716143809258938,
+        0.10139004420489073,
+        0.10499809868633747
+      ],
+      "median_seconds": 0.10499809868633747
+    },
+    "render": {
+      "samples_seconds": [
+        0.018222427926957607,
+        0.018267938867211342,
+        0.019197780638933182
+      ],
+      "median_seconds": 0.018267938867211342
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.12538386601954699,
+        0.11965798307210207,
+        0.12419587932527065
+      ],
+      "median_seconds": 0.12419587932527065
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000193",
+      "mask_pixels": 207,
+      "directory": "outputs/relags/Q019/frame_000193"
+    },
+    {
+      "camera_id": "frame_000201",
+      "mask_pixels": 704,
+      "directory": "outputs/relags/Q019/frame_000201"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "query": {
+    "query_id": "Q002",
+    "subject_category": "group of blue storage bins",
+    "subject_category_id": "category_05",
+    "predicate": "left of",
+    "predicate_ours": "left_of",
+    "predicate_relags": "left",
+    "object_category": "compartmented material rack",
+    "object_category_id": "category_08",
+    "query_en": "group of blue storage bins to the left of the compartmented material rack",
+    "query_zh": "位于分隔式料架左侧的蓝色箱组",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000129",
+      "frame_000153"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 3 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "selected_gaussians": 2512,
+  "selected_nodes": [
+    [
+      [
+        3,
+        2
+      ],
+      [
+        0.8486317992210388,
+        0.5034058094024658,
+        0.7512181997299194
+      ]
+    ],
+    [
+      [
+        2,
+        3
+      ],
+      [
+        0.847503125667572,
+        0.5034058094024658,
+        0.7502231597900391
+      ]
+    ],
+    [
+      [
+        8,
+        2
+      ],
+      [
+        0.8323119282722473,
+        0.5034058094024658,
+        0.7512181997299194
+      ]
+    ]
+  ],
+  "official_threshold_fallback_used": false,
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.09796593803912401,
+        0.10228912346065044,
+        0.10476309712976217
+      ],
+      "median_seconds": 0.10228912346065044
+    },
+    "render": {
+      "samples_seconds": [
+        0.021200915798544884,
+        0.02110169269144535,
+        0.02159072831273079
+      ],
+      "median_seconds": 0.021200915798544884
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.1191668538376689,
+        0.1233908161520958,
+        0.12635382544249296
+      ],
+      "median_seconds": 0.1233908161520958
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000129",
+      "mask_pixels": 137,
+      "directory": "outputs/relags/Q002/frame_000129"
+    },
+    {
+      "camera_id": "frame_000153",
+      "mask_pixels": 0,
+      "directory": "outputs/relags/Q002/frame_000153"
+    }
+  ]
+}

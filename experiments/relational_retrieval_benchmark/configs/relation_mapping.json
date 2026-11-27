@@ -1,0 +1,42 @@
+[
+  {
+    "ours": "left_of",
+    "english": "left of",
+    "relags": "left",
+    "zh": "左侧",
+    "frame": "industrial +X right +Y front +Z up",
+    "anchor_semantics": "union_over_matching_anchors"
+  },
+  {
+    "ours": "right_of",
+    "english": "right of",
+    "relags": "right",
+    "zh": "右侧",
+    "frame": "industrial +X right +Y front +Z up",
+    "anchor_semantics": "union_over_matching_anchors"
+  },
+  {
+    "ours": "in_front_of",
+    "english": "in front of",
+    "relags": "front",
+    "zh": "前方",
+    "frame": "industrial +X right +Y front +Z up",
+    "anchor_semantics": "union_over_matching_anchors"
+  },
+  {
+    "ours": "behind",
+    "english": "behind",
+    "relags": "behind",
+    "zh": "后方",
+    "frame": "industrial +X right +Y front +Z up",
+    "anchor_semantics": "union_over_matching_anchors"
+  },
+  {
+    "ours": "near",
+    "english": "near",
+    "relags": "close by",
+    "zh": "附近",
+    "frame": "industrial +X right +Y front +Z up",
+    "anchor_semantics": "union_over_matching_anchors"
+  }
+]

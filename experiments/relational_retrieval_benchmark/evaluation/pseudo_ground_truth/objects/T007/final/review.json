@@ -1,0 +1,28 @@
+{
+  "task_id": "T007",
+  "object_id": "obj_8429bc5f3c33",
+  "name": "Assembly fixture table 01",
+  "camera_id": "frame_000017",
+  "status": "accepted_pseudo",
+  "visible": true,
+  "quality": "moderate_pseudo",
+  "reviewer": "Codex visual inspection, not human certification",
+  "independent_human_ground_truth": false,
+  "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+  "revision": "initial",
+  "selected_candidate": 1,
+  "sam_predicted_iou": 0.9238619804382324,
+  "mask_pixels": 11732,
+  "note": "White long fixture and mounted clamps selected; cables approximate.",
+  "prompt": {
+    "box": [
+      147.584064491724,
+      167.28504245431782,
+      450.6282619380488,
+      316.46079900313987
+    ],
+    "points": [],
+    "labels": []
+  },
+  "source_record": "evaluation/pseudo_ground_truth/objects/T007/initial/record.json"
+}

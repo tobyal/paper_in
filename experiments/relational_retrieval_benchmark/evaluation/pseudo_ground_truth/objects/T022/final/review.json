@@ -1,0 +1,28 @@
+{
+  "task_id": "T022",
+  "object_id": "obj_8528f4bf8a3d",
+  "name": "Fixture table with black workpiece 03",
+  "camera_id": "frame_000113",
+  "status": "accepted_pseudo",
+  "visible": true,
+  "quality": "moderate_pseudo",
+  "reviewer": "Codex visual inspection, not human certification",
+  "independent_human_ground_truth": false,
+  "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+  "revision": "initial",
+  "selected_candidate": 1,
+  "sam_predicted_iou": 0.9090014696121216,
+  "mask_pixels": 9305,
+  "note": "Black workpiece and fixture retained with front rail occlusion.",
+  "prompt": {
+    "box": [
+      212.00362869481862,
+      151.67113605627785,
+      428.3825726335391,
+      380.6244245260076
+    ],
+    "points": [],
+    "labels": []
+  },
+  "source_record": "evaluation/pseudo_ground_truth/objects/T022/initial/record.json"
+}

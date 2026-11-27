@@ -1,0 +1,102 @@
+{
+  "query": {
+    "query_id": "Q024",
+    "subject_category": "material cart",
+    "subject_category_id": "category_01",
+    "predicate": "near",
+    "predicate_ours": "near",
+    "predicate_relags": "close by",
+    "object_category": "workbench",
+    "object_category_id": "category_07",
+    "query_en": "material cart near the workbench",
+    "query_zh": "位于工作台附近的物料车",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000313",
+      "frame_000249"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 6 same-class devices to 2; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "selected_gaussians": 303,
+  "selected_nodes": [
+    [
+      [
+        371,
+        2
+      ],
+      [
+        0.7818930149078369,
+        0.4308508336544037,
+        0.6670947670936584
+      ]
+    ],
+    [
+      [
+        392,
+        2
+      ],
+      [
+        0.7804946303367615,
+        0.4738607406616211,
+        0.6670947670936584
+      ]
+    ],
+    [
+      [
+        244,
+        3
+      ],
+      [
+        0.7784446477890015,
+        0.4308508336544037,
+        0.6628326177597046
+      ]
+    ]
+  ],
+  "official_threshold_fallback_used": false,
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.10229105781763792,
+        0.09701371006667614,
+        0.10187373589724302
+      ],
+      "median_seconds": 0.10187373589724302
+    },
+    "render": {
+      "samples_seconds": [
+        0.023643355816602707,
+        0.02362709492444992,
+        0.02380779478698969
+      ],
+      "median_seconds": 0.023643355816602707
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.12593441363424063,
+        0.12064080499112606,
+        0.1256815306842327
+      ],
+      "median_seconds": 0.1256815306842327
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000313",
+      "mask_pixels": 0,
+      "directory": "outputs/relags/Q024/frame_000313"
+    },
+    {
+      "camera_id": "frame_000249",
+      "mask_pixels": 0,
+      "directory": "outputs/relags/Q024/frame_000249"
+    }
+  ]
+}

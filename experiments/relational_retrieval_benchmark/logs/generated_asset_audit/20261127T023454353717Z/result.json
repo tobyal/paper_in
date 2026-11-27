@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/bin/python",
+    "scripts/audit_final_assets.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "1",
+  "start_utc": "20261127T023454353717Z",
+  "stage": "generated_asset_audit",
+  "pid": 2890337,
+  "exit_code": 0,
+  "status": "completed",
+  "seconds": 5.035204172134399
+}

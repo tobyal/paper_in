@@ -1,0 +1,12 @@
+{
+  "command": [
+    "envs/thgs/bin/python",
+    "third_party/THGS/ext/spt/dependencies/parallel_cut_pursuit/python/setup.py",
+    "build_ext"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "1",
+  "start_utc": "20261127T021214968560Z",
+  "stage": "thgs_graph_extensions",
+  "pid": 2801749
+}

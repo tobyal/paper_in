@@ -1,0 +1,11 @@
+{
+  "command": [
+    "../../envs/relags/bin/python",
+    "scripts/evaluate_pseudo_metrics.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/relational_retrieval_benchmark",
+  "gpu": "0",
+  "start_utc": "20261127T030541906550Z",
+  "stage": "pseudo_quantitative_evaluation",
+  "pid": 2991687
+}

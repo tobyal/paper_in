@@ -1,0 +1,51 @@
+{
+  "relations": [
+    {
+      "relation": "left_of",
+      "discriminative_candidates": 25,
+      "selected": 5
+    },
+    {
+      "relation": "right_of",
+      "discriminative_candidates": 17,
+      "selected": 5
+    },
+    {
+      "relation": "in_front_of",
+      "discriminative_candidates": 33,
+      "selected": 5
+    },
+    {
+      "relation": "behind",
+      "discriminative_candidates": 30,
+      "selected": 5
+    },
+    {
+      "relation": "near",
+      "discriminative_candidates": 38,
+      "selected": 5
+    }
+  ],
+  "target_class_counts": {
+    "category_06": 3,
+    "category_05": 3,
+    "category_03": 3,
+    "category_07": 3,
+    "category_04": 4,
+    "category_01": 3,
+    "category_02": 3,
+    "category_08": 3
+  },
+  "anchor_class_counts": {
+    "category_07": 4,
+    "category_08": 3,
+    "category_01": 3,
+    "category_06": 3,
+    "category_02": 3,
+    "category_04": 3,
+    "category_05": 3,
+    "category_03": 3
+  },
+  "queries": 25,
+  "views": 29
+}

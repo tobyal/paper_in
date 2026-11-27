@@ -1,0 +1,8 @@
+[
+  {
+    "query_id": "Q019",
+    "old": "partial_unavailable",
+    "new": "unavailable",
+    "prediction_changed": false
+  }
+]

@@ -1,0 +1,396 @@
+{
+  "thgs": [
+    {
+      "queries": [
+        {
+          "query_id": "Q001",
+          "subject": "upright portable air cooler",
+          "predicate": "left of",
+          "anchor": "workbench",
+          "count": 9143
+        },
+        {
+          "query_id": "Q004",
+          "subject": "workbench",
+          "predicate": "left of",
+          "anchor": "upright portable air cooler",
+          "count": 9143
+        },
+        {
+          "query_id": "Q014",
+          "subject": "upright portable air cooler",
+          "predicate": "in front of",
+          "anchor": "material cart",
+          "count": 9143
+        },
+        {
+          "query_id": "Q017",
+          "subject": "compartmented material rack",
+          "predicate": "behind",
+          "anchor": "upright portable air cooler",
+          "count": 9143
+        },
+        {
+          "query_id": "Q021",
+          "subject": "upright portable air cooler",
+          "predicate": "near",
+          "anchor": "multi-tier material rack",
+          "count": 9143
+        }
+      ],
+      "different_target_categories": 3
+    },
+    {
+      "queries": [
+        {
+          "query_id": "Q002",
+          "subject": "group of blue storage bins",
+          "predicate": "left of",
+          "anchor": "compartmented material rack",
+          "count": 3993
+        },
+        {
+          "query_id": "Q010",
+          "subject": "group of blue storage bins",
+          "predicate": "right of",
+          "anchor": "upright portable air cooler",
+          "count": 3993
+        }
+      ],
+      "different_target_categories": 1
+    },
+    {
+      "queries": [
+        {
+          "query_id": "Q003",
+          "subject": "fixture table carrying a black workpiece",
+          "predicate": "left of",
+          "anchor": "material cart",
+          "count": 52332
+        },
+        {
+          "query_id": "Q005",
+          "subject": "multi-tier material rack",
+          "predicate": "left of",
+          "anchor": "assembly fixture table",
+          "count": 52332
+        },
+        {
+          "query_id": "Q009",
+          "subject": "fixture table carrying a black workpiece",
+          "predicate": "right of",
+          "anchor": "assembly fixture table",
+          "count": 52332
+        }
+      ],
+      "different_target_categories": 2
+    },
+    {
+      "queries": [
+        {
+          "query_id": "Q006",
+          "subject": "material cart",
+          "predicate": "right of",
+          "anchor": "multi-tier material rack",
+          "count": 70497
+        },
+        {
+          "query_id": "Q012",
+          "subject": "compartmented material rack",
+          "predicate": "in front of",
+          "anchor": "fixture table carrying a black workpiece",
+          "count": 70497
+        },
+        {
+          "query_id": "Q013",
+          "subject": "material cart",
+          "predicate": "in front of",
+          "anchor": "compartmented material rack",
+          "count": 70497
+        },
+        {
+          "query_id": "Q016",
+          "subject": "assembly fixture table",
+          "predicate": "behind",
+          "anchor": "workbench",
+          "count": 70497
+        },
+        {
+          "query_id": "Q018",
+          "subject": "fixture table carrying a black workpiece",
+          "predicate": "behind",
+          "anchor": "compartmented material rack",
+          "count": 70497
+        },
+        {
+          "query_id": "Q020",
+          "subject": "multi-tier material rack",
+          "predicate": "behind",
+          "anchor": "assembly fixture table",
+          "count": 70497
+        },
+        {
+          "query_id": "Q025",
+          "subject": "multi-tier material rack",
+          "predicate": "near",
+          "anchor": "material cart",
+          "count": 70497
+        }
+      ],
+      "different_target_categories": 5
+    },
+    {
+      "queries": [
+        {
+          "query_id": "Q007",
+          "subject": "multi-tier material rack",
+          "predicate": "right of",
+          "anchor": "group of blue storage bins",
+          "count": 12469
+        },
+        {
+          "query_id": "Q023",
+          "subject": "compartmented material rack",
+          "predicate": "near",
+          "anchor": "group of blue storage bins",
+          "count": 12469
+        }
+      ],
+      "different_target_categories": 2
+    }
+  ],
+  "relags": [
+    {
+      "queries": [
+        {
+          "query_id": "Q001",
+          "subject": "upright portable air cooler",
+          "predicate": "left of",
+          "anchor": "workbench",
+          "count": 1746
+        },
+        {
+          "query_id": "Q014",
+          "subject": "upright portable air cooler",
+          "predicate": "in front of",
+          "anchor": "material cart",
+          "count": 1746
+        },
+        {
+          "query_id": "Q021",
+          "subject": "upright portable air cooler",
+          "predicate": "near",
+          "anchor": "multi-tier material rack",
+          "count": 1746
+        }
+      ],
+      "different_target_categories": 1
+    },
+    {
+      "queries": [
+        {
+          "query_id": "Q003",
+          "subject": "fixture table carrying a black workpiece",
+          "predicate": "left of",
+          "anchor": "material cart",
+          "count": 1747
+        },
+        {
+          "query_id": "Q009",
+          "subject": "fixture table carrying a black workpiece",
+          "predicate": "right of",
+          "anchor": "assembly fixture table",
+          "count": 1747
+        },
+        {
+          "query_id": "Q018",
+          "subject": "fixture table carrying a black workpiece",
+          "predicate": "behind",
+          "anchor": "compartmented material rack",
+          "count": 1747
+        }
+      ],
+      "different_target_categories": 1
+    },
+    {
+      "queries": [
+        {
+          "query_id": "Q004",
+          "subject": "workbench",
+          "predicate": "left of",
+          "anchor": "upright portable air cooler",
+          "count": 61
+        },
+        {
+          "query_id": "Q008",
+          "subject": "workbench",
+          "predicate": "right of",
+          "anchor": "fixture table carrying a black workpiece",
+          "count": 61
+        },
+        {
+          "query_id": "Q015",
+          "subject": "workbench",
+          "predicate": "in front of",
+          "anchor": "multi-tier material rack",
+          "count": 61
+        }
+      ],
+      "different_target_categories": 1
+    },
+    {
+      "queries": [
+        {
+          "query_id": "Q005",
+          "subject": "multi-tier material rack",
+          "predicate": "left of",
+          "anchor": "assembly fixture table",
+          "count": 45067
+        },
+        {
+          "query_id": "Q025",
+          "subject": "multi-tier material rack",
+          "predicate": "near",
+          "anchor": "material cart",
+          "count": 45067
+        }
+      ],
+      "different_target_categories": 1
+    },
+    {
+      "queries": [
+        {
+          "query_id": "Q007",
+          "subject": "multi-tier material rack",
+          "predicate": "right of",
+          "anchor": "group of blue storage bins",
+          "count": 44705
+        },
+        {
+          "query_id": "Q020",
+          "subject": "multi-tier material rack",
+          "predicate": "behind",
+          "anchor": "assembly fixture table",
+          "count": 44705
+        }
+      ],
+      "different_target_categories": 1
+    },
+    {
+      "queries": [
+        {
+          "query_id": "Q012",
+          "subject": "compartmented material rack",
+          "predicate": "in front of",
+          "anchor": "fixture table carrying a black workpiece",
+          "count": 26
+        },
+        {
+          "query_id": "Q017",
+          "subject": "compartmented material rack",
+          "predicate": "behind",
+          "anchor": "upright portable air cooler",
+          "count": 26
+        }
+      ],
+      "different_target_categories": 1
+    },
+    {
+      "queries": [
+        {
+          "query_id": "Q013",
+          "subject": "material cart",
+          "predicate": "in front of",
+          "anchor": "compartmented material rack",
+          "count": 303
+        },
+        {
+          "query_id": "Q024",
+          "subject": "material cart",
+          "predicate": "near",
+          "anchor": "workbench",
+          "count": 303
+        }
+      ],
+      "different_target_categories": 1
+    }
+  ],
+  "ours": [
+    {
+      "queries": [
+        {
+          "query_id": "Q004",
+          "subject": "workbench",
+          "predicate": "left of",
+          "anchor": "upright portable air cooler",
+          "count": 14362
+        },
+        {
+          "query_id": "Q015",
+          "subject": "workbench",
+          "predicate": "in front of",
+          "anchor": "multi-tier material rack",
+          "count": 14362
+        }
+      ],
+      "different_target_categories": 1
+    },
+    {
+      "queries": [
+        {
+          "query_id": "Q011",
+          "subject": "assembly fixture table",
+          "predicate": "in front of",
+          "anchor": "group of blue storage bins",
+          "count": 16536
+        },
+        {
+          "query_id": "Q022",
+          "subject": "assembly fixture table",
+          "predicate": "near",
+          "anchor": "fixture table carrying a black workpiece",
+          "count": 16536
+        }
+      ],
+      "different_target_categories": 1
+    },
+    {
+      "queries": [
+        {
+          "query_id": "Q012",
+          "subject": "compartmented material rack",
+          "predicate": "in front of",
+          "anchor": "fixture table carrying a black workpiece",
+          "count": 42391
+        },
+        {
+          "query_id": "Q023",
+          "subject": "compartmented material rack",
+          "predicate": "near",
+          "anchor": "group of blue storage bins",
+          "count": 42391
+        }
+      ],
+      "different_target_categories": 1
+    },
+    {
+      "queries": [
+        {
+          "query_id": "Q014",
+          "subject": "upright portable air cooler",
+          "predicate": "in front of",
+          "anchor": "material cart",
+          "count": 7093
+        },
+        {
+          "query_id": "Q021",
+          "subject": "upright portable air cooler",
+          "predicate": "near",
+          "anchor": "multi-tier material rack",
+          "count": 7093
+        }
+      ],
+      "different_target_categories": 1
+    }
+  ]
+}

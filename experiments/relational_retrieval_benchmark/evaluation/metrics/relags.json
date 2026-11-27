@@ -1,0 +1,261 @@
+{
+  "method": "relags",
+  "iou": "Pending GT",
+  "precision": "Pending GT",
+  "recall": "Pending GT",
+  "evaluated_queries": 0,
+  "evaluated_views": 0,
+  "total_queries": 25,
+  "views": [
+    {
+      "query_id": "Q001",
+      "camera_id": "frame_000329",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q001",
+      "camera_id": "frame_000265",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q002",
+      "camera_id": "frame_000129",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q002",
+      "camera_id": "frame_000153",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q003",
+      "camera_id": "frame_000169",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q003",
+      "camera_id": "frame_000113",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q004",
+      "camera_id": "frame_000321",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q004",
+      "camera_id": "frame_000025",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q005",
+      "camera_id": "frame_000217",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q005",
+      "camera_id": "frame_000065",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q006",
+      "camera_id": "frame_000321",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q006",
+      "camera_id": "frame_000273",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q007",
+      "camera_id": "frame_000185",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q007",
+      "camera_id": "frame_000193",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q008",
+      "camera_id": "frame_000225",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q008",
+      "camera_id": "frame_000209",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q009",
+      "camera_id": "frame_000161",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q009",
+      "camera_id": "frame_000065",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q010",
+      "camera_id": "frame_000129",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q010",
+      "camera_id": "frame_000209",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q011",
+      "camera_id": "frame_000177",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q011",
+      "camera_id": "frame_000185",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q012",
+      "camera_id": "frame_000073",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q012",
+      "camera_id": "frame_000305",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q013",
+      "camera_id": "frame_000297",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q013",
+      "camera_id": "frame_000065",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q014",
+      "camera_id": "frame_000089",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q014",
+      "camera_id": "frame_000281",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q015",
+      "camera_id": "frame_000321",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q015",
+      "camera_id": "frame_000025",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q016",
+      "camera_id": "frame_000193",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q016",
+      "camera_id": "frame_000017",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q017",
+      "camera_id": "frame_000305",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q017",
+      "camera_id": "frame_000169",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q018",
+      "camera_id": "frame_000273",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q018",
+      "camera_id": "frame_000169",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q019",
+      "camera_id": "frame_000193",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q019",
+      "camera_id": "frame_000201",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q020",
+      "camera_id": "frame_000001",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q020",
+      "camera_id": "frame_000009",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q021",
+      "camera_id": "frame_000089",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q021",
+      "camera_id": "frame_000281",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q022",
+      "camera_id": "frame_000177",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q022",
+      "camera_id": "frame_000185",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q023",
+      "camera_id": "frame_000073",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q023",
+      "camera_id": "frame_000305",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q024",
+      "camera_id": "frame_000313",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q024",
+      "camera_id": "frame_000249",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q025",
+      "camera_id": "frame_000217",
+      "status": "Pending GT"
+    },
+    {
+      "query_id": "Q025",
+      "camera_id": "frame_000121",
+      "status": "Pending GT"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "query": {
+    "query_id": "Q007",
+    "subject_category": "multi-tier material rack",
+    "subject_category_id": "category_04",
+    "predicate": "right of",
+    "predicate_ours": "right_of",
+    "predicate_relags": "right",
+    "object_category": "group of blue storage bins",
+    "object_category_id": "category_05",
+    "query_en": "multi-tier material rack to the right of the group of blue storage bins",
+    "query_zh": "位于蓝色箱组右侧的多层料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000185",
+      "frame_000193"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 9 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "selected_gaussians": 44705,
+  "selected_nodes": [
+    [
+      [
+        0,
+        2
+      ],
+      [
+        0.7865535616874695,
+        0.9999344348907471,
+        0.8650243282318115
+      ]
+    ]
+  ],
+  "official_threshold_fallback_used": false,
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.12177903205156326,
+        0.10810665972530842,
+        0.09354700241237879
+      ],
+      "median_seconds": 0.10810665972530842
+    },
+    "render": {
+      "samples_seconds": [
+        0.020565071143209934,
+        0.019261830486357212,
+        0.020882570184767246
+      ],
+      "median_seconds": 0.020565071143209934
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.1423441031947732,
+        0.12736849021166563,
+        0.11442957259714603
+      ],
+      "median_seconds": 0.12736849021166563
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000185",
+      "mask_pixels": 0,
+      "directory": "outputs/relags/Q007/frame_000185"
+    },
+    {
+      "camera_id": "frame_000193",
+      "mask_pixels": 0,
+      "directory": "outputs/relags/Q007/frame_000193"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "task_id": "T025",
+  "object_id": "obj_dee5bef52687",
+  "name": "Multi-tier rack 07",
+  "camera_id": "frame_000121",
+  "status": "accepted_pseudo",
+  "visible": true,
+  "quality": "moderate_pseudo",
+  "reviewer": "Codex visual inspection, not human certification",
+  "independent_human_ground_truth": false,
+  "review_basis": "Original RGB + SAM-only initial/review/candidate sheets; M0 layout; no retrieval prediction used",
+  "revision": "review2",
+  "selected_candidate": 1,
+  "sam_predicted_iou": 0.8958114385604858,
+  "mask_pixels": 20726,
+  "note": "Visible grey-covered rack07 surface separated from nearer cart; thin rear details uncertain.",
+  "prompt": {
+    "box": [
+      493,
+      174,
+      908,
+      502
+    ],
+    "points": [
+      [
+        717,
+        275
+      ],
+      [
+        652,
+        292
+      ],
+      [
+        861,
+        264
+      ],
+      [
+        683,
+        187
+      ],
+      [
+        867,
+        207
+      ],
+      [
+        744,
+        350
+      ],
+      [
+        610,
+        412
+      ]
+    ],
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "source_record": "evaluation/pseudo_ground_truth/objects/T025/review2/record.json"
+}

@@ -1,0 +1,83 @@
+{
+  "query": {
+    "query_id": "Q025",
+    "subject_category": "multi-tier material rack",
+    "subject_category_id": "category_04",
+    "predicate": "near",
+    "predicate_ours": "near",
+    "predicate_relags": "close by",
+    "object_category": "material cart",
+    "object_category_id": "category_01",
+    "query_en": "multi-tier material rack near the material cart",
+    "query_zh": "位于物料车附近的多层料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000217",
+      "frame_000121"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 9 same-class devices to 3; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "selected_gaussians": 70497,
+  "selected_nodes": [
+    {
+      "level": 3,
+      "score": 0.6373477578163147,
+      "node_id": 0
+    },
+    {
+      "level": 2,
+      "score": 0.6345896124839783,
+      "node_id": 0
+    },
+    {
+      "level": 3,
+      "score": 0.5864652395248413,
+      "node_id": 11
+    }
+  ],
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.010837065055966377,
+        0.010834707878530025,
+        0.01083400659263134
+      ],
+      "median_seconds": 0.010834707878530025
+    },
+    "render": {
+      "samples_seconds": [
+        0.04776707012206316,
+        0.04761330038309097,
+        0.04827011376619339
+      ],
+      "median_seconds": 0.04776707012206316
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.05860413517802954,
+        0.058448008261621,
+        0.05910412035882473
+      ],
+      "median_seconds": 0.05860413517802954
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000217",
+      "mask_pixels": 2392,
+      "directory": "outputs/thgs/Q025/frame_000217"
+    },
+    {
+      "camera_id": "frame_000121",
+      "mask_pixels": 104313,
+      "directory": "outputs/thgs/Q025/frame_000121"
+    }
+  ]
+}

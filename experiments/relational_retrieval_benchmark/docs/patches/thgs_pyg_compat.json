@@ -1,0 +1,7 @@
+{
+  "files": [
+    "sp_partition.py"
+  ],
+  "reason": "THGS bundled SPT expects PyG Data.keys property; installed PyG 2.5 uses keys() method",
+  "scope": "Enumeration only; no segmentation, graph weights, thresholds or query logic changed"
+}

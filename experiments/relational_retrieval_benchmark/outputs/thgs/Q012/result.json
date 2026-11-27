@@ -1,0 +1,83 @@
+{
+  "query": {
+    "query_id": "Q012",
+    "subject_category": "compartmented material rack",
+    "subject_category_id": "category_08",
+    "predicate": "in front of",
+    "predicate_ours": "in_front_of",
+    "predicate_relags": "front",
+    "object_category": "fixture table carrying a black workpiece",
+    "object_category_id": "category_03",
+    "query_en": "compartmented material rack in front of the fixture table carrying a black workpiece",
+    "query_zh": "位于带黑色工件的夹具台前方的分隔式料架",
+    "anchor_semantics": "union_over_matching_anchors",
+    "evaluation_camera_ids": [
+      "frame_000073",
+      "frame_000305"
+    ],
+    "query_selection_reason": "M0-only candidate union reduces 2 same-class devices to 1; balance target/anchor classes before method predictions",
+    "ground_truth_status": "pending_independent_review",
+    "camera_selection_note": "Greedy M0-coarse visible coverage with >=0.35 camera-center separation; fixed before predictions. 3rd view only if it adds a candidate target."
+  },
+  "status": "completed",
+  "empty_result": false,
+  "selected_gaussians": 70497,
+  "selected_nodes": [
+    {
+      "level": 3,
+      "score": 0.6241950988769531,
+      "node_id": 0
+    },
+    {
+      "level": 2,
+      "score": 0.6134172081947327,
+      "node_id": 0
+    },
+    {
+      "level": 3,
+      "score": 0.5910510420799255,
+      "node_id": 11
+    }
+  ],
+  "timing": {
+    "query": {
+      "samples_seconds": [
+        0.011051812209188938,
+        0.010978725738823414,
+        0.011067329905927181
+      ],
+      "median_seconds": 0.011051812209188938
+    },
+    "render": {
+      "samples_seconds": [
+        0.048232076689600945,
+        0.048510740511119366,
+        0.04854816198348999
+      ],
+      "median_seconds": 0.048510740511119366
+    },
+    "end_to_end": {
+      "samples_seconds": [
+        0.05928388889878988,
+        0.05948946624994278,
+        0.05961549188941717
+      ],
+      "median_seconds": 0.05948946624994278
+    },
+    "warmup": 1,
+    "repetitions": 3,
+    "export_io_excluded": true
+  },
+  "views": [
+    {
+      "camera_id": "frame_000073",
+      "mask_pixels": 10367,
+      "directory": "outputs/thgs/Q012/frame_000073"
+    },
+    {
+      "camera_id": "frame_000305",
+      "mask_pixels": 14363,
+      "directory": "outputs/thgs/Q012/frame_000305"
+    }
+  ]
+}

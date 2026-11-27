@@ -1,0 +1,15 @@
+{
+  "checked_existing_files": 44930,
+  "changed": [],
+  "critical_hashes": {
+    "/mnt/sda/ubuntu/lkx/papers/paper_eli/outputs/gsle/langsplat_1/chkpnt30000.pth": true,
+    "/mnt/sda/ubuntu/lkx/papers/paper_eli/outputs/gsle/langsplat_2/chkpnt30000.pth": true,
+    "/mnt/sda/ubuntu/lkx/papers/paper_eli/outputs/gsle/langsplat_3/chkpnt30000.pth": true,
+    "/mnt/sda/ubuntu/lkx/papers/paper_eli/repos/LangSplat/autoencoder/ckpt/industrial_gsle/best_ckpt.pth": true,
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/data/gaussian_scene/original_3dgs/point_cloud/iteration_30000/point_cloud.ply": true,
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_obb_repair_r1/08_scene_graph/data/model/sai_nag_openseg.pt": true,
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/outputs/relags_obb_repair_r1/08_scene_graph/data/model/jina_edges_predicted.pt": true,
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/world_model/scene_graph.json": true,
+    "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/frozen_manifest.json": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "query_id": "Q010",
+  "camera_id": "frame_000129",
+  "reference_type": "SAM-assisted Pseudo-GT",
+  "status": "excluded_unreliable",
+  "target_visible": true,
+  "target_ids": [
+    "obj_141f3e5dbe3a",
+    "obj_3c963764ddb5"
+  ],
+  "task_ids": [
+    "T026",
+    "T027"
+  ],
+  "unreliable_task_ids": [
+    "T026",
+    "T027"
+  ],
+  "reasons": [
+    "Distant bin group crossed by foreground beam: SAM repeatedly includes separate stand/workbench and misses bin surfaces; reference not reliable.",
+    "Rear multi-stack bins overlap front separate stack; SAM misses substantial mixed-material faces and leaks onto foreground fixture despite added points."
+  ],
+  "mask_pixels": 19237,
+  "reviewer": "Codex visual review; not independent human annotation",
+  "independent_human_ground_truth": false,
+  "mask_path": "evaluation/pseudo_ground_truth/Q010/frame_000129/mask.png",
+  "original_rgb": "evaluation/pseudo_ground_truth/Q010/frame_000129/original_rgb.png",
+  "reference_status_note": "Excluded masks are provisional SAM unions retained for inspection, never used in primary metrics"
+}

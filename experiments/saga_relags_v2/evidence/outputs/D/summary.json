@@ -1,0 +1,616 @@
+{
+  "queries": [
+    {
+      "query_id": "query_01",
+      "query": "物料车",
+      "status": "ok",
+      "relation": null,
+      "candidate_count": 6,
+      "matched_object_ids": [
+        "obj_f9a0e863e32d",
+        "obj_4fd05384c476",
+        "obj_3efbeb5e8179",
+        "obj_7047e5f33259",
+        "obj_c0162cd69680",
+        "obj_57b0f30bdd9e"
+      ],
+      "renderable": [
+        "obj_f9a0e863e32d",
+        "obj_4fd05384c476",
+        "obj_3efbeb5e8179",
+        "obj_7047e5f33259",
+        "obj_c0162cd69680",
+        "obj_57b0f30bdd9e"
+      ],
+      "unavailable": [],
+      "views": [
+        {
+          "image_id": "frame_000041",
+          "split": "heldout",
+          "mask_pixels": 108315,
+          "camera": "outputs/D/query_01/frame_000041_camera.json",
+          "panel": "outputs/D/query_01/frame_000041_panel.jpg"
+        },
+        {
+          "image_id": "frame_000065",
+          "split": "heldout",
+          "mask_pixels": 66073,
+          "camera": "outputs/D/query_01/frame_000065_camera.json",
+          "panel": "outputs/D/query_01/frame_000065_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_02",
+      "query": "装配夹具台",
+      "status": "ok",
+      "relation": null,
+      "candidate_count": 3,
+      "matched_object_ids": [
+        "obj_8429bc5f3c33",
+        "obj_d058f708eb01",
+        "obj_09a35ba03c92"
+      ],
+      "renderable": [
+        "obj_8429bc5f3c33",
+        "obj_d058f708eb01",
+        "obj_09a35ba03c92"
+      ],
+      "unavailable": [],
+      "views": [
+        {
+          "image_id": "frame_000209",
+          "split": "heldout",
+          "mask_pixels": 58237,
+          "camera": "outputs/D/query_02/frame_000209_camera.json",
+          "panel": "outputs/D/query_02/frame_000209_panel.jpg"
+        },
+        {
+          "image_id": "frame_000225",
+          "split": "heldout",
+          "mask_pixels": 47106,
+          "camera": "outputs/D/query_02/frame_000225_camera.json",
+          "panel": "outputs/D/query_02/frame_000225_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_03",
+      "query": "带黑色工件的夹具台",
+      "status": "ok",
+      "relation": null,
+      "candidate_count": 5,
+      "matched_object_ids": [
+        "obj_ad85774e5f18",
+        "obj_c812ae8b15bd",
+        "obj_8528f4bf8a3d",
+        "obj_8e79bd39b8b9",
+        "obj_087984e7c374"
+      ],
+      "renderable": [
+        "obj_ad85774e5f18",
+        "obj_c812ae8b15bd",
+        "obj_8528f4bf8a3d",
+        "obj_8e79bd39b8b9",
+        "obj_087984e7c374"
+      ],
+      "unavailable": [],
+      "views": [
+        {
+          "image_id": "frame_000065",
+          "split": "heldout",
+          "mask_pixels": 134675,
+          "camera": "outputs/D/query_03/frame_000065_camera.json",
+          "panel": "outputs/D/query_03/frame_000065_panel.jpg"
+        },
+        {
+          "image_id": "frame_000273",
+          "split": "heldout",
+          "mask_pixels": 43796,
+          "camera": "outputs/D/query_03/frame_000273_camera.json",
+          "panel": "outputs/D/query_03/frame_000273_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_04",
+      "query": "多层料架",
+      "status": "ok",
+      "relation": null,
+      "candidate_count": 9,
+      "matched_object_ids": [
+        "obj_485ade540e7d",
+        "obj_126125e3a773",
+        "obj_aad6e7f85a9a",
+        "obj_5bfd32389355",
+        "obj_b7e0494ce9dd",
+        "obj_b8542dc54ed2",
+        "obj_06d9693cfb0a",
+        "obj_933bd7d6e703",
+        "obj_dee5bef52687"
+      ],
+      "renderable": [
+        "obj_126125e3a773",
+        "obj_aad6e7f85a9a",
+        "obj_5bfd32389355",
+        "obj_b7e0494ce9dd",
+        "obj_b8542dc54ed2",
+        "obj_06d9693cfb0a",
+        "obj_933bd7d6e703"
+      ],
+      "unavailable": [
+        "obj_485ade540e7d",
+        "obj_dee5bef52687"
+      ],
+      "views": [
+        {
+          "image_id": "frame_000217",
+          "split": "heldout",
+          "mask_pixels": 117383,
+          "camera": "outputs/D/query_04/frame_000217_camera.json",
+          "panel": "outputs/D/query_04/frame_000217_panel.jpg"
+        },
+        {
+          "image_id": "frame_000225",
+          "split": "heldout",
+          "mask_pixels": 64016,
+          "camera": "outputs/D/query_04/frame_000225_camera.json",
+          "panel": "outputs/D/query_04/frame_000225_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_05",
+      "query": "蓝色箱组",
+      "status": "ok",
+      "relation": null,
+      "candidate_count": 3,
+      "matched_object_ids": [
+        "obj_141f3e5dbe3a",
+        "obj_3c963764ddb5",
+        "obj_7463bab859d0"
+      ],
+      "renderable": [
+        "obj_3c963764ddb5",
+        "obj_7463bab859d0"
+      ],
+      "unavailable": [
+        "obj_141f3e5dbe3a"
+      ],
+      "views": [
+        {
+          "image_id": "frame_000129",
+          "split": "heldout",
+          "mask_pixels": 41019,
+          "camera": "outputs/D/query_05/frame_000129_camera.json",
+          "panel": "outputs/D/query_05/frame_000129_panel.jpg"
+        },
+        {
+          "image_id": "frame_000209",
+          "split": "heldout",
+          "mask_pixels": 4912,
+          "camera": "outputs/D/query_05/frame_000209_camera.json",
+          "panel": "outputs/D/query_05/frame_000209_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_06",
+      "query": "立式移动冷风机",
+      "status": "ok",
+      "relation": null,
+      "candidate_count": 3,
+      "matched_object_ids": [
+        "obj_e57b3a886c2d",
+        "obj_04c477562e49",
+        "obj_c57876bf22ca"
+      ],
+      "renderable": [
+        "obj_e57b3a886c2d",
+        "obj_04c477562e49",
+        "obj_c57876bf22ca"
+      ],
+      "unavailable": [],
+      "views": [
+        {
+          "image_id": "frame_000233",
+          "split": "heldout",
+          "mask_pixels": 31531,
+          "camera": "outputs/D/query_06/frame_000233_camera.json",
+          "panel": "outputs/D/query_06/frame_000233_panel.jpg"
+        },
+        {
+          "image_id": "frame_000225",
+          "split": "heldout",
+          "mask_pixels": 22359,
+          "camera": "outputs/D/query_06/frame_000225_camera.json",
+          "panel": "outputs/D/query_06/frame_000225_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_07",
+      "query": "工作台",
+      "status": "ok",
+      "relation": null,
+      "candidate_count": 2,
+      "matched_object_ids": [
+        "obj_2e1a6e5960f5",
+        "obj_df0a6cc33263"
+      ],
+      "renderable": [
+        "obj_2e1a6e5960f5",
+        "obj_df0a6cc33263"
+      ],
+      "unavailable": [],
+      "views": [
+        {
+          "image_id": "frame_000225",
+          "split": "heldout",
+          "mask_pixels": 30750,
+          "camera": "outputs/D/query_07/frame_000225_camera.json",
+          "panel": "outputs/D/query_07/frame_000225_panel.jpg"
+        },
+        {
+          "image_id": "frame_000233",
+          "split": "heldout",
+          "mask_pixels": 48057,
+          "camera": "outputs/D/query_07/frame_000233_camera.json",
+          "panel": "outputs/D/query_07/frame_000233_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_08",
+      "query": "分隔式料架",
+      "status": "ok",
+      "relation": null,
+      "candidate_count": 2,
+      "matched_object_ids": [
+        "obj_c7c9293c6c6d",
+        "obj_5746b7e7d040"
+      ],
+      "renderable": [
+        "obj_c7c9293c6c6d",
+        "obj_5746b7e7d040"
+      ],
+      "unavailable": [],
+      "views": [
+        {
+          "image_id": "frame_000305",
+          "split": "heldout",
+          "mask_pixels": 212995,
+          "camera": "outputs/D/query_08/frame_000305_camera.json",
+          "panel": "outputs/D/query_08/frame_000305_panel.jpg"
+        },
+        {
+          "image_id": "frame_000169",
+          "split": "heldout",
+          "mask_pixels": 81590,
+          "camera": "outputs/D/query_08/frame_000169_camera.json",
+          "panel": "outputs/D/query_08/frame_000169_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_09",
+      "query": "距离装配夹具台 01最近的物料车",
+      "status": "ok",
+      "relation": "nearest_to",
+      "candidate_count": 6,
+      "matched_object_ids": [
+        "obj_57b0f30bdd9e"
+      ],
+      "renderable": [
+        "obj_57b0f30bdd9e"
+      ],
+      "unavailable": [],
+      "views": [
+        {
+          "image_id": "frame_000025",
+          "split": "heldout",
+          "mask_pixels": 12705,
+          "camera": "outputs/D/query_09/frame_000025_camera.json",
+          "panel": "outputs/D/query_09/frame_000025_panel.jpg"
+        },
+        {
+          "image_id": "frame_000009",
+          "split": "heldout",
+          "mask_pixels": 12356,
+          "camera": "outputs/D/query_09/frame_000009_camera.json",
+          "panel": "outputs/D/query_09/frame_000009_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_10",
+      "query": "位于装配夹具台 01左侧的物料车",
+      "status": "ok",
+      "relation": "left_of",
+      "candidate_count": 6,
+      "matched_object_ids": [
+        "obj_3efbeb5e8179",
+        "obj_4fd05384c476",
+        "obj_57b0f30bdd9e",
+        "obj_7047e5f33259",
+        "obj_c0162cd69680"
+      ],
+      "renderable": [
+        "obj_3efbeb5e8179",
+        "obj_4fd05384c476",
+        "obj_57b0f30bdd9e",
+        "obj_7047e5f33259",
+        "obj_c0162cd69680"
+      ],
+      "unavailable": [],
+      "views": [
+        {
+          "image_id": "frame_000041",
+          "split": "heldout",
+          "mask_pixels": 70618,
+          "camera": "outputs/D/query_10/frame_000041_camera.json",
+          "panel": "outputs/D/query_10/frame_000041_panel.jpg"
+        },
+        {
+          "image_id": "frame_000065",
+          "split": "heldout",
+          "mask_pixels": 53874,
+          "camera": "outputs/D/query_10/frame_000065_camera.json",
+          "panel": "outputs/D/query_10/frame_000065_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_11",
+      "query": "位于带黑色工件的夹具台 01右侧的物料车",
+      "status": "ok",
+      "relation": "right_of",
+      "candidate_count": 6,
+      "matched_object_ids": [
+        "obj_f9a0e863e32d"
+      ],
+      "renderable": [
+        "obj_f9a0e863e32d"
+      ],
+      "unavailable": [],
+      "views": [
+        {
+          "image_id": "frame_000321",
+          "split": "heldout",
+          "mask_pixels": 76211,
+          "camera": "outputs/D/query_11/frame_000321_camera.json",
+          "panel": "outputs/D/query_11/frame_000321_panel.jpg"
+        },
+        {
+          "image_id": "frame_000273",
+          "split": "heldout",
+          "mask_pixels": 43736,
+          "camera": "outputs/D/query_11/frame_000273_camera.json",
+          "panel": "outputs/D/query_11/frame_000273_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_12",
+      "query": "位于装配夹具台 02前方的物料车",
+      "status": "ok",
+      "relation": "in_front_of",
+      "candidate_count": 6,
+      "matched_object_ids": [
+        "obj_3efbeb5e8179",
+        "obj_4fd05384c476",
+        "obj_7047e5f33259",
+        "obj_c0162cd69680",
+        "obj_f9a0e863e32d"
+      ],
+      "renderable": [
+        "obj_3efbeb5e8179",
+        "obj_4fd05384c476",
+        "obj_7047e5f33259",
+        "obj_c0162cd69680",
+        "obj_f9a0e863e32d"
+      ],
+      "unavailable": [],
+      "views": [
+        {
+          "image_id": "frame_000041",
+          "split": "heldout",
+          "mask_pixels": 95548,
+          "camera": "outputs/D/query_12/frame_000041_camera.json",
+          "panel": "outputs/D/query_12/frame_000041_panel.jpg"
+        },
+        {
+          "image_id": "frame_000065",
+          "split": "heldout",
+          "mask_pixels": 62901,
+          "camera": "outputs/D/query_12/frame_000065_camera.json",
+          "panel": "outputs/D/query_12/frame_000065_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_13",
+      "query": "位于带黑色工件的夹具台 01后方的物料车",
+      "status": "ok",
+      "relation": "behind",
+      "candidate_count": 6,
+      "matched_object_ids": [
+        "obj_57b0f30bdd9e",
+        "obj_c0162cd69680"
+      ],
+      "renderable": [
+        "obj_57b0f30bdd9e",
+        "obj_c0162cd69680"
+      ],
+      "unavailable": [],
+      "views": [
+        {
+          "image_id": "frame_000025",
+          "split": "heldout",
+          "mask_pixels": 27103,
+          "camera": "outputs/D/query_13/frame_000025_camera.json",
+          "panel": "outputs/D/query_13/frame_000025_panel.jpg"
+        },
+        {
+          "image_id": "frame_000017",
+          "split": "heldout",
+          "mask_pixels": 27597,
+          "camera": "outputs/D/query_13/frame_000017_camera.json",
+          "panel": "outputs/D/query_13/frame_000017_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_14",
+      "query": "位于装配夹具台 02附近的物料车",
+      "status": "ok",
+      "relation": "near",
+      "candidate_count": 6,
+      "matched_object_ids": [
+        "obj_57b0f30bdd9e",
+        "obj_c0162cd69680"
+      ],
+      "renderable": [
+        "obj_57b0f30bdd9e",
+        "obj_c0162cd69680"
+      ],
+      "unavailable": [],
+      "views": [
+        {
+          "image_id": "frame_000025",
+          "split": "heldout",
+          "mask_pixels": 27103,
+          "camera": "outputs/D/query_14/frame_000025_camera.json",
+          "panel": "outputs/D/query_14/frame_000025_panel.jpg"
+        },
+        {
+          "image_id": "frame_000017",
+          "split": "heldout",
+          "mask_pixels": 27597,
+          "camera": "outputs/D/query_14/frame_000017_camera.json",
+          "panel": "outputs/D/query_14/frame_000017_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_15",
+      "query": "距离装配夹具台 01最近的蓝色箱组",
+      "status": "ok",
+      "relation": "nearest_to",
+      "candidate_count": 3,
+      "matched_object_ids": [
+        "obj_141f3e5dbe3a"
+      ],
+      "renderable": [],
+      "unavailable": [
+        "obj_141f3e5dbe3a"
+      ],
+      "views": [
+        {
+          "image_id": "frame_000193",
+          "split": "heldout",
+          "mask_pixels": 0,
+          "camera": "outputs/D/query_15/frame_000193_camera.json",
+          "panel": "outputs/D/query_15/frame_000193_panel.jpg"
+        },
+        {
+          "image_id": "frame_000201",
+          "split": "heldout",
+          "mask_pixels": 0,
+          "camera": "outputs/D/query_15/frame_000201_camera.json",
+          "panel": "outputs/D/query_15/frame_000201_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_16",
+      "query": "多层料架 02",
+      "status": "ok",
+      "relation": null,
+      "candidate_count": 1,
+      "matched_object_ids": [
+        "obj_126125e3a773"
+      ],
+      "renderable": [
+        "obj_126125e3a773"
+      ],
+      "unavailable": [],
+      "views": [
+        {
+          "image_id": "frame_000001",
+          "split": "heldout",
+          "mask_pixels": 14104,
+          "camera": "outputs/D/query_16/frame_000001_camera.json",
+          "panel": "outputs/D/query_16/frame_000001_panel.jpg"
+        },
+        {
+          "image_id": "frame_000009",
+          "split": "heldout",
+          "mask_pixels": 13144,
+          "camera": "outputs/D/query_16/frame_000009_camera.json",
+          "panel": "outputs/D/query_16/frame_000009_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_17",
+      "query": "多层料架 05",
+      "status": "ok",
+      "relation": null,
+      "candidate_count": 1,
+      "matched_object_ids": [
+        "obj_485ade540e7d"
+      ],
+      "renderable": [],
+      "unavailable": [
+        "obj_485ade540e7d"
+      ],
+      "views": [
+        {
+          "image_id": "frame_000081",
+          "split": "heldout",
+          "mask_pixels": 0,
+          "camera": "outputs/D/query_17/frame_000081_camera.json",
+          "panel": "outputs/D/query_17/frame_000081_panel.jpg"
+        },
+        {
+          "image_id": "frame_000073",
+          "split": "heldout",
+          "mask_pixels": 0,
+          "camera": "outputs/D/query_17/frame_000073_camera.json",
+          "panel": "outputs/D/query_17/frame_000073_panel.jpg"
+        }
+      ]
+    },
+    {
+      "query_id": "query_18",
+      "query": "位于多层料架 02左侧的工作台",
+      "status": "no_relation_match",
+      "relation": "left_of",
+      "candidate_count": 2,
+      "matched_object_ids": [],
+      "renderable": [],
+      "unavailable": [],
+      "views": [
+        {
+          "image_id": "frame_000001",
+          "split": "heldout",
+          "mask_pixels": 0,
+          "camera": "outputs/D/query_18/frame_000001_camera.json",
+          "panel": "outputs/D/query_18/frame_000001_panel.jpg"
+        },
+        {
+          "image_id": "frame_000009",
+          "split": "heldout",
+          "mask_pixels": 0,
+          "camera": "outputs/D/query_18/frame_000009_camera.json",
+          "panel": "outputs/D/query_18/frame_000009_panel.jpg"
+        }
+      ]
+    }
+  ],
+  "heldout_views_only_after_A_freeze": true,
+  "segmentation_at_query_time": false,
+  "projection": "Complete native scene alpha compositing of frozen membership, threshold 0.5",
+  "no_independent_ground_truth": true
+}

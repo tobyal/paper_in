@@ -1,0 +1,20 @@
+{
+  "command": [
+    "../saga_relags_v1/envs/saga/bin/python",
+    "-u",
+    "src/extract_instances.py",
+    "--tag",
+    "scale_upper",
+    "--references",
+    "outputs/A/refinement_prompts/records.json",
+    "--objects",
+    "obj_5bfd32389355",
+    "--scale-offset",
+    "0.1"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+  "gpu": "0",
+  "start_utc": "20261126T160628137499Z",
+  "stage": "A_scale_upper",
+  "pid": 831909
+}

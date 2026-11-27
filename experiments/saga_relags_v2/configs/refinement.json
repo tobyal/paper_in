@@ -1,0 +1,15 @@
+{
+  "reviewer": "Codex visual inspection of original train images, native rendering, SAM masks and independent instances",
+  "independent_human_ground_truth": false,
+  "rack02": {"object_id":"obj_126125e3a773", "views":["frame_000205","frame_000207"], "minimum_coarse_precision":0.40, "reason":"Initial SAM masks consistently include holes between thin rack rods; soft candidate precision 0.43-0.45 rejected all masks. Relax only the reference-mask check for this object, retaining contribution >0.75 at actual positive clicks."},
+  "rack04": {
+    "object_id":"obj_5bfd32389355",
+    "reason":"All initial SAM masks visibly include separate boxes left/right of the central rack. Replace positive prompts with explicitly reviewed central-rack points; no geometry edit or hand-drawn final mask.",
+    "visual_points":{
+      "virtual_free_obj_5bfd32389355_013":[[369,364],[446,365],[534,327],[447,450],[350,570],[468,250]],
+      "virtual_guided_obj_5bfd32389355_005":[[407,330],[450,300],[380,441],[544,427],[453,490]]
+    }
+  },
+  "threshold_comparison": {"objects":["obj_5bfd32389355","obj_141f3e5dbe3a","obj_3c963764ddb5"], "thresholds":[0.80,0.85,0.90], "reason":"Check retained bin faces versus neighboring material and background at fixed prompts and gate."},
+  "scale_comparison": {"objects":["obj_5bfd32389355"], "normalized_offsets":[-0.1,0.0,0.1], "threshold":0.85, "reason":"Rack remains mixed with adjacent bins; check whether the v1 size-derived gate is responsible. No Cartesian hyperparameter search."}
+}

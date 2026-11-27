@@ -1,0 +1,11 @@
+{
+  "categories": 8,
+  "feature_dimension": 512,
+  "crops": 44,
+  "modified_crops": 26,
+  "selected_prototype": "original",
+  "original_correct": 31,
+  "soft_correct": 31,
+  "total": 31,
+  "heldout_used": false
+}

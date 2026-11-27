@@ -1,0 +1,240 @@
+{
+  "conflicting_gaussians": 13376,
+  "objects": [
+    {
+      "object_id": "obj_8429bc5f3c33",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_d058f708eb01",
+      "removed": 0,
+      "reused_v1": true,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_09a35ba03c92",
+      "removed": 0,
+      "reused_v1": true,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_ad85774e5f18",
+      "removed": 0,
+      "reused_v1": true,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_c812ae8b15bd",
+      "removed": 0,
+      "reused_v1": true,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_485ade540e7d",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_f9a0e863e32d",
+      "removed": 0,
+      "reused_v1": true,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_126125e3a773",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_aad6e7f85a9a",
+      "removed": 6479,
+      "reused_v1": false,
+      "changed_fraction": 0.08327335355508714
+    },
+    {
+      "object_id": "obj_5bfd32389355",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_141f3e5dbe3a",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_3c963764ddb5",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_e57b3a886c2d",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_04c477562e49",
+      "removed": 0,
+      "reused_v1": true,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_2e1a6e5960f5",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_8528f4bf8a3d",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_8e79bd39b8b9",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_087984e7c374",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_b7e0494ce9dd",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_b8542dc54ed2",
+      "removed": 0,
+      "reused_v1": true,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_7463bab859d0",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_c57876bf22ca",
+      "removed": 0,
+      "reused_v1": true,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_06d9693cfb0a",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_c7c9293c6c6d",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_5746b7e7d040",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_933bd7d6e703",
+      "removed": 6895,
+      "reused_v1": false,
+      "changed_fraction": 0.24319272009029344
+    },
+    {
+      "object_id": "obj_4fd05384c476",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_dee5bef52687",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_3efbeb5e8179",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_7047e5f33259",
+      "removed": 2,
+      "reused_v1": false,
+      "changed_fraction": 0.00016565890830779425
+    },
+    {
+      "object_id": "obj_df0a6cc33263",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_c0162cd69680",
+      "removed": 0,
+      "reused_v1": false,
+      "changed_fraction": 0.0
+    },
+    {
+      "object_id": "obj_57b0f30bdd9e",
+      "removed": 0,
+      "reused_v1": true,
+      "changed_fraction": 0.0
+    }
+  ],
+  "rule": "Maximum stored float16 affinity within M0; stable M0 order breaks exact ties",
+  "caveat": "Different scale gates and prompt sets need not give calibrated comparable affinities",
+  "object_label_order": [
+    "obj_8429bc5f3c33",
+    "obj_d058f708eb01",
+    "obj_09a35ba03c92",
+    "obj_ad85774e5f18",
+    "obj_c812ae8b15bd",
+    "obj_485ade540e7d",
+    "obj_f9a0e863e32d",
+    "obj_126125e3a773",
+    "obj_aad6e7f85a9a",
+    "obj_5bfd32389355",
+    "obj_141f3e5dbe3a",
+    "obj_3c963764ddb5",
+    "obj_e57b3a886c2d",
+    "obj_04c477562e49",
+    "obj_2e1a6e5960f5",
+    "obj_8528f4bf8a3d",
+    "obj_8e79bd39b8b9",
+    "obj_087984e7c374",
+    "obj_b7e0494ce9dd",
+    "obj_b8542dc54ed2",
+    "obj_7463bab859d0",
+    "obj_c57876bf22ca",
+    "obj_06d9693cfb0a",
+    "obj_c7c9293c6c6d",
+    "obj_5746b7e7d040",
+    "obj_933bd7d6e703",
+    "obj_4fd05384c476",
+    "obj_dee5bef52687",
+    "obj_3efbeb5e8179",
+    "obj_7047e5f33259",
+    "obj_df0a6cc33263",
+    "obj_c0162cd69680",
+    "obj_57b0f30bdd9e"
+  ]
+}

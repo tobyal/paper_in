@@ -1,0 +1,74 @@
+[
+  {
+    "object_id": "obj_5bfd32389355",
+    "threshold": 0.8,
+    "gaussians": 26527,
+    "fixed_prompts": true,
+    "fixed_scale": true,
+    "heldout_used": false
+  },
+  {
+    "object_id": "obj_5bfd32389355",
+    "threshold": 0.85,
+    "gaussians": 25745,
+    "fixed_prompts": true,
+    "fixed_scale": true,
+    "heldout_used": false
+  },
+  {
+    "object_id": "obj_5bfd32389355",
+    "threshold": 0.9,
+    "gaussians": 24742,
+    "fixed_prompts": true,
+    "fixed_scale": true,
+    "heldout_used": false
+  },
+  {
+    "object_id": "obj_141f3e5dbe3a",
+    "threshold": 0.8,
+    "gaussians": 22447,
+    "fixed_prompts": true,
+    "fixed_scale": true,
+    "heldout_used": false
+  },
+  {
+    "object_id": "obj_141f3e5dbe3a",
+    "threshold": 0.85,
+    "gaussians": 21496,
+    "fixed_prompts": true,
+    "fixed_scale": true,
+    "heldout_used": false
+  },
+  {
+    "object_id": "obj_141f3e5dbe3a",
+    "threshold": 0.9,
+    "gaussians": 19979,
+    "fixed_prompts": true,
+    "fixed_scale": true,
+    "heldout_used": false
+  },
+  {
+    "object_id": "obj_3c963764ddb5",
+    "threshold": 0.8,
+    "gaussians": 30120,
+    "fixed_prompts": true,
+    "fixed_scale": true,
+    "heldout_used": false
+  },
+  {
+    "object_id": "obj_3c963764ddb5",
+    "threshold": 0.85,
+    "gaussians": 27177,
+    "fixed_prompts": true,
+    "fixed_scale": true,
+    "heldout_used": false
+  },
+  {
+    "object_id": "obj_3c963764ddb5",
+    "threshold": 0.9,
+    "gaussians": 21349,
+    "fixed_prompts": true,
+    "fixed_scale": true,
+    "heldout_used": false
+  }
+]

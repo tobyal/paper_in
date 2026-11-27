@@ -1,0 +1,20 @@
+{
+  "version": "saga_relags_v2",
+  "frozen_iteration": 10000,
+  "m0_revision": 29,
+  "gpu": "0",
+  "affinity_threshold": 0.85,
+  "reference_width": 960,
+  "real_reference_limit": 3,
+  "virtual_reference_limit": 2,
+  "maximum_references": 5,
+  "minimum_visible_pixels": 160,
+  "minimum_safe_point_distance": 1.5,
+  "points_per_reference": 7,
+  "score_definition": "(cosine_similarity + 1) / 2, max over positive prompts",
+  "heldout_allowed_for_prompt_or_tuning": false,
+  "external_image_upload": false,
+  "new_training": false,
+  "quality_review": "Codex visual review, not independent human ground truth",
+  "maximum_difficult_object_comparison_rounds": 1
+}

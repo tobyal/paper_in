@@ -1,0 +1,12 @@
+{
+  "command": [
+    "../saga_relags_v1/envs/saga/bin/python",
+    "-u",
+    "scripts/initialize.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+  "gpu": "0",
+  "start_utc": "20261126T155752955562Z",
+  "stage": "initialize",
+  "pid": 792434
+}

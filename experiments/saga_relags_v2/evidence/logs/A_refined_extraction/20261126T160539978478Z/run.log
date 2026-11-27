@@ -1,0 +1,34 @@
+INSTANCE Assembly fixture table 01 20477 / 28512 reuse False
+INSTANCE Assembly fixture table 02 20186 / 34150 reuse True
+INSTANCE Assembly fixture table 03 16536 / 30873 reuse True
+INSTANCE Fixture table with black workpiece 01 11956 / 20962 reuse True
+INSTANCE Fixture table with black workpiece 02 17755 / 23676 reuse True
+INSTANCE Multi-tier rack 05 66137 / 82242 reuse False
+INSTANCE Material cart 03 27176 / 28512 reuse True
+INSTANCE Multi-tier rack 02 14008 / 18391 reuse False
+INSTANCE Multi-tier rack 08 77804 / 99089 reuse False
+INSTANCE Multi-tier rack 04 25750 / 48158 reuse False
+INSTANCE Blue bin group 01 21501 / 40443 reuse False
+INSTANCE Blue bin group 02 27191 / 60391 reuse False
+INSTANCE Portable upright air cooler 02 10952 / 11511 reuse False
+INSTANCE Portable upright air cooler 01 9442 / 10371 reuse True
+INSTANCE Workbench 01 13214 / 15234 reuse False
+INSTANCE Fixture table with black workpiece 03 15546 / 26263 reuse False
+INSTANCE Fixture table with black workpiece 04 22085 / 30218 reuse False
+INSTANCE Fixture table with black workpiece 05 24692 / 31925 reuse False
+INSTANCE Multi-tier rack 01 14169 / 16204 reuse False
+INSTANCE Multi-tier rack 03 25553 / 30924 reuse True
+INSTANCE Blue bin group 03 9278 / 14336 reuse False
+INSTANCE Portable upright air cooler 03 7093 / 7431 reuse True
+INSTANCE Multi-tier rack 06 9131 / 10056 reuse False
+INSTANCE Compartment rack 02 42391 / 49463 reuse False
+INSTANCE Compartment rack 01 47337 / 54146 reuse False
+INSTANCE Multi-tier rack 09 28352 / 30916 reuse False
+INSTANCE Material cart 06 23434 / 25029 reuse False
+INSTANCE Multi-tier rack 07 30386 / 36480 reuse False
+INSTANCE Material cart 05 21684 / 24981 reuse False
+INSTANCE Material cart 04 12073 / 14618 reuse False
+INSTANCE Workbench 02 14362 / 19881 reuse False
+INSTANCE Material cart 02 10889 / 15421 reuse False
+INSTANCE Material cart 01 6409 / 7887 reuse True
+EXTRACTION COMPLETE 33 conflicts 13376

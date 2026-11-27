@@ -1,0 +1,12 @@
+{
+  "command": [
+    "../saga_relags_v1/envs/saga/bin/python",
+    "-u",
+    "src/compare_extraction.py"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+  "gpu": "1",
+  "start_utc": "20261126T160742959753Z",
+  "stage": "A_bounded_comparison",
+  "pid": 835142
+}

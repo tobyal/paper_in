@@ -1,0 +1,115 @@
+REFERENCE VIEWS Assembly fixture table 01 4 ['frame_000336', 'frame_000229', 'frame_000195', 'virtual_guided_obj_8429bc5f3c33_007']
+REFERENCE VIEWS Multi-tier rack 05 5 ['frame_000301', 'virtual_free_obj_485ade540e7d_024', 'virtual_free_obj_485ade540e7d_023', 'frame_000282', 'frame_000314']
+REFERENCE VIEWS Multi-tier rack 02 3 ['frame_000205', 'frame_000206', 'frame_000207']
+REFERENCE VIEWS Multi-tier rack 08 2 ['frame_000295', 'frame_000296']
+REFERENCE VIEWS Multi-tier rack 04 5 ['virtual_free_obj_5bfd32389355_013', 'virtual_guided_obj_5bfd32389355_005', 'frame_000270', 'frame_000168', 'frame_000202']
+REFERENCE VIEWS Blue bin group 01 3 ['frame_000203', 'frame_000330', 'frame_000208']
+REFERENCE VIEWS Blue bin group 02 3 ['frame_000285', 'frame_000144', 'frame_000122']
+REFERENCE VIEWS Portable upright air cooler 02 3 ['frame_000331', 'frame_000269', 'frame_000015']
+REFERENCE VIEWS Workbench 01 3 ['frame_000015', 'frame_000007', 'frame_000229']
+REFERENCE VIEWS Fixture table with black workpiece 03 4 ['frame_000166', 'frame_000312', 'frame_000280', 'virtual_guided_obj_8528f4bf8a3d_008']
+REFERENCE VIEWS Fixture table with black workpiece 04 5 ['virtual_free_obj_8e79bd39b8b9_021', 'virtual_guided_obj_8e79bd39b8b9_005', 'frame_000306', 'frame_000302', 'frame_000058']
+REFERENCE VIEWS Fixture table with black workpiece 05 3 ['frame_000087', 'frame_000286', 'frame_000095']
+REFERENCE VIEWS Multi-tier rack 01 3 ['frame_000221', 'frame_000206', 'frame_000220']
+REFERENCE VIEWS Blue bin group 03 3 ['frame_000290', 'frame_000155', 'frame_000058']
+REFERENCE VIEWS Multi-tier rack 06 4 ['frame_000301', 'virtual_free_obj_06d9693cfb0a_015', 'frame_000307', 'frame_000304']
+REFERENCE VIEWS Compartment rack 02 5 ['virtual_guided_obj_c7c9293c6c6d_008', 'frame_000302', 'frame_000304', 'frame_000066', 'virtual_free_obj_c7c9293c6c6d_023']
+REFERENCE VIEWS Compartment rack 01 4 ['virtual_guided_obj_5746b7e7d040_011', 'frame_000301', 'frame_000157', 'frame_000303']
+REFERENCE VIEWS Multi-tier rack 09 5 ['virtual_free_obj_933bd7d6e703_016', 'frame_000295', 'frame_000128', 'virtual_free_obj_933bd7d6e703_017', 'frame_000101']
+REFERENCE VIEWS Material cart 06 4 ['virtual_free_obj_4fd05384c476_016', 'frame_000114', 'frame_000298', 'frame_000091']
+REFERENCE VIEWS Multi-tier rack 07 4 ['virtual_free_obj_dee5bef52687_019', 'frame_000299', 'frame_000085', 'frame_000122']
+REFERENCE VIEWS Material cart 05 3 ['frame_000317', 'frame_000311', 'frame_000123']
+REFERENCE VIEWS Material cart 04 3 ['frame_000055', 'frame_000054', 'frame_000056']
+REFERENCE VIEWS Workbench 02 5 ['virtual_free_obj_df0a6cc33263_014', 'frame_000173', 'frame_000181', 'virtual_guided_obj_df0a6cc33263_011', 'frame_000176']
+REFERENCE VIEWS Material cart 02 5 ['virtual_guided_obj_c0162cd69680_007', 'virtual_free_obj_c0162cd69680_013', 'frame_000182', 'frame_000180', 'frame_000181']
+FRESH PROMPT Assembly fixture table 01 frame_000336 accepted True points 7
+FRESH PROMPT Assembly fixture table 01 frame_000229 accepted True points 7
+FRESH PROMPT Workbench 01 frame_000229 accepted True points 7
+FRESH PROMPT Assembly fixture table 01 frame_000195 accepted True points 7
+FRESH PROMPT Assembly fixture table 01 virtual_guided_obj_8429bc5f3c33_007 accepted False points 0
+FRESH PROMPT Multi-tier rack 05 frame_000301 accepted True points 7
+FRESH PROMPT Multi-tier rack 06 frame_000301 accepted True points 6
+FRESH PROMPT Compartment rack 01 frame_000301 accepted True points 7
+FRESH PROMPT Multi-tier rack 05 virtual_free_obj_485ade540e7d_024 accepted True points 7
+FRESH PROMPT Multi-tier rack 05 virtual_free_obj_485ade540e7d_023 accepted True points 7
+FRESH PROMPT Multi-tier rack 05 frame_000282 accepted True points 7
+FRESH PROMPT Multi-tier rack 05 frame_000314 accepted True points 5
+FRESH PROMPT Multi-tier rack 02 frame_000205 accepted False points 0
+FRESH PROMPT Multi-tier rack 02 frame_000206 accepted False points 0
+FRESH PROMPT Multi-tier rack 01 frame_000206 accepted False points 0
+FRESH PROMPT Multi-tier rack 02 frame_000207 accepted False points 0
+FRESH PROMPT Multi-tier rack 08 frame_000295 accepted True points 7
+FRESH PROMPT Multi-tier rack 09 frame_000295 accepted True points 7
+FRESH PROMPT Multi-tier rack 08 frame_000296 accepted True points 7
+FRESH PROMPT Multi-tier rack 04 virtual_free_obj_5bfd32389355_013 accepted True points 7
+FRESH PROMPT Multi-tier rack 04 virtual_guided_obj_5bfd32389355_005 accepted True points 7
+FRESH PROMPT Multi-tier rack 04 frame_000270 accepted True points 7
+FRESH PROMPT Multi-tier rack 04 frame_000168 accepted True points 6
+FRESH PROMPT Multi-tier rack 04 frame_000202 accepted True points 6
+FRESH PROMPT Blue bin group 01 frame_000203 accepted True points 7
+FRESH PROMPT Blue bin group 01 frame_000330 accepted True points 6
+FRESH PROMPT Blue bin group 01 frame_000208 accepted True points 6
+FRESH PROMPT Blue bin group 02 frame_000285 accepted True points 7
+FRESH PROMPT Blue bin group 02 frame_000144 accepted True points 6
+FRESH PROMPT Blue bin group 02 frame_000122 accepted False points 0
+FRESH PROMPT Multi-tier rack 07 frame_000122 accepted True points 5
+FRESH PROMPT Portable upright air cooler 02 frame_000331 accepted True points 6
+FRESH PROMPT Portable upright air cooler 02 frame_000269 accepted True points 6
+FRESH PROMPT Portable upright air cooler 02 frame_000015 accepted True points 6
+FRESH PROMPT Workbench 01 frame_000015 accepted True points 7
+FRESH PROMPT Workbench 01 frame_000007 accepted True points 7
+FRESH PROMPT Fixture table with black workpiece 03 frame_000166 accepted True points 7
+FRESH PROMPT Fixture table with black workpiece 03 frame_000312 accepted True points 7
+FRESH PROMPT Fixture table with black workpiece 03 frame_000280 accepted True points 7
+FRESH PROMPT Fixture table with black workpiece 03 virtual_guided_obj_8528f4bf8a3d_008 accepted False points 0
+FRESH PROMPT Fixture table with black workpiece 04 virtual_free_obj_8e79bd39b8b9_021 accepted True points 7
+FRESH PROMPT Fixture table with black workpiece 04 virtual_guided_obj_8e79bd39b8b9_005 accepted True points 7
+FRESH PROMPT Fixture table with black workpiece 04 frame_000306 accepted False points 0
+FRESH PROMPT Fixture table with black workpiece 04 frame_000302 accepted True points 7
+FRESH PROMPT Compartment rack 02 frame_000302 accepted True points 7
+FRESH PROMPT Fixture table with black workpiece 04 frame_000058 accepted True points 4
+FRESH PROMPT Blue bin group 03 frame_000058 accepted False points 0
+FRESH PROMPT Fixture table with black workpiece 05 frame_000087 accepted True points 7
+FRESH PROMPT Fixture table with black workpiece 05 frame_000286 accepted True points 7
+FRESH PROMPT Fixture table with black workpiece 05 frame_000095 accepted True points 7
+FRESH PROMPT Multi-tier rack 01 frame_000221 accepted True points 6
+FRESH PROMPT Multi-tier rack 01 frame_000220 accepted True points 7
+FRESH PROMPT Blue bin group 03 frame_000290 accepted True points 7
+FRESH PROMPT Blue bin group 03 frame_000155 accepted True points 6
+FRESH PROMPT Multi-tier rack 06 virtual_free_obj_06d9693cfb0a_015 accepted False points 0
+FRESH PROMPT Multi-tier rack 06 frame_000307 accepted True points 7
+FRESH PROMPT Multi-tier rack 06 frame_000304 accepted True points 6
+FRESH PROMPT Compartment rack 02 frame_000304 accepted True points 7
+FRESH PROMPT Compartment rack 02 virtual_guided_obj_c7c9293c6c6d_008 accepted True points 7
+FRESH PROMPT Compartment rack 02 frame_000066 accepted True points 7
+FRESH PROMPT Compartment rack 02 virtual_free_obj_c7c9293c6c6d_023 accepted True points 6
+FRESH PROMPT Compartment rack 01 virtual_guided_obj_5746b7e7d040_011 accepted True points 7
+FRESH PROMPT Compartment rack 01 frame_000157 accepted True points 6
+FRESH PROMPT Compartment rack 01 frame_000303 accepted True points 6
+FRESH PROMPT Multi-tier rack 09 virtual_free_obj_933bd7d6e703_016 accepted True points 7
+FRESH PROMPT Multi-tier rack 09 frame_000128 accepted True points 7
+FRESH PROMPT Multi-tier rack 09 virtual_free_obj_933bd7d6e703_017 accepted True points 7
+FRESH PROMPT Multi-tier rack 09 frame_000101 accepted True points 6
+FRESH PROMPT Material cart 06 virtual_free_obj_4fd05384c476_016 accepted True points 7
+FRESH PROMPT Material cart 06 frame_000114 accepted True points 7
+FRESH PROMPT Material cart 06 frame_000298 accepted True points 7
+FRESH PROMPT Material cart 06 frame_000091 accepted True points 5
+FRESH PROMPT Multi-tier rack 07 virtual_free_obj_dee5bef52687_019 accepted True points 6
+FRESH PROMPT Multi-tier rack 07 frame_000299 accepted True points 6
+FRESH PROMPT Multi-tier rack 07 frame_000085 accepted True points 7
+FRESH PROMPT Material cart 05 frame_000317 accepted True points 6
+FRESH PROMPT Material cart 05 frame_000311 accepted True points 7
+FRESH PROMPT Material cart 05 frame_000123 accepted True points 7
+FRESH PROMPT Material cart 04 frame_000055 accepted True points 4
+FRESH PROMPT Material cart 04 frame_000054 accepted True points 5
+FRESH PROMPT Material cart 04 frame_000056 accepted True points 7
+FRESH PROMPT Workbench 02 virtual_free_obj_df0a6cc33263_014 accepted True points 7
+FRESH PROMPT Workbench 02 frame_000173 accepted True points 7
+FRESH PROMPT Workbench 02 frame_000181 accepted True points 7
+FRESH PROMPT Material cart 02 frame_000181 accepted True points 7
+FRESH PROMPT Workbench 02 virtual_guided_obj_df0a6cc33263_011 accepted True points 7
+FRESH PROMPT Workbench 02 frame_000176 accepted True points 7
+FRESH PROMPT Material cart 02 virtual_guided_obj_c0162cd69680_007 accepted True points 7
+FRESH PROMPT Material cart 02 virtual_free_obj_c0162cd69680_013 accepted True points 7
+FRESH PROMPT Material cart 02 frame_000182 accepted True points 7
+FRESH PROMPT Material cart 02 frame_000180 accepted True points 7

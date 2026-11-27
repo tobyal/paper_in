@@ -1,0 +1,92 @@
+[
+  {
+    "object_id": "obj_d058f708eb01",
+    "reused_v1": true,
+    "same_original_ids": true,
+    "v1_count": 20186,
+    "v2_count": 20186,
+    "removed": 0,
+    "added": 0
+  },
+  {
+    "object_id": "obj_09a35ba03c92",
+    "reused_v1": true,
+    "same_original_ids": true,
+    "v1_count": 16536,
+    "v2_count": 16536,
+    "removed": 0,
+    "added": 0
+  },
+  {
+    "object_id": "obj_ad85774e5f18",
+    "reused_v1": true,
+    "same_original_ids": true,
+    "v1_count": 11956,
+    "v2_count": 11956,
+    "removed": 0,
+    "added": 0
+  },
+  {
+    "object_id": "obj_c812ae8b15bd",
+    "reused_v1": true,
+    "same_original_ids": true,
+    "v1_count": 17755,
+    "v2_count": 17755,
+    "removed": 0,
+    "added": 0
+  },
+  {
+    "object_id": "obj_f9a0e863e32d",
+    "reused_v1": true,
+    "same_original_ids": true,
+    "v1_count": 27176,
+    "v2_count": 27176,
+    "removed": 0,
+    "added": 0
+  },
+  {
+    "object_id": "obj_5bfd32389355",
+    "reused_v1": false,
+    "same_original_ids": false,
+    "v1_count": 29926,
+    "v2_count": 25750,
+    "removed": 4550,
+    "added": 374
+  },
+  {
+    "object_id": "obj_04c477562e49",
+    "reused_v1": true,
+    "same_original_ids": true,
+    "v1_count": 9442,
+    "v2_count": 9442,
+    "removed": 0,
+    "added": 0
+  },
+  {
+    "object_id": "obj_b8542dc54ed2",
+    "reused_v1": true,
+    "same_original_ids": true,
+    "v1_count": 25553,
+    "v2_count": 25553,
+    "removed": 0,
+    "added": 0
+  },
+  {
+    "object_id": "obj_c57876bf22ca",
+    "reused_v1": true,
+    "same_original_ids": true,
+    "v1_count": 7093,
+    "v2_count": 7093,
+    "removed": 0,
+    "added": 0
+  },
+  {
+    "object_id": "obj_57b0f30bdd9e",
+    "reused_v1": true,
+    "same_original_ids": true,
+    "v1_count": 6409,
+    "v2_count": 6409,
+    "removed": 0,
+    "added": 0
+  }
+]

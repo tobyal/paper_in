@@ -1,0 +1,1193 @@
+{
+  "source_root": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+  "files": [
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/AGENTS.md",
+      "destination": "experiments/saga_relags_v2/AGENTS.md",
+      "bytes": 1031,
+      "sha256": "41abd1977b37305e20dc9c0f9d78dad69116a06a34273cabd08702db79a5efb8",
+      "purpose": "experiment documentation",
+      "published_sha256": "41abd1977b37305e20dc9c0f9d78dad69116a06a34273cabd08702db79a5efb8",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/README.md",
+      "destination": "experiments/saga_relags_v2/README.md",
+      "bytes": 4414,
+      "sha256": "6f9a9d597bc56d924e099587663dd2a36dc170c4f45d525ae2b06c5495ad351c",
+      "purpose": "experiment documentation",
+      "published_sha256": "00745887061dcd45e43ec5748981b18a563b0ddae046bb395d47b26223ac13fe",
+      "publication_edited": true
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/EXPERIMENT_REPORT.md",
+      "destination": "experiments/saga_relags_v2/EXPERIMENT_REPORT.md",
+      "bytes": 21574,
+      "sha256": "24bd00d3d103cd8c1ff92819af68c138c0c3857d508cc559957a478de1f9c983",
+      "purpose": "experiment documentation",
+      "published_sha256": "b98ef25df5f2a5a70020a70689ce79a79cd21d0a8fe616016bf173205401dc51",
+      "publication_edited": true
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/MODIFICATION_REPORT.md",
+      "destination": "experiments/saga_relags_v2/MODIFICATION_REPORT.md",
+      "bytes": 2498,
+      "sha256": "c785f5befe0652e0d4448ae7fb705bf0cbf545eac9e356ecfaa7d31dbb986ef6",
+      "purpose": "experiment documentation",
+      "published_sha256": "c785f5befe0652e0d4448ae7fb705bf0cbf545eac9e356ecfaa7d31dbb986ef6",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/src/build_world_model.py",
+      "destination": "experiments/saga_relags_v2/src/build_world_model.py",
+      "bytes": 9989,
+      "sha256": "40815eb2151c0a8f84ec2479f0d3fac93627c1c24cdfc24a2f3b8caa9a1c98cc",
+      "purpose": "source or configuration",
+      "published_sha256": "40815eb2151c0a8f84ec2479f0d3fac93627c1c24cdfc24a2f3b8caa9a1c98cc",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/src/common.py",
+      "destination": "experiments/saga_relags_v2/src/common.py",
+      "bytes": 2093,
+      "sha256": "e890330e349a1a51e8789fb7d406dda173d787b00329a177d115c2b6ad99df4f",
+      "purpose": "source or configuration",
+      "published_sha256": "e890330e349a1a51e8789fb7d406dda173d787b00329a177d115c2b6ad99df4f",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/src/compare_extraction.py",
+      "destination": "experiments/saga_relags_v2/src/compare_extraction.py",
+      "bytes": 2647,
+      "sha256": "bd9ab7ac023cf3fa84d1db27ecd608d131610befa16676d6ffd852eb799809c1",
+      "purpose": "source or configuration",
+      "published_sha256": "bd9ab7ac023cf3fa84d1db27ecd608d131610befa16676d6ffd852eb799809c1",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/src/extract_instances.py",
+      "destination": "experiments/saga_relags_v2/src/extract_instances.py",
+      "bytes": 8541,
+      "sha256": "6f03bad53b291b890af5103677579b916961af8513b71b08e8c8ccad8c8836cb",
+      "purpose": "source or configuration",
+      "published_sha256": "6f03bad53b291b890af5103677579b916961af8513b71b08e8c8ccad8c8836cb",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/src/final_visualizations.py",
+      "destination": "experiments/saga_relags_v2/src/final_visualizations.py",
+      "bytes": 15001,
+      "sha256": "89d3b14785d2169defc19f5766ae973237a54ded9904a80b0d56785d914e6f7e",
+      "purpose": "source or configuration",
+      "published_sha256": "89d3b14785d2169defc19f5766ae973237a54ded9904a80b0d56785d914e6f7e",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/src/inspect_instances.py",
+      "destination": "experiments/saga_relags_v2/src/inspect_instances.py",
+      "bytes": 5356,
+      "sha256": "fcda3c06b13988d2327117041e5429ae07bca12bca13f6e15e291be7acd819f9",
+      "purpose": "source or configuration",
+      "published_sha256": "fcda3c06b13988d2327117041e5429ae07bca12bca13f6e15e291be7acd819f9",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/src/prepare_references.py",
+      "destination": "experiments/saga_relags_v2/src/prepare_references.py",
+      "bytes": 9113,
+      "sha256": "0715ff1018e2990fbc2078c181699a3ddb4eb4acdae8c4c12f283bdb9a52ce6c",
+      "purpose": "source or configuration",
+      "published_sha256": "0715ff1018e2990fbc2078c181699a3ddb4eb4acdae8c4c12f283bdb9a52ce6c",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/src/query_engine.py",
+      "destination": "experiments/saga_relags_v2/src/query_engine.py",
+      "bytes": 8694,
+      "sha256": "9261c9ccef8a95b78f0589fbdaf5ce8df5c81f1da9ad4c5446bf131e0d9c5ba9",
+      "purpose": "source or configuration",
+      "published_sha256": "9261c9ccef8a95b78f0589fbdaf5ce8df5c81f1da9ad4c5446bf131e0d9c5ba9",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/src/test_queries.py",
+      "destination": "experiments/saga_relags_v2/src/test_queries.py",
+      "bytes": 7026,
+      "sha256": "54dae7bc4fc6225fadead9cae68dab4a440abb137c3c264096227d15f3e48aa6",
+      "purpose": "source or configuration",
+      "published_sha256": "54dae7bc4fc6225fadead9cae68dab4a440abb137c3c264096227d15f3e48aa6",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/scripts/curate_gallery.py",
+      "destination": "experiments/saga_relags_v2/scripts/curate_gallery.py",
+      "bytes": 1780,
+      "sha256": "22ebdecba6202c6cdcc7c3e2d1a96dbdea634d937de8940169c3a0a4731b9f5d",
+      "purpose": "source or configuration",
+      "published_sha256": "22ebdecba6202c6cdcc7c3e2d1a96dbdea634d937de8940169c3a0a4731b9f5d",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/scripts/export_review_bundle.py",
+      "destination": "experiments/saga_relags_v2/scripts/export_review_bundle.py",
+      "bytes": 790,
+      "sha256": "c4c6c6a5b24599340cab0b51118940887326015d641377539f4fbfcd008398cc",
+      "purpose": "source or configuration",
+      "published_sha256": "c4c6c6a5b24599340cab0b51118940887326015d641377539f4fbfcd008398cc",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/scripts/freeze_instances.py",
+      "destination": "experiments/saga_relags_v2/scripts/freeze_instances.py",
+      "bytes": 2578,
+      "sha256": "026c13d6c0bdf6fd2ca62fe37341bc4ebde63aa016ae5a55ee988810cac962e9",
+      "purpose": "source or configuration",
+      "published_sha256": "026c13d6c0bdf6fd2ca62fe37341bc4ebde63aa016ae5a55ee988810cac962e9",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/scripts/initialize.py",
+      "destination": "experiments/saga_relags_v2/scripts/initialize.py",
+      "bytes": 3190,
+      "sha256": "a4c2d45e37c18a089f2db9a550cf1b3b133c257ba85d174140cfc56d378aa944",
+      "purpose": "source or configuration",
+      "published_sha256": "a4c2d45e37c18a089f2db9a550cf1b3b133c257ba85d174140cfc56d378aa944",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/scripts/refine_prompts.py",
+      "destination": "experiments/saga_relags_v2/scripts/refine_prompts.py",
+      "bytes": 2995,
+      "sha256": "3aca868c941ec5fe52299032ba7501b56dffc15c18803a8a431d7ef3b09567bc",
+      "purpose": "source or configuration",
+      "published_sha256": "3aca868c941ec5fe52299032ba7501b56dffc15c18803a8a431d7ef3b09567bc",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/scripts/run_command.py",
+      "destination": "experiments/saga_relags_v2/scripts/run_command.py",
+      "bytes": 2577,
+      "sha256": "d348595995be4e0a8dcfcc5aa43b0ec10f0f53ab718e48fb8e3f30993253ea48",
+      "purpose": "source or configuration",
+      "published_sha256": "d348595995be4e0a8dcfcc5aa43b0ec10f0f53ab718e48fb8e3f30993253ea48",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/scripts/validate_final.py",
+      "destination": "experiments/saga_relags_v2/scripts/validate_final.py",
+      "bytes": 5153,
+      "sha256": "6252a6b8c7f15c05ddd69f04abe4563a654e5e05e25eb419d795a46b13f99e1d",
+      "purpose": "source or configuration",
+      "published_sha256": "6252a6b8c7f15c05ddd69f04abe4563a654e5e05e25eb419d795a46b13f99e1d",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/scripts/write_reports.py",
+      "destination": "experiments/saga_relags_v2/scripts/write_reports.py",
+      "bytes": 25638,
+      "sha256": "daf74b27b683bcc8d5a5a94d9b3a1f8d85055ca44fe1704d5941a339a0cee35c",
+      "purpose": "source or configuration",
+      "published_sha256": "daf74b27b683bcc8d5a5a94d9b3a1f8d85055ca44fe1704d5941a339a0cee35c",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/configs/experiment.json",
+      "destination": "experiments/saga_relags_v2/configs/experiment.json",
+      "bytes": 660,
+      "sha256": "41abce7226bfd44ca8cc1ee328c993ff80cb8bf26020e66af4ef462fb82209db",
+      "purpose": "source or configuration",
+      "published_sha256": "41abce7226bfd44ca8cc1ee328c993ff80cb8bf26020e66af4ef462fb82209db",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/configs/quality_review.json",
+      "destination": "experiments/saga_relags_v2/configs/quality_review.json",
+      "bytes": 9322,
+      "sha256": "bd10b8d8c9cce1bd9ed9fbf4be87dd0afa7c910c28200f8d8b94ed511315de84",
+      "purpose": "source or configuration",
+      "published_sha256": "bd10b8d8c9cce1bd9ed9fbf4be87dd0afa7c910c28200f8d8b94ed511315de84",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/configs/refinement.json",
+      "destination": "experiments/saga_relags_v2/configs/refinement.json",
+      "bytes": 1520,
+      "sha256": "3f546ce1727fb60f1bdac1044cf4c920b143f6b9fd222f47f1d233809c24dfef",
+      "purpose": "source or configuration",
+      "published_sha256": "3f546ce1727fb60f1bdac1044cf4c920b143f6b9fd222f47f1d233809c24dfef",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/GALLERY.md",
+      "destination": "experiments/saga_relags_v2/docs/GALLERY.md",
+      "bytes": 2884,
+      "sha256": "10fd4d2994ac8e8cc3f609ed1f358391cb559247a6b78a3273a96bbe9f8ef7e4",
+      "purpose": "source or configuration",
+      "published_sha256": "10fd4d2994ac8e8cc3f609ed1f358391cb559247a6b78a3273a96bbe9f8ef7e4",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/IMPLEMENTATION_NOTES.md",
+      "destination": "experiments/saga_relags_v2/docs/IMPLEMENTATION_NOTES.md",
+      "bytes": 1292,
+      "sha256": "9e10d79036cdfc06fbd5fb0c8fc25803fc2f1b7f6e08f8ba43bef20745180c0a",
+      "purpose": "source or configuration",
+      "published_sha256": "9e10d79036cdfc06fbd5fb0c8fc25803fc2f1b7f6e08f8ba43bef20745180c0a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/USER_REQUEST.md",
+      "destination": "experiments/saga_relags_v2/docs/USER_REQUEST.md",
+      "bytes": 37922,
+      "sha256": "8207894eb2cc7a06702657a4cb34dc2b05b50aa86e5a8228a2a3da807bc7584a",
+      "purpose": "source or configuration",
+      "published_sha256": "8207894eb2cc7a06702657a4cb34dc2b05b50aa86e5a8228a2a3da807bc7584a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/all_33_compact.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/all_33_compact.jpg",
+      "bytes": 343712,
+      "sha256": "cbe9045758876394807dc3ede461d2a3cbeeee47d04435f1fca59d2009491b75",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "cbe9045758876394807dc3ede461d2a3cbeeee47d04435f1fca59d2009491b75",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/all_33_instances.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/all_33_instances.jpg",
+      "bytes": 255419,
+      "sha256": "f95733b0d6ad441701c77394279d6b6bfb3296f5754d7016a36e69fc4f08bacb",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "f95733b0d6ad441701c77394279d6b6bfb3296f5754d7016a36e69fc4f08bacb",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/category_01.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/category_01.jpg",
+      "bytes": 516803,
+      "sha256": "604d73e1a8907f9b1b079b4141edec5c6b75c28f0dce5e6521d422c9d818adc4",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "604d73e1a8907f9b1b079b4141edec5c6b75c28f0dce5e6521d422c9d818adc4",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/category_02.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/category_02.jpg",
+      "bytes": 273131,
+      "sha256": "98446b2718645f21a5cff8354882a7c69ef5c9f374a3fac949785530a8b423a8",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "98446b2718645f21a5cff8354882a7c69ef5c9f374a3fac949785530a8b423a8",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/category_03.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/category_03.jpg",
+      "bytes": 500228,
+      "sha256": "7b3c7f45ae1b30aad0d2283e4b5e3b408e4af55cf723dbabbc75203e3d09808b",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "7b3c7f45ae1b30aad0d2283e4b5e3b408e4af55cf723dbabbc75203e3d09808b",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/category_04.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/category_04.jpg",
+      "bytes": 855804,
+      "sha256": "14839e3f92322ca3b4c58412f5b3a82410b1f9844a90a65c2774c98442a4f179",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "14839e3f92322ca3b4c58412f5b3a82410b1f9844a90a65c2774c98442a4f179",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/category_05.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/category_05.jpg",
+      "bytes": 242154,
+      "sha256": "fa380cde39f482820432fee1930296923e1b08bae29ca91b1daf4da9abb77620",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "fa380cde39f482820432fee1930296923e1b08bae29ca91b1daf4da9abb77620",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/category_06.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/category_06.jpg",
+      "bytes": 233378,
+      "sha256": "fd68cbcc6057f7d478f6b0821329e18bf37bb46bf386a8ca677f9fa405ea9320",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "fd68cbcc6057f7d478f6b0821329e18bf37bb46bf386a8ca677f9fa405ea9320",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/category_07.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/category_07.jpg",
+      "bytes": 163610,
+      "sha256": "a22d1a206c76d2212b4099f45b8a4933de884cf7175b1cccee506c773528f0a8",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "a22d1a206c76d2212b4099f45b8a4933de884cf7175b1cccee506c773528f0a8",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/category_08.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/category_08.jpg",
+      "bytes": 181256,
+      "sha256": "e5d8c07901f8f4bb2d3012a8b0e577874754b9b1dfdd45fe43227372cc2930e1",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "e5d8c07901f8f4bb2d3012a8b0e577874754b9b1dfdd45fe43227372cc2930e1",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/full_scene_graph_01.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/full_scene_graph_01.jpg",
+      "bytes": 229194,
+      "sha256": "b0afef4844eb838d9a55e9c78405a7b390374a6d6c2bd77f33ca9e84a8be77bb",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "b0afef4844eb838d9a55e9c78405a7b390374a6d6c2bd77f33ca9e84a8be77bb",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/full_scene_graph_02.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/full_scene_graph_02.jpg",
+      "bytes": 234247,
+      "sha256": "9bbfde12f5919c0035e3055cca97c20388c4550da7e5cd802e8c98b86be21965",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "9bbfde12f5919c0035e3055cca97c20388c4550da7e5cd802e8c98b86be21965",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/industrial_top_plan.png",
+      "destination": "experiments/saga_relags_v2/docs/figures/industrial_top_plan.png",
+      "bytes": 160992,
+      "sha256": "2cdecf4589e786bc9f5cc4fe23a0b127af6890037cf0af11654abbdabe479a63",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "2cdecf4589e786bc9f5cc4fe23a0b127af6890037cf0af11654abbdabe479a63",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/instance_graph_compact.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/instance_graph_compact.jpg",
+      "bytes": 227091,
+      "sha256": "f11f7f8d92925602921920d0b0f8fb9361e13651f8634ca59ce9579214bb8048",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "f11f7f8d92925602921920d0b0f8fb9361e13651f8634ca59ce9579214bb8048",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/instance_graph_oblique.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/instance_graph_oblique.jpg",
+      "bytes": 248967,
+      "sha256": "337b55b6a8c2c56f05f907de9fcbf487bb13b7b7f8197a4f5b0d249692b7b717",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "337b55b6a8c2c56f05f907de9fcbf487bb13b7b7f8197a4f5b0d249692b7b717",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/instance_graph_top.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/instance_graph_top.jpg",
+      "bytes": 250526,
+      "sha256": "c15c461e2080523f47615557989c904639551ee58e8c37f5f4e5dacbb3002833",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "c15c461e2080523f47615557989c904639551ee58e8c37f5f4e5dacbb3002833",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/query_examples.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/query_examples.jpg",
+      "bytes": 450973,
+      "sha256": "9a91b5b0c3f8f636353852adcd5eb6d19e95f3a7f0dbe0e5c7b3ad07de87cd5f",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "9a91b5b0c3f8f636353852adcd5eb6d19e95f3a7f0dbe0e5c7b3ad07de87cd5f",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/query_gallery.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/query_gallery.jpg",
+      "bytes": 2024683,
+      "sha256": "669d2cb4c7afa6851b9640d41806297a7f2b91860a5276d9fcd82e2082982a27",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "669d2cb4c7afa6851b9640d41806297a7f2b91860a5276d9fcd82e2082982a27",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/docs/figures/v1_v2_comparison.jpg",
+      "destination": "experiments/saga_relags_v2/docs/figures/v1_v2_comparison.jpg",
+      "bytes": 224990,
+      "sha256": "14887db109e309980fb13c37958f0009df8a8e5881a66044cffda32df83c1ff9",
+      "purpose": "curated real experimental result figure",
+      "published_sha256": "14887db109e309980fb13c37958f0009df8a8e5881a66044cffda32df83c1ff9",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/inputs/provenance.json",
+      "destination": "experiments/saga_relags_v2/evidence/inputs/provenance.json",
+      "bytes": 1833,
+      "sha256": "85a322f10652bebcb25db19b63072289c05d5fb02afbb8ca20286c51ae44433f",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "85a322f10652bebcb25db19b63072289c05d5fb02afbb8ca20286c51ae44433f",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/final_summary.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/A/final_summary.json",
+      "bytes": 41060,
+      "sha256": "85b860010ac04af06be09597436bc63477ce7b644a6e62ca9722d60ffaf09c11",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "85b860010ac04af06be09597436bc63477ce7b644a6e62ca9722d60ffaf09c11",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/v1_comparison.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/A/v1_comparison.json",
+      "bytes": 1794,
+      "sha256": "a69bfd1ee2fa30f5eaae917459020a9c896171cef888c998f99bdac8f7a2131e",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "a69bfd1ee2fa30f5eaae917459020a9c896171cef888c998f99bdac8f7a2131e",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/frozen_manifest.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/A/frozen_manifest.json",
+      "bytes": 14841,
+      "sha256": "250444f4e72ec76fc157e42ce85799461780b97fb7edeb041ea96e6d46c5f708",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "250444f4e72ec76fc157e42ce85799461780b97fb7edeb041ea96e6d46c5f708",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/extractions/refined/conflicts.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/A/extractions/refined/conflicts.json",
+      "bytes": 5340,
+      "sha256": "61eabb79ab67afbb6e8cb96bbc4be10c7552c45ad41ca5e3c682f1203570f0ef",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "61eabb79ab67afbb6e8cb96bbc4be10c7552c45ad41ca5e3c682f1203570f0ef",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/A/bounded_comparison/statistics.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/A/bounded_comparison/statistics.json",
+      "bytes": 1536,
+      "sha256": "260ee457ece7f61a4a5d66119f92b733798cc2eb76bfb2fea2961bbfa13efe75",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "260ee457ece7f61a4a5d66119f92b733798cc2eb76bfb2fea2961bbfa13efe75",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/B/summary.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/B/summary.json",
+      "bytes": 213,
+      "sha256": "90889de74183f1d907de1d25b4f0bae68036911e01f033e90c98f0ec9e3eeacf",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "90889de74183f1d907de1d25b4f0bae68036911e01f033e90c98f0ec9e3eeacf",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/B/validation.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/B/validation.json",
+      "bytes": 400218,
+      "sha256": "092c9719114a57f8a93071325ae16dc2fcf809c26584bd1afb3188b99d50af63",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "092c9719114a57f8a93071325ae16dc2fcf809c26584bd1afb3188b99d50af63",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/B/categories.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/B/categories.json",
+      "bytes": 3590,
+      "sha256": "aca2b9c72c30eb20ee8a9d4a2e2400948512c3bff29ccbb984889276d409f83c",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "aca2b9c72c30eb20ee8a9d4a2e2400948512c3bff29ccbb984889276d409f83c",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/B/crop_comparisons.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/B/crop_comparisons.json",
+      "bytes": 21205,
+      "sha256": "1fbf29f81067f49e38d7e8a883f94f298bbd7b8e2ba5f5dd71b9c7a09eb6ce71",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "1fbf29f81067f49e38d7e8a883f94f298bbd7b8e2ba5f5dd71b9c7a09eb6ce71",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/C/validation.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/C/validation.json",
+      "bytes": 509,
+      "sha256": "5620fb360140658360fa5d08144beb625df41ffd0edc67f134b69ca57d3cf064",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "5620fb360140658360fa5d08144beb625df41ffd0edc67f134b69ca57d3cf064",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/C/scene_graph.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/C/scene_graph.json",
+      "bytes": 1169372,
+      "sha256": "6f1a2943ddaf61a8f69127351954001c30b21be84b34e0a7a4bd808fca94b342",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "6f1a2943ddaf61a8f69127351954001c30b21be84b34e0a7a4bd808fca94b342",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/D/tests.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/D/tests.json",
+      "bytes": 235273,
+      "sha256": "6a663ec36b051fe0fc9c11343eedefb6a32d7b68f439f1d2a7bf14dba366a27b",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "6a663ec36b051fe0fc9c11343eedefb6a32d7b68f439f1d2a7bf14dba366a27b",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/D/nearest_regressions.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/D/nearest_regressions.json",
+      "bytes": 10640,
+      "sha256": "0f585a7c3da743e322f7c5d47ad24aca4f348d27cbd3367fb35047d72cfacd93",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "0f585a7c3da743e322f7c5d47ad24aca4f348d27cbd3367fb35047d72cfacd93",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/D/summary.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/D/summary.json",
+      "bytes": 17293,
+      "sha256": "f0cc950a67e5a62975dcfbc65ebf85dd7072086117af964e03a78e8a9bf0a652",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "f0cc950a67e5a62975dcfbc65ebf85dd7072086117af964e03a78e8a9bf0a652",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/D/demonstration_queries.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/D/demonstration_queries.json",
+      "bytes": 621,
+      "sha256": "58842afe7a290db4a07e348ec9c0fa1ef191a7107bb127060997bf67447bbbe0",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "58842afe7a290db4a07e348ec9c0fa1ef191a7107bb127060997bf67447bbbe0",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/D/future_evaluation_protocol.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/D/future_evaluation_protocol.json",
+      "bytes": 1114,
+      "sha256": "42b9fe9d6f3fa3356e306a809ac9d69dbec24cda4bc5b686ac762b6e36fe375a",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "42b9fe9d6f3fa3356e306a809ac9d69dbec24cda4bc5b686ac762b6e36fe375a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/D/standalone_check.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/D/standalone_check.json",
+      "bytes": 3241,
+      "sha256": "2e5f0985f403775399dc9c57071d6554a78fdef88469629d23925e472b793d1f",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "2e5f0985f403775399dc9c57071d6554a78fdef88469629d23925e472b793d1f",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/validation/final_checks.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/validation/final_checks.json",
+      "bytes": 17605,
+      "sha256": "6c121f57608fb61bb42ec4077e03baf8e5ac3656b111c621daa1a842e44e2a81",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "6c121f57608fb61bb42ec4077e03baf8e5ac3656b111c621daa1a842e44e2a81",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/outputs/validation/runtime_complete.json",
+      "destination": "experiments/saga_relags_v2/evidence/outputs/validation/runtime_complete.json",
+      "bytes": 7882,
+      "sha256": "65cc313418af0c882974502c334178f81ef65e64414ddfeb224e1db7822d3cab",
+      "purpose": "small measured result or validation evidence",
+      "published_sha256": "65cc313418af0c882974502c334178f81ef65e64414ddfeb224e1db7822d3cab",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_bounded_comparison/20261126T160742959753Z/command.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_bounded_comparison/20261126T160742959753Z/command.json",
+      "bytes": 293,
+      "sha256": "2ab78b96725057ec3215ad8eddb72473657b60f57e0ee1e3c98923966b5eef43",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "2ab78b96725057ec3215ad8eddb72473657b60f57e0ee1e3c98923966b5eef43",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_bounded_comparison/20261126T160742959753Z/result.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_bounded_comparison/20261126T160742959753Z/result.json",
+      "bytes": 368,
+      "sha256": "ae805034cc8101e0e1515b01d0b083353acfd63ba7e98cbf3da8ced09f2138fa",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "ae805034cc8101e0e1515b01d0b083353acfd63ba7e98cbf3da8ced09f2138fa",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_bounded_comparison/20261126T160742959753Z/run.log",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_bounded_comparison/20261126T160742959753Z/run.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_bounded_comparison/20261126T160742959753Z/gpu.csv",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_bounded_comparison/20261126T160742959753Z/gpu.csv",
+      "bytes": 139,
+      "sha256": "78a6f72b2cf99a9a6508e586a2c43877aa538cb17e854f78959dd8df988ee68f",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "78a6f72b2cf99a9a6508e586a2c43877aa538cb17e854f78959dd8df988ee68f",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_freeze/20261126T161006085400Z/command.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_freeze/20261126T161006085400Z/command.json",
+      "bytes": 273,
+      "sha256": "a6bef9e8a3aad4504097f35533676871932c9eb5fce96c245c81033e2823e475",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "a6bef9e8a3aad4504097f35533676871932c9eb5fce96c245c81033e2823e475",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_freeze/20261126T161006085400Z/result.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_freeze/20261126T161006085400Z/result.json",
+      "bytes": 349,
+      "sha256": "44735d221444f5e3d7ef16432ba7d9779a069e815bfecafaeebb2c0ad4ee4345",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "44735d221444f5e3d7ef16432ba7d9779a069e815bfecafaeebb2c0ad4ee4345",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_freeze/20261126T161006085400Z/run.log",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_freeze/20261126T161006085400Z/run.log",
+      "bytes": 77,
+      "sha256": "eef1d3d85463c3e15c21cf9fd8521c81ca25bf4ac4b4e4cc7fdc07bb056f2bee",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "eef1d3d85463c3e15c21cf9fd8521c81ca25bf4ac4b4e4cc7fdc07bb056f2bee",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_freeze/20261126T161006085400Z/gpu.csv",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_freeze/20261126T161006085400Z/gpu.csv",
+      "bytes": 94,
+      "sha256": "265386bc8c30f28c156529598ae0e34ca4e94942c3d0d97a76a9f0e4691cb538",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "265386bc8c30f28c156529598ae0e34ca4e94942c3d0d97a76a9f0e4691cb538",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_initial_extraction/20261126T160043831230Z/command.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_initial_extraction/20261126T160043831230Z/command.json",
+      "bytes": 320,
+      "sha256": "6b77470e282e2c8bced17b0c49e35714f6759aec99ceda0b338543724640121b",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "6b77470e282e2c8bced17b0c49e35714f6759aec99ceda0b338543724640121b",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_initial_extraction/20261126T160043831230Z/result.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_initial_extraction/20261126T160043831230Z/result.json",
+      "bytes": 396,
+      "sha256": "8188dd7d2cbd5e9858ebb915e443116b9e0e9be458490674ac945f6c4b7f546e",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "8188dd7d2cbd5e9858ebb915e443116b9e0e9be458490674ac945f6c4b7f546e",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_initial_extraction/20261126T160043831230Z/run.log",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_initial_extraction/20261126T160043831230Z/run.log",
+      "bytes": 1928,
+      "sha256": "608e5fed7246646a01a47d0fba90669afc1324eddb2807d220191753cdac41a7",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "608e5fed7246646a01a47d0fba90669afc1324eddb2807d220191753cdac41a7",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_initial_extraction/20261126T160043831230Z/gpu.csv",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_initial_extraction/20261126T160043831230Z/gpu.csv",
+      "bytes": 446,
+      "sha256": "79b54839be37aef114149e057259c6b8ca77ad78d35edb3d5a588765cc1731f1",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "79b54839be37aef114149e057259c6b8ca77ad78d35edb3d5a588765cc1731f1",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_initial_inspection/20261126T160158024111Z/command.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_initial_inspection/20261126T160158024111Z/command.json",
+      "bytes": 320,
+      "sha256": "29f24fdc270b59ec0b2fde0ab6bd3baab3aacc4d1eb80a5f2c66bc485ecc6523",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "29f24fdc270b59ec0b2fde0ab6bd3baab3aacc4d1eb80a5f2c66bc485ecc6523",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_initial_inspection/20261126T160158024111Z/result.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_initial_inspection/20261126T160158024111Z/result.json",
+      "bytes": 396,
+      "sha256": "2bff78810eccddb56c87bbb9911bf7a16d00835adb28c51e35463d6bda238e76",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "2bff78810eccddb56c87bbb9911bf7a16d00835adb28c51e35463d6bda238e76",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_initial_inspection/20261126T160158024111Z/run.log",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_initial_inspection/20261126T160158024111Z/run.log",
+      "bytes": 1207,
+      "sha256": "dbe206fb7273bb7c13179d9cda3be3a52fe8f27aa8d8507d3d901e6b582b2f83",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "dbe206fb7273bb7c13179d9cda3be3a52fe8f27aa8d8507d3d901e6b582b2f83",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_initial_inspection/20261126T160158024111Z/gpu.csv",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_initial_inspection/20261126T160158024111Z/gpu.csv",
+      "bytes": 182,
+      "sha256": "9d838b9a15b2cbf477645d3c0f68056d7335efba4e638642bb152e9bcf2f6e0e",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "9d838b9a15b2cbf477645d3c0f68056d7335efba4e638642bb152e9bcf2f6e0e",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_prompt_refinement/20261126T160539430906Z/command.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_prompt_refinement/20261126T160539430906Z/command.json",
+      "bytes": 282,
+      "sha256": "8ccf31dabbf69226dbd0963282fe2f7a024dd380494b06cabe43a60ac7eabaef",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "8ccf31dabbf69226dbd0963282fe2f7a024dd380494b06cabe43a60ac7eabaef",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_prompt_refinement/20261126T160539430906Z/result.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_prompt_refinement/20261126T160539430906Z/result.json",
+      "bytes": 357,
+      "sha256": "a139bd17684964579d343f6f20403c34033f3f68dad66cbaaf2e18f9307e6325",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "a139bd17684964579d343f6f20403c34033f3f68dad66cbaaf2e18f9307e6325",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_prompt_refinement/20261126T160539430906Z/run.log",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_prompt_refinement/20261126T160539430906Z/run.log",
+      "bytes": 1887,
+      "sha256": "638acab9439c602d01cabff9e567cc94687e78a81a7cd264cba722be57781c03",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "638acab9439c602d01cabff9e567cc94687e78a81a7cd264cba722be57781c03",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_prompt_refinement/20261126T160539430906Z/gpu.csv",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_prompt_refinement/20261126T160539430906Z/gpu.csv",
+      "bytes": 94,
+      "sha256": "16337a11f6c4e8270ac84ee9e741f49fc6d5882b0627db658f3930b60b6d1d79",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "16337a11f6c4e8270ac84ee9e741f49fc6d5882b0627db658f3930b60b6d1d79",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_references/20261126T155910538410Z/command.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_references/20261126T155910538410Z/command.json",
+      "bytes": 285,
+      "sha256": "0e29641781460420a37ccced575e639bfc754b4e5733678f39f5ea4500c10e6a",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "0e29641781460420a37ccced575e639bfc754b4e5733678f39f5ea4500c10e6a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_references/20261126T155910538410Z/result.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_references/20261126T155910538410Z/result.json",
+      "bytes": 359,
+      "sha256": "d6279fdebb5624346448b3385ff78d404c43f1a261832f8a4405eb3d18f5227b",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "d6279fdebb5624346448b3385ff78d404c43f1a261832f8a4405eb3d18f5227b",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_references/20261126T155910538410Z/run.log",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_references/20261126T155910538410Z/run.log",
+      "bytes": 9707,
+      "sha256": "3d7f9607fd24855ae54f4216dc57551ff6abfabb28ac2f257ed16909e4128e6d",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "3d7f9607fd24855ae54f4216dc57551ff6abfabb28ac2f257ed16909e4128e6d",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_references/20261126T155910538410Z/gpu.csv",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_references/20261126T155910538410Z/gpu.csv",
+      "bytes": 763,
+      "sha256": "0eadfea3c31f1a7a5dd6feac49b712521271f8afb228a725eaa93fdbf79782f0",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "0eadfea3c31f1a7a5dd6feac49b712521271f8afb228a725eaa93fdbf79782f0",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_refined_extraction/20261126T160539978478Z/command.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_refined_extraction/20261126T160539978478Z/command.json",
+      "bytes": 389,
+      "sha256": "30c8f985ae92e1c7fda270bac0f641acdc2068a57d9ac94b4e75fcab67f59271",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "30c8f985ae92e1c7fda270bac0f641acdc2068a57d9ac94b4e75fcab67f59271",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_refined_extraction/20261126T160539978478Z/result.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_refined_extraction/20261126T160539978478Z/result.json",
+      "bytes": 464,
+      "sha256": "03774c9fbd3e6d7e943214f833bc9e49febf0ec03edb6741044e231a014b366b",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "03774c9fbd3e6d7e943214f833bc9e49febf0ec03edb6741044e231a014b366b",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_refined_extraction/20261126T160539978478Z/run.log",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_refined_extraction/20261126T160539978478Z/run.log",
+      "bytes": 1932,
+      "sha256": "df3011bfcd302da1b2c60d681e400e3dfdbabe933a3d01bad63118d16ad14cd4",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "df3011bfcd302da1b2c60d681e400e3dfdbabe933a3d01bad63118d16ad14cd4",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_refined_extraction/20261126T160539978478Z/gpu.csv",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_refined_extraction/20261126T160539978478Z/gpu.csv",
+      "bytes": 138,
+      "sha256": "c9cb6f58d8867d90824ffe87f5c7524da2f89b61d20b6620431908e6d04cae40",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "c9cb6f58d8867d90824ffe87f5c7524da2f89b61d20b6620431908e6d04cae40",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_refined_inspection/20261126T160606598991Z/command.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_refined_inspection/20261126T160606598991Z/command.json",
+      "bytes": 320,
+      "sha256": "da2ec585afc3cf43f2bdc249c9819624530b0f14566bf865f209c76e4fb38e08",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "da2ec585afc3cf43f2bdc249c9819624530b0f14566bf865f209c76e4fb38e08",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_refined_inspection/20261126T160606598991Z/result.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_refined_inspection/20261126T160606598991Z/result.json",
+      "bytes": 395,
+      "sha256": "3c9c5a8cf59e45e44fd3f3693a9aa02ad4b2b934520d46abf4109d7db7b04f8b",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "3c9c5a8cf59e45e44fd3f3693a9aa02ad4b2b934520d46abf4109d7db7b04f8b",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_refined_inspection/20261126T160606598991Z/run.log",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_refined_inspection/20261126T160606598991Z/run.log",
+      "bytes": 1211,
+      "sha256": "f4a234b3c66ed75df738afaed30ab6e16277268d5a2223e592ec536847836a7e",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "f4a234b3c66ed75df738afaed30ab6e16277268d5a2223e592ec536847836a7e",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_refined_inspection/20261126T160606598991Z/gpu.csv",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_refined_inspection/20261126T160606598991Z/gpu.csv",
+      "bytes": 227,
+      "sha256": "42788318dbd1cf308e37c6c798508a0f79c8a7fffee5197f345dcd9481f82d82",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "42788318dbd1cf308e37c6c798508a0f79c8a7fffee5197f345dcd9481f82d82",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_scale_lower/20261126T160623075262Z/command.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_scale_lower/20261126T160623075262Z/command.json",
+      "bytes": 461,
+      "sha256": "cfa841f57ebd60b42f8a2171b5d3c9b269b24c1db347fa4569bce3b33653da46",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "cfa841f57ebd60b42f8a2171b5d3c9b269b24c1db347fa4569bce3b33653da46",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_scale_lower/20261126T160623075262Z/result.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_scale_lower/20261126T160623075262Z/result.json",
+      "bytes": 536,
+      "sha256": "1c1fbaa9bb3db68c8f381fab6f7ab45fa3cc2c3d51932f67e824f7189dbd1500",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "1c1fbaa9bb3db68c8f381fab6f7ab45fa3cc2c3d51932f67e824f7189dbd1500",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_scale_lower/20261126T160623075262Z/run.log",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_scale_lower/20261126T160623075262Z/run.log",
+      "bytes": 88,
+      "sha256": "ec6434465409c091f35ba2f4245be1237b4d33f90d41c2c1ae276cc2381e5b03",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "ec6434465409c091f35ba2f4245be1237b4d33f90d41c2c1ae276cc2381e5b03",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_scale_lower/20261126T160623075262Z/gpu.csv",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_scale_lower/20261126T160623075262Z/gpu.csv",
+      "bytes": 94,
+      "sha256": "636b21a3e7876bbc049589cfcefa3f605b5058ded9546b8ed3b3e07896e0bf0a",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "636b21a3e7876bbc049589cfcefa3f605b5058ded9546b8ed3b3e07896e0bf0a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_scale_upper/20261126T160628137499Z/command.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_scale_upper/20261126T160628137499Z/command.json",
+      "bytes": 460,
+      "sha256": "35eaaec2fab52499305eace1da3e4b7a4146f81691caa9a28ac247a95e7ebd2a",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "35eaaec2fab52499305eace1da3e4b7a4146f81691caa9a28ac247a95e7ebd2a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_scale_upper/20261126T160628137499Z/result.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_scale_upper/20261126T160628137499Z/result.json",
+      "bytes": 536,
+      "sha256": "3ca96e0758b2d5b53f0c1ec0ecfcc7438b1c8eacffe0773a34c0f7f85e165f5f",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "3ca96e0758b2d5b53f0c1ec0ecfcc7438b1c8eacffe0773a34c0f7f85e165f5f",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_scale_upper/20261126T160628137499Z/run.log",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_scale_upper/20261126T160628137499Z/run.log",
+      "bytes": 88,
+      "sha256": "f05acc6bc8e729130cb77ab3ef7164001b4f48614cb8d82d8cf48e8b6803843c",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "f05acc6bc8e729130cb77ab3ef7164001b4f48614cb8d82d8cf48e8b6803843c",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/A_scale_upper/20261126T160628137499Z/gpu.csv",
+      "destination": "experiments/saga_relags_v2/evidence/logs/A_scale_upper/20261126T160628137499Z/gpu.csv",
+      "bytes": 94,
+      "sha256": "a3a7354d02e8b7e8b657b50b6bd5ca6528bda8cd6ea69cb7093c4fd15b7b9a09",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "a3a7354d02e8b7e8b657b50b6bd5ca6528bda8cd6ea69cb7093c4fd15b7b9a09",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/BC_world_model/20261126T161433568461Z/command.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/BC_world_model/20261126T161433568461Z/command.json",
+      "bytes": 276,
+      "sha256": "ce58930ec6eac930282458345f59b12320df97212ebe3412201d0fb5be8f12d5",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "ce58930ec6eac930282458345f59b12320df97212ebe3412201d0fb5be8f12d5",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/BC_world_model/20261126T161433568461Z/result.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/BC_world_model/20261126T161433568461Z/result.json",
+      "bytes": 352,
+      "sha256": "0da73bce83a8b2f8dddd868343ca15fd3748af41093dc899a3e5b2a9735ec1be",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "0da73bce83a8b2f8dddd868343ca15fd3748af41093dc899a3e5b2a9735ec1be",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/BC_world_model/20261126T161433568461Z/run.log",
+      "destination": "experiments/saga_relags_v2/evidence/logs/BC_world_model/20261126T161433568461Z/run.log",
+      "bytes": 950,
+      "sha256": "879eb487c404909869bd68769a958e94eb6ad373623d74f0ccc034683e199624",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "879eb487c404909869bd68769a958e94eb6ad373623d74f0ccc034683e199624",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/BC_world_model/20261126T161433568461Z/gpu.csv",
+      "destination": "experiments/saga_relags_v2/evidence/logs/BC_world_model/20261126T161433568461Z/gpu.csv",
+      "bytes": 182,
+      "sha256": "ca7f6f6dca12abb97e709f3d57773d220b217c81119af29b2f13eb7758f66d8c",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "ca7f6f6dca12abb97e709f3d57773d220b217c81119af29b2f13eb7758f66d8c",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/D_regression/20261126T161602120962Z/command.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/D_regression/20261126T161602120962Z/command.json",
+      "bytes": 269,
+      "sha256": "34ed8876339f2f245551b47082385af60077d2723bc789e1a3f2e0f6475870f5",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "34ed8876339f2f245551b47082385af60077d2723bc789e1a3f2e0f6475870f5",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/D_regression/20261126T161602120962Z/result.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/D_regression/20261126T161602120962Z/result.json",
+      "bytes": 345,
+      "sha256": "3fa5b879e416698238094e071f02e9b33faed87b132deaa71553c104f94588a5",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "3fa5b879e416698238094e071f02e9b33faed87b132deaa71553c104f94588a5",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/D_regression/20261126T161602120962Z/run.log",
+      "destination": "experiments/saga_relags_v2/evidence/logs/D_regression/20261126T161602120962Z/run.log",
+      "bytes": 47,
+      "sha256": "986343392cb063dff816c00c89ca26f336b095d33567912ca5dd3f4801af6333",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "986343392cb063dff816c00c89ca26f336b095d33567912ca5dd3f4801af6333",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/D_regression/20261126T161602120962Z/gpu.csv",
+      "destination": "experiments/saga_relags_v2/evidence/logs/D_regression/20261126T161602120962Z/gpu.csv",
+      "bytes": 94,
+      "sha256": "a99060ec30cc949f857d4dde58e905cf2d46250e4d9aba20acf397b8a0891f68",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "a99060ec30cc949f857d4dde58e905cf2d46250e4d9aba20acf397b8a0891f68",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/compact_gallery/20261126T162417528900Z/command.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/compact_gallery/20261126T162417528900Z/command.json",
+      "bytes": 278,
+      "sha256": "0562c263ed5b944da65d84f0942a56b1fef0f756783ace3fb32fceaa3bb411e7",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "0562c263ed5b944da65d84f0942a56b1fef0f756783ace3fb32fceaa3bb411e7",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/compact_gallery/20261126T162417528900Z/result.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/compact_gallery/20261126T162417528900Z/result.json",
+      "bytes": 354,
+      "sha256": "86625e991184385f00780508a27cccfe06aadb877ebe4a898cc49018b4498071",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "86625e991184385f00780508a27cccfe06aadb877ebe4a898cc49018b4498071",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/compact_gallery/20261126T162417528900Z/run.log",
+      "destination": "experiments/saga_relags_v2/evidence/logs/compact_gallery/20261126T162417528900Z/run.log",
+      "bytes": 67,
+      "sha256": "efba76767fc7cbae9381d2849a64b23b3b4930e00abae6da3474057f6586431a",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "efba76767fc7cbae9381d2849a64b23b3b4930e00abae6da3474057f6586431a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/compact_gallery/20261126T162417528900Z/gpu.csv",
+      "destination": "experiments/saga_relags_v2/evidence/logs/compact_gallery/20261126T162417528900Z/gpu.csv",
+      "bytes": 94,
+      "sha256": "7b898a7ee428af20ef661d120a293e5eddb076332e47e9c7f5a897a4219b4ee4",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "7b898a7ee428af20ef661d120a293e5eddb076332e47e9c7f5a897a4219b4ee4",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/final_validation/20261126T161951113533Z/command.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/final_validation/20261126T161951113533Z/command.json",
+      "bytes": 279,
+      "sha256": "b9d30f21fc905e29ab8330c8b4f6b8ef20143f382a2122564180e78750aa6656",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "b9d30f21fc905e29ab8330c8b4f6b8ef20143f382a2122564180e78750aa6656",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/final_validation/20261126T161951113533Z/result.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/final_validation/20261126T161951113533Z/result.json",
+      "bytes": 354,
+      "sha256": "ddb383a5b4bedc15e87515615f281a304cb1ff952f462d40e5ef15437e7714e2",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "ddb383a5b4bedc15e87515615f281a304cb1ff952f462d40e5ef15437e7714e2",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/final_validation/20261126T161951113533Z/run.log",
+      "destination": "experiments/saga_relags_v2/evidence/logs/final_validation/20261126T161951113533Z/run.log",
+      "bytes": 405,
+      "sha256": "5fa6e4dded3f92616fc364f0473bfa152759f08f9cd073e7f44bfc4be422f8c3",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "5fa6e4dded3f92616fc364f0473bfa152759f08f9cd073e7f44bfc4be422f8c3",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/final_validation/20261126T161951113533Z/gpu.csv",
+      "destination": "experiments/saga_relags_v2/evidence/logs/final_validation/20261126T161951113533Z/gpu.csv",
+      "bytes": 138,
+      "sha256": "f3781288c66ed31d492a6bfd4410eec9881e31d947b8561149fd0acdf9785cb9",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "f3781288c66ed31d492a6bfd4410eec9881e31d947b8561149fd0acdf9785cb9",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/final_visualizations/20261126T161752108303Z/command.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/final_visualizations/20261126T161752108303Z/command.json",
+      "bytes": 285,
+      "sha256": "7b3764dcdefb7719d110cacec669a6c9f0580e980ed00075200db4b8a28b943a",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "7b3764dcdefb7719d110cacec669a6c9f0580e980ed00075200db4b8a28b943a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/final_visualizations/20261126T161752108303Z/result.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/final_visualizations/20261126T161752108303Z/result.json",
+      "bytes": 361,
+      "sha256": "54be34804382c1083b678b9c97d85534a4b98a8be39f15b19cecac4cb7ae8ba7",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "54be34804382c1083b678b9c97d85534a4b98a8be39f15b19cecac4cb7ae8ba7",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/final_visualizations/20261126T161752108303Z/run.log",
+      "destination": "experiments/saga_relags_v2/evidence/logs/final_visualizations/20261126T161752108303Z/run.log",
+      "bytes": 914,
+      "sha256": "2255dfa8f1f67a96822e7ff036f393d2d7f4d4b3efd6123b71b2f91096fde3fc",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "2255dfa8f1f67a96822e7ff036f393d2d7f4d4b3efd6123b71b2f91096fde3fc",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/final_visualizations/20261126T161752108303Z/gpu.csv",
+      "destination": "experiments/saga_relags_v2/evidence/logs/final_visualizations/20261126T161752108303Z/gpu.csv",
+      "bytes": 316,
+      "sha256": "a8ad6d0f054f776a7930dc4a669b0b0b844f9bc9f3637f0b1588454c4c093969",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "a8ad6d0f054f776a7930dc4a669b0b0b844f9bc9f3637f0b1588454c4c093969",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/initialize/20261126T155752955562Z/command.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/initialize/20261126T155752955562Z/command.json",
+      "bytes": 279,
+      "sha256": "89b2cd01c94ba16706f0d1cf8936a3eb53de8c5197ec8fe4fe10a6c5e7742324",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "89b2cd01c94ba16706f0d1cf8936a3eb53de8c5197ec8fe4fe10a6c5e7742324",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/initialize/20261126T155752955562Z/result.json",
+      "destination": "experiments/saga_relags_v2/evidence/logs/initialize/20261126T155752955562Z/result.json",
+      "bytes": 355,
+      "sha256": "a5d71b07e82b8ca805dd02c22ada0ea9b0792da23db6fbf2b85e999528a3cb4a",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "a5d71b07e82b8ca805dd02c22ada0ea9b0792da23db6fbf2b85e999528a3cb4a",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/initialize/20261126T155752955562Z/run.log",
+      "destination": "experiments/saga_relags_v2/evidence/logs/initialize/20261126T155752955562Z/run.log",
+      "bytes": 3471,
+      "sha256": "6b0574c37c4089e4cf414ffa3c033d0a24eb3042856a8a3244e1c80831668c96",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "6b0574c37c4089e4cf414ffa3c033d0a24eb3042856a8a3244e1c80831668c96",
+      "publication_edited": false
+    },
+    {
+      "source": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2/logs/initialize/20261126T155752955562Z/gpu.csv",
+      "destination": "experiments/saga_relags_v2/evidence/logs/initialize/20261126T155752955562Z/gpu.csv",
+      "bytes": 94,
+      "sha256": "c31a51796b22f89b3879e5cb3ac2cf3773eafad95d90ffefff5440300aa5ac72",
+      "purpose": "actual command, timing, log or sampled GPU evidence",
+      "published_sha256": "c31a51796b22f89b3879e5cb3ac2cf3773eafad95d90ffefff5440300aa5ac72",
+      "publication_edited": false
+    }
+  ],
+  "generated_publication_files": [
+    ".gitignore",
+    "PUBLICATION.md",
+    "PUBLICATION_MANIFEST.json"
+  ],
+  "source_files_readonly": true,
+  "excluded": [
+    "models",
+    "checkpoints",
+    "PLY",
+    "Gaussian index/feature/depth arrays",
+    "raw RGB datasets",
+    "environments",
+    "archives"
+  ],
+  "files_copied": 130,
+  "copied_bytes": 9807130,
+  "figures": 19
+}

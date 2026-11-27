@@ -1,0 +1,16 @@
+{
+  "command": [
+    "../saga_relags_v1/envs/saga/bin/python",
+    "-u",
+    "src/extract_instances.py",
+    "--tag",
+    "refined",
+    "--references",
+    "outputs/A/refinement_prompts/records.json"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+  "gpu": "0",
+  "start_utc": "20261126T160539978478Z",
+  "stage": "A_refined_extraction",
+  "pid": 829681
+}

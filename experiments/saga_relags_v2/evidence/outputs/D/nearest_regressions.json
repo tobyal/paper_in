@@ -1,0 +1,350 @@
+[
+  {
+    "name": "actual nearest unavailable regression",
+    "query": "距离装配夹具台 01最近的蓝色箱组",
+    "synthetic": false,
+    "passed": true,
+    "expected_ids": [
+      "obj_141f3e5dbe3a"
+    ],
+    "expected_status": "ok",
+    "result": {
+      "query": "距离装配夹具台 01最近的蓝色箱组",
+      "status": "ok",
+      "relation": "nearest_to",
+      "anchor_text": "装配夹具台 01",
+      "target_text": "蓝色箱组",
+      "matched_object_ids": [
+        "obj_141f3e5dbe3a"
+      ],
+      "objects": [
+        {
+          "object_id": "obj_141f3e5dbe3a",
+          "category_id": "category_05",
+          "name_zh": "蓝色箱组 01",
+          "name_en": "Blue bin group 01",
+          "bbox": {
+            "center": [
+              1.8982143136791598,
+              0.918864094880959,
+              0.340919773189663
+            ],
+            "size": [
+              1.1006855289669342,
+              1.112896034191583,
+              0.598160453620674
+            ],
+            "quaternion": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "reconstruction_status": "partially_reconstructed",
+          "extraction_status": "needs_improvement",
+          "quality_record": {
+            "note_zh": "只保留部分蓝箱表面，前方小架仍混入；原始重建、遮挡及跨材质亲和筛选共同影响。0.80/0.90比较未明显改善，常规精细查询停用。",
+            "diagnosis": "E",
+            "reviewer": "Codex visual inspection"
+          },
+          "fine_instance_available": false,
+          "gaussian_indices": null,
+          "location_source": "M0 r29",
+          "representation": "M0_location_only"
+        }
+      ],
+      "relation_evidence": [
+        {
+          "subject": "obj_141f3e5dbe3a",
+          "relation": "nearest_to",
+          "object": "obj_8429bc5f3c33",
+          "source": "industrial_geometry",
+          "evidence": {
+            "target_category": "category_05",
+            "center_distance": 2.3291732103588725,
+            "tie_tolerance": 1e-06,
+            "candidate_distances": [
+              {
+                "object_id": "obj_141f3e5dbe3a",
+                "distance": 2.3291732103588725
+              },
+              {
+                "object_id": "obj_3c963764ddb5",
+                "distance": 6.436326328699074
+              },
+              {
+                "object_id": "obj_7463bab859d0",
+                "distance": 6.710778142402667
+              }
+            ],
+            "units": "SfM relative units"
+          }
+        }
+      ],
+      "renderable_object_ids": [],
+      "unavailable_object_ids": [
+        "obj_141f3e5dbe3a"
+      ],
+      "segmentation_rerun": false,
+      "geometry_scope": "all M0 equipment nodes",
+      "reference_semantics": "union over explicitly listed matching anchors",
+      "target_match": {
+        "method": "category",
+        "status": "ok",
+        "category_match": {
+          "category_id": "category_05",
+          "method": "exact_known_alias",
+          "query": "蓝色箱组",
+          "abstained": false
+        }
+      },
+      "known_category_instances": [
+        "obj_141f3e5dbe3a",
+        "obj_3c963764ddb5",
+        "obj_7463bab859d0"
+      ],
+      "same_category_candidates_before": 3,
+      "anchor_match": {
+        "method": "exact_equipment_identity",
+        "status": "ok"
+      },
+      "anchor_object_ids": [
+        "obj_8429bc5f3c33"
+      ],
+      "matches_after": 1
+    }
+  },
+  {
+    "name": "actual nearest unavailable regression",
+    "query": "距离装配夹具台 02最近的蓝色箱组",
+    "synthetic": false,
+    "passed": true,
+    "expected_ids": [
+      "obj_141f3e5dbe3a"
+    ],
+    "expected_status": "ok",
+    "result": {
+      "query": "距离装配夹具台 02最近的蓝色箱组",
+      "status": "ok",
+      "relation": "nearest_to",
+      "anchor_text": "装配夹具台 02",
+      "target_text": "蓝色箱组",
+      "matched_object_ids": [
+        "obj_141f3e5dbe3a"
+      ],
+      "objects": [
+        {
+          "object_id": "obj_141f3e5dbe3a",
+          "category_id": "category_05",
+          "name_zh": "蓝色箱组 01",
+          "name_en": "Blue bin group 01",
+          "bbox": {
+            "center": [
+              1.8982143136791598,
+              0.918864094880959,
+              0.340919773189663
+            ],
+            "size": [
+              1.1006855289669342,
+              1.112896034191583,
+              0.598160453620674
+            ],
+            "quaternion": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "reconstruction_status": "partially_reconstructed",
+          "extraction_status": "needs_improvement",
+          "quality_record": {
+            "note_zh": "只保留部分蓝箱表面，前方小架仍混入；原始重建、遮挡及跨材质亲和筛选共同影响。0.80/0.90比较未明显改善，常规精细查询停用。",
+            "diagnosis": "E",
+            "reviewer": "Codex visual inspection"
+          },
+          "fine_instance_available": false,
+          "gaussian_indices": null,
+          "location_source": "M0 r29",
+          "representation": "M0_location_only"
+        }
+      ],
+      "relation_evidence": [
+        {
+          "subject": "obj_141f3e5dbe3a",
+          "relation": "nearest_to",
+          "object": "obj_d058f708eb01",
+          "source": "industrial_geometry",
+          "evidence": {
+            "target_category": "category_05",
+            "center_distance": 2.0666977820670094,
+            "tie_tolerance": 1e-06,
+            "candidate_distances": [
+              {
+                "object_id": "obj_141f3e5dbe3a",
+                "distance": 2.0666977820670094
+              },
+              {
+                "object_id": "obj_3c963764ddb5",
+                "distance": 5.340284371155467
+              },
+              {
+                "object_id": "obj_7463bab859d0",
+                "distance": 5.578651473835776
+              }
+            ],
+            "units": "SfM relative units"
+          }
+        }
+      ],
+      "renderable_object_ids": [],
+      "unavailable_object_ids": [
+        "obj_141f3e5dbe3a"
+      ],
+      "segmentation_rerun": false,
+      "geometry_scope": "all M0 equipment nodes",
+      "reference_semantics": "union over explicitly listed matching anchors",
+      "target_match": {
+        "method": "category",
+        "status": "ok",
+        "category_match": {
+          "category_id": "category_05",
+          "method": "exact_known_alias",
+          "query": "蓝色箱组",
+          "abstained": false
+        }
+      },
+      "known_category_instances": [
+        "obj_141f3e5dbe3a",
+        "obj_3c963764ddb5",
+        "obj_7463bab859d0"
+      ],
+      "same_category_candidates_before": 3,
+      "anchor_match": {
+        "method": "exact_equipment_identity",
+        "status": "ok"
+      },
+      "anchor_object_ids": [
+        "obj_d058f708eb01"
+      ],
+      "matches_after": 1
+    }
+  },
+  {
+    "name": "actual nearest unavailable regression",
+    "query": "距离装配夹具台 03最近的蓝色箱组",
+    "synthetic": false,
+    "passed": true,
+    "expected_ids": [
+      "obj_141f3e5dbe3a"
+    ],
+    "expected_status": "ok",
+    "result": {
+      "query": "距离装配夹具台 03最近的蓝色箱组",
+      "status": "ok",
+      "relation": "nearest_to",
+      "anchor_text": "装配夹具台 03",
+      "target_text": "蓝色箱组",
+      "matched_object_ids": [
+        "obj_141f3e5dbe3a"
+      ],
+      "objects": [
+        {
+          "object_id": "obj_141f3e5dbe3a",
+          "category_id": "category_05",
+          "name_zh": "蓝色箱组 01",
+          "name_en": "Blue bin group 01",
+          "bbox": {
+            "center": [
+              1.8982143136791598,
+              0.918864094880959,
+              0.340919773189663
+            ],
+            "size": [
+              1.1006855289669342,
+              1.112896034191583,
+              0.598160453620674
+            ],
+            "quaternion": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "reconstruction_status": "partially_reconstructed",
+          "extraction_status": "needs_improvement",
+          "quality_record": {
+            "note_zh": "只保留部分蓝箱表面，前方小架仍混入；原始重建、遮挡及跨材质亲和筛选共同影响。0.80/0.90比较未明显改善，常规精细查询停用。",
+            "diagnosis": "E",
+            "reviewer": "Codex visual inspection"
+          },
+          "fine_instance_available": false,
+          "gaussian_indices": null,
+          "location_source": "M0 r29",
+          "representation": "M0_location_only"
+        }
+      ],
+      "relation_evidence": [
+        {
+          "subject": "obj_141f3e5dbe3a",
+          "relation": "nearest_to",
+          "object": "obj_09a35ba03c92",
+          "source": "industrial_geometry",
+          "evidence": {
+            "target_category": "category_05",
+            "center_distance": 2.3742556994016426,
+            "tie_tolerance": 1e-06,
+            "candidate_distances": [
+              {
+                "object_id": "obj_141f3e5dbe3a",
+                "distance": 2.3742556994016426
+              },
+              {
+                "object_id": "obj_3c963764ddb5",
+                "distance": 4.3399052625507615
+              },
+              {
+                "object_id": "obj_7463bab859d0",
+                "distance": 4.5260596775450015
+              }
+            ],
+            "units": "SfM relative units"
+          }
+        }
+      ],
+      "renderable_object_ids": [],
+      "unavailable_object_ids": [
+        "obj_141f3e5dbe3a"
+      ],
+      "segmentation_rerun": false,
+      "geometry_scope": "all M0 equipment nodes",
+      "reference_semantics": "union over explicitly listed matching anchors",
+      "target_match": {
+        "method": "category",
+        "status": "ok",
+        "category_match": {
+          "category_id": "category_05",
+          "method": "exact_known_alias",
+          "query": "蓝色箱组",
+          "abstained": false
+        }
+      },
+      "known_category_instances": [
+        "obj_141f3e5dbe3a",
+        "obj_3c963764ddb5",
+        "obj_7463bab859d0"
+      ],
+      "same_category_candidates_before": 3,
+      "anchor_match": {
+        "method": "exact_equipment_identity",
+        "status": "ok"
+      },
+      "anchor_object_ids": [
+        "obj_09a35ba03c92"
+      ],
+      "matches_after": 1
+    }
+  }
+]

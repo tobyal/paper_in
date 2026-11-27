@@ -122,3 +122,16 @@ python3 scripts/bootstrap_sources.py
 - [实际数据状态](m0/docs/DATA_STATUS_AT_DELIVERY.md)：场景、一个实际料架候选和单张参考均为待人工复核的草稿，正式数据未冻结。
 
 M0 不生成最终对象高斯实例、融合语义或场景图。Baseline 0/R1 和原始几何保持原状；V1 代码及数据在服务器完整备份，Git 旧版为 6d50092。原图、模型、标注、备份与工作台截图不进入本次源码提交。
+
+
+## SAGA + ReLaGS 工业世界模型 v2
+
+覆盖全部33台工业设备：20台可用、10台局部可用、3台待改进；复用冻结SAGA特征，保留33节点/2020几何关系，并修复设备查询与精细实例可用性的耦合。64项查询功能检查通过，质量审核不作为人工真值准确率。
+
+- [代码与运行说明](experiments/saga_relags_v2/README.md)
+- [完整实验报告及33台汇总表](experiments/saga_relags_v2/EXPERIMENT_REPORT.md)
+- [修改记录](experiments/saga_relags_v2/MODIFICATION_REPORT.md)
+- [全部设备、关系图与查询结果](experiments/saga_relags_v2/docs/GALLERY.md)
+- [归档范围及数据依赖](experiments/saga_relags_v2/PUBLICATION.md)
+
+模型权重、PLY、原始数据与中间数组仅保留在服务器。

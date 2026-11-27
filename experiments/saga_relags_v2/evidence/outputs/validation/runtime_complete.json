@@ -1,0 +1,277 @@
+[
+  {
+    "command": [
+      "../saga_relags_v1/envs/saga/bin/python",
+      "-u",
+      "src/compare_extraction.py"
+    ],
+    "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+    "gpu": "1",
+    "start_utc": "20261126T160742959753Z",
+    "stage": "A_bounded_comparison",
+    "pid": 835142,
+    "exit_code": 0,
+    "status": "completed",
+    "seconds": 5.821971654891968,
+    "log": "logs/A_bounded_comparison/20261126T160742959753Z/run.log"
+  },
+  {
+    "command": [
+      "../saga_relags_v1/envs/saga/bin/python",
+      "scripts/freeze_instances.py"
+    ],
+    "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+    "gpu": "0",
+    "start_utc": "20261126T161006085400Z",
+    "stage": "A_freeze",
+    "pid": 842404,
+    "exit_code": 0,
+    "status": "completed",
+    "seconds": 0.5477612018585205,
+    "log": "logs/A_freeze/20261126T161006085400Z/run.log"
+  },
+  {
+    "command": [
+      "../saga_relags_v1/envs/saga/bin/python",
+      "-u",
+      "src/extract_instances.py",
+      "--tag",
+      "initial"
+    ],
+    "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+    "gpu": "0",
+    "start_utc": "20261126T160043831230Z",
+    "stage": "A_initial_extraction",
+    "pid": 800011,
+    "exit_code": 0,
+    "status": "completed",
+    "seconds": 40.892035484313965,
+    "log": "logs/A_initial_extraction/20261126T160043831230Z/run.log"
+  },
+  {
+    "command": [
+      "../saga_relags_v1/envs/saga/bin/python",
+      "-u",
+      "src/inspect_instances.py",
+      "--tag",
+      "initial"
+    ],
+    "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+    "gpu": "1",
+    "start_utc": "20261126T160158024111Z",
+    "stage": "A_initial_inspection",
+    "pid": 803108,
+    "exit_code": 0,
+    "status": "completed",
+    "seconds": 14.219488859176636,
+    "log": "logs/A_initial_inspection/20261126T160158024111Z/run.log"
+  },
+  {
+    "command": [
+      "../saga_relags_v1/envs/saga/bin/python",
+      "scripts/refine_prompts.py"
+    ],
+    "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+    "gpu": "0",
+    "start_utc": "20261126T160539430906Z",
+    "stage": "A_prompt_refinement",
+    "pid": 829654,
+    "exit_code": 0,
+    "status": "completed",
+    "seconds": 0.484302282333374,
+    "log": "logs/A_prompt_refinement/20261126T160539430906Z/run.log"
+  },
+  {
+    "command": [
+      "../saga_relags_v1/envs/saga/bin/python",
+      "-u",
+      "src/prepare_references.py"
+    ],
+    "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+    "gpu": "0",
+    "start_utc": "20261126T155910538410Z",
+    "stage": "A_references",
+    "pid": 795699,
+    "exit_code": 0,
+    "status": "completed",
+    "seconds": 79.1476035118103,
+    "log": "logs/A_references/20261126T155910538410Z/run.log"
+  },
+  {
+    "command": [
+      "../saga_relags_v1/envs/saga/bin/python",
+      "-u",
+      "src/extract_instances.py",
+      "--tag",
+      "refined",
+      "--references",
+      "outputs/A/refinement_prompts/records.json"
+    ],
+    "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+    "gpu": "0",
+    "start_utc": "20261126T160539978478Z",
+    "stage": "A_refined_extraction",
+    "pid": 829681,
+    "exit_code": 0,
+    "status": "completed",
+    "seconds": 7.766308546066284,
+    "log": "logs/A_refined_extraction/20261126T160539978478Z/run.log"
+  },
+  {
+    "command": [
+      "../saga_relags_v1/envs/saga/bin/python",
+      "-u",
+      "src/inspect_instances.py",
+      "--tag",
+      "refined"
+    ],
+    "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+    "gpu": "1",
+    "start_utc": "20261126T160606598991Z",
+    "stage": "A_refined_inspection",
+    "pid": 830817,
+    "exit_code": 0,
+    "status": "completed",
+    "seconds": 16.40212655067444,
+    "log": "logs/A_refined_inspection/20261126T160606598991Z/run.log"
+  },
+  {
+    "command": [
+      "../saga_relags_v1/envs/saga/bin/python",
+      "-u",
+      "src/extract_instances.py",
+      "--tag",
+      "scale_lower",
+      "--references",
+      "outputs/A/refinement_prompts/records.json",
+      "--objects",
+      "obj_5bfd32389355",
+      "--scale-offset",
+      "-0.1"
+    ],
+    "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+    "gpu": "0",
+    "start_utc": "20261126T160623075262Z",
+    "stage": "A_scale_lower",
+    "pid": 831660,
+    "exit_code": 0,
+    "status": "completed",
+    "seconds": 4.987837076187134,
+    "log": "logs/A_scale_lower/20261126T160623075262Z/run.log"
+  },
+  {
+    "command": [
+      "../saga_relags_v1/envs/saga/bin/python",
+      "-u",
+      "src/extract_instances.py",
+      "--tag",
+      "scale_upper",
+      "--references",
+      "outputs/A/refinement_prompts/records.json",
+      "--objects",
+      "obj_5bfd32389355",
+      "--scale-offset",
+      "0.1"
+    ],
+    "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+    "gpu": "0",
+    "start_utc": "20261126T160628137499Z",
+    "stage": "A_scale_upper",
+    "pid": 831909,
+    "exit_code": 0,
+    "status": "completed",
+    "seconds": 4.9862425327301025,
+    "log": "logs/A_scale_upper/20261126T160628137499Z/run.log"
+  },
+  {
+    "command": [
+      "../saga_relags_v1/envs/saga/bin/python",
+      "src/build_world_model.py"
+    ],
+    "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+    "gpu": "0",
+    "start_utc": "20261126T161433568461Z",
+    "stage": "BC_world_model",
+    "pid": 854842,
+    "exit_code": 0,
+    "status": "completed",
+    "seconds": 13.652080297470093,
+    "log": "logs/BC_world_model/20261126T161433568461Z/run.log"
+  },
+  {
+    "command": [
+      "../saga_relags_v1/envs/saga/bin/python",
+      "src/test_queries.py"
+    ],
+    "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+    "gpu": "0",
+    "start_utc": "20261126T161602120962Z",
+    "stage": "D_regression",
+    "pid": 859017,
+    "exit_code": 0,
+    "status": "completed",
+    "seconds": 0.5359535217285156,
+    "log": "logs/D_regression/20261126T161602120962Z/run.log"
+  },
+  {
+    "command": [
+      "../saga_relags_v1/envs/saga/bin/python",
+      "scripts/curate_gallery.py"
+    ],
+    "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+    "gpu": "0",
+    "start_utc": "20261126T162417528900Z",
+    "stage": "compact_gallery",
+    "pid": 880698,
+    "exit_code": 0,
+    "status": "completed",
+    "seconds": 1.0541164875030518,
+    "log": "logs/compact_gallery/20261126T162417528900Z/run.log"
+  },
+  {
+    "command": [
+      "../saga_relags_v1/envs/saga/bin/python",
+      "scripts/validate_final.py"
+    ],
+    "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+    "gpu": "0",
+    "start_utc": "20261126T161951113533Z",
+    "stage": "final_validation",
+    "pid": 869237,
+    "exit_code": 0,
+    "status": "completed",
+    "seconds": 8.719822406768799,
+    "log": "logs/final_validation/20261126T161951113533Z/run.log"
+  },
+  {
+    "command": [
+      "../saga_relags_v1/envs/saga/bin/python",
+      "src/final_visualizations.py"
+    ],
+    "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+    "gpu": "1",
+    "start_utc": "20261126T161752108303Z",
+    "stage": "final_visualizations",
+    "pid": 863701,
+    "exit_code": 0,
+    "status": "completed",
+    "seconds": 26.120508432388306,
+    "log": "logs/final_visualizations/20261126T161752108303Z/run.log"
+  },
+  {
+    "command": [
+      "../saga_relags_v1/envs/saga/bin/python",
+      "-u",
+      "scripts/initialize.py"
+    ],
+    "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+    "gpu": "0",
+    "start_utc": "20261126T155752955562Z",
+    "stage": "initialize",
+    "pid": 792434,
+    "exit_code": 0,
+    "status": "completed",
+    "seconds": 3.2140231132507324,
+    "log": "logs/initialize/20261126T155752955562Z/run.log"
+  }
+]

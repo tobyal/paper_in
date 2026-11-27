@@ -1,0 +1,24 @@
+# Server-local datasets, models, arrays and runtime outputs are not published.
+/inputs/
+/outputs/
+/logs/
+/world_model/
+/envs/
+/models/
+/cache/
+/third_party/
+/review/
+*.bin
+*.onnx
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.ply
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.tar*

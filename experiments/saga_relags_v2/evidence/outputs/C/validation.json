@@ -1,0 +1,24 @@
+{
+  "nodes": 33,
+  "edges": 2020,
+  "relation_counts": {
+    "behind": 430,
+    "near": 130,
+    "left_of": 383,
+    "right_of": 383,
+    "nearest_to": 264,
+    "in_front_of": 430
+  },
+  "exact_independent_geometry_agreement": true,
+  "inverse_and_near_symmetry": true,
+  "self_edges": 0,
+  "all_node_ids_valid": true,
+  "coordinates": {
+    "+X": "right",
+    "+Y": "front",
+    "+Z": "up"
+  },
+  "units": "SfM relative, not meters",
+  "m0_unchanged": true,
+  "instance_geometry_used_for_relations": false
+}

@@ -1,0 +1,4 @@
+/mnt/sda/ubuntu/lkx/papers/paper_in/envs/relags/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+B {'categories': 8, 'feature_dimension': 512, 'crops': 44, 'modified_crops': 26, 'selected_prototype': 'original', 'original_correct': 31, 'soft_correct': 31, 'total': 31, 'heldout_used': False}
+C {'nodes': 33, 'edges': 2020, 'relation_counts': {'behind': 430, 'near': 130, 'left_of': 383, 'right_of': 383, 'nearest_to': 264, 'in_front_of': 430}, 'exact_independent_geometry_agreement': True, 'inverse_and_near_symmetry': True, 'self_edges': 0, 'all_node_ids_valid': True, 'coordinates': {'+X': 'right', '+Y': 'front', '+Z': 'up'}, 'units': 'SfM relative, not meters', 'm0_unchanged': True, 'instance_geometry_used_for_relations': False}

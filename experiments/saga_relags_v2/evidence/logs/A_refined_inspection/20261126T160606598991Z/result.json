@@ -1,0 +1,17 @@
+{
+  "command": [
+    "../saga_relags_v1/envs/saga/bin/python",
+    "-u",
+    "src/inspect_instances.py",
+    "--tag",
+    "refined"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/saga_relags_v2",
+  "gpu": "1",
+  "start_utc": "20261126T160606598991Z",
+  "stage": "A_refined_inspection",
+  "pid": 830817,
+  "exit_code": 0,
+  "status": "completed",
+  "seconds": 16.40212655067444
+}

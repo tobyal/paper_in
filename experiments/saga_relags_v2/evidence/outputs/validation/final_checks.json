@@ -1,0 +1,653 @@
+{
+  "passed": true,
+  "protected_file_count": 34178,
+  "changed_protected_files": [],
+  "critical_hashes_unchanged": {
+    "data/gaussian_scene/original_3dgs/point_cloud/iteration_30000/point_cloud.ply": true,
+    "experiments/saga_relags_v1/outputs/A/saga_model/point_cloud/iteration_10000/contrastive_feature_point_cloud.ply": true,
+    "experiments/saga_relags_v1/outputs/A/saga_model/point_cloud/iteration_10000/scale_gate.pt": true,
+    "experiments/saga_relags_v1/outputs/A/saga_model/point_cloud/iteration_10000/training_state.pt": true,
+    "experiments/saga_relags_v1/outputs/A/saga_model/all_mask_scales.npy": true,
+    "experiments/saga_relags_v1/inputs/m0_state.json": true,
+    "experiments/saga_relags_v1/inputs/geometry/original_gaussian_ids.npy": true
+  },
+  "all_33_frozen_instances_unchanged": true,
+  "no_duplicate_final_ids": true,
+  "union_gaussian_count": 731573,
+  "objects": [
+    {
+      "object_id": "obj_8429bc5f3c33",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_d058f708eb01",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_09a35ba03c92",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_ad85774e5f18",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_c812ae8b15bd",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_485ade540e7d",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_f9a0e863e32d",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_126125e3a773",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_aad6e7f85a9a",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_5bfd32389355",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_141f3e5dbe3a",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_3c963764ddb5",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_e57b3a886c2d",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_04c477562e49",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_2e1a6e5960f5",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_8528f4bf8a3d",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_8e79bd39b8b9",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_087984e7c374",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_b7e0494ce9dd",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_b8542dc54ed2",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_7463bab859d0",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_c57876bf22ca",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_06d9693cfb0a",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_c7c9293c6c6d",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_5746b7e7d040",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_933bd7d6e703",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_4fd05384c476",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_dee5bef52687",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_3efbeb5e8179",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_7047e5f33259",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_df0a6cc33263",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_c0162cd69680",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    },
+    {
+      "object_id": "obj_57b0f30bdd9e",
+      "valid_ids": true,
+      "inside_M0_candidates": true,
+      "original_ply_attributes_exact": true,
+      "final_gallery_exists": true
+    }
+  ],
+  "heldout_images_in_prompts": 0,
+  "unique_prompt_views": 90,
+  "per_object_view_uses": {
+    "in_frozen_affinity_training": 40,
+    "new_train_split_prompt_view": 63
+  },
+  "B_final_interface_cases": [
+    {
+      "query": "物料车",
+      "expected": "category_01",
+      "actual": "category_01",
+      "passed": true
+    },
+    {
+      "query": "wheeled material trolley",
+      "expected": "category_01",
+      "actual": "category_01",
+      "passed": true
+    },
+    {
+      "query": "装配夹具台",
+      "expected": "category_02",
+      "actual": "category_02",
+      "passed": true
+    },
+    {
+      "query": "assembly jig",
+      "expected": "category_02",
+      "actual": "category_02",
+      "passed": true
+    },
+    {
+      "query": "带黑色工件的夹具台",
+      "expected": "category_03",
+      "actual": "category_03",
+      "passed": true
+    },
+    {
+      "query": "fixture table carrying a black workpiece",
+      "expected": "category_03",
+      "actual": "category_03",
+      "passed": true
+    },
+    {
+      "query": "多层料架",
+      "expected": "category_04",
+      "actual": "category_04",
+      "passed": true
+    },
+    {
+      "query": "industrial shelf",
+      "expected": "category_04",
+      "actual": "category_04",
+      "passed": true
+    },
+    {
+      "query": "蓝色箱组",
+      "expected": "category_05",
+      "actual": "category_05",
+      "passed": true
+    },
+    {
+      "query": "blue plastic containers",
+      "expected": "category_05",
+      "actual": "category_05",
+      "passed": true
+    },
+    {
+      "query": "立式移动冷风机",
+      "expected": "category_06",
+      "actual": "category_06",
+      "passed": true
+    },
+    {
+      "query": "portable cooling unit",
+      "expected": "category_06",
+      "actual": "category_06",
+      "passed": true
+    },
+    {
+      "query": "工作台",
+      "expected": "category_07",
+      "actual": "category_07",
+      "passed": true
+    },
+    {
+      "query": "industrial work table",
+      "expected": "category_07",
+      "actual": "category_07",
+      "passed": true
+    },
+    {
+      "query": "分隔式料架",
+      "expected": "category_08",
+      "actual": "category_08",
+      "passed": true
+    },
+    {
+      "query": "partitioned storage rack",
+      "expected": "category_08",
+      "actual": "category_08",
+      "passed": true
+    },
+    {
+      "query": "factory material transport trolley",
+      "expected": "category_01",
+      "actual": "category_01",
+      "passed": true
+    },
+    {
+      "query": "an open jig on a white wheeled assembly base",
+      "expected": "category_02",
+      "actual": "category_02",
+      "passed": true
+    },
+    {
+      "query": "fixture holding a dark workpiece",
+      "expected": "category_03",
+      "actual": "category_03",
+      "passed": true
+    },
+    {
+      "query": "a metal rack with multiple shelves",
+      "expected": "category_04",
+      "actual": "category_04",
+      "passed": true
+    },
+    {
+      "query": "stacked blue plastic boxes",
+      "expected": "category_05",
+      "actual": "category_05",
+      "passed": true
+    },
+    {
+      "query": "a wheeled cooling appliance with a grille",
+      "expected": "category_06",
+      "actual": "category_06",
+      "passed": true
+    },
+    {
+      "query": "a flat table used for industrial work",
+      "expected": "category_07",
+      "actual": "category_07",
+      "passed": true
+    },
+    {
+      "query": "rack with separate vertical slots",
+      "expected": "category_08",
+      "actual": "category_08",
+      "passed": true
+    },
+    {
+      "query": "a forklift truck",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "query": "an industrial robot arm",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "query": "a human worker",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "query": "a living cat",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "query": "a mountain landscape",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "query": "未知设备",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "query": "吊车",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    }
+  ],
+  "B_feature_row_permutation_passed": true,
+  "standalone_query_passed": true,
+  "query_tests": 64,
+  "runtime": [
+    {
+      "stage": "A_bounded_comparison",
+      "status": "completed",
+      "seconds": 5.821971654891968,
+      "gpu_sampled_peak_MiB": 3208.0,
+      "gpu": "1",
+      "command": [
+        "../saga_relags_v1/envs/saga/bin/python",
+        "-u",
+        "src/compare_extraction.py"
+      ],
+      "log": "logs/A_bounded_comparison/20261126T160742959753Z/run.log"
+    },
+    {
+      "stage": "A_freeze",
+      "status": "completed",
+      "seconds": 0.5477612018585205,
+      "gpu_sampled_peak_MiB": 1333.0,
+      "gpu": "0",
+      "command": [
+        "../saga_relags_v1/envs/saga/bin/python",
+        "scripts/freeze_instances.py"
+      ],
+      "log": "logs/A_freeze/20261126T161006085400Z/run.log"
+    },
+    {
+      "stage": "A_initial_extraction",
+      "status": "completed",
+      "seconds": 40.892035484313965,
+      "gpu_sampled_peak_MiB": 4026.0,
+      "gpu": "0",
+      "command": [
+        "../saga_relags_v1/envs/saga/bin/python",
+        "-u",
+        "src/extract_instances.py",
+        "--tag",
+        "initial"
+      ],
+      "log": "logs/A_initial_extraction/20261126T160043831230Z/run.log"
+    },
+    {
+      "stage": "A_initial_inspection",
+      "status": "completed",
+      "seconds": 14.219488859176636,
+      "gpu_sampled_peak_MiB": 4386.0,
+      "gpu": "1",
+      "command": [
+        "../saga_relags_v1/envs/saga/bin/python",
+        "-u",
+        "src/inspect_instances.py",
+        "--tag",
+        "initial"
+      ],
+      "log": "logs/A_initial_inspection/20261126T160158024111Z/run.log"
+    },
+    {
+      "stage": "A_prompt_refinement",
+      "status": "completed",
+      "seconds": 0.484302282333374,
+      "gpu_sampled_peak_MiB": 1333.0,
+      "gpu": "0",
+      "command": [
+        "../saga_relags_v1/envs/saga/bin/python",
+        "scripts/refine_prompts.py"
+      ],
+      "log": "logs/A_prompt_refinement/20261126T160539430906Z/run.log"
+    },
+    {
+      "stage": "A_references",
+      "status": "completed",
+      "seconds": 79.1476035118103,
+      "gpu_sampled_peak_MiB": 8344.0,
+      "gpu": "0",
+      "command": [
+        "../saga_relags_v1/envs/saga/bin/python",
+        "-u",
+        "src/prepare_references.py"
+      ],
+      "log": "logs/A_references/20261126T155910538410Z/run.log"
+    },
+    {
+      "stage": "A_refined_extraction",
+      "status": "completed",
+      "seconds": 7.766308546066284,
+      "gpu_sampled_peak_MiB": 2770.0,
+      "gpu": "0",
+      "command": [
+        "../saga_relags_v1/envs/saga/bin/python",
+        "-u",
+        "src/extract_instances.py",
+        "--tag",
+        "refined",
+        "--references",
+        "outputs/A/refinement_prompts/records.json"
+      ],
+      "log": "logs/A_refined_extraction/20261126T160539978478Z/run.log"
+    },
+    {
+      "stage": "A_refined_inspection",
+      "status": "completed",
+      "seconds": 16.40212655067444,
+      "gpu_sampled_peak_MiB": 4386.0,
+      "gpu": "1",
+      "command": [
+        "../saga_relags_v1/envs/saga/bin/python",
+        "-u",
+        "src/inspect_instances.py",
+        "--tag",
+        "refined"
+      ],
+      "log": "logs/A_refined_inspection/20261126T160606598991Z/run.log"
+    },
+    {
+      "stage": "A_scale_lower",
+      "status": "completed",
+      "seconds": 4.987837076187134,
+      "gpu_sampled_peak_MiB": 1333.0,
+      "gpu": "0",
+      "command": [
+        "../saga_relags_v1/envs/saga/bin/python",
+        "-u",
+        "src/extract_instances.py",
+        "--tag",
+        "scale_lower",
+        "--references",
+        "outputs/A/refinement_prompts/records.json",
+        "--objects",
+        "obj_5bfd32389355",
+        "--scale-offset",
+        "-0.1"
+      ],
+      "log": "logs/A_scale_lower/20261126T160623075262Z/run.log"
+    },
+    {
+      "stage": "A_scale_upper",
+      "status": "completed",
+      "seconds": 4.9862425327301025,
+      "gpu_sampled_peak_MiB": 1333.0,
+      "gpu": "0",
+      "command": [
+        "../saga_relags_v1/envs/saga/bin/python",
+        "-u",
+        "src/extract_instances.py",
+        "--tag",
+        "scale_upper",
+        "--references",
+        "outputs/A/refinement_prompts/records.json",
+        "--objects",
+        "obj_5bfd32389355",
+        "--scale-offset",
+        "0.1"
+      ],
+      "log": "logs/A_scale_upper/20261126T160628137499Z/run.log"
+    },
+    {
+      "stage": "BC_world_model",
+      "status": "completed",
+      "seconds": 13.652080297470093,
+      "gpu_sampled_peak_MiB": 4816.0,
+      "gpu": "0",
+      "command": [
+        "../saga_relags_v1/envs/saga/bin/python",
+        "src/build_world_model.py"
+      ],
+      "log": "logs/BC_world_model/20261126T161433568461Z/run.log"
+    },
+    {
+      "stage": "D_regression",
+      "status": "completed",
+      "seconds": 0.5359535217285156,
+      "gpu_sampled_peak_MiB": 1333.0,
+      "gpu": "0",
+      "command": [
+        "../saga_relags_v1/envs/saga/bin/python",
+        "src/test_queries.py"
+      ],
+      "log": "logs/D_regression/20261126T161602120962Z/run.log"
+    },
+    {
+      "stage": "final_visualizations",
+      "status": "completed",
+      "seconds": 26.120508432388306,
+      "gpu_sampled_peak_MiB": 4422.0,
+      "gpu": "1",
+      "command": [
+        "../saga_relags_v1/envs/saga/bin/python",
+        "src/final_visualizations.py"
+      ],
+      "log": "logs/final_visualizations/20261126T161752108303Z/run.log"
+    },
+    {
+      "stage": "initialize",
+      "status": "completed",
+      "seconds": 3.2140231132507324,
+      "gpu_sampled_peak_MiB": 1333.0,
+      "gpu": "0",
+      "command": [
+        "../saga_relags_v1/envs/saga/bin/python",
+        "-u",
+        "scripts/initialize.py"
+      ],
+      "log": "logs/initialize/20261126T155752955562Z/run.log"
+    }
+  ],
+  "gpu_measurement_note": "5-second nvidia-smi samples for the assigned whole GPU, not exclusive per-process peak; short runs can peak between samples"
+}

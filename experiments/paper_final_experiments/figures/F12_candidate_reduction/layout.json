@@ -1,0 +1,100 @@
+{
+  "size_inches": [
+    7.08,
+    5.65
+  ],
+  "width_mm": 179.832,
+  "dpi": 450,
+  "editable_text": "SVG text and embedded TrueType PDF; DejaVu Sans",
+  "axes": [
+    {
+      "title": "",
+      "position": [
+        0.105,
+        0.595,
+        0.845,
+        0.235
+      ]
+    },
+    {
+      "title": "",
+      "position": [
+        0.105,
+        0.145,
+        0.845,
+        0.24500000000000002
+      ]
+    }
+  ],
+  "subplot_vertical_bounds": {
+    "a_accumulated": [
+      0.475,
+      0.94
+    ],
+    "b_per_query": [
+      0.01,
+      0.47
+    ]
+  },
+  "method_colors": {
+    "langsplat": "#E69F00",
+    "thgs": "#009E73",
+    "relags": "#8E75B6",
+    "ours": "#0072B2"
+  },
+  "description": {
+    "queries": 25,
+    "original_query_order": [
+      "Q001",
+      "Q002",
+      "Q003",
+      "Q004",
+      "Q005",
+      "Q006",
+      "Q007",
+      "Q008",
+      "Q009",
+      "Q010",
+      "Q011",
+      "Q012",
+      "Q013",
+      "Q014",
+      "Q015",
+      "Q016",
+      "Q017",
+      "Q018",
+      "Q019",
+      "Q020",
+      "Q021",
+      "Q022",
+      "Q023",
+      "Q024",
+      "Q025"
+    ],
+    "count_unit": "query-device occurrences for totals; devices per individual query",
+    "totals": {
+      "category_candidates": 108,
+      "relation_targets": 39,
+      "fine_available": 35,
+      "unavailable": 4,
+      "relation_reduction_percent": 63.888888888888886,
+      "matched_fine_availability_percent": 89.74358974358974,
+      "unique_category_devices": 33,
+      "unique_matched_devices": 27,
+      "unique_fine_devices": 25,
+      "unique_unavailable_devices": 2,
+      "unavailable_queries": [
+        "Q005",
+        "Q010",
+        "Q019",
+        "Q025"
+      ]
+    },
+    "stage_colors": {
+      "category_candidates": "#909CA6",
+      "relation_targets": "#D89F35",
+      "fine_available": "#0072B2"
+    },
+    "relation_and_availability_separate": true
+  }
+}

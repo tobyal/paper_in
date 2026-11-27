@@ -4,7 +4,7 @@
 
 ## Paper experiments: controlled ablations and publication figures
 
-The [paper experiment package](experiments/paper_final_experiments/README.md) completes E01—E06 with six PNG/SVG paper figures, four principal quantitative tables, 350 ablation/supplement masks, full 25-query comparison galleries and real affinity/relationship traces.
+The [paper experiment package](experiments/paper_final_experiments/README.md) completes E01—E06 with six qualitative PNG/SVG paper figures, three statistical PNG/SVG/PDF figures (F10-F12), four principal quantitative tables, 350 ablation/supplement masks, full 25-query comparison galleries and real affinity/relationship traces.
 
 | Configuration | mIoU | Precision | Recall |
 |---|---:|---:|---:|
@@ -14,7 +14,7 @@ The [paper experiment package](experiments/paper_final_experiments/README.md) co
 
 On the same 23-query / 44-view **SAM-assisted reference**, relations add 17.18 percentage points mIoU. Fine extraction improves Precision but sacrifices Recall, with only 0.75 points mIoU gain over gated coarse boxes. The separate all-33 coarse-box supplement reaches 68.07% mIoU; instance availability remains a material limitation. These are not independent human-GT results.
 
-[F04—F09 gallery](experiments/paper_final_experiments/docs/GALLERY.md) · [Full experiment report](experiments/paper_final_experiments/EXPERIMENT_REPORT.md) · [Tables and figure index](experiments/paper_final_experiments/FIGURE_INDEX.md). Existing v2 and benchmark results are preserved; ReLaGS indexing and all 50 projections were checked without changing predictions. Large arrays and models stay on the server.
+[F04—F12 gallery](experiments/paper_final_experiments/docs/GALLERY.md) · [Full experiment report](experiments/paper_final_experiments/EXPERIMENT_REPORT.md) · [Tables and figure index](experiments/paper_final_experiments/FIGURE_INDEX.md). Existing v2 and benchmark results are preserved; ReLaGS indexing and all 50 projections were checked without changing predictions. Large arrays and models stay on the server.
 
 ## External comparison: SAM-assisted Pseudo-GT evaluation
 

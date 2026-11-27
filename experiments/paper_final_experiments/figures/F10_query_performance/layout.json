@@ -1,0 +1,92 @@
+{
+  "size_inches": [
+    7.08,
+    5.6
+  ],
+  "width_mm": 179.832,
+  "dpi": 450,
+  "editable_text": "SVG text and embedded TrueType PDF; DejaVu Sans",
+  "axes": [
+    {
+      "title": "",
+      "position": [
+        0.108,
+        0.65,
+        0.795,
+        0.21999999999999997
+      ]
+    },
+    {
+      "title": "",
+      "position": [
+        0.928,
+        0.65,
+        0.01200000000000001,
+        0.21999999999999997
+      ]
+    },
+    {
+      "title": "",
+      "position": [
+        0.108,
+        0.17,
+        0.795,
+        0.2899999999999999
+      ]
+    }
+  ],
+  "subplot_vertical_bounds": {
+    "a_heatmap": [
+      0.54,
+      0.945
+    ],
+    "b_distribution": [
+      0.01,
+      0.53
+    ]
+  },
+  "method_colors": {
+    "langsplat": "#E69F00",
+    "thgs": "#009E73",
+    "relags": "#8E75B6",
+    "ours": "#0072B2"
+  },
+  "description": {
+    "evaluated_queries": 23,
+    "excluded_queries": [
+      "Q005",
+      "Q025"
+    ],
+    "original_query_order": [
+      "Q001",
+      "Q002",
+      "Q003",
+      "Q004",
+      "Q005",
+      "Q006",
+      "Q007",
+      "Q008",
+      "Q009",
+      "Q010",
+      "Q011",
+      "Q012",
+      "Q013",
+      "Q014",
+      "Q015",
+      "Q016",
+      "Q017",
+      "Q018",
+      "Q019",
+      "Q020",
+      "Q021",
+      "Q022",
+      "Q023",
+      "Q024",
+      "Q025"
+    ],
+    "zero_is_not_na": true,
+    "whisker_iqr": 1.5,
+    "horizontal_jitter_seed": 20261127,
+    "ours_strict_wins": 21
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "generated": [
+    "F10",
+    "F11",
+    "F12"
+  ],
+  "seconds": 8.025129165500402,
+  "protected_files": 2735,
+  "scientific_files_modified": 0,
+  "source_hashes_verified": 8,
+  "summary_and_relation_crosschecks": true,
+  "saved_mechanism_delta_crosscheck": true,
+  "candidate_csv_json_and_identity_sets_crosscheck": true,
+  "gpu_used": false,
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.9",
+  "python": "3.10.13 | packaged by conda-forge | (main, Dec 23 2023, 15:36:39) [GCC 12.3.0]",
+  "visual_review": "passed; see visual_review.json",
+  "run": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/source_data/data_analysis/runs/20261127T085745_616843Z"
+}

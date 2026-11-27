@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "scripts/plot_data_analysis.py",
+    "--figure",
+    "all"
+  ],
+  "cwd": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments",
+  "python": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/../saga_relags_v1/envs/saga/bin/python",
+  "start_utc": "20261127T085503_634773Z",
+  "gpu_used": false,
+  "model_or_query_execution": false
+}

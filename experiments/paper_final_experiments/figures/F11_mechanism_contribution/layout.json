@@ -1,0 +1,113 @@
+{
+  "size_inches": [
+    7.08,
+    7.55
+  ],
+  "width_mm": 179.832,
+  "dpi": 450,
+  "editable_text": "SVG text and embedded TrueType PDF; DejaVu Sans",
+  "axes": [
+    {
+      "title": "",
+      "position": [
+        0.105,
+        0.725,
+        0.845,
+        0.16500000000000004
+      ]
+    },
+    {
+      "title": "",
+      "position": [
+        0.105,
+        0.405,
+        0.845,
+        0.16500000000000004
+      ]
+    },
+    {
+      "title": "",
+      "position": [
+        0.105,
+        0.105,
+        0.49,
+        0.16000000000000003
+      ]
+    }
+  ],
+  "subplot_vertical_bounds": {
+    "a_entity": [
+      0.635,
+      0.955
+    ],
+    "b_relation": [
+      0.315,
+      0.635
+    ],
+    "c_configurations": [
+      0.005,
+      0.31
+    ]
+  },
+  "method_colors": {
+    "langsplat": "#E69F00",
+    "thgs": "#009E73",
+    "relags": "#8E75B6",
+    "ours": "#0072B2"
+  },
+  "description": {
+    "evaluated_queries": 23,
+    "query_order": [
+      "Q001",
+      "Q002",
+      "Q003",
+      "Q004",
+      "Q006",
+      "Q007",
+      "Q008",
+      "Q009",
+      "Q010",
+      "Q011",
+      "Q012",
+      "Q013",
+      "Q014",
+      "Q015",
+      "Q016",
+      "Q017",
+      "Q018",
+      "Q019",
+      "Q020",
+      "Q021",
+      "Q022",
+      "Q023",
+      "Q024"
+    ],
+    "common_delta_ylim_pp": [
+      -30,
+      60
+    ],
+    "positive_color": "#0072B2",
+    "negative_color": "#D55E00",
+    "zero_tolerance_pp": 1e-10,
+    "mechanisms": {
+      "entity": {
+        "mean_iou_gain_pp": 0.7469666402451971,
+        "improved": 12,
+        "declined": 10,
+        "unchanged": 1,
+        "precision_gain_pp": 14.003488746544603,
+        "recall_gain_pp": -13.516299097221724
+      },
+      "relation": {
+        "mean_iou_gain_pp": 17.179158629040607,
+        "improved": 20,
+        "declined": 1,
+        "unchanged": 2,
+        "precision_gain_pp": 25.146789533664585,
+        "recall_gain_pp": -0.3344539008251351
+      }
+    },
+    "discrete_configurations_not_pr_curve": true,
+    "all33_different_availability": true
+  }
+}

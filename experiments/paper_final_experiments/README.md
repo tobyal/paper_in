@@ -29,3 +29,16 @@ ReLaGS audit uses `../../envs/relags/bin/python scripts/audit_relags.py` through
 Independent human GT does not yet exist. The 50-sample RGB/reference-only review package stays under E01_external_comparison/human_review. Formal figures use English labels, editable SVG text, and configs/captions.json for bilingual captions; layout/source metadata is per figure.
 
 Models, PLY, response/affinity arrays and full renders remain on the server. Git archive contains code/configs/reports/tables/figure assets and lightweight masks/metadata only. Server references and SHA256 are recorded, and v1/v2/benchmark are read-only dependencies.
+
+<!-- DATA_ANALYSIS_F10_F12_START -->
+## Frozen-data analysis (F10-F12)
+
+[Figures and captions](docs/GALLERY.md) · [Index](FIGURE_INDEX.md) · [Exact plotting data](source_data/data_analysis/)
+
+```bash
+../saga_relags_v1/envs/saga/bin/python scripts/plot_data_analysis.py --figure all
+# Individual figures: --figure F10, --figure F11, or --figure F12
+```
+
+CPU-only analysis of frozen CSV/JSON, with no model or query execution. Run this script after legacy plot_figures.py/publish.py if rebuilding documentation, because the legacy generators recreate their six-figure index. Preserve the scientific outputs; new method experiments belong in a separate version.
+<!-- DATA_ANALYSIS_F10_F12_END -->

@@ -1,0 +1,50 @@
+{
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E01_external_comparison/metrics/per_query.csv": {
+    "bytes": 6051,
+    "sha256": "29b7b1b4b3aa72fefeda4f0f32571d24f7e80e8c51d4d4ec05bcaff577422719"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E01_external_comparison/metrics/per_relation.csv": {
+    "bytes": 1519,
+    "sha256": "8c9ec3e55c1568108501a9b648c56a141dadef6192eae9d30550873184d82638"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E01_external_comparison/metrics/summary.csv": {
+    "bytes": 434,
+    "sha256": "4f2a7ac1a37e23b22f55b07479eb0ba4129635b7356c2a30179a0e49f1b5a9ab"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E02_ablation/mechanism_deltas.csv": {
+    "bytes": 1003,
+    "sha256": "eb785b3ce03239e3affcb5ce9c59f141ef69f9cf35d19da984533aa47030ee2c"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E02_ablation/metrics/per_query.csv": {
+    "bytes": 12728,
+    "sha256": "8143974afb17ad14b15d344141e3e456b4b95c7e589777fd4d5cb6372bb0db97"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E02_ablation/metrics/summary.csv": {
+    "bytes": 683,
+    "sha256": "b0bbf6252c1ee2a24928babc90d47d2b80d094004ab96b53a91664af2f9b5699"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E04_relation_retrieval/query_statistics.csv": {
+    "bytes": 1711,
+    "sha256": "6662c9f5f6c620de7e68eccbb60466e80366863e51fd05e10f71b97af1dc2ec4"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/E04_relation_retrieval/query_statistics.json": {
+    "bytes": 58941,
+    "sha256": "9d815b3071c693f9d9a6a8aed030da267642a90ff51fe336307d4c29bfa756c7"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/scripts/plot_data_analysis.py": {
+    "bytes": 43151,
+    "sha256": "0f52e256c1900b6e511867dafdfb4e54c123ad1be648ab8f0601ee5bc5187cd6"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/source_data/data_analysis/F10_heatmap.csv": {
+    "bytes": 4039,
+    "sha256": "4df98ec0e132af0667344747fe67a8eab1226c0e4080de57b8d747b5b9e4697e"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/source_data/data_analysis/F10_distribution.csv": {
+    "bytes": 524,
+    "sha256": "dab05b584dd5f7ac34bbf20b90e92390cfe0ce330a7dcafd9c08b5c8b44efe3b"
+  },
+  "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/source_data/data_analysis/F10_query_points.csv": {
+    "bytes": 4086,
+    "sha256": "12344d459b746b56842649a994fe346abc3bc293fded1abe198ad3846d81fd82"
+  }
+}

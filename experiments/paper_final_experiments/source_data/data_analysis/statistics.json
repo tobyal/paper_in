@@ -1,0 +1,204 @@
+{
+  "valid_queries": [
+    "Q001",
+    "Q002",
+    "Q003",
+    "Q004",
+    "Q006",
+    "Q007",
+    "Q008",
+    "Q009",
+    "Q010",
+    "Q011",
+    "Q012",
+    "Q013",
+    "Q014",
+    "Q015",
+    "Q016",
+    "Q017",
+    "Q018",
+    "Q019",
+    "Q020",
+    "Q021",
+    "Q022",
+    "Q023",
+    "Q024"
+  ],
+  "excluded_queries": [
+    "Q005",
+    "Q025"
+  ],
+  "valid_views": 44,
+  "relation_by_query": {
+    "Q001": "left_of",
+    "Q002": "left_of",
+    "Q003": "left_of",
+    "Q004": "left_of",
+    "Q005": "left_of",
+    "Q006": "right_of",
+    "Q007": "right_of",
+    "Q008": "right_of",
+    "Q009": "right_of",
+    "Q010": "right_of",
+    "Q011": "in_front_of",
+    "Q012": "in_front_of",
+    "Q013": "in_front_of",
+    "Q014": "in_front_of",
+    "Q015": "in_front_of",
+    "Q016": "behind",
+    "Q017": "behind",
+    "Q018": "behind",
+    "Q019": "behind",
+    "Q020": "behind",
+    "Q021": "near",
+    "Q022": "near",
+    "Q023": "near",
+    "Q024": "near",
+    "Q025": "near"
+  },
+  "method_distributions": [
+    {
+      "method": "langsplat",
+      "n": 23,
+      "mean_iou_percent": 20.86920705337747,
+      "q1_percent": 2.326065141948342,
+      "median_percent": 9.670630309662211,
+      "q3_percent": 37.112083057134086,
+      "whisker_low_percent": 0.0,
+      "whisker_high_percent": 84.06963654489223,
+      "queries_iou_ge50": 5,
+      "actual_zero_queries": 2
+    },
+    {
+      "method": "thgs",
+      "n": 23,
+      "mean_iou_percent": 8.680339030570906,
+      "q1_percent": 0.0,
+      "median_percent": 0.0,
+      "q3_percent": 0.006942818435857252,
+      "whisker_low_percent": 0.0,
+      "whisker_high_percent": 0.010745466756212223,
+      "queries_iou_ge50": 2,
+      "actual_zero_queries": 16
+    },
+    {
+      "method": "relags",
+      "n": 23,
+      "mean_iou_percent": 0.34703977450294177,
+      "q1_percent": 0.0,
+      "median_percent": 0.0,
+      "q3_percent": 0.0,
+      "whisker_low_percent": 0.0,
+      "whisker_high_percent": 0.0,
+      "queries_iou_ge50": 0,
+      "actual_zero_queries": 18
+    },
+    {
+      "method": "ours",
+      "n": 23,
+      "mean_iou_percent": 63.695056202717794,
+      "q1_percent": 54.142128105511254,
+      "median_percent": 66.25277230734874,
+      "q3_percent": 77.96219887326436,
+      "whisker_low_percent": 47.04517621061684,
+      "whisker_high_percent": 96.38840771046095,
+      "queries_iou_ge50": 19,
+      "actual_zero_queries": 1
+    }
+  ],
+  "ours_strict_wins": [
+    "Q001",
+    "Q002",
+    "Q003",
+    "Q004",
+    "Q006",
+    "Q007",
+    "Q008",
+    "Q009",
+    "Q011",
+    "Q012",
+    "Q013",
+    "Q014",
+    "Q015",
+    "Q016",
+    "Q017",
+    "Q018",
+    "Q020",
+    "Q021",
+    "Q022",
+    "Q023",
+    "Q024"
+  ],
+  "mechanisms": {
+    "entity": {
+      "mean_iou_gain_pp": 0.7469666402451971,
+      "improved": 12,
+      "declined": 10,
+      "unchanged": 1,
+      "precision_gain_pp": 14.003488746544603,
+      "recall_gain_pp": -13.516299097221724
+    },
+    "relation": {
+      "mean_iou_gain_pp": 17.179158629040607,
+      "improved": 20,
+      "declined": 1,
+      "unchanged": 2,
+      "precision_gain_pp": 25.146789533664585,
+      "recall_gain_pp": -0.3344539008251351
+    }
+  },
+  "precision_recall": [
+    {
+      "method": "box_gated",
+      "iou_percent": 62.9480895624726,
+      "precision_percent": 70.3281457280139,
+      "recall_percent": 83.72295649339489,
+      "availability": "shared_main_availability"
+    },
+    {
+      "method": "no_relation",
+      "iou_percent": 46.5158975736772,
+      "precision_percent": 59.18484494089394,
+      "recall_percent": 70.5411112969983,
+      "availability": "shared_main_availability"
+    },
+    {
+      "method": "ours",
+      "iou_percent": 63.695056202717794,
+      "precision_percent": 84.33163447455853,
+      "recall_percent": 70.20665739617314,
+      "availability": "shared_main_availability"
+    },
+    {
+      "method": "box_all33",
+      "iou_percent": 68.07370792053966,
+      "precision_percent": 72.51449651871259,
+      "recall_percent": 90.9381046038919,
+      "availability": "all_33_coarse_boxes"
+    }
+  ],
+  "candidate_totals": {
+    "category_candidates": 108,
+    "relation_targets": 39,
+    "fine_available": 35,
+    "unavailable": 4,
+    "relation_reduction_percent": 63.888888888888886,
+    "matched_fine_availability_percent": 89.74358974358974,
+    "unique_category_devices": 33,
+    "unique_matched_devices": 27,
+    "unique_fine_devices": 25,
+    "unique_unavailable_devices": 2,
+    "unavailable_queries": [
+      "Q005",
+      "Q010",
+      "Q019",
+      "Q025"
+    ]
+  },
+  "metric_aggregation": "mean over eligible views per query, then equal mean over 23 queries",
+  "reference": "SAM-assisted Pseudo-GT; not independently human-verified",
+  "box_statistics": "NumPy linear percentiles; whiskers at extreme observations within 1.5 IQR; all 23 points shown",
+  "jitter": "horizontal only; numpy default_rng seed 20261127; exact x positions saved",
+  "sign_zero_tolerance_pp": 1e-10,
+  "significance_test": "none; queries can share devices and views"
+}

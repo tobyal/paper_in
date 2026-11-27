@@ -28,7 +28,11 @@ for m in read(ROOT/'figures/manifest.json'):
     d=p.parent;layout=read(d/'layout.json');assert layout['dpi']==450 and 170<=layout['width_mm']<=180
     for path,meta in read(d/'sources.json').items():assert Path(path).exists() and sha(path)==meta['sha256'],path
     figures.append(dict(figure=m['figure'],size=list(im.size),png_bytes=p.stat().st_size,svg_bytes=svg.stat().st_size,subplots=len(list((d/'subplots').glob('*.png'))),png_sha256=sha(p)))
-assert len(figures)==6
+# Original six figures remain required; F10-F12 are optional frozen-data analyses.
+original={'F04_dataset','F05_external_comparison','F06_entity_construction','F07_relation_retrieval','F08_ablation','F09_multiview_application'}
+analysis={'F10_query_performance','F11_mechanism_contribution','F12_candidate_reduction'}
+found={f['figure'] for f in figures}
+assert original <= found <= original | analysis and len(found)==len(figures)
 assert len(read(ROOT/'E01_external_comparison/human_review/manifest.json'))==50
 for table in ['T01_external','T02_relations','T03_ablation','T04_efficiency']:
     for suffix in ['csv','md','tex','tsv']:assert (ROOT/'tables'/f'{table}.{suffix}').stat().st_size>30

@@ -1,6 +1,6 @@
 # Archive scope
 
-This directory contains code, frozen configuration, reports, PNG/SVG paper figures, editable text/layout metadata, standalone panels, all 25-query external and ablation boards, binary masks, and lightweight intermediate records.
+This directory contains code, frozen configuration, reports, PNG/SVG/PDF paper figures, editable text/layout metadata, standalone panels, all 25-query external and ablation boards, binary masks, and lightweight intermediate records.
 
 The authoritative server directory is `/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments`. Full response/affinity/XYZ/index arrays, all native rendering assets, original RGB human-review packages and model weights remain there or at the explicit v1/v2/benchmark references. See SERVER_ARRAYS.json and configs/FROZEN.json. No new training was performed.
 

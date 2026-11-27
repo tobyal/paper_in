@@ -1,0 +1,710 @@
+[
+  {
+    "text": "+32.9",
+    "fontsize": 5.6
+  },
+  {
+    "text": "-23.6",
+    "fontsize": 5.6
+  },
+  {
+    "text": "-23.6",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Left",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Right",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Front",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Behind",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Near",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Q001",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q001",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q002",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q002",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q003",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q003",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q004",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q004",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q006",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q006",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q007",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q007",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q008",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q008",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q009",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q009",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q010",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q010",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q011",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q011",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q012",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q012",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q013",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q013",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q014",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q014",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q015",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q015",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q016",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q016",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q017",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q017",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q018",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q018",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q019",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q019",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q020",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q020",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q021",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q021",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q022",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q022",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q023",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q023",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q024",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q024",
+    "fontsize": 5.7
+  },
+  {
+    "text": "IoU difference (pp)",
+    "fontsize": 7.0
+  },
+  {
+    "text": "−30",
+    "fontsize": 6.0
+  },
+  {
+    "text": "−30",
+    "fontsize": 6.0
+  },
+  {
+    "text": "−15",
+    "fontsize": 6.0
+  },
+  {
+    "text": "−15",
+    "fontsize": 6.0
+  },
+  {
+    "text": "0",
+    "fontsize": 6.0
+  },
+  {
+    "text": "0",
+    "fontsize": 6.0
+  },
+  {
+    "text": "15",
+    "fontsize": 6.0
+  },
+  {
+    "text": "15",
+    "fontsize": 6.0
+  },
+  {
+    "text": "30",
+    "fontsize": 6.0
+  },
+  {
+    "text": "30",
+    "fontsize": 6.0
+  },
+  {
+    "text": "45",
+    "fontsize": 6.0
+  },
+  {
+    "text": "45",
+    "fontsize": 6.0
+  },
+  {
+    "text": "60",
+    "fontsize": 6.0
+  },
+  {
+    "text": "60",
+    "fontsize": 6.0
+  },
+  {
+    "text": "+53.1",
+    "fontsize": 5.6
+  },
+  {
+    "text": "+50.0",
+    "fontsize": 5.6
+  },
+  {
+    "text": "+35.2",
+    "fontsize": 5.6
+  },
+  {
+    "text": "+41.7",
+    "fontsize": 5.6
+  },
+  {
+    "text": "+30.4",
+    "fontsize": 5.6
+  },
+  {
+    "text": "+45.6",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Left",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Right",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Front",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Behind",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Near",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Q001",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q001",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q002",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q002",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q003",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q003",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q004",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q004",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q006",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q006",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q007",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q007",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q008",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q008",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q009",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q009",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q010",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q010",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q011",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q011",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q012",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q012",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q013",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q013",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q014",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q014",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q015",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q015",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q016",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q016",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q017",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q017",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q018",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q018",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q019",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q019",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q020",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q020",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q021",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q021",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q022",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q022",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q023",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q023",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q024",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Q024",
+    "fontsize": 5.7
+  },
+  {
+    "text": "IoU difference (pp)",
+    "fontsize": 7.0
+  },
+  {
+    "text": "−30",
+    "fontsize": 6.0
+  },
+  {
+    "text": "−30",
+    "fontsize": 6.0
+  },
+  {
+    "text": "−15",
+    "fontsize": 6.0
+  },
+  {
+    "text": "−15",
+    "fontsize": 6.0
+  },
+  {
+    "text": "0",
+    "fontsize": 6.0
+  },
+  {
+    "text": "0",
+    "fontsize": 6.0
+  },
+  {
+    "text": "15",
+    "fontsize": 6.0
+  },
+  {
+    "text": "15",
+    "fontsize": 6.0
+  },
+  {
+    "text": "30",
+    "fontsize": 6.0
+  },
+  {
+    "text": "30",
+    "fontsize": 6.0
+  },
+  {
+    "text": "45",
+    "fontsize": 6.0
+  },
+  {
+    "text": "45",
+    "fontsize": 6.0
+  },
+  {
+    "text": "60",
+    "fontsize": 6.0
+  },
+  {
+    "text": "60",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Box-based",
+    "fontsize": 6.0
+  },
+  {
+    "text": "w/o Relation",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Ours",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Box (all 33)",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Mean Recall (%)",
+    "fontsize": 7.0
+  },
+  {
+    "text": "65",
+    "fontsize": 6.0
+  },
+  {
+    "text": "65",
+    "fontsize": 6.0
+  },
+  {
+    "text": "75",
+    "fontsize": 6.0
+  },
+  {
+    "text": "75",
+    "fontsize": 6.0
+  },
+  {
+    "text": "85",
+    "fontsize": 6.0
+  },
+  {
+    "text": "85",
+    "fontsize": 6.0
+  },
+  {
+    "text": "95",
+    "fontsize": 6.0
+  },
+  {
+    "text": "95",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Mean Precision (%)",
+    "fontsize": 7.0
+  },
+  {
+    "text": "50",
+    "fontsize": 6.0
+  },
+  {
+    "text": "50",
+    "fontsize": 6.0
+  },
+  {
+    "text": "60",
+    "fontsize": 6.0
+  },
+  {
+    "text": "60",
+    "fontsize": 6.0
+  },
+  {
+    "text": "70",
+    "fontsize": 6.0
+  },
+  {
+    "text": "70",
+    "fontsize": 6.0
+  },
+  {
+    "text": "80",
+    "fontsize": 6.0
+  },
+  {
+    "text": "80",
+    "fontsize": 6.0
+  },
+  {
+    "text": "90",
+    "fontsize": 6.0
+  },
+  {
+    "text": "90",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Contribution of refined entities and spatial relations",
+    "fontsize": 9.0
+  },
+  {
+    "text": "(a) Entity refinement: Ours - Box-based",
+    "fontsize": 7.5
+  },
+  {
+    "text": "Mean +0.75 pp (dashed)   |   12 improved, 10 declined, 1 unchanged",
+    "fontsize": 6.3
+  },
+  {
+    "text": "(b) Relation constraint: Ours - Ours w/o Relation",
+    "fontsize": 7.5
+  },
+  {
+    "text": "Mean +17.18 pp (dashed)   |   20 improved, 1 declined, 2 unchanged",
+    "fontsize": 6.3
+  },
+  {
+    "text": "(c) Discrete configuration means (not a PR curve)",
+    "fontsize": 7.5
+  },
+  {
+    "text": "Entity refinement",
+    "fontsize": 7.0
+  },
+  {
+    "text": "Precision +14.00 pp\nRecall -13.52 pp\nIoU +0.75 pp",
+    "fontsize": 6.5
+  },
+  {
+    "text": "Relation constraint",
+    "fontsize": 7.0
+  },
+  {
+    "text": "Precision +25.15 pp\nRecall -0.33 pp\nIoU +17.18 pp",
+    "fontsize": 6.5
+  },
+  {
+    "text": "23 queries; SAM-assisted references. Main Box/Ours share availability. Hollow all-33 box: supplement only.",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Blue: positive; vermilion: negative; open circles: unchanged. Arrows compare configurations, not thresholds.",
+    "fontsize": 6.0
+  }
+]

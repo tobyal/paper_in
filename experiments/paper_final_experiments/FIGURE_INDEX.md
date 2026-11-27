@@ -14,3 +14,15 @@
 |T04|T04_efficiency|E06|[表格](tables/T04_efficiency.md) / CSV / TSV / LaTeX|E06 原始JSON与逐视角指标|[publish.py](scripts/publish.py)|
 
 F01—F03仅导出真实素材，见 [manifest](method_figure_assets/manifest.json)。大型数组及模型保留服务器；图像来源路径为权威远程绝对路径。
+
+<!-- DATA_ANALYSIS_F10_F12_START -->
+## F10—F12 数据分析补充
+
+|编号|内容|实验|文件|数据与来源|
+|---|---|---|---|---|
+|F10|不同方法的空间关系引导实例检索性能分布|E01_external_comparison|[PNG](figures/F10_query_performance/F10_query_performance.png) · [SVG](figures/F10_query_performance/F10_query_performance.svg) · [PDF](figures/F10_query_performance/F10_query_performance.pdf)|[数据](figures/F10_query_performance/) · [来源](figures/F10_query_performance/sources.json)|
+|F11|精细三维实体表达与空间关系约束的贡献分析|E02_ablation|[PNG](figures/F11_mechanism_contribution/F11_mechanism_contribution.png) · [SVG](figures/F11_mechanism_contribution/F11_mechanism_contribution.svg) · [PDF](figures/F11_mechanism_contribution/F11_mechanism_contribution.pdf)|[数据](figures/F11_mechanism_contribution/) · [来源](figures/F11_mechanism_contribution/sources.json)|
+|F12|空间关系约束下的工业设备候选筛选分析|E04_relation_retrieval|[PNG](figures/F12_candidate_reduction/F12_candidate_reduction.png) · [SVG](figures/F12_candidate_reduction/F12_candidate_reduction.svg) · [PDF](figures/F12_candidate_reduction/F12_candidate_reduction.pdf)|[数据](figures/F12_candidate_reduction/) · [来源](figures/F12_candidate_reduction/sources.json)|
+
+绘图脚本：[plot_data_analysis.py](scripts/plot_data_analysis.py)。
+<!-- DATA_ANALYSIS_F10_F12_END -->

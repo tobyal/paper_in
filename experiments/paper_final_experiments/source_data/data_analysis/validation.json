@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "frozen_current_experiment_files": 2735,
+  "frozen_historical_files": 16365,
+  "changed_scientific_files": 0,
+  "critical_source_locks_passed": true,
+  "original_F04_F09_png_hashes_unchanged": true,
+  "data_crosschecks": {
+    "status": "passed",
+    "generated": [
+      "F10",
+      "F11",
+      "F12"
+    ],
+    "seconds": 8.025129165500402,
+    "protected_files": 2735,
+    "scientific_files_modified": 0,
+    "source_hashes_verified": 8,
+    "summary_and_relation_crosschecks": true,
+    "saved_mechanism_delta_crosscheck": true,
+    "candidate_csv_json_and_identity_sets_crosscheck": true,
+    "gpu_used": false,
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.9",
+    "python": "3.10.13 | packaged by conda-forge | (main, Dec 23 2023, 15:36:39) [GCC 12.3.0]",
+    "visual_review": "pending separate inspection",
+    "run": "/mnt/sda/ubuntu/lkx/papers/paper_in/experiments/paper_final_experiments/source_data/data_analysis/runs/20261127T085745_616843Z"
+  },
+  "figures": [
+    {
+      "figure": "F10_query_performance",
+      "width_mm": 179.832,
+      "png_size": [
+        3186,
+        2520
+      ],
+      "png_sha256": "71fc5f7094a991b599ea3ce456f0ea0a3805c9379e0ac3e3321bb8a972b15687",
+      "pdf_sha256": "057f493f520fee1d8cb37d2056c25a6ae4f7193f8fc8a36e8f71c9514c19722a",
+      "svg_text_elements": 167,
+      "pdf_vector_only": true,
+      "pdf_embedded_truetype": true,
+      "subplots": [
+        "a_heatmap",
+        "b_distribution"
+      ]
+    },
+    {
+      "figure": "F11_mechanism_contribution",
+      "width_mm": 179.832,
+      "png_size": [
+        3186,
+        3397
+      ],
+      "png_sha256": "d9ca9b73b6b994ad54d1e3c41edaec40033e537af31772cfd1f0b71083edefe2",
+      "pdf_sha256": "cb7a4fe47ea415a591a8656e13f07fb0044a4ac2c1e676104aaabc1a7f53f9fc",
+      "svg_text_elements": 112,
+      "pdf_vector_only": true,
+      "pdf_embedded_truetype": true,
+      "subplots": [
+        "a_entity",
+        "b_relation",
+        "c_configurations"
+      ]
+    },
+    {
+      "figure": "F12_candidate_reduction",
+      "width_mm": 179.832,
+      "png_size": [
+        3186,
+        2542
+      ],
+      "png_sha256": "e69e0b37e590bc34c8f2f369d1847fb95656d562c967553d9f78f6281e26815a",
+      "pdf_sha256": "3c2164ba70690058f2addaca4be591382b07b40e268e596ac823fa622e72f7b3",
+      "svg_text_elements": 69,
+      "pdf_vector_only": true,
+      "pdf_embedded_truetype": true,
+      "subplots": [
+        "a_accumulated",
+        "b_per_query"
+      ]
+    }
+  ],
+  "links_checked": 105,
+  "GPU_used": false,
+  "model_or_query_execution": false,
+  "visual_review": "See visual_review.json; automated structure checks do not replace visual inspection."
+}

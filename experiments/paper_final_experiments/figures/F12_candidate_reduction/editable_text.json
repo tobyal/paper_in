@@ -1,0 +1,438 @@
+[
+  {
+    "text": "108",
+    "fontsize": 10.0
+  },
+  {
+    "text": "39",
+    "fontsize": 10.0
+  },
+  {
+    "text": "35",
+    "fontsize": 10.0
+  },
+  {
+    "text": "Relation filtering: -63.9%",
+    "fontsize": 6.5
+  },
+  {
+    "text": "Availability: 89.7%\n4 matched occurrences unavailable",
+    "fontsize": 6.2
+  },
+  {
+    "text": "Category\ncandidates",
+    "fontsize": 7.0
+  },
+  {
+    "text": "Category\ncandidates",
+    "fontsize": 7.0
+  },
+  {
+    "text": "Relation-matched\ntargets",
+    "fontsize": 7.0
+  },
+  {
+    "text": "Relation-matched\ntargets",
+    "fontsize": 7.0
+  },
+  {
+    "text": "Available fine\ninstances",
+    "fontsize": 7.0
+  },
+  {
+    "text": "Available fine\ninstances",
+    "fontsize": 7.0
+  },
+  {
+    "text": "Candidate occurrences",
+    "fontsize": 7.0
+  },
+  {
+    "text": "0",
+    "fontsize": 6.0
+  },
+  {
+    "text": "0",
+    "fontsize": 6.0
+  },
+  {
+    "text": "35",
+    "fontsize": 6.0
+  },
+  {
+    "text": "35",
+    "fontsize": 6.0
+  },
+  {
+    "text": "70",
+    "fontsize": 6.0
+  },
+  {
+    "text": "70",
+    "fontsize": 6.0
+  },
+  {
+    "text": "105",
+    "fontsize": 6.0
+  },
+  {
+    "text": "105",
+    "fontsize": 6.0
+  },
+  {
+    "text": "140",
+    "fontsize": 6.0
+  },
+  {
+    "text": "140",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Left",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Right",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Front",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Behind",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Near",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Q001",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q001",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q002",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q002",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q003",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q003",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q004",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q004",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q005*",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q005*",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q006",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q006",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q007",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q007",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q008",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q008",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q009",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q009",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q010*",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q010*",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q011",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q011",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q012",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q012",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q013",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q013",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q014",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q014",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q015",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q015",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q016",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q016",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q017",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q017",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q018",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q018",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q019*",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q019*",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q020",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q020",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q021",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q021",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q022",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q022",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q023",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q023",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q024",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q024",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q025*",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Q025*",
+    "fontsize": 5.6
+  },
+  {
+    "text": "Devices per query",
+    "fontsize": 7.0
+  },
+  {
+    "text": "0",
+    "fontsize": 6.0
+  },
+  {
+    "text": "0",
+    "fontsize": 6.0
+  },
+  {
+    "text": "1",
+    "fontsize": 6.0
+  },
+  {
+    "text": "1",
+    "fontsize": 6.0
+  },
+  {
+    "text": "2",
+    "fontsize": 6.0
+  },
+  {
+    "text": "2",
+    "fontsize": 6.0
+  },
+  {
+    "text": "3",
+    "fontsize": 6.0
+  },
+  {
+    "text": "3",
+    "fontsize": 6.0
+  },
+  {
+    "text": "4",
+    "fontsize": 6.0
+  },
+  {
+    "text": "4",
+    "fontsize": 6.0
+  },
+  {
+    "text": "5",
+    "fontsize": 6.0
+  },
+  {
+    "text": "5",
+    "fontsize": 6.0
+  },
+  {
+    "text": "6",
+    "fontsize": 6.0
+  },
+  {
+    "text": "6",
+    "fontsize": 6.0
+  },
+  {
+    "text": "7",
+    "fontsize": 6.0
+  },
+  {
+    "text": "7",
+    "fontsize": 6.0
+  },
+  {
+    "text": "8",
+    "fontsize": 6.0
+  },
+  {
+    "text": "8",
+    "fontsize": 6.0
+  },
+  {
+    "text": "9",
+    "fontsize": 6.0
+  },
+  {
+    "text": "9",
+    "fontsize": 6.0
+  },
+  {
+    "text": "10",
+    "fontsize": 6.0
+  },
+  {
+    "text": "10",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Category candidates",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Relation-matched targets",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Available fine instances",
+    "fontsize": 5.7
+  },
+  {
+    "text": "Equipment candidate reduction through spatial relations",
+    "fontsize": 9.0
+  },
+  {
+    "text": "(a) Accumulated counts across all 25 queries",
+    "fontsize": 7.5
+  },
+  {
+    "text": "Counts are summed query-device occurrences, not unique devices; filtering is not an accuracy measure.",
+    "fontsize": 6.0
+  },
+  {
+    "text": "(b) Per-query stage counts (including Q005 and Q025)",
+    "fontsize": 7.5
+  },
+  {
+    "text": "* Matched equipment lacks fine output: Q005, Q010, Q019, Q025. Q019 returns zero fine instances.",
+    "fontsize": 6.0
+  },
+  {
+    "text": "Relation filtering and instance availability are separate stages. Q005/Q025 require no reference mask here.",
+    "fontsize": 6.0
+  }
+]

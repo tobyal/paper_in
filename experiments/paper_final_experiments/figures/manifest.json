@@ -268,5 +268,174 @@
       ],
       "unavailable_attempt_labelled": true
     }
+  },
+  {
+    "figure": "F10_query_performance",
+    "experiment": "E01_external_comparison",
+    "png": "figures/F10_query_performance/F10_query_performance.png",
+    "svg": "figures/F10_query_performance/F10_query_performance.svg",
+    "pdf": "figures/F10_query_performance/F10_query_performance.pdf",
+    "description": {
+      "evaluated_queries": 23,
+      "excluded_queries": [
+        "Q005",
+        "Q025"
+      ],
+      "original_query_order": [
+        "Q001",
+        "Q002",
+        "Q003",
+        "Q004",
+        "Q005",
+        "Q006",
+        "Q007",
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012",
+        "Q013",
+        "Q014",
+        "Q015",
+        "Q016",
+        "Q017",
+        "Q018",
+        "Q019",
+        "Q020",
+        "Q021",
+        "Q022",
+        "Q023",
+        "Q024",
+        "Q025"
+      ],
+      "zero_is_not_na": true,
+      "whisker_iqr": 1.5,
+      "horizontal_jitter_seed": 20261127,
+      "ours_strict_wins": 21
+    }
+  },
+  {
+    "figure": "F11_mechanism_contribution",
+    "experiment": "E02_ablation",
+    "png": "figures/F11_mechanism_contribution/F11_mechanism_contribution.png",
+    "svg": "figures/F11_mechanism_contribution/F11_mechanism_contribution.svg",
+    "pdf": "figures/F11_mechanism_contribution/F11_mechanism_contribution.pdf",
+    "description": {
+      "evaluated_queries": 23,
+      "query_order": [
+        "Q001",
+        "Q002",
+        "Q003",
+        "Q004",
+        "Q006",
+        "Q007",
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012",
+        "Q013",
+        "Q014",
+        "Q015",
+        "Q016",
+        "Q017",
+        "Q018",
+        "Q019",
+        "Q020",
+        "Q021",
+        "Q022",
+        "Q023",
+        "Q024"
+      ],
+      "common_delta_ylim_pp": [
+        -30,
+        60
+      ],
+      "positive_color": "#0072B2",
+      "negative_color": "#D55E00",
+      "zero_tolerance_pp": 1e-10,
+      "mechanisms": {
+        "entity": {
+          "mean_iou_gain_pp": 0.7469666402451971,
+          "improved": 12,
+          "declined": 10,
+          "unchanged": 1,
+          "precision_gain_pp": 14.003488746544603,
+          "recall_gain_pp": -13.516299097221724
+        },
+        "relation": {
+          "mean_iou_gain_pp": 17.179158629040607,
+          "improved": 20,
+          "declined": 1,
+          "unchanged": 2,
+          "precision_gain_pp": 25.146789533664585,
+          "recall_gain_pp": -0.3344539008251351
+        }
+      },
+      "discrete_configurations_not_pr_curve": true,
+      "all33_different_availability": true
+    }
+  },
+  {
+    "figure": "F12_candidate_reduction",
+    "experiment": "E04_relation_retrieval",
+    "png": "figures/F12_candidate_reduction/F12_candidate_reduction.png",
+    "svg": "figures/F12_candidate_reduction/F12_candidate_reduction.svg",
+    "pdf": "figures/F12_candidate_reduction/F12_candidate_reduction.pdf",
+    "description": {
+      "queries": 25,
+      "original_query_order": [
+        "Q001",
+        "Q002",
+        "Q003",
+        "Q004",
+        "Q005",
+        "Q006",
+        "Q007",
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012",
+        "Q013",
+        "Q014",
+        "Q015",
+        "Q016",
+        "Q017",
+        "Q018",
+        "Q019",
+        "Q020",
+        "Q021",
+        "Q022",
+        "Q023",
+        "Q024",
+        "Q025"
+      ],
+      "count_unit": "query-device occurrences for totals; devices per individual query",
+      "totals": {
+        "category_candidates": 108,
+        "relation_targets": 39,
+        "fine_available": 35,
+        "unavailable": 4,
+        "relation_reduction_percent": 63.888888888888886,
+        "matched_fine_availability_percent": 89.74358974358974,
+        "unique_category_devices": 33,
+        "unique_matched_devices": 27,
+        "unique_fine_devices": 25,
+        "unique_unavailable_devices": 2,
+        "unavailable_queries": [
+          "Q005",
+          "Q010",
+          "Q019",
+          "Q025"
+        ]
+      },
+      "stage_colors": {
+        "category_candidates": "#909CA6",
+        "relation_targets": "#D89F35",
+        "fine_available": "#0072B2"
+      },
+      "relation_and_availability_separate": true
+    }
   }
 ]
